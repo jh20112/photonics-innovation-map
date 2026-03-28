@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+  <!-- Prism -->
+  <path d="M24 4L42 40H6L24 4Z" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <!-- Incoming white light beam -->
+  <line x1="2" y1="22" x2="18" y2="28" stroke="#e2e8f0" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Dispersed spectrum beams -->
+  <line x1="30" y1="20" x2="46" y2="12" stroke="#dc2626" stroke-width="2" stroke-linecap="round"/>
+  <line x1="30" y1="23" x2="46" y2="19" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/>
+  <line x1="30" y1="26" x2="46" y2="26" stroke="#22c55e" stroke-width="2" stroke-linecap="round"/>
+  <line x1="30" y1="29" x2="46" y2="33" stroke="#3b82f6" stroke-width="2" stroke-linecap="round"/>
+  <line x1="30" y1="32" x2="46" y2="40" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,115 @@
+.timeline-bar {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  background: rgba(17, 24, 39, 0.9);
+  border-radius: 10px;
+  padding: 10px 18px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #e5e7eb;
+  font-size: 12px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+  min-width: 380px;
+}
+
+.timeline-play-btn {
+  background: none;
+  border: 1px solid #6b7280;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #e5e7eb;
+  font-size: 12px;
+  flex-shrink: 0;
+  transition: border-color 0.15s;
+}
+
+.timeline-play-btn:hover {
+  border-color: #3b82f6;
+}
+
+.timeline-year-label {
+  font-variant-numeric: tabular-nums;
+  min-width: 70px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.timeline-year-label strong {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.timeline-slider-track {
+  flex: 1;
+  min-width: 160px;
+}
+
+.timeline-slider-track input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 20px;
+  background: transparent;
+  margin: 0;
+  cursor: pointer;
+}
+
+.timeline-slider-track input[type="range"]::-webkit-slider-runnable-track {
+  height: 4px;
+  background: #374151;
+  border-radius: 2px;
+}
+
+.timeline-slider-track input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #3b82f6;
+  border: 2px solid #e5e7eb;
+  margin-top: -6px;
+  cursor: pointer;
+}
+
+.timeline-slider-track input[type="range"]::-moz-range-track {
+  height: 4px;
+  background: #374151;
+  border-radius: 2px;
+}
+
+.timeline-slider-track input[type="range"]::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #3b82f6;
+  border: 2px solid #e5e7eb;
+  cursor: pointer;
+}
+
+.timeline-reset-btn {
+  background: none;
+  border: 1px solid #6b7280;
+  border-radius: 4px;
+  color: #9ca3af;
+  font-size: 11px;
+  cursor: pointer;
+  padding: 3px 8px;
+  flex-shrink: 0;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.timeline-reset-btn:hover {
+  color: #e5e7eb;
+  border-color: #e5e7eb;
+}
