@@ -5,9 +5,12 @@ Serves preprocessed JSON data with filtering capabilities.
 """
 
 import json
+import os
 import re
 from pathlib import Path
-from fastapi import FastAPI, Query
+from fastapi import FastAPI, Query, Request
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="UK Photonics Innovation Map API")
@@ -18,6 +21,9 @@ app.add_middleware(
     allow_methods=["GET"],
     allow_headers=["*"],
 )
+
+# Serve built frontend in production
+STATIC_DIR = Path(__file__).resolve().parent.parent / "dist"
 
 # Data directory (output from pipeline)
 DATA_DIR = Path(__file__).resolve().parent / "data"
@@ -419,3 +425,18 @@ def search_all(q: str = Query(..., min_length=1)):
                 results.append({"type": "person", "id": p["id"], "name": p["name"], "lat": p["lat"], "lng": p["lng"]})
 
     return results[:50]
+
+
+# --- Serve frontend static files in production ---
+if STATIC_DIR.exists():
+    app.mount("/assets", StaticFiles(directory=STATIC_DIR / "assets"), name="assets")
+    # Serve static files in public (favicon, geo data, icons)
+    app.mount("/geo", StaticFiles(directory=STATIC_DIR / "geo"), name="geo")
+
+    @app.get("/{full_path:path}")
+    async def serve_spa(request: Request, full_path: str):
+        """Serve index.html for all non-API routes (SPA fallback)."""
+        file_path = STATIC_DIR / full_path
+        if full_path and file_path.exists() and file_path.is_file():
+            return FileResponse(file_path)
+        return FileResponse(STATIC_DIR / "index.html")

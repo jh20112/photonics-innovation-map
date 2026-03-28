@@ -4,7 +4,7 @@ import type {
   Collaboration, ClusterData, ClusterType, RticSector, Stats, SearchResult,
 } from '../types/api';
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = '/api';
 
 async function fetchApi<T>(path: string): Promise<T> {
   const res = await fetch(`${API_BASE}${path}`);
