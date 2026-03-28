@@ -1,0 +1,640 @@
+[
+  {
+    "code": "RTIC0003",
+    "name": "AgriTech",
+    "subsectors": [
+      {
+        "code": "RTIC000306",
+        "name": "Remote Sensing"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0004",
+    "name": "Artificial Intelligence Technologies and Applications",
+    "subsectors": [
+      {
+        "code": "RTIC000405",
+        "name": "Green Tech"
+      },
+      {
+        "code": "RTIC000406",
+        "name": "Image Processing"
+      },
+      {
+        "code": "RTIC000409",
+        "name": "Machine Learning"
+      },
+      {
+        "code": "RTIC000411",
+        "name": "Signal Processing"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0005",
+    "name": "Computer Hardware",
+    "subsectors": [
+      {
+        "code": "RTIC000501",
+        "name": "Central Processing Units"
+      },
+      {
+        "code": "RTIC000502",
+        "name": "Embedded Systems"
+      },
+      {
+        "code": "RTIC000504",
+        "name": "Graphics Processing Unit"
+      },
+      {
+        "code": "RTIC000505",
+        "name": "Other Semiconductor Components"
+      },
+      {
+        "code": "RTIC000508",
+        "name": "Component Distribution & Resale"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0006",
+    "name": "Cyber",
+    "subsectors": [
+      {
+        "code": "RTIC000601",
+        "name": "Cryptographic Authentication"
+      },
+      {
+        "code": "RTIC000603",
+        "name": "Identity Management"
+      },
+      {
+        "code": "RTIC000605",
+        "name": "IoT Security"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0007",
+    "name": "Data Infrastructure",
+    "subsectors": [
+      {
+        "code": "RTIC000704",
+        "name": "Data Infrastructure Services"
+      },
+      {
+        "code": "RTIC000707",
+        "name": "Trusted Execution Environments"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0008",
+    "name": "Geospatial Economy",
+    "subsectors": [
+      {
+        "code": "RTIC000802",
+        "name": "Data Processing and Visualisation"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0011",
+    "name": "Energy Generation",
+    "subsectors": [
+      {
+        "code": "RTIC001107",
+        "name": "Solar"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0018",
+    "name": "Immersive Technologies",
+    "subsectors": [
+      {
+        "code": "RTIC001807",
+        "name": "Hardware"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0020",
+    "name": "Internet of Things",
+    "subsectors": [
+      {
+        "code": "RTIC002001",
+        "name": "Connectivity Platforms"
+      },
+      {
+        "code": "RTIC002002",
+        "name": "Energy Management & Smart Buildings"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0027",
+    "name": "Photonics",
+    "subsectors": [
+      {
+        "code": "RTIC002701",
+        "name": "Industry 4.0"
+      },
+      {
+        "code": "RTIC002702",
+        "name": "Microelectronics"
+      },
+      {
+        "code": "RTIC002703",
+        "name": "Optics"
+      },
+      {
+        "code": "RTIC002704",
+        "name": "Photovoltaics"
+      },
+      {
+        "code": "RTIC002705",
+        "name": "Quantum Tech"
+      },
+      {
+        "code": "RTIC002706",
+        "name": "Smart Sensors"
+      },
+      {
+        "code": "RTIC002707",
+        "name": "Telecommunications"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0030",
+    "name": "Sensors",
+    "subsectors": [
+      {
+        "code": "RTIC003001",
+        "name": "Environmental Monitoring"
+      },
+      {
+        "code": "RTIC003002",
+        "name": "Image and Video Analysis"
+      },
+      {
+        "code": "RTIC003003",
+        "name": "Industry 4.0"
+      },
+      {
+        "code": "RTIC003004",
+        "name": "Medical"
+      },
+      {
+        "code": "RTIC003005",
+        "name": "Mobility"
+      },
+      {
+        "code": "RTIC003006",
+        "name": "Autonomous vehicles"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0033",
+    "name": "Wearables and Quantified Self",
+    "subsectors": [
+      {
+        "code": "RTIC003302",
+        "name": "Enabling Tech"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0034",
+    "name": "Advanced Materials",
+    "subsectors": [
+      {
+        "code": "RTIC003401",
+        "name": "2D Materials and Other Nanomaterials"
+      },
+      {
+        "code": "RTIC003403",
+        "name": "Emerging Functional Materials"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0051",
+    "name": "Quantum Economy",
+    "subsectors": [
+      {
+        "code": "RTIC005101",
+        "name": "Components and Materials"
+      },
+      {
+        "code": "RTIC005102",
+        "name": "Photonics"
+      },
+      {
+        "code": "RTIC005103",
+        "name": "Quantum Computing"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0055",
+    "name": "Net Zero",
+    "subsectors": [
+      {
+        "code": "RTIC005513",
+        "name": "Emissions Monitoring and Mitigation"
+      },
+      {
+        "code": "RTIC005514",
+        "name": "Low Carbon and Renewable Energy Generation"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0056",
+    "name": "Telecommunications",
+    "subsectors": [
+      {
+        "code": "RTIC005602",
+        "name": "Broadcasting"
+      },
+      {
+        "code": "RTIC005605",
+        "name": "Satellite Communications"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0057",
+    "name": "FoodTech",
+    "subsectors": [
+      {
+        "code": "RTIC005704",
+        "name": "Food Safety and Traceability"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0058",
+    "name": "MedTech",
+    "subsectors": [
+      {
+        "code": "RTIC005801",
+        "name": "Advanced Materials"
+      },
+      {
+        "code": "RTIC005802",
+        "name": "Artificial Intelligence"
+      },
+      {
+        "code": "RTIC005803",
+        "name": "Imaging"
+      },
+      {
+        "code": "RTIC005805",
+        "name": "Photonics"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0065",
+    "name": "Advanced Manufacturing",
+    "subsectors": [
+      {
+        "code": "RTIC006501",
+        "name": "Advanced Measurement"
+      },
+      {
+        "code": "RTIC006502",
+        "name": "Artificial Intelligence"
+      },
+      {
+        "code": "RTIC006515",
+        "name": "Robotics and Automation"
+      },
+      {
+        "code": "RTIC006516",
+        "name": "Aerospace"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0067",
+    "name": "Electronics Manufacturing",
+    "subsectors": [
+      {
+        "code": "RTIC006701",
+        "name": "Communications"
+      },
+      {
+        "code": "RTIC006705",
+        "name": "Measuring and metrology devices"
+      },
+      {
+        "code": "RTIC006706",
+        "name": "Electromedical technologies"
+      },
+      {
+        "code": "RTIC006707",
+        "name": "Optical devices"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0070",
+    "name": "Research and Consulting - Physical Sciences and Engineering",
+    "subsectors": [
+      {
+        "code": "RTIC007004",
+        "name": "Engineering Research"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0078",
+    "name": "Life Sciences",
+    "subsectors": [
+      {
+        "code": "RTIC007801",
+        "name": "Research"
+      },
+      {
+        "code": "RTIC007802",
+        "name": "Life Sciences Manufacturing"
+      },
+      {
+        "code": "RTIC007804",
+        "name": "Biology and Biotech"
+      },
+      {
+        "code": "RTIC007807",
+        "name": "Synthetic Biotechnology"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0079",
+    "name": "Software Development",
+    "subsectors": [
+      {
+        "code": "RTIC007905",
+        "name": "Embedded Software"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0083",
+    "name": "Biopharmaceutical",
+    "subsectors": [
+      {
+        "code": "RTIC008301",
+        "name": "Advanced Therapy Medicinal Products (ATMPs)"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0084",
+    "name": "Marine and Maritime",
+    "subsectors": [
+      {
+        "code": "RTIC008402",
+        "name": "Autonomy & Robotics"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0085",
+    "name": "Engineering Biology Application",
+    "subsectors": [
+      {
+        "code": "RTIC008508",
+        "name": "Health & Life Sciences"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0087",
+    "name": "Quantum Technology",
+    "subsectors": [
+      {
+        "code": "RTIC008701",
+        "name": "Quantum Communication"
+      },
+      {
+        "code": "RTIC008702",
+        "name": "Quantum Computing"
+      },
+      {
+        "code": "RTIC008703",
+        "name": "Quantum Materials"
+      },
+      {
+        "code": "RTIC008704",
+        "name": "Quantum Sensing"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0091",
+    "name": "Robotics and Autonomous systems",
+    "subsectors": [
+      {
+        "code": "RTIC009121",
+        "name": "Integrators"
+      },
+      {
+        "code": "RTIC009123",
+        "name": "Manufacturing"
+      },
+      {
+        "code": "RTIC009125",
+        "name": "Mobility: Maritime"
+      },
+      {
+        "code": "RTIC009126",
+        "name": "Mobility: Unmanned Aerial Systems / Drones"
+      },
+      {
+        "code": "RTIC009128",
+        "name": "RAS Component Suppliers"
+      },
+      {
+        "code": "RTIC009129",
+        "name": "Security"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0094",
+    "name": "Future Telecoms Supply Chain",
+    "subsectors": [
+      {
+        "code": "RTIC009401",
+        "name": "Photonic and Optical"
+      },
+      {
+        "code": "RTIC009402",
+        "name": "Radio Frequency Wireless"
+      },
+      {
+        "code": "RTIC009403",
+        "name": "Non-terrestrial Networking"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0095",
+    "name": "Artificial Intelligence Ecosystem",
+    "subsectors": [
+      {
+        "code": "RTIC009501",
+        "name": "Infrastructure"
+      },
+      {
+        "code": "RTIC009502",
+        "name": "Products"
+      },
+      {
+        "code": "RTIC009503",
+        "name": "Services"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0096",
+    "name": "Defence",
+    "subsectors": [
+      {
+        "code": "RTIC009601",
+        "name": "Space and Resilient Communications"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0098",
+    "name": "Space Economy",
+    "subsectors": [
+      {
+        "code": "RTIC009801",
+        "name": "Space Ecosystem"
+      },
+      {
+        "code": "RTIC009802",
+        "name": "Space Software"
+      },
+      {
+        "code": "RTIC009803",
+        "name": "Space Materials"
+      },
+      {
+        "code": "RTIC009805",
+        "name": "Space Hardware"
+      },
+      {
+        "code": "RTIC009806",
+        "name": "Space Engineering"
+      },
+      {
+        "code": "RTIC009815",
+        "name": "Satellite Relay Systems"
+      },
+      {
+        "code": "RTIC009816",
+        "name": "Ground Segment"
+      },
+      {
+        "code": "RTIC009817",
+        "name": "Security Software and Services"
+      },
+      {
+        "code": "RTIC009820",
+        "name": "Geospatial Analytics"
+      },
+      {
+        "code": "RTIC009822",
+        "name": "Communications & Connectivity"
+      },
+      {
+        "code": "RTIC009823",
+        "name": "Positioning"
+      },
+      {
+        "code": "RTIC009824",
+        "name": "Space Infrastructure"
+      }
+    ]
+  },
+  {
+    "code": "RTIC0099",
+    "name": "Semiconductors",
+    "subsectors": [
+      {
+        "code": "RTIC009901",
+        "name": "Functional - Analog Integrated"
+      },
+      {
+        "code": "RTIC009902",
+        "name": "Functional - Digital Integrated"
+      },
+      {
+        "code": "RTIC009903",
+        "name": "Functional - Discrete"
+      },
+      {
+        "code": "RTIC009904",
+        "name": "Functional - Photonics"
+      },
+      {
+        "code": "RTIC009906",
+        "name": "Functional - RF"
+      },
+      {
+        "code": "RTIC009907",
+        "name": "Functional - Sensors"
+      },
+      {
+        "code": "RTIC009908",
+        "name": "Supply Chain - Chip Design"
+      },
+      {
+        "code": "RTIC009909",
+        "name": "Supply Chain - Chip Fabrication"
+      },
+      {
+        "code": "RTIC009911",
+        "name": "Supply Chain - Intergrated Device Manufacturers"
+      },
+      {
+        "code": "RTIC009912",
+        "name": "Supply Chain - IP Core"
+      },
+      {
+        "code": "RTIC009914",
+        "name": "Supply Chain - Specialized Materials"
+      },
+      {
+        "code": "RTIC009915",
+        "name": "Supply Chain - Emerging"
+      },
+      {
+        "code": "RTIC009916",
+        "name": "Supply Chain - Equipment and Tools"
+      },
+      {
+        "code": "RTIC009917",
+        "name": "Materials - Silicon"
+      },
+      {
+        "code": "RTIC009918",
+        "name": "Materials - Compound"
+      },
+      {
+        "code": "RTIC009919",
+        "name": "Materials - Emerging Materials"
+      }
+    ]
+  }
+]

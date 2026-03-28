@@ -1,0 +1,3310 @@
+{
+  "companies": {
+    "AXENIC LIMITED": [
+      54.67032,
+      -1.451383
+    ],
+    "SOREX SENSORS LIMITED": [
+      52.071102,
+      -0.082027
+    ],
+    "LUMAI LIMITED": [
+      51.754279,
+      -1.197946
+    ],
+    "SALIENCE LABS LTD": [
+      51.745399,
+      -0.974026
+    ],
+    "BOSONQ PSI LIMITED": [
+      52.933633,
+      -1.13602
+    ],
+    "CCI PHOTONICS LIMITED": [
+      53.34342,
+      -2.641206
+    ],
+    "RIGETTI UK LIMITED": [
+      51.51827,
+      -0.110187
+    ],
+    "QUANTOPTICON LTD.": [
+      51.247265,
+      -0.607655
+    ],
+    "CRAFT PROSPECT LTD": [
+      55.860122,
+      -4.255461
+    ],
+    "KUBOS SEMICONDUCTORS LTD": [
+      52.234821,
+      0.129527
+    ],
+    "PARAGRAF LIMITED": [
+      52.382714,
+      -0.012013
+    ],
+    "AEGIQ LTD": [
+      53.377561,
+      -1.467876
+    ],
+    "IPG PHOTONICS (UK) LIMITED": [
+      52.37288,
+      -1.465843
+    ],
+    "CAMBRIDGE RAMAN IMAGING LTD": [
+      52.194006,
+      0.132067
+    ],
+    "PHASECRAFT LIMITED": [
+      51.520224,
+      -0.136802
+    ],
+    "ALPHASENSE TECHNOLOGY LIMITED": [
+      51.515942,
+      -0.120892
+    ],
+    "NANOCO GROUP PLC": [
+      53.324698,
+      -2.732899
+    ],
+    "POWERPHOTONIC LIMITED": [
+      56.040129,
+      -3.364456
+    ],
+    "SKYLARK LASERS LIMITED": [
+      55.955366,
+      -3.223507
+    ],
+    "SECQAI LTD": [
+      51.513159,
+      -0.156345
+    ],
+    "INTRINSIC SEMICONDUCTOR TECHNOLOGIES LIMITED": [
+      51.514178,
+      -0.093552
+    ],
+    "OXFORD IONICS LIMITED": [
+      51.828737,
+      -1.311526
+    ],
+    "OCCUITY LTD": [
+      51.520593,
+      -0.122185
+    ],
+    "CRON AI LTD": [
+      51.547171,
+      -0.181263
+    ],
+    "ANB SENSORS LTD": [
+      52.186257,
+      -0.008555
+    ],
+    "PSIQUANTUM LTD": [
+      51.530781,
+      -0.657357
+    ],
+    "ODYSSEY THERAPEUTICS UK LIMITED": [
+      52.423265,
+      -0.726578
+    ],
+    "TREQ ENTERPRISES": [
+      53.3944784,
+      -2.6383347
+    ],
+    "RIVERLANE LTD": [
+      52.20471,
+      0.122891
+    ],
+    "ARQIT LIMITED": [
+      51.498734,
+      -0.133025
+    ],
+    "QUANTUM MOTION TECHNOLOGIES LIMITED": [
+      51.546371,
+      -0.119061
+    ],
+    "LIGHT TRACE PHOTONICS LTD": [
+      51.451817,
+      -2.599786
+    ],
+    "OPERATIONAL SOLUTIONS LTD": [
+      51.380402,
+      -1.102088
+    ],
+    "QUANTUM DICE LIMITED": [
+      51.777778,
+      -1.264613
+    ],
+    "METRARC LIMITED": [
+      51.278079,
+      1.078935
+    ],
+    "NANUSENS LIMITED": [
+      51.522311,
+      -0.086552
+    ],
+    "OXFORD QUANTUM CIRCUITS LIMITED": [
+      51.415235,
+      -0.941228
+    ],
+    "SILOTON LIMITED": [
+      51.521673,
+      -0.143705
+    ],
+    "AQUARK TECHNOLOGIES LIMITED": [
+      50.974005,
+      -1.351389
+    ],
+    "ORCA COMPUTING LIMITED": [
+      51.516458,
+      -0.178696
+    ],
+    "PQSHIELD LTD": [
+      51.778909,
+      -1.265783
+    ],
+    "NU QUANTUM LTD": [
+      52.20885,
+      0.090463
+    ],
+    "FOREFRONT RF LTD": [
+      52.234255,
+      0.151849
+    ],
+    "VECTOR PHOTONICS LIMITED": [
+      55.901137,
+      -4.312744
+    ],
+    "PHLUX TECHNOLOGY LTD": [
+      53.383642,
+      -1.472942
+    ],
+    "SINGULAR PHOTONICS LIMITED": [
+      55.923214,
+      -3.187863
+    ],
+    "MILEXIA UK LTD.": [
+      51.295902,
+      -1.063736
+    ],
+    "ICEMOS TECHNOLOGY LIMITED": [
+      54.577868,
+      -6.021124
+    ],
+    "ORIOLE NETWORKS LTD": [
+      51.522091,
+      -0.087426
+    ],
+    "EMBERION LIMITED": [
+      52.14932,
+      0.139696
+    ],
+    "POLYPHOTONIX LIMITED": [
+      54.669577,
+      -1.451842
+    ],
+    "SILVERRAY LTD": [
+      53.413769,
+      -2.133812
+    ],
+    "COGNEX LIMITED": [
+      53.786611,
+      -2.991258
+    ],
+    "WAVE PHOTONICS LTD": [
+      52.218379,
+      -0.070422
+    ],
+    "QUANTINUUM LTD": [
+      51.9255402,
+      1.1081236
+    ],
+    "OPTALYSYS LTD": [
+      53.794881,
+      -1.546626
+    ],
+    "PRAGMATIC SEMICONDUCTOR LIMITED": [
+      52.235423,
+      0.138519
+    ],
+    "ARCHANGEL LIGHTWORKS LTD": [
+      51.501525,
+      -0.081919
+    ],
+    "QUANTUM FABRIX LIMITED": [
+      51.817775,
+      -1.306658
+    ],
+    "PORO TECHNOLOGIES LTD": [
+      52.251611,
+      0.134434
+    ],
+    "QLM TECHNOLOGY LTD": [
+      51.527712,
+      -3.083167
+    ],
+    "SEEQC UK LIMITED": [
+      51.507582,
+      -0.107719
+    ],
+    "UNIVERSAL QUANTUM LTD": [
+      51.007954,
+      -0.102977
+    ],
+    "ROCKLEY PHOTONICS LIMITED": [
+      53.384157,
+      -2.35191
+    ],
+    "CRYPTO QUANTIQUE LIMITED": [
+      51.503821,
+      -0.100353
+    ],
+    "CAMGRAPHIC LTD.": [
+      52.095918,
+      0.128657
+    ],
+    "OPSYDIA LIMITED": [
+      51.731891,
+      -1.204714
+    ],
+    "OXFORD PHOTOVOLTAICS LIMITED": [
+      51.80421,
+      -1.299644
+    ],
+    "QUANTROLOX LIMITED": [
+      51.751739,
+      -1.254706
+    ],
+    "KETS QUANTUM SECURITY LTD": [
+      51.473933,
+      -2.490276
+    ],
+    "QUINAS TECHNOLOGY LIMITED": [
+      51.521673,
+      -0.143705
+    ],
+    "OLIX": [
+      51.713875,
+      -0.447001
+    ],
+    "AssetCool": [
+      53.77209,
+      -1.521897
+    ],
+    "Infinitesima": [
+      51.672306,
+      -1.301188
+    ],
+    "Helio Display Materials": [
+      51.754279,
+      -1.197946
+    ],
+    "iLoF": [
+      51.527304,
+      -0.088894
+    ],
+    "Living Optics": [
+      51.621236,
+      -1.293956
+    ],
+    "AllFocal Optics": [
+      52.679908,
+      -0.748302
+    ],
+    "Advanced Material Development": [
+      51.285092,
+      -0.758987
+    ],
+    "Callosum": [
+      51.513069,
+      -0.070279
+    ],
+    "Cambridge Photon Technology": [
+      52.290007,
+      0.125471
+    ],
+    "NAAMA Studios": [
+      51.613666,
+      -0.176324
+    ],
+    "Zero Point Motion": [
+      51.451817,
+      -2.599786
+    ],
+    "Finchetto": [
+      51.605204,
+      -2.918574
+    ],
+    "Compound Semiconductor Centre": [
+      51.530931,
+      -3.087987
+    ],
+    "Sentinel Photonics": [
+      51.12973,
+      -1.70455
+    ],
+    "Oxford Lasers": [
+      51.619671,
+      -1.2517
+    ],
+    "Metahelios": [
+      55.870286,
+      -4.278413
+    ],
+    "Covesion": [
+      50.941027,
+      -1.470438
+    ],
+    "AVoptics": [
+      50.952316,
+      -2.681127
+    ],
+    "Wideblue": [
+      55.901137,
+      -4.312744
+    ],
+    "Photonic Measurements": [
+      54.513717,
+      -6.071761
+    ],
+    "Kelvin Nanotechnology": [
+      55.872658,
+      -4.286225
+    ],
+    "Helia Photonics": [
+      55.87673,
+      -3.546452
+    ],
+    "RedWave Labs": [
+      51.583656,
+      -1.311482
+    ],
+    "Amethyst Research": [
+      52.243033,
+      -0.873051
+    ],
+    "Duality Quantum Photonics": [
+      51.45536,
+      -2.606683
+    ],
+    "Optek": [
+      51.675016,
+      -1.303302
+    ],
+    "LumiAIres": [
+      55.890604,
+      -4.317059
+    ],
+    "Photon Force": [
+      55.922048,
+      -3.171745
+    ],
+    "Optos": [
+      56.048541,
+      -3.427913
+    ],
+    "Sengenia": [
+      54.585528,
+      -5.93641
+    ],
+    "Fianium": [
+      50.856428,
+      -1.327875
+    ],
+    "Cambridge Display Technology": [
+      52.316411,
+      -0.159153
+    ],
+    "Pixel-Flo Ltd.": [
+      53.381062,
+      -1.481137
+    ],
+    "Qontrol": [
+      50.808381,
+      -1.918263
+    ],
+    "Integrated Compound Semiconductors": [
+      53.393401,
+      -2.219026
+    ],
+    "Bay Photonics": [
+      50.437681,
+      -3.566778
+    ],
+    "Watt Laser": [
+      55.834306,
+      -4.213164
+    ],
+    "Resolute Photonics": [
+      51.51387,
+      -0.091172
+    ],
+    "Caledonian Photonics": [
+      56.119419,
+      -3.908648
+    ],
+    "VF Photonix": [
+      51.737016,
+      0.462158
+    ],
+    "Phorest Diagnostics": [
+      53.948437,
+      -1.053553
+    ],
+    "Stratium": [
+      51.546795,
+      -0.003313
+    ],
+    "MicroLab Devices Ltd": [
+      53.903178,
+      -1.706437
+    ],
+    "Bluebell Opticom": [
+      51.580035,
+      -0.7131
+    ],
+    "TECHNICAL CONSUMER PRODUCTS LIMITED": [
+      52.490056,
+      -0.688639
+    ],
+    "IBH Consultants": [
+      52.275648,
+      -0.872708
+    ],
+    "Edinburgh Biosciences": [
+      56.002599,
+      -3.732083
+    ],
+    "OXFORD FIBER": [
+      51.748154,
+      -1.273756
+    ],
+    "FRAUNHOFER UK RESEARCH LIMITED": [
+      55.860726,
+      -4.24407
+    ],
+    "NKT PHOTONICS HOLDING LTD": [
+      50.856428,
+      -1.327875
+    ],
+    "TRULIFE OPTICS LIMITED": [
+      51.508409,
+      0.008035
+    ],
+    "PLESSEY SEMICONDUCTORS LIMITED": [
+      50.44752,
+      -4.110845
+    ],
+    "ALTER TECHNOLOGY TUV NORD UK LIMITED": [
+      55.879275,
+      -3.532678
+    ],
+    "DESIGN LED PRODUCTS LIMITED": [
+      55.872585,
+      -3.548765
+    ],
+    "SIVERS PHOTONICS LIMITED": [
+      55.950643,
+      -3.208593
+    ],
+    "PHOENIX PHOTONICS LIMITED": [
+      51.35379,
+      1.253086
+    ],
+    "SYNAPTEC LTD": [
+      55.858356,
+      -4.263013
+    ],
+    "QUANTUM SCIENCE LTD": [
+      53.344134,
+      -2.637086
+    ],
+    "HAMAMATSU PHOTONICS UK LIMITED": [
+      51.802232,
+      -0.194122
+    ],
+    "HILIGHT SEMICONDUCTOR LIMITED": [
+      50.828473,
+      -0.177611
+    ],
+    "COLDQUANTA UK LIMITED": [
+      52.275375,
+      -1.563759
+    ],
+    "GOOCH & HOUSEGO (TORQUAY) LIMITED": [
+      50.916624,
+      -2.914079
+    ],
+    "SOLARIS PHOTONICS LTD": [
+      52.234909,
+      0.153433
+    ],
+    "CPI TMD TECHNOLOGIES LIMITED": [
+      51.50718,
+      -0.434946
+    ],
+    "SONARDYNE INTERNATIONAL LIMITED": [
+      51.330578,
+      -0.835444
+    ],
+    "WIKA OPTICAL SENSING LIMITED": [
+      51.577159,
+      -1.312085
+    ],
+    "SENSORHUT LTD": [
+      52.244997,
+      0.108173
+    ],
+    "EFFECT PHOTONICS LTD": [
+      50.487766,
+      -3.5528
+    ],
+    "ALKER FIBRE OPTIC SPECIALISTS LIMITED": [
+      51.152871,
+      0.017815
+    ],
+    "QUIX QUANTUM LTD": [
+      51.511381,
+      -0.09021
+    ],
+    "APPLIED PHOTONICS LTD": [
+      53.956938,
+      -2.02653
+    ],
+    "TOPTICA PHOTONICS LIMITED": [
+      51.37193,
+      -0.456372
+    ],
+    "HARTLEY ULTRAFAST LTD": [
+      51.443326,
+      -2.567905
+    ],
+    "PHOTONICS TECHNOLOGIES LIMITED": [
+      51.37193,
+      -0.456372
+    ],
+    "KENTECH INSTRUMENTS LIMITED": [
+      51.606564,
+      -1.110212
+    ],
+    "ICAM ENGINEERING LTD.": [
+      53.220379,
+      -3.05347
+    ],
+    "LUMPI LIMITED": [
+      52.126866,
+      -0.215227
+    ],
+    "ABER PHOTONICS LIMITED": [
+      52.148249,
+      -4.056372
+    ],
+    "PHOTARIX LTD": [
+      54.010677,
+      -2.785597
+    ],
+    "SPECTROSENSE LTD": [
+      51.517946,
+      -0.205259
+    ],
+    "TRUMPF LASER UK LIMITED": [
+      50.926709,
+      -1.31454
+    ],
+    "QUANTUM ADVANCED SOLUTIONS LTD": [
+      51.826259,
+      -1.307544
+    ],
+    "ELEMENTAL SCIENTIFIC INSTRUMENTS, LTD": [
+      52.346088,
+      -0.197415
+    ],
+    "NEW SPACE OPTICS LTD": [
+      50.83187,
+      -0.176868
+    ],
+    "COOLLED LIMITED": [
+      51.504235,
+      -0.091517
+    ],
+    "PHOTONICS ATELIER LIMITED": [
+      51.517937,
+      -0.185974
+    ],
+    "ENVISICS LTD.": [
+      52.008366,
+      -0.725865
+    ],
+    "CAMBRIDGE MECHATRONICS LIMITED": [
+      52.23424,
+      0.139795
+    ],
+    "BAE SYSTEMS PLC": [
+      51.505934,
+      -0.133956
+    ],
+    "SUMITOMO CHEMICAL (UK) LTD": [
+      51.493291,
+      -0.225503
+    ],
+    "THALES UK LIMITED": [
+      51.423146,
+      -0.994115
+    ],
+    "IQE PLC": [
+      51.530931,
+      -3.087987
+    ],
+    "GOOCH & HOUSEGO PLC": [
+      50.916624,
+      -2.914079
+    ],
+    "LEONARDO UK LTD": [
+      51.509158,
+      -0.135366
+    ],
+    "COHERENT SCOTLAND LIMITED": [
+      55.905133,
+      -4.307207
+    ],
+    "INNERSCENE LIMITED": [
+      51.855487,
+      -2.233073
+    ],
+    "HUBER+SUHNER POLATIS LIMITED": [
+      52.23396,
+      0.142344
+    ],
+    "QIOPTIQ LIMITED": [
+      53.25258,
+      -3.473148
+    ],
+    "VIVIDQ LIMITED": [
+      51.518905,
+      -0.156344
+    ],
+    "PURELIFI LIMITED": [
+      55.976553,
+      -3.167882
+    ],
+    "SENKO ADVANCED COMPONENTS (EURO) LIMITED": [
+      51.276868,
+      -1.070919
+    ],
+    "EMTELLE UK LIMITED": [
+      55.43548,
+      -2.753655
+    ],
+    "DUALITAS LTD.": [
+      52.008366,
+      -0.725865
+    ],
+    "NETWORK INTEGRITY SERVICES LIMITED": [
+      52.37288,
+      -1.465843
+    ],
+    "ZINWAVE LIMITED": [
+      52.272877,
+      -0.009644
+    ],
+    "RUSHMERE TECHNOLOGY LIMITED": [
+      52.274148,
+      0.68932
+    ],
+    "LEONARDO MW LTD": [
+      51.591338,
+      0.498064
+    ],
+    "FURUKAWA ELECTRIC EUROPE LTD": [
+      51.493446,
+      -0.217948
+    ],
+    "RIDGEMOUNT LIMITED": [
+      51.572921,
+      0.065094
+    ],
+    "ISC INSTRUMENTS LTD": [
+      51.514897,
+      -0.123615
+    ],
+    "MBDA UK LIMITED": [
+      51.895452,
+      -0.209413
+    ],
+    "ELEMENT SIX LIMITED": [
+      51.577204,
+      -1.309155
+    ],
+    "FLEXENABLE TECHNOLOGY LIMITED": [
+      52.232159,
+      0.142477
+    ],
+    "BEIJING JAYA TECHNOLOGY (UK) CO., LTD": [
+      51.516098,
+      -0.143139
+    ],
+    "LEVITON MANUFACTURING UK LIMITED": [
+      51.511381,
+      -0.09021
+    ],
+    "PREFORMED LINE PRODUCTS (GREAT BRITAIN) LIMITED": [
+      51.213941,
+      -1.510979
+    ],
+    "BULGIN LIMITED": [
+      52.23539,
+      0.145328
+    ],
+    "PHOTONIC SOLUTIONS LIMITED": [
+      55.916075,
+      -3.317325
+    ],
+    "GLOBAL MARINE SYSTEMS LIMITED": [
+      51.750095,
+      0.517622
+    ],
+    "ANDOR TECHNOLOGY LIMITED": [
+      54.597851,
+      -5.972323
+    ],
+    "LANDWAYS LIMITED": [
+      53.353887,
+      -2.870402
+    ],
+    "UNIPHY LIMITED": [
+      53.794881,
+      -1.546626
+    ],
+    "UNIGEL LIMITED": [
+      50.791318,
+      0.298619
+    ],
+    "CCL SECURE LIMITED": [
+      54.825602,
+      -3.165941
+    ],
+    "CARL ZEISS LTD": [
+      52.222672,
+      -0.074482
+    ],
+    "POLYSOLAR LIMITED": [
+      52.248533,
+      0.081223
+    ],
+    "AIRBUS DEFENCE AND SPACE LIMITED": [
+      51.90104,
+      -0.212025
+    ],
+    "OPTOMED LTD": [
+      55.828364,
+      -4.28883
+    ],
+    "OPTASENSE HOLDINGS LIMITED": [
+      51.333021,
+      -0.777762
+    ],
+    "THERMOTEKNIX SYSTEMS LIMITED": [
+      52.228817,
+      0.151717
+    ],
+    "TECHNETIX LIMITED": [
+      50.920715,
+      -0.208726
+    ],
+    "C-KORE SYSTEMS LIMITED": [
+      53.859138,
+      -1.029521
+    ],
+    "THORN LIGHTING LIMITED": [
+      51.518905,
+      -0.156344
+    ],
+    "HELLERMANNTYTON DATA LIMITED": [
+      51.119085,
+      -0.188262
+    ],
+    "FOCUS SENSORS LIMITED": [
+      50.87453,
+      -1.350042
+    ],
+    "SCINTACOR LIMITED": [
+      52.229173,
+      0.157812
+    ],
+    "ZINIR LIMITED": [
+      50.772316,
+      0.294851
+    ],
+    "DIGITAL PROJECTION LIMITED": [
+      53.532183,
+      -2.168839
+    ],
+    "GARDIN LTD": [
+      51.621236,
+      -1.293956
+    ],
+    "BRITISH TELECOMMUNICATIONS PUBLIC LIMITED COMPANY": [
+      51.513987,
+      -0.072474
+    ],
+    "ADVANCETE LIMITED": [
+      51.316911,
+      0.122447
+    ],
+    "SPACECHIPS LTD": [
+      51.812306,
+      -0.335686
+    ],
+    "YELLOW STUDIO LIMITED": [
+      51.699682,
+      -0.374407
+    ],
+    "SMARTIR LIMITED": [
+      53.419306,
+      -2.304806
+    ],
+    "OXFORD HEALTHTECH LTD.": [
+      51.406852,
+      -1.33336
+    ],
+    "WE CARE 4 AIR LIMITED": [
+      51.794887,
+      0.301908
+    ],
+    "NANOCO TECHNOLOGIES LIMITED": [
+      53.324698,
+      -2.732899
+    ],
+    "ANVIL SEMICONDUCTORS LIMITED": [
+      51.512059,
+      -0.139081
+    ],
+    "LASER MICROMACHINING LIMITED": [
+      53.252387,
+      -3.478568
+    ],
+    "PARITY QUANTUM COMPUTING UK LTD": [
+      51.514897,
+      -0.123615
+    ],
+    "MICRON SEMICONDUCTOR LIMITED": [
+      50.804691,
+      -0.457537
+    ],
+    "SMART OPTICS LTD": [
+      51.543566,
+      -1.810104
+    ],
+    "CORTIRIO LIMITED": [
+      54.67032,
+      -1.451383
+    ],
+    "JIANGSU JINGKEAO TECHNOLOGY CO., LTD": [
+      51.388481,
+      0.549353
+    ],
+    "FOSTER & FREEMAN LIMITED": [
+      52.074225,
+      -1.936536
+    ],
+    "AFL TELECOMMUNICATIONS HOLDINGS UK LIMITED": [
+      52.02358,
+      -0.768195
+    ],
+    "STG AEROSPACE LTD": [
+      51.631579,
+      -3.009251
+    ],
+    "COLORDYNE LIMITED": [
+      51.4749,
+      -0.099193
+    ],
+    "NOVASIGHT LTD": [
+      53.712748,
+      -1.701747
+    ],
+    "GLOBAL INVACOM LIMITED": [
+      51.320765,
+      1.03075
+    ],
+    "TENELUME LTD": [
+      51.761831,
+      -0.552859
+    ],
+    "SAFRAN ELECTRONICS & DEFENSE UK LTD": [
+      51.897505,
+      -2.173806
+    ],
+    "I R KINETICS LIMITED": [
+      53.762178,
+      -2.871527
+    ],
+    "SINTELA LIMITED": [
+      51.480134,
+      -2.689338
+    ],
+    "WELL-SENSE TECHNOLOGY LIMITED": [
+      57.144909,
+      -2.108561
+    ],
+    "EIZO LIMITED": [
+      51.405426,
+      -0.678384
+    ],
+    "INOV8 SYSTEMS LIMITED": [
+      54.631956,
+      -5.893791
+    ],
+    "MELLANOX TECHNOLOGIES UK LTD": [
+      51.515312,
+      -0.087494
+    ],
+    "QPHOX UK LIMITED": [
+      51.522261,
+      -0.115139
+    ],
+    "NIMOH LTD.": [
+      51.46867,
+      -0.327806
+    ],
+    "IBMETRIX LTD": [
+      51.69468,
+      -0.324915
+    ],
+    "MICROGRAPHIA BIO LIMITED": [
+      51.480742,
+      -0.200441
+    ],
+    "WOODROW SCIENTIFIC LIMITED": [
+      50.935149,
+      -1.471074
+    ],
+    "GUIDANCE MARINE LTD": [
+      52.611127,
+      -1.19284
+    ],
+    "DODROTU LIMITED": [
+      51.763802,
+      -1.212746
+    ],
+    "HENSOLDT SENSORS GMBH": [
+      51.507423,
+      -2.579825
+    ],
+    "SPACE POWER LTD": [
+      51.574889,
+      -1.3145
+    ],
+    "HUGHES ELECTRONICS LIMITED": [
+      51.563445,
+      -0.300453
+    ],
+    "SUMITOMO ELECTRIC EUROPE LIMITED": [
+      51.640281,
+      -0.309561
+    ],
+    "GLOBAL SATELLITE VU LTD": [
+      51.516704,
+      -0.107917
+    ],
+    "PULSE POWER AND MEASUREMENT LIMITED": [
+      51.614602,
+      -1.644814
+    ],
+    "IXSCIENT LIMITED": [
+      51.441713,
+      -0.334302
+    ],
+    "DRAEGER SAFETY UK LTD": [
+      55.130879,
+      -1.55715
+    ],
+    "AUSTIN OPTOELECTRONICS LIMITED": [
+      50.87453,
+      -1.350042
+    ],
+    "LYNTON LASERS LIMITED": [
+      53.199629,
+      -2.34815
+    ],
+    "PHOTONICITY LTD": [
+      51.521673,
+      -0.143705
+    ],
+    "AP OPTICAL NETWORKING LTD": [
+      53.627966,
+      -2.770276
+    ],
+    "METAMATERIALS LTD": [
+      52.951923,
+      -1.183806
+    ],
+    "AALYRIA TECHNOLOGIES (UK) LIMITED": [
+      51.499982,
+      -0.13345
+    ],
+    "QUANTUM TECHNOLOGY SUPER SENSORS LTD": [
+      54.327131,
+      -1.536479
+    ],
+    "RENISHAW P L C": [
+      51.634922,
+      -2.380663
+    ],
+    "BT GROUP PLC": [
+      51.513987,
+      -0.072474
+    ],
+    "LUMENTUM TECHNOLOGY UK LIMITED": [
+      51.51611,
+      -0.108979
+    ],
+    "AIXTRON LIMITED": [
+      52.274125,
+      -0.007991
+    ],
+    "TOSHIBA EUROPE LIMITED": [
+      51.430596,
+      -0.516153
+    ],
+    "TERAVIEW LIMITED": [
+      52.289315,
+      0.173328
+    ],
+    "QINETIQ LIMITED": [
+      51.276054,
+      -0.761524
+    ],
+    "CENTRE FOR PROCESS INNOVATION LIMITED": [
+      54.576136,
+      -1.101605
+    ],
+    "NOKIA UK LIMITED": [
+      51.538006,
+      -2.575572
+    ],
+    "TEER COATINGS LIMITED": [
+      51.504235,
+      -0.091517
+    ],
+    "DE LA RUE INTERNATIONAL LIMITED.": [
+      51.248551,
+      -1.091392
+    ],
+    "ELEMENT SIX (UK) LIMITED.": [
+      51.577204,
+      -1.309155
+    ],
+    "PRIOR SCIENTIFIC INSTRUMENTS LIMITED": [
+      52.188843,
+      0.227079
+    ],
+    "ELFORLIGHT LIMITED": [
+      50.531844,
+      -3.599357
+    ],
+    "PRINTED ELECTRONICS LIMITED": [
+      52.599325,
+      -1.675052
+    ],
+    "KEYSIGHT TECHNOLOGIES UK LIMITED": [
+      51.436812,
+      -0.883643
+    ],
+    "GAS SENSING SOLUTIONS LTD.": [
+      55.955366,
+      -3.223507
+    ],
+    "CORNING LIMITED": [
+      53.187908,
+      -3.057689
+    ],
+    "PHOTON DESIGN LTD": [
+      51.744112,
+      -1.23467
+    ],
+    "PILKINGTON GROUP LIMITED": [
+      53.573543,
+      -2.814682
+    ],
+    "ROKE MANOR RESEARCH LIMITED": [
+      50.999341,
+      -1.51975
+    ],
+    "DELTA G LIMITED": [
+      52.453555,
+      -1.93332
+    ],
+    "BRANSCAN LIMITED": [
+      52.470315,
+      -2.039653
+    ],
+    "OPTEK SYSTEMS LTD": [
+      51.673016,
+      -0.589056
+    ],
+    "LOADPOINT LIMITED": [
+      51.629591,
+      -1.881475
+    ],
+    "M-SOLV LTD": [
+      51.823462,
+      -1.2885317
+    ],
+    "STMICROELECTRONICS LIMITED": [
+      51.578819,
+      -0.758003
+    ],
+    "BRUKER UK LIMITED": [
+      52.3879244,
+      -1.5808502
+    ],
+    "HUAWEI TECHNOLOGIES RESEARCH & DEVELOPMENT (UK) LIMITED": [
+      52.23424,
+      0.139795
+    ],
+    "ARALIA SYSTEMS LIMITED": [
+      51.337878,
+      1.403088
+    ],
+    "IS-INSTRUMENTS LIMITED": [
+      51.193909,
+      0.278324
+    ],
+    "POINTCLOUD LTD": [
+      51.188589,
+      -2.475849
+    ],
+    "COMPUGRAPHICS INTERNATIONAL LIMITED": [
+      51.328333,
+      -0.535401
+    ],
+    "HUBER + SUHNER (UK) LIMITED": [
+      51.905104,
+      -1.130201
+    ],
+    "FIBERCORE LIMITED": [
+      50.962644,
+      -1.42276
+    ],
+    "TRUMPF LIMITED": [
+      51.884148,
+      -0.377946
+    ],
+    "ZBD DISPLAYS LIMITED": [
+      51.456272,
+      -0.966171
+    ],
+    "HOLOXICA LIMITED": [
+      55.950922,
+      -3.205768
+    ],
+    "TAYLOR HOBSON LIMITED": [
+      52.66216,
+      -1.083506
+    ],
+    "QUANDELA UK LTD": [
+      51.514393,
+      -0.090703
+    ],
+    "HAYDALE PLC": [
+      51.780077,
+      -4.031121
+    ],
+    "PHOTRONICS (UK) LIMITED": [
+      51.493132,
+      -3.57941
+    ],
+    "WENTWORTH LABORATORIES LIMITED": [
+      52.143106,
+      -0.284407
+    ],
+    "HORIBA UK LIMITED": [
+      52.275648,
+      -0.872708
+    ],
+    "Q I OPTICAL SERVICES LIMITED": [
+      52.507335,
+      -1.936465
+    ],
+    "LAND INSTRUMENTS INTERNATIONAL LIMITED": [
+      52.66216,
+      -1.083506
+    ],
+    "LOGITECH LIMITED": [
+      55.919459,
+      -4.457643
+    ],
+    "OPTOSCI LIMITED": [
+      55.916457,
+      -4.573325
+    ],
+    "RAYTHEON SYSTEMS LIMITED": [
+      51.771411,
+      0.128977
+    ],
+    "ANALOG DEVICES LIMITED": [
+      51.503767,
+      -0.427153
+    ],
+    "PLASMA QUEST LIMITED": [
+      51.278006,
+      -0.959198
+    ],
+    "TERATECH COMPONENTS LIMITED": [
+      51.574889,
+      -1.3145
+    ],
+    "CANON MEDICAL RESEARCH EUROPE, LIMITED": [
+      55.970737,
+      -3.180428
+    ],
+    "CAUSEWAY SENSORS LIMITED": [
+      54.585528,
+      -5.93641
+    ],
+    "EV GROUP LIMITED": [
+      53.809633,
+      -1.57444
+    ],
+    "KURT J. LESKER COMPANY LIMITED": [
+      50.877696,
+      0.528249
+    ],
+    "EDINBURGH INSTRUMENTS LIMITED": [
+      52.047014,
+      -0.022304
+    ],
+    "SCIENTIFICA LTD": [
+      51.504235,
+      -0.091517
+    ],
+    "QMC INSTRUMENTS LIMITED": [
+      51.014493,
+      -0.449402
+    ],
+    "IQE (EUROPE) LIMITED": [
+      51.530931,
+      -3.087987
+    ],
+    "ARKENLIGHT LTD": [
+      51.592155,
+      -0.254279
+    ],
+    "NIKALYTE LIMITED": [
+      53.382542,
+      -2.193878
+    ],
+    "SIME DIAGNOSTICS LIMITED": [
+      51.518702,
+      -0.154262
+    ],
+    "FARADAY SCIENTIFIC LIMITED": [
+      53.361394,
+      -1.468618
+    ],
+    "CIENA LIMITED": [
+      51.522742,
+      -0.080465
+    ],
+    "OPSEC SECURITY LIMITED": [
+      54.903009,
+      -1.557233
+    ],
+    "ANALYTIK LIMITED": [
+      52.293971,
+      -0.00166
+    ],
+    "LAMBDA ENERGY LTD": [
+      52.234821,
+      0.129527
+    ],
+    "MOMENTIVE PERFORMANCE MATERIALS LIMITED": [
+      53.579496,
+      -2.529715
+    ],
+    "TRIBUS-D LTD": [
+      52.218147,
+      0.143149
+    ],
+    "HELIATEK LTD": [
+      55.24782,
+      -4.856319
+    ],
+    "SAFC HITECH LIMITED": [
+      51.031896,
+      -2.275901
+    ],
+    "MICROLINK DEVICES UK LTD": [
+      51.210681,
+      -2.646811
+    ],
+    "POWER ROLL LIMITED": [
+      54.909265,
+      -1.486853
+    ],
+    "SPANOPTIC LIMITED": [
+      55.861447,
+      -4.25426
+    ],
+    "SYNOPSYS (NORTHERN EUROPE) LIMITED": [
+      51.435689,
+      -1.063543
+    ],
+    "CADENCE DESIGN SYSTEMS LIMITED": [
+      51.419117,
+      -0.773052
+    ],
+    "ADTRAN LIMITED": [
+      51.763675,
+      -0.311594
+    ],
+    "THORLABS LIMITED": [
+      52.386728,
+      0.22822
+    ],
+    "LIGHTPOINT MEDICAL LTD": [
+      51.666622,
+      -0.613981
+    ],
+    "SILIXA LTD": [
+      51.640798,
+      -0.309239
+    ],
+    "MOOR INSTRUMENTS LIMITED": [
+      50.790313,
+      -2.983416
+    ],
+    "THALES ALENIA SPACE UK LIMITED": [
+      51.423146,
+      -0.994115
+    ],
+    "YAMAZAKI MAZAK U.K. LIMITED": [
+      52.216237,
+      -2.185763
+    ],
+    "GTAT LIMITED": [
+      53.585111,
+      -2.526115
+    ],
+    "MALVERN PANALYTICAL LIMITED": [
+      52.128603,
+      -2.30371
+    ],
+    "QORVO UK LIMITED": [
+      51.436458,
+      -1.068649
+    ],
+    "FLEXINK LTD": [
+      50.909533,
+      -1.426249
+    ],
+    "LUMOPTICA LIMITED": [
+      51.495452,
+      -2.619057
+    ],
+    "DIMENSIONS DISPLAYS LIMITED": [
+      51.482101,
+      -0.095754
+    ],
+    "CRYSTRAN LIMITED": [
+      50.749393,
+      -1.942207
+    ],
+    "REDLUX LIMITED": [
+      50.983125,
+      -1.46342
+    ],
+    "VISIONCHIP LIMITED": [
+      53.463203,
+      -2.229943
+    ],
+    "RAIL VISION EUROPE LTD": [
+      52.753311,
+      -1.214114
+    ],
+    "FOTENIX LIMITED": [
+      53.491793,
+      -2.273807
+    ],
+    "KROMEK GROUP PLC": [
+      54.67032,
+      -1.451383
+    ],
+    "THALES AIR DEFENCE LIMITED": [
+      54.580138,
+      -5.888097
+    ],
+    "XTERA LIMITED": [
+      51.597379,
+      0.239344
+    ],
+    "OSSILA LTD": [
+      53.392111,
+      -1.44544
+    ],
+    "HARKNESS SCREENS (UK) LIMITED": [
+      51.899404,
+      -0.216814
+    ],
+    "SILSON LIMITED": [
+      52.247808,
+      -1.376457
+    ],
+    "ADD GRAPHENE GROUP LIMITED": [
+      51.24901,
+      -1.214704
+    ],
+    "LAYTEC GROUP LTD": [
+      52.588913,
+      -0.226977
+    ],
+    "LAYTEC UK LIMITED": [
+      53.274294,
+      -2.826795
+    ],
+    "HIGHFINESSE-UK LIMITED": [
+      51.37193,
+      -0.456372
+    ],
+    "MICHELSON DIAGNOSTICS LTD": [
+      52.952119,
+      -1.15533
+    ],
+    "RANDOX LABORATORIES LIMITED": [
+      54.640101,
+      -6.296631
+    ],
+    "SEMIWISE LIMITED": [
+      55.872598,
+      -4.285582
+    ],
+    "NODEQ LIMITED": [
+      51.514897,
+      -0.123615
+    ],
+    "ANGOKA LIMITED": [
+      54.56755,
+      -5.915516
+    ],
+    "METAMORPH MATERIALS LTD": [
+      53.47486,
+      -2.235143
+    ],
+    "NIKON X-TEK SYSTEMS LIMITED": [
+      51.7952,
+      -0.677252
+    ],
+    "ISDI LIMITED": [
+      51.552878,
+      -0.143675
+    ],
+    "ADVANCED EPI MATERIALS AND DEVICES LTD": [
+      52.277989,
+      -1.521185
+    ],
+    "SURREY NANOSYSTEMS LIMITED": [
+      50.78836,
+      0.062336
+    ],
+    "ORION DELTA TECHNOLOGIES LIMITED": [
+      51.332479,
+      -0.408557
+    ],
+    "RELIANCE PRECISION LIMITED": [
+      53.624922,
+      -1.719314
+    ],
+    "NANOBEAM LIMITED": [
+      52.195133,
+      0.174277
+    ],
+    "MOLECULAR DEVICES (UK) LIMITED": [
+      51.439302,
+      -0.881626
+    ],
+    "MICRO SYSTEMS (UK) LIMITED": [
+      53.479367,
+      -2.597477
+    ],
+    "TT ELECTRONICS PLC": [
+      51.320648,
+      -0.55881
+    ],
+    "QUANTEMOL LIMITED": [
+      51.530436,
+      -0.101249
+    ],
+    "THE TECHNOLOGY PARTNERSHIP GROUP LIMITED": [
+      52.083539,
+      0.022761
+    ],
+    "THOMAS KEATING LIMITED": [
+      51.014493,
+      -0.449402
+    ],
+    "PHOTON LINES LIMITED": [
+      52.052583,
+      -1.334023
+    ],
+    "CLARITY SENSORS LIMITED": [
+      52.194361,
+      0.135318
+    ],
+    "ULTRA PRECISION STRUCTURED SURFACES (UPS2) LTD": [
+      53.224655,
+      -4.263375
+    ],
+    "NEWPORT SPECTRA-PHYSICS LIMITED": [
+      53.086074,
+      -2.429619
+    ],
+    "RENISHAW DIAGNOSTICS LIMITED": [
+      55.862095,
+      -4.253227
+    ],
+    "EDINBURGH MOLECULAR IMAGING LIMITED": [
+      55.952276,
+      -3.20613
+    ],
+    "Refeyn Ltd": [
+      51.7520131,
+      -1.2578499
+    ],
+    "Optomel": [
+      51.2151195,
+      -0.5250129
+    ],
+    "Holomem": [
+      51.5074456,
+      -0.1277653
+    ],
+    "Prolite - Technology": [
+      52.0690205,
+      -0.6079317
+    ],
+    "Sparxell": [
+      52.2055314,
+      0.1186637
+    ],
+    "ARM": [
+      52.2055314,
+      0.1186637
+    ],
+    "Ecopoint Medical": [
+      51.5074456,
+      -0.1277653
+    ],
+    "SPARTA Biodiscovery": [
+      51.5074456,
+      -0.1277653
+    ]
+  },
+  "infrastructure": {
+    "Central Laser Facility": [
+      51.574889,
+      -1.3145
+    ],
+    "EPSRC National Epitaxy Facility": [
+      53.38364,
+      -1.478775
+    ],
+    "Fraunhofer UK Research Ltd -   Fraunhofer Centre for Applied Photonics": [
+      55.860726,
+      -4.24407
+    ],
+    "Laser Facility": [
+      53.771798,
+      -0.36639
+    ],
+    "National Dark Fibre Facility": [
+      51.522974,
+      -0.132192
+    ],
+    "Quantum Photonics Lab": [
+      55.90938,
+      -3.320681
+    ],
+    "Scottish Centre for the Application of Plasma-based Accelerators": [
+      55.861521,
+      -4.239865
+    ],
+    "TARANIS Laser facility": [
+      54.584766,
+      -5.934438
+    ],
+    "Time and Quantum Frequency Standards -  National Physical Laboratory": [
+      51.423865,
+      -0.340776
+    ],
+    "Time resolved optical spectroscopy": [
+      54.768122,
+      -1.571884
+    ],
+    "Two-Dimensional Photonics Fabrication Facility": [
+      55.90938,
+      -3.320681
+    ],
+    "University of Bristol Cleanroom Fab": [
+      51.458468,
+      -2.602076
+    ],
+    "ATI Nano-Manufacture and Processing": [
+      51.242685,
+      -0.587936
+    ],
+    "Bragg Centre for Materials Research": [
+      53.807974,
+      -1.553334
+    ],
+    "Centre for Designer Quantum Materials": [
+      56.340349,
+      -2.808787
+    ],
+    "Centre for Sustainable Technologies": [
+      54.740998,
+      -5.790825
+    ],
+    "Compound Semiconductor Applications Catapult": [
+      51.553939,
+      -3.040721
+    ],
+    "Dimensional Metrology -  National Physical Laboratory": [
+      51.423865,
+      -0.340776
+    ],
+    "EPSRC Future Compound Semiconductor Manufacturing Hub": [
+      53.3411904,
+      -1.2847542
+    ],
+    "Earth Observation, Climate and Optical Radiation Metrology -  National Physical Laboratory": [
+      51.423865,
+      -0.340776
+    ],
+    "IsoLab": [
+      54.010955,
+      -2.784229
+    ],
+    "Janet: the UK's Research & Education Network": [
+      51.455175,
+      -2.584733
+    ],
+    "Lancaster Quantum Technology Centre": [
+      54.010955,
+      -2.784229
+    ],
+    "Long Beamline X-ray Test Facility": [
+      52.620665,
+      -1.125526
+    ],
+    "Loughborough Materials Characterisation Centre": [
+      52.764847,
+      -1.229512
+    ],
+    "National Graphene Institute": [
+      53.466926,
+      -2.233578
+    ],
+    "Quantum Computing and Simulation Hub": [
+      51.760004,
+      -1.256295
+    ],
+    "Quantum Metrology -  National Physical Laboratory": [
+      51.423865,
+      -0.340776
+    ],
+    "Quantum Technology Innovation Centre": [
+      51.451817,
+      -2.599786
+    ],
+    "Small Research Facility for Sprays": [
+      55.921419,
+      -3.174495
+    ],
+    "Space Park Leicester": [
+      52.655935,
+      -1.129525
+    ],
+    "SuperFab": [
+      51.424804,
+      -0.566698
+    ],
+    "The Edinburgh Super-Resolution Imaging Consortium": [
+      55.90938,
+      -3.320681
+    ],
+    "Thin Films, Sensors and Imaging Institute": [
+      55.843323,
+      -4.430071
+    ],
+    "University of Cambridge Electron Beam Lithography Facility": [
+      52.209094,
+      0.09289
+    ],
+    "Warwick Centre for Ultrafast Spectroscopy": [
+      52.385826,
+      -1.564804
+    ],
+    "AURA Innovation Centre": [
+      53.725451,
+      -0.460964
+    ],
+    "Ada Lovelace Centre": [
+      51.574889,
+      -1.3145
+    ],
+    "Advanced Composites Manufacturing Centre": [
+      50.375437,
+      -4.13794
+    ],
+    "Aero-Physics Laboratory and Facilities": [
+      55.871746,
+      -4.288345
+    ],
+    "Analysis & Materials Characterisation Suite": [
+      50.375437,
+      -4.13794
+    ],
+    "BGS Landslide Observatories UK": [
+      52.879018,
+      -1.078039
+    ],
+    "BT Tower: London Urban Atmospheric Pollution Observatory": [
+      51.521157,
+      -0.13894
+    ],
+    "Bragg Bionano Reseach Facility": [
+      53.807974,
+      -1.553334
+    ],
+    "Bristol Bioimaging Centre": [
+      56.4607649,
+      -2.9771021
+    ],
+    "Center for Cell Imaging": [
+      53.406959,
+      -2.96287
+    ],
+    "Centre for PreClinical Imaging, Institute of Translational Medicine, University of Liverpool": [
+      53.380332,
+      -2.976431
+    ],
+    "Chilbolton Observatory Space Monitoring Facility": [
+      51.145784,
+      -1.428526
+    ],
+    "DeepSeq at the University of Nottingham": [
+      52.94382,
+      -1.185953
+    ],
+    "Dundee Imaging Facility": [
+      56.457528,
+      -2.986975
+    ],
+    "Durham Imaging Centre (DCI)": [
+      54.768122,
+      -1.571884
+    ],
+    "Durham Terrestrial Laser Scanning facility (DuTLS)": [
+      54.768122,
+      -1.571884
+    ],
+    "EPSRC National Electron Paramagnetic Spectroscopy Facility and Service": [
+      53.466926,
+      -2.233578
+    ],
+    "Electromagnetic Measurement and Technology -  National Physical Laboratory": [
+      51.423865,
+      -0.340776
+    ],
+    "Electron Microscopy Centre": [
+      50.375437,
+      -4.13794
+    ],
+    "Elemental Analysis Suite": [
+      53.771798,
+      -0.36639
+    ],
+    "Emissions and Atmospheric Metrology -  National Physical Laboratory": [
+      51.423865,
+      -0.340776
+    ],
+    "European Magnetic Field Laboratory": [
+      52.940393,
+      -1.189663
+    ],
+    "European Marine Biological Resource Centre - ERIC": [
+      57.138001,
+      -2.07178
+    ],
+    "European Soft Matter Infrastructure": [
+      55.921419,
+      -3.174495
+    ],
+    "Facility for Imaging by Light Microscopy": [
+      51.499334,
+      -0.179178
+    ],
+    "Gas Turbine Research Centre": [
+      51.568682,
+      -3.755583
+    ],
+    "Gurdon Institute Imaging Facility": [
+      52.198468,
+      0.122945
+    ],
+    "Henry Wellcome Laboratory for Cell Imaging": [
+      52.622394,
+      1.241412
+    ],
+    "Historic England Geospatial Survey": [
+      53.957999,
+      -1.088314
+    ],
+    "Historic England \u2013 Aerial Investigation and Mapping": [
+      53.957999,
+      -1.088314
+    ],
+    "Hounsfield Facility": [
+      52.830381,
+      -1.251733
+    ],
+    "ISIS Neutron and Muon Source": [
+      51.574889,
+      -1.3145
+    ],
+    "Interface Analysis Centre - University of Bristol": [
+      51.458468,
+      -2.602076
+    ],
+    "Kelvin Hydrodynamics Laboratory": [
+      55.904248,
+      -4.308834
+    ],
+    "Liverpool Telescope": [
+      53.405403,
+      -2.969619
+    ],
+    "MORGAN-BOTTI LIGHTNING LABORATORY": [
+      51.4757,
+      -3.143981
+    ],
+    "Material and Chemical Characterisation Facility": [
+      51.379324,
+      -2.327157
+    ],
+    "Medium Energy Ion Scattering Facility": [
+      53.643678,
+      -1.778726
+    ],
+    "Microplastics Analysis Facility": [
+      51.602377,
+      -1.110698
+    ],
+    "Microscopy Suite": [
+      53.771798,
+      -0.36639
+    ],
+    "NERC Field Spectroscopy Facility": [
+      53.8586908,
+      -1.6416585
+    ],
+    "NERC Geophysical Equipment Facility": [
+      55.923451,
+      -3.17342
+    ],
+    "NERC Space Geodesy Facility": [
+      50.869557,
+      0.338398
+    ],
+    "National Centre of Excellence in Mass Spectroscopy Imaging (NiCE-MSI) -  National Physical Laboratory": [
+      51.423865,
+      -0.340776
+    ],
+    "Non-Linear Microwave Measurements and Models": [
+      51.242685,
+      -0.587936
+    ],
+    "Perceptual Experience Laboratory": [
+      51.495832,
+      -3.212119
+    ],
+    "QMUL Antenna Measurement Laboratory": [
+      51.524637,
+      -0.040683
+    ],
+    "Rock Volume Characterisation Laboratory Cluster (British Geological Survey)": [
+      52.879018,
+      -1.078039
+    ],
+    "Roland von Glasow Air-Sea-Ice Chamber": [
+      52.622394,
+      1.241412
+    ],
+    "Rothamsted Bioimaging": [
+      51.80942,
+      -0.354911
+    ],
+    "Rothamsted Field Scanalyzer": [
+      51.80942,
+      -0.354911
+    ],
+    "Royce Translational Centre": [
+      53.39365,
+      -1.38357
+    ],
+    "SPIN-Lab": [
+      51.499334,
+      -0.179178
+    ],
+    "Soft Matter AnalyticaL Laboratory": [
+      53.382063,
+      -1.486011
+    ],
+    "Sorby Environmental Fluid Dynamics Laboratory": [
+      53.807974,
+      -1.553334
+    ],
+    "Target Discovery Proteomics": [
+      51.7525461,
+      -1.21433
+    ],
+    "Temperature, Humidity and Moisture -  National Physical Laboratory": [
+      51.423865,
+      -0.340776
+    ],
+    "The Bill Douglas Cinema Museum": [
+      50.712523,
+      -3.513303
+    ],
+    "UCL Molecular Interactions Facility": [
+      51.523571,
+      -0.132398
+    ],
+    "UK Catalysis Hub": [
+      51.572577,
+      -1.31592
+    ],
+    "UK Electronprobe Microanalysis": [
+      51.456496,
+      -2.604424
+    ],
+    "University of Bristol Flow Cytometry Facility": [
+      51.457429,
+      -2.603084
+    ],
+    "University of Edinburgh BioImaging small research facility": [
+      55.922437,
+      -3.172413
+    ],
+    "University of Leeds AFM Facility": [
+      53.807974,
+      -1.553334
+    ],
+    "Versatile X-ray Spectroscopy Facility": [
+      53.807974,
+      -1.553334
+    ],
+    "Western Channel Coastal Observatory": [
+      50.366144,
+      -4.147858
+    ],
+    "York JEOL Nanocentre": [
+      53.950817,
+      -1.046474
+    ]
+  },
+  "institutions": {
+    "University of Southampton": [
+      50.9617568,
+      -1.4239975
+    ],
+    "Imperial College London": [
+      51.4989595,
+      -0.1756407
+    ],
+    "University of Cambridge": [
+      52.2109456,
+      0.092005
+    ],
+    "University of Glasgow": [
+      55.871666,
+      -4.2778997
+    ],
+    "University College London": [
+      51.5242031,
+      -0.1330007
+    ],
+    "Aston University": [
+      52.4861905,
+      -1.8884689
+    ],
+    "University of Strathclyde": [
+      55.8618812,
+      -4.2419566
+    ],
+    "University of Oxford": [
+      51.7525461,
+      -1.21433
+    ],
+    "Heriot-Watt University": [
+      55.9102959,
+      -3.3234475
+    ],
+    "University of Sheffield": [
+      53.3729622,
+      -1.5059315
+    ],
+    "University of Bath": [
+      51.3766938,
+      -2.3234206
+    ],
+    "University of Bristol": [
+      51.4905582,
+      -2.6304825
+    ],
+    "University of St Andrews": [
+      56.3398554,
+      -2.8117775
+    ],
+    "University of Manchester": [
+      53.4660226,
+      -2.2330858
+    ],
+    "University of Leeds": [
+      53.8057925,
+      -1.555111
+    ],
+    "University of Nottingham": [
+      52.9387428,
+      -1.2002957
+    ],
+    "BT Group (United Kingdom)": [
+      51.7008796,
+      -0.1759355
+    ],
+    "Oldham Council": [
+      53.5423989,
+      -2.1165553
+    ],
+    "University of Surrey": [
+      51.2430782,
+      -0.5900545
+    ],
+    "University of Exeter": [
+      50.1701604,
+      -5.1241802
+    ],
+    "University of Edinburgh": [
+      55.9440765,
+      -3.1883736
+    ],
+    "University of Kent": [
+      51.2950874,
+      1.0673313
+    ],
+    "University of Essex": [
+      51.8773639,
+      0.9498751
+    ],
+    "University of Birmingham": [
+      52.4522956,
+      -1.9312857
+    ],
+    "City, University of London": [
+      51.5276574,
+      -0.103605
+    ],
+    "Northumbria University": [
+      54.9787691,
+      -1.6096401
+    ],
+    "National Physical Laboratory": [
+      51.4236802,
+      -0.3444383
+    ],
+    "University of Warwick": [
+      52.3813073,
+      -1.5639569
+    ],
+    "Bangor University": [
+      53.2300234,
+      -4.130082
+    ],
+    "BT Research": [
+      55.9147139,
+      -3.3236278
+    ],
+    "Cardiff University": [
+      51.4887426,
+      -3.1795999
+    ],
+    "King's College London": [
+      51.5030855,
+      -0.0900021
+    ],
+    "Queen Mary University of London": [
+      51.5247403,
+      -0.0393136
+    ],
+    "Queen's University Belfast": [
+      54.5842881,
+      -5.9336562
+    ],
+    "Loughborough University": [
+      52.763845,
+      -1.2372582
+    ],
+    "Durham University": [
+      54.7672268,
+      -1.5721956
+    ],
+    "University of York": [
+      53.9453903,
+      -1.0314593
+    ],
+    "Rutherford Appleton Laboratory": [
+      51.570862,
+      -1.315498
+    ],
+    "University of Liverpool": [
+      53.4072429,
+      -2.9658337
+    ],
+    "University of Salford": [
+      53.4732203,
+      -2.2970993
+    ],
+    "Applied Photonics (United Kingdom)": [
+      53.9569268,
+      -2.0264827
+    ],
+    "University of Sussex": [
+      50.8674377,
+      -0.0877259
+    ],
+    "Cranfield University": [
+      52.0701329,
+      -0.6287023
+    ],
+    "Newcastle University": [
+      54.9801751,
+      -1.6146802
+    ],
+    "Swansea University": [
+      51.6080596,
+      -3.9773969
+    ],
+    "Brunel University of London": [
+      51.5326092,
+      -0.4740499
+    ],
+    "University of Hull": [
+      53.7732507,
+      -0.3670415
+    ],
+    "Lancaster University": [
+      54.0098429,
+      -2.7875768
+    ],
+    "University of Dundee": [
+      56.4579676,
+      -2.9821483
+    ],
+    "University of Wales": [
+      52.1131319,
+      -4.0752017
+    ],
+    "Science Oxford": [
+      51.75482,
+      -1.1970662
+    ],
+    "Worcestershire Royal Hospital": [
+      52.1913636,
+      -2.1807342
+    ],
+    "University of London": [
+      51.5218979,
+      -0.1288676
+    ],
+    "Cavendish Hospital": [
+      53.262318,
+      -1.9210277
+    ],
+    "University of Reading": [
+      51.4404358,
+      -0.9417618
+    ],
+    "Qinetiq (United Kingdom)": [
+      50.7857315,
+      -1.1293827
+    ],
+    "University of Aberdeen": [
+      57.1645248,
+      -2.1018364
+    ],
+    "Manchester Metropolitan University": [
+      53.4694788,
+      -2.2379823
+    ],
+    "University of Huddersfield": [
+      53.6429919,
+      -1.7780783
+    ],
+    "Harlow College": [
+      51.7702968,
+      0.0998138
+    ],
+    "Nottingham Trent University": [
+      52.91164,
+      -1.1866048
+    ],
+    "Royal Holloway University of London": [
+      51.4244496,
+      -0.5642561
+    ],
+    "Bristol Robotics Laboratory": [
+      51.5015294,
+      -2.5521073
+    ],
+    "Photonic Science (United Kingdom)": [
+      50.8688335,
+      0.5525284
+    ],
+    "University of Bradford": [
+      53.7916522,
+      -1.7661184
+    ],
+    "Hitachi (United Kingdom)": [
+      51.5252372,
+      -0.2309242
+    ],
+    "Sheffield Hallam University": [
+      53.3817264,
+      -1.4627951
+    ],
+    "Materials Technology (United Kingdom)": [
+      53.2197457,
+      -3.0330131
+    ],
+    "London Centre for Nanotechnology": [
+      51.5253031,
+      -0.1330236
+    ],
+    "Toshiba (United Kingdom)": [
+      51.5125093,
+      -0.1017778
+    ],
+    "John Innes Centre": [
+      51.4156843,
+      -0.195948
+    ],
+    "University of East Anglia": [
+      52.6210623,
+      1.2356187
+    ],
+    "Huawei Technologies (United Kingdom)": [
+      52.2327636,
+      0.1416913
+    ],
+    "University of Hertfordshire": [
+      51.7517443,
+      -0.2390498
+    ],
+    "University of Leicester": [
+      52.6205879,
+      -1.109923
+    ],
+    "University of South Wales": [
+      51.5860894,
+      -2.990616
+    ],
+    "Diamond Light Source": [
+      51.5742753,
+      -1.3118193
+    ],
+    "Keele University": [
+      53.0016756,
+      -2.2706942
+    ],
+    "Philips (United Kingdom)": [
+      53.6485539,
+      -1.4968712
+    ],
+    "Daresbury Laboratory": [
+      53.3430757,
+      -2.6397593
+    ],
+    "Microsoft Research (United Kingdom)": [
+      52.1949515,
+      0.1350108
+    ],
+    "University of Plymouth": [
+      50.3757001,
+      -4.1393786
+    ],
+    "Faculty (United Kingdom)": [
+      51.7558131,
+      -1.2608884
+    ],
+    "Liverpool John Moores University": [
+      53.4037508,
+      -2.9726752
+    ],
+    "Glasgow Caledonian University": [
+      55.8674664,
+      -4.2502454
+    ],
+    "Intel (United Kingdom)": [
+      51.5439608,
+      -1.7726159
+    ],
+    "Atomic Weapons Establishment": [
+      51.3672273,
+      -1.1476069
+    ],
+    "University of the West of Scotland": [
+      51.5100436,
+      -0.0047661
+    ],
+    "Coventry University": [
+      52.4056372,
+      -1.4997223
+    ],
+    "London South Bank University": [
+      51.4977032,
+      -0.1018089
+    ],
+    "BAE Systems (United Kingdom)": [
+      55.8816399,
+      -4.3656145
+    ],
+    "Edinburgh Napier University": [
+      55.9311064,
+      -3.2093902
+    ],
+    "De Montfort University": [
+      52.6297131,
+      -1.139284
+    ],
+    "Hewlett-Packard (United Kingdom)": [
+      55.9165646,
+      -4.4845111
+    ],
+    "Sharp Laboratories of Europe (United Kingdom)": [
+      51.7161338,
+      -1.2205598
+    ],
+    "Universities UK": [
+      51.5256919,
+      -0.1295787
+    ],
+    "AM Technology (United Kingdom)": [
+      53.3510046,
+      -2.6692054
+    ],
+    "Pilkington (United Kingdom)": [
+      51.3982145,
+      0.5379474
+    ],
+    "Fujitsu (United Kingdom)": [
+      53.5037237,
+      -2.2008399
+    ],
+    "University of Ulster": [
+      55.148773,
+      -6.6782594
+    ],
+    "Gooch & Housego (United Kingdom)": [
+      50.9160096,
+      -2.9156199
+    ],
+    "Coventry (United Kingdom)": [
+      52.4081812,
+      -1.510477
+    ],
+    "King's College Hospital": [
+      51.4681331,
+      -0.0936682
+    ],
+    "IQE (United Kingdom)": [
+      51.5543864,
+      -3.036666
+    ],
+    "The Open University": [
+      52.0245378,
+      -0.7092748
+    ],
+    "Aberystwyth University": [
+      52.4155496,
+      -4.0650542
+    ],
+    "University of Westminster": [
+      51.5209064,
+      -0.140073
+    ],
+    "Cockcroft Institute": [
+      53.344647,
+      -2.6410415
+    ],
+    "Culham Science Centre": [
+      51.6583153,
+      -1.230344
+    ],
+    "Research Complex at Harwell": [
+      51.5745943,
+      -1.3134722
+    ],
+    "Compound Semiconductor Technologies (United Kingdom)": [
+      55.7779916,
+      -4.0933554
+    ],
+    "Institution of Engineering and Technology": [
+      51.5100284,
+      -0.1192362
+    ],
+    "London Metropolitan University": [
+      51.5173823,
+      -0.0883496
+    ],
+    "Element Six (United Kingdom)": [
+      51.5771558,
+      -1.3088028
+    ],
+    "University of Greenwich": [
+      51.4825423,
+      -0.0066531
+    ],
+    "University of Bedfordshire": [
+      51.8777325,
+      -0.4100517
+    ],
+    "Middlesex University": [
+      51.6591227,
+      -0.1333415
+    ],
+    "Tyndall Centre": [
+      52.6217595,
+      1.2385671
+    ],
+    "Microsystems (United Kingdom)": [
+      51.304616,
+      -0.7910094
+    ],
+    "General Electric (United Kingdom)": [
+      53.7962842,
+      -1.4280678
+    ],
+    "Qualcomm (United Kingdom)": [
+      52.2275214,
+      0.155325
+    ],
+    "Portsmouth College": [
+      50.808301,
+      -1.0447849
+    ],
+    "King's College School": [
+      52.2035819,
+      0.1070523
+    ],
+    "STMicroelectronics (United Kingdom)": [
+      51.540495,
+      -2.5770243
+    ],
+    "Malvern Community Hospital": [
+      52.112431,
+      -2.3205385
+    ],
+    "The London College": [
+      51.4784219,
+      -0.4083488
+    ],
+    "M Squared Lasers (United Kingdom)": [
+      55.903085,
+      -4.3118468
+    ],
+    "Dartmouth Hospital": [
+      50.3502256,
+      -3.5776785
+    ],
+    "Culham Centre for Fusion Energy": [
+      51.6576683,
+      -1.2262126
+    ],
+    "Abertay University": [
+      56.4632546,
+      -2.9744981
+    ],
+    "Yahoo (United Kingdom)": [
+      51.5183751,
+      -0.1159993
+    ],
+    "Interface (United Kingdom)": [
+      51.538505,
+      -1.8866656
+    ],
+    "University of Portsmouth": [
+      50.795245,
+      -1.0935529
+    ],
+    "Merck (United Kingdom)": [
+      51.5008063,
+      -0.0215057
+    ],
+    "Bristol Laboratories (United Kingdom)": [
+      51.8873518,
+      -0.444861
+    ],
+    "3C Research (United Kingdom)": [
+      55.9147139,
+      -3.3236278
+    ],
+    "Fibercore (United Kingdom)": [
+      50.9627178,
+      -1.4229671
+    ],
+    "Birkbeck, University of London": [
+      51.5218449,
+      -0.1302155
+    ],
+    "Thales (United Kingdom)": [
+      51.0051695,
+      -2.415303
+    ],
+    "Schlumberger (United Kingdom)": [
+      52.2130915,
+      0.081223
+    ],
+    "Leatherhead Food Research": [
+      51.3147857,
+      -0.2306257
+    ],
+    "Filtronic (United Kingdom)": [
+      54.6703629,
+      -1.4518932
+    ],
+    "Airbus (United Kingdom)": [
+      51.5130343,
+      -2.5775448
+    ],
+    "Royal Observatory": [
+      51.4773623,
+      -0.0008456
+    ],
+    "Marie Curie": [
+      51.4751387,
+      -0.0795363
+    ],
+    "Leonardo (United Kingdom)": [
+      51.5081057,
+      -2.5807868
+    ],
+    "Broadcom (United Kingdom)": [
+      51.5388341,
+      -2.5762037
+    ],
+    "Robert Gordon University": [
+      57.1187601,
+      -2.1393085
+    ],
+    "Bournemouth University": [
+      50.724645,
+      -1.8670953
+    ],
+    "East Sussex County Council": [
+      50.8680745,
+      0.0249074
+    ],
+    "Ericsson (United Kingdom)": [
+      52.3965637,
+      -1.483645
+    ],
+    "Silixa (United Kingdom)": [
+      51.6407937,
+      -0.3091966
+    ],
+    "Teddington Memorial Hospital": [
+      51.4259057,
+      -0.3409196
+    ],
+    "Seagate (United Kingdom)": [
+      55.0200595,
+      -7.3379835
+    ],
+    "Wrexham University": [
+      53.0534759,
+      -3.0047901
+    ],
+    "Building Research Establishment": [
+      51.7002366,
+      -0.3736938
+    ],
+    "Sci-Tech Daresbury": [
+      53.3434073,
+      -2.6398386
+    ],
+    "Centre for Sustainable Energy": [
+      54.3351624,
+      -7.6221767
+    ],
+    "Corner House": [
+      53.0592547,
+      -0.1105555
+    ],
+    "Ministry of Defence": [
+      51.5039966,
+      -0.1248561
+    ],
+    "University of the West of England": [
+      51.5007679,
+      -2.5503106
+    ],
+    "Norwich Research Park": [
+      52.6217619,
+      1.2190376
+    ],
+    "Nokia (United Kingdom)": [
+      51.6084004,
+      -0.4981667
+    ],
+    "Rolls-Royce (United Kingdom)": [
+      52.9095168,
+      -1.4349782
+    ],
+    "Oxford Instruments (United Kingdom)": [
+      51.6952315,
+      -1.3533124
+    ]
+  },
+  "grant_orgs": {
+    "ADVANCETE LIMITED": [
+      51.316911,
+      0.122447
+    ],
+    "AEGIQ LTD": [
+      53.377561,
+      -1.467876
+    ],
+    "ALTER TECHNOLOGY TUV NORD UK LIMITED": [
+      55.879275,
+      -3.532678
+    ],
+    "ARALIA SYSTEMS LIMITED": [
+      51.337878,
+      1.403088
+    ],
+    "ASTON UNIVERSITY": [
+      52.4861905,
+      -1.8884689
+    ],
+    "AXENIC LIMITED": [
+      54.67032,
+      -1.451383
+    ],
+    "Aberystwyth University": [
+      52.4155496,
+      -4.0650542
+    ],
+    "Advanced Material Development": [
+      51.285092,
+      -0.758987
+    ],
+    "Anglia Ruskin University": [
+      52.2033882,
+      0.1350226
+    ],
+    "Aston University": [
+      52.4861905,
+      -1.8884689
+    ],
+    "BRANSCAN LIMITED": [
+      52.470315,
+      -2.039653
+    ],
+    "BRITISH TELECOMMUNICATIONS PUBLIC LIMITED COMPANY": [
+      51.513987,
+      -0.072474
+    ],
+    "BRUNEL UNIVERSITY LONDON": [
+      51.5326092,
+      -0.4740499
+    ],
+    "Bangor University": [
+      53.2300234,
+      -4.130082
+    ],
+    "Brunel University London": [
+      51.5326092,
+      -0.4740499
+    ],
+    "CARDIFF UNIVERSITY": [
+      51.4887426,
+      -3.1795999
+    ],
+    "CCI PHOTONICS LIMITED": [
+      53.34342,
+      -2.641206
+    ],
+    "COLDQUANTA UK LIMITED": [
+      52.275375,
+      -1.563759
+    ],
+    "COVENTRY UNIVERSITY": [
+      52.4056372,
+      -1.4997223
+    ],
+    "CPI TMD TECHNOLOGIES LIMITED": [
+      51.50718,
+      -0.434946
+    ],
+    "CRAFT PROSPECT LTD": [
+      55.860122,
+      -4.255461
+    ],
+    "CRANFIELD UNIVERSITY": [
+      52.0701329,
+      -0.6287023
+    ],
+    "DELTA G LIMITED": [
+      52.453555,
+      -1.93332
+    ],
+    "DESIGN LED PRODUCTS LIMITED": [
+      55.872585,
+      -3.548765
+    ],
+    "DIGITAL PROJECTION LIMITED": [
+      53.532183,
+      -2.168839
+    ],
+    "DUALITY QUANTUM PHOTONICS": [
+      51.45536,
+      -2.606683
+    ],
+    "DURHAM UNIVERSITY": [
+      54.7672268,
+      -1.5721956
+    ],
+    "Durham University": [
+      54.7672268,
+      -1.5721956
+    ],
+    "EFFECT PHOTONICS LTD": [
+      50.487766,
+      -3.5528
+    ],
+    "ELFORLIGHT LIMITED": [
+      50.531844,
+      -3.599357
+    ],
+    "FRAUNHOFER UK RESEARCH LIMITED": [
+      55.860726,
+      -4.24407
+    ],
+    "GARDIN LTD": [
+      51.621236,
+      -1.293956
+    ],
+    "GOOCH & HOUSEGO (TORQUAY) LIMITED": [
+      50.916624,
+      -2.914079
+    ],
+    "HERIOT-WATT UNIVERSITY": [
+      55.9102959,
+      -3.3234475
+    ],
+    "HILIGHT SEMICONDUCTOR LIMITED": [
+      50.828473,
+      -0.177611
+    ],
+    "HUBER+SUHNER POLATIS LIMITED": [
+      52.23396,
+      0.142344
+    ],
+    "Harper Adams University": [
+      52.7802598,
+      -2.4322512
+    ],
+    "Hartley Ultrafast Ltd": [
+      51.443326,
+      -2.567905
+    ],
+    "Heriot-Watt University": [
+      55.9102959,
+      -3.3234475
+    ],
+    "ICAM ENGINEERING LTD.": [
+      53.220379,
+      -3.05347
+    ],
+    "IMPERIAL COLLEGE LONDON": [
+      51.4989595,
+      -0.1756407
+    ],
+    "IS-INSTRUMENTS LIMITED": [
+      51.193909,
+      0.278324
+    ],
+    "Imperial College London": [
+      51.4989595,
+      -0.1756407
+    ],
+    "John Innes Centre": [
+      51.4156843,
+      -0.195948
+    ],
+    "KENTECH INSTRUMENTS LIMITED": [
+      51.606564,
+      -1.110212
+    ],
+    "KETS Quantum Security Ltd": [
+      51.473933,
+      -2.490276
+    ],
+    "KING'S COLLEGE LONDON": [
+      51.5030855,
+      -0.0900021
+    ],
+    "Keele University": [
+      53.0016756,
+      -2.2706942
+    ],
+    "King's College London": [
+      51.5030855,
+      -0.0900021
+    ],
+    "LANCASTER UNIVERSITY": [
+      54.0098429,
+      -2.7875768
+    ],
+    "LIGHT TRACE PHOTONICS LTD": [
+      51.451817,
+      -2.599786
+    ],
+    "LUMPI LIMITED": [
+      52.126866,
+      -0.215227
+    ],
+    "Lancaster University": [
+      54.0098429,
+      -2.7875768
+    ],
+    "Liverpool John Moores University": [
+      53.4037508,
+      -2.9726752
+    ],
+    "Loughborough University": [
+      52.763845,
+      -1.2372582
+    ],
+    "NANOCO TECHNOLOGIES LIMITED": [
+      53.324698,
+      -2.732899
+    ],
+    "NATIONAL OCEANOGRAPHY CENTRE": [
+      50.8926271,
+      -1.3947018
+    ],
+    "NU QUANTUM LTD": [
+      52.20885,
+      0.090463
+    ],
+    "Newcastle University": [
+      54.9801751,
+      -1.6146802
+    ],
+    "Northumbria University": [
+      54.9787691,
+      -1.6096401
+    ],
+    "Nottingham Trent University": [
+      52.91164,
+      -1.1866048
+    ],
+    "OPTALYSYS LTD": [
+      53.794881,
+      -1.546626
+    ],
+    "ORIOLE NETWORKS LTD": [
+      51.522091,
+      -0.087426
+    ],
+    "OXFORD HEALTHTECH LTD.": [
+      51.406852,
+      -1.33336
+    ],
+    "OXFORD IONICS LIMITED": [
+      51.828737,
+      -1.311526
+    ],
+    "PHLUX TECHNOLOGY LTD": [
+      53.383642,
+      -1.472942
+    ],
+    "PHOENIX PHOTONICS LIMITED": [
+      51.35379,
+      1.253086
+    ],
+    "PHOTARIX LTD": [
+      54.010677,
+      -2.785597
+    ],
+    "POLYPHOTONIX LIMITED": [
+      54.669577,
+      -1.451842
+    ],
+    "PORO TECHNOLOGIES LTD": [
+      52.251611,
+      0.134434
+    ],
+    "PRIOR SCIENTIFIC INSTRUMENTS LIMITED": [
+      52.188843,
+      0.227079
+    ],
+    "QLM TECHNOLOGY LTD": [
+      51.527712,
+      -3.083167
+    ],
+    "QUANTOPTICON LTD.": [
+      51.247265,
+      -0.607655
+    ],
+    "QUANTUM DICE LIMITED": [
+      51.777778,
+      -1.264613
+    ],
+    "QUANTUM SCIENCE LTD": [
+      53.344134,
+      -2.637086
+    ],
+    "QUEEN MARY UNIVERSITY OF LONDON": [
+      51.5247403,
+      -0.0393136
+    ],
+    "Queen Mary University of London": [
+      51.5247403,
+      -0.0393136
+    ],
+    "Queen's University Belfast": [
+      54.5842881,
+      -5.9336562
+    ],
+    "RIVERLANE LTD": [
+      52.20471,
+      0.122891
+    ],
+    "Royal Holloway University of London": [
+      51.4244496,
+      -0.5642561
+    ],
+    "SALIENCE LABS LTD": [
+      51.745399,
+      -0.974026
+    ],
+    "SENKO ADVANCED COMPONENTS (EURO) LIMITED": [
+      51.276868,
+      -1.070919
+    ],
+    "SENSORHUT LTD": [
+      52.244997,
+      0.108173
+    ],
+    "SILOTON LIMITED": [
+      51.521673,
+      -0.143705
+    ],
+    "SIVERS PHOTONICS LIMITED": [
+      55.950643,
+      -3.208593
+    ],
+    "SMARTIR LIMITED": [
+      53.419306,
+      -2.304806
+    ],
+    "SOLARIS PHOTONICS LTD": [
+      52.234909,
+      0.153433
+    ],
+    "SONARDYNE INTERNATIONAL LIMITED": [
+      51.330578,
+      -0.835444
+    ],
+    "SPACECHIPS LTD": [
+      51.812306,
+      -0.335686
+    ],
+    "SPECTROSENSE LTD": [
+      51.517946,
+      -0.205259
+    ],
+    "SWANSEA UNIVERSITY": [
+      51.6192545,
+      -3.8792745
+    ],
+    "SYNAPTEC LTD": [
+      55.858356,
+      -4.263013
+    ],
+    "School of Pharmacy": [
+      54.5864055,
+      -5.9432335
+    ],
+    "Swansea University": [
+      51.6080596,
+      -3.9773969
+    ],
+    "TEER COATINGS LIMITED": [
+      51.504235,
+      -0.091517
+    ],
+    "TERAVIEW LIMITED": [
+      52.289315,
+      0.173328
+    ],
+    "THALES UK LIMITED": [
+      51.423146,
+      -0.994115
+    ],
+    "TRUMPF LASER UK LIMITED": [
+      50.926709,
+      -1.31454
+    ],
+    "The Open University": [
+      52.0245378,
+      -0.7092748
+    ],
+    "UNIVERSITY COLLEGE LONDON": [
+      51.5242031,
+      -0.1330007
+    ],
+    "UNIVERSITY OF BATH": [
+      51.3766938,
+      -2.3234206
+    ],
+    "UNIVERSITY OF BIRMINGHAM": [
+      52.4522956,
+      -1.9312857
+    ],
+    "UNIVERSITY OF BRISTOL": [
+      51.4905582,
+      -2.6304825
+    ],
+    "UNIVERSITY OF CAMBRIDGE": [
+      52.2109456,
+      0.092005
+    ],
+    "UNIVERSITY OF EAST ANGLIA": [
+      52.6210623,
+      1.2356187
+    ],
+    "UNIVERSITY OF EDINBURGH": [
+      55.9440765,
+      -3.1883736
+    ],
+    "UNIVERSITY OF ESSEX": [
+      51.8773639,
+      0.9498751
+    ],
+    "UNIVERSITY OF EXETER": [
+      50.1701604,
+      -5.1241802
+    ],
+    "UNIVERSITY OF GLASGOW": [
+      55.871666,
+      -4.2778997
+    ],
+    "UNIVERSITY OF LEEDS": [
+      53.8057925,
+      -1.555111
+    ],
+    "UNIVERSITY OF LIVERPOOL": [
+      53.4072429,
+      -2.9658337
+    ],
+    "UNIVERSITY OF MANCHESTER": [
+      53.4660226,
+      -2.2330858
+    ],
+    "UNIVERSITY OF NOTTINGHAM": [
+      52.9387428,
+      -1.2002957
+    ],
+    "UNIVERSITY OF OXFORD": [
+      51.7525461,
+      -1.21433
+    ],
+    "UNIVERSITY OF READING": [
+      51.4404358,
+      -0.9417618
+    ],
+    "UNIVERSITY OF SHEFFIELD": [
+      53.3729622,
+      -1.5059315
+    ],
+    "UNIVERSITY OF SOUTHAMPTON": [
+      50.9617568,
+      -1.4239975
+    ],
+    "UNIVERSITY OF ST ANDREWS": [
+      56.3398554,
+      -2.8117775
+    ],
+    "UNIVERSITY OF STRATHCLYDE": [
+      55.8618812,
+      -4.2419566
+    ],
+    "UNIVERSITY OF THE WEST OF SCOTLAND": [
+      51.5100436,
+      -0.0047661
+    ],
+    "UNIVERSITY OF WARWICK": [
+      52.3813073,
+      -1.5639569
+    ],
+    "University College London": [
+      51.5242031,
+      -0.1330007
+    ],
+    "University of Bath": [
+      51.3766938,
+      -2.3234206
+    ],
+    "University of Birmingham": [
+      52.4522956,
+      -1.9312857
+    ],
+    "University of Brighton": [
+      50.8278078,
+      -0.1341983
+    ],
+    "University of Bristol": [
+      51.4905582,
+      -2.6304825
+    ],
+    "University of Cambridge": [
+      52.2109456,
+      0.092005
+    ],
+    "University of Dundee": [
+      56.4579676,
+      -2.9821483
+    ],
+    "University of East Anglia": [
+      52.6210623,
+      1.2356187
+    ],
+    "University of Edinburgh": [
+      55.9440765,
+      -3.1883736
+    ],
+    "University of Essex": [
+      51.8773639,
+      0.9498751
+    ],
+    "University of Glasgow": [
+      55.871666,
+      -4.2778997
+    ],
+    "University of Huddersfield": [
+      53.6429919,
+      -1.7780783
+    ],
+    "University of Hull": [
+      53.7732507,
+      -0.3670415
+    ],
+    "University of Kent": [
+      51.2950874,
+      1.0673313
+    ],
+    "University of Lancashire": [
+      53.7643905,
+      -2.7086535
+    ],
+    "University of Leeds": [
+      53.8057925,
+      -1.555111
+    ],
+    "University of Leicester": [
+      52.6205879,
+      -1.109923
+    ],
+    "University of Lincoln": [
+      53.2263804,
+      -0.5461286
+    ],
+    "University of Liverpool": [
+      53.4072429,
+      -2.9658337
+    ],
+    "University of Manchester": [
+      53.4660226,
+      -2.2330858
+    ],
+    "University of Nottingham": [
+      52.9387428,
+      -1.2002957
+    ],
+    "University of Salford": [
+      53.4732203,
+      -2.2970993
+    ],
+    "University of Sheffield": [
+      53.3729622,
+      -1.5059315
+    ],
+    "University of Southampton": [
+      50.9617568,
+      -1.4239975
+    ],
+    "University of St Andrews": [
+      56.3398554,
+      -2.8117775
+    ],
+    "University of Strathclyde": [
+      55.8618812,
+      -4.2419566
+    ],
+    "University of Surrey": [
+      51.2430782,
+      -0.5900545
+    ],
+    "University of Sussex": [
+      50.8674377,
+      -0.0877259
+    ],
+    "University of Ulster": [
+      55.148773,
+      -6.6782594
+    ],
+    "University of Warwick": [
+      52.3813073,
+      -1.5639569
+    ],
+    "University of York": [
+      53.9453903,
+      -1.0314593
+    ],
+    "University of the West of Scotland": [
+      51.5100436,
+      -0.0047661
+    ],
+    "VECTOR PHOTONICS LIMITED": [
+      55.901137,
+      -4.312744
+    ],
+    "WAVE PHOTONICS LTD": [
+      52.218379,
+      -0.070422
+    ],
+    "WE CARE 4 AIR LIMITED": [
+      51.794887,
+      0.301908
+    ],
+    "ZINIR LIMITED": [
+      50.772316,
+      0.294851
+    ]
+  }
+}

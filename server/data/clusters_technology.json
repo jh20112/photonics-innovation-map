@@ -1,0 +1,2960 @@
+{
+  "clusters": [
+    {
+      "id": 0,
+      "label": "Melton Photonics Cluster",
+      "colour": "#e6194b",
+      "member_count": 8,
+      "boundary": [
+        [
+          52.234909,
+          0.153433
+        ],
+        [
+          51.521673,
+          -0.143705
+        ],
+        [
+          51.80421,
+          -1.299644
+        ],
+        [
+          55.24782,
+          -4.856319
+        ],
+        [
+          54.909265,
+          -1.486853
+        ],
+        [
+          52.234909,
+          0.153433
+        ]
+      ],
+      "centroid": [
+        52.737614125,
+        -0.974593125
+      ],
+      "summary": {
+        "dominant_sector": "Photonics",
+        "region": "Midlands",
+        "total_employees": 166,
+        "total_patents": 3,
+        "total_grants": 15,
+        "total_funding_gbp": 914604.0,
+        "top_companies": [
+          "OXFORD PHOTOVOLTAICS LIMITED",
+          "POWER ROLL LIMITED",
+          "POLYSOLAR LIMITED",
+          "LAMBDA ENERGY LTD",
+          "SOLARIS PHOTONICS LTD"
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "label": "Cheshire East Photonics Cluster",
+      "colour": "#3cb44b",
+      "member_count": 10,
+      "boundary": [
+        [
+          50.790313,
+          -2.983416
+        ],
+        [
+          54.640101,
+          -6.296631
+        ],
+        [
+          55.862095,
+          -4.253227
+        ],
+        [
+          55.952276,
+          -3.20613
+        ],
+        [
+          51.504235,
+          -0.091517
+        ],
+        [
+          50.790313,
+          -2.983416
+        ]
+      ],
+      "centroid": [
+        53.0911293,
+        -2.557253
+      ],
+      "summary": {
+        "dominant_sector": "Photonics",
+        "region": "Midlands",
+        "total_employees": 93,
+        "total_patents": 1,
+        "total_grants": 11,
+        "total_funding_gbp": 0,
+        "top_companies": [
+          "SIME DIAGNOSTICS LIMITED",
+          "MOOR INSTRUMENTS LIMITED",
+          "LIGHTPOINT MEDICAL LTD",
+          "MICHELSON DIAGNOSTICS LTD",
+          "CAUSEWAY SENSORS LIMITED"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "label": "Stratford-on-Avon Photonics Cluster",
+      "colour": "#4363d8",
+      "member_count": 10,
+      "boundary": [
+        [
+          52.148249,
+          -4.056372
+        ],
+        [
+          55.872598,
+          -4.285582
+        ],
+        [
+          51.530436,
+          -0.101249
+        ],
+        [
+          50.772316,
+          0.294851
+        ],
+        [
+          51.188589,
+          -2.475849
+        ],
+        [
+          52.148249,
+          -4.056372
+        ]
+      ],
+      "centroid": [
+        52.13184210000001,
+        -1.7160079
+      ],
+      "summary": {
+        "dominant_sector": "Semiconductors",
+        "region": "South England",
+        "total_employees": 20,
+        "total_patents": 0,
+        "total_grants": 19,
+        "total_funding_gbp": 5000.0,
+        "top_companies": [
+          "SEMIWISE LIMITED",
+          "QUANTEMOL LIMITED",
+          "ZINIR LIMITED",
+          "ABER PHOTONICS LIMITED",
+          "PHOTON DESIGN LTD"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "label": "Torfaen Photonics Cluster",
+      "colour": "#f58231",
+      "member_count": 9,
+      "boundary": [
+        [
+          52.277989,
+          -1.521185
+        ],
+        [
+          51.031896,
+          -2.275901
+        ],
+        [
+          51.530931,
+          -3.087987
+        ],
+        [
+          52.148249,
+          -4.056372
+        ],
+        [
+          52.277989,
+          -1.521185
+        ]
+      ],
+      "centroid": [
+        51.695670888888884,
+        -3.0388627777777777
+      ],
+      "summary": {
+        "dominant_sector": "Semiconductors",
+        "region": "Wales",
+        "total_employees": 449,
+        "total_patents": 0,
+        "total_grants": 14,
+        "total_funding_gbp": 0,
+        "top_companies": [
+          "IQE PLC",
+          "Compound Semiconductor Centre",
+          "ADVANCED EPI MATERIALS AND DEVICES LTD",
+          "ABER PHOTONICS LIMITED",
+          "ABER PHOTONICS LIMITED"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "label": "Staffordshire Moorlands Photonics Cluster",
+      "colour": "#911eb4",
+      "member_count": 8,
+      "boundary": [
+        [
+          54.631956,
+          -5.893791
+        ],
+        [
+          57.144909,
+          -2.108561
+        ],
+        [
+          51.640798,
+          -0.309239
+        ],
+        [
+          50.87453,
+          -1.350042
+        ],
+        [
+          51.480134,
+          -2.689338
+        ],
+        [
+          54.631956,
+          -5.893791
+        ]
+      ],
+      "centroid": [
+        52.97667325,
+        -1.999746
+      ],
+      "summary": {
+        "dominant_sector": "Photonics",
+        "region": "Midlands",
+        "total_employees": 140,
+        "total_patents": 8,
+        "total_grants": 5,
+        "total_funding_gbp": 24975.0,
+        "top_companies": [
+          "SILIXA LTD",
+          "WELL-SENSE TECHNOLOGY LIMITED",
+          "INOV8 SYSTEMS LIMITED",
+          "FOCUS SENSORS LIMITED",
+          "WIKA OPTICAL SENSING LIMITED"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "label": "Stafford Photonics Cluster",
+      "colour": "#42d4f4",
+      "member_count": 5,
+      "boundary": [
+        [
+          51.884148,
+          -0.377946
+        ],
+        [
+          50.926709,
+          -1.31454
+        ],
+        [
+          53.252387,
+          -3.478568
+        ],
+        [
+          56.119419,
+          -3.908648
+        ],
+        [
+          51.884148,
+          -0.377946
+        ]
+      ],
+      "centroid": [
+        52.879780000000004,
+        -2.2530930000000002
+      ],
+      "summary": {
+        "dominant_sector": "Photonics",
+        "region": "Midlands",
+        "total_employees": 364,
+        "total_patents": 0,
+        "total_grants": 10,
+        "total_funding_gbp": 265000.0,
+        "top_companies": [
+          "YAMAZAKI MAZAK U.K. LIMITED",
+          "LASER MICROMACHINING LIMITED",
+          "Caledonian Photonics",
+          "TRUMPF LASER UK LIMITED",
+          "TRUMPF LIMITED"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "label": "Rugby Photonics Cluster",
+      "colour": "#f032e6",
+      "member_count": 6,
+      "boundary": [
+        [
+          51.629591,
+          -1.881475
+        ],
+        [
+          55.919459,
+          -4.457643
+        ],
+        [
+          53.809633,
+          -1.57444
+        ],
+        [
+          50.877696,
+          0.528249
+        ],
+        [
+          51.278006,
+          -0.959198
+        ],
+        [
+          51.629591,
+          -1.881475
+        ]
+      ],
+      "centroid": [
+        52.39868016666667,
+        -1.3027096666666667
+      ],
+      "summary": {
+        "dominant_sector": "Semiconductors",
+        "region": "South England",
+        "total_employees": 10,
+        "total_patents": 0,
+        "total_grants": 13,
+        "total_funding_gbp": 0,
+        "top_companies": [
+          "PLASMA QUEST LIMITED",
+          "LOADPOINT LIMITED",
+          "LOGITECH LIMITED",
+          "EV GROUP LIMITED",
+          "KURT J. LESKER COMPANY LIMITED"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "label": "Central Bedfordshire Photonics Cluster",
+      "colour": "#bfef45",
+      "member_count": 14,
+      "boundary": [
+        [
+          53.353887,
+          -2.870402
+        ],
+        [
+          55.43548,
+          -2.753655
+        ],
+        [
+          52.23539,
+          0.145328
+        ],
+        [
+          51.750095,
+          0.517622
+        ],
+        [
+          50.791318,
+          0.298619
+        ],
+        [
+          51.213941,
+          -1.510979
+        ],
+        [
+          53.353887,
+          -2.870402
+        ]
+      ],
+      "centroid": [
+        51.93266907142857,
+        -0.47592885714285715
+      ],
+      "summary": {
+        "dominant_sector": "Telecommunications",
+        "region": "South England",
+        "total_employees": 921,
+        "total_patents": 45,
+        "total_grants": 3,
+        "total_funding_gbp": 0,
+        "top_companies": [
+          "EMTELLE UK LIMITED",
+          "TECHNETIX LIMITED",
+          "HUBER+SUHNER POLATIS LIMITED",
+          "LANDWAYS LIMITED",
+          "BULGIN LIMITED"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "label": "West Northamptonshire Photonics Cluster",
+      "colour": "#fabed4",
+      "member_count": 5,
+      "boundary": [
+        [
+          52.23396,
+          0.142344
+        ],
+        [
+          51.35379,
+          1.253086
+        ],
+        [
+          51.905104,
+          -1.130201
+        ],
+        [
+          53.187908,
+          -3.057689
+        ],
+        [
+          52.23396,
+          0.142344
+        ]
+      ],
+      "centroid": [
+        52.373734,
+        -1.1700298
+      ],
+      "summary": {
+        "dominant_sector": "Photonics",
+        "region": "South England",
+        "total_employees": 151,
+        "total_patents": 0,
+        "total_grants": 26,
+        "total_funding_gbp": 533807.0,
+        "top_companies": [
+          "HUBER+SUHNER POLATIS LIMITED",
+          "PHOENIX PHOTONICS LIMITED",
+          "CORNING LIMITED",
+          "CORNING LIMITED",
+          "HUBER + SUHNER (UK) LIMITED"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "label": "Buckinghamshire Photonics Cluster",
+      "colour": "#469990",
+      "member_count": 9,
+      "boundary": [
+        [
+          51.276868,
+          -1.070919
+        ],
+        [
+          53.627966,
+          -2.770276
+        ],
+        [
+          51.597379,
+          0.239344
+        ],
+        [
+          51.513987,
+          -0.072474
+        ],
+        [
+          51.276868,
+          -1.070919
+        ]
+      ],
+      "centroid": [
+        51.87219544444444,
+        -0.6373582222222223
+      ],
+      "summary": {
+        "dominant_sector": "Photonics",
+        "region": "South England",
+        "total_employees": 0,
+        "total_patents": 2,
+        "total_grants": 9,
+        "total_funding_gbp": 112874.0,
+        "top_companies": [
+          "BRITISH TELECOMMUNICATIONS PUBLIC LIMITED COMPANY",
+          "AFL TELECOMMUNICATIONS HOLDINGS UK LIMITED",
+          "AFL TELECOMMUNICATIONS HOLDINGS UK LIMITED",
+          "AP OPTICAL NETWORKING LTD",
+          "AALYRIA TECHNOLOGIES (UK) LIMITED"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "label": "Nuneaton and Bedworth Photonics Cluster",
+      "colour": "#dcbeff",
+      "member_count": 17,
+      "boundary": [
+        [
+          50.916624,
+          -2.914079
+        ],
+        [
+          55.861447,
+          -4.25426
+        ],
+        [
+          52.588913,
+          -0.226977
+        ],
+        [
+          52.222672,
+          -0.074482
+        ],
+        [
+          51.514897,
+          -0.123615
+        ],
+        [
+          51.014493,
+          -0.449402
+        ],
+        [
+          50.916624,
+          -2.914079
+        ]
+      ],
+      "centroid": [
+        52.47305370588236,
+        -1.5289702352941177
+      ],
+      "summary": {
+        "dominant_sector": "Photonics",
+        "region": "South England",
+        "total_employees": 2321,
+        "total_patents": 1,
+        "total_grants": 28,
+        "total_funding_gbp": 735000.0,
+        "top_companies": [
+          "MALVERN PANALYTICAL LIMITED",
+          "GOOCH & HOUSEGO PLC",
+          "RELIANCE PRECISION LIMITED",
+          "FARADAY SCIENTIFIC LIMITED",
+          "REDLUX LIMITED"
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "label": "East Hertfordshire Photonics Cluster",
+      "colour": "#9A6324",
+      "member_count": 5,
+      "boundary": [
+        [
+          51.828737,
+          -1.311526
+        ],
+        [
+          52.20471,
+          0.122891
+        ],
+        [
+          51.9255402,
+          1.1081236
+        ],
+        [
+          51.51827,
+          -0.110187
+        ],
+        [
+          51.520224,
+          -0.136802
+        ],
+        [
+          51.828737,
+          -1.311526
+        ]
+      ],
+      "centroid": [
+        51.799496239999996,
+        -0.06550007999999997
+      ],
+      "summary": {
+        "dominant_sector": "Photonics",
+        "region": "South England",
+        "total_employees": 930,
+        "total_patents": 159,
+        "total_grants": 9,
+        "total_funding_gbp": 0,
+        "top_companies": [
+          "QUANTINUUM LTD",
+          "RIVERLANE LTD",
+          "OXFORD IONICS LIMITED",
+          "PHASECRAFT LIMITED",
+          "RIGETTI UK LIMITED"
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "label": "North West Leicestershire Photonics Cluster",
+      "colour": "#800000",
+      "member_count": 14,
+      "boundary": [
+        [
+          56.048541,
+          -3.427913
+        ],
+        [
+          54.669577,
+          -1.451842
+        ],
+        [
+          52.23424,
+          0.139795
+        ],
+        [
+          51.508409,
+          0.008035
+        ],
+        [
+          50.856428,
+          -1.327875
+        ],
+        [
+          51.855487,
+          -2.233073
+        ],
+        [
+          56.002599,
+          -3.732083
+        ],
+        [
+          56.048541,
+          -3.427913
+        ]
+      ],
+      "centroid": [
+        52.68713964285714,
+        -1.3706703571428573
+      ],
+      "summary": {
+        "dominant_sector": "Photonics",
+        "region": "Midlands",
+        "total_employees": 1501,
+        "total_patents": 5259,
+        "total_grants": 10,
+        "total_funding_gbp": 0,
+        "top_companies": [
+          "Optos",
+          "Cambridge Display Technology",
+          "CAMBRIDGE MECHATRONICS LIMITED",
+          "ENVISICS LTD.",
+          "Infinitesima"
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "label": "West Oxfordshire Photonics Cluster",
+      "colour": "#aaffc3",
+      "member_count": 8,
+      "boundary": [
+        [
+          53.532183,
+          -2.168839
+        ],
+        [
+          52.386728,
+          0.22822
+        ],
+        [
+          52.188843,
+          0.227079
+        ],
+        [
+          51.248551,
+          -1.091392
+        ],
+        [
+          50.749393,
+          -1.942207
+        ],
+        [
+          50.916624,
+          -2.914079
+        ],
+        [
+          53.086074,
+          -2.429619
+        ],
+        [
+          53.532183,
+          -2.168839
+        ]
+      ],
+      "centroid": [
+        51.9455835,
+        -1.382126
+      ],
+      "summary": {
+        "dominant_sector": "Photonics",
+        "region": "South England",
+        "total_employees": 452,
+        "total_patents": 1,
+        "total_grants": 39,
+        "total_funding_gbp": 271055.0,
+        "top_companies": [
+          "GOOCH & HOUSEGO PLC",
+          "PRIOR SCIENTIFIC INSTRUMENTS LIMITED",
+          "ZBD DISPLAYS LIMITED",
+          "DIGITAL PROJECTION LIMITED",
+          "DE LA RUE INTERNATIONAL LIMITED."
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "label": "Cherwell Photonics Cluster",
+      "colour": "#808000",
+      "member_count": 5,
+      "boundary": [
+        [
+          51.517937,
+          -0.185974
+        ],
+        [
+          51.543566,
+          -1.810104
+        ],
+        [
+          53.573543,
+          -2.814682
+        ],
+        [
+          51.899404,
+          -0.216814
+        ],
+        [
+          51.517937,
+          -0.185974
+        ]
+      ],
+      "centroid": [
+        52.1174066,
+        -1.2723194
+      ],
+      "summary": {
+        "dominant_sector": "Photonics",
+        "region": "South England",
+        "total_employees": 73,
+        "total_patents": 0,
+        "total_grants": 10,
+        "total_funding_gbp": 0,
+        "top_companies": [
+          "HARKNESS SCREENS (UK) LIMITED",
+          "PHOTONICS ATELIER LIMITED",
+          "SMART OPTICS LTD",
+          "PILKINGTON GROUP LIMITED",
+          "PHOTON LINES LIMITED"
+        ]
+      }
+    }
+  ],
+  "assignments": [
+    {
+      "company_id": 1,
+      "company_name": "AXENIC LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 2,
+      "company_name": "SOREX SENSORS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 3,
+      "company_name": "LUMAI LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 4,
+      "company_name": "SALIENCE LABS LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 5,
+      "company_name": "BOSONQ PSI LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 6,
+      "company_name": "CCI PHOTONICS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 7,
+      "company_name": "RIGETTI UK LIMITED",
+      "cluster_id": 11
+    },
+    {
+      "company_id": 8,
+      "company_name": "QUANTOPTICON LTD.",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 9,
+      "company_name": "CRAFT PROSPECT LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 10,
+      "company_name": "KUBOS SEMICONDUCTORS LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 11,
+      "company_name": "PARAGRAF LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 12,
+      "company_name": "AEGIQ LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 13,
+      "company_name": "IPG PHOTONICS (UK) LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 14,
+      "company_name": "CAMBRIDGE RAMAN IMAGING LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 15,
+      "company_name": "PHASECRAFT LIMITED",
+      "cluster_id": 11
+    },
+    {
+      "company_id": 16,
+      "company_name": "ALPHASENSE TECHNOLOGY LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 17,
+      "company_name": "NANOCO GROUP PLC",
+      "cluster_id": 12
+    },
+    {
+      "company_id": 18,
+      "company_name": "POWERPHOTONIC LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 19,
+      "company_name": "SKYLARK LASERS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 20,
+      "company_name": "SECQAI LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 21,
+      "company_name": "INTRINSIC SEMICONDUCTOR TECHNOLOGIES LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 22,
+      "company_name": "OXFORD IONICS LIMITED",
+      "cluster_id": 11
+    },
+    {
+      "company_id": 23,
+      "company_name": "OCCUITY LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 24,
+      "company_name": "CRON AI LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 25,
+      "company_name": "ANB SENSORS LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 26,
+      "company_name": "PSIQUANTUM LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 27,
+      "company_name": "ODYSSEY THERAPEUTICS UK LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 28,
+      "company_name": "TREQ ENTERPRISES",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 29,
+      "company_name": "RIVERLANE LTD",
+      "cluster_id": 11
+    },
+    {
+      "company_id": 30,
+      "company_name": "ARQIT LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 31,
+      "company_name": "QUANTUM MOTION TECHNOLOGIES LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 32,
+      "company_name": "LIGHT TRACE PHOTONICS LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 33,
+      "company_name": "OPERATIONAL SOLUTIONS LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 34,
+      "company_name": "QUANTUM DICE LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 35,
+      "company_name": "METRARC LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 36,
+      "company_name": "NANUSENS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 37,
+      "company_name": "OXFORD QUANTUM CIRCUITS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 38,
+      "company_name": "SILOTON LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 39,
+      "company_name": "AQUARK TECHNOLOGIES LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 40,
+      "company_name": "ORCA COMPUTING LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 41,
+      "company_name": "PQSHIELD LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 42,
+      "company_name": "NU QUANTUM LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 43,
+      "company_name": "FOREFRONT RF LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 44,
+      "company_name": "VECTOR PHOTONICS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 45,
+      "company_name": "PHLUX TECHNOLOGY LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 46,
+      "company_name": "SINGULAR PHOTONICS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 47,
+      "company_name": "MILEXIA UK LTD.",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 48,
+      "company_name": "ICEMOS TECHNOLOGY LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 49,
+      "company_name": "ORIOLE NETWORKS LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 50,
+      "company_name": "EMBERION LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 51,
+      "company_name": "POLYPHOTONIX LIMITED",
+      "cluster_id": 12
+    },
+    {
+      "company_id": 52,
+      "company_name": "SILVERRAY LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 53,
+      "company_name": "COGNEX LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 54,
+      "company_name": "WAVE PHOTONICS LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 55,
+      "company_name": "QUANTINUUM LTD",
+      "cluster_id": 11
+    },
+    {
+      "company_id": 56,
+      "company_name": "OPTALYSYS LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 57,
+      "company_name": "PRAGMATIC SEMICONDUCTOR LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 58,
+      "company_name": "ARCHANGEL LIGHTWORKS LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 59,
+      "company_name": "QUANTUM FABRIX LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 60,
+      "company_name": "PORO TECHNOLOGIES LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 61,
+      "company_name": "QLM TECHNOLOGY LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 62,
+      "company_name": "SEEQC UK LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 63,
+      "company_name": "UNIVERSAL QUANTUM LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 64,
+      "company_name": "ROCKLEY PHOTONICS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 65,
+      "company_name": "CRYPTO QUANTIQUE LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 66,
+      "company_name": "CAMGRAPHIC LTD.",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 67,
+      "company_name": "OPSYDIA LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 68,
+      "company_name": "OXFORD PHOTOVOLTAICS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 69,
+      "company_name": "QUANTROLOX LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 70,
+      "company_name": "KETS QUANTUM SECURITY LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 71,
+      "company_name": "QUINAS TECHNOLOGY LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 72,
+      "company_name": "OLIX",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 73,
+      "company_name": "AssetCool",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 74,
+      "company_name": "Infinitesima",
+      "cluster_id": 12
+    },
+    {
+      "company_id": 75,
+      "company_name": "Helio Display Materials",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 76,
+      "company_name": "iLoF",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 77,
+      "company_name": "Living Optics",
+      "cluster_id": 12
+    },
+    {
+      "company_id": 79,
+      "company_name": "AllFocal Optics",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 81,
+      "company_name": "Advanced Material Development",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 82,
+      "company_name": "Callosum",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 83,
+      "company_name": "Cambridge Photon Technology",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 84,
+      "company_name": "NAAMA Studios",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 85,
+      "company_name": "Zero Point Motion",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 86,
+      "company_name": "Finchetto",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 87,
+      "company_name": "Compound Semiconductor Centre",
+      "cluster_id": 3
+    },
+    {
+      "company_id": 88,
+      "company_name": "Sentinel Photonics",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 89,
+      "company_name": "Oxford Lasers",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 90,
+      "company_name": "Metahelios",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 91,
+      "company_name": "Covesion",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 92,
+      "company_name": "AVoptics",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 93,
+      "company_name": "Wideblue",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 94,
+      "company_name": "Photonic Measurements",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 95,
+      "company_name": "Kelvin Nanotechnology",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 96,
+      "company_name": "Helia Photonics",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 97,
+      "company_name": "RedWave Labs",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 98,
+      "company_name": "Amethyst Research",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 99,
+      "company_name": "Duality Quantum Photonics",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 102,
+      "company_name": "Optek",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 103,
+      "company_name": "LumiAIres",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 104,
+      "company_name": "Photon Force",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 105,
+      "company_name": "Optos",
+      "cluster_id": 12
+    },
+    {
+      "company_id": 106,
+      "company_name": "Sengenia",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 107,
+      "company_name": "Fianium",
+      "cluster_id": 12
+    },
+    {
+      "company_id": 108,
+      "company_name": "Cambridge Display Technology",
+      "cluster_id": 12
+    },
+    {
+      "company_id": 110,
+      "company_name": "Pixel-Flo Ltd.",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 111,
+      "company_name": "Qontrol",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 113,
+      "company_name": "Integrated Compound Semiconductors",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 114,
+      "company_name": "Bay Photonics",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 116,
+      "company_name": "Watt Laser",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 117,
+      "company_name": "Resolute Photonics",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 118,
+      "company_name": "Caledonian Photonics",
+      "cluster_id": 5
+    },
+    {
+      "company_id": 119,
+      "company_name": "VF Photonix",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 121,
+      "company_name": "Phorest Diagnostics",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 124,
+      "company_name": "Stratium",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 129,
+      "company_name": "MicroLab Devices Ltd",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 130,
+      "company_name": "Bluebell Opticom",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 134,
+      "company_name": "TECHNICAL CONSUMER PRODUCTS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 135,
+      "company_name": "IBH Consultants",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 136,
+      "company_name": "Edinburgh Biosciences",
+      "cluster_id": 12
+    },
+    {
+      "company_id": 137,
+      "company_name": "OXFORD FIBER",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 138,
+      "company_name": "FRAUNHOFER UK RESEARCH LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 139,
+      "company_name": "NKT PHOTONICS HOLDING LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 140,
+      "company_name": "TRULIFE OPTICS LIMITED",
+      "cluster_id": 12
+    },
+    {
+      "company_id": 141,
+      "company_name": "PLESSEY SEMICONDUCTORS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 142,
+      "company_name": "ALTER TECHNOLOGY TUV NORD UK LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 143,
+      "company_name": "DESIGN LED PRODUCTS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 144,
+      "company_name": "SIVERS PHOTONICS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 145,
+      "company_name": "PHOENIX PHOTONICS LIMITED",
+      "cluster_id": 8
+    },
+    {
+      "company_id": 146,
+      "company_name": "SYNAPTEC LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 147,
+      "company_name": "QUANTUM SCIENCE LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 148,
+      "company_name": "HAMAMATSU PHOTONICS UK LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 149,
+      "company_name": "HILIGHT SEMICONDUCTOR LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 150,
+      "company_name": "COLDQUANTA UK LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 151,
+      "company_name": "GOOCH & HOUSEGO (TORQUAY) LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 152,
+      "company_name": "SOLARIS PHOTONICS LTD",
+      "cluster_id": 0
+    },
+    {
+      "company_id": 153,
+      "company_name": "CPI TMD TECHNOLOGIES LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 154,
+      "company_name": "SONARDYNE INTERNATIONAL LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 155,
+      "company_name": "WIKA OPTICAL SENSING LIMITED",
+      "cluster_id": 4
+    },
+    {
+      "company_id": 156,
+      "company_name": "SENSORHUT LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 157,
+      "company_name": "EFFECT PHOTONICS LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 158,
+      "company_name": "ALKER FIBRE OPTIC SPECIALISTS LIMITED",
+      "cluster_id": 7
+    },
+    {
+      "company_id": 159,
+      "company_name": "QUIX QUANTUM LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 160,
+      "company_name": "HAMAMATSU PHOTONICS UK LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 161,
+      "company_name": "APPLIED PHOTONICS LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 162,
+      "company_name": "TOPTICA PHOTONICS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 163,
+      "company_name": "HARTLEY ULTRAFAST LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 164,
+      "company_name": "PHOTONICS TECHNOLOGIES LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 165,
+      "company_name": "KENTECH INSTRUMENTS LIMITED",
+      "cluster_id": 10
+    },
+    {
+      "company_id": 166,
+      "company_name": "ICAM ENGINEERING LTD.",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 167,
+      "company_name": "LUMPI LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 168,
+      "company_name": "ABER PHOTONICS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 169,
+      "company_name": "PHOTARIX LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 170,
+      "company_name": "SPECTROSENSE LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 171,
+      "company_name": "TRUMPF LASER UK LIMITED",
+      "cluster_id": 5
+    },
+    {
+      "company_id": 172,
+      "company_name": "ABER PHOTONICS LIMITED",
+      "cluster_id": 3
+    },
+    {
+      "company_id": 173,
+      "company_name": "ABER PHOTONICS LIMITED",
+      "cluster_id": 3
+    },
+    {
+      "company_id": 174,
+      "company_name": "ABER PHOTONICS LIMITED",
+      "cluster_id": 2
+    },
+    {
+      "company_id": 175,
+      "company_name": "QUANTUM ADVANCED SOLUTIONS LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 176,
+      "company_name": "ELEMENTAL SCIENTIFIC INSTRUMENTS, LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 177,
+      "company_name": "NEW SPACE OPTICS LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 178,
+      "company_name": "COOLLED LIMITED",
+      "cluster_id": 1
+    },
+    {
+      "company_id": 179,
+      "company_name": "ABER PHOTONICS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 180,
+      "company_name": "APPLIED PHOTONICS LTD",
+      "cluster_id": 10
+    },
+    {
+      "company_id": 181,
+      "company_name": "PHOTONICS ATELIER LIMITED",
+      "cluster_id": 14
+    },
+    {
+      "company_id": 182,
+      "company_name": "HAMAMATSU PHOTONICS UK LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 183,
+      "company_name": "ENVISICS LTD.",
+      "cluster_id": 12
+    },
+    {
+      "company_id": 184,
+      "company_name": "CAMBRIDGE MECHATRONICS LIMITED",
+      "cluster_id": 12
+    },
+    {
+      "company_id": 185,
+      "company_name": "BAE SYSTEMS PLC",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 186,
+      "company_name": "SUMITOMO CHEMICAL (UK) LTD",
+      "cluster_id": 12
+    },
+    {
+      "company_id": 187,
+      "company_name": "THALES UK LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 188,
+      "company_name": "IQE PLC",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 190,
+      "company_name": "GOOCH & HOUSEGO PLC",
+      "cluster_id": 13
+    },
+    {
+      "company_id": 191,
+      "company_name": "LEONARDO UK LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 192,
+      "company_name": "COHERENT SCOTLAND LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 193,
+      "company_name": "INNERSCENE LIMITED",
+      "cluster_id": 12
+    },
+    {
+      "company_id": 194,
+      "company_name": "HUBER+SUHNER POLATIS LIMITED",
+      "cluster_id": 7
+    },
+    {
+      "company_id": 195,
+      "company_name": "QIOPTIQ LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 196,
+      "company_name": "VIVIDQ LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 197,
+      "company_name": "PURELIFI LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 198,
+      "company_name": "SENKO ADVANCED COMPONENTS (EURO) LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 199,
+      "company_name": "EMTELLE UK LIMITED",
+      "cluster_id": 7
+    },
+    {
+      "company_id": 200,
+      "company_name": "DUALITAS LTD.",
+      "cluster_id": 12
+    },
+    {
+      "company_id": 201,
+      "company_name": "NETWORK INTEGRITY SERVICES LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 202,
+      "company_name": "ZINWAVE LIMITED",
+      "cluster_id": 7
+    },
+    {
+      "company_id": 203,
+      "company_name": "RUSHMERE TECHNOLOGY LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 204,
+      "company_name": "LEONARDO MW LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 205,
+      "company_name": "FURUKAWA ELECTRIC EUROPE LTD",
+      "cluster_id": 7
+    },
+    {
+      "company_id": 206,
+      "company_name": "RIDGEMOUNT LIMITED",
+      "cluster_id": 7
+    },
+    {
+      "company_id": 207,
+      "company_name": "ISC INSTRUMENTS LTD",
+      "cluster_id": 10
+    },
+    {
+      "company_id": 208,
+      "company_name": "MBDA UK LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 209,
+      "company_name": "ELEMENT SIX LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 210,
+      "company_name": "FLEXENABLE TECHNOLOGY LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 211,
+      "company_name": "BEIJING JAYA TECHNOLOGY (UK) CO., LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 212,
+      "company_name": "LEVITON MANUFACTURING UK LIMITED",
+      "cluster_id": 7
+    },
+    {
+      "company_id": 213,
+      "company_name": "PREFORMED LINE PRODUCTS (GREAT BRITAIN) LIMITED",
+      "cluster_id": 7
+    },
+    {
+      "company_id": 214,
+      "company_name": "BULGIN LIMITED",
+      "cluster_id": 7
+    },
+    {
+      "company_id": 215,
+      "company_name": "PHOTONIC SOLUTIONS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 216,
+      "company_name": "GLOBAL MARINE SYSTEMS LIMITED",
+      "cluster_id": 7
+    },
+    {
+      "company_id": 217,
+      "company_name": "ANDOR TECHNOLOGY LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 218,
+      "company_name": "LANDWAYS LIMITED",
+      "cluster_id": 7
+    },
+    {
+      "company_id": 219,
+      "company_name": "UNIPHY LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 220,
+      "company_name": "UNIGEL LIMITED",
+      "cluster_id": 7
+    },
+    {
+      "company_id": 221,
+      "company_name": "CCL SECURE LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 222,
+      "company_name": "CARL ZEISS LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 223,
+      "company_name": "POLYSOLAR LIMITED",
+      "cluster_id": 0
+    },
+    {
+      "company_id": 224,
+      "company_name": "AIRBUS DEFENCE AND SPACE LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 225,
+      "company_name": "OPTOMED LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 226,
+      "company_name": "OPTASENSE HOLDINGS LIMITED",
+      "cluster_id": 4
+    },
+    {
+      "company_id": 227,
+      "company_name": "THERMOTEKNIX SYSTEMS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 228,
+      "company_name": "TECHNETIX LIMITED",
+      "cluster_id": 7
+    },
+    {
+      "company_id": 229,
+      "company_name": "C-KORE SYSTEMS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 230,
+      "company_name": "THORN LIGHTING LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 231,
+      "company_name": "HELLERMANNTYTON DATA LIMITED",
+      "cluster_id": 7
+    },
+    {
+      "company_id": 232,
+      "company_name": "FOCUS SENSORS LIMITED",
+      "cluster_id": 4
+    },
+    {
+      "company_id": 233,
+      "company_name": "SCINTACOR LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 234,
+      "company_name": "ZINIR LIMITED",
+      "cluster_id": 2
+    },
+    {
+      "company_id": 235,
+      "company_name": "DIGITAL PROJECTION LIMITED",
+      "cluster_id": 13
+    },
+    {
+      "company_id": 236,
+      "company_name": "GARDIN LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 237,
+      "company_name": "BRITISH TELECOMMUNICATIONS PUBLIC LIMITED COMPANY",
+      "cluster_id": 9
+    },
+    {
+      "company_id": 238,
+      "company_name": "ADVANCETE LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 239,
+      "company_name": "SPACECHIPS LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 240,
+      "company_name": "YELLOW STUDIO LIMITED",
+      "cluster_id": 0
+    },
+    {
+      "company_id": 241,
+      "company_name": "SMARTIR LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 242,
+      "company_name": "OXFORD HEALTHTECH LTD.",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 243,
+      "company_name": "WE CARE 4 AIR LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 244,
+      "company_name": "NANOCO TECHNOLOGIES LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 245,
+      "company_name": "ANVIL SEMICONDUCTORS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 246,
+      "company_name": "QUIX QUANTUM LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 247,
+      "company_name": "LASER MICROMACHINING LIMITED",
+      "cluster_id": 5
+    },
+    {
+      "company_id": 248,
+      "company_name": "PARITY QUANTUM COMPUTING UK LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 249,
+      "company_name": "MICRON SEMICONDUCTOR LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 250,
+      "company_name": "SMART OPTICS LTD",
+      "cluster_id": 14
+    },
+    {
+      "company_id": 251,
+      "company_name": "CORTIRIO LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 252,
+      "company_name": "JIANGSU JINGKEAO TECHNOLOGY CO., LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 253,
+      "company_name": "FRAUNHOFER UK RESEARCH LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 254,
+      "company_name": "FOSTER & FREEMAN LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 255,
+      "company_name": "AFL TELECOMMUNICATIONS HOLDINGS UK LIMITED",
+      "cluster_id": 9
+    },
+    {
+      "company_id": 256,
+      "company_name": "STG AEROSPACE LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 257,
+      "company_name": "AFL TELECOMMUNICATIONS HOLDINGS UK LIMITED",
+      "cluster_id": 9
+    },
+    {
+      "company_id": 258,
+      "company_name": "COLORDYNE LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 259,
+      "company_name": "NOVASIGHT LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 260,
+      "company_name": "GLOBAL INVACOM LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 261,
+      "company_name": "TENELUME LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 262,
+      "company_name": "SAFRAN ELECTRONICS & DEFENSE UK LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 263,
+      "company_name": "I R KINETICS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 264,
+      "company_name": "SINTELA LIMITED",
+      "cluster_id": 4
+    },
+    {
+      "company_id": 265,
+      "company_name": "WELL-SENSE TECHNOLOGY LIMITED",
+      "cluster_id": 4
+    },
+    {
+      "company_id": 266,
+      "company_name": "EIZO LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 267,
+      "company_name": "INOV8 SYSTEMS LIMITED",
+      "cluster_id": 4
+    },
+    {
+      "company_id": 268,
+      "company_name": "MELLANOX TECHNOLOGIES UK LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 269,
+      "company_name": "QPHOX UK LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 270,
+      "company_name": "NIMOH LTD.",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 271,
+      "company_name": "IBMETRIX LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 272,
+      "company_name": "MICROGRAPHIA BIO LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 273,
+      "company_name": "WOODROW SCIENTIFIC LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 274,
+      "company_name": "GUIDANCE MARINE LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 275,
+      "company_name": "DODROTU LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 276,
+      "company_name": "HENSOLDT SENSORS GMBH",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 277,
+      "company_name": "SPACE POWER LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 278,
+      "company_name": "HUGHES ELECTRONICS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 279,
+      "company_name": "SUMITOMO ELECTRIC EUROPE LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 280,
+      "company_name": "GLOBAL SATELLITE VU LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 281,
+      "company_name": "PULSE POWER AND MEASUREMENT LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 282,
+      "company_name": "IXSCIENT LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 283,
+      "company_name": "DRAEGER SAFETY UK LTD",
+      "cluster_id": 4
+    },
+    {
+      "company_id": 284,
+      "company_name": "AUSTIN OPTOELECTRONICS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 285,
+      "company_name": "LYNTON LASERS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 286,
+      "company_name": "PHOTONICITY LTD",
+      "cluster_id": 0
+    },
+    {
+      "company_id": 288,
+      "company_name": "AP OPTICAL NETWORKING LTD",
+      "cluster_id": 9
+    },
+    {
+      "company_id": 289,
+      "company_name": "METAMATERIALS LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 290,
+      "company_name": "AALYRIA TECHNOLOGIES (UK) LIMITED",
+      "cluster_id": 9
+    },
+    {
+      "company_id": 291,
+      "company_name": "QUANTUM TECHNOLOGY SUPER SENSORS LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 292,
+      "company_name": "RENISHAW P L C",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 293,
+      "company_name": "BT GROUP PLC",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 294,
+      "company_name": "LUMENTUM TECHNOLOGY UK LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 295,
+      "company_name": "AIXTRON LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 296,
+      "company_name": "TOSHIBA EUROPE LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 297,
+      "company_name": "TERAVIEW LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 298,
+      "company_name": "QINETIQ LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 299,
+      "company_name": "CENTRE FOR PROCESS INNOVATION LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 300,
+      "company_name": "NOKIA UK LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 301,
+      "company_name": "TEER COATINGS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 302,
+      "company_name": "DE LA RUE INTERNATIONAL LIMITED.",
+      "cluster_id": 13
+    },
+    {
+      "company_id": 303,
+      "company_name": "ELEMENT SIX (UK) LIMITED.",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 304,
+      "company_name": "PRIOR SCIENTIFIC INSTRUMENTS LIMITED",
+      "cluster_id": 13
+    },
+    {
+      "company_id": 305,
+      "company_name": "ELFORLIGHT LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 306,
+      "company_name": "PRINTED ELECTRONICS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 307,
+      "company_name": "KEYSIGHT TECHNOLOGIES UK LIMITED",
+      "cluster_id": 10
+    },
+    {
+      "company_id": 308,
+      "company_name": "GAS SENSING SOLUTIONS LTD.",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 309,
+      "company_name": "CORNING LIMITED",
+      "cluster_id": 8
+    },
+    {
+      "company_id": 310,
+      "company_name": "PHOTON DESIGN LTD",
+      "cluster_id": 2
+    },
+    {
+      "company_id": 311,
+      "company_name": "PILKINGTON GROUP LIMITED",
+      "cluster_id": 14
+    },
+    {
+      "company_id": 312,
+      "company_name": "ROKE MANOR RESEARCH LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 313,
+      "company_name": "CORNING LIMITED",
+      "cluster_id": 8
+    },
+    {
+      "company_id": 314,
+      "company_name": "DELTA G LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 315,
+      "company_name": "BRANSCAN LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 316,
+      "company_name": "HUBER+SUHNER POLATIS LIMITED",
+      "cluster_id": 8
+    },
+    {
+      "company_id": 317,
+      "company_name": "OPTEK SYSTEMS LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 318,
+      "company_name": "LOADPOINT LIMITED",
+      "cluster_id": 6
+    },
+    {
+      "company_id": 319,
+      "company_name": "M-SOLV LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 320,
+      "company_name": "CARL ZEISS LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 321,
+      "company_name": "STMICROELECTRONICS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 322,
+      "company_name": "BRUKER UK LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 323,
+      "company_name": "HUAWEI TECHNOLOGIES RESEARCH & DEVELOPMENT (UK) LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 324,
+      "company_name": "ARALIA SYSTEMS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 325,
+      "company_name": "IS-INSTRUMENTS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 326,
+      "company_name": "POINTCLOUD LTD",
+      "cluster_id": 2
+    },
+    {
+      "company_id": 327,
+      "company_name": "COMPUGRAPHICS INTERNATIONAL LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 328,
+      "company_name": "HUBER + SUHNER (UK) LIMITED",
+      "cluster_id": 8
+    },
+    {
+      "company_id": 329,
+      "company_name": "FIBERCORE LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 330,
+      "company_name": "TRUMPF LIMITED",
+      "cluster_id": 5
+    },
+    {
+      "company_id": 331,
+      "company_name": "ZBD DISPLAYS LIMITED",
+      "cluster_id": 13
+    },
+    {
+      "company_id": 332,
+      "company_name": "TOSHIBA EUROPE LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 333,
+      "company_name": "HOLOXICA LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 334,
+      "company_name": "TAYLOR HOBSON LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 335,
+      "company_name": "QUANDELA UK LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 336,
+      "company_name": "HAYDALE PLC",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 337,
+      "company_name": "PHOTRONICS (UK) LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 338,
+      "company_name": "WENTWORTH LABORATORIES LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 339,
+      "company_name": "HORIBA UK LIMITED",
+      "cluster_id": 10
+    },
+    {
+      "company_id": 340,
+      "company_name": "Q I OPTICAL SERVICES LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 341,
+      "company_name": "LAND INSTRUMENTS INTERNATIONAL LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 342,
+      "company_name": "LOGITECH LIMITED",
+      "cluster_id": 6
+    },
+    {
+      "company_id": 343,
+      "company_name": "OPTOSCI LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 344,
+      "company_name": "RAYTHEON SYSTEMS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 345,
+      "company_name": "ANALOG DEVICES LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 346,
+      "company_name": "PLASMA QUEST LIMITED",
+      "cluster_id": 6
+    },
+    {
+      "company_id": 347,
+      "company_name": "TERATECH COMPONENTS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 348,
+      "company_name": "CANON MEDICAL RESEARCH EUROPE, LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 349,
+      "company_name": "CAUSEWAY SENSORS LIMITED",
+      "cluster_id": 1
+    },
+    {
+      "company_id": 350,
+      "company_name": "ANDOR TECHNOLOGY LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 351,
+      "company_name": "EV GROUP LIMITED",
+      "cluster_id": 6
+    },
+    {
+      "company_id": 352,
+      "company_name": "KURT J. LESKER COMPANY LIMITED",
+      "cluster_id": 6
+    },
+    {
+      "company_id": 353,
+      "company_name": "EDINBURGH INSTRUMENTS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 354,
+      "company_name": "CARL ZEISS LTD",
+      "cluster_id": 10
+    },
+    {
+      "company_id": 355,
+      "company_name": "SCIENTIFICA LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 356,
+      "company_name": "QMC INSTRUMENTS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 357,
+      "company_name": "IQE (EUROPE) LIMITED",
+      "cluster_id": 3
+    },
+    {
+      "company_id": 358,
+      "company_name": "PHOTON DESIGN LTD",
+      "cluster_id": 2
+    },
+    {
+      "company_id": 359,
+      "company_name": "ARKENLIGHT LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 360,
+      "company_name": "CENTRE FOR PROCESS INNOVATION LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 361,
+      "company_name": "FRAUNHOFER UK RESEARCH LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 362,
+      "company_name": "NIKALYTE LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 363,
+      "company_name": "SIME DIAGNOSTICS LIMITED",
+      "cluster_id": 1
+    },
+    {
+      "company_id": 364,
+      "company_name": "FARADAY SCIENTIFIC LIMITED",
+      "cluster_id": 10
+    },
+    {
+      "company_id": 365,
+      "company_name": "FRAUNHOFER UK RESEARCH LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 366,
+      "company_name": "CIENA LIMITED",
+      "cluster_id": 9
+    },
+    {
+      "company_id": 367,
+      "company_name": "OPSEC SECURITY LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 368,
+      "company_name": "ANALYTIK LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 369,
+      "company_name": "LAMBDA ENERGY LTD",
+      "cluster_id": 0
+    },
+    {
+      "company_id": 370,
+      "company_name": "MOMENTIVE PERFORMANCE MATERIALS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 371,
+      "company_name": "MOMENTIVE PERFORMANCE MATERIALS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 372,
+      "company_name": "TRIBUS-D LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 373,
+      "company_name": "HELIATEK LTD",
+      "cluster_id": 0
+    },
+    {
+      "company_id": 374,
+      "company_name": "SAFC HITECH LIMITED",
+      "cluster_id": 3
+    },
+    {
+      "company_id": 375,
+      "company_name": "IQE (EUROPE) LIMITED",
+      "cluster_id": 3
+    },
+    {
+      "company_id": 376,
+      "company_name": "MICROLINK DEVICES UK LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 377,
+      "company_name": "POWER ROLL LIMITED",
+      "cluster_id": 0
+    },
+    {
+      "company_id": 378,
+      "company_name": "SPANOPTIC LIMITED",
+      "cluster_id": 10
+    },
+    {
+      "company_id": 379,
+      "company_name": "ANALOG DEVICES LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 380,
+      "company_name": "SENKO ADVANCED COMPONENTS (EURO) LIMITED",
+      "cluster_id": 9
+    },
+    {
+      "company_id": 381,
+      "company_name": "SYNOPSYS (NORTHERN EUROPE) LIMITED",
+      "cluster_id": 2
+    },
+    {
+      "company_id": 382,
+      "company_name": "CADENCE DESIGN SYSTEMS LIMITED",
+      "cluster_id": 2
+    },
+    {
+      "company_id": 383,
+      "company_name": "LUMENTUM TECHNOLOGY UK LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 384,
+      "company_name": "ADTRAN LIMITED",
+      "cluster_id": 9
+    },
+    {
+      "company_id": 385,
+      "company_name": "THORLABS LIMITED",
+      "cluster_id": 13
+    },
+    {
+      "company_id": 386,
+      "company_name": "LIGHTPOINT MEDICAL LTD",
+      "cluster_id": 1
+    },
+    {
+      "company_id": 387,
+      "company_name": "SILIXA LTD",
+      "cluster_id": 4
+    },
+    {
+      "company_id": 388,
+      "company_name": "MOOR INSTRUMENTS LIMITED",
+      "cluster_id": 1
+    },
+    {
+      "company_id": 389,
+      "company_name": "THALES ALENIA SPACE UK LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 390,
+      "company_name": "POINTCLOUD LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 391,
+      "company_name": "YAMAZAKI MAZAK U.K. LIMITED",
+      "cluster_id": 5
+    },
+    {
+      "company_id": 393,
+      "company_name": "GTAT LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 394,
+      "company_name": "MALVERN PANALYTICAL LIMITED",
+      "cluster_id": 10
+    },
+    {
+      "company_id": 395,
+      "company_name": "QORVO UK LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 396,
+      "company_name": "IQE PLC",
+      "cluster_id": 3
+    },
+    {
+      "company_id": 397,
+      "company_name": "FLEXINK LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 398,
+      "company_name": "LUMOPTICA LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 399,
+      "company_name": "DIMENSIONS DISPLAYS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 400,
+      "company_name": "CRYSTRAN LIMITED",
+      "cluster_id": 13
+    },
+    {
+      "company_id": 401,
+      "company_name": "REDLUX LIMITED",
+      "cluster_id": 10
+    },
+    {
+      "company_id": 402,
+      "company_name": "VISIONCHIP LIMITED",
+      "cluster_id": 2
+    },
+    {
+      "company_id": 403,
+      "company_name": "RAIL VISION EUROPE LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 404,
+      "company_name": "FOTENIX LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 405,
+      "company_name": "KROMEK GROUP PLC",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 406,
+      "company_name": "IQE (EUROPE) LIMITED",
+      "cluster_id": 3
+    },
+    {
+      "company_id": 407,
+      "company_name": "THALES AIR DEFENCE LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 408,
+      "company_name": "XTERA LIMITED",
+      "cluster_id": 9
+    },
+    {
+      "company_id": 409,
+      "company_name": "OSSILA LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 410,
+      "company_name": "HARKNESS SCREENS (UK) LIMITED",
+      "cluster_id": 14
+    },
+    {
+      "company_id": 411,
+      "company_name": "BAE SYSTEMS PLC",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 412,
+      "company_name": "SILSON LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 413,
+      "company_name": "ADD GRAPHENE GROUP LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 414,
+      "company_name": "LAYTEC GROUP LTD",
+      "cluster_id": 10
+    },
+    {
+      "company_id": 415,
+      "company_name": "LAYTEC UK LIMITED",
+      "cluster_id": 10
+    },
+    {
+      "company_id": 416,
+      "company_name": "EV GROUP LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 417,
+      "company_name": "STMICROELECTRONICS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 418,
+      "company_name": "THALES ALENIA SPACE UK LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 419,
+      "company_name": "HIGHFINESSE-UK LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 420,
+      "company_name": "MICHELSON DIAGNOSTICS LTD",
+      "cluster_id": 1
+    },
+    {
+      "company_id": 421,
+      "company_name": "RANDOX LABORATORIES LIMITED",
+      "cluster_id": 1
+    },
+    {
+      "company_id": 422,
+      "company_name": "SEMIWISE LIMITED",
+      "cluster_id": 2
+    },
+    {
+      "company_id": 423,
+      "company_name": "HUBER+SUHNER POLATIS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 424,
+      "company_name": "NODEQ LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 425,
+      "company_name": "ANGOKA LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 426,
+      "company_name": "METAMORPH MATERIALS LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 427,
+      "company_name": "NIKON X-TEK SYSTEMS LIMITED",
+      "cluster_id": 10
+    },
+    {
+      "company_id": 428,
+      "company_name": "ISDI LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 429,
+      "company_name": "ADVANCED EPI MATERIALS AND DEVICES LTD",
+      "cluster_id": 3
+    },
+    {
+      "company_id": 430,
+      "company_name": "SURREY NANOSYSTEMS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 432,
+      "company_name": "GOOCH & HOUSEGO PLC",
+      "cluster_id": 10
+    },
+    {
+      "company_id": 433,
+      "company_name": "ORION DELTA TECHNOLOGIES LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 434,
+      "company_name": "RELIANCE PRECISION LIMITED",
+      "cluster_id": 10
+    },
+    {
+      "company_id": 435,
+      "company_name": "NANOBEAM LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 436,
+      "company_name": "MOLECULAR DEVICES (UK) LIMITED",
+      "cluster_id": 1
+    },
+    {
+      "company_id": 437,
+      "company_name": "MICRO SYSTEMS (UK) LIMITED",
+      "cluster_id": 10
+    },
+    {
+      "company_id": 438,
+      "company_name": "TT ELECTRONICS PLC",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 439,
+      "company_name": "QUANTEMOL LIMITED",
+      "cluster_id": 2
+    },
+    {
+      "company_id": 440,
+      "company_name": "THE TECHNOLOGY PARTNERSHIP GROUP LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 442,
+      "company_name": "OXFORD PHOTOVOLTAICS LIMITED",
+      "cluster_id": 0
+    },
+    {
+      "company_id": 443,
+      "company_name": "KURT J. LESKER COMPANY LIMITED",
+      "cluster_id": 6
+    },
+    {
+      "company_id": 444,
+      "company_name": "TERAVIEW LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 445,
+      "company_name": "THOMAS KEATING LIMITED",
+      "cluster_id": 10
+    },
+    {
+      "company_id": 446,
+      "company_name": "PHOTON LINES LIMITED",
+      "cluster_id": 14
+    },
+    {
+      "company_id": 447,
+      "company_name": "CLARITY SENSORS LIMITED",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 448,
+      "company_name": "ULTRA PRECISION STRUCTURED SURFACES (UPS2) LTD",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 449,
+      "company_name": "NEWPORT SPECTRA-PHYSICS LIMITED",
+      "cluster_id": 13
+    },
+    {
+      "company_id": 450,
+      "company_name": "RENISHAW DIAGNOSTICS LIMITED",
+      "cluster_id": 1
+    },
+    {
+      "company_id": 451,
+      "company_name": "EDINBURGH MOLECULAR IMAGING LIMITED",
+      "cluster_id": 1
+    },
+    {
+      "company_id": 430,
+      "company_name": "Refeyn Ltd",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 431,
+      "company_name": "Optomel",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 432,
+      "company_name": "Holomem",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 433,
+      "company_name": "Prolite - Technology",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 434,
+      "company_name": "Sparxell",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 435,
+      "company_name": "ARM",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 436,
+      "company_name": "Ecopoint Medical",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 437,
+      "company_name": "SPARTA Biodiscovery",
+      "cluster_id": -1
+    }
+  ]
+}

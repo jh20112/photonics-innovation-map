@@ -1,0 +1,12 @@
+{
+  "companies": 437,
+  "infrastructure": 103,
+  "institutions": 165,
+  "grants": 2057,
+  "grants_geocoded": 1803,
+  "patents": 5964,
+  "company_collaborations": 5480,
+  "grant_edges": 52784,
+  "clusters": 1999,
+  "total_funding_gbp": 1338357113.0
+}

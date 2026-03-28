@@ -20,7 +20,7 @@ app.add_middleware(
 )
 
 # Data directory (output from pipeline)
-DATA_DIR = Path(__file__).resolve().parent.parent.parent / "innovation-mapping-data" / "UK" / "pipeline" / "output"
+DATA_DIR = Path(__file__).resolve().parent / "data"
 
 # In-memory data store
 data: dict[str, list | dict] = {}
