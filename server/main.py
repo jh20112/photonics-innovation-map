@@ -9,7 +9,7 @@ import os
 import re
 from pathlib import Path
 from fastapi import FastAPI, Query, Request
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, ORJSONResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -28,7 +28,7 @@ STATIC_DIR = Path(__file__).resolve().parent.parent / "dist"
 # Data directory (output from pipeline)
 DATA_DIR = Path(__file__).resolve().parent / "data"
 
-# In-memory data store
+# In-memory data store — only for smaller datasets that need filtering
 data: dict[str, list | dict] = {}
 
 
@@ -38,25 +38,22 @@ def load_json(filename: str) -> list | dict:
         return json.load(f)
 
 
+def serve_json_file(filename: str):
+    """Return a FileResponse for a JSON data file (no memory load)."""
+    path = DATA_DIR / filename
+    return FileResponse(path, media_type="application/json")
+
+
 @app.on_event("startup")
 def load_data():
+    # Only load datasets that need server-side filtering into memory
     data["companies"] = load_json("companies.json")
     data["infrastructure"] = load_json("infrastructure.json")
     data["institutions"] = load_json("institutions.json")
     data["grants"] = load_json("grants.json")
-    data["patents"] = load_json("patents.json")
     data["company_collaborations"] = load_json("company_collaborations.json")
-    data["grant_edges"] = load_json("grant_collaboration_edges.json")
-    data["clusters"] = load_json("collaboration_clusters.json")
     data["rtic_sectors"] = load_json("rtic_sectors.json")
     data["stats"] = load_json("stats.json")
-    # Load HDBSCAN clustering results
-    for ctype in ["geographic", "collaboration", "technology", "ecipe", "composite", "research"]:
-        fname = f"clusters_{ctype}.json"
-        try:
-            data[f"clusters_{ctype}"] = load_json(fname)
-        except FileNotFoundError:
-            data[f"clusters_{ctype}"] = {"clusters": [], "assignments": []}
     # Load talent/people data
     try:
         data["people"] = load_json("talent_people.json")
@@ -273,7 +270,7 @@ def _year(date_str: str | None) -> int | None:
         return None
 
 
-# --- Patents ---
+# --- Patents (served from disk — 71MB file) ---
 
 @app.get("/api/patents")
 def get_patents(
@@ -282,7 +279,12 @@ def get_patents(
     year_to: int | None = Query(None),
     search: str | None = Query(None),
 ):
-    results = data["patents"]
+    # If no filters, serve the file directly from disk
+    if not any([cpc_code, year_from, year_to, search]):
+        return serve_json_file("patents.json")
+    # Only load into memory when filtering is needed
+    patents = load_json("patents.json")
+    results = patents
     if cpc_code:
         results = [p for p in results if cpc_code in (p.get("cpc_codes") or "")]
     if year_from:
@@ -351,7 +353,7 @@ def get_collaborations(
 
 @app.get("/api/collaborations/clusters")
 def get_clusters():
-    return data["clusters"]
+    return serve_json_file("collaboration_clusters.json")
 
 
 @app.get("/api/collaborations/grants")
@@ -360,7 +362,11 @@ def get_grant_edges(
     min_shared: int = Query(1),
 ):
     """Get grant-level collaboration edges (supplementary)."""
-    results = data["grant_edges"]
+    # If no filters, serve from disk (13MB file)
+    if not org_name and min_shared <= 1:
+        return serve_json_file("grant_collaboration_edges.json")
+    edges = load_json("grant_collaboration_edges.json")
+    results = edges
     if org_name:
         q = org_name.lower()
         results = [e for e in results if e["org_a_name"].lower() == q or e["org_b_name"].lower() == q]
@@ -373,10 +379,11 @@ def get_grant_edges(
 def get_hdbscan_clusters(
     type: str = Query(..., description="geographic, collaboration, or technology"),
 ):
-    key = f"clusters_{type}"
-    if key not in data:
-        return {"clusters": [], "assignments": []}
-    return data[key]
+    fname = f"clusters_{type}.json"
+    fpath = DATA_DIR / fname
+    if fpath.exists():
+        return serve_json_file(fname)
+    return {"clusters": [], "assignments": []}
 
 
 @app.get("/api/coords")
