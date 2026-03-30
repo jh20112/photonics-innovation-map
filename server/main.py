@@ -34,8 +34,13 @@ async def lifespan(app: FastAPI):
     run_migrations()
     # Auto-seed if database is empty
     with SessionLocal() as session:
-        if db_is_empty(session):
-            seed_from_json(session, DATA_DIR)
+        try:
+            if db_is_empty(session):
+                seed_from_json(session, DATA_DIR)
+        except Exception as e:
+            session.rollback()
+            print(f"Seed failed: {e}")
+            raise
         _data_version = get_data_version(session)
     print(f"Data version: {_data_version}")
     yield

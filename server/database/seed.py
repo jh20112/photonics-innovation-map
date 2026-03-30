@@ -24,6 +24,14 @@ from server.database.models import (
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 
+# Tables to truncate in reverse-dependency order
+_ALL_TABLES = [
+    "data_version", "stats", "coords_lookup", "grant_edges",
+    "company_collaborations", "people", "patents", "grants",
+    "institutions", "infrastructure", "company_rtic", "companies",
+    "rtic_sectors",
+]
+
 
 def db_is_empty(session: Session) -> bool:
     result = session.execute(select(Company.id).limit(1)).first()
@@ -42,10 +50,16 @@ def _normalize_name(name: str) -> str:
     return s
 
 
-def _load_json(filename: str) -> list | dict:
-    path = DATA_DIR / filename
-    with open(path) as f:
-        return json.load(f)
+def _dedup_by_key(rows: list[dict], key: str) -> list[dict]:
+    """Remove duplicate entries by primary key, keeping the first occurrence."""
+    seen = set()
+    result = []
+    for r in rows:
+        k = r.get(key)
+        if k not in seen:
+            seen.add(k)
+            result.append(r)
+    return result
 
 
 def _bulk_insert(session: Session, model, rows: list[dict], batch_size: int = 5000):
@@ -54,9 +68,20 @@ def _bulk_insert(session: Session, model, rows: list[dict], batch_size: int = 50
     session.flush()
 
 
+def _truncate_all(session: Session):
+    """Truncate all data tables for a clean re-seed."""
+    for table in _ALL_TABLES:
+        session.execute(text(f"TRUNCATE TABLE {table} CASCADE"))
+    session.flush()
+    print("  Truncated all tables for clean seed")
+
+
 def seed_from_json(session: Session, data_dir: Path | None = None):
     src = data_dir or DATA_DIR
     print("Seeding database from JSON files...")
+
+    # Truncate first to handle partial seeds from prior crashed attempts
+    _truncate_all(session)
 
     # --- RTIC Sectors ---
     rtic_sectors = json.loads((src / "rtic_sectors.json").read_text())
@@ -65,6 +90,7 @@ def seed_from_json(session: Session, data_dir: Path | None = None):
 
     # --- Companies + CompanyRtic ---
     companies = json.loads((src / "companies.json").read_text())
+    companies = _dedup_by_key(companies, "id")
     company_rtic_rows = []
     for c in companies:
         for r in c.get("rtic", []):
