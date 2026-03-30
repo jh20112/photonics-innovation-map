@@ -11,7 +11,7 @@ interface Props {
   onNavigate: (detail: EntityDetail) => void;
 }
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = '/api';
 
 function roleLabel(role: string): string {
   switch (role) {

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import type { Company, Collaboration, EntityDetail } from '../../../types/api';
+import type { Company, Patent, Collaboration, EntityDetail } from '../../../types/api';
 import { EntityHeader } from '../EntityHeader';
 import { StatBlock } from '../StatBlock';
 import { RticTags } from '../TagList';
@@ -8,6 +8,7 @@ import { RelatedEntityCard } from '../RelatedEntityCard';
 
 interface Props {
   company: Company;
+  patents: Patent[];
   collaborations: Collaboration[] | null;
   collabLoading: boolean;
   onLoadCollaborations: (name: string) => void;
@@ -23,11 +24,12 @@ function formatGBP(amount: number | null): string {
 }
 
 export function CompanyPanel({
-  company: c, collaborations, collabLoading,
+  company: c, patents, collaborations, collabLoading,
   onLoadCollaborations, onNavigate, onShowCollaborations,
 }: Props) {
   const [descExpanded, setDescExpanded] = useState(false);
   const [showAllGrants, setShowAllGrants] = useState(false);
+  const [showAllPatents, setShowAllPatents] = useState(false);
 
   const desc = c.description || '';
   const truncatedDesc = desc.length > 200 && !descExpanded ? desc.slice(0, 200) + '...' : desc;
@@ -164,6 +166,26 @@ export function CompanyPanel({
               {c.grant_count} grant{c.grant_count !== 1 ? 's' : ''} identified
               {c.total_grant_funding_gbp ? ` · ${formatGBP(c.total_grant_funding_gbp)} total funding` : ''}
             </div>
+          )}
+        </CollapsibleSection>
+      )}
+
+      {/* Patents section */}
+      {patents.length > 0 && (
+        <CollapsibleSection title="Patents" count={patents.length} defaultOpen={patents.length <= 5}>
+          {(showAllPatents ? patents : patents.slice(0, 5)).map((p, i) => (
+            <RelatedEntityCard
+              key={i}
+              title={p.publication_number}
+              subtitle={`${p.assignee}${p.earliest_filing ? ` · Filed ${p.earliest_filing.slice(0, 4)}` : ''}`}
+              type="patent"
+              onClick={() => onNavigate({ type: 'patent', data: p })}
+            />
+          ))}
+          {patents.length > 5 && !showAllPatents && (
+            <button className="expand-btn" onClick={() => setShowAllPatents(true)}>
+              Show all {patents.length} patents
+            </button>
           )}
         </CollapsibleSection>
       )}

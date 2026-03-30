@@ -1,9 +1,11 @@
-import type { Patent, EntityDetail } from '../../../types/api';
+import type { Patent, Company, EntityDetail } from '../../../types/api';
 import { EntityHeader } from '../EntityHeader';
 import { TagList } from '../TagList';
+import { RelatedEntityCard } from '../RelatedEntityCard';
 
 interface Props {
   patent: Patent;
+  matchedCompany: Company | null;
   onNavigate: (detail: EntityDetail) => void;
 }
 
@@ -18,13 +20,11 @@ function formatDate(d: string): string {
 
 function parseCpcCodes(raw: string): string[] {
   if (!raw) return [];
-  // CPC codes are pipe-separated like "G02B6/12019|G02B6/125|..."
   return raw.split('|').map(s => s.trim()).filter(Boolean);
 }
 
-export function PatentPanel({ patent: p, onNavigate: _onNavigate }: Props) {
+export function PatentPanel({ patent: p, matchedCompany, onNavigate }: Props) {
   const cpcCodes = parseCpcCodes(p.cpc_codes);
-  // Extract unique top-level CPC classes (e.g., "G02B", "G02F")
   const cpcClasses = [...new Set(cpcCodes.map(c => c.slice(0, 4)))];
 
   return (
@@ -33,6 +33,15 @@ export function PatentPanel({ patent: p, onNavigate: _onNavigate }: Props) {
         name={`Patent: ${p.publication_number}`}
         subtitleParts={[p.assignee]}
       />
+
+      {matchedCompany && (
+        <RelatedEntityCard
+          title={matchedCompany.name}
+          subtitle="Assignee Company"
+          type="company"
+          onClick={() => onNavigate({ type: 'company', data: matchedCompany })}
+        />
+      )}
 
       <div className="detail-grid">
         <div className="detail-item">

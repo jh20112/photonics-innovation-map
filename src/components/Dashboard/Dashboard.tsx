@@ -1,17 +1,22 @@
 import { useState } from 'react';
+import { OverviewTab } from './OverviewTab';
 import { CompaniesTab } from './CompaniesTab';
 import { InstitutionsTab } from './InstitutionsTab';
 import { GrantsTab } from './GrantsTab';
 import { ClustersTab } from './ClustersTab';
-import type { Company, Institution, Grant, ClusterType } from '../../types/api';
+import type { Company, Institution, Grant, Patent, ClusterType, RticSector } from '../../types/api';
+import type { GrantEdge } from '../../types/api';
 import './Dashboard.css';
 
-type DashTab = 'companies' | 'institutions' | 'grants' | 'clusters';
+type DashTab = 'overview' | 'companies' | 'institutions' | 'grants' | 'clusters';
 
 interface Props {
   companies: Company[] | null;
   institutions: Institution[] | null;
   grants: Grant[] | null;
+  patents: Patent[] | null;
+  grantEdges: GrantEdge[] | null;
+  sectors: RticSector[] | null;
   onSelectCompany: (c: Company) => void;
   onSelectInstitution: (i: Institution) => void;
   onSelectGrant: (g: Grant) => void;
@@ -19,6 +24,7 @@ interface Props {
 }
 
 const TABS: { key: DashTab; label: string }[] = [
+  { key: 'overview', label: 'Overview' },
   { key: 'companies', label: 'Companies' },
   { key: 'institutions', label: 'Institutions' },
   { key: 'grants', label: 'Grants' },
@@ -26,10 +32,10 @@ const TABS: { key: DashTab; label: string }[] = [
 ];
 
 export function Dashboard({
-  companies, institutions, grants,
+  companies, institutions, grants, patents, grantEdges, sectors,
   onSelectCompany, onSelectInstitution, onSelectGrant, onSelectCluster,
 }: Props) {
-  const [activeTab, setActiveTab] = useState<DashTab>('companies');
+  const [activeTab, setActiveTab] = useState<DashTab>('overview');
 
   return (
     <div className="dashboard">
@@ -45,6 +51,15 @@ export function Dashboard({
         ))}
       </div>
       <div className="dash-content">
+        {activeTab === 'overview' && (
+          <OverviewTab
+            companies={companies}
+            grants={grants}
+            patents={patents}
+            grantEdges={grantEdges}
+            sectors={sectors}
+          />
+        )}
         {activeTab === 'companies' && (
           <CompaniesTab companies={companies} onSelect={onSelectCompany} />
         )}

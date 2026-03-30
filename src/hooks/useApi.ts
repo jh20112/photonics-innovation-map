@@ -52,12 +52,20 @@ export function useInstitutions(enabled: boolean, minWorks?: number) {
   return useApiData<Institution[]>(enabled ? `/institutions${params}` : null);
 }
 
-export function useGrants(enabled: boolean, geocodedOnly = true) {
-  return useApiData<Grant[]>(enabled ? `/grants?geocoded_only=${geocodedOnly}` : null);
+export function useGrants(enabled: boolean, geocodedOnly = true, yearFrom?: number, yearTo?: number) {
+  const params = new URLSearchParams();
+  params.set('geocoded_only', String(geocodedOnly));
+  if (yearFrom) params.set('year_from', String(yearFrom));
+  if (yearTo) params.set('year_to', String(yearTo));
+  return useApiData<Grant[]>(enabled ? `/grants?${params}` : null);
 }
 
-export function usePatents(enabled: boolean) {
-  return useApiData<Patent[]>(enabled ? '/patents' : null);
+export function usePatents(enabled: boolean, yearFrom?: number, yearTo?: number) {
+  const params = new URLSearchParams();
+  if (yearFrom) params.set('year_from', String(yearFrom));
+  if (yearTo) params.set('year_to', String(yearTo));
+  const qs = params.toString();
+  return useApiData<Patent[]>(enabled ? `/patents${qs ? `?${qs}` : ''}` : null);
 }
 
 export function usePeople(enabled: boolean, geocodedOnly = true) {
@@ -89,8 +97,12 @@ export interface TopicCount {
   count: number;
 }
 
-export function useGrantTopics() {
-  return useApiData<TopicCount[]>('/grants/topics');
+export function useGrantTopics(yearFrom?: number, yearTo?: number) {
+  const params = new URLSearchParams();
+  if (yearFrom) params.set('year_from', String(yearFrom));
+  if (yearTo) params.set('year_to', String(yearTo));
+  const qs = params.toString();
+  return useApiData<TopicCount[]>(`/grants/topics${qs ? `?${qs}` : ''}`);
 }
 
 export function useGrantEdges(enabled: boolean, minShared: number) {

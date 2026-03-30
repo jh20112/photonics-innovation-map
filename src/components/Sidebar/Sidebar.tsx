@@ -1,6 +1,8 @@
 import { useState, useCallback, useRef } from 'react';
 import type { LayerType, ClusterType, CompanySizeMetric, RticSector, Stats, SearchResult } from '../../types/api';
 import { useSearch } from '../../hooks/useApi';
+import { SidebarSection } from './SidebarSection';
+import { YearRangeSlider } from './YearRangeSlider';
 
 interface Props {
   layers: Record<LayerType, boolean>;
@@ -29,6 +31,8 @@ interface Props {
   grantNetworkMinShared: number;
   onGrantNetworkMinSharedChange: (value: number) => void;
   grantEdgeCount: number | null;
+  yearRange: [number, number] | null;
+  onYearRangeChange: (range: [number, number] | null) => void;
 }
 
 const CLUSTER_OPTIONS: { value: ClusterType; label: string; description: string }[] = [
@@ -63,6 +67,7 @@ export function Sidebar({
   heatmapSubsector, onHeatmapSubsectorChange,
   onToggleTopics, showTopics,
   grantNetworkEnabled, onToggleGrantNetwork, grantNetworkMinShared, onGrantNetworkMinSharedChange, grantEdgeCount,
+  yearRange, onYearRangeChange,
 }: Props) {
   const [collapsed, setCollapsed] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
@@ -75,6 +80,10 @@ export function Sidebar({
     debounceRef.current = setTimeout(() => search(value), 300);
   }, [search]);
 
+  // Badge counts
+  const filterCount = selectedSectors.length + selectedSources.length + selectedStrengths.length;
+  const analysisCount = (activeCluster ? 1 : 0) + (grantNetworkEnabled ? 1 : 0) + (heatmapSubsector ? 1 : 0) + (showTopics ? 1 : 0);
+
   if (collapsed) {
     return (
       <div className="sidebar sidebar-collapsed" onClick={() => setCollapsed(false)}>
@@ -83,6 +92,8 @@ export function Sidebar({
     );
   }
 
+  const photonics = sectors?.find(s => s.code === 'RTIC0027');
+
   return (
     <div className="sidebar">
       <div className="sidebar-header">
@@ -90,7 +101,7 @@ export function Sidebar({
         <button className="sidebar-close" onClick={() => setCollapsed(true)}>&times;</button>
       </div>
 
-      {/* Stats */}
+      {/* Stats — always visible */}
       {stats && (
         <div className="sidebar-stats">
           <div className="stat">{stats.companies} <span>companies</span></div>
@@ -102,7 +113,7 @@ export function Sidebar({
         </div>
       )}
 
-      {/* Search */}
+      {/* Search — always visible */}
       <div className="sidebar-section">
         <input
           type="text"
@@ -127,9 +138,8 @@ export function Sidebar({
         )}
       </div>
 
-      {/* Layer Toggles */}
-      <div className="sidebar-section">
-        <h3>Layers</h3>
+      {/* === LAYERS (default open) === */}
+      <SidebarSection title="Layers" defaultOpen>
         {LAYER_CONFIG.map(({ key, label, color }) => (
           <label key={key} className="layer-toggle">
             <input
@@ -184,13 +194,17 @@ export function Sidebar({
             )}
           </div>
         )}
-      </div>
 
-      {/* Photonics RTIC Filter */}
-      {sectors && (() => {
-        const photonics = sectors.find(s => s.code === 'RTIC0027');
-        if (!photonics) return null;
-        return (
+        {/* Year range slider — visible when grants or patents layer is on */}
+        {(layers.grants || layers.patents) && (
+          <YearRangeSlider range={yearRange} onChange={onYearRangeChange} />
+        )}
+      </SidebarSection>
+
+      {/* === FILTERS (default collapsed) === */}
+      <SidebarSection title="Filters" badge={filterCount || null}>
+        {/* RTIC Filter */}
+        {photonics && (
           <div className="sidebar-section">
             <h3>RTIC Filter {selectedSectors.length > 0 && <span className="filter-count">({selectedSectors.length})</span>}</h3>
             {selectedSectors.length > 0 && (
@@ -233,14 +247,164 @@ export function Sidebar({
               ))}
             </div>
           </div>
-        );
-      })()}
+        )}
 
-      {/* Subsector Heatmap */}
-      {sectors && (() => {
-        const photonics = sectors.find(s => s.code === 'RTIC0027');
-        if (!photonics) return null;
-        return (
+        {/* Data Source Filter */}
+        <div className="sidebar-section">
+          <h3>Data Source {selectedSources.length > 0 && <span className="filter-count">({selectedSources.length})</span>}</h3>
+          {selectedSources.length > 0 && (
+            <button className="filter-clear" onClick={() => onSourcesChange([])}>Clear all</button>
+          )}
+          <div className="sector-list">
+            {SOURCE_OPTIONS.map((opt) => (
+              <label key={opt.value} className="sector-toggle">
+                <input
+                  type="checkbox"
+                  checked={selectedSources.includes(opt.value)}
+                  onChange={() => {
+                    onSourcesChange(
+                      selectedSources.includes(opt.value)
+                        ? selectedSources.filter(s => s !== opt.value)
+                        : [...selectedSources, opt.value]
+                    );
+                  }}
+                />
+                {opt.label}
+              </label>
+            ))}
+          </div>
+        </div>
+
+        {/* Data Strength Filter */}
+        <div className="sidebar-section">
+          <h3>Data Strength {selectedStrengths.length > 0 && <span className="filter-count">({selectedStrengths.length})</span>}</h3>
+          {selectedStrengths.length > 0 && (
+            <button className="filter-clear" onClick={() => onStrengthsChange([])}>Clear all</button>
+          )}
+          <div className="sector-list">
+            {(['Strong', 'Moderate', 'Limited'] as const).map((level) => (
+              <label key={level} className="sector-toggle">
+                <input
+                  type="checkbox"
+                  checked={selectedStrengths.includes(level)}
+                  onChange={() => {
+                    onStrengthsChange(
+                      selectedStrengths.includes(level)
+                        ? selectedStrengths.filter(s => s !== level)
+                        : [...selectedStrengths, level]
+                    );
+                  }}
+                />
+                {level}
+              </label>
+            ))}
+          </div>
+        </div>
+      </SidebarSection>
+
+      {/* === ANALYSIS (default collapsed) === */}
+      <SidebarSection title="Analysis" badge={analysisCount || null}>
+        {/* Clustering */}
+        <div className="sidebar-section">
+          <h3>Clustering {activeCluster && <span className="filter-count">on</span>}</h3>
+          {activeCluster && (
+            <button className="filter-clear" onClick={() => onClusterChange(null)}>Turn off</button>
+          )}
+          <div className="cluster-group-label">DSIT</div>
+          <div className="sector-list">
+            {CLUSTER_OPTIONS.map((opt) => (
+              <label key={opt.value} className="sector-toggle">
+                <input
+                  type="radio"
+                  name="clustering"
+                  checked={activeCluster === opt.value}
+                  onChange={() => onClusterChange(activeCluster === opt.value ? null : opt.value)}
+                />
+                <span>
+                  {opt.label}
+                  <span className="cluster-desc">{opt.description}</span>
+                </span>
+              </label>
+            ))}
+          </div>
+          <div className="cluster-group-label">ECIPE</div>
+          <div className="sector-list">
+            <label className="sector-toggle">
+              <input
+                type="radio"
+                name="clustering"
+                checked={activeCluster === 'ecipe'}
+                onChange={() => onClusterChange(activeCluster === 'ecipe' ? null : 'ecipe')}
+              />
+              <span>
+                Ecosystem Clusters
+                <span className="cluster-desc">Funding ($10M+) + institutional presence (5+) within 30km</span>
+              </span>
+            </label>
+          </div>
+          <div className="cluster-group-label">Custom</div>
+          <div className="sector-list">
+            <label className="sector-toggle">
+              <input
+                type="radio"
+                name="clustering"
+                checked={activeCluster === 'composite'}
+                onChange={() => onClusterChange(activeCluster === 'composite' ? null : 'composite')}
+              />
+              <span>
+                Composite Score
+                <span className="cluster-desc">Research + companies + funding + infrastructure</span>
+              </span>
+            </label>
+            <label className="sector-toggle">
+              <input
+                type="radio"
+                name="clustering"
+                checked={activeCluster === 'research'}
+                onChange={() => onClusterChange(activeCluster === 'research' ? null : 'research')}
+              />
+              <span>
+                Research-Anchored
+                <span className="cluster-desc">Seeded from top publication institutions</span>
+              </span>
+            </label>
+          </div>
+        </div>
+
+        {/* Grant Collaboration Network */}
+        <div className="sidebar-section">
+          <h3>Grant Network</h3>
+          <label className="layer-toggle">
+            <input
+              type="checkbox"
+              checked={grantNetworkEnabled}
+              onChange={onToggleGrantNetwork}
+            />
+            <span className="layer-dot" style={{ background: '#06b6d4' }} />
+            Research collaborations
+          </label>
+          {grantNetworkEnabled && (
+            <div className="layer-sub-control">
+              <label className="size-metric-label">
+                Min shared grants: {grantNetworkMinShared}
+                <input
+                  type="range"
+                  min={2}
+                  max={20}
+                  value={grantNetworkMinShared}
+                  onChange={(e) => onGrantNetworkMinSharedChange(Number(e.target.value))}
+                  style={{ width: '100%', marginTop: 4 }}
+                />
+              </label>
+              {grantEdgeCount != null && (
+                <span className="size-metric-label">{grantEdgeCount.toLocaleString()} edges</span>
+              )}
+            </div>
+          )}
+        </div>
+
+        {/* Subsector Heatmap */}
+        {photonics && (
           <div className="sidebar-section">
             <h3>Subsector Heatmap {heatmapSubsector && <span className="filter-count">on</span>}</h3>
             <select
@@ -255,169 +419,18 @@ export function Sidebar({
               ))}
             </select>
           </div>
-        );
-      })()}
-
-      {/* Data Source Filter */}
-      <div className="sidebar-section">
-        <h3>Data Source {selectedSources.length > 0 && <span className="filter-count">({selectedSources.length})</span>}</h3>
-        {selectedSources.length > 0 && (
-          <button className="filter-clear" onClick={() => onSourcesChange([])}>Clear all</button>
         )}
-        <div className="sector-list">
-          {SOURCE_OPTIONS.map((opt) => (
-            <label key={opt.value} className="sector-toggle">
-              <input
-                type="checkbox"
-                checked={selectedSources.includes(opt.value)}
-                onChange={() => {
-                  onSourcesChange(
-                    selectedSources.includes(opt.value)
-                      ? selectedSources.filter(s => s !== opt.value)
-                      : [...selectedSources, opt.value]
-                  );
-                }}
-              />
-              {opt.label}
-            </label>
-          ))}
-        </div>
-      </div>
 
-      {/* Data Strength Filter */}
-      <div className="sidebar-section">
-        <h3>Data Strength {selectedStrengths.length > 0 && <span className="filter-count">({selectedStrengths.length})</span>}</h3>
-        {selectedStrengths.length > 0 && (
-          <button className="filter-clear" onClick={() => onStrengthsChange([])}>Clear all</button>
-        )}
-        <div className="sector-list">
-          {(['Strong', 'Moderate', 'Limited'] as const).map((level) => (
-            <label key={level} className="sector-toggle">
-              <input
-                type="checkbox"
-                checked={selectedStrengths.includes(level)}
-                onChange={() => {
-                  onStrengthsChange(
-                    selectedStrengths.includes(level)
-                      ? selectedStrengths.filter(s => s !== level)
-                      : [...selectedStrengths, level]
-                  );
-                }}
-              />
-              {level}
-            </label>
-          ))}
+        {/* Research Topics */}
+        <div className="sidebar-section">
+          <button
+            className={`sidebar-topics-btn ${showTopics ? 'active' : ''}`}
+            onClick={onToggleTopics}
+          >
+            Research Topics
+          </button>
         </div>
-      </div>
-
-      {/* Clustering */}
-      <div className="sidebar-section">
-        <h3>Clustering {activeCluster && <span className="filter-count">on</span>}</h3>
-        {activeCluster && (
-          <button className="filter-clear" onClick={() => onClusterChange(null)}>Turn off</button>
-        )}
-        <div className="cluster-group-label">DSIT</div>
-        <div className="sector-list">
-          {CLUSTER_OPTIONS.map((opt) => (
-            <label key={opt.value} className="sector-toggle">
-              <input
-                type="radio"
-                name="clustering"
-                checked={activeCluster === opt.value}
-                onChange={() => onClusterChange(activeCluster === opt.value ? null : opt.value)}
-              />
-              <span>
-                {opt.label}
-                <span className="cluster-desc">{opt.description}</span>
-              </span>
-            </label>
-          ))}
-        </div>
-        <div className="cluster-group-label">ECIPE</div>
-        <div className="sector-list">
-          <label className="sector-toggle">
-            <input
-              type="radio"
-              name="clustering"
-              checked={activeCluster === 'ecipe'}
-              onChange={() => onClusterChange(activeCluster === 'ecipe' ? null : 'ecipe')}
-            />
-            <span>
-              Ecosystem Clusters
-              <span className="cluster-desc">Funding ($10M+) + institutional presence (5+) within 30km</span>
-            </span>
-          </label>
-        </div>
-        <div className="cluster-group-label">Custom</div>
-        <div className="sector-list">
-          <label className="sector-toggle">
-            <input
-              type="radio"
-              name="clustering"
-              checked={activeCluster === 'composite'}
-              onChange={() => onClusterChange(activeCluster === 'composite' ? null : 'composite')}
-            />
-            <span>
-              Composite Score
-              <span className="cluster-desc">Research + companies + funding + infrastructure</span>
-            </span>
-          </label>
-          <label className="sector-toggle">
-            <input
-              type="radio"
-              name="clustering"
-              checked={activeCluster === 'research'}
-              onChange={() => onClusterChange(activeCluster === 'research' ? null : 'research')}
-            />
-            <span>
-              Research-Anchored
-              <span className="cluster-desc">Seeded from top publication institutions</span>
-            </span>
-          </label>
-        </div>
-      </div>
-
-      {/* Grant Collaboration Network */}
-      <div className="sidebar-section">
-        <h3>Grant Network</h3>
-        <label className="layer-toggle">
-          <input
-            type="checkbox"
-            checked={grantNetworkEnabled}
-            onChange={onToggleGrantNetwork}
-          />
-          <span className="layer-dot" style={{ background: '#06b6d4' }} />
-          Research collaborations
-        </label>
-        {grantNetworkEnabled && (
-          <div className="layer-sub-control">
-            <label className="size-metric-label">
-              Min shared grants: {grantNetworkMinShared}
-              <input
-                type="range"
-                min={2}
-                max={20}
-                value={grantNetworkMinShared}
-                onChange={(e) => onGrantNetworkMinSharedChange(Number(e.target.value))}
-                style={{ width: '100%', marginTop: 4 }}
-              />
-            </label>
-            {grantEdgeCount != null && (
-              <span className="size-metric-label">{grantEdgeCount.toLocaleString()} edges</span>
-            )}
-          </div>
-        )}
-      </div>
-
-      {/* Analytics */}
-      <div className="sidebar-section">
-        <button
-          className={`sidebar-topics-btn ${showTopics ? 'active' : ''}`}
-          onClick={onToggleTopics}
-        >
-          Research Topics
-        </button>
-      </div>
+      </SidebarSection>
 
       <div className="sidebar-footer">
         <p>Innovation Map · UK Photonics Ecosystem</p>

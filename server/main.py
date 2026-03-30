@@ -1,19 +1,47 @@
 """
 FastAPI backend for UK Photonics Innovation Map.
 
-Serves preprocessed JSON data with filtering capabilities.
+Serves data from PostgreSQL with filtering and caching.
 """
 
-import json
-import os
-import re
+from contextlib import asynccontextmanager
 from pathlib import Path
-from fastapi import FastAPI, Query, Request
-from fastapi.responses import FileResponse, ORJSONResponse
+
+from fastapi import Depends, FastAPI, Query, Request, Response
+from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
+from sqlalchemy.orm import Session
 
-app = FastAPI(title="UK Photonics Innovation Map API")
+from server.database.engine import SessionLocal, get_db
+from server.database import queries
+from server.database.seed import db_is_empty, get_data_version, run_migrations, seed_from_json
+
+# Serve built frontend in production
+STATIC_DIR = Path(__file__).resolve().parent.parent / "dist"
+
+# Data directory — still used for cluster JSON files and seeding
+DATA_DIR = Path(__file__).resolve().parent / "data"
+
+# ETag value loaded at startup
+_data_version: str = "unknown"
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    global _data_version
+    # Run Alembic migrations
+    run_migrations()
+    # Auto-seed if database is empty
+    with SessionLocal() as session:
+        if db_is_empty(session):
+            seed_from_json(session, DATA_DIR)
+        _data_version = get_data_version(session)
+    print(f"Data version: {_data_version}")
+    yield
+
+
+app = FastAPI(title="UK Photonics Innovation Map API", lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,
@@ -22,106 +50,20 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Serve built frontend in production
-STATIC_DIR = Path(__file__).resolve().parent.parent / "dist"
 
-# Data directory (output from pipeline)
-DATA_DIR = Path(__file__).resolve().parent / "data"
-
-# In-memory data store — only for smaller datasets that need filtering
-data: dict[str, list | dict] = {}
-
-
-def load_json(filename: str) -> list | dict:
-    path = DATA_DIR / filename
-    with open(path) as f:
-        return json.load(f)
-
-
-def serve_json_file(filename: str):
-    """Return a FileResponse for a JSON data file (no memory load)."""
-    path = DATA_DIR / filename
-    return FileResponse(path, media_type="application/json")
-
-
-@app.on_event("startup")
-def load_data():
-    # Only load datasets that need server-side filtering into memory
-    data["companies"] = load_json("companies.json")
-    data["infrastructure"] = load_json("infrastructure.json")
-    data["institutions"] = load_json("institutions.json")
-    data["grants"] = load_json("grants.json")
-    data["company_collaborations"] = load_json("company_collaborations.json")
-    data["rtic_sectors"] = load_json("rtic_sectors.json")
-    data["stats"] = load_json("stats.json")
-    # Load talent/people data
-    try:
-        data["people"] = load_json("talent_people.json")
-    except FileNotFoundError:
-        data["people"] = []
-    # Build comprehensive name -> coords lookup for collaboration resolution
-    _build_coords_lookup()
-    summary = ", ".join(f"{k}: {len(v) if isinstance(v, list) else 'obj'}" for k, v in data.items())
-    print(f"Loaded data: {summary}")
-
-
-def _normalize_name(name: str) -> str:
-    """Normalize an org name for fuzzy matching."""
-    s = name.upper().strip()
-    # Remove common suffixes
-    for suffix in [" LIMITED", " LTD", " LTD.", " PLC", " INC", " INC.", " GMBH", " LLC"]:
-        if s.endswith(suffix):
-            s = s[:-len(suffix)]
-    # Remove parenthetical
-    s = re.sub(r"\s*\(.*?\)\s*", " ", s)
-    # Remove "THE " prefix
-    if s.startswith("THE "):
-        s = s[4:]
-    # Collapse whitespace
-    s = re.sub(r"\s+", " ", s).strip()
-    return s
-
-
-def _build_coords_lookup():
-    """Build a name -> [lat, lng] lookup from all geocoded entities."""
-    lookup: dict[str, list[float]] = {}
-
-    def add(name: str, lat: float, lng: float):
-        if not name or not lat or not lng:
-            return
-        lookup[name] = [lat, lng]
-        lookup[name.upper()] = [lat, lng]
-        normalized = _normalize_name(name)
-        if normalized:
-            lookup[normalized] = [lat, lng]
-
-    for c in data["companies"]:
-        add(c["name"], c["lat"], c["lng"])
-    for i in data["institutions"]:
-        add(i["name"], i["lat"], i["lng"])
-        # Also without "(United Kingdom)"
-        clean = i["name"].replace(" (United Kingdom)", "")
-        if clean != i["name"]:
-            add(clean, i["lat"], i["lng"])
-    for f in data["infrastructure"]:
-        add(f["name"], f["lat"], f["lng"])
-        if f.get("host_org"):
-            add(f["host_org"], f["lat"], f["lng"])
-    # Grant lead orgs with coords
-    for g in data["grants"]:
-        if g.get("lat") and g.get("lng") and g.get("lead_org"):
-            add(g["lead_org"], g["lat"], g["lng"])
-
-    # Also load raw geocoded coordinates file for grant orgs
-    coords_file = DATA_DIR / "geocoded_coordinates.json"
-    if coords_file.exists():
-        with open(coords_file) as f:
-            all_coords = json.load(f)
-        for name, coord in all_coords.get("grant_orgs", {}).items():
-            add(name, coord[0], coord[1])
-
-    data["coords_lookup"] = lookup
-    print(f"  Coords lookup: {len(lookup)} entries")
+@app.middleware("http")
+async def cache_middleware(request: Request, call_next):
+    """Add Cache-Control and ETag headers to all API responses."""
+    if request.url.path.startswith("/api/"):
+        # Check ETag — return 304 if client has current data
+        if_none_match = request.headers.get("if-none-match")
+        if if_none_match and if_none_match.strip('"') == _data_version:
+            return Response(status_code=304)
+        response = await call_next(request)
+        response.headers["Cache-Control"] = "public, max-age=3600, stale-while-revalidate=86400"
+        response.headers["ETag"] = f'"{_data_version}"'
+        return response
+    return await call_next(request)
 
 
 # --- Companies ---
@@ -134,33 +76,25 @@ def get_companies(
     min_employees: int | None = Query(None),
     min_funding: float | None = Query(None, description="Min funding in USD millions"),
     search: str | None = Query(None, description="Search by name"),
+    db: Session = Depends(get_db),
 ):
-    results = data["companies"]
-    if sectors:
-        codes = [s.strip() for s in sectors.split(",")]
-        results = [c for c in results if any(r["code"] in codes for r in c.get("rtic", []))]
-    if sources:
-        src_list = [s.strip() for s in sources.split(",")]
-        results = [c for c in results if any(s in src_list for s in c.get("sources", []))]
-    if strength:
-        str_list = [s.strip() for s in strength.split(",")]
-        results = [c for c in results if c.get("data_strength") in str_list]
-    if min_employees:
-        results = [c for c in results if (c.get("employees") or 0) >= min_employees]
-    if min_funding:
-        results = [c for c in results if (c.get("funding_usd_m") or 0) >= min_funding]
-    if search:
-        q = search.lower()
-        results = [c for c in results if q in c["name"].lower()]
-    return results
+    return queries.get_companies(
+        db,
+        sectors=[s.strip() for s in sectors.split(",")] if sectors else None,
+        sources=[s.strip() for s in sources.split(",")] if sources else None,
+        strengths=[s.strip() for s in strength.split(",")] if strength else None,
+        min_employees=min_employees,
+        min_funding=min_funding,
+        search=search,
+    )
 
 
 @app.get("/api/companies/{company_id}")
-def get_company(company_id: int):
-    for c in data["companies"]:
-        if c["id"] == company_id:
-            return c
-    return {"error": "Not found"}
+def get_company(company_id: int, db: Session = Depends(get_db)):
+    result = queries.get_company_by_id(db, company_id)
+    if result is None:
+        return {"error": "Not found"}
+    return result
 
 
 # --- Infrastructure ---
@@ -170,18 +104,14 @@ def get_infrastructure(
     classification: str | None = Query(None, description="Core Photonics or Supporting Photonics"),
     sectors: str | None = Query(None, description="Comma-separated RTIC sector codes"),
     search: str | None = Query(None),
+    db: Session = Depends(get_db),
 ):
-    # Exclude non-photonics facilities
-    results = [f for f in data["infrastructure"] if f.get("classification") != "Not Photonics"]
-    if classification:
-        results = [f for f in results if f.get("classification", "").lower() == classification.lower()]
-    if sectors:
-        codes = [s.strip() for s in sectors.split(",")]
-        results = [f for f in results if any(r["code"] in codes for r in f.get("rtic", []))]
-    if search:
-        q = search.lower()
-        results = [f for f in results if q in f["name"].lower() or q in f.get("host_org", "").lower()]
-    return results
+    return queries.get_infrastructure(
+        db,
+        classification=classification,
+        sectors=[s.strip() for s in sectors.split(",")] if sectors else None,
+        search=search,
+    )
 
 
 # --- Institutions ---
@@ -191,14 +121,9 @@ def get_institutions(
     min_works: int | None = Query(None),
     limit: int = Query(200),
     search: str | None = Query(None),
+    db: Session = Depends(get_db),
 ):
-    results = data["institutions"]
-    if min_works:
-        results = [i for i in results if (i.get("photonics_works") or 0) >= min_works]
-    if search:
-        q = search.lower()
-        results = [i for i in results if q in i["name"].lower()]
-    return results[:limit]
+    return queries.get_institutions(db, min_works=min_works, limit=limit, search=search)
 
 
 # --- Grants ---
@@ -212,65 +137,30 @@ def get_grants(
     status: str | None = Query(None),
     search: str | None = Query(None),
     geocoded_only: bool = Query(False),
+    db: Session = Depends(get_db),
 ):
-    results = data["grants"]
-    if geocoded_only:
-        results = [g for g in results if g.get("lat") is not None]
-    if funder:
-        results = [g for g in results if funder.lower() in (g.get("lead_funder") or "").lower()]
-    if min_amount:
-        results = [g for g in results if (g.get("funding_gbp") or 0) >= min_amount]
-    if year_from:
-        results = [g for g in results if _year(g.get("start_date")) and _year(g["start_date"]) >= year_from]
-    if year_to:
-        results = [g for g in results if _year(g.get("start_date")) and _year(g["start_date"]) <= year_to]
-    if status:
-        results = [g for g in results if (g.get("status") or "").lower() == status.lower()]
-    if search:
-        q = search.lower()
-        results = [g for g in results if q in g.get("title", "").lower() or q in g.get("lead_org", "").lower()]
-    return results
+    return queries.get_grants(
+        db,
+        funder=funder,
+        min_amount=min_amount,
+        year_from=year_from,
+        year_to=year_to,
+        status=status,
+        search=search,
+        geocoded_only=geocoded_only,
+    )
 
 
 @app.get("/api/grants/topics")
 def get_grant_topics(
     year_from: int | None = Query(None),
     year_to: int | None = Query(None),
+    db: Session = Depends(get_db),
 ):
-    """Aggregate research topics across grants."""
-    grants_list = data["grants"]
-    if year_from or year_to:
-        grants_list = [
-            g for g in grants_list
-            if (not year_from or (_year(g.get("start_date")) and _year(g["start_date"]) >= year_from))
-            and (not year_to or (_year(g.get("start_date")) and _year(g["start_date"]) <= year_to))
-        ]
-
-    topic_counts: dict[str, int] = {}
-    for g in grants_list:
-        topics_str = g.get("research_topics", "")
-        if not topics_str:
-            continue
-        for topic in topics_str.split(";"):
-            topic = topic.strip()
-            if topic:
-                topic_counts[topic] = topic_counts.get(topic, 0) + 1
-
-    result = [{"topic": t, "count": c} for t, c in topic_counts.items()]
-    result.sort(key=lambda x: x["count"], reverse=True)
-    return result
+    return queries.get_grant_topics(db, year_from=year_from, year_to=year_to)
 
 
-def _year(date_str: str | None) -> int | None:
-    if not date_str:
-        return None
-    try:
-        return int(date_str[:4])
-    except (ValueError, IndexError):
-        return None
-
-
-# --- Patents (served from disk — 71MB file) ---
+# --- Patents ---
 
 @app.get("/api/patents")
 def get_patents(
@@ -278,23 +168,9 @@ def get_patents(
     year_from: int | None = Query(None),
     year_to: int | None = Query(None),
     search: str | None = Query(None),
+    db: Session = Depends(get_db),
 ):
-    # If no filters, serve the file directly from disk
-    if not any([cpc_code, year_from, year_to, search]):
-        return serve_json_file("patents.json")
-    # Only load into memory when filtering is needed
-    patents = load_json("patents.json")
-    results = patents
-    if cpc_code:
-        results = [p for p in results if cpc_code in (p.get("cpc_codes") or "")]
-    if year_from:
-        results = [p for p in results if _year(p.get("earliest_filing")) and _year(p["earliest_filing"]) >= year_from]
-    if year_to:
-        results = [p for p in results if _year(p.get("latest_filing")) and _year(p["latest_filing"]) <= year_to]
-    if search:
-        q = search.lower()
-        results = [p for p in results if q in p.get("assignee", "").lower()]
-    return results
+    return queries.get_patents(db, cpc_code=cpc_code, year_from=year_from, year_to=year_to, search=search)
 
 
 # --- People / Talent ---
@@ -306,29 +182,17 @@ def get_people(
     org_type: str | None = Query(None, description="Filter by org type: company, institution"),
     search: str | None = Query(None),
     geocoded_only: bool = Query(False),
+    db: Session = Depends(get_db),
 ):
-    results = data["people"]
-    if geocoded_only:
-        results = [p for p in results if p.get("lat") is not None]
-    if role:
-        results = [p for p in results if p.get("role") == role]
-    if org:
-        q = org.lower()
-        results = [p for p in results if q in p.get("current_org", "").lower()]
-    if org_type:
-        results = [p for p in results if p.get("current_org_type") == org_type]
-    if search:
-        q = search.lower()
-        results = [p for p in results if q in p.get("name", "").lower() or q in p.get("current_org", "").lower()]
-    return results
+    return queries.get_people(db, role=role, org=org, org_type=org_type, search=search, geocoded_only=geocoded_only)
 
 
 @app.get("/api/people/{person_id}")
-def get_person(person_id: int):
-    for p in data["people"]:
-        if p["id"] == person_id:
-            return p
-    return {"error": "Not found"}
+def get_person(person_id: int, db: Session = Depends(get_db)):
+    result = queries.get_person_by_id(db, person_id)
+    if result is None:
+        return {"error": "Not found"}
+    return result
 
 
 # --- Collaborations ---
@@ -338,42 +202,29 @@ def get_collaborations(
     entity: str | None = Query(None, description="Company or institution name"),
     min_shared: int = Query(1, description="Minimum shared grants"),
     company_only: bool = Query(False, description="Only company-company collaborations"),
+    db: Session = Depends(get_db),
 ):
-    """Get company-institution collaboration edges for a specific entity."""
-    results = data["company_collaborations"]
-    if entity:
-        q = entity.lower()
-        results = [c for c in results if c["company"].lower() == q or c["collaborator"].lower() == q]
-    if min_shared > 1:
-        results = [c for c in results if c["shared_grants"] >= min_shared]
-    if company_only:
-        results = [c for c in results if c["collaborator_is_company"]]
-    return results
+    return queries.get_collaborations(db, entity=entity, min_shared=min_shared, company_only=company_only)
 
 
 @app.get("/api/collaborations/clusters")
-def get_clusters():
-    return serve_json_file("collaboration_clusters.json")
+def get_collab_clusters():
+    path = DATA_DIR / "collaboration_clusters.json"
+    if path.exists():
+        return FileResponse(path, media_type="application/json")
+    return []
 
 
 @app.get("/api/collaborations/grants")
 def get_grant_edges(
     org_name: str | None = Query(None),
     min_shared: int = Query(1),
+    db: Session = Depends(get_db),
 ):
-    """Get grant-level collaboration edges (supplementary)."""
-    # If no filters, serve from disk (13MB file)
-    if not org_name and min_shared <= 1:
-        return serve_json_file("grant_collaboration_edges.json")
-    edges = load_json("grant_collaboration_edges.json")
-    results = edges
-    if org_name:
-        q = org_name.lower()
-        results = [e for e in results if e["org_a_name"].lower() == q or e["org_b_name"].lower() == q]
-    if min_shared > 1:
-        results = [e for e in results if e["shared_grants"] >= min_shared]
-    return results
+    return queries.get_grant_edges(db, org_name=org_name, min_shared=min_shared)
 
+
+# --- Clusters (kept as FileResponse — complex nested structures) ---
 
 @app.get("/api/clusters")
 def get_hdbscan_clusters(
@@ -382,62 +233,41 @@ def get_hdbscan_clusters(
     fname = f"clusters_{type}.json"
     fpath = DATA_DIR / fname
     if fpath.exists():
-        return serve_json_file(fname)
+        return FileResponse(fpath, media_type="application/json")
     return {"clusters": [], "assignments": []}
 
 
+# --- Coords ---
+
 @app.get("/api/coords")
-def get_coords():
-    """Return the full name -> [lat, lng] lookup for collaboration rendering."""
-    return data.get("coords_lookup", {})
+def get_coords(db: Session = Depends(get_db)):
+    return queries.get_coords_lookup(db)
 
 
 # --- RTIC Sectors ---
 
 @app.get("/api/rtic-sectors")
-def get_rtic_sectors():
-    return data["rtic_sectors"]
+def get_rtic_sectors(db: Session = Depends(get_db)):
+    return queries.get_rtic_sectors(db)
 
 
 # --- Stats ---
 
 @app.get("/api/stats")
-def get_stats():
-    stats = dict(data["stats"])
-    stats["infrastructure"] = sum(1 for f in data["infrastructure"] if f.get("classification") != "Not Photonics")
-    stats["people"] = len(data.get("people", []))
-    return stats
+def get_stats(db: Session = Depends(get_db)):
+    return queries.get_stats(db)
 
 
 # --- Search across all entities ---
 
 @app.get("/api/search")
-def search_all(q: str = Query(..., min_length=1)):
-    """Search across all entity types by name."""
-    query = q.lower()
-    results = []
-
-    for c in data["companies"]:
-        if query in c["name"].lower():
-            results.append({"type": "company", "id": c["id"], "name": c["name"], "lat": c["lat"], "lng": c["lng"]})
-    for f in data["infrastructure"]:
-        if query in f["name"].lower():
-            results.append({"type": "infrastructure", "id": f["id"], "name": f["name"], "lat": f["lat"], "lng": f["lng"]})
-    for i in data["institutions"]:
-        if query in i["name"].lower():
-            results.append({"type": "institution", "id": i["id"], "name": i["name"], "lat": i["lat"], "lng": i["lng"]})
-    for p in data["people"]:
-        if query in p["name"].lower() or query in p.get("current_org", "").lower():
-            if p.get("lat") and p.get("lng"):
-                results.append({"type": "person", "id": p["id"], "name": p["name"], "lat": p["lat"], "lng": p["lng"]})
-
-    return results[:50]
+def search_all(q: str = Query(..., min_length=1), db: Session = Depends(get_db)):
+    return queries.search_all(db, q)
 
 
 # --- Serve frontend static files in production ---
 if STATIC_DIR.exists():
     app.mount("/assets", StaticFiles(directory=STATIC_DIR / "assets"), name="assets")
-    # Serve static files in public (favicon, geo data, icons)
     app.mount("/geo", StaticFiles(directory=STATIC_DIR / "geo"), name="geo")
 
     @app.get("/{full_path:path}")

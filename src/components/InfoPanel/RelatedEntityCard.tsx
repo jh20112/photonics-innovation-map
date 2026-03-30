@@ -1,7 +1,7 @@
 interface Props {
   title: string;
   subtitle: string;
-  type?: 'company' | 'institution' | 'grant';
+  type?: 'company' | 'institution' | 'grant' | 'patent';
   statusLabel?: string;
   statusColor?: 'active' | 'closed' | 'pending';
   onClick?: () => void;

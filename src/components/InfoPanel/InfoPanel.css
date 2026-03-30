@@ -453,6 +453,8 @@
 .entity-card.type-grant:hover { border-left-color: #dc2626; }
 .entity-card.type-company { border-left-color: #3b82f6; }
 .entity-card.type-institution { border-left-color: #10b981; }
+.entity-card.type-patent { border-left-color: #f59e0b; }
+.entity-card.type-patent:hover { border-left-color: #d97706; }
 
 .entity-card-body {
   flex: 1;

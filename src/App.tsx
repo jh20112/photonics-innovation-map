@@ -50,6 +50,9 @@ function App() {
   // Clustering
   const [activeCluster, setActiveCluster] = useState<ClusterType | null>(null);
 
+  // Year range filter (Feature 1)
+  const [yearRange, setYearRange] = useState<[number, number] | null>(null);
+
   // Detail panel
   const [detail, setDetail] = useState<EntityDetail | null>(null);
 
@@ -60,29 +63,39 @@ function App() {
   // Fly-to target
   const [flyTo, setFlyTo] = useState<[number, number] | null>(null);
 
-  // Data fetching
+  // Data fetching — map layers (filtered by year range)
   const { data: companies } = useCompanies(layers.companies, selectedSectors.length > 0 ? selectedSectors : undefined, selectedSources.length > 0 ? selectedSources : undefined, selectedStrengths.length > 0 ? selectedStrengths : undefined);
   const { data: infrastructure } = useInfrastructure(layers.infrastructure, selectedSectors.length > 0 ? selectedSectors : undefined);
   const { data: institutions } = useInstitutions(layers.institutions);
+  const { data: grants } = useGrants(layers.grants, true, yearRange?.[0], yearRange?.[1]);
+  const { data: patents } = usePatents(layers.patents, yearRange?.[0], yearRange?.[1]);
+  const { data: people } = usePeople(layers.people);
 
-  // Always-loaded data for search resolution and cluster member lookup
+  // Always-loaded data for search, detail panels, and dashboard
   const { data: allCompanies } = useCompanies(true);
   const { data: allInfrastructure } = useInfrastructure(true);
   const { data: allInstitutions } = useInstitutions(true);
+  const { data: allGrants } = useGrants(true);
+  const { data: allPatents } = usePatents(true);
+  const { data: allPeople } = usePeople(true);
 
   // Server-side coords lookup for collaboration arc rendering
   const { data: serverCoords } = useCoordsLookup();
-  const { data: grants } = useGrants(layers.grants);
-  const { data: allGrants } = useGrants(true);
-  const { data: patents } = usePatents(layers.patents);
-  const { data: people } = usePeople(layers.people);
-  const { data: allPeople } = usePeople(true);
   const { data: collaborations } = useCollaborations(collabEntity);
   const { data: clusterData } = useClusters(activeCluster);
   const { data: sectors } = useRticSectors();
   const { data: stats } = useStats();
-  const { data: grantTopics } = useGrantTopics();
+  const { data: grantTopics } = useGrantTopics(yearRange?.[0], yearRange?.[1]);
   const { data: grantEdges } = useGrantEdges(grantNetworkEnabled, grantNetworkMinShared);
+
+  // Dashboard edges — always loaded for overview charts
+  const { data: dashboardEdges } = useGrantEdges(true, 3);
+
+  // Company name lookup for patent-company linking (Feature 2)
+  const companyByName = useMemo(() => {
+    if (!allCompanies) return new Map<string, Company>();
+    return new Map(allCompanies.map(c => [c.name.toUpperCase(), c]));
+  }, [allCompanies]);
 
   // Build coords lookup from server-side normalized data
   const coordsLookup = useMemo(() => {
@@ -121,7 +134,6 @@ function App() {
   const handleSearchSelect = useCallback((result: SearchResult) => {
     setFlyTo([result.lat, result.lng]);
 
-    // Resolve full entity and open detail panel
     if (result.type === 'company') {
       const company = allCompanies?.find(c => c.id === result.id);
       if (company) setDetail({ type: 'company', data: company });
@@ -166,7 +178,7 @@ function App() {
     setActiveCluster(type);
   }, []);
 
-  // Dashboard row click handlers — switch to map, fly to entity, open detail
+  // Dashboard row click handlers
   const dashSelectCompany = useCallback((c: Company) => {
     setViewMode('map');
     setLayers(prev => ({ ...prev, companies: true }));
@@ -193,7 +205,6 @@ function App() {
   const dashSelectCluster = useCallback((_clusterId: number, clusterType: ClusterType) => {
     setViewMode('map');
     setActiveCluster(clusterType);
-    // Fetch cluster data and open detail — handled by useEffect when clusterData arrives
   }, []);
 
   return (
@@ -225,6 +236,8 @@ function App() {
         grantEdgeCount={grantEdges?.length ?? null}
         heatmapSubsector={heatmapSubsector}
         onHeatmapSubsectorChange={setHeatmapSubsector}
+        yearRange={yearRange}
+        onYearRangeChange={setYearRange}
       />
       <div style={{ position: 'relative', flex: 1, display: 'flex', flexDirection: 'column' }}>
         {/* View toggle */}
@@ -267,6 +280,8 @@ function App() {
               detail={detail}
               onClose={() => setDetail(null)}
               onShowCollaborations={showCollaborations}
+              allPatents={allPatents}
+              companyByName={companyByName}
             />
           </>
         )}
@@ -277,6 +292,9 @@ function App() {
             companies={allCompanies}
             institutions={allInstitutions}
             grants={allGrants}
+            patents={allPatents}
+            grantEdges={dashboardEdges}
+            sectors={sectors}
             onSelectCompany={dashSelectCompany}
             onSelectInstitution={dashSelectInstitution}
             onSelectGrant={dashSelectGrant}

@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
-import type { EntityDetail, Collaboration } from '../../types/api';
+import type { EntityDetail, Collaboration, Patent, Company } from '../../types/api';
 import { CompanyPanel } from './panels/CompanyPanel';
 import { InfrastructurePanel } from './panels/InfrastructurePanel';
 import { InstitutionPanel } from './panels/InstitutionPanel';
@@ -13,11 +13,13 @@ interface Props {
   detail: EntityDetail | null;
   onClose: () => void;
   onShowCollaborations: (name: string, coords: [number, number]) => void;
+  allPatents: Patent[] | null;
+  companyByName: Map<string, Company>;
 }
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = '/api';
 
-export function InfoPanel({ detail, onClose, onShowCollaborations }: Props) {
+export function InfoPanel({ detail, onClose, onShowCollaborations, allPatents, companyByName }: Props) {
   const [stack, setStack] = useState<EntityDetail[]>([]);
   const [collabs, setCollabs] = useState<Collaboration[] | null>(null);
   const [collabLoading, setCollabLoading] = useState(false);
@@ -76,6 +78,16 @@ export function InfoPanel({ detail, onClose, onShowCollaborations }: Props) {
   const canGoBack = stack.length > 1;
   const prevName = canGoBack ? getEntityName(stack[stack.length - 2]) : null;
 
+  // Compute patents for current company
+  const companyPatents = current.type === 'company' && allPatents
+    ? allPatents.filter(p => p.assignee?.toUpperCase() === current.data.name.toUpperCase())
+    : [];
+
+  // Compute matched company for current patent
+  const matchedCompany = current.type === 'patent'
+    ? companyByName.get(current.data.assignee?.toUpperCase()) ?? null
+    : null;
+
   return (
     <div className="info-panel">
       <div className="info-topbar">
@@ -92,6 +104,7 @@ export function InfoPanel({ detail, onClose, onShowCollaborations }: Props) {
         {current.type === 'company' && (
           <CompanyPanel
             company={current.data}
+            patents={companyPatents}
             collaborations={collabs}
             collabLoading={collabLoading}
             onLoadCollaborations={loadCollabs}
@@ -116,7 +129,7 @@ export function InfoPanel({ detail, onClose, onShowCollaborations }: Props) {
           <GrantPanel grant={current.data} onNavigate={navigate} />
         )}
         {current.type === 'patent' && (
-          <PatentPanel patent={current.data} onNavigate={navigate} />
+          <PatentPanel patent={current.data} matchedCompany={matchedCompany} onNavigate={navigate} />
         )}
         {current.type === 'cluster' && (
           <ClusterPanel cluster={current.data} members={current.members} onNavigate={navigate} />
