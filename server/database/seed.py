@@ -33,8 +33,13 @@ _ALL_TABLES = [
 ]
 
 
-def db_is_empty(session: Session) -> bool:
-    result = session.execute(select(Company.id).limit(1)).first()
+def db_needs_seed(session: Session) -> bool:
+    """Check if the database needs seeding.
+
+    Uses the data_version table as the signal — it's the last thing written
+    during a successful seed, so if it's empty, the seed never completed.
+    """
+    result = session.execute(select(DataVersion.id).limit(1)).first()
     return result is None
 
 
@@ -236,7 +241,7 @@ if __name__ == "__main__":
     run_migrations()
     print("Checking if seed is needed...")
     with SessionLocal() as session:
-        if db_is_empty(session):
+        if db_needs_seed(session):
             seed_from_json(session)
         else:
             print("Database already seeded. To re-seed, truncate tables first.")

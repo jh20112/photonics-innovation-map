@@ -15,7 +15,7 @@ from sqlalchemy.orm import Session
 
 from server.database.engine import SessionLocal, get_db
 from server.database import queries
-from server.database.seed import db_is_empty, get_data_version, run_migrations, seed_from_json
+from server.database.seed import db_needs_seed, get_data_version, run_migrations, seed_from_json
 
 # Serve built frontend in production
 STATIC_DIR = Path(__file__).resolve().parent.parent / "dist"
@@ -35,7 +35,7 @@ async def lifespan(app: FastAPI):
     # Auto-seed if database is empty
     with SessionLocal() as session:
         try:
-            if db_is_empty(session):
+            if db_needs_seed(session):
                 seed_from_json(session, DATA_DIR)
         except Exception as e:
             session.rollback()
