@@ -54,7 +54,7 @@ function fwciColor(fwci: number): { fill: string; border: string } {
 }
 
 export function InstitutionLayer({ institutions, onSelect, periodYears, sizeMetric = 'publications' }: Props) {
-  const isQualityMode = sizeMetric === 'quality' || sizeMetric === 'fwci';
+  // Quality/FWCI modes use colour gradients (handled per-marker below)
 
   const worksMap = useMemo(() => {
     const map = new Map<string, number>();

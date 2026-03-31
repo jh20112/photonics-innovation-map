@@ -9,7 +9,7 @@ import {
   useGrants, usePatents, useCollaborations, usePeople,
   useClusters, useCoordsLookup, useRticSectors, useStats, useGrantTopics, useGrantEdges,
 } from './hooks/useApi';
-import type { LayerType, ClusterType, CompanySizeMetric, Cluster, Grant, EntityDetail, SearchResult, Company, Institution, Person } from './types/api';
+import type { LayerType, ClusterType, CompanySizeMetric, InstitutionSizeMetric, Cluster, Grant, EntityDetail, SearchResult, Company, Institution, Person } from './types/api';
 
 type ViewMode = 'map' | 'dashboard';
 
@@ -39,7 +39,7 @@ function App() {
   const [minGrants, setMinGrants] = useState(0);
 
   // Institution sizing
-  const [institutionSizeMetric, setInstitutionSizeMetric] = useState<import('./types/api').InstitutionSizeMetric>('publications');
+  const [institutionSizeMetric, setInstitutionSizeMetric] = useState<InstitutionSizeMetric>('publications');
 
   // Institution publication period
   const [institutionPeriodYears, setInstitutionPeriodYears] = useState<number | null>(null);

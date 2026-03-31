@@ -16,7 +16,7 @@ import { GrantCollaborationLayer } from './layers/GrantCollaborationLayer';
 import { PeopleLayer } from './layers/PeopleLayer';
 import type {
   Company, Infrastructure, Institution, Grant, Patent, Collaboration, Person,
-  Cluster, ClusterData, CompanySizeMetric, GrantEdge,
+  Cluster, ClusterData, CompanySizeMetric, InstitutionSizeMetric, GrantEdge,
 } from '../../types/api';
 
 interface Props {
@@ -43,7 +43,7 @@ interface Props {
   heatmapSubsector: string | null;
   allCompanies: Company[] | null;
   institutionPeriodYears: number | null;
-  institutionSizeMetric: import('../../types/api').InstitutionSizeMetric;
+  institutionSizeMetric: InstitutionSizeMetric;
   selectedEntity: { type: string; id: string | number; lat: number; lng: number } | null;
   flyTo: [number, number] | null;
   onFlyToDone: () => void;
