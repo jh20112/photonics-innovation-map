@@ -2,7 +2,7 @@
   "clusters": [
     {
       "id": 0,
-      "label": "Charnwood Photonics Cluster",
+      "label": "Nottingham Photonics Cluster",
       "colour": "#e6194b",
       "member_count": 7,
       "boundary": [
@@ -53,7 +53,7 @@
     },
     {
       "id": 1,
-      "label": "Cheshire West and Chester Photonics Cluster",
+      "label": "Liverpool Photonics Cluster",
       "colour": "#3cb44b",
       "member_count": 9,
       "boundary": [
@@ -104,7 +104,7 @@
     },
     {
       "id": 2,
-      "label": "Staffordshire Moorlands Photonics Cluster",
+      "label": "Stoke-on-Trent Photonics Cluster",
       "colour": "#4363d8",
       "member_count": 8,
       "boundary": [
@@ -155,7 +155,7 @@
     },
     {
       "id": 3,
-      "label": "Central Bedfordshire Photonics Cluster",
+      "label": "Milton Keynes Photonics Cluster 1",
       "colour": "#f58231",
       "member_count": 15,
       "boundary": [
@@ -210,7 +210,7 @@
     },
     {
       "id": 4,
-      "label": "Charnwood Photonics Cluster",
+      "label": "Leicester Photonics Cluster 1",
       "colour": "#911eb4",
       "member_count": 5,
       "boundary": [
@@ -257,7 +257,7 @@
     },
     {
       "id": 5,
-      "label": "Milton Keynes Photonics Cluster",
+      "label": "Milton Keynes Photonics Cluster 2",
       "colour": "#42d4f4",
       "member_count": 9,
       "boundary": [
@@ -312,7 +312,7 @@
     },
     {
       "id": 6,
-      "label": "Lichfield Photonics Cluster",
+      "label": "Birmingham Photonics Cluster",
       "colour": "#f032e6",
       "member_count": 16,
       "boundary": [
@@ -371,7 +371,7 @@
     },
     {
       "id": 7,
-      "label": "East Hertfordshire Photonics Cluster",
+      "label": "London Photonics Cluster",
       "colour": "#bfef45",
       "member_count": 5,
       "boundary": [
@@ -422,7 +422,7 @@
     },
     {
       "id": 8,
-      "label": "North West Leicestershire Photonics Cluster",
+      "label": "Leicester Photonics Cluster 2",
       "colour": "#fabed4",
       "member_count": 14,
       "boundary": [
@@ -481,7 +481,7 @@
     },
     {
       "id": 9,
-      "label": "West Oxfordshire Photonics Cluster",
+      "label": "Oxford Photonics Cluster",
       "colour": "#469990",
       "member_count": 8,
       "boundary": [
@@ -540,7 +540,7 @@
     },
     {
       "id": 10,
-      "label": "Cherwell Photonics Cluster",
+      "label": "Warwick Photonics Cluster",
       "colour": "#dcbeff",
       "member_count": 5,
       "boundary": [

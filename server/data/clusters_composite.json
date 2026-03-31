@@ -2,7 +2,7 @@
   "clusters": [
     {
       "id": 0,
-      "label": "Buckinghamshire Photonics Cluster",
+      "label": "London Photonics Cluster 1",
       "colour": "#0ea5e9",
       "member_count": 89,
       "boundary": [
@@ -191,7 +191,7 @@
     },
     {
       "id": 1,
-      "label": "Greenwich Photonics Cluster",
+      "label": "London Photonics Cluster 2",
       "colour": "#8b5cf6",
       "member_count": 70,
       "boundary": [
@@ -567,7 +567,7 @@
     },
     {
       "id": 3,
-      "label": "Bristol, City of Photonics Cluster",
+      "label": "Bristol Photonics Cluster",
       "colour": "#14b8a6",
       "member_count": 15,
       "boundary": [
@@ -756,7 +756,7 @@
     },
     {
       "id": 4,
-      "label": "Glasgow City Photonics Cluster",
+      "label": "Glasgow Photonics Cluster",
       "colour": "#f97316",
       "member_count": 16,
       "boundary": [
@@ -945,7 +945,7 @@
     },
     {
       "id": 5,
-      "label": "South Oxfordshire Photonics Cluster",
+      "label": "Reading Photonics Cluster",
       "colour": "#6366f1",
       "member_count": 38,
       "boundary": [
@@ -1134,7 +1134,7 @@
     },
     {
       "id": 6,
-      "label": "New Forest Photonics Cluster",
+      "label": "Southampton Photonics Cluster 1",
       "colour": "#84cc16",
       "member_count": 13,
       "boundary": [
@@ -1320,7 +1320,7 @@
     },
     {
       "id": 7,
-      "label": "Test Valley Photonics Cluster",
+      "label": "Southampton Photonics Cluster 2",
       "colour": "#ef4444",
       "member_count": 11,
       "boundary": [
@@ -1692,7 +1692,7 @@
     },
     {
       "id": 9,
-      "label": "Rushmoor Photonics Cluster",
+      "label": "Guildford Photonics Cluster",
       "colour": "#a855f7",
       "member_count": 29,
       "boundary": [
@@ -1879,7 +1879,7 @@
     },
     {
       "id": 10,
-      "label": "City of Edinburgh Photonics Cluster",
+      "label": "Edinburgh Photonics Cluster",
       "colour": "#22d3ee",
       "member_count": 16,
       "boundary": [

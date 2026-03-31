@@ -2,7 +2,7 @@
   "clusters": [
     {
       "id": 0,
-      "label": "Harborough Photonics Cluster",
+      "label": "Leicester Photonics Cluster",
       "colour": "#e6194b",
       "member_count": 3,
       "boundary": [
@@ -43,7 +43,7 @@
     },
     {
       "id": 1,
-      "label": "Bury Photonics Cluster",
+      "label": "Manchester Photonics Cluster",
       "colour": "#3cb44b",
       "member_count": 9,
       "boundary": [
@@ -98,7 +98,7 @@
     },
     {
       "id": 2,
-      "label": "West Berkshire Photonics Cluster",
+      "label": "Swindon Photonics Cluster",
       "colour": "#4363d8",
       "member_count": 3,
       "boundary": [
@@ -139,7 +139,7 @@
     },
     {
       "id": 3,
-      "label": "West Oxfordshire Photonics Cluster",
+      "label": "Oxford Photonics Cluster",
       "colour": "#f58231",
       "member_count": 13,
       "boundary": [
@@ -190,7 +190,7 @@
     },
     {
       "id": 4,
-      "label": "South Cambridgeshire Photonics Cluster",
+      "label": "Cambridge Photonics Cluster",
       "colour": "#911eb4",
       "member_count": 4,
       "boundary": [
