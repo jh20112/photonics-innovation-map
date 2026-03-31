@@ -108,6 +108,15 @@ function App() {
     );
   }, [companies, minPatents, minGrants]);
 
+  // Hide non-clustered companies when clustering is active
+  const clusterFilteredCompanies = useMemo(() => {
+    if (!activeCluster || !clusterData || !filteredByThresholds) return filteredByThresholds;
+    const clusteredIds = new Set(
+      clusterData.assignments.filter(a => a.cluster_id !== -1).map(a => a.company_id)
+    );
+    return filteredByThresholds.filter(c => clusteredIds.has(c.id));
+  }, [activeCluster, clusterData, filteredByThresholds]);
+
   const dashboardCompanies = useMemo(() => {
     if (!allCompanies) return allCompanies;
     let result = allCompanies;
@@ -126,8 +135,14 @@ function App() {
     if (minGrants > 0) {
       result = result.filter(c => (c.grant_count || 0) >= minGrants);
     }
+    if (activeCluster && clusterData) {
+      const clusteredIds = new Set(
+        clusterData.assignments.filter(a => a.cluster_id !== -1).map(a => a.company_id)
+      );
+      result = result.filter(c => clusteredIds.has(c.id));
+    }
     return result;
-  }, [allCompanies, selectedSectors, selectedSources, selectedStrengths, minPatents, minGrants]);
+  }, [allCompanies, selectedSectors, selectedSources, selectedStrengths, minPatents, minGrants, activeCluster, clusterData]);
 
   // Company name lookup for patent-company linking (Feature 2)
   const companyByName = useMemo(() => {
@@ -296,7 +311,7 @@ function App() {
         {viewMode === 'map' && (
           <>
             <InnovationMap
-              companies={layers.companies ? filteredByThresholds : null}
+              companies={layers.companies ? clusterFilteredCompanies : null}
               infrastructure={layers.infrastructure ? infrastructure : null}
               institutions={layers.institutions ? institutions : null}
               grants={layers.grants ? filteredGrants : null}
