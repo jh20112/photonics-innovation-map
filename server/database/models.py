@@ -31,8 +31,8 @@ class Company(Base):
     total_grant_funding_gbp = Column(Float)
     is_startup = Column(String)
     source_type = Column(String)
-    discovery_verdict = Column(String)
-    photonics_evidence = Column(String)
+    photonics_score = Column(Integer)
+    photonics_rationale = Column(Text)
     data_strength = Column(String, index=True)
     data_strength_score = Column(Integer)
     # Growth metrics

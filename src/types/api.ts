@@ -20,8 +20,8 @@ export interface Company {
   grants: CompanyGrant[];
   sources: string[];
   source_type: string;
-  discovery_verdict: string;
-  photonics_evidence: string;
+  photonics_score: number | null;
+  photonics_rationale: string;
   is_startup: string;
   emp_growth_pct: number | null;
   emp_growth_abs: number | null;

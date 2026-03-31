@@ -104,9 +104,9 @@
     },
     {
       "id": 2,
-      "label": "Cheshire East Photonics Cluster",
+      "label": "Staffordshire Moorlands Photonics Cluster",
       "colour": "#4363d8",
-      "member_count": 7,
+      "member_count": 8,
       "boundary": [
         [
           54.631956,
@@ -134,22 +134,22 @@
         ]
       ],
       "centroid": [
-        53.17660385714286,
-        -2.0979832857142857
+        52.97667325,
+        -1.999746
       ],
       "summary": {
         "dominant_sector": "Photonics",
         "region": "Midlands",
         "total_employees": 140,
-        "total_patents": 7,
-        "total_grants": 2,
-        "total_funding_gbp": 0,
+        "total_patents": 8,
+        "total_grants": 5,
+        "total_funding_gbp": 24975.0,
         "top_companies": [
           "SILIXA LTD",
           "WELL-SENSE TECHNOLOGY LIMITED",
           "INOV8 SYSTEMS LIMITED",
           "FOCUS SENSORS LIMITED",
-          "OPTASENSE HOLDINGS LIMITED"
+          "WIKA OPTICAL SENSING LIMITED"
         ]
       }
     },
@@ -1270,7 +1270,7 @@
     {
       "company_id": 137,
       "company_name": "WIKA OPTICAL SENSING LIMITED",
-      "cluster_id": -1
+      "cluster_id": 2
     },
     {
       "company_id": 138,
@@ -2540,6 +2540,11 @@
     {
       "company_id": 391,
       "company_name": "SPARTA Biodiscovery",
+      "cluster_id": -1
+    },
+    {
+      "company_id": 392,
+      "company_name": "COMIND TECHNOLOGIES LIMITED",
       "cluster_id": -1
     }
   ]

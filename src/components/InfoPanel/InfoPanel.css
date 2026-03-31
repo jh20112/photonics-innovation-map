@@ -374,8 +374,26 @@
   color: var(--c-text-muted);
 }
 
-.source-badge.verdict-y { background: #d1fae5; color: #047857; }
-.source-badge.verdict-maybe { background: #fef3c7; color: #92400e; }
+.photonics-score-badge { font-weight: 700; }
+.photonics-score-badge.score-high { background: #d1fae5; color: #047857; }
+.photonics-score-badge.score-medium { background: #fef3c7; color: #92400e; }
+.photonics-score-badge.score-low { background: #fee2e2; color: #b91c1c; }
+
+.rationale-panel {
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-sm);
+  padding: 12px;
+  margin-bottom: 14px;
+}
+
+.rationale-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 12px;
+}
 .source-badge.strength-strong { background: #d1fae5; color: #047857; }
 .source-badge.strength-moderate { background: #dbeafe; color: #1e40af; }
 .source-badge.strength-limited { background: #fee2e2; color: #b91c1c; }

@@ -2190,6 +2190,11 @@
       "company_id": 391,
       "company_name": "SPARTA Biodiscovery",
       "cluster_id": -1
+    },
+    {
+      "company_id": 392,
+      "company_name": "COMIND TECHNOLOGIES LIMITED",
+      "cluster_id": -1
     }
   ]
 }

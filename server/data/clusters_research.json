@@ -564,7 +564,7 @@
       "id": 3,
       "label": "Westminster Photonics Cluster",
       "colour": "#14b8a6",
-      "member_count": 76,
+      "member_count": 77,
       "boundary": [
         [
           51.768452852497305,
@@ -722,7 +722,7 @@
       "summary": {
         "dominant_sector": "Photonics",
         "region": "South England",
-        "total_employees": 78130,
+        "total_employees": 78209,
         "total_patents": 292,
         "total_grants": 156,
         "total_funding_gbp": 4009508.0,
@@ -735,10 +735,10 @@
         ],
         "anchor_institution": "Imperial College London",
         "anchor_publications": 526,
-        "total_publications": 1603,
-        "institution_count": 23,
+        "total_publications": 1587,
+        "institution_count": 21,
         "infrastructure_count": 6,
-        "total_vc_funding_usd_m": 1798.7,
+        "total_vc_funding_usd_m": 1886.8,
         "top_institutions": [
           "Imperial College London",
           "University College London",
@@ -1861,6 +1861,11 @@
     {
       "company_id": 391,
       "company_name": "SPARTA Biodiscovery",
+      "cluster_id": 3
+    },
+    {
+      "company_id": 392,
+      "company_name": "COMIND TECHNOLOGIES LIMITED",
       "cluster_id": 3
     },
     {

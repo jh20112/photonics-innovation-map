@@ -55,6 +55,8 @@ const SOURCE_OPTIONS: { value: string; label: string }[] = [
   { value: 'grant_collabs', label: 'Grant Collaborators' },
   { value: 'patents', label: 'Patents' },
   { value: 'company_collabs', label: 'Company Collaborators' },
+  { value: 'pipeline', label: 'Pipeline' },
+  { value: 'manual', label: 'Manual' },
 ];
 
 const LAYER_CONFIG: { key: LayerType; label: string; color: string }[] = [

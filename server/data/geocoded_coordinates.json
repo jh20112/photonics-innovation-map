@@ -1563,6 +1563,10 @@
     "SPARTA Biodiscovery": [
       51.5074456,
       -0.1277653
+    ],
+    "COMIND TECHNOLOGIES LIMITED": [
+      51.5074456,
+      -0.1277653
     ]
   },
   "infrastructure": {
@@ -2052,13 +2056,13 @@
       53.9569268,
       -2.0264827
     ],
-    "Cardiff University": [
-      51.4887426,
-      -3.1795999
-    ],
     "University of York": [
       53.9453903,
       -1.0314593
+    ],
+    "Cardiff University": [
+      51.4887426,
+      -3.1795999
     ],
     "University of Birmingham": [
       52.4522956,
@@ -2112,13 +2116,13 @@
       51.570862,
       -1.315498
     ],
-    "University of Warwick": [
-      52.3813073,
-      -1.5639569
-    ],
     "Lancaster University": [
       54.0098429,
       -2.7875768
+    ],
+    "University of Warwick": [
+      52.3813073,
+      -1.5639569
     ],
     "Peking University": [
       51.7154747,
@@ -2184,13 +2188,13 @@
       53.4072429,
       -2.9658337
     ],
-    "University of Dundee": [
-      56.4579676,
-      -2.9821483
-    ],
     "University of East Anglia": [
       52.6210623,
       1.2356187
+    ],
+    "University of Dundee": [
+      56.4579676,
+      -2.9821483
     ],
     "Loughborough University": [
       52.763845,
@@ -2204,10 +2208,6 @@
       53.4732203,
       -2.2970993
     ],
-    "Institute of Physics": [
-      51.5322852,
-      -0.1205766
-    ],
     "Microsoft Research (United Kingdom)": [
       52.1949515,
       0.1350108
@@ -2215,6 +2215,10 @@
     "University of Hull": [
       53.7732507,
       -0.3670415
+    ],
+    "Institute of Physics": [
+      51.5322852,
+      -0.1205766
     ],
     "Intel (United Kingdom)": [
       51.5439608,
@@ -2236,21 +2240,25 @@
       51.5252372,
       -0.2309242
     ],
-    "Qinetiq (United Kingdom)": [
-      50.7857315,
-      -1.1293827
-    ],
     "STMicroelectronics (United Kingdom)": [
       51.540495,
       -2.5770243
     ],
-    "Boston University": [
-      52.7877754,
-      -0.151218
+    "Qinetiq (United Kingdom)": [
+      50.7857315,
+      -1.1293827
+    ],
+    "Airbus (United Kingdom)": [
+      51.5130343,
+      -2.5775448
     ],
     "University of South Wales": [
       51.5860894,
       -2.990616
+    ],
+    "Boston University": [
+      52.7877754,
+      -0.151218
     ],
     "New York University": [
       51.525894,
@@ -2260,17 +2268,13 @@
       51.5184323,
       -0.1294016
     ],
-    "Airbus (United Kingdom)": [
-      51.5130343,
-      -2.5775448
+    "Hewlett-Packard (United Kingdom)": [
+      55.9165646,
+      -4.4845111
     ],
     "Andrews University": [
       56.3398554,
       -2.8117775
-    ],
-    "Hewlett-Packard (United Kingdom)": [
-      55.9165646,
-      -4.4845111
     ],
     "Gooch & Housego (United Kingdom)": [
       50.9160096,
@@ -2288,10 +2292,6 @@
       51.5100436,
       -0.0047661
     ],
-    "Aberystwyth University": [
-      52.4155496,
-      -4.0650542
-    ],
     "Glasgow Caledonian University": [
       55.8674664,
       -4.2502454
@@ -2300,97 +2300,89 @@
       51.5706618,
       -0.0954029
     ],
-    "Duke University": [
-      51.2423834,
-      -0.5844199
-    ],
     "Institution of Engineering and Technology": [
       51.5100284,
       -0.1192362
     ],
-    "Compound Semiconductor Technologies (United Kingdom)": [
-      55.7779916,
-      -4.0933554
+    "Aberystwyth University": [
+      52.4155496,
+      -4.0650542
+    ],
+    "Duke University": [
+      51.2423834,
+      -0.5844199
     ],
     "Cranfield University": [
       52.0701329,
       -0.6287023
     ],
-    "University of Portsmouth": [
-      50.795245,
-      -1.0935529
-    ],
-    "Cavendish Hospital": [
-      53.262318,
-      -1.9210277
+    "Compound Semiconductor Technologies (United Kingdom)": [
+      55.7779916,
+      -4.0933554
     ],
     "Natural History Museum": [
       51.4965109,
       -0.1760019
     ],
-    "University of Leicester": [
-      52.6205879,
-      -1.109923
+    "Cavendish Hospital": [
+      53.262318,
+      -1.9210277
     ],
-    "Faculty (United Kingdom)": [
-      51.7558131,
-      -1.2608884
+    "University of Portsmouth": [
+      50.795245,
+      -1.0935529
     ],
     "Materials Technology (United Kingdom)": [
       53.2197457,
       -3.0330131
     ],
+    "Faculty (United Kingdom)": [
+      51.7558131,
+      -1.2608884
+    ],
+    "University of Leicester": [
+      52.6205879,
+      -1.109923
+    ],
     "BAE Systems (United Kingdom)": [
       55.8816399,
       -4.3656145
-    ],
-    "Charles University": [
-      52.1957574,
-      -2.2261797
-    ],
-    "University of Wales": [
-      52.1131319,
-      -4.0752017
-    ],
-    "University of Wolverhampton": [
-      52.5901648,
-      -2.1277808
-    ],
-    "Foundry (United Kingdom)": [
-      53.4687082,
-      -2.2759603
-    ],
-    "Seagate (United Kingdom)": [
-      55.0200595,
-      -7.3379835
-    ],
-    "University of Aberdeen": [
-      57.1645248,
-      -2.1018364
-    ],
-    "Malvern Community Hospital": [
-      52.112431,
-      -2.3205385
-    ],
-    "Nokia (United Kingdom)": [
-      51.6084004,
-      -0.4981667
     ],
     "University of Waterloo": [
       51.5053862,
       -0.1130773
     ],
-    "Dartmouth College": [
-      50.3571481,
-      -3.5838466
+    "Seagate (United Kingdom)": [
+      55.0200595,
+      -7.3379835
     ],
-    "University of Greenwich": [
-      51.4825423,
-      -0.0066531
+    "University of Wolverhampton": [
+      52.5901648,
+      -2.1277808
     ],
-    "Turing Institute": [
-      51.5302275,
-      -0.1270026
+    "University of Aberdeen": [
+      57.1645248,
+      -2.1018364
+    ],
+    "Charles University": [
+      52.1957574,
+      -2.2261797
+    ],
+    "Malvern Community Hospital": [
+      52.112431,
+      -2.3205385
+    ],
+    "University of Wales": [
+      52.1131319,
+      -4.0752017
+    ],
+    "Foundry (United Kingdom)": [
+      53.4687082,
+      -2.2759603
+    ],
+    "Nokia (United Kingdom)": [
+      51.6084004,
+      -0.4981667
     ]
   },
   "grant_orgs": {

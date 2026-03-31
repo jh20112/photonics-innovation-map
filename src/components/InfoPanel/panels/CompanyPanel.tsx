@@ -30,6 +30,7 @@ export function CompanyPanel({
   const [descExpanded, setDescExpanded] = useState(false);
   const [showAllGrants, setShowAllGrants] = useState(false);
   const [showAllPatents, setShowAllPatents] = useState(false);
+  const [showRationale, setShowRationale] = useState(false);
 
   const desc = c.description || '';
   const truncatedDesc = desc.length > 200 && !descExpanded ? desc.slice(0, 200) + '...' : desc;
@@ -116,17 +117,35 @@ export function CompanyPanel({
       </div>
 
       <div className="source-badges">
+        {c.photonics_score != null && (
+          <span
+            className={`source-badge photonics-score-badge ${
+              c.photonics_score >= 70 ? 'score-high' :
+              c.photonics_score >= 40 ? 'score-medium' : 'score-low'
+            }`}
+            onClick={() => setShowRationale(prev => !prev)}
+            style={{ cursor: 'pointer' }}
+            title="Click to see rationale"
+          >
+            Photonics: {c.photonics_score}/100
+          </span>
+        )}
         <span className={`source-badge strength-${c.data_strength.toLowerCase()}`}>
           {c.data_strength} Data
         </span>
         {c.sources.map(s => <span key={s} className="source-badge">{s}</span>)}
         {c.source_type && <span className="source-badge">{c.source_type}</span>}
-        {c.discovery_verdict && (
-          <span className={`source-badge ${c.discovery_verdict === 'Y' ? 'verdict-y' : c.discovery_verdict === 'MAYBE' ? 'verdict-maybe' : ''}`}>
-            {c.discovery_verdict === 'Y' ? 'Confirmed' : c.discovery_verdict === 'MAYBE' ? 'Possible' : c.discovery_verdict}
-          </span>
-        )}
       </div>
+
+      {showRationale && c.photonics_rationale && (
+        <div className="rationale-panel">
+          <div className="rationale-header">
+            <strong>Photonics Score Rationale</strong>
+            <button className="info-show-more" onClick={() => setShowRationale(false)}>Close</button>
+          </div>
+          <p className="info-desc">{c.photonics_rationale}</p>
+        </div>
+      )}
 
       {/* Grants section */}
       {c.grant_count > 0 && (
