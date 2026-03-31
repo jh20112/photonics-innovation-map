@@ -4,6 +4,7 @@ import { Sidebar } from './components/Sidebar/Sidebar';
 import { InfoPanel } from './components/InfoPanel/InfoPanel';
 import { AnalyticsPanel } from './components/Analytics/AnalyticsPanel';
 import { Dashboard } from './components/Dashboard/Dashboard';
+import { DataTab } from './components/DataTab/DataTab';
 import {
   useCompanies, useInfrastructure, useInstitutions,
   useGrants, usePatents, useCollaborations, usePeople,
@@ -11,7 +12,7 @@ import {
 } from './hooks/useApi';
 import type { LayerType, ClusterType, CompanySizeMetric, InstitutionSizeMetric, Cluster, Grant, EntityDetail, SearchResult, Company, Institution, Person } from './types/api';
 
-type ViewMode = 'map' | 'dashboard';
+type ViewMode = 'map' | 'dashboard' | 'data';
 
 function App() {
   const [viewMode, setViewMode] = useState<ViewMode>('map');
@@ -305,6 +306,7 @@ function App() {
         <div className="view-toggle-bar">
           <button className={`view-toggle ${viewMode === 'map' ? 'active' : ''}`} onClick={() => setViewMode('map')}>Map</button>
           <button className={`view-toggle ${viewMode === 'dashboard' ? 'active' : ''}`} onClick={() => setViewMode('dashboard')}>Dashboard</button>
+          <button className={`view-toggle ${viewMode === 'data' ? 'active' : ''}`} onClick={() => setViewMode('data')}>Data</button>
         </div>
 
         {/* Map view */}
@@ -363,6 +365,11 @@ function App() {
             onSelectGrant={dashSelectGrant}
             onSelectCluster={dashSelectCluster}
           />
+        )}
+
+        {/* Data view */}
+        {viewMode === 'data' && (
+          <DataTab companies={allCompanies} />
         )}
       </div>
       {showTopics && (
