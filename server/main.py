@@ -42,6 +42,12 @@ async def lifespan(app: FastAPI):
             print(f"Seed failed: {e}")
             raise
         _data_version = get_data_version(session)
+    # Include all file timestamps in the ETag so cluster file changes bust the cache
+    import hashlib
+    h = hashlib.sha256(_data_version.encode())
+    for f in sorted(DATA_DIR.glob("*.json")):
+        h.update(str(f.stat().st_mtime_ns).encode())
+    _data_version = h.hexdigest()[:16]
     print(f"Data version: {_data_version}")
     yield
 
