@@ -42,6 +42,7 @@ interface Props {
   onSelectCluster: (cluster: Cluster) => void;
   heatmapSubsector: string | null;
   allCompanies: Company[] | null;
+  institutionPeriodYears: number | null;
   selectedEntity: { type: string; id: string | number; lat: number; lng: number } | null;
   flyTo: [number, number] | null;
   onFlyToDone: () => void;
@@ -64,7 +65,7 @@ export function InnovationMap({
   clusterData, companySizeMetric, growthPeriodMonths, grantEdges,
   onSelectCompany, onSelectInfrastructure, onSelectInstitution,
   onSelectGrant, onSelectPatent, onSelectPerson, onSelectCluster,
-  heatmapSubsector, allCompanies,
+  heatmapSubsector, allCompanies, institutionPeriodYears,
   selectedEntity, flyTo, onFlyToDone,
 }: Props) {
   const [zoom, setZoom] = useState(MAP_CONFIG.defaultZoom);
@@ -121,7 +122,7 @@ export function InnovationMap({
         {/* Data layers — keys force remount on data change for Canvas cleanup */}
         {grants && <GrantLayer key={`grants-${grants.length}`} grants={grants} onSelect={onSelectGrant} />}
         {patents && <PatentLayer key={`patents-${patents.length}`} patents={patents} onSelect={onSelectPatent} />}
-        {institutions && <InstitutionLayer key={`inst-${institutions.length}`} institutions={institutions} onSelect={onSelectInstitution} />}
+        {institutions && <InstitutionLayer key={`inst-${institutions.length}`} institutions={institutions} onSelect={onSelectInstitution} periodYears={institutionPeriodYears} />}
         {infrastructure && <InfrastructureLayer key={`infra-${infrastructure.length}`} facilities={infrastructure} onSelect={onSelectInfrastructure} />}
         {people && <PeopleLayer key={`people-${people.length}`} people={people} onSelect={onSelectPerson} />}
         {companies && (

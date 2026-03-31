@@ -69,6 +69,7 @@ export interface Institution {
   total_citations: number | null;
   avg_fwci: number | null;
   top_topics: string[];
+  publications_by_year: Record<string, number> | null;
   cluster_id: number | null;
   n_grants: number | null;
   n_collaborators: number | null;

@@ -38,6 +38,9 @@ function App() {
   const [minPatents, setMinPatents] = useState(0);
   const [minGrants, setMinGrants] = useState(0);
 
+  // Institution publication period
+  const [institutionPeriodYears, setInstitutionPeriodYears] = useState<number | null>(null);
+
   // Subsector heatmap
   const [heatmapSubsector, setHeatmapSubsector] = useState<string | null>(null);
 
@@ -257,6 +260,8 @@ function App() {
         onMinPatentsChange={setMinPatents}
         minGrants={minGrants}
         onMinGrantsChange={setMinGrants}
+        institutionPeriodYears={institutionPeriodYears}
+        onInstitutionPeriodChange={setInstitutionPeriodYears}
         heatmapSubsector={heatmapSubsector}
         onHeatmapSubsectorChange={setHeatmapSubsector}
         yearRange={yearRange}
@@ -288,6 +293,7 @@ function App() {
               grantEdges={grantNetworkEnabled ? grantEdges : null}
               heatmapSubsector={heatmapSubsector}
               allCompanies={allCompanies}
+              institutionPeriodYears={institutionPeriodYears}
               onSelectCompany={(c: Company) => setDetail({ type: 'company', data: c })}
               onSelectInfrastructure={(f) => setDetail({ type: 'infrastructure', data: f })}
               onSelectInstitution={(i: Institution) => setDetail({ type: 'institution', data: i })}

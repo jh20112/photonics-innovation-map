@@ -35,6 +35,8 @@ interface Props {
   onMinPatentsChange: (value: number) => void;
   minGrants: number;
   onMinGrantsChange: (value: number) => void;
+  institutionPeriodYears: number | null;
+  onInstitutionPeriodChange: (years: number | null) => void;
   yearRange: [number, number] | null;
   onYearRangeChange: (range: [number, number] | null) => void;
 }
@@ -69,6 +71,7 @@ export function Sidebar({
   onToggleTopics, showTopics,
   grantNetworkEnabled, onToggleGrantNetwork, grantNetworkMinShared, onGrantNetworkMinSharedChange, grantEdgeCount,
   minPatents, onMinPatentsChange, minGrants, onMinGrantsChange,
+  institutionPeriodYears, onInstitutionPeriodChange,
   yearRange, onYearRangeChange,
 }: Props) {
   const [collapsed, setCollapsed] = useState(false);
@@ -217,6 +220,32 @@ export function Sidebar({
                 style={{ width: '100%', marginTop: 2 }}
               />
             </label>
+          </div>
+        )}
+
+        {/* Institution publication period */}
+        {layers.institutions && (
+          <div className="layer-sub-control">
+            <span className="growth-period-label">
+              Publications: {institutionPeriodYears ? `Last ${institutionPeriodYears}yr` : 'All time'}
+            </span>
+            <div className="growth-period-stops">
+              {[1, 3, 5, 10].map(y => (
+                <button
+                  key={y}
+                  className={`growth-period-stop ${institutionPeriodYears === y ? 'active' : ''}`}
+                  onClick={() => onInstitutionPeriodChange(institutionPeriodYears === y ? null : y)}
+                >
+                  {y}yr
+                </button>
+              ))}
+              <button
+                className={`growth-period-stop ${institutionPeriodYears === null ? 'active' : ''}`}
+                onClick={() => onInstitutionPeriodChange(null)}
+              >
+                All
+              </button>
+            </div>
           </div>
         )}
 
