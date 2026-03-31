@@ -1,6 +1,7 @@
 import type { Institution, Collaboration, EntityDetail } from '../../../types/api';
 import { EntityHeader } from '../EntityHeader';
 import { StatBlock } from '../StatBlock';
+import { TagList } from '../TagList';
 import { CollapsibleSection } from '../CollapsibleSection';
 import { RelatedEntityCard } from '../RelatedEntityCard';
 
@@ -26,9 +27,15 @@ export function InstitutionPanel({
 
       <div className="stat-row">
         <StatBlock value={inst.photonics_works} label="Publications" />
+        <StatBlock value={inst.total_citations} label="Citations" />
+        <StatBlock value={inst.avg_fwci} label="Avg FWCI" format="plain" />
         <StatBlock value={inst.n_grants} label="Grants" />
         <StatBlock value={inst.n_collaborators} label="Collaborators" />
       </div>
+
+      {inst.top_topics && inst.top_topics.length > 0 && (
+        <TagList label="Top Research Topics" tags={inst.top_topics} variant="primary" />
+      )}
 
       {inst.cluster_id != null && (
         <div className="detail-grid">

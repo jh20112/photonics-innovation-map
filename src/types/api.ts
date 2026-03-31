@@ -66,6 +66,9 @@ export interface Institution {
   lng: number;
   rank: number | null;
   photonics_works: number | null;
+  total_citations: number | null;
+  avg_fwci: number | null;
+  top_topics: string[];
   cluster_id: number | null;
   n_grants: number | null;
   n_collaborators: number | null;

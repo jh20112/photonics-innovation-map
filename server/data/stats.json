@@ -1,9 +1,9 @@
 {
-  "companies": 437,
+  "companies": 391,
   "infrastructure": 103,
-  "institutions": 165,
+  "institutions": 103,
   "grants": 2057,
-  "grants_geocoded": 1803,
+  "grants_geocoded": 1800,
   "patents": 5964,
   "company_collaborations": 5480,
   "grant_edges": 52784,

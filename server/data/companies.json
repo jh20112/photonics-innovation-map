@@ -18709,8 +18709,8 @@
     "growth_stage": "late stage",
     "status": "Active",
     "patent_count": 1,
-    "grant_count": 2,
-    "total_grant_funding_gbp": null,
+    "grant_count": 1,
+    "total_grant_funding_gbp": 0.0,
     "grants": [
       {
         "reference": "2752067",
@@ -18731,7 +18731,7 @@
       "datacity"
     ],
     "source_type": "original",
-    "discovery_verdict": "",
+    "discovery_verdict": "Y",
     "photonics_evidence": "",
     "is_startup": "No",
     "emp_growth_pct": 137.2,
@@ -18995,7 +18995,7 @@
       }
     ],
     "data_strength": "Strong",
-    "data_strength_score": 62
+    "data_strength_score": 65
   },
   {
     "id": 69,
@@ -21028,7 +21028,7 @@
     "data_strength_score": 50
   },
   {
-    "id": 79,
+    "id": 78,
     "name": "AllFocal Optics",
     "lat": 52.679908,
     "lng": -0.748302,
@@ -21166,7 +21166,7 @@
     "data_strength_score": 50
   },
   {
-    "id": 81,
+    "id": 79,
     "name": "Advanced Material Development",
     "lat": 51.285092,
     "lng": -0.758987,
@@ -21337,7 +21337,7 @@
     "data_strength_score": 54
   },
   {
-    "id": 82,
+    "id": 80,
     "name": "Callosum",
     "lat": 51.513069,
     "lng": -0.070279,
@@ -21392,7 +21392,7 @@
     "data_strength_score": 62
   },
   {
-    "id": 83,
+    "id": 81,
     "name": "Cambridge Photon Technology",
     "lat": 52.290007,
     "lng": 0.125471,
@@ -21626,7 +21626,7 @@
     "data_strength_score": 69
   },
   {
-    "id": 84,
+    "id": 82,
     "name": "NAAMA Studios",
     "lat": 51.613666,
     "lng": -0.176324,
@@ -21749,7 +21749,7 @@
     "data_strength_score": 62
   },
   {
-    "id": 85,
+    "id": 83,
     "name": "Zero Point Motion",
     "lat": 51.451817,
     "lng": -2.599786,
@@ -22000,7 +22000,7 @@
     "data_strength_score": 69
   },
   {
-    "id": 86,
+    "id": 84,
     "name": "Finchetto",
     "lat": 51.605204,
     "lng": -2.918574,
@@ -22202,7 +22202,7 @@
     "data_strength_score": 54
   },
   {
-    "id": 87,
+    "id": 85,
     "name": "Compound Semiconductor Centre",
     "lat": 51.530931,
     "lng": -3.087987,
@@ -22529,7 +22529,7 @@
     "data_strength_score": 54
   },
   {
-    "id": 88,
+    "id": 86,
     "name": "Sentinel Photonics",
     "lat": 51.12973,
     "lng": -1.70455,
@@ -22791,7 +22791,7 @@
     "data_strength_score": 50
   },
   {
-    "id": 89,
+    "id": 87,
     "name": "Oxford Lasers",
     "lat": 51.619671,
     "lng": -1.2517,
@@ -23110,7 +23110,7 @@
     "data_strength_score": 54
   },
   {
-    "id": 90,
+    "id": 88,
     "name": "Metahelios",
     "lat": 55.870286,
     "lng": -4.278413,
@@ -23287,7 +23287,7 @@
     "data_strength_score": 54
   },
   {
-    "id": 91,
+    "id": 89,
     "name": "Covesion",
     "lat": 50.941027,
     "lng": -1.470438,
@@ -23565,7 +23565,7 @@
     "data_strength_score": 54
   },
   {
-    "id": 92,
+    "id": 90,
     "name": "AVoptics",
     "lat": 50.952316,
     "lng": -2.681127,
@@ -23754,7 +23754,7 @@
     "data_strength_score": 50
   },
   {
-    "id": 93,
+    "id": 91,
     "name": "Wideblue",
     "lat": 55.901137,
     "lng": -4.312744,
@@ -23904,7 +23904,7 @@
     "data_strength_score": 50
   },
   {
-    "id": 94,
+    "id": 92,
     "name": "Photonic Measurements",
     "lat": 54.513717,
     "lng": -6.071761,
@@ -24230,7 +24230,7 @@
     "data_strength_score": 54
   },
   {
-    "id": 95,
+    "id": 93,
     "name": "Kelvin Nanotechnology",
     "lat": 55.872658,
     "lng": -4.286225,
@@ -24472,7 +24472,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 96,
+    "id": 94,
     "name": "Helia Photonics",
     "lat": 55.87673,
     "lng": -3.546452,
@@ -24835,7 +24835,7 @@
     "data_strength_score": 54
   },
   {
-    "id": 97,
+    "id": 95,
     "name": "RedWave Labs",
     "lat": 51.583656,
     "lng": -1.311482,
@@ -25145,7 +25145,7 @@
     "data_strength_score": 50
   },
   {
-    "id": 98,
+    "id": 96,
     "name": "Amethyst Research",
     "lat": 52.243033,
     "lng": -0.873051,
@@ -25447,7 +25447,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 99,
+    "id": 97,
     "name": "Duality Quantum Photonics",
     "lat": 51.45536,
     "lng": -2.606683,
@@ -25635,7 +25635,7 @@
     "data_strength_score": 35
   },
   {
-    "id": 102,
+    "id": 98,
     "name": "Optek",
     "lat": 51.675016,
     "lng": -1.303302,
@@ -25728,8 +25728,8 @@
     "growth_stage": "breakout stage",
     "status": "Active",
     "patent_count": 14,
-    "grant_count": 1,
-    "total_grant_funding_gbp": null,
+    "grant_count": 4,
+    "total_grant_funding_gbp": 0.0,
     "grants": [
       {
         "reference": "710636",
@@ -25743,7 +25743,7 @@
       "dealroom"
     ],
     "source_type": "original",
-    "discovery_verdict": "",
+    "discovery_verdict": "Y",
     "photonics_evidence": "",
     "is_startup": "Yes",
     "emp_growth_pct": 107.4,
@@ -25955,10 +25955,10 @@
       }
     ],
     "data_strength": "Moderate",
-    "data_strength_score": 50
+    "data_strength_score": 54
   },
   {
-    "id": 103,
+    "id": 99,
     "name": "LumiAIres",
     "lat": 55.890604,
     "lng": -4.317059,
@@ -26090,7 +26090,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 104,
+    "id": 100,
     "name": "Photon Force",
     "lat": 55.922048,
     "lng": -3.171745,
@@ -26401,7 +26401,7 @@
     "data_strength_score": 54
   },
   {
-    "id": 105,
+    "id": 101,
     "name": "Optos",
     "lat": 56.048541,
     "lng": -3.427913,
@@ -26575,7 +26575,7 @@
     "data_strength_score": 50
   },
   {
-    "id": 106,
+    "id": 102,
     "name": "Sengenia",
     "lat": 54.585528,
     "lng": -5.93641,
@@ -26666,7 +26666,7 @@
     "data_strength_score": 50
   },
   {
-    "id": 107,
+    "id": 103,
     "name": "Fianium",
     "lat": 50.856428,
     "lng": -1.327875,
@@ -26786,7 +26786,7 @@
     "data_strength_score": 38
   },
   {
-    "id": 108,
+    "id": 104,
     "name": "Cambridge Display Technology",
     "lat": 52.316411,
     "lng": -0.159153,
@@ -26954,7 +26954,7 @@
     "data_strength_score": 38
   },
   {
-    "id": 110,
+    "id": 105,
     "name": "Pixel-Flo Ltd.",
     "lat": 53.381062,
     "lng": -1.481137,
@@ -27054,7 +27054,7 @@
     "data_strength_score": 27
   },
   {
-    "id": 111,
+    "id": 106,
     "name": "Qontrol",
     "lat": 50.808381,
     "lng": -1.918263,
@@ -27183,7 +27183,7 @@
     "data_strength_score": 38
   },
   {
-    "id": 113,
+    "id": 107,
     "name": "Integrated Compound Semiconductors",
     "lat": 53.393401,
     "lng": -2.219026,
@@ -27524,7 +27524,7 @@
     "data_strength_score": 35
   },
   {
-    "id": 114,
+    "id": 108,
     "name": "Bay Photonics",
     "lat": 50.437681,
     "lng": -3.566778,
@@ -27759,7 +27759,7 @@
     "data_strength_score": 38
   },
   {
-    "id": 116,
+    "id": 109,
     "name": "Watt Laser",
     "lat": 55.834306,
     "lng": -4.213164,
@@ -27867,7 +27867,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 117,
+    "id": 110,
     "name": "Resolute Photonics",
     "lat": 51.51387,
     "lng": -0.091172,
@@ -28016,7 +28016,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 118,
+    "id": 111,
     "name": "Caledonian Photonics",
     "lat": 56.119419,
     "lng": -3.908648,
@@ -28105,7 +28105,7 @@
     "data_strength_score": 38
   },
   {
-    "id": 119,
+    "id": 112,
     "name": "VF Photonix",
     "lat": 51.737016,
     "lng": 0.462158,
@@ -28179,7 +28179,7 @@
     "data_strength_score": 35
   },
   {
-    "id": 121,
+    "id": 113,
     "name": "Phorest Diagnostics",
     "lat": 53.948437,
     "lng": -1.053553,
@@ -28272,7 +28272,7 @@
     "data_strength_score": 23
   },
   {
-    "id": 124,
+    "id": 114,
     "name": "Stratium",
     "lat": 51.546795,
     "lng": -0.003313,
@@ -28477,7 +28477,7 @@
     "data_strength_score": 54
   },
   {
-    "id": 129,
+    "id": 115,
     "name": "MicroLab Devices Ltd",
     "lat": 53.903178,
     "lng": -1.706437,
@@ -28582,7 +28582,7 @@
     "data_strength_score": 35
   },
   {
-    "id": 130,
+    "id": 116,
     "name": "Bluebell Opticom",
     "lat": 51.580035,
     "lng": -0.7131,
@@ -28687,7 +28687,7 @@
     "data_strength_score": 35
   },
   {
-    "id": 134,
+    "id": 117,
     "name": "TECHNICAL CONSUMER PRODUCTS LIMITED",
     "lat": 52.490056,
     "lng": -0.688639,
@@ -28737,7 +28737,7 @@
     "data_strength_score": 27
   },
   {
-    "id": 135,
+    "id": 118,
     "name": "IBH Consultants",
     "lat": 52.275648,
     "lng": -0.872708,
@@ -28823,7 +28823,7 @@
     "data_strength_score": 23
   },
   {
-    "id": 136,
+    "id": 119,
     "name": "Edinburgh Biosciences",
     "lat": 56.002599,
     "lng": -3.732083,
@@ -28965,7 +28965,7 @@
     "data_strength_score": 50
   },
   {
-    "id": 137,
+    "id": 120,
     "name": "OXFORD FIBER",
     "lat": 51.748154,
     "lng": -1.273756,
@@ -29058,7 +29058,7 @@
     "data_strength_score": 38
   },
   {
-    "id": 138,
+    "id": 121,
     "name": "FRAUNHOFER UK RESEARCH LIMITED",
     "lat": 55.860726,
     "lng": -4.24407,
@@ -29192,7 +29192,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 139,
+    "id": 122,
     "name": "NKT PHOTONICS HOLDING LTD",
     "lat": 50.856428,
     "lng": -1.327875,
@@ -29292,7 +29292,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 140,
+    "id": 123,
     "name": "TRULIFE OPTICS LIMITED",
     "lat": 51.508409,
     "lng": 0.008035,
@@ -29431,7 +29431,7 @@
     "data_strength_score": 38
   },
   {
-    "id": 141,
+    "id": 124,
     "name": "PLESSEY SEMICONDUCTORS LIMITED",
     "lat": 50.44752,
     "lng": -4.110845,
@@ -29520,7 +29520,7 @@
     "data_strength_score": 8
   },
   {
-    "id": 142,
+    "id": 125,
     "name": "ALTER TECHNOLOGY TUV NORD UK LIMITED",
     "lat": 55.879275,
     "lng": -3.532678,
@@ -29855,7 +29855,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 143,
+    "id": 126,
     "name": "DESIGN LED PRODUCTS LIMITED",
     "lat": 55.872585,
     "lng": -3.548765,
@@ -30064,7 +30064,7 @@
     "data_strength_score": 54
   },
   {
-    "id": 144,
+    "id": 127,
     "name": "SIVERS PHOTONICS LIMITED",
     "lat": 55.950643,
     "lng": -3.208593,
@@ -30199,7 +30199,7 @@
     "data_strength_score": 54
   },
   {
-    "id": 145,
+    "id": 128,
     "name": "PHOENIX PHOTONICS LIMITED",
     "lat": 51.35379,
     "lng": 1.253086,
@@ -30434,7 +30434,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 146,
+    "id": 129,
     "name": "SYNAPTEC LTD",
     "lat": 55.858356,
     "lng": -4.263013,
@@ -30721,7 +30721,7 @@
     "data_strength_score": 50
   },
   {
-    "id": 147,
+    "id": 130,
     "name": "QUANTUM SCIENCE LTD",
     "lat": 53.344134,
     "lng": -2.637086,
@@ -30879,7 +30879,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 148,
+    "id": 131,
     "name": "HAMAMATSU PHOTONICS UK LIMITED",
     "lat": 51.802232,
     "lng": -0.194122,
@@ -30974,7 +30974,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 149,
+    "id": 132,
     "name": "HILIGHT SEMICONDUCTOR LIMITED",
     "lat": 50.828473,
     "lng": -0.177611,
@@ -31334,7 +31334,7 @@
     "data_strength_score": 54
   },
   {
-    "id": 150,
+    "id": 133,
     "name": "COLDQUANTA UK LIMITED",
     "lat": 52.275375,
     "lng": -1.563759,
@@ -31424,83 +31424,7 @@
     "data_strength_score": 12
   },
   {
-    "id": 151,
-    "name": "GOOCH & HOUSEGO (TORQUAY) LIMITED",
-    "lat": 50.916624,
-    "lng": -2.914079,
-    "website": "sifamfo.com",
-    "city": "Torquay",
-    "postcode": "TA19 0PF",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": 2002,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0067",
-        "name": "Electronics Manufacturing",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0065",
-        "name": "Advanced Manufacturing",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002703",
-        "name": "Optics",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC006707",
-        "name": "Optical devices",
-        "type": "subsector",
-        "parent_code": "RTIC0067",
-        "parent_name": "Electronics Manufacturing"
-      },
-      {
-        "code": "RTIC006501",
-        "name": "Advanced Measurement",
-        "type": "subsector",
-        "parent_code": "RTIC0065",
-        "parent_name": "Advanced Manufacturing"
-      }
-    ],
-    "growth_stage": "early stage",
-    "status": "operational",
-    "patent_count": 1,
-    "grant_count": 6,
-    "total_grant_funding_gbp": 1021333.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs",
-      "grant_leads",
-      "patents"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "grant:photonic; source:patents_dataset",
-    "is_startup": "Yes",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
-    "data_strength": "Moderate",
-    "data_strength_score": 31
-  },
-  {
-    "id": 152,
+    "id": 134,
     "name": "SOLARIS PHOTONICS LTD",
     "lat": 52.234909,
     "lng": 0.153433,
@@ -31580,7 +31504,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 153,
+    "id": 135,
     "name": "CPI TMD TECHNOLOGIES LIMITED",
     "lat": 51.50718,
     "lng": -0.434946,
@@ -31888,7 +31812,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 154,
+    "id": 136,
     "name": "SONARDYNE INTERNATIONAL LIMITED",
     "lat": 51.330578,
     "lng": -0.835444,
@@ -32035,7 +31959,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 155,
+    "id": 137,
     "name": "WIKA OPTICAL SENSING LIMITED",
     "lat": 51.577159,
     "lng": -1.312085,
@@ -32118,7 +32042,7 @@
     "data_strength_score": 12
   },
   {
-    "id": 156,
+    "id": 138,
     "name": "SENSORHUT LTD",
     "lat": 52.244997,
     "lng": 0.108173,
@@ -32238,7 +32162,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 157,
+    "id": 139,
     "name": "EFFECT PHOTONICS LTD",
     "lat": 50.487766,
     "lng": -3.5528,
@@ -32552,7 +32476,7 @@
     "data_strength_score": 50
   },
   {
-    "id": 158,
+    "id": 140,
     "name": "ALKER FIBRE OPTIC SPECIALISTS LIMITED",
     "lat": 51.152871,
     "lng": 0.017815,
@@ -32638,7 +32562,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 159,
+    "id": 141,
     "name": "QUIX QUANTUM LTD",
     "lat": 51.511381,
     "lng": -0.09021,
@@ -32738,102 +32662,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 160,
-    "name": "HAMAMATSU PHOTONICS UK LIMITED",
-    "lat": 51.802232,
-    "lng": -0.194122,
-    "website": "",
-    "city": "",
-    "postcode": "AL7 1BW",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": null,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0067",
-        "name": "Electronics Manufacturing",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0030",
-        "name": "Sensors",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002706",
-        "name": "Smart Sensors",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC002703",
-        "name": "Optics",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC006707",
-        "name": "Optical devices",
-        "type": "subsector",
-        "parent_code": "RTIC0067",
-        "parent_name": "Electronics Manufacturing"
-      },
-      {
-        "code": "RTIC000508",
-        "name": "Component Distribution & Resale",
-        "type": "subsector",
-        "parent_code": "RTIC0005",
-        "parent_name": "Computer Hardware"
-      },
-      {
-        "code": "RTIC003002",
-        "name": "Image and Video Analysis",
-        "type": "subsector",
-        "parent_code": "RTIC0030",
-        "parent_name": "Sensors"
-      },
-      {
-        "code": "RTIC003004",
-        "name": "Medical",
-        "type": "subsector",
-        "parent_code": "RTIC0030",
-        "parent_name": "Sensors"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 2,
-    "grant_count": 0,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "patents"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "name:photonic; name:photonics; source:patents_dataset",
-    "is_startup": "Unknown",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
-    "data_strength": "Limited",
-    "data_strength_score": 4
-  },
-  {
-    "id": 161,
+    "id": 142,
     "name": "APPLIED PHOTONICS LTD",
     "lat": 53.956938,
     "lng": -2.02653,
@@ -32980,7 +32809,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 162,
+    "id": 143,
     "name": "TOPTICA PHOTONICS LIMITED",
     "lat": 51.37193,
     "lng": -0.456372,
@@ -33062,7 +32891,7 @@
     "data_strength_score": 8
   },
   {
-    "id": 163,
+    "id": 144,
     "name": "HARTLEY ULTRAFAST LTD",
     "lat": 51.443326,
     "lng": -2.567905,
@@ -33132,7 +32961,7 @@
     "data_strength_score": 8
   },
   {
-    "id": 164,
+    "id": 145,
     "name": "PHOTONICS TECHNOLOGIES LIMITED",
     "lat": 51.37193,
     "lng": -0.456372,
@@ -33195,7 +33024,7 @@
     "data_strength_score": 8
   },
   {
-    "id": 165,
+    "id": 146,
     "name": "KENTECH INSTRUMENTS LIMITED",
     "lat": 51.606564,
     "lng": -1.110212,
@@ -33277,7 +33106,7 @@
     "data_strength_score": 8
   },
   {
-    "id": 166,
+    "id": 147,
     "name": "ICAM ENGINEERING LTD.",
     "lat": 53.220379,
     "lng": -3.05347,
@@ -33352,7 +33181,7 @@
     "data_strength_score": 8
   },
   {
-    "id": 167,
+    "id": 148,
     "name": "LUMPI LIMITED",
     "lat": 52.126866,
     "lng": -0.215227,
@@ -33434,7 +33263,7 @@
     "data_strength_score": 8
   },
   {
-    "id": 168,
+    "id": 149,
     "name": "ABER PHOTONICS LIMITED",
     "lat": 52.148249,
     "lng": -4.056372,
@@ -33516,7 +33345,7 @@
     "data_strength_score": 8
   },
   {
-    "id": 169,
+    "id": 150,
     "name": "PHOTARIX LTD",
     "lat": 54.010677,
     "lng": -2.785597,
@@ -33629,7 +33458,7 @@
     "data_strength_score": 35
   },
   {
-    "id": 170,
+    "id": 151,
     "name": "SPECTROSENSE LTD",
     "lat": 51.517946,
     "lng": -0.205259,
@@ -33704,7 +33533,7 @@
     "data_strength_score": 8
   },
   {
-    "id": 171,
+    "id": 152,
     "name": "TRUMPF LASER UK LIMITED",
     "lat": 50.926709,
     "lng": -1.31454,
@@ -33768,232 +33597,27 @@
     "discovery_verdict": "Y",
     "photonics_evidence": "grant:laser; name:laser",
     "is_startup": "Unknown",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
-    "data_strength": "Limited",
-    "data_strength_score": 8
-  },
-  {
-    "id": 172,
-    "name": "ABER PHOTONICS LIMITED",
-    "lat": 52.148249,
-    "lng": -4.056372,
-    "website": "",
-    "city": "",
-    "postcode": "SA48 8NX",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": null,
-    "description": "",
-    "rtic": [
+    "emp_growth_pct": 26.1,
+    "emp_growth_abs": 1592,
+    "emp_earliest_count": 6094,
+    "emp_latest_count": 7686,
+    "emp_earliest_date": "2023-02-19",
+    "emp_latest_date": "2024-02-13",
+    "emp_timeseries": [
       {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
+        "date": "2023-02",
+        "count": 6094
       },
       {
-        "code": "RTIC0099",
-        "name": "Semiconductors",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002702",
-        "name": "Microelectronics",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC009904",
-        "name": "Functional - Photonics",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
-      },
-      {
-        "code": "RTIC009918",
-        "name": "Materials - Compound",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
-      },
-      {
-        "code": "RTIC009914",
-        "name": "Supply Chain - Specialized Materials",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
+        "date": "2024-02",
+        "count": 7686
       }
     ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 0,
-    "grant_count": 2,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "name:photonic; name:photonics",
-    "is_startup": "Unknown",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
     "data_strength": "Limited",
-    "data_strength_score": 4
+    "data_strength_score": 15
   },
   {
-    "id": 173,
-    "name": "ABER PHOTONICS LIMITED",
-    "lat": 52.148249,
-    "lng": -4.056372,
-    "website": "",
-    "city": "",
-    "postcode": "SA48 8NX",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": null,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0099",
-        "name": "Semiconductors",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002702",
-        "name": "Microelectronics",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC009904",
-        "name": "Functional - Photonics",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
-      },
-      {
-        "code": "RTIC009909",
-        "name": "Supply Chain - Chip Fabrication",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 0,
-    "grant_count": 2,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "name:photonic; name:photonics",
-    "is_startup": "Unknown",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
-    "data_strength": "Limited",
-    "data_strength_score": 4
-  },
-  {
-    "id": 174,
-    "name": "ABER PHOTONICS LIMITED",
-    "lat": 52.148249,
-    "lng": -4.056372,
-    "website": "",
-    "city": "",
-    "postcode": "SA48 8NX",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": null,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0099",
-        "name": "Semiconductors",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002702",
-        "name": "Microelectronics",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC009904",
-        "name": "Functional - Photonics",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
-      },
-      {
-        "code": "RTIC009908",
-        "name": "Supply Chain - Chip Design",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 0,
-    "grant_count": 2,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "name:photonic; name:photonics",
-    "is_startup": "Unknown",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
-    "data_strength": "Limited",
-    "data_strength_score": 4
-  },
-  {
-    "id": 175,
+    "id": 153,
     "name": "QUANTUM ADVANCED SOLUTIONS LTD",
     "lat": 51.826259,
     "lng": -1.307544,
@@ -34093,7 +33717,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 176,
+    "id": 154,
     "name": "ELEMENTAL SCIENTIFIC INSTRUMENTS, LTD",
     "lat": 52.346088,
     "lng": -0.197415,
@@ -34174,7 +33798,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 177,
+    "id": 155,
     "name": "NEW SPACE OPTICS LTD",
     "lat": 50.83187,
     "lng": -0.176868,
@@ -34236,7 +33860,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 178,
+    "id": 156,
     "name": "COOLLED LIMITED",
     "lat": 51.504235,
     "lng": -0.091517,
@@ -34310,234 +33934,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 179,
-    "name": "ABER PHOTONICS LIMITED",
-    "lat": 52.148249,
-    "lng": -4.056372,
-    "website": "",
-    "city": "",
-    "postcode": "SA48 8NX",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": null,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0099",
-        "name": "Semiconductors",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0096",
-        "name": "Defence",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002702",
-        "name": "Microelectronics",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC002707",
-        "name": "Telecommunications",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC009904",
-        "name": "Functional - Photonics",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
-      },
-      {
-        "code": "RTIC009601",
-        "name": "Space and Resilient Communications",
-        "type": "subsector",
-        "parent_code": "RTIC0096",
-        "parent_name": "Defence"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 0,
-    "grant_count": 1,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "name:photonic; name:photonics",
-    "is_startup": "Unknown",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
-    "data_strength": "Limited",
-    "data_strength_score": 4
-  },
-  {
-    "id": 180,
-    "name": "APPLIED PHOTONICS LTD",
-    "lat": 53.956938,
-    "lng": -2.02653,
-    "website": "appliedphotonics.co.uk",
-    "city": "Skipton",
-    "postcode": "BD23 2DE",
-    "employees": 2,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": 1998,
-    "description": "LIBS instrument technology - Modular, portable, bench-top, stand-off and customised systems",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0067",
-        "name": "Electronics Manufacturing",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0065",
-        "name": "Advanced Manufacturing",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002703",
-        "name": "Optics",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC002706",
-        "name": "Smart Sensors",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC006707",
-        "name": "Optical devices",
-        "type": "subsector",
-        "parent_code": "RTIC0067",
-        "parent_name": "Electronics Manufacturing"
-      },
-      {
-        "code": "RTIC006501",
-        "name": "Advanced Measurement",
-        "type": "subsector",
-        "parent_code": "RTIC0065",
-        "parent_name": "Advanced Manufacturing"
-      }
-    ],
-    "growth_stage": "early stage",
-    "status": "operational",
-    "patent_count": 0,
-    "grant_count": 1,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "name:photonic; name:photonics",
-    "is_startup": "Yes",
-    "emp_growth_pct": -50.0,
-    "emp_growth_abs": -2,
-    "emp_earliest_count": 4,
-    "emp_latest_count": 2,
-    "emp_earliest_date": "2021-06-22",
-    "emp_latest_date": "2023-02-01",
-    "emp_timeseries": [
-      {
-        "date": "2021-06",
-        "count": 4
-      },
-      {
-        "date": "2021-09",
-        "count": 4
-      },
-      {
-        "date": "2022-01",
-        "count": 3
-      },
-      {
-        "date": "2022-02",
-        "count": 3
-      },
-      {
-        "date": "2022-03",
-        "count": 3
-      },
-      {
-        "date": "2022-04",
-        "count": 3
-      },
-      {
-        "date": "2022-05",
-        "count": 3
-      },
-      {
-        "date": "2022-06",
-        "count": 3
-      },
-      {
-        "date": "2022-07",
-        "count": 3
-      },
-      {
-        "date": "2022-08",
-        "count": 3
-      },
-      {
-        "date": "2022-09",
-        "count": 3
-      },
-      {
-        "date": "2022-10",
-        "count": 3
-      },
-      {
-        "date": "2022-11",
-        "count": 3
-      },
-      {
-        "date": "2022-12",
-        "count": 2
-      },
-      {
-        "date": "2023-01",
-        "count": 2
-      },
-      {
-        "date": "2023-02",
-        "count": 2
-      }
-    ],
-    "data_strength": "Moderate",
-    "data_strength_score": 38
-  },
-  {
-    "id": 181,
+    "id": 157,
     "name": "PHOTONICS ATELIER LIMITED",
     "lat": 51.517937,
     "lng": -0.185974,
@@ -34587,102 +33984,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 182,
-    "name": "HAMAMATSU PHOTONICS UK LIMITED",
-    "lat": 51.802232,
-    "lng": -0.194122,
-    "website": "",
-    "city": "",
-    "postcode": "AL7 1BW",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": null,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0067",
-        "name": "Electronics Manufacturing",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0030",
-        "name": "Sensors",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002706",
-        "name": "Smart Sensors",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC002703",
-        "name": "Optics",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC006707",
-        "name": "Optical devices",
-        "type": "subsector",
-        "parent_code": "RTIC0067",
-        "parent_name": "Electronics Manufacturing"
-      },
-      {
-        "code": "RTIC000508",
-        "name": "Component Distribution & Resale",
-        "type": "subsector",
-        "parent_code": "RTIC0005",
-        "parent_name": "Computer Hardware"
-      },
-      {
-        "code": "RTIC003002",
-        "name": "Image and Video Analysis",
-        "type": "subsector",
-        "parent_code": "RTIC0030",
-        "parent_name": "Sensors"
-      },
-      {
-        "code": "RTIC003004",
-        "name": "Medical",
-        "type": "subsector",
-        "parent_code": "RTIC0030",
-        "parent_name": "Sensors"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 0,
-    "grant_count": 1,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "name:photonic; name:photonics",
-    "is_startup": "Unknown",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
-    "data_strength": "Limited",
-    "data_strength_score": 4
-  },
-  {
-    "id": 183,
+    "id": 158,
     "name": "ENVISICS LTD.",
     "lat": 52.008366,
     "lng": -0.725865,
@@ -35021,7 +34323,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 184,
+    "id": 159,
     "name": "CAMBRIDGE MECHATRONICS LIMITED",
     "lat": 52.23424,
     "lng": 0.139795,
@@ -35352,7 +34654,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 185,
+    "id": 160,
     "name": "BAE SYSTEMS PLC",
     "lat": 51.505934,
     "lng": -0.133956,
@@ -35502,7 +34804,7 @@
     "data_strength_score": 50
   },
   {
-    "id": 186,
+    "id": 161,
     "name": "SUMITOMO CHEMICAL (UK) LTD",
     "lat": 51.493291,
     "lng": -0.225503,
@@ -35564,7 +34866,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 187,
+    "id": 162,
     "name": "THALES UK LIMITED",
     "lat": 51.423146,
     "lng": -0.994115,
@@ -35665,7 +34967,7 @@
     "data_strength_score": 8
   },
   {
-    "id": 188,
+    "id": 163,
     "name": "IQE PLC",
     "lat": 51.530931,
     "lng": -3.087987,
@@ -35775,7 +35077,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 190,
+    "id": 164,
     "name": "GOOCH & HOUSEGO PLC",
     "lat": 50.916624,
     "lng": -2.914079,
@@ -35923,125 +35225,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 191,
-    "name": "LEONARDO UK LTD",
-    "lat": 51.509158,
-    "lng": -0.135366,
-    "website": "",
-    "city": "",
-    "postcode": "SW1Y 6AF",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": null,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0096",
-        "name": "Defence",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0030",
-        "name": "Sensors",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0067",
-        "name": "Electronics Manufacturing",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002706",
-        "name": "Smart Sensors",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC002703",
-        "name": "Optics",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC009601",
-        "name": "Space and Resilient Communications",
-        "type": "subsector",
-        "parent_code": "RTIC0096",
-        "parent_name": "Defence"
-      },
-      {
-        "code": "RTIC003002",
-        "name": "Image and Video Analysis",
-        "type": "subsector",
-        "parent_code": "RTIC0030",
-        "parent_name": "Sensors"
-      },
-      {
-        "code": "RTIC003005",
-        "name": "Mobility",
-        "type": "subsector",
-        "parent_code": "RTIC0030",
-        "parent_name": "Sensors"
-      },
-      {
-        "code": "RTIC006707",
-        "name": "Optical devices",
-        "type": "subsector",
-        "parent_code": "RTIC0067",
-        "parent_name": "Electronics Manufacturing"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 5,
-    "grant_count": 13,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs",
-      "patents"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "source:patents_dataset",
-    "is_startup": "Unknown",
-    "emp_growth_pct": 13.2,
-    "emp_growth_abs": 15,
-    "emp_earliest_count": 114,
-    "emp_latest_count": 129,
-    "emp_earliest_date": "2024-04-24",
-    "emp_latest_date": "2024-07-31",
-    "emp_timeseries": [
-      {
-        "date": "2024-04",
-        "count": 114
-      },
-      {
-        "date": "2024-05",
-        "count": 117
-      },
-      {
-        "date": "2024-06",
-        "count": 123
-      },
-      {
-        "date": "2024-07",
-        "count": 129
-      }
-    ],
-    "data_strength": "Limited",
-    "data_strength_score": 15
-  },
-  {
-    "id": 192,
+    "id": 165,
     "name": "COHERENT SCOTLAND LIMITED",
     "lat": 55.905133,
     "lng": -4.307207,
@@ -36123,7 +35307,7 @@
     "data_strength_score": 8
   },
   {
-    "id": 193,
+    "id": 166,
     "name": "INNERSCENE LIMITED",
     "lat": 51.855487,
     "lng": -2.233073,
@@ -36222,7 +35406,7 @@
     "data_strength_score": 38
   },
   {
-    "id": 194,
+    "id": 167,
     "name": "HUBER+SUHNER POLATIS LIMITED",
     "lat": 52.23396,
     "lng": 0.142344,
@@ -36449,7 +35633,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 195,
+    "id": 168,
     "name": "QIOPTIQ LIMITED",
     "lat": 53.25258,
     "lng": -3.473148,
@@ -36543,7 +35727,7 @@
     "data_strength_score": 8
   },
   {
-    "id": 196,
+    "id": 169,
     "name": "VIVIDQ LIMITED",
     "lat": 51.518905,
     "lng": -0.156344,
@@ -36815,7 +35999,7 @@
     "data_strength_score": 50
   },
   {
-    "id": 197,
+    "id": 170,
     "name": "PURELIFI LIMITED",
     "lat": 55.976553,
     "lng": -3.167882,
@@ -36890,7 +36074,7 @@
     "data_strength_score": 19
   },
   {
-    "id": 198,
+    "id": 171,
     "name": "SENKO ADVANCED COMPONENTS (EURO) LIMITED",
     "lat": 51.276868,
     "lng": -1.070919,
@@ -36977,7 +36161,7 @@
     "data_strength_score": 8
   },
   {
-    "id": 199,
+    "id": 172,
     "name": "EMTELLE UK LIMITED",
     "lat": 55.43548,
     "lng": -2.753655,
@@ -37128,7 +36312,7 @@
     "data_strength_score": 38
   },
   {
-    "id": 200,
+    "id": 173,
     "name": "DUALITAS LTD.",
     "lat": 52.008366,
     "lng": -0.725865,
@@ -37190,7 +36374,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 201,
+    "id": 174,
     "name": "NETWORK INTEGRITY SERVICES LIMITED",
     "lat": 52.37288,
     "lng": -1.465843,
@@ -37271,7 +36455,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 202,
+    "id": 175,
     "name": "ZINWAVE LIMITED",
     "lat": 52.272877,
     "lng": -0.009644,
@@ -37447,7 +36631,7 @@
     "data_strength_score": 50
   },
   {
-    "id": 203,
+    "id": 176,
     "name": "RUSHMERE TECHNOLOGY LIMITED",
     "lat": 52.274148,
     "lng": 0.68932,
@@ -37540,7 +36724,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 204,
+    "id": 177,
     "name": "LEONARDO MW LTD",
     "lat": 51.591338,
     "lng": 0.498064,
@@ -37611,6 +36795,22 @@
     "emp_latest_date": "2025-03-02",
     "emp_timeseries": [
       {
+        "date": "2024-04",
+        "count": 114
+      },
+      {
+        "date": "2024-05",
+        "count": 117
+      },
+      {
+        "date": "2024-06",
+        "count": 123
+      },
+      {
+        "date": "2024-07",
+        "count": 129
+      },
+      {
         "date": "2025-03",
         "count": 15
       }
@@ -37619,7 +36819,7 @@
     "data_strength_score": 23
   },
   {
-    "id": 205,
+    "id": 178,
     "name": "FURUKAWA ELECTRIC EUROPE LTD",
     "lat": 51.493446,
     "lng": -0.217948,
@@ -37693,7 +36893,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 206,
+    "id": 179,
     "name": "RIDGEMOUNT LIMITED",
     "lat": 51.572921,
     "lng": 0.065094,
@@ -37791,7 +36991,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 207,
+    "id": 180,
     "name": "ISC INSTRUMENTS LTD",
     "lat": 51.514897,
     "lng": -0.123615,
@@ -37880,7 +37080,7 @@
     "data_strength_score": 8
   },
   {
-    "id": 208,
+    "id": 181,
     "name": "MBDA UK LIMITED",
     "lat": 51.895452,
     "lng": -0.209413,
@@ -38078,7 +37278,7 @@
     "data_strength_score": 38
   },
   {
-    "id": 209,
+    "id": 182,
     "name": "ELEMENT SIX LIMITED",
     "lat": 51.577204,
     "lng": -1.309155,
@@ -38152,7 +37352,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 210,
+    "id": 183,
     "name": "FLEXENABLE TECHNOLOGY LIMITED",
     "lat": 52.232159,
     "lng": 0.142477,
@@ -38233,7 +37433,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 211,
+    "id": 184,
     "name": "BEIJING JAYA TECHNOLOGY (UK) CO., LTD",
     "lat": 51.516098,
     "lng": -0.143139,
@@ -38295,7 +37495,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 212,
+    "id": 185,
     "name": "LEVITON MANUFACTURING UK LIMITED",
     "lat": 51.511381,
     "lng": -0.09021,
@@ -38378,7 +37578,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 213,
+    "id": 186,
     "name": "PREFORMED LINE PRODUCTS (GREAT BRITAIN) LIMITED",
     "lat": 51.213941,
     "lng": -1.510979,
@@ -38440,7 +37640,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 214,
+    "id": 187,
     "name": "BULGIN LIMITED",
     "lat": 52.23539,
     "lng": 0.145328,
@@ -38583,7 +37783,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 215,
+    "id": 188,
     "name": "PHOTONIC SOLUTIONS LIMITED",
     "lat": 55.916075,
     "lng": -3.317325,
@@ -38685,7 +37885,7 @@
     "data_strength_score": 38
   },
   {
-    "id": 216,
+    "id": 189,
     "name": "GLOBAL MARINE SYSTEMS LIMITED",
     "lat": 51.750095,
     "lng": 0.517622,
@@ -38735,7 +37935,7 @@
     "data_strength_score": 31
   },
   {
-    "id": 217,
+    "id": 190,
     "name": "ANDOR TECHNOLOGY LIMITED",
     "lat": 54.597851,
     "lng": -5.972323,
@@ -38880,7 +38080,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 218,
+    "id": 191,
     "name": "LANDWAYS LIMITED",
     "lat": 53.353887,
     "lng": -2.870402,
@@ -39175,7 +38375,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 219,
+    "id": 192,
     "name": "UNIPHY LIMITED",
     "lat": 53.794881,
     "lng": -1.546626,
@@ -39326,7 +38526,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 220,
+    "id": 193,
     "name": "UNIGEL LIMITED",
     "lat": 50.791318,
     "lng": 0.298619,
@@ -39388,7 +38588,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 221,
+    "id": 194,
     "name": "CCL SECURE LIMITED",
     "lat": 54.825602,
     "lng": -3.165941,
@@ -39438,7 +38638,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 222,
+    "id": 195,
     "name": "CARL ZEISS LTD",
     "lat": 52.222672,
     "lng": -0.074482,
@@ -39538,7 +38738,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 223,
+    "id": 196,
     "name": "POLYSOLAR LIMITED",
     "lat": 52.248533,
     "lng": 0.081223,
@@ -39809,7 +39009,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 224,
+    "id": 197,
     "name": "AIRBUS DEFENCE AND SPACE LIMITED",
     "lat": 51.90104,
     "lng": -0.212025,
@@ -39878,7 +39078,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 225,
+    "id": 198,
     "name": "OPTOMED LTD",
     "lat": 55.828364,
     "lng": -4.28883,
@@ -39966,7 +39166,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 226,
+    "id": 199,
     "name": "OPTASENSE HOLDINGS LIMITED",
     "lat": 51.333021,
     "lng": -0.777762,
@@ -40054,7 +39254,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 227,
+    "id": 200,
     "name": "THERMOTEKNIX SYSTEMS LIMITED",
     "lat": 52.228817,
     "lng": 0.151717,
@@ -40220,7 +39420,7 @@
     "data_strength_score": 35
   },
   {
-    "id": 228,
+    "id": 201,
     "name": "TECHNETIX LIMITED",
     "lat": 50.920715,
     "lng": -0.208726,
@@ -40419,7 +39619,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 229,
+    "id": 202,
     "name": "C-KORE SYSTEMS LIMITED",
     "lat": 53.859138,
     "lng": -1.029521,
@@ -40488,7 +39688,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 230,
+    "id": 203,
     "name": "THORN LIGHTING LIMITED",
     "lat": 51.518905,
     "lng": -0.156344,
@@ -40539,7 +39739,7 @@
     "data_strength_score": 8
   },
   {
-    "id": 231,
+    "id": 204,
     "name": "HELLERMANNTYTON DATA LIMITED",
     "lat": 51.119085,
     "lng": -0.188262,
@@ -40613,7 +39813,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 232,
+    "id": 205,
     "name": "FOCUS SENSORS LIMITED",
     "lat": 50.87453,
     "lng": -1.350042,
@@ -40852,7 +40052,7 @@
     "data_strength_score": 38
   },
   {
-    "id": 233,
+    "id": 206,
     "name": "SCINTACOR LIMITED",
     "lat": 52.229173,
     "lng": 0.157812,
@@ -40946,7 +40146,7 @@
     "data_strength_score": 12
   },
   {
-    "id": 234,
+    "id": 207,
     "name": "ZINIR LIMITED",
     "lat": 50.772316,
     "lng": 0.294851,
@@ -41092,7 +40292,7 @@
     "data_strength_score": 38
   },
   {
-    "id": 235,
+    "id": 208,
     "name": "DIGITAL PROJECTION LIMITED",
     "lat": 53.532183,
     "lng": -2.168839,
@@ -41155,7 +40355,7 @@
     "data_strength_score": 8
   },
   {
-    "id": 236,
+    "id": 209,
     "name": "GARDIN LTD",
     "lat": 51.621236,
     "lng": -1.293956,
@@ -41230,7 +40430,7 @@
     "data_strength_score": 8
   },
   {
-    "id": 237,
+    "id": 210,
     "name": "BRITISH TELECOMMUNICATIONS PUBLIC LIMITED COMPANY",
     "lat": 51.513987,
     "lng": -0.072474,
@@ -41305,7 +40505,7 @@
     "data_strength_score": 31
   },
   {
-    "id": 238,
+    "id": 211,
     "name": "ADVANCETE LIMITED",
     "lat": 51.316911,
     "lng": 0.122447,
@@ -41356,7 +40556,7 @@
     "data_strength_score": 8
   },
   {
-    "id": 239,
+    "id": 212,
     "name": "SPACECHIPS LTD",
     "lat": 51.812306,
     "lng": -0.335686,
@@ -41520,7 +40720,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 240,
+    "id": 213,
     "name": "YELLOW STUDIO LIMITED",
     "lat": 51.699682,
     "lng": -0.374407,
@@ -41595,7 +40795,7 @@
     "data_strength_score": 8
   },
   {
-    "id": 241,
+    "id": 214,
     "name": "SMARTIR LIMITED",
     "lat": 53.419306,
     "lng": -2.304806,
@@ -41759,7 +40959,7 @@
     "data_strength_score": 50
   },
   {
-    "id": 242,
+    "id": 215,
     "name": "OXFORD HEALTHTECH LTD.",
     "lat": 51.406852,
     "lng": -1.33336,
@@ -41810,7 +41010,7 @@
     "data_strength_score": 8
   },
   {
-    "id": 243,
+    "id": 216,
     "name": "WE CARE 4 AIR LIMITED",
     "lat": 51.794887,
     "lng": 0.301908,
@@ -41885,7 +41085,7 @@
     "data_strength_score": 8
   },
   {
-    "id": 244,
+    "id": 217,
     "name": "NANOCO TECHNOLOGIES LIMITED",
     "lat": 53.324698,
     "lng": -2.732899,
@@ -41967,7 +41167,7 @@
     "data_strength_score": 8
   },
   {
-    "id": 245,
+    "id": 218,
     "name": "ANVIL SEMICONDUCTORS LIMITED",
     "lat": 51.512059,
     "lng": -0.139081,
@@ -42120,107 +41320,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 246,
-    "name": "QUIX QUANTUM LTD",
-    "lat": 51.511381,
-    "lng": -0.09021,
-    "website": "",
-    "city": "",
-    "postcode": "EC4N 6AF",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": null,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0087",
-        "name": "Quantum Technology",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0051",
-        "name": "Quantum Economy",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0099",
-        "name": "Semiconductors",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002702",
-        "name": "Microelectronics",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC002705",
-        "name": "Quantum Tech",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC008702",
-        "name": "Quantum Computing",
-        "type": "subsector",
-        "parent_code": "RTIC0087",
-        "parent_name": "Quantum Technology"
-      },
-      {
-        "code": "RTIC005102",
-        "name": "Photonics",
-        "type": "subsector",
-        "parent_code": "RTIC0051",
-        "parent_name": "Quantum Economy"
-      },
-      {
-        "code": "RTIC005103",
-        "name": "Quantum Computing",
-        "type": "subsector",
-        "parent_code": "RTIC0051",
-        "parent_name": "Quantum Economy"
-      },
-      {
-        "code": "RTIC009904",
-        "name": "Functional - Photonics",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 0,
-    "grant_count": 2,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "name:quantum",
-    "is_startup": "Unknown",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
-    "data_strength": "Limited",
-    "data_strength_score": 4
-  },
-  {
-    "id": 247,
+    "id": 219,
     "name": "LASER MICROMACHINING LIMITED",
     "lat": 53.252387,
     "lng": -3.478568,
@@ -42363,7 +41463,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 248,
+    "id": 220,
     "name": "PARITY QUANTUM COMPUTING UK LTD",
     "lat": 51.514897,
     "lng": -0.123615,
@@ -42425,7 +41525,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 249,
+    "id": 221,
     "name": "MICRON SEMICONDUCTOR LIMITED",
     "lat": 50.804691,
     "lng": -0.457537,
@@ -42602,7 +41702,7 @@
     "data_strength_score": 31
   },
   {
-    "id": 250,
+    "id": 222,
     "name": "SMART OPTICS LTD",
     "lat": 51.543566,
     "lng": -1.810104,
@@ -42652,7 +41752,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 251,
+    "id": 223,
     "name": "CORTIRIO LIMITED",
     "lat": 54.67032,
     "lng": -1.451383,
@@ -42958,7 +42058,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 252,
+    "id": 224,
     "name": "JIANGSU JINGKEAO TECHNOLOGY CO., LTD",
     "lat": 51.388481,
     "lng": 0.549353,
@@ -43020,128 +42120,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 253,
-    "name": "FRAUNHOFER UK RESEARCH LIMITED",
-    "lat": 55.860726,
-    "lng": -4.24407,
-    "website": "fraunhofer.co.uk",
-    "city": "Glasgow",
-    "postcode": "G1 1RD",
-    "employees": 39,
-    "revenue_gbp": null,
-    "funding_usd_m": 2.6,
-    "year_founded": 2012,
-    "description": "FRAUNHOFER UK RESEARCH LIMITED is Research and Technology Organisation, not-for-profit, located in 99 George STREET, GLASGOW, Scotland, United Kingdom.",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0067",
-        "name": "Electronics Manufacturing",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0030",
-        "name": "Sensors",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0065",
-        "name": "Advanced Manufacturing",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002701",
-        "name": "Industry 4.0",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC002706",
-        "name": "Smart Sensors",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC006707",
-        "name": "Optical devices",
-        "type": "subsector",
-        "parent_code": "RTIC0067",
-        "parent_name": "Electronics Manufacturing"
-      },
-      {
-        "code": "RTIC006705",
-        "name": "Measuring and metrology devices",
-        "type": "subsector",
-        "parent_code": "RTIC0067",
-        "parent_name": "Electronics Manufacturing"
-      },
-      {
-        "code": "RTIC003003",
-        "name": "Industry 4.0",
-        "type": "subsector",
-        "parent_code": "RTIC0030",
-        "parent_name": "Sensors"
-      },
-      {
-        "code": "RTIC006501",
-        "name": "Advanced Measurement",
-        "type": "subsector",
-        "parent_code": "RTIC0065",
-        "parent_name": "Advanced Manufacturing"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 1,
-    "grant_count": 0,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "patents"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "source:patents_dataset",
-    "is_startup": "Yes",
-    "emp_growth_pct": 5.4,
-    "emp_growth_abs": 2,
-    "emp_earliest_count": 37,
-    "emp_latest_count": 39,
-    "emp_earliest_date": "2022-09-15",
-    "emp_latest_date": "2023-01-14",
-    "emp_timeseries": [
-      {
-        "date": "2022-09",
-        "count": 37
-      },
-      {
-        "date": "2022-10",
-        "count": 38
-      },
-      {
-        "date": "2022-11",
-        "count": 41
-      },
-      {
-        "date": "2022-12",
-        "count": 40
-      },
-      {
-        "date": "2023-01",
-        "count": 39
-      }
-    ],
-    "data_strength": "Moderate",
-    "data_strength_score": 42
-  },
-  {
-    "id": 254,
+    "id": 225,
     "name": "FOSTER & FREEMAN LIMITED",
     "lat": 52.074225,
     "lng": -1.936536,
@@ -43215,7 +42194,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 255,
+    "id": 226,
     "name": "AFL TELECOMMUNICATIONS HOLDINGS UK LIMITED",
     "lat": 52.02358,
     "lng": -0.768195,
@@ -43301,7 +42280,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 256,
+    "id": 227,
     "name": "STG AEROSPACE LTD",
     "lat": 51.631579,
     "lng": -3.009251,
@@ -43375,93 +42354,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 257,
-    "name": "AFL TELECOMMUNICATIONS HOLDINGS UK LIMITED",
-    "lat": 52.02358,
-    "lng": -0.768195,
-    "website": "",
-    "city": "",
-    "postcode": "MK5 8HJ",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": null,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0056",
-        "name": "Telecommunications",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0094",
-        "name": "Future Telecoms Supply Chain",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0067",
-        "name": "Electronics Manufacturing",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002707",
-        "name": "Telecommunications",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC005605",
-        "name": "Satellite Communications",
-        "type": "subsector",
-        "parent_code": "RTIC0056",
-        "parent_name": "Telecommunications"
-      },
-      {
-        "code": "RTIC009401",
-        "name": "Photonic and Optical",
-        "type": "subsector",
-        "parent_code": "RTIC0094",
-        "parent_name": "Future Telecoms Supply Chain"
-      },
-      {
-        "code": "RTIC006701",
-        "name": "Communications",
-        "type": "subsector",
-        "parent_code": "RTIC0067",
-        "parent_name": "Electronics Manufacturing"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 1,
-    "grant_count": 0,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "patents"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "source:patents_dataset",
-    "is_startup": "Unknown",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
-    "data_strength": "Limited",
-    "data_strength_score": 4
-  },
-  {
-    "id": 258,
+    "id": 228,
     "name": "COLORDYNE LIMITED",
     "lat": 51.4749,
     "lng": -0.099193,
@@ -43523,7 +42416,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 259,
+    "id": 229,
     "name": "NOVASIGHT LTD",
     "lat": 53.712748,
     "lng": -1.701747,
@@ -43806,7 +42699,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 260,
+    "id": 230,
     "name": "GLOBAL INVACOM LIMITED",
     "lat": 51.320765,
     "lng": 1.03075,
@@ -43899,7 +42792,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 261,
+    "id": 231,
     "name": "TENELUME LTD",
     "lat": 51.761831,
     "lng": -0.552859,
@@ -43949,7 +42842,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 262,
+    "id": 232,
     "name": "SAFRAN ELECTRONICS & DEFENSE UK LTD",
     "lat": 51.897505,
     "lng": -2.173806,
@@ -44042,7 +42935,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 263,
+    "id": 233,
     "name": "I R KINETICS LIMITED",
     "lat": 53.762178,
     "lng": -2.871527,
@@ -44116,7 +43009,7 @@
     "data_strength_score": 31
   },
   {
-    "id": 264,
+    "id": 234,
     "name": "SINTELA LIMITED",
     "lat": 51.480134,
     "lng": -2.689338,
@@ -44209,7 +43102,7 @@
     "data_strength_score": 8
   },
   {
-    "id": 265,
+    "id": 235,
     "name": "WELL-SENSE TECHNOLOGY LIMITED",
     "lat": 57.144909,
     "lng": -2.108561,
@@ -44351,7 +43244,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 266,
+    "id": 236,
     "name": "EIZO LIMITED",
     "lat": 51.405426,
     "lng": -0.678384,
@@ -44401,7 +43294,7 @@
     "data_strength_score": 23
   },
   {
-    "id": 267,
+    "id": 237,
     "name": "INOV8 SYSTEMS LIMITED",
     "lat": 54.631956,
     "lng": -5.893791,
@@ -44475,7 +43368,7 @@
     "data_strength_score": 35
   },
   {
-    "id": 268,
+    "id": 238,
     "name": "MELLANOX TECHNOLOGIES UK LTD",
     "lat": 51.515312,
     "lng": -0.087494,
@@ -44563,7 +43456,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 269,
+    "id": 239,
     "name": "QPHOX UK LIMITED",
     "lat": 51.522261,
     "lng": -0.115139,
@@ -44649,7 +43542,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 270,
+    "id": 240,
     "name": "NIMOH LTD.",
     "lat": 51.46867,
     "lng": -0.327806,
@@ -44699,7 +43592,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 271,
+    "id": 241,
     "name": "IBMETRIX LTD",
     "lat": 51.69468,
     "lng": -0.324915,
@@ -44749,7 +43642,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 272,
+    "id": 242,
     "name": "MICROGRAPHIA BIO LIMITED",
     "lat": 51.480742,
     "lng": -0.200441,
@@ -45027,7 +43920,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 273,
+    "id": 243,
     "name": "WOODROW SCIENTIFIC LIMITED",
     "lat": 50.935149,
     "lng": -1.471074,
@@ -45132,7 +44025,7 @@
     "data_strength_score": 19
   },
   {
-    "id": 274,
+    "id": 244,
     "name": "GUIDANCE MARINE LTD",
     "lat": 52.611127,
     "lng": -1.19284,
@@ -45213,7 +44106,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 275,
+    "id": 245,
     "name": "DODROTU LIMITED",
     "lat": 51.763802,
     "lng": -1.212746,
@@ -45282,7 +44175,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 276,
+    "id": 246,
     "name": "HENSOLDT SENSORS GMBH",
     "lat": 51.507423,
     "lng": -2.579825,
@@ -45375,7 +44268,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 277,
+    "id": 247,
     "name": "SPACE POWER LTD",
     "lat": 51.574889,
     "lng": -1.3145,
@@ -45584,7 +44477,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 278,
+    "id": 248,
     "name": "HUGHES ELECTRONICS LIMITED",
     "lat": 51.563445,
     "lng": -0.300453,
@@ -45658,7 +44551,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 279,
+    "id": 249,
     "name": "SUMITOMO ELECTRIC EUROPE LIMITED",
     "lat": 51.640281,
     "lng": -0.309561,
@@ -45751,7 +44644,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 280,
+    "id": 250,
     "name": "GLOBAL SATELLITE VU LTD",
     "lat": 51.516704,
     "lng": -0.107917,
@@ -46017,7 +44910,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 281,
+    "id": 251,
     "name": "PULSE POWER AND MEASUREMENT LIMITED",
     "lat": 51.614602,
     "lng": -1.644814,
@@ -46179,7 +45072,7 @@
     "data_strength_score": 38
   },
   {
-    "id": 282,
+    "id": 252,
     "name": "IXSCIENT LIMITED",
     "lat": 51.441713,
     "lng": -0.334302,
@@ -46318,7 +45211,7 @@
     "data_strength_score": 31
   },
   {
-    "id": 283,
+    "id": 253,
     "name": "DRAEGER SAFETY UK LTD",
     "lat": 55.130879,
     "lng": -1.55715,
@@ -46387,7 +45280,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 284,
+    "id": 254,
     "name": "AUSTIN OPTOELECTRONICS LIMITED",
     "lat": 50.87453,
     "lng": -1.350042,
@@ -46449,7 +45342,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 285,
+    "id": 255,
     "name": "LYNTON LASERS LIMITED",
     "lat": 53.199629,
     "lng": -2.34815,
@@ -46523,7 +45416,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 286,
+    "id": 256,
     "name": "PHOTONICITY LTD",
     "lat": 51.521673,
     "lng": -0.143705,
@@ -46597,7 +45490,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 288,
+    "id": 257,
     "name": "AP OPTICAL NETWORKING LTD",
     "lat": 53.627966,
     "lng": -2.770276,
@@ -46671,7 +45564,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 289,
+    "id": 258,
     "name": "METAMATERIALS LTD",
     "lat": 52.951923,
     "lng": -1.183806,
@@ -46733,7 +45626,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 290,
+    "id": 259,
     "name": "AALYRIA TECHNOLOGIES (UK) LIMITED",
     "lat": 51.499982,
     "lng": -0.13345,
@@ -46819,7 +45712,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 291,
+    "id": 260,
     "name": "QUANTUM TECHNOLOGY SUPER SENSORS LTD",
     "lat": 54.327131,
     "lng": -1.536479,
@@ -46893,7 +45786,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 292,
+    "id": 261,
     "name": "RENISHAW P L C",
     "lat": 51.634922,
     "lng": -2.380663,
@@ -47023,7 +45916,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 293,
+    "id": 262,
     "name": "BT GROUP PLC",
     "lat": 51.513987,
     "lng": -0.072474,
@@ -47146,7 +46039,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 294,
+    "id": 263,
     "name": "LUMENTUM TECHNOLOGY UK LIMITED",
     "lat": 51.51611,
     "lng": -0.108979,
@@ -47251,7 +46144,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 295,
+    "id": 264,
     "name": "AIXTRON LIMITED",
     "lat": 52.274125,
     "lng": -0.007991,
@@ -47389,7 +46282,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 296,
+    "id": 265,
     "name": "TOSHIBA EUROPE LIMITED",
     "lat": 51.430596,
     "lng": -0.516153,
@@ -47475,7 +46368,7 @@
     "data_strength_score": 23
   },
   {
-    "id": 297,
+    "id": 266,
     "name": "TERAVIEW LIMITED",
     "lat": 52.289315,
     "lng": 0.173328,
@@ -47821,7 +46714,7 @@
     "data_strength_score": 50
   },
   {
-    "id": 298,
+    "id": 267,
     "name": "QINETIQ LIMITED",
     "lat": 51.276054,
     "lng": -0.761524,
@@ -48199,7 +47092,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 299,
+    "id": 268,
     "name": "CENTRE FOR PROCESS INNOVATION LIMITED",
     "lat": 54.576136,
     "lng": -1.101605,
@@ -48446,7 +47339,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 300,
+    "id": 269,
     "name": "NOKIA UK LIMITED",
     "lat": 51.538006,
     "lng": -2.575572,
@@ -48515,7 +47408,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 301,
+    "id": 270,
     "name": "TEER COATINGS LIMITED",
     "lat": 51.504235,
     "lng": -0.091517,
@@ -48603,7 +47496,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 302,
+    "id": 271,
     "name": "DE LA RUE INTERNATIONAL LIMITED.",
     "lat": 51.248551,
     "lng": -1.091392,
@@ -48665,81 +47558,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 303,
-    "name": "ELEMENT SIX (UK) LIMITED.",
-    "lat": 51.577204,
-    "lng": -1.309155,
-    "website": "",
-    "city": "",
-    "postcode": "OX11 0QR",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": null,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0087",
-        "name": "Quantum Technology",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0034",
-        "name": "Advanced Materials",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002705",
-        "name": "Quantum Tech",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC008703",
-        "name": "Quantum Materials",
-        "type": "subsector",
-        "parent_code": "RTIC0087",
-        "parent_name": "Quantum Technology"
-      },
-      {
-        "code": "RTIC003403",
-        "name": "Emerging Functional Materials",
-        "type": "subsector",
-        "parent_code": "RTIC0034",
-        "parent_name": "Advanced Materials"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 0,
-    "grant_count": 7,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "",
-    "is_startup": "Unknown",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
-    "data_strength": "Limited",
-    "data_strength_score": 4
-  },
-  {
-    "id": 304,
+    "id": 272,
     "name": "PRIOR SCIENTIFIC INSTRUMENTS LIMITED",
     "lat": 52.188843,
     "lng": 0.227079,
@@ -48895,7 +47714,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 305,
+    "id": 273,
     "name": "ELFORLIGHT LIMITED",
     "lat": 50.531844,
     "lng": -3.599357,
@@ -48994,7 +47813,7 @@
     "data_strength_score": 38
   },
   {
-    "id": 306,
+    "id": 274,
     "name": "PRINTED ELECTRONICS LIMITED",
     "lat": 52.599325,
     "lng": -1.675052,
@@ -49169,7 +47988,7 @@
     "data_strength_score": 38
   },
   {
-    "id": 307,
+    "id": 275,
     "name": "KEYSIGHT TECHNOLOGIES UK LIMITED",
     "lat": 51.436812,
     "lng": -0.883643,
@@ -49250,7 +48069,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 308,
+    "id": 276,
     "name": "GAS SENSING SOLUTIONS LTD.",
     "lat": 55.955366,
     "lng": -3.223507,
@@ -49547,7 +48366,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 309,
+    "id": 277,
     "name": "CORNING LIMITED",
     "lat": 53.187908,
     "lng": -3.057689,
@@ -49609,7 +48428,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 310,
+    "id": 278,
     "name": "PHOTON DESIGN LTD",
     "lat": 51.744112,
     "lng": -1.23467,
@@ -49678,7 +48497,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 311,
+    "id": 279,
     "name": "PILKINGTON GROUP LIMITED",
     "lat": 53.573543,
     "lng": -2.814682,
@@ -49728,7 +48547,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 312,
+    "id": 280,
     "name": "ROKE MANOR RESEARCH LIMITED",
     "lat": 50.999341,
     "lng": -1.51975,
@@ -50111,76 +48930,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 313,
-    "name": "CORNING LIMITED",
-    "lat": 53.187908,
-    "lng": -3.057689,
-    "website": "",
-    "city": "",
-    "postcode": "CH5 3XD",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": null,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0094",
-        "name": "Future Telecoms Supply Chain",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002707",
-        "name": "Telecommunications",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC002703",
-        "name": "Optics",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC009401",
-        "name": "Photonic and Optical",
-        "type": "subsector",
-        "parent_code": "RTIC0094",
-        "parent_name": "Future Telecoms Supply Chain"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 0,
-    "grant_count": 5,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "MAYBE",
-    "photonics_evidence": "",
-    "is_startup": "Unknown",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
-    "data_strength": "Limited",
-    "data_strength_score": 4
-  },
-  {
-    "id": 314,
+    "id": 281,
     "name": "DELTA G LIMITED",
     "lat": 52.453555,
     "lng": -1.93332,
@@ -50388,7 +49138,7 @@
     "data_strength_score": 50
   },
   {
-    "id": 315,
+    "id": 282,
     "name": "BRANSCAN LIMITED",
     "lat": 52.470315,
     "lng": -2.039653,
@@ -50451,304 +49201,7 @@
     "data_strength_score": 8
   },
   {
-    "id": 316,
-    "name": "HUBER+SUHNER POLATIS LIMITED",
-    "lat": 52.23396,
-    "lng": 0.142344,
-    "website": "polatis.com",
-    "city": "Andover",
-    "postcode": "CB4 0WN",
-    "employees": 149,
-    "revenue_gbp": null,
-    "funding_usd_m": 31.32,
-    "year_founded": 2000,
-    "description": "Polatis operates as a specialized developer of all-optical circuit switching solutions, a critical segment of the fiber optics industry. The company was established in 2000 and later, in 2005, was officially formed through a merger of optical technology firms in Massachusetts, USA, and the UK. This strategic consolidation brought together talent from institutions like MIT and Cambridge University, creating a deep well of expertise in optics and transmission systems. A key figure in the company's technical leadership and product development journey is Nick Parsons, who joined the startup in 2002 and was instrumental in bringing its technology to market. \n\nThe company's business centers on designing and manufacturing high-performance, purely optical switches. Unlike conventional switches that convert optical signals to electrical and back (OEO), Polatis's products manage data streams entirely in the optical domain (OOO). This approach avoids conversion latency and is independent of data rate or protocol, making it a durable solution for networks as data transmission speeds increase. The core of its product line is the patented DirectLight\u2122 beam-steering technology, which uses piezoelectric actuators to physically align light beams between input and output fibers with minimal signal loss. This technology uniquely allows for the switching of 'dark fibers'\u2014fibers not currently carrying light\u2014enabling pre-provisioning of network paths. \n\nPolatis serves a diverse client base across telecommunications, data centers, government and defense, and test and measurement sectors. For data centers, its switches facilitate the creation of low-latency hybrid network architectures required for scalable cloud services. In telecommunications, the switches help manage ever-increasing data volumes, supporting the evolution toward software-defined networks (SDN). Government clients use the technology for secure communications and intelligence gathering, while the test and measurement market relies on it for automating equipment connections. Revenue is generated through the sale of these optical switch products, which range in scale from 4x4 to large 576x576 port configurations. In May 2016, Polatis was acquired by the Swiss company HUBER+SUHNER, becoming a business unit within its Fiber Optics division to strengthen its market position and global reach. \n\nKeywords: optical circuit switching, all-optical switches, fiber optic networks, data center interconnect, telecommunications infrastructure, SDN, software-defined networking, DirectLight technology, network automation, fiber layer management, test and measurement automation, government communication systems, beam-steering, piezoelectric actuators, dark fiber switching, low-latency networks, HUBER+SUHNER, optical cross-connect, photonic switching, network provisioning",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0094",
-        "name": "Future Telecoms Supply Chain",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0067",
-        "name": "Electronics Manufacturing",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002707",
-        "name": "Telecommunications",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC009401",
-        "name": "Photonic and Optical",
-        "type": "subsector",
-        "parent_code": "RTIC0094",
-        "parent_name": "Future Telecoms Supply Chain"
-      },
-      {
-        "code": "RTIC006707",
-        "name": "Optical devices",
-        "type": "subsector",
-        "parent_code": "RTIC0067",
-        "parent_name": "Electronics Manufacturing"
-      }
-    ],
-    "growth_stage": "breakout stage",
-    "status": "acquired",
-    "patent_count": 0,
-    "grant_count": 4,
-    "total_grant_funding_gbp": 333193.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs",
-      "grant_leads"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "",
-    "is_startup": "Yes",
-    "emp_growth_pct": 84.0,
-    "emp_growth_abs": 68,
-    "emp_earliest_count": 81,
-    "emp_latest_count": 149,
-    "emp_earliest_date": "2018-02-28",
-    "emp_latest_date": "2025-05-02",
-    "emp_timeseries": [
-      {
-        "date": "2018-02",
-        "count": 81
-      },
-      {
-        "date": "2018-08",
-        "count": 82
-      },
-      {
-        "date": "2018-10",
-        "count": 96
-      },
-      {
-        "date": "2018-11",
-        "count": 95
-      },
-      {
-        "date": "2018-12",
-        "count": 97
-      },
-      {
-        "date": "2019-01",
-        "count": 97
-      },
-      {
-        "date": "2019-03",
-        "count": 97
-      },
-      {
-        "date": "2019-04",
-        "count": 94
-      },
-      {
-        "date": "2019-05",
-        "count": 93
-      },
-      {
-        "date": "2019-06",
-        "count": 96
-      },
-      {
-        "date": "2019-07",
-        "count": 97
-      },
-      {
-        "date": "2019-09",
-        "count": 100
-      },
-      {
-        "date": "2019-10",
-        "count": 97
-      },
-      {
-        "date": "2019-11",
-        "count": 95
-      },
-      {
-        "date": "2019-12",
-        "count": 95
-      },
-      {
-        "date": "2020-01",
-        "count": 96
-      },
-      {
-        "date": "2020-03",
-        "count": 95
-      },
-      {
-        "date": "2020-04",
-        "count": 93
-      },
-      {
-        "date": "2020-05",
-        "count": 92
-      },
-      {
-        "date": "2020-06",
-        "count": 96
-      },
-      {
-        "date": "2020-07",
-        "count": 95
-      },
-      {
-        "date": "2020-09",
-        "count": 90
-      },
-      {
-        "date": "2020-10",
-        "count": 89
-      },
-      {
-        "date": "2020-11",
-        "count": 90
-      },
-      {
-        "date": "2020-12",
-        "count": 97
-      },
-      {
-        "date": "2021-01",
-        "count": 97
-      },
-      {
-        "date": "2021-03",
-        "count": 102
-      },
-      {
-        "date": "2021-06",
-        "count": 105
-      },
-      {
-        "date": "2021-09",
-        "count": 114
-      },
-      {
-        "date": "2021-12",
-        "count": 117
-      },
-      {
-        "date": "2022-01",
-        "count": 120
-      },
-      {
-        "date": "2022-02",
-        "count": 119
-      },
-      {
-        "date": "2022-03",
-        "count": 120
-      },
-      {
-        "date": "2022-04",
-        "count": 119
-      },
-      {
-        "date": "2025-05",
-        "count": 149
-      }
-    ],
-    "data_strength": "Moderate",
-    "data_strength_score": 50
-  },
-  {
-    "id": 317,
-    "name": "OPTEK SYSTEMS LTD",
-    "lat": 51.673016,
-    "lng": -0.589056,
-    "website": "",
-    "city": "",
-    "postcode": "HP6 6YJ",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": null,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0067",
-        "name": "Electronics Manufacturing",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0094",
-        "name": "Future Telecoms Supply Chain",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002701",
-        "name": "Industry 4.0",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC002707",
-        "name": "Telecommunications",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC006707",
-        "name": "Optical devices",
-        "type": "subsector",
-        "parent_code": "RTIC0067",
-        "parent_name": "Electronics Manufacturing"
-      },
-      {
-        "code": "RTIC009401",
-        "name": "Photonic and Optical",
-        "type": "subsector",
-        "parent_code": "RTIC0094",
-        "parent_name": "Future Telecoms Supply Chain"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 0,
-    "grant_count": 4,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "",
-    "is_startup": "Unknown",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
-    "data_strength": "Limited",
-    "data_strength_score": 4
-  },
-  {
-    "id": 318,
+    "id": 283,
     "name": "LOADPOINT LIMITED",
     "lat": 51.629591,
     "lng": -1.881475,
@@ -50810,7 +49263,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 319,
+    "id": 284,
     "name": "M-SOLV LTD",
     "lat": 51.823462,
     "lng": -1.2885317,
@@ -50891,100 +49344,7 @@
     "data_strength_score": 31
   },
   {
-    "id": 320,
-    "name": "CARL ZEISS LTD",
-    "lat": 52.222672,
-    "lng": -0.074482,
-    "website": "",
-    "city": "",
-    "postcode": "CB23 6DW",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": null,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0067",
-        "name": "Electronics Manufacturing",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0058",
-        "name": "MedTech",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0065",
-        "name": "Advanced Manufacturing",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002703",
-        "name": "Optics",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC006707",
-        "name": "Optical devices",
-        "type": "subsector",
-        "parent_code": "RTIC0067",
-        "parent_name": "Electronics Manufacturing"
-      },
-      {
-        "code": "RTIC006705",
-        "name": "Measuring and metrology devices",
-        "type": "subsector",
-        "parent_code": "RTIC0067",
-        "parent_name": "Electronics Manufacturing"
-      },
-      {
-        "code": "RTIC005803",
-        "name": "Imaging",
-        "type": "subsector",
-        "parent_code": "RTIC0058",
-        "parent_name": "MedTech"
-      },
-      {
-        "code": "RTIC006501",
-        "name": "Advanced Measurement",
-        "type": "subsector",
-        "parent_code": "RTIC0065",
-        "parent_name": "Advanced Manufacturing"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 0,
-    "grant_count": 4,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "",
-    "is_startup": "Unknown",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
-    "data_strength": "Limited",
-    "data_strength_score": 4
-  },
-  {
-    "id": 321,
+    "id": 285,
     "name": "STMICROELECTRONICS LIMITED",
     "lat": 51.578819,
     "lng": -0.758003,
@@ -51060,7 +49420,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 322,
+    "id": 286,
     "name": "BRUKER UK LIMITED",
     "lat": 52.3879244,
     "lng": -1.5808502,
@@ -51122,7 +49482,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 323,
+    "id": 287,
     "name": "HUAWEI TECHNOLOGIES RESEARCH & DEVELOPMENT (UK) LIMITED",
     "lat": 52.23424,
     "lng": 0.139795,
@@ -51208,7 +49568,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 324,
+    "id": 288,
     "name": "ARALIA SYSTEMS LIMITED",
     "lat": 51.337878,
     "lng": 1.403088,
@@ -51484,7 +49844,7 @@
     "data_strength_score": 50
   },
   {
-    "id": 325,
+    "id": 289,
     "name": "IS-INSTRUMENTS LIMITED",
     "lat": 51.193909,
     "lng": 0.278324,
@@ -51786,7 +50146,7 @@
     "data_strength_score": 50
   },
   {
-    "id": 326,
+    "id": 290,
     "name": "POINTCLOUD LTD",
     "lat": 51.188589,
     "lng": -2.475849,
@@ -51881,7 +50241,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 327,
+    "id": 291,
     "name": "COMPUGRAPHICS INTERNATIONAL LIMITED",
     "lat": 51.328333,
     "lng": -0.535401,
@@ -51950,69 +50310,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 328,
-    "name": "HUBER + SUHNER (UK) LIMITED",
-    "lat": 51.905104,
-    "lng": -1.130201,
-    "website": "",
-    "city": "",
-    "postcode": "OX26 4LA",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": null,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0094",
-        "name": "Future Telecoms Supply Chain",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002707",
-        "name": "Telecommunications",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC009401",
-        "name": "Photonic and Optical",
-        "type": "subsector",
-        "parent_code": "RTIC0094",
-        "parent_name": "Future Telecoms Supply Chain"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 0,
-    "grant_count": 3,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "MAYBE",
-    "photonics_evidence": "",
-    "is_startup": "Unknown",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
-    "data_strength": "Limited",
-    "data_strength_score": 4
-  },
-  {
-    "id": 329,
+    "id": 292,
     "name": "FIBERCORE LIMITED",
     "lat": 50.962644,
     "lng": -1.42276,
@@ -52143,90 +50441,7 @@
     "data_strength_score": 38
   },
   {
-    "id": 330,
-    "name": "TRUMPF LIMITED",
-    "lat": 51.884148,
-    "lng": -0.377946,
-    "website": "",
-    "city": "",
-    "postcode": "LU2 9NL",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": null,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0065",
-        "name": "Advanced Manufacturing",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0067",
-        "name": "Electronics Manufacturing",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002701",
-        "name": "Industry 4.0",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC006501",
-        "name": "Advanced Measurement",
-        "type": "subsector",
-        "parent_code": "RTIC0065",
-        "parent_name": "Advanced Manufacturing"
-      },
-      {
-        "code": "RTIC006707",
-        "name": "Optical devices",
-        "type": "subsector",
-        "parent_code": "RTIC0067",
-        "parent_name": "Electronics Manufacturing"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 0,
-    "grant_count": 3,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "",
-    "is_startup": "Unknown",
-    "emp_growth_pct": 26.1,
-    "emp_growth_abs": 1592,
-    "emp_earliest_count": 6094,
-    "emp_latest_count": 7686,
-    "emp_earliest_date": "2023-02-19",
-    "emp_latest_date": "2024-02-13",
-    "emp_timeseries": [
-      {
-        "date": "2023-02",
-        "count": 6094
-      },
-      {
-        "date": "2024-02",
-        "count": 7686
-      }
-    ],
-    "data_strength": "Limited",
-    "data_strength_score": 12
-  },
-  {
-    "id": 331,
+    "id": 293,
     "name": "ZBD DISPLAYS LIMITED",
     "lat": 51.456272,
     "lng": -0.966171,
@@ -52417,119 +50632,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 332,
-    "name": "TOSHIBA EUROPE LIMITED",
-    "lat": 51.430596,
-    "lng": -0.516153,
-    "website": "toshiba.eu",
-    "city": "Cambridge",
-    "postcode": "TW18 3DU",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": 1939,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0087",
-        "name": "Quantum Technology",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0051",
-        "name": "Quantum Economy",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0094",
-        "name": "Future Telecoms Supply Chain",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0006",
-        "name": "Cyber",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002705",
-        "name": "Quantum Tech",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC002707",
-        "name": "Telecommunications",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC008701",
-        "name": "Quantum Communication",
-        "type": "subsector",
-        "parent_code": "RTIC0087",
-        "parent_name": "Quantum Technology"
-      },
-      {
-        "code": "RTIC005102",
-        "name": "Photonics",
-        "type": "subsector",
-        "parent_code": "RTIC0051",
-        "parent_name": "Quantum Economy"
-      },
-      {
-        "code": "RTIC005101",
-        "name": "Components and Materials",
-        "type": "subsector",
-        "parent_code": "RTIC0051",
-        "parent_name": "Quantum Economy"
-      },
-      {
-        "code": "RTIC009401",
-        "name": "Photonic and Optical",
-        "type": "subsector",
-        "parent_code": "RTIC0094",
-        "parent_name": "Future Telecoms Supply Chain"
-      },
-      {
-        "code": "RTIC000601",
-        "name": "Cryptographic Authentication",
-        "type": "subsector",
-        "parent_code": "RTIC0006",
-        "parent_name": "Cyber"
-      }
-    ],
-    "growth_stage": "mature",
-    "status": "operational",
-    "patent_count": 0,
-    "grant_count": 3,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "",
-    "is_startup": "No",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
-    "data_strength": "Limited",
-    "data_strength_score": 23
-  },
-  {
-    "id": 333,
+    "id": 294,
     "name": "HOLOXICA LIMITED",
     "lat": 55.950922,
     "lng": -3.205768,
@@ -52788,7 +50891,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 334,
+    "id": 295,
     "name": "TAYLOR HOBSON LIMITED",
     "lat": 52.66216,
     "lng": -1.083506,
@@ -52963,7 +51066,7 @@
     "data_strength_score": 38
   },
   {
-    "id": 335,
+    "id": 296,
     "name": "QUANDELA UK LTD",
     "lat": 51.514393,
     "lng": -0.090703,
@@ -53056,7 +51159,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 336,
+    "id": 297,
     "name": "HAYDALE PLC",
     "lat": 51.780077,
     "lng": -4.031121,
@@ -53267,7 +51370,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 337,
+    "id": 298,
     "name": "PHOTRONICS (UK) LIMITED",
     "lat": 51.493132,
     "lng": -3.57941,
@@ -53336,7 +51439,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 338,
+    "id": 299,
     "name": "WENTWORTH LABORATORIES LIMITED",
     "lat": 52.143106,
     "lng": -0.284407,
@@ -53455,7 +51558,7 @@
     "data_strength_score": 38
   },
   {
-    "id": 339,
+    "id": 300,
     "name": "HORIBA UK LIMITED",
     "lat": 52.275648,
     "lng": -0.872708,
@@ -53543,7 +51646,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 340,
+    "id": 301,
     "name": "Q I OPTICAL SERVICES LIMITED",
     "lat": 52.507335,
     "lng": -1.936465,
@@ -53636,7 +51739,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 341,
+    "id": 302,
     "name": "LAND INSTRUMENTS INTERNATIONAL LIMITED",
     "lat": 52.66216,
     "lng": -1.083506,
@@ -53735,7 +51838,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 342,
+    "id": 303,
     "name": "LOGITECH LIMITED",
     "lat": 55.919459,
     "lng": -4.457643,
@@ -53804,7 +51907,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 343,
+    "id": 304,
     "name": "OPTOSCI LIMITED",
     "lat": 55.916457,
     "lng": -4.573325,
@@ -53955,7 +52058,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 344,
+    "id": 305,
     "name": "RAYTHEON SYSTEMS LIMITED",
     "lat": 51.771411,
     "lng": 0.128977,
@@ -54034,7 +52137,7 @@
     "data_strength_score": 38
   },
   {
-    "id": 345,
+    "id": 306,
     "name": "ANALOG DEVICES LIMITED",
     "lat": 51.503767,
     "lng": -0.427153,
@@ -54192,7 +52295,7 @@
     "data_strength_score": 12
   },
   {
-    "id": 346,
+    "id": 307,
     "name": "PLASMA QUEST LIMITED",
     "lat": 51.278006,
     "lng": -0.959198,
@@ -54358,7 +52461,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 347,
+    "id": 308,
     "name": "TERATECH COMPONENTS LIMITED",
     "lat": 51.574889,
     "lng": -1.3145,
@@ -54476,7 +52579,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 348,
+    "id": 309,
     "name": "CANON MEDICAL RESEARCH EUROPE, LIMITED",
     "lat": 55.970737,
     "lng": -3.180428,
@@ -54859,7 +52962,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 349,
+    "id": 310,
     "name": "CAUSEWAY SENSORS LIMITED",
     "lat": 54.585528,
     "lng": -5.93641,
@@ -55162,145 +53265,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 350,
-    "name": "ANDOR TECHNOLOGY LIMITED",
-    "lat": 54.597851,
-    "lng": -5.972323,
-    "website": "andor.com",
-    "city": "Belfast",
-    "postcode": "BT12 7AL",
-    "employees": 371,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": 1989,
-    "description": "Andor Technology was founded in 1989 by Dr. Hugh Cormican, Dr. Donal Denvir, and Dr. Mike Pringle in Belfast, Northern Ireland. The company emerged from a university research project at Queen's University Belfast, where the founders were working on advanced digital camera technology for scientific applications.\n\nInitially, Andor Technology focused on developing high-performance cameras for academic and industrial research. Their products quickly gained a reputation for quality and innovation, which helped the company expand its market presence globally. The company's growth was driven by its commitment to pushing the boundaries of imaging technology, catering to fields such as astronomy, physics, and life sciences.\n\nIn 2004, Andor Technology went public on the London Stock Exchange, marking a significant milestone in its journey. This move provided the company with the capital needed to further invest in research and development, allowing it to enhance its product offerings and enter new markets.\n\nAndor's success caught the attention of Oxford Instruments, a leading provider of high-technology tools and systems for research and industry. In 2014, Oxford Instruments acquired Andor Technology for approximately \u00a3176 million. This acquisition allowed Andor to leverage Oxford Instruments' resources and global reach, further solidifying its position as a leader in the scientific imaging market.\n\nToday, Andor Technology continues to innovate under the umbrella of Oxford Instruments, maintaining its focus on delivering cutting-edge imaging solutions that empower scientists and researchers worldwide.",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0067",
-        "name": "Electronics Manufacturing",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0058",
-        "name": "MedTech",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0030",
-        "name": "Sensors",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002703",
-        "name": "Optics",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC002706",
-        "name": "Smart Sensors",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC006707",
-        "name": "Optical devices",
-        "type": "subsector",
-        "parent_code": "RTIC0067",
-        "parent_name": "Electronics Manufacturing"
-      },
-      {
-        "code": "RTIC005803",
-        "name": "Imaging",
-        "type": "subsector",
-        "parent_code": "RTIC0058",
-        "parent_name": "MedTech"
-      },
-      {
-        "code": "RTIC003002",
-        "name": "Image and Video Analysis",
-        "type": "subsector",
-        "parent_code": "RTIC0030",
-        "parent_name": "Sensors"
-      }
-    ],
-    "growth_stage": "early stage",
-    "status": "acquired",
-    "patent_count": 0,
-    "grant_count": 2,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "",
-    "is_startup": "Yes",
-    "emp_growth_pct": 50.2,
-    "emp_growth_abs": 124,
-    "emp_earliest_count": 247,
-    "emp_latest_count": 371,
-    "emp_earliest_date": "2019-02-01",
-    "emp_latest_date": "2025-05-06",
-    "emp_timeseries": [
-      {
-        "date": "2019-02",
-        "count": 247
-      },
-      {
-        "date": "2019-08",
-        "count": 254
-      },
-      {
-        "date": "2020-02",
-        "count": 249
-      },
-      {
-        "date": "2020-08",
-        "count": 247
-      },
-      {
-        "date": "2021-02",
-        "count": 262
-      },
-      {
-        "date": "2021-12",
-        "count": 294
-      },
-      {
-        "date": "2022-01",
-        "count": 290
-      },
-      {
-        "date": "2022-02",
-        "count": 298
-      },
-      {
-        "date": "2022-03",
-        "count": 296
-      },
-      {
-        "date": "2022-04",
-        "count": 301
-      },
-      {
-        "date": "2025-05",
-        "count": 371
-      }
-    ],
-    "data_strength": "Moderate",
-    "data_strength_score": 42
-  },
-  {
-    "id": 351,
+    "id": 311,
     "name": "EV GROUP LIMITED",
     "lat": 53.809633,
     "lng": -1.57444,
@@ -55350,7 +53315,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 352,
+    "id": 312,
     "name": "KURT J. LESKER COMPANY LIMITED",
     "lat": 50.877696,
     "lng": 0.528249,
@@ -55412,7 +53377,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 353,
+    "id": 313,
     "name": "EDINBURGH INSTRUMENTS LIMITED",
     "lat": 52.047014,
     "lng": -0.022304,
@@ -55554,93 +53519,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 354,
-    "name": "CARL ZEISS LTD",
-    "lat": 52.222672,
-    "lng": -0.074482,
-    "website": "",
-    "city": "",
-    "postcode": "CB23 6DW",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": null,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0067",
-        "name": "Electronics Manufacturing",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0058",
-        "name": "MedTech",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0065",
-        "name": "Advanced Manufacturing",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002703",
-        "name": "Optics",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC006707",
-        "name": "Optical devices",
-        "type": "subsector",
-        "parent_code": "RTIC0067",
-        "parent_name": "Electronics Manufacturing"
-      },
-      {
-        "code": "RTIC005803",
-        "name": "Imaging",
-        "type": "subsector",
-        "parent_code": "RTIC0058",
-        "parent_name": "MedTech"
-      },
-      {
-        "code": "RTIC006501",
-        "name": "Advanced Measurement",
-        "type": "subsector",
-        "parent_code": "RTIC0065",
-        "parent_name": "Advanced Manufacturing"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 0,
-    "grant_count": 2,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "",
-    "is_startup": "Unknown",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
-    "data_strength": "Limited",
-    "data_strength_score": 4
-  },
-  {
-    "id": 355,
+    "id": 314,
     "name": "SCIENTIFICA LTD",
     "lat": 51.504235,
     "lng": -0.091517,
@@ -55709,7 +53588,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 356,
+    "id": 315,
     "name": "QMC INSTRUMENTS LIMITED",
     "lat": 51.014493,
     "lng": -0.449402,
@@ -55795,157 +53674,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 357,
-    "name": "IQE (EUROPE) LIMITED",
-    "lat": 51.530931,
-    "lng": -3.087987,
-    "website": "",
-    "city": "",
-    "postcode": "CF3 0LW",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": null,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0099",
-        "name": "Semiconductors",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0056",
-        "name": "Telecommunications",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC009918",
-        "name": "Materials - Compound",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
-      },
-      {
-        "code": "RTIC009909",
-        "name": "Supply Chain - Chip Fabrication",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
-      },
-      {
-        "code": "RTIC009904",
-        "name": "Functional - Photonics",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
-      },
-      {
-        "code": "RTIC002702",
-        "name": "Microelectronics",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC005605",
-        "name": "Satellite Communications",
-        "type": "subsector",
-        "parent_code": "RTIC0056",
-        "parent_name": "Telecommunications"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 0,
-    "grant_count": 2,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "",
-    "is_startup": "Unknown",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
-    "data_strength": "Limited",
-    "data_strength_score": 4
-  },
-  {
-    "id": 358,
-    "name": "PHOTON DESIGN LTD",
-    "lat": 51.744112,
-    "lng": -1.23467,
-    "website": "",
-    "city": "",
-    "postcode": "OX4 1TW",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": null,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0099",
-        "name": "Semiconductors",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002702",
-        "name": "Microelectronics",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC009908",
-        "name": "Supply Chain - Chip Design",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 0,
-    "grant_count": 2,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "",
-    "is_startup": "Unknown",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
-    "data_strength": "Limited",
-    "data_strength_score": 4
-  },
-  {
-    "id": 359,
+    "id": 316,
     "name": "ARKENLIGHT LTD",
     "lat": 51.592155,
     "lng": -0.254279,
@@ -56211,380 +53940,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 360,
-    "name": "CENTRE FOR PROCESS INNOVATION LIMITED",
-    "lat": 54.576136,
-    "lng": -1.101605,
-    "website": "uk-cpi.com",
-    "city": "Lazenby",
-    "postcode": "TS10 4RF",
-    "employees": 1467,
-    "revenue_gbp": null,
-    "funding_usd_m": 0.63,
-    "year_founded": 2003,
-    "description": "CPI connects the dots within the innovation ecosystem to make great ideas and inventions a reality to benefit people, places and planet. We\u2019re a pioneering social enterprise that accelerates the development, scale-up and commercialisation of deep tech and sustainable manufacturing solutions. Through our incredible innovation experts and infrastructure, we look beyond the obvious to transform healthcare and drive towards a sustainable future. \n\nAs a trusted partner of industry, academia, government, and the investment community, we\u2019re the catalyst for delivering smart AgriFoodTech, energy storage, HealthTech, materials, and pharma innovations. We believe by working together we can build a better collective future, and as part of the High Value Manufacturing Catapult, we facilitate access to world-class organisations to deliver transformation across industries.\n\nCreating lasting global impact from the North of England and Scotland, we invest in people and disruptive technologies to invigorate economies, create circular supply chains and make our world a better place. \n\n#OurCPI | #LetsInnovateTogether",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0065",
-        "name": "Advanced Manufacturing",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0067",
-        "name": "Electronics Manufacturing",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002702",
-        "name": "Microelectronics",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC006501",
-        "name": "Advanced Measurement",
-        "type": "subsector",
-        "parent_code": "RTIC0065",
-        "parent_name": "Advanced Manufacturing"
-      },
-      {
-        "code": "RTIC006707",
-        "name": "Optical devices",
-        "type": "subsector",
-        "parent_code": "RTIC0067",
-        "parent_name": "Electronics Manufacturing"
-      }
-    ],
-    "growth_stage": "late stage",
-    "status": "operational",
-    "patent_count": 0,
-    "grant_count": 2,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "MAYBE",
-    "photonics_evidence": "",
-    "is_startup": "No",
-    "emp_growth_pct": 14.4,
-    "emp_growth_abs": 185,
-    "emp_earliest_count": 1282,
-    "emp_latest_count": 1467,
-    "emp_earliest_date": "2018-02-28",
-    "emp_latest_date": "2026-01-15",
-    "emp_timeseries": [
-      {
-        "date": "2018-02",
-        "count": 1282
-      },
-      {
-        "date": "2018-08",
-        "count": 1298
-      },
-      {
-        "date": "2019-02",
-        "count": 1313
-      },
-      {
-        "date": "2019-07",
-        "count": 1170
-      },
-      {
-        "date": "2019-08",
-        "count": 1174
-      },
-      {
-        "date": "2020-01",
-        "count": 1214
-      },
-      {
-        "date": "2020-02",
-        "count": 1220
-      },
-      {
-        "date": "2020-07",
-        "count": 1254
-      },
-      {
-        "date": "2020-08",
-        "count": 1265
-      },
-      {
-        "date": "2021-01",
-        "count": 1344
-      },
-      {
-        "date": "2021-02",
-        "count": 1360
-      },
-      {
-        "date": "2021-07",
-        "count": 1413
-      },
-      {
-        "date": "2021-08",
-        "count": 1422
-      },
-      {
-        "date": "2021-12",
-        "count": 1186
-      },
-      {
-        "date": "2023-03",
-        "count": 1412
-      },
-      {
-        "date": "2023-05",
-        "count": 1386
-      },
-      {
-        "date": "2023-07",
-        "count": 1267
-      },
-      {
-        "date": "2023-08",
-        "count": 1261
-      },
-      {
-        "date": "2023-09",
-        "count": 1202
-      },
-      {
-        "date": "2023-10",
-        "count": 1216
-      },
-      {
-        "date": "2023-11",
-        "count": 1255
-      },
-      {
-        "date": "2023-12",
-        "count": 1277
-      },
-      {
-        "date": "2024-01",
-        "count": 1283
-      },
-      {
-        "date": "2024-02",
-        "count": 1249
-      },
-      {
-        "date": "2024-03",
-        "count": 1259
-      },
-      {
-        "date": "2024-04",
-        "count": 1283
-      },
-      {
-        "date": "2024-05",
-        "count": 1306
-      },
-      {
-        "date": "2024-06",
-        "count": 1327
-      },
-      {
-        "date": "2024-07",
-        "count": 1337
-      },
-      {
-        "date": "2024-08",
-        "count": 1353
-      },
-      {
-        "date": "2024-09",
-        "count": 1368
-      },
-      {
-        "date": "2024-11",
-        "count": 1380
-      },
-      {
-        "date": "2024-12",
-        "count": 1384
-      },
-      {
-        "date": "2025-01",
-        "count": 1437
-      },
-      {
-        "date": "2025-02",
-        "count": 1437
-      },
-      {
-        "date": "2025-03",
-        "count": 1444
-      },
-      {
-        "date": "2025-04",
-        "count": 1440
-      },
-      {
-        "date": "2025-05",
-        "count": 1447
-      },
-      {
-        "date": "2025-06",
-        "count": 1444
-      },
-      {
-        "date": "2025-07",
-        "count": 1452
-      },
-      {
-        "date": "2025-08",
-        "count": 1463
-      },
-      {
-        "date": "2025-09",
-        "count": 1467
-      },
-      {
-        "date": "2025-10",
-        "count": 1473
-      },
-      {
-        "date": "2025-11",
-        "count": 1468
-      },
-      {
-        "date": "2025-12",
-        "count": 1463
-      },
-      {
-        "date": "2026-01",
-        "count": 1467
-      }
-    ],
-    "data_strength": "Moderate",
-    "data_strength_score": 46
-  },
-  {
-    "id": 361,
-    "name": "FRAUNHOFER UK RESEARCH LIMITED",
-    "lat": 55.860726,
-    "lng": -4.24407,
-    "website": "fraunhofer.co.uk",
-    "city": "Glasgow",
-    "postcode": "G1 1RD",
-    "employees": 39,
-    "revenue_gbp": null,
-    "funding_usd_m": 2.6,
-    "year_founded": 2012,
-    "description": "FRAUNHOFER UK RESEARCH LIMITED is Research and Technology Organisation, not-for-profit, located in 99 George STREET, GLASGOW, Scotland, United Kingdom.",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0030",
-        "name": "Sensors",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0065",
-        "name": "Advanced Manufacturing",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0011",
-        "name": "Energy Generation",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002706",
-        "name": "Smart Sensors",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC002704",
-        "name": "Photovoltaics",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC003001",
-        "name": "Environmental Monitoring",
-        "type": "subsector",
-        "parent_code": "RTIC0030",
-        "parent_name": "Sensors"
-      },
-      {
-        "code": "RTIC006501",
-        "name": "Advanced Measurement",
-        "type": "subsector",
-        "parent_code": "RTIC0065",
-        "parent_name": "Advanced Manufacturing"
-      },
-      {
-        "code": "RTIC001107",
-        "name": "Solar",
-        "type": "subsector",
-        "parent_code": "RTIC0011",
-        "parent_name": "Energy Generation"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 0,
-    "grant_count": 2,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "",
-    "is_startup": "Yes",
-    "emp_growth_pct": 5.4,
-    "emp_growth_abs": 2,
-    "emp_earliest_count": 37,
-    "emp_latest_count": 39,
-    "emp_earliest_date": "2022-09-15",
-    "emp_latest_date": "2023-01-14",
-    "emp_timeseries": [
-      {
-        "date": "2022-09",
-        "count": 37
-      },
-      {
-        "date": "2022-10",
-        "count": 38
-      },
-      {
-        "date": "2022-11",
-        "count": 41
-      },
-      {
-        "date": "2022-12",
-        "count": 40
-      },
-      {
-        "date": "2023-01",
-        "count": 39
-      }
-    ],
-    "data_strength": "Moderate",
-    "data_strength_score": 42
-  },
-  {
-    "id": 362,
+    "id": 317,
     "name": "NIKALYTE LIMITED",
     "lat": 53.382542,
     "lng": -2.193878,
@@ -56695,7 +54051,7 @@
     "data_strength_score": 38
   },
   {
-    "id": 363,
+    "id": 318,
     "name": "SIME DIAGNOSTICS LIMITED",
     "lat": 51.518702,
     "lng": -0.154262,
@@ -56894,7 +54250,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 364,
+    "id": 319,
     "name": "FARADAY SCIENTIFIC LIMITED",
     "lat": 53.361394,
     "lng": -1.468618,
@@ -57069,133 +54425,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 365,
-    "name": "FRAUNHOFER UK RESEARCH LIMITED",
-    "lat": 55.860726,
-    "lng": -4.24407,
-    "website": "fraunhofer.co.uk",
-    "city": "Glasgow",
-    "postcode": "G1 1RD",
-    "employees": 39,
-    "revenue_gbp": null,
-    "funding_usd_m": 2.6,
-    "year_founded": 2012,
-    "description": "FRAUNHOFER UK RESEARCH LIMITED is Research and Technology Organisation, not-for-profit, located in 99 George STREET, GLASGOW, Scotland, United Kingdom.",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0067",
-        "name": "Electronics Manufacturing",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0030",
-        "name": "Sensors",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0065",
-        "name": "Advanced Manufacturing",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0094",
-        "name": "Future Telecoms Supply Chain",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002707",
-        "name": "Telecommunications",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC002702",
-        "name": "Microelectronics",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC006707",
-        "name": "Optical devices",
-        "type": "subsector",
-        "parent_code": "RTIC0067",
-        "parent_name": "Electronics Manufacturing"
-      },
-      {
-        "code": "RTIC003002",
-        "name": "Image and Video Analysis",
-        "type": "subsector",
-        "parent_code": "RTIC0030",
-        "parent_name": "Sensors"
-      },
-      {
-        "code": "RTIC006501",
-        "name": "Advanced Measurement",
-        "type": "subsector",
-        "parent_code": "RTIC0065",
-        "parent_name": "Advanced Manufacturing"
-      },
-      {
-        "code": "RTIC009401",
-        "name": "Photonic and Optical",
-        "type": "subsector",
-        "parent_code": "RTIC0094",
-        "parent_name": "Future Telecoms Supply Chain"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 0,
-    "grant_count": 2,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "",
-    "is_startup": "Yes",
-    "emp_growth_pct": 5.4,
-    "emp_growth_abs": 2,
-    "emp_earliest_count": 37,
-    "emp_latest_count": 39,
-    "emp_earliest_date": "2022-09-15",
-    "emp_latest_date": "2023-01-14",
-    "emp_timeseries": [
-      {
-        "date": "2022-09",
-        "count": 37
-      },
-      {
-        "date": "2022-10",
-        "count": 38
-      },
-      {
-        "date": "2022-11",
-        "count": 41
-      },
-      {
-        "date": "2022-12",
-        "count": 40
-      },
-      {
-        "date": "2023-01",
-        "count": 39
-      }
-    ],
-    "data_strength": "Moderate",
-    "data_strength_score": 42
-  },
-  {
-    "id": 366,
+    "id": 320,
     "name": "CIENA LIMITED",
     "lat": 51.522742,
     "lng": -0.080465,
@@ -57269,7 +54499,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 367,
+    "id": 321,
     "name": "OPSEC SECURITY LIMITED",
     "lat": 54.903009,
     "lng": -1.557233,
@@ -57360,7 +54590,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 368,
+    "id": 322,
     "name": "ANALYTIK LIMITED",
     "lat": 52.293971,
     "lng": -0.00166,
@@ -57507,7 +54737,7 @@
     "data_strength_score": 38
   },
   {
-    "id": 369,
+    "id": 323,
     "name": "LAMBDA ENERGY LTD",
     "lat": 52.234821,
     "lng": 0.129527,
@@ -57622,7 +54852,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 370,
+    "id": 324,
     "name": "MOMENTIVE PERFORMANCE MATERIALS LIMITED",
     "lat": 53.579496,
     "lng": -2.529715,
@@ -57684,69 +54914,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 371,
-    "name": "MOMENTIVE PERFORMANCE MATERIALS LIMITED",
-    "lat": 53.579496,
-    "lng": -2.529715,
-    "website": "",
-    "city": "",
-    "postcode": "BL6 4SB",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": null,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0099",
-        "name": "Semiconductors",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002703",
-        "name": "Optics",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC009914",
-        "name": "Supply Chain - Specialized Materials",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 0,
-    "grant_count": 2,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "MAYBE",
-    "photonics_evidence": "",
-    "is_startup": "Unknown",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
-    "data_strength": "Limited",
-    "data_strength_score": 4
-  },
-  {
-    "id": 372,
+    "id": 325,
     "name": "TRIBUS-D LTD",
     "lat": 52.218147,
     "lng": 0.143149,
@@ -57803,7 +54971,7 @@
     "data_strength_score": 27
   },
   {
-    "id": 373,
+    "id": 326,
     "name": "HELIATEK LTD",
     "lat": 55.24782,
     "lng": -4.856319,
@@ -57877,7 +55045,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 374,
+    "id": 327,
     "name": "SAFC HITECH LIMITED",
     "lat": 51.031896,
     "lng": -2.275901,
@@ -57958,95 +55126,7 @@
     "data_strength_score": 15
   },
   {
-    "id": 375,
-    "name": "IQE (EUROPE) LIMITED",
-    "lat": 51.530931,
-    "lng": -3.087987,
-    "website": "",
-    "city": "",
-    "postcode": "CF3 0LW",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": null,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0099",
-        "name": "Semiconductors",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0056",
-        "name": "Telecommunications",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC009918",
-        "name": "Materials - Compound",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
-      },
-      {
-        "code": "RTIC009909",
-        "name": "Supply Chain - Chip Fabrication",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
-      },
-      {
-        "code": "RTIC009904",
-        "name": "Functional - Photonics",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
-      },
-      {
-        "code": "RTIC002702",
-        "name": "Microelectronics",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC005605",
-        "name": "Satellite Communications",
-        "type": "subsector",
-        "parent_code": "RTIC0056",
-        "parent_name": "Telecommunications"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 0,
-    "grant_count": 1,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "",
-    "is_startup": "Unknown",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
-    "data_strength": "Limited",
-    "data_strength_score": 4
-  },
-  {
-    "id": 376,
+    "id": 328,
     "name": "MICROLINK DEVICES UK LTD",
     "lat": 51.210681,
     "lng": -2.646811,
@@ -58159,7 +55239,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 377,
+    "id": 329,
     "name": "POWER ROLL LIMITED",
     "lat": 54.909265,
     "lng": -1.486853,
@@ -58446,7 +55526,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 378,
+    "id": 330,
     "name": "SPANOPTIC LIMITED",
     "lat": 55.861447,
     "lng": -4.25426,
@@ -58532,251 +55612,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 379,
-    "name": "ANALOG DEVICES LIMITED",
-    "lat": 51.503767,
-    "lng": -0.427153,
-    "website": "",
-    "city": "",
-    "postcode": "UB3 1EP",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": null,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0099",
-        "name": "Semiconductors",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC009901",
-        "name": "Functional - Analog Integrated",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
-      },
-      {
-        "code": "RTIC009907",
-        "name": "Functional - Sensors",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 0,
-    "grant_count": 1,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "MAYBE",
-    "photonics_evidence": "",
-    "is_startup": "Unknown",
-    "emp_growth_pct": 13.8,
-    "emp_growth_abs": 2817,
-    "emp_earliest_count": 20366,
-    "emp_latest_count": 23183,
-    "emp_earliest_date": "2022-01-01",
-    "emp_latest_date": "2024-01-01",
-    "emp_timeseries": [
-      {
-        "date": "2022-01",
-        "count": 20366
-      },
-      {
-        "date": "2022-02",
-        "count": 20376
-      },
-      {
-        "date": "2022-03",
-        "count": 20391
-      },
-      {
-        "date": "2022-04",
-        "count": 20376
-      },
-      {
-        "date": "2022-05",
-        "count": 20529
-      },
-      {
-        "date": "2022-06",
-        "count": 20626
-      },
-      {
-        "date": "2022-07",
-        "count": 20738
-      },
-      {
-        "date": "2022-08",
-        "count": 20716
-      },
-      {
-        "date": "2022-09",
-        "count": 20799
-      },
-      {
-        "date": "2022-10",
-        "count": 20948
-      },
-      {
-        "date": "2022-11",
-        "count": 21089
-      },
-      {
-        "date": "2022-12",
-        "count": 21176
-      },
-      {
-        "date": "2023-01",
-        "count": 21440
-      },
-      {
-        "date": "2023-02",
-        "count": 21606
-      },
-      {
-        "date": "2023-03",
-        "count": 21810
-      },
-      {
-        "date": "2023-04",
-        "count": 21994
-      },
-      {
-        "date": "2023-05",
-        "count": 22404
-      },
-      {
-        "date": "2023-06",
-        "count": 22773
-      },
-      {
-        "date": "2023-07",
-        "count": 23106
-      },
-      {
-        "date": "2023-08",
-        "count": 23083
-      },
-      {
-        "date": "2023-09",
-        "count": 23165
-      },
-      {
-        "date": "2023-10",
-        "count": 23200
-      },
-      {
-        "date": "2023-11",
-        "count": 23162
-      },
-      {
-        "date": "2023-12",
-        "count": 23126
-      },
-      {
-        "date": "2024-01",
-        "count": 23183
-      }
-    ],
-    "data_strength": "Limited",
-    "data_strength_score": 12
-  },
-  {
-    "id": 380,
-    "name": "SENKO ADVANCED COMPONENTS (EURO) LIMITED",
-    "lat": 51.276868,
-    "lng": -1.070919,
-    "website": "",
-    "city": "",
-    "postcode": "RG24 8PP",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": null,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0056",
-        "name": "Telecommunications",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0094",
-        "name": "Future Telecoms Supply Chain",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0067",
-        "name": "Electronics Manufacturing",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002707",
-        "name": "Telecommunications",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC005605",
-        "name": "Satellite Communications",
-        "type": "subsector",
-        "parent_code": "RTIC0056",
-        "parent_name": "Telecommunications"
-      },
-      {
-        "code": "RTIC009401",
-        "name": "Photonic and Optical",
-        "type": "subsector",
-        "parent_code": "RTIC0094",
-        "parent_name": "Future Telecoms Supply Chain"
-      },
-      {
-        "code": "RTIC006701",
-        "name": "Communications",
-        "type": "subsector",
-        "parent_code": "RTIC0067",
-        "parent_name": "Electronics Manufacturing"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 0,
-    "grant_count": 1,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "",
-    "is_startup": "Unknown",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
-    "data_strength": "Limited",
-    "data_strength_score": 4
-  },
-  {
-    "id": 381,
+    "id": 331,
     "name": "SYNOPSYS (NORTHERN EUROPE) LIMITED",
     "lat": 51.435689,
     "lng": -1.063543,
@@ -58826,7 +55662,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 382,
+    "id": 332,
     "name": "CADENCE DESIGN SYSTEMS LIMITED",
     "lat": 51.419117,
     "lng": -0.773052,
@@ -58876,100 +55712,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 383,
-    "name": "LUMENTUM TECHNOLOGY UK LIMITED",
-    "lat": 51.51611,
-    "lng": -0.108979,
-    "website": "",
-    "city": "",
-    "postcode": "EC4A 1JP",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": null,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0067",
-        "name": "Electronics Manufacturing",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0056",
-        "name": "Telecommunications",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0094",
-        "name": "Future Telecoms Supply Chain",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002707",
-        "name": "Telecommunications",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC002703",
-        "name": "Optics",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC006707",
-        "name": "Optical devices",
-        "type": "subsector",
-        "parent_code": "RTIC0067",
-        "parent_name": "Electronics Manufacturing"
-      },
-      {
-        "code": "RTIC005605",
-        "name": "Satellite Communications",
-        "type": "subsector",
-        "parent_code": "RTIC0056",
-        "parent_name": "Telecommunications"
-      },
-      {
-        "code": "RTIC009401",
-        "name": "Photonic and Optical",
-        "type": "subsector",
-        "parent_code": "RTIC0094",
-        "parent_name": "Future Telecoms Supply Chain"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 0,
-    "grant_count": 1,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "",
-    "is_startup": "Unknown",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
-    "data_strength": "Limited",
-    "data_strength_score": 4
-  },
-  {
-    "id": 384,
+    "id": 333,
     "name": "ADTRAN LIMITED",
     "lat": 51.763675,
     "lng": -0.311594,
@@ -59043,7 +55786,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 385,
+    "id": 334,
     "name": "THORLABS LIMITED",
     "lat": 52.386728,
     "lng": 0.22822,
@@ -59105,7 +55848,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 386,
+    "id": 335,
     "name": "LIGHTPOINT MEDICAL LTD",
     "lat": 51.666622,
     "lng": -0.613981,
@@ -59275,7 +56018,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 387,
+    "id": 336,
     "name": "SILIXA LTD",
     "lat": 51.640798,
     "lng": -0.309239,
@@ -59504,7 +56247,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 388,
+    "id": 337,
     "name": "MOOR INSTRUMENTS LIMITED",
     "lat": 50.790313,
     "lng": -2.983416,
@@ -59643,188 +56386,7 @@
     "data_strength_score": 35
   },
   {
-    "id": 389,
-    "name": "THALES ALENIA SPACE UK LIMITED",
-    "lat": 51.423146,
-    "lng": -0.994115,
-    "website": "",
-    "city": "",
-    "postcode": "RG2 6GF",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": null,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0098",
-        "name": "Space Economy",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0096",
-        "name": "Defence",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0056",
-        "name": "Telecommunications",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC009805",
-        "name": "Space Hardware",
-        "type": "subsector",
-        "parent_code": "RTIC0098",
-        "parent_name": "Space Economy"
-      },
-      {
-        "code": "RTIC009806",
-        "name": "Space Engineering",
-        "type": "subsector",
-        "parent_code": "RTIC0098",
-        "parent_name": "Space Economy"
-      },
-      {
-        "code": "RTIC009601",
-        "name": "Space and Resilient Communications",
-        "type": "subsector",
-        "parent_code": "RTIC0096",
-        "parent_name": "Defence"
-      },
-      {
-        "code": "RTIC002707",
-        "name": "Telecommunications",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC005605",
-        "name": "Satellite Communications",
-        "type": "subsector",
-        "parent_code": "RTIC0056",
-        "parent_name": "Telecommunications"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 0,
-    "grant_count": 1,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "MAYBE",
-    "photonics_evidence": "",
-    "is_startup": "Unknown",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
-    "data_strength": "Limited",
-    "data_strength_score": 4
-  },
-  {
-    "id": 390,
-    "name": "POINTCLOUD LTD",
-    "lat": 51.188589,
-    "lng": -2.475849,
-    "website": "",
-    "city": "",
-    "postcode": "BA4 4RH",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": null,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0099",
-        "name": "Semiconductors",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0030",
-        "name": "Sensors",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002706",
-        "name": "Smart Sensors",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC002702",
-        "name": "Microelectronics",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC009904",
-        "name": "Functional - Photonics",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
-      },
-      {
-        "code": "RTIC003005",
-        "name": "Mobility",
-        "type": "subsector",
-        "parent_code": "RTIC0030",
-        "parent_name": "Sensors"
-      },
-      {
-        "code": "RTIC003006",
-        "name": "Autonomous vehicles",
-        "type": "subsector",
-        "parent_code": "RTIC0030",
-        "parent_name": "Sensors"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 0,
-    "grant_count": 1,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "MAYBE",
-    "photonics_evidence": "",
-    "is_startup": "Unknown",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
-    "data_strength": "Limited",
-    "data_strength_score": 4
-  },
-  {
-    "id": 391,
+    "id": 338,
     "name": "YAMAZAKI MAZAK U.K. LIMITED",
     "lat": 52.216237,
     "lng": -2.185763,
@@ -59959,7 +56521,7 @@
     "data_strength_score": 38
   },
   {
-    "id": 393,
+    "id": 339,
     "name": "GTAT LIMITED",
     "lat": 53.585111,
     "lng": -2.526115,
@@ -60023,7 +56585,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 394,
+    "id": 340,
     "name": "MALVERN PANALYTICAL LIMITED",
     "lat": 52.128603,
     "lng": -2.30371,
@@ -60138,7 +56700,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 395,
+    "id": 341,
     "name": "QORVO UK LIMITED",
     "lat": 51.436458,
     "lng": -1.068649,
@@ -60195,116 +56757,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 396,
-    "name": "IQE PLC",
-    "lat": 51.530931,
-    "lng": -3.087987,
-    "website": "iqep.com",
-    "city": "Cardiff",
-    "postcode": "CF3 0LW",
-    "employees": 445,
-    "revenue_gbp": null,
-    "funding_usd_m": 0.13,
-    "year_founded": 1988,
-    "description": "Global leader in the design and manufacturing of advanced semiconductor wafer products",
-    "rtic": [
-      {
-        "code": "RTIC0099",
-        "name": "Semiconductors",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0034",
-        "name": "Advanced Materials",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC009918",
-        "name": "Materials - Compound",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
-      },
-      {
-        "code": "RTIC009909",
-        "name": "Supply Chain - Chip Fabrication",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
-      },
-      {
-        "code": "RTIC009904",
-        "name": "Functional - Photonics",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
-      },
-      {
-        "code": "RTIC002702",
-        "name": "Microelectronics",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC003403",
-        "name": "Emerging Functional Materials",
-        "type": "subsector",
-        "parent_code": "RTIC0034",
-        "parent_name": "Advanced Materials"
-      }
-    ],
-    "growth_stage": "mature",
-    "status": "operational",
-    "patent_count": 0,
-    "grant_count": 1,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "",
-    "is_startup": "No",
-    "emp_growth_pct": 11.2,
-    "emp_growth_abs": 45,
-    "emp_earliest_count": 400,
-    "emp_latest_count": 445,
-    "emp_earliest_date": "2020-08-31",
-    "emp_latest_date": "2022-08-25",
-    "emp_timeseries": [
-      {
-        "date": "2020-08",
-        "count": 400
-      },
-      {
-        "date": "2021-02",
-        "count": 401
-      },
-      {
-        "date": "2021-08",
-        "count": 423
-      },
-      {
-        "date": "2022-02",
-        "count": 436
-      },
-      {
-        "date": "2022-08",
-        "count": 445
-      }
-    ],
-    "data_strength": "Moderate",
-    "data_strength_score": 42
-  },
-  {
-    "id": 397,
+    "id": 342,
     "name": "FLEXINK LTD",
     "lat": 50.909533,
     "lng": -1.426249,
@@ -60378,7 +56831,7 @@
     "data_strength_score": 23
   },
   {
-    "id": 398,
+    "id": 343,
     "name": "LUMOPTICA LIMITED",
     "lat": 51.495452,
     "lng": -2.619057,
@@ -60440,7 +56893,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 399,
+    "id": 344,
     "name": "DIMENSIONS DISPLAYS LIMITED",
     "lat": 51.482101,
     "lng": -0.095754,
@@ -60514,7 +56967,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 400,
+    "id": 345,
     "name": "CRYSTRAN LIMITED",
     "lat": 50.749393,
     "lng": -1.942207,
@@ -60593,7 +57046,7 @@
     "data_strength_score": 12
   },
   {
-    "id": 401,
+    "id": 346,
     "name": "REDLUX LIMITED",
     "lat": 50.983125,
     "lng": -1.46342,
@@ -60864,7 +57317,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 402,
+    "id": 347,
     "name": "VISIONCHIP LIMITED",
     "lat": 53.463203,
     "lng": -2.229943,
@@ -60933,7 +57386,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 403,
+    "id": 348,
     "name": "RAIL VISION EUROPE LTD",
     "lat": 52.753311,
     "lng": -1.214114,
@@ -61002,7 +57455,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 404,
+    "id": 349,
     "name": "FOTENIX LIMITED",
     "lat": 53.491793,
     "lng": -2.273807,
@@ -61277,7 +57730,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 405,
+    "id": 350,
     "name": "KROMEK GROUP PLC",
     "lat": 54.67032,
     "lng": -1.451383,
@@ -61431,145 +57884,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 406,
-    "name": "IQE (EUROPE) LIMITED",
-    "lat": 51.530931,
-    "lng": -3.087987,
-    "website": "",
-    "city": "",
-    "postcode": "CF3 0LW",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": null,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0099",
-        "name": "Semiconductors",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0056",
-        "name": "Telecommunications",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC009918",
-        "name": "Materials - Compound",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
-      },
-      {
-        "code": "RTIC009909",
-        "name": "Supply Chain - Chip Fabrication",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
-      },
-      {
-        "code": "RTIC009904",
-        "name": "Functional - Photonics",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
-      },
-      {
-        "code": "RTIC002702",
-        "name": "Microelectronics",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC005605",
-        "name": "Satellite Communications",
-        "type": "subsector",
-        "parent_code": "RTIC0056",
-        "parent_name": "Telecommunications"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 0,
-    "grant_count": 1,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "",
-    "is_startup": "Unknown",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
-    "data_strength": "Limited",
-    "data_strength_score": 4
-  },
-  {
-    "id": 407,
-    "name": "THALES AIR DEFENCE LIMITED",
-    "lat": 54.580138,
-    "lng": -5.888097,
-    "website": "",
-    "city": "",
-    "postcode": "BT6 9HB",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": null,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0096",
-        "name": "Defence",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC009601",
-        "name": "Space and Resilient Communications",
-        "type": "subsector",
-        "parent_code": "RTIC0096",
-        "parent_name": "Defence"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 0,
-    "grant_count": 1,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "MAYBE",
-    "photonics_evidence": "",
-    "is_startup": "Unknown",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
-    "data_strength": "Limited",
-    "data_strength_score": 4
-  },
-  {
-    "id": 408,
+    "id": 351,
     "name": "XTERA LIMITED",
     "lat": 51.597379,
     "lng": 0.239344,
@@ -61643,7 +57958,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 409,
+    "id": 352,
     "name": "OSSILA LTD",
     "lat": 53.392111,
     "lng": -1.44544,
@@ -61778,7 +58093,7 @@
     "data_strength_score": 38
   },
   {
-    "id": 410,
+    "id": 353,
     "name": "HARKNESS SCREENS (UK) LIMITED",
     "lat": 51.899404,
     "lng": -0.216814,
@@ -61905,149 +58220,7 @@
     "data_strength_score": 38
   },
   {
-    "id": 411,
-    "name": "BAE SYSTEMS PLC",
-    "lat": 51.505934,
-    "lng": -0.133956,
-    "website": "silversky.com",
-    "city": "Milford",
-    "postcode": "SW1Y 5AD",
-    "employees": 398,
-    "revenue_gbp": null,
-    "funding_usd_m": 124.55,
-    "year_founded": 1997,
-    "description": "Founded in 1997, the company that would become SilverSky started its journey as a managed security services provider. The business was built to offer cloud-based security and compliance solutions to organizations with strict regulatory needs, like banks, credit unions, and healthcare companies. One of the early founders and leaders was Richard Dobrow, who established a company called Guarded Networks Inc., a precursor in the lineage of what SilverSky would become. The company underwent a significant transformation when it was acquired by the major defense and security firm BAE Systems in late 2014 for $232.5 million. This move was designed to bolster BAE's commercial cybersecurity offerings, integrating SilverSky\u2019s cloud-based email and network security solutions into its Applied Intelligence division. At the time of the acquisition, SilverSky had roughly 400 employees and served over 5,000 customers. A pivotal second act occurred in November 2020, when a private investor group, which included original management members Richard Dobrow and Cary Conrad, bought the company back from BAE Systems. Dobrow returned to the helm as CEO. This management-led buyout marked a new chapter for SilverSky, refocusing its efforts on managed detection and response (MDR) services. The company continues to operate and innovate, recently securing a new funding round in April 2024 to expand its global market presence.",
-    "rtic": [
-      {
-        "code": "RTIC0096",
-        "name": "Defence",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0030",
-        "name": "Sensors",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC009601",
-        "name": "Space and Resilient Communications",
-        "type": "subsector",
-        "parent_code": "RTIC0096",
-        "parent_name": "Defence"
-      },
-      {
-        "code": "RTIC002706",
-        "name": "Smart Sensors",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC002703",
-        "name": "Optics",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC003005",
-        "name": "Mobility",
-        "type": "subsector",
-        "parent_code": "RTIC0030",
-        "parent_name": "Sensors"
-      }
-    ],
-    "growth_stage": "late stage",
-    "status": "acquired",
-    "patent_count": 0,
-    "grant_count": 1,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "MAYBE",
-    "photonics_evidence": "",
-    "is_startup": "No",
-    "emp_growth_pct": 35.4,
-    "emp_growth_abs": 104,
-    "emp_earliest_count": 294,
-    "emp_latest_count": 398,
-    "emp_earliest_date": "2022-01-25",
-    "emp_latest_date": "2024-04-20",
-    "emp_timeseries": [
-      {
-        "date": "2022-01",
-        "count": 294
-      },
-      {
-        "date": "2022-02",
-        "count": 300
-      },
-      {
-        "date": "2022-03",
-        "count": 299
-      },
-      {
-        "date": "2022-04",
-        "count": 305
-      },
-      {
-        "date": "2022-05",
-        "count": 302
-      },
-      {
-        "date": "2022-06",
-        "count": 304
-      },
-      {
-        "date": "2022-07",
-        "count": 313
-      },
-      {
-        "date": "2022-08",
-        "count": 321
-      },
-      {
-        "date": "2022-09",
-        "count": 326
-      },
-      {
-        "date": "2022-10",
-        "count": 340
-      },
-      {
-        "date": "2022-11",
-        "count": 351
-      },
-      {
-        "date": "2022-12",
-        "count": 363
-      },
-      {
-        "date": "2023-01",
-        "count": 332
-      },
-      {
-        "date": "2024-03",
-        "count": 409
-      },
-      {
-        "date": "2024-04",
-        "count": 398
-      }
-    ],
-    "data_strength": "Moderate",
-    "data_strength_score": 46
-  },
-  {
-    "id": 412,
+    "id": 354,
     "name": "SILSON LIMITED",
     "lat": 52.247808,
     "lng": -1.376457,
@@ -62194,7 +58367,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 413,
+    "id": 355,
     "name": "ADD GRAPHENE GROUP LIMITED",
     "lat": 51.24901,
     "lng": -1.214704,
@@ -62244,7 +58417,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 414,
+    "id": 356,
     "name": "LAYTEC GROUP LTD",
     "lat": 52.588913,
     "lng": -0.226977,
@@ -62330,7 +58503,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 415,
+    "id": 357,
     "name": "LAYTEC UK LIMITED",
     "lat": 53.274294,
     "lng": -2.826795,
@@ -62416,214 +58589,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 416,
-    "name": "EV GROUP LIMITED",
-    "lat": 53.809633,
-    "lng": -1.57444,
-    "website": "",
-    "city": "",
-    "postcode": "LS6 1LJ",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": null,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0099",
-        "name": "Semiconductors",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC009916",
-        "name": "Supply Chain - Equipment and Tools",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 0,
-    "grant_count": 1,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "MAYBE",
-    "photonics_evidence": "",
-    "is_startup": "Unknown",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
-    "data_strength": "Limited",
-    "data_strength_score": 4
-  },
-  {
-    "id": 417,
-    "name": "STMICROELECTRONICS LIMITED",
-    "lat": 51.578819,
-    "lng": -0.758003,
-    "website": "",
-    "city": "",
-    "postcode": "SL7 1YL",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": null,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0099",
-        "name": "Semiconductors",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC009901",
-        "name": "Functional - Analog Integrated",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
-      },
-      {
-        "code": "RTIC009907",
-        "name": "Functional - Sensors",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
-      },
-      {
-        "code": "RTIC009911",
-        "name": "Supply Chain - Intergrated Device Manufacturers",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 0,
-    "grant_count": 1,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "MAYBE",
-    "photonics_evidence": "",
-    "is_startup": "Unknown",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
-    "data_strength": "Limited",
-    "data_strength_score": 4
-  },
-  {
-    "id": 418,
-    "name": "THALES ALENIA SPACE UK LIMITED",
-    "lat": 51.423146,
-    "lng": -0.994115,
-    "website": "",
-    "city": "",
-    "postcode": "RG2 6GF",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": null,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0098",
-        "name": "Space Economy",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0096",
-        "name": "Defence",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0056",
-        "name": "Telecommunications",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC009805",
-        "name": "Space Hardware",
-        "type": "subsector",
-        "parent_code": "RTIC0098",
-        "parent_name": "Space Economy"
-      },
-      {
-        "code": "RTIC009806",
-        "name": "Space Engineering",
-        "type": "subsector",
-        "parent_code": "RTIC0098",
-        "parent_name": "Space Economy"
-      },
-      {
-        "code": "RTIC009601",
-        "name": "Space and Resilient Communications",
-        "type": "subsector",
-        "parent_code": "RTIC0096",
-        "parent_name": "Defence"
-      },
-      {
-        "code": "RTIC002707",
-        "name": "Telecommunications",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC005605",
-        "name": "Satellite Communications",
-        "type": "subsector",
-        "parent_code": "RTIC0056",
-        "parent_name": "Telecommunications"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 0,
-    "grant_count": 1,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "MAYBE",
-    "photonics_evidence": "",
-    "is_startup": "Unknown",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
-    "data_strength": "Limited",
-    "data_strength_score": 4
-  },
-  {
-    "id": 419,
+    "id": 358,
     "name": "HIGHFINESSE-UK LIMITED",
     "lat": 51.37193,
     "lng": -0.456372,
@@ -62704,7 +58670,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 420,
+    "id": 359,
     "name": "MICHELSON DIAGNOSTICS LTD",
     "lat": 52.952119,
     "lng": -1.15533,
@@ -62866,7 +58832,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 421,
+    "id": 360,
     "name": "RANDOX LABORATORIES LIMITED",
     "lat": 54.640101,
     "lng": -6.296631,
@@ -62928,7 +58894,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 422,
+    "id": 361,
     "name": "SEMIWISE LIMITED",
     "lat": 55.872598,
     "lng": -4.285582,
@@ -63155,222 +59121,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 423,
-    "name": "HUBER+SUHNER POLATIS LIMITED",
-    "lat": 52.23396,
-    "lng": 0.142344,
-    "website": "polatis.com",
-    "city": "Andover",
-    "postcode": "CB4 0WN",
-    "employees": 149,
-    "revenue_gbp": null,
-    "funding_usd_m": 31.32,
-    "year_founded": 2000,
-    "description": "Polatis operates as a specialized developer of all-optical circuit switching solutions, a critical segment of the fiber optics industry. The company was established in 2000 and later, in 2005, was officially formed through a merger of optical technology firms in Massachusetts, USA, and the UK. This strategic consolidation brought together talent from institutions like MIT and Cambridge University, creating a deep well of expertise in optics and transmission systems. A key figure in the company's technical leadership and product development journey is Nick Parsons, who joined the startup in 2002 and was instrumental in bringing its technology to market. \n\nThe company's business centers on designing and manufacturing high-performance, purely optical switches. Unlike conventional switches that convert optical signals to electrical and back (OEO), Polatis's products manage data streams entirely in the optical domain (OOO). This approach avoids conversion latency and is independent of data rate or protocol, making it a durable solution for networks as data transmission speeds increase. The core of its product line is the patented DirectLight\u2122 beam-steering technology, which uses piezoelectric actuators to physically align light beams between input and output fibers with minimal signal loss. This technology uniquely allows for the switching of 'dark fibers'\u2014fibers not currently carrying light\u2014enabling pre-provisioning of network paths. \n\nPolatis serves a diverse client base across telecommunications, data centers, government and defense, and test and measurement sectors. For data centers, its switches facilitate the creation of low-latency hybrid network architectures required for scalable cloud services. In telecommunications, the switches help manage ever-increasing data volumes, supporting the evolution toward software-defined networks (SDN). Government clients use the technology for secure communications and intelligence gathering, while the test and measurement market relies on it for automating equipment connections. Revenue is generated through the sale of these optical switch products, which range in scale from 4x4 to large 576x576 port configurations. In May 2016, Polatis was acquired by the Swiss company HUBER+SUHNER, becoming a business unit within its Fiber Optics division to strengthen its market position and global reach. \n\nKeywords: optical circuit switching, all-optical switches, fiber optic networks, data center interconnect, telecommunications infrastructure, SDN, software-defined networking, DirectLight technology, network automation, fiber layer management, test and measurement automation, government communication systems, beam-steering, piezoelectric actuators, dark fiber switching, low-latency networks, HUBER+SUHNER, optical cross-connect, photonic switching, network provisioning",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0094",
-        "name": "Future Telecoms Supply Chain",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0067",
-        "name": "Electronics Manufacturing",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002707",
-        "name": "Telecommunications",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC009401",
-        "name": "Photonic and Optical",
-        "type": "subsector",
-        "parent_code": "RTIC0094",
-        "parent_name": "Future Telecoms Supply Chain"
-      },
-      {
-        "code": "RTIC006707",
-        "name": "Optical devices",
-        "type": "subsector",
-        "parent_code": "RTIC0067",
-        "parent_name": "Electronics Manufacturing"
-      }
-    ],
-    "growth_stage": "breakout stage",
-    "status": "acquired",
-    "patent_count": 0,
-    "grant_count": 1,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "",
-    "is_startup": "Yes",
-    "emp_growth_pct": 84.0,
-    "emp_growth_abs": 68,
-    "emp_earliest_count": 81,
-    "emp_latest_count": 149,
-    "emp_earliest_date": "2018-02-28",
-    "emp_latest_date": "2025-05-02",
-    "emp_timeseries": [
-      {
-        "date": "2018-02",
-        "count": 81
-      },
-      {
-        "date": "2018-08",
-        "count": 82
-      },
-      {
-        "date": "2018-10",
-        "count": 96
-      },
-      {
-        "date": "2018-11",
-        "count": 95
-      },
-      {
-        "date": "2018-12",
-        "count": 97
-      },
-      {
-        "date": "2019-01",
-        "count": 97
-      },
-      {
-        "date": "2019-03",
-        "count": 97
-      },
-      {
-        "date": "2019-04",
-        "count": 94
-      },
-      {
-        "date": "2019-05",
-        "count": 93
-      },
-      {
-        "date": "2019-06",
-        "count": 96
-      },
-      {
-        "date": "2019-07",
-        "count": 97
-      },
-      {
-        "date": "2019-09",
-        "count": 100
-      },
-      {
-        "date": "2019-10",
-        "count": 97
-      },
-      {
-        "date": "2019-11",
-        "count": 95
-      },
-      {
-        "date": "2019-12",
-        "count": 95
-      },
-      {
-        "date": "2020-01",
-        "count": 96
-      },
-      {
-        "date": "2020-03",
-        "count": 95
-      },
-      {
-        "date": "2020-04",
-        "count": 93
-      },
-      {
-        "date": "2020-05",
-        "count": 92
-      },
-      {
-        "date": "2020-06",
-        "count": 96
-      },
-      {
-        "date": "2020-07",
-        "count": 95
-      },
-      {
-        "date": "2020-09",
-        "count": 90
-      },
-      {
-        "date": "2020-10",
-        "count": 89
-      },
-      {
-        "date": "2020-11",
-        "count": 90
-      },
-      {
-        "date": "2020-12",
-        "count": 97
-      },
-      {
-        "date": "2021-01",
-        "count": 97
-      },
-      {
-        "date": "2021-03",
-        "count": 102
-      },
-      {
-        "date": "2021-06",
-        "count": 105
-      },
-      {
-        "date": "2021-09",
-        "count": 114
-      },
-      {
-        "date": "2021-12",
-        "count": 117
-      },
-      {
-        "date": "2022-01",
-        "count": 120
-      },
-      {
-        "date": "2022-02",
-        "count": 119
-      },
-      {
-        "date": "2022-03",
-        "count": 120
-      },
-      {
-        "date": "2022-04",
-        "count": 119
-      },
-      {
-        "date": "2025-05",
-        "count": 149
-      }
-    ],
-    "data_strength": "Moderate",
-    "data_strength_score": 46
-  },
-  {
-    "id": 424,
+    "id": 362,
     "name": "NODEQ LIMITED",
     "lat": 51.514897,
     "lng": -0.123615,
@@ -63463,7 +59214,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 425,
+    "id": 363,
     "name": "ANGOKA LIMITED",
     "lat": 54.56755,
     "lng": -5.915516,
@@ -63730,7 +59481,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 426,
+    "id": 364,
     "name": "METAMORPH MATERIALS LTD",
     "lat": 53.47486,
     "lng": -2.235143,
@@ -63792,7 +59543,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 427,
+    "id": 365,
     "name": "NIKON X-TEK SYSTEMS LIMITED",
     "lat": 51.7952,
     "lng": -0.677252,
@@ -63866,7 +59617,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 428,
+    "id": 366,
     "name": "ISDI LIMITED",
     "lat": 51.552878,
     "lng": -0.143675,
@@ -64024,7 +59775,7 @@
     "data_strength_score": 38
   },
   {
-    "id": 429,
+    "id": 367,
     "name": "ADVANCED EPI MATERIALS AND DEVICES LTD",
     "lat": 52.277989,
     "lng": -1.521185,
@@ -64169,7 +59920,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 430,
+    "id": 368,
     "name": "SURREY NANOSYSTEMS LIMITED",
     "lat": 50.78836,
     "lng": 0.062336,
@@ -64460,154 +60211,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 432,
-    "name": "GOOCH & HOUSEGO PLC",
-    "lat": 50.916624,
-    "lng": -2.914079,
-    "website": "gandh.com",
-    "city": "Ilminster",
-    "postcode": "TA19 0PF",
-    "employees": 376,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": 1948,
-    "description": "Leading Photonics Technology - G&H",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0067",
-        "name": "Electronics Manufacturing",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0065",
-        "name": "Advanced Manufacturing",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002703",
-        "name": "Optics",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC006707",
-        "name": "Optical devices",
-        "type": "subsector",
-        "parent_code": "RTIC0067",
-        "parent_name": "Electronics Manufacturing"
-      },
-      {
-        "code": "RTIC006501",
-        "name": "Advanced Measurement",
-        "type": "subsector",
-        "parent_code": "RTIC0065",
-        "parent_name": "Advanced Manufacturing"
-      }
-    ],
-    "growth_stage": "mature",
-    "status": "operational",
-    "patent_count": 0,
-    "grant_count": 1,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "",
-    "is_startup": "No",
-    "emp_growth_pct": 44.1,
-    "emp_growth_abs": 115,
-    "emp_earliest_count": 261,
-    "emp_latest_count": 376,
-    "emp_earliest_date": "2019-05-31",
-    "emp_latest_date": "2025-04-10",
-    "emp_timeseries": [
-      {
-        "date": "2019-05",
-        "count": 261
-      },
-      {
-        "date": "2019-11",
-        "count": 265
-      },
-      {
-        "date": "2020-05",
-        "count": 259
-      },
-      {
-        "date": "2020-11",
-        "count": 254
-      },
-      {
-        "date": "2021-05",
-        "count": 247
-      },
-      {
-        "date": "2022-01",
-        "count": 238
-      },
-      {
-        "date": "2022-03",
-        "count": 242
-      },
-      {
-        "date": "2022-04",
-        "count": 245
-      },
-      {
-        "date": "2022-05",
-        "count": 247
-      },
-      {
-        "date": "2022-06",
-        "count": 246
-      },
-      {
-        "date": "2022-07",
-        "count": 246
-      },
-      {
-        "date": "2022-08",
-        "count": 245
-      },
-      {
-        "date": "2022-09",
-        "count": 246
-      },
-      {
-        "date": "2022-10",
-        "count": 246
-      },
-      {
-        "date": "2022-11",
-        "count": 248
-      },
-      {
-        "date": "2022-12",
-        "count": 255
-      },
-      {
-        "date": "2023-01",
-        "count": 254
-      },
-      {
-        "date": "2025-04",
-        "count": 376
-      }
-    ],
-    "data_strength": "Moderate",
-    "data_strength_score": 38
-  },
-  {
-    "id": 433,
+    "id": 369,
     "name": "ORION DELTA TECHNOLOGIES LIMITED",
     "lat": 51.332479,
     "lng": -0.408557,
@@ -64669,7 +60273,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 434,
+    "id": 370,
     "name": "RELIANCE PRECISION LIMITED",
     "lat": 53.624922,
     "lng": -1.719314,
@@ -64796,7 +60400,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 435,
+    "id": 371,
     "name": "NANOBEAM LIMITED",
     "lat": 52.195133,
     "lng": 0.174277,
@@ -64870,7 +60474,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 436,
+    "id": 372,
     "name": "MOLECULAR DEVICES (UK) LIMITED",
     "lat": 51.439302,
     "lng": -0.881626,
@@ -64932,7 +60536,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 437,
+    "id": 373,
     "name": "MICRO SYSTEMS (UK) LIMITED",
     "lat": 53.479367,
     "lng": -2.597477,
@@ -65006,7 +60610,7 @@
     "data_strength_score": 19
   },
   {
-    "id": 438,
+    "id": 374,
     "name": "TT ELECTRONICS PLC",
     "lat": 51.320648,
     "lng": -0.55881,
@@ -65097,7 +60701,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 439,
+    "id": 375,
     "name": "QUANTEMOL LIMITED",
     "lat": 51.530436,
     "lng": -0.101249,
@@ -65232,7 +60836,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 440,
+    "id": 376,
     "name": "THE TECHNOLOGY PARTNERSHIP GROUP LIMITED",
     "lat": 52.083539,
     "lng": 0.022761,
@@ -65301,761 +60905,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 442,
-    "name": "OXFORD PHOTOVOLTAICS LIMITED",
-    "lat": 51.80421,
-    "lng": -1.299644,
-    "website": "oxfordpv.com",
-    "city": "Yarnton",
-    "postcode": "OX5 1QU",
-    "employees": 102,
-    "revenue_gbp": null,
-    "funding_usd_m": 113.95,
-    "year_founded": 2010,
-    "description": "Oxford PV is a startup that operates in the renewable energy sector, specifically focusing on solar technology. The company's primary innovation is its perovskite-on-silicon tandem solar cell technology. In simpler terms, they are developing a new type of solar cell that is more efficient at converting sunlight into electricity than traditional solar cells. This technology has the potential to significantly disrupt the global solar market by making solar power more affordable and efficient.\n\nThe company's clients are likely to be businesses in the renewable energy sector, such as solar panel manufacturers, as well as investors interested in renewable energy technology. With nearly $150 million in funding, Oxford PV has attracted significant interest from strategic and venture capital investors. This funding is likely used to support research and development efforts, as well as the commercialization of their solar cell technology.\n\nOxford PV's business model appears to be based on developing and licensing their technology to other businesses in the solar industry. This means they make money by charging fees for the use of their technology, rather than manufacturing and selling solar panels themselves.\n\nIn summary, Oxford PV is a promising startup in the renewable energy sector, with a disruptive solar cell technology that could revolutionize the global solar market.\n\nKeywords: Renewable Energy, Solar Technology, Perovskite-on-Silicon, Tandem Solar Cell, Solar Market, Research and Development, Licensing, Venture Capital, Strategic Investors, Sustainability.",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0011",
-        "name": "Energy Generation",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0034",
-        "name": "Advanced Materials",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0055",
-        "name": "Net Zero",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002704",
-        "name": "Photovoltaics",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC001107",
-        "name": "Solar",
-        "type": "subsector",
-        "parent_code": "RTIC0011",
-        "parent_name": "Energy Generation"
-      },
-      {
-        "code": "RTIC003403",
-        "name": "Emerging Functional Materials",
-        "type": "subsector",
-        "parent_code": "RTIC0034",
-        "parent_name": "Advanced Materials"
-      },
-      {
-        "code": "RTIC005514",
-        "name": "Low Carbon and Renewable Energy Generation",
-        "type": "subsector",
-        "parent_code": "RTIC0055",
-        "parent_name": "Net Zero"
-      }
-    ],
-    "growth_stage": "late stage",
-    "status": "operational",
-    "patent_count": 1,
-    "grant_count": 1,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [
-      {
-        "reference": "2752067",
-        "title": "Optoelectronic properties and stability of next-generation perovskite materials for solar cells",
-        "funder": "EPSRC",
-        "amount_gbp": null,
-        "status": "Active"
-      },
-      {
-        "reference": "2887640",
-        "title": "Modelling of advanced photovoltaic devices",
-        "funder": "EPSRC",
-        "amount_gbp": null,
-        "status": "Active"
-      }
-    ],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "",
-    "is_startup": "No",
-    "emp_growth_pct": 137.2,
-    "emp_growth_abs": 59,
-    "emp_earliest_count": 43,
-    "emp_latest_count": 102,
-    "emp_earliest_date": "2018-04-30",
-    "emp_latest_date": "2026-03-21",
-    "emp_timeseries": [
-      {
-        "date": "2018-04",
-        "count": 43
-      },
-      {
-        "date": "2018-10",
-        "count": 48
-      },
-      {
-        "date": "2018-12",
-        "count": 49
-      },
-      {
-        "date": "2019-03",
-        "count": 51
-      },
-      {
-        "date": "2019-04",
-        "count": 49
-      },
-      {
-        "date": "2019-06",
-        "count": 50
-      },
-      {
-        "date": "2019-09",
-        "count": 54
-      },
-      {
-        "date": "2019-10",
-        "count": 51
-      },
-      {
-        "date": "2019-12",
-        "count": 51
-      },
-      {
-        "date": "2020-01",
-        "count": 56
-      },
-      {
-        "date": "2020-07",
-        "count": 63
-      },
-      {
-        "date": "2021-01",
-        "count": 68
-      },
-      {
-        "date": "2021-07",
-        "count": 72
-      },
-      {
-        "date": "2022-01",
-        "count": 69
-      },
-      {
-        "date": "2022-02",
-        "count": 69
-      },
-      {
-        "date": "2022-03",
-        "count": 72
-      },
-      {
-        "date": "2022-04",
-        "count": 76
-      },
-      {
-        "date": "2022-05",
-        "count": 77
-      },
-      {
-        "date": "2022-06",
-        "count": 76
-      },
-      {
-        "date": "2022-07",
-        "count": 76
-      },
-      {
-        "date": "2022-08",
-        "count": 74
-      },
-      {
-        "date": "2022-09",
-        "count": 76
-      },
-      {
-        "date": "2022-10",
-        "count": 75
-      },
-      {
-        "date": "2022-11",
-        "count": 74
-      },
-      {
-        "date": "2022-12",
-        "count": 73
-      },
-      {
-        "date": "2023-01",
-        "count": 72
-      },
-      {
-        "date": "2023-02",
-        "count": 72
-      },
-      {
-        "date": "2023-03",
-        "count": 71
-      },
-      {
-        "date": "2023-04",
-        "count": 73
-      },
-      {
-        "date": "2023-06",
-        "count": 75
-      },
-      {
-        "date": "2023-07",
-        "count": 84
-      },
-      {
-        "date": "2023-08",
-        "count": 87
-      },
-      {
-        "date": "2023-09",
-        "count": 88
-      },
-      {
-        "date": "2023-10",
-        "count": 88
-      },
-      {
-        "date": "2023-11",
-        "count": 87
-      },
-      {
-        "date": "2023-12",
-        "count": 86
-      },
-      {
-        "date": "2024-01",
-        "count": 87
-      },
-      {
-        "date": "2024-02",
-        "count": 90
-      },
-      {
-        "date": "2024-03",
-        "count": 92
-      },
-      {
-        "date": "2024-04",
-        "count": 95
-      },
-      {
-        "date": "2024-05",
-        "count": 94
-      },
-      {
-        "date": "2024-06",
-        "count": 94
-      },
-      {
-        "date": "2024-07",
-        "count": 93
-      },
-      {
-        "date": "2024-08",
-        "count": 97
-      },
-      {
-        "date": "2024-09",
-        "count": 102
-      },
-      {
-        "date": "2024-10",
-        "count": 104
-      },
-      {
-        "date": "2024-11",
-        "count": 105
-      },
-      {
-        "date": "2024-12",
-        "count": 106
-      },
-      {
-        "date": "2025-01",
-        "count": 102
-      },
-      {
-        "date": "2025-02",
-        "count": 100
-      },
-      {
-        "date": "2025-03",
-        "count": 99
-      },
-      {
-        "date": "2025-04",
-        "count": 101
-      },
-      {
-        "date": "2025-05",
-        "count": 103
-      },
-      {
-        "date": "2025-06",
-        "count": 105
-      },
-      {
-        "date": "2025-07",
-        "count": 104
-      },
-      {
-        "date": "2025-08",
-        "count": 106
-      },
-      {
-        "date": "2025-09",
-        "count": 106
-      },
-      {
-        "date": "2025-10",
-        "count": 104
-      },
-      {
-        "date": "2025-11",
-        "count": 104
-      },
-      {
-        "date": "2025-12",
-        "count": 104
-      },
-      {
-        "date": "2026-01",
-        "count": 104
-      },
-      {
-        "date": "2026-02",
-        "count": 103
-      },
-      {
-        "date": "2026-03",
-        "count": 102
-      }
-    ],
-    "data_strength": "Moderate",
-    "data_strength_score": 46
-  },
-  {
-    "id": 443,
-    "name": "KURT J. LESKER COMPANY LIMITED",
-    "lat": 50.877696,
-    "lng": 0.528249,
-    "website": "",
-    "city": "",
-    "postcode": "TN38 9PU",
-    "employees": null,
-    "revenue_gbp": null,
-    "funding_usd_m": null,
-    "year_founded": null,
-    "description": "",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0099",
-        "name": "Semiconductors",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC009916",
-        "name": "Supply Chain - Equipment and Tools",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
-      },
-      {
-        "code": "RTIC009914",
-        "name": "Supply Chain - Specialized Materials",
-        "type": "subsector",
-        "parent_code": "RTIC0099",
-        "parent_name": "Semiconductors"
-      }
-    ],
-    "growth_stage": "",
-    "status": "active",
-    "patent_count": 0,
-    "grant_count": 1,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "",
-    "is_startup": "Unknown",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
-    "data_strength": "Limited",
-    "data_strength_score": 4
-  },
-  {
-    "id": 444,
-    "name": "TERAVIEW LIMITED",
-    "lat": 52.289315,
-    "lng": 0.173328,
-    "website": "teraview.com",
-    "city": "Cambridge",
-    "postcode": "CB25 9PD",
-    "employees": 44,
-    "revenue_gbp": null,
-    "funding_usd_m": 30.62,
-    "year_founded": 2001,
-    "description": "TeraView is a pioneering company specializing in the application of terahertz light, offering advanced imaging systems for spectroscopy, semiconductor, and coatings inspection. The company serves a diverse range of clients including those in the pharmaceutical, automotive, aerospace, and semiconductor industries. Operating in the high-tech market, TeraView's business model revolves around the development and sale of specialized terahertz imaging systems. These systems are used for non-destructive fault isolation, porosity measurement, and paint thickness measurement, among other applications. TeraView generates revenue through the sale of its proprietary imaging systems and related services, catering to both research and industrial needs.\n\nKeywords: terahertz, imaging systems, spectroscopy, semiconductor, coatings, non-destructive, fault isolation, pharmaceutical, automotive, aerospace.",
-    "rtic": [
-      {
-        "code": "RTIC0027",
-        "name": "Photonics",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0067",
-        "name": "Electronics Manufacturing",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC0030",
-        "name": "Sensors",
-        "type": "sector"
-      },
-      {
-        "code": "RTIC002706",
-        "name": "Smart Sensors",
-        "type": "subsector",
-        "parent_code": "RTIC0027",
-        "parent_name": "Photonics"
-      },
-      {
-        "code": "RTIC006707",
-        "name": "Optical devices",
-        "type": "subsector",
-        "parent_code": "RTIC0067",
-        "parent_name": "Electronics Manufacturing"
-      },
-      {
-        "code": "RTIC006705",
-        "name": "Measuring and metrology devices",
-        "type": "subsector",
-        "parent_code": "RTIC0067",
-        "parent_name": "Electronics Manufacturing"
-      },
-      {
-        "code": "RTIC003003",
-        "name": "Industry 4.0",
-        "type": "subsector",
-        "parent_code": "RTIC0030",
-        "parent_name": "Sensors"
-      }
-    ],
-    "growth_stage": "breakout stage",
-    "status": "operational",
-    "patent_count": 0,
-    "grant_count": 1,
-    "total_grant_funding_gbp": 0.0,
-    "grants": [],
-    "sources": [
-      "grant_collabs"
-    ],
-    "source_type": "discovery",
-    "discovery_verdict": "Y",
-    "photonics_evidence": "",
-    "is_startup": "Yes",
-    "emp_growth_pct": 33.3,
-    "emp_growth_abs": 11,
-    "emp_earliest_count": 33,
-    "emp_latest_count": 44,
-    "emp_earliest_date": "2018-09-01",
-    "emp_latest_date": "2026-03-03",
-    "emp_timeseries": [
-      {
-        "date": "2018-09",
-        "count": 33
-      },
-      {
-        "date": "2019-03",
-        "count": 32
-      },
-      {
-        "date": "2019-09",
-        "count": 34
-      },
-      {
-        "date": "2019-10",
-        "count": 33
-      },
-      {
-        "date": "2020-03",
-        "count": 32
-      },
-      {
-        "date": "2020-04",
-        "count": 32
-      },
-      {
-        "date": "2020-09",
-        "count": 31
-      },
-      {
-        "date": "2020-10",
-        "count": 30
-      },
-      {
-        "date": "2020-12",
-        "count": 27
-      },
-      {
-        "date": "2021-03",
-        "count": 28
-      },
-      {
-        "date": "2021-04",
-        "count": 30
-      },
-      {
-        "date": "2021-06",
-        "count": 28
-      },
-      {
-        "date": "2021-09",
-        "count": 30
-      },
-      {
-        "date": "2021-10",
-        "count": 30
-      },
-      {
-        "date": "2021-12",
-        "count": 30
-      },
-      {
-        "date": "2022-01",
-        "count": 29
-      },
-      {
-        "date": "2022-02",
-        "count": 31
-      },
-      {
-        "date": "2022-03",
-        "count": 32
-      },
-      {
-        "date": "2022-04",
-        "count": 34
-      },
-      {
-        "date": "2022-05",
-        "count": 32
-      },
-      {
-        "date": "2022-06",
-        "count": 32
-      },
-      {
-        "date": "2022-07",
-        "count": 33
-      },
-      {
-        "date": "2022-08",
-        "count": 33
-      },
-      {
-        "date": "2022-09",
-        "count": 34
-      },
-      {
-        "date": "2022-10",
-        "count": 33
-      },
-      {
-        "date": "2022-11",
-        "count": 32
-      },
-      {
-        "date": "2022-12",
-        "count": 32
-      },
-      {
-        "date": "2023-01",
-        "count": 30
-      },
-      {
-        "date": "2023-02",
-        "count": 33
-      },
-      {
-        "date": "2023-03",
-        "count": 34
-      },
-      {
-        "date": "2023-04",
-        "count": 35
-      },
-      {
-        "date": "2023-06",
-        "count": 36
-      },
-      {
-        "date": "2023-07",
-        "count": 35
-      },
-      {
-        "date": "2023-08",
-        "count": 33
-      },
-      {
-        "date": "2023-09",
-        "count": 33
-      },
-      {
-        "date": "2023-10",
-        "count": 35
-      },
-      {
-        "date": "2023-11",
-        "count": 34
-      },
-      {
-        "date": "2023-12",
-        "count": 35
-      },
-      {
-        "date": "2024-01",
-        "count": 35
-      },
-      {
-        "date": "2024-02",
-        "count": 36
-      },
-      {
-        "date": "2024-03",
-        "count": 37
-      },
-      {
-        "date": "2024-04",
-        "count": 36
-      },
-      {
-        "date": "2024-05",
-        "count": 37
-      },
-      {
-        "date": "2024-06",
-        "count": 37
-      },
-      {
-        "date": "2024-07",
-        "count": 37
-      },
-      {
-        "date": "2024-08",
-        "count": 37
-      },
-      {
-        "date": "2024-09",
-        "count": 37
-      },
-      {
-        "date": "2024-10",
-        "count": 37
-      },
-      {
-        "date": "2024-11",
-        "count": 36
-      },
-      {
-        "date": "2025-01",
-        "count": 37
-      },
-      {
-        "date": "2025-02",
-        "count": 37
-      },
-      {
-        "date": "2025-03",
-        "count": 38
-      },
-      {
-        "date": "2025-04",
-        "count": 40
-      },
-      {
-        "date": "2025-05",
-        "count": 39
-      },
-      {
-        "date": "2025-06",
-        "count": 39
-      },
-      {
-        "date": "2025-07",
-        "count": 40
-      },
-      {
-        "date": "2025-08",
-        "count": 41
-      },
-      {
-        "date": "2025-09",
-        "count": 42
-      },
-      {
-        "date": "2025-10",
-        "count": 42
-      },
-      {
-        "date": "2025-11",
-        "count": 44
-      },
-      {
-        "date": "2025-12",
-        "count": 45
-      },
-      {
-        "date": "2026-01",
-        "count": 44
-      },
-      {
-        "date": "2026-02",
-        "count": 45
-      },
-      {
-        "date": "2026-03",
-        "count": 44
-      }
-    ],
-    "data_strength": "Moderate",
-    "data_strength_score": 46
-  },
-  {
-    "id": 445,
+    "id": 377,
     "name": "THOMAS KEATING LIMITED",
     "lat": 51.014493,
     "lng": -0.449402,
@@ -66141,7 +60991,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 446,
+    "id": 378,
     "name": "PHOTON LINES LIMITED",
     "lat": 52.052583,
     "lng": -1.334023,
@@ -66191,7 +61041,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 447,
+    "id": 379,
     "name": "CLARITY SENSORS LIMITED",
     "lat": 52.194361,
     "lng": 0.135318,
@@ -66272,7 +61122,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 448,
+    "id": 380,
     "name": "ULTRA PRECISION STRUCTURED SURFACES (UPS2) LTD",
     "lat": 53.224655,
     "lng": -4.263375,
@@ -66346,7 +61196,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 449,
+    "id": 381,
     "name": "NEWPORT SPECTRA-PHYSICS LIMITED",
     "lat": 53.086074,
     "lng": -2.429619,
@@ -66408,7 +61258,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 450,
+    "id": 382,
     "name": "RENISHAW DIAGNOSTICS LIMITED",
     "lat": 55.862095,
     "lng": -4.253227,
@@ -66470,7 +61320,7 @@
     "data_strength_score": 4
   },
   {
-    "id": 451,
+    "id": 383,
     "name": "EDINBURGH MOLECULAR IMAGING LIMITED",
     "lat": 55.952276,
     "lng": -3.20613,
@@ -66660,7 +61510,7 @@
     "data_strength_score": 46
   },
   {
-    "id": 430,
+    "id": 384,
     "name": "Refeyn Ltd",
     "lat": 51.7520131,
     "lng": -1.2578499,
@@ -67013,7 +61863,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 431,
+    "id": 385,
     "name": "Optomel",
     "lat": 51.2151195,
     "lng": -0.5250129,
@@ -67210,7 +62060,7 @@
     "data_strength_score": 38
   },
   {
-    "id": 432,
+    "id": 386,
     "name": "Holomem",
     "lat": 51.5074456,
     "lng": -0.1277653,
@@ -67275,7 +62125,7 @@
     "data_strength_score": 35
   },
   {
-    "id": 433,
+    "id": 387,
     "name": "Prolite - Technology",
     "lat": 52.0690205,
     "lng": -0.6079317,
@@ -67415,7 +62265,7 @@
     "data_strength_score": 35
   },
   {
-    "id": 434,
+    "id": 388,
     "name": "Sparxell",
     "lat": 52.2055314,
     "lng": 0.1186637,
@@ -67603,7 +62453,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 435,
+    "id": 389,
     "name": "ARM",
     "lat": 52.2055314,
     "lng": 0.1186637,
@@ -67783,7 +62633,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 436,
+    "id": 390,
     "name": "Ecopoint Medical",
     "lat": 51.5074456,
     "lng": -0.1277653,
@@ -68043,7 +62893,7 @@
     "data_strength_score": 42
   },
   {
-    "id": 437,
+    "id": 391,
     "name": "SPARTA Biodiscovery",
     "lat": 51.5074456,
     "lng": -0.1277653,

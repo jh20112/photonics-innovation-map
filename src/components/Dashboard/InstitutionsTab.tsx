@@ -8,8 +8,10 @@ interface Props {
 }
 
 const COLUMNS: Column[] = [
-  { key: 'name', label: 'Name', format: 'text', width: '280px' },
+  { key: 'name', label: 'Name', format: 'text', width: '240px' },
   { key: 'photonics_works', label: 'Publications', format: 'number' },
+  { key: 'total_citations', label: 'Citations', format: 'number' },
+  { key: 'avg_fwci', label: 'Avg FWCI' },
   { key: 'n_grants', label: 'Grants', format: 'number' },
   { key: 'n_collaborators', label: 'Collaborators', format: 'number' },
 ];
