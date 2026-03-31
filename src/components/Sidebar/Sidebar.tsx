@@ -1,5 +1,5 @@
 import { useState, useCallback, useRef } from 'react';
-import type { LayerType, ClusterType, CompanySizeMetric, RticSector, Stats, SearchResult } from '../../types/api';
+import type { LayerType, ClusterType, CompanySizeMetric, InstitutionSizeMetric, RticSector, Stats, SearchResult } from '../../types/api';
 import { useSearch } from '../../hooks/useApi';
 import { SidebarSection } from './SidebarSection';
 import { YearRangeSlider } from './YearRangeSlider';
@@ -37,6 +37,8 @@ interface Props {
   onMinGrantsChange: (value: number) => void;
   institutionPeriodYears: number | null;
   onInstitutionPeriodChange: (years: number | null) => void;
+  institutionSizeMetric: InstitutionSizeMetric;
+  onInstitutionSizeMetricChange: (metric: InstitutionSizeMetric) => void;
   yearRange: [number, number] | null;
   onYearRangeChange: (range: [number, number] | null) => void;
 }
@@ -72,6 +74,7 @@ export function Sidebar({
   grantNetworkEnabled, onToggleGrantNetwork, grantNetworkMinShared, onGrantNetworkMinSharedChange, grantEdgeCount,
   minPatents, onMinPatentsChange, minGrants, onMinGrantsChange,
   institutionPeriodYears, onInstitutionPeriodChange,
+  institutionSizeMetric, onInstitutionSizeMetricChange,
   yearRange, onYearRangeChange,
 }: Props) {
   const [collapsed, setCollapsed] = useState(false);
@@ -223,7 +226,24 @@ export function Sidebar({
           </div>
         )}
 
-        {/* Institution publication period */}
+        {/* Institution controls */}
+        {layers.institutions && (
+          <div className="layer-sub-control">
+            <label className="size-metric-label">
+              Size by{' '}
+              <select
+                value={institutionSizeMetric}
+                onChange={(e) => onInstitutionSizeMetricChange(e.target.value as InstitutionSizeMetric)}
+                className="size-metric-select"
+              >
+                <option value="publications">Publications</option>
+                <option value="citations">Citations</option>
+                <option value="quality">% Top 10% Cited</option>
+                <option value="fwci">FWCI</option>
+              </select>
+            </label>
+          </div>
+        )}
         {layers.institutions && (
           <div className="layer-sub-control">
             <span className="growth-period-label">

@@ -68,6 +68,8 @@ export interface Institution {
   photonics_works: number | null;
   total_citations: number | null;
   avg_fwci: number | null;
+  pct_top10_cited: number | null;
+  citations_per_paper: number | null;
   top_topics: string[];
   publications_by_year: Record<string, number> | null;
   topic_breakdown: { topic: string; count: number }[] | null;
@@ -205,6 +207,8 @@ export interface SearchResult {
 }
 
 export type LayerType = 'companies' | 'infrastructure' | 'institutions' | 'grants' | 'patents' | 'collaborations' | 'people';
+
+export type InstitutionSizeMetric = 'publications' | 'citations' | 'quality' | 'fwci';
 
 export type CompanySizeMetric = 'off' | 'employees' | 'funding_usd_m' | 'total_grant_funding_gbp' | 'patent_count' | 'emp_growth_pct';
 

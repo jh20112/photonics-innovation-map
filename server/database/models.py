@@ -98,6 +98,8 @@ class Institution(Base):
     photonics_works = Column(Integer)
     total_citations = Column(Integer)
     avg_fwci = Column(Float)
+    pct_top10_cited = Column(Float)
+    citations_per_paper = Column(Float)
     top_topics = Column(JSONB)
     publications_by_year = Column(JSONB)
     topic_breakdown = Column(JSONB)

@@ -8,6 +8,8 @@
     "photonics_works": 1232,
     "total_citations": 38409,
     "avg_fwci": 2.41,
+    "pct_top10_cited": 20.2,
+    "citations_per_paper": 31.2,
     "top_topics": [
       "Photonic and Optical Devices",
       "Photonic Crystals and Applications",
@@ -107,6 +109,8 @@
     "photonics_works": 710,
     "total_citations": 18086,
     "avg_fwci": 2.35,
+    "pct_top10_cited": 21.1,
+    "citations_per_paper": 25.5,
     "top_topics": [
       "Photonic and Optical Devices",
       "Photonic Crystals and Applications",
@@ -208,6 +212,8 @@
     "photonics_works": 643,
     "total_citations": 41112,
     "avg_fwci": 4.38,
+    "pct_top10_cited": 33.9,
+    "citations_per_paper": 63.9,
     "top_topics": [
       "Photonic and Optical Devices",
       "Photonic Crystals and Applications",
@@ -305,6 +311,8 @@
     "photonics_works": 526,
     "total_citations": 27400,
     "avg_fwci": 3.77,
+    "pct_top10_cited": 33.3,
+    "citations_per_paper": 52.1,
     "top_topics": [
       "Photonic and Optical Devices",
       "Plasmonic and Surface Plasmon Research",
@@ -406,6 +414,8 @@
     "photonics_works": 515,
     "total_citations": 17909,
     "avg_fwci": 2.99,
+    "pct_top10_cited": 24.5,
+    "citations_per_paper": 34.8,
     "top_topics": [
       "Photonic Crystals and Applications",
       "Photonic and Optical Devices",
@@ -498,6 +508,8 @@
     "photonics_works": 512,
     "total_citations": 22758,
     "avg_fwci": 3.34,
+    "pct_top10_cited": 18.9,
+    "citations_per_paper": 44.4,
     "top_topics": [
       "Photonic and Optical Devices",
       "Quantum Information and Cryptography",
@@ -590,6 +602,8 @@
     "photonics_works": 472,
     "total_citations": 30043,
     "avg_fwci": 5.88,
+    "pct_top10_cited": 33.1,
+    "citations_per_paper": 63.7,
     "top_topics": [
       "Quantum Information and Cryptography",
       "Neural Networks and Reservoir Computing",
@@ -686,6 +700,8 @@
     "photonics_works": 454,
     "total_citations": 13728,
     "avg_fwci": 2.63,
+    "pct_top10_cited": 26.4,
+    "citations_per_paper": 30.2,
     "top_topics": [
       "Photonic and Optical Devices",
       "Topological Materials and Phenomena",
@@ -788,6 +804,8 @@
     "photonics_works": 386,
     "total_citations": 19837,
     "avg_fwci": 3.19,
+    "pct_top10_cited": 20.7,
+    "citations_per_paper": 51.4,
     "top_topics": [
       "Photonic Crystal and Fiber Optics",
       "Photonic and Optical Devices",
@@ -884,6 +902,8 @@
     "photonics_works": 325,
     "total_citations": 6139,
     "avg_fwci": 1.93,
+    "pct_top10_cited": 19.4,
+    "citations_per_paper": 18.9,
     "top_topics": [
       "Photonic and Optical Devices",
       "Neural Networks and Reservoir Computing",
@@ -982,6 +1002,8 @@
     "photonics_works": 291,
     "total_citations": 9949,
     "avg_fwci": 3.0,
+    "pct_top10_cited": 27.5,
+    "citations_per_paper": 34.2,
     "top_topics": [
       "Photonic Crystals and Applications",
       "Photonic and Optical Devices",
@@ -1077,6 +1099,8 @@
     "photonics_works": 261,
     "total_citations": 10255,
     "avg_fwci": 4.52,
+    "pct_top10_cited": 32.2,
+    "citations_per_paper": 39.3,
     "top_topics": [
       "Photonic and Optical Devices",
       "Quantum Information and Cryptography",
@@ -1182,6 +1206,8 @@
     "photonics_works": 252,
     "total_citations": 32010,
     "avg_fwci": 6.67,
+    "pct_top10_cited": 36.5,
+    "citations_per_paper": 127.0,
     "top_topics": [
       "Photonic Crystals and Applications",
       "Neural Networks and Reservoir Computing",
@@ -1276,6 +1302,8 @@
     "photonics_works": 213,
     "total_citations": 6221,
     "avg_fwci": 2.55,
+    "pct_top10_cited": 19.7,
+    "citations_per_paper": 29.2,
     "top_topics": [
       "Photonic and Optical Devices",
       "Spectroscopy and Laser Applications",
@@ -1368,6 +1396,8 @@
     "photonics_works": 206,
     "total_citations": 5894,
     "avg_fwci": 2.26,
+    "pct_top10_cited": 17.5,
+    "citations_per_paper": 28.6,
     "top_topics": [
       "Photonic and Optical Devices",
       "Photonic Crystals and Applications",
@@ -1459,6 +1489,8 @@
     "photonics_works": 203,
     "total_citations": 5242,
     "avg_fwci": 2.19,
+    "pct_top10_cited": 16.3,
+    "citations_per_paper": 25.8,
     "top_topics": [
       "Photonic and Optical Devices",
       "Advanced Fiber Laser Technologies",
@@ -1549,6 +1581,8 @@
     "photonics_works": 171,
     "total_citations": 2196,
     "avg_fwci": 1.38,
+    "pct_top10_cited": 14.0,
+    "citations_per_paper": 12.8,
     "top_topics": [
       "Photonic and Optical Devices",
       "Photonic Crystal and Fiber Optics",
@@ -1644,6 +1678,8 @@
     "photonics_works": 152,
     "total_citations": 1425,
     "avg_fwci": 1.71,
+    "pct_top10_cited": 14.5,
+    "citations_per_paper": 9.4,
     "top_topics": [
       "Photonic and Optical Devices",
       "Neural Networks and Reservoir Computing",
@@ -1728,14 +1764,102 @@
     "n_collaborators": null
   },
   {
+    "id": "https://openalex.org/I52099693",
+    "name": "University of York",
+    "lat": 53.9453903,
+    "lng": -1.0314593,
+    "rank": 21,
+    "photonics_works": 143,
+    "total_citations": 4982,
+    "avg_fwci": 3.01,
+    "pct_top10_cited": 24.5,
+    "citations_per_paper": 34.8,
+    "top_topics": [
+      "Photonic and Optical Devices",
+      "Photonic Crystals and Applications",
+      "Quantum Information and Cryptography",
+      "Advanced Fiber Laser Technologies",
+      "Orbital Angular Momentum in Optics"
+    ],
+    "publications_by_year": {
+      "2000": 1,
+      "2001": 1,
+      "2002": 1,
+      "2003": 1,
+      "2004": 1,
+      "2010": 1,
+      "2011": 3,
+      "2013": 13,
+      "2014": 26,
+      "2015": 10,
+      "2016": 12,
+      "2017": 15,
+      "2018": 14,
+      "2019": 10,
+      "2020": 10,
+      "2022": 4,
+      "2023": 9,
+      "2024": 7,
+      "2025": 2,
+      "2026": 1
+    },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 52
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 24
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 13
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 9
+      },
+      {
+        "topic": "Orbital Angular Momentum in Optics",
+        "count": 4
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 4
+      },
+      {
+        "topic": "Metamaterials and Metasurfaces Applications",
+        "count": 3
+      },
+      {
+        "topic": "2D Materials and Applications",
+        "count": 3
+      },
+      {
+        "topic": "Optical Coatings and Gratings",
+        "count": 3
+      },
+      {
+        "topic": "Molecular Junctions and Nanostructures",
+        "count": 3
+      }
+    ],
+    "cluster_id": 0,
+    "n_grants": 36,
+    "n_collaborators": 310
+  },
+  {
     "id": "https://openalex.org/I79510175",
     "name": "Cardiff University",
     "lat": 51.4887426,
     "lng": -3.1795999,
-    "rank": 21,
+    "rank": 22,
     "photonics_works": 143,
     "total_citations": 3552,
     "avg_fwci": 2.15,
+    "pct_top10_cited": 18.2,
+    "citations_per_paper": 24.8,
     "top_topics": [
       "Photonic and Optical Devices",
       "Photonic Crystals and Applications",
@@ -1815,90 +1939,6 @@
     "n_collaborators": 344
   },
   {
-    "id": "https://openalex.org/I52099693",
-    "name": "University of York",
-    "lat": 53.9453903,
-    "lng": -1.0314593,
-    "rank": 22,
-    "photonics_works": 143,
-    "total_citations": 4982,
-    "avg_fwci": 3.01,
-    "top_topics": [
-      "Photonic and Optical Devices",
-      "Photonic Crystals and Applications",
-      "Quantum Information and Cryptography",
-      "Advanced Fiber Laser Technologies",
-      "Orbital Angular Momentum in Optics"
-    ],
-    "publications_by_year": {
-      "2000": 1,
-      "2001": 1,
-      "2002": 1,
-      "2003": 1,
-      "2004": 1,
-      "2010": 1,
-      "2011": 3,
-      "2013": 13,
-      "2014": 26,
-      "2015": 10,
-      "2016": 12,
-      "2017": 15,
-      "2018": 14,
-      "2019": 10,
-      "2020": 10,
-      "2022": 4,
-      "2023": 9,
-      "2024": 7,
-      "2025": 2,
-      "2026": 1
-    },
-    "topic_breakdown": [
-      {
-        "topic": "Photonic and Optical Devices",
-        "count": 52
-      },
-      {
-        "topic": "Photonic Crystals and Applications",
-        "count": 24
-      },
-      {
-        "topic": "Quantum Information and Cryptography",
-        "count": 13
-      },
-      {
-        "topic": "Advanced Fiber Laser Technologies",
-        "count": 9
-      },
-      {
-        "topic": "Orbital Angular Momentum in Optics",
-        "count": 4
-      },
-      {
-        "topic": "Plasmonic and Surface Plasmon Research",
-        "count": 4
-      },
-      {
-        "topic": "Metamaterials and Metasurfaces Applications",
-        "count": 3
-      },
-      {
-        "topic": "2D Materials and Applications",
-        "count": 3
-      },
-      {
-        "topic": "Optical Coatings and Gratings",
-        "count": 3
-      },
-      {
-        "topic": "Molecular Junctions and Nanostructures",
-        "count": 3
-      }
-    ],
-    "cluster_id": 0,
-    "n_grants": 36,
-    "n_collaborators": 310
-  },
-  {
     "id": "https://openalex.org/I79619799",
     "name": "University of Birmingham",
     "lat": 52.4522956,
@@ -1907,6 +1947,8 @@
     "photonics_works": 132,
     "total_citations": 10552,
     "avg_fwci": 4.78,
+    "pct_top10_cited": 40.9,
+    "citations_per_paper": 79.9,
     "top_topics": [
       "Metamaterials and Metasurfaces Applications",
       "Photonic Crystals and Applications",
@@ -1990,6 +2032,8 @@
     "photonics_works": 118,
     "total_citations": 9699,
     "avg_fwci": 6.14,
+    "pct_top10_cited": 29.7,
+    "citations_per_paper": 82.2,
     "top_topics": [
       "Photonic and Optical Devices",
       "Plasmonic and Surface Plasmon Research",
@@ -2080,6 +2124,8 @@
     "photonics_works": 112,
     "total_citations": 6036,
     "avg_fwci": 3.74,
+    "pct_top10_cited": 32.1,
+    "citations_per_paper": 53.9,
     "top_topics": [
       "Plasmonic and Surface Plasmon Research",
       "Photonic and Optical Devices",
@@ -2166,6 +2212,8 @@
     "photonics_works": 105,
     "total_citations": 3837,
     "avg_fwci": 3.55,
+    "pct_top10_cited": 29.5,
+    "citations_per_paper": 36.5,
     "top_topics": [
       "Photonic and Optical Devices",
       "Photonic Crystals and Applications",
@@ -2247,10 +2295,12 @@
     "name": "Bristol Robotics Laboratory",
     "lat": 51.5015294,
     "lng": -2.5521073,
-    "rank": 32,
+    "rank": 31,
     "photonics_works": 95,
     "total_citations": 6659,
     "avg_fwci": 5.75,
+    "pct_top10_cited": 28.4,
+    "citations_per_paper": 70.1,
     "top_topics": [
       "Quantum Information and Cryptography",
       "Photonic and Optical Devices",
@@ -2331,6 +2381,8 @@
     "photonics_works": 87,
     "total_citations": 1314,
     "avg_fwci": 1.21,
+    "pct_top10_cited": 13.8,
+    "citations_per_paper": 15.1,
     "top_topics": [
       "Photonic and Optical Devices",
       "Near-Field Optical Microscopy",
@@ -2412,6 +2464,8 @@
     "photonics_works": 83,
     "total_citations": 1027,
     "avg_fwci": 0.75,
+    "pct_top10_cited": 12.0,
+    "citations_per_paper": 12.4,
     "top_topics": [
       "Photonic and Optical Devices",
       "Phase-change materials and chalcogenides",
@@ -2501,6 +2555,8 @@
     "photonics_works": 81,
     "total_citations": 4077,
     "avg_fwci": 3.59,
+    "pct_top10_cited": 37.0,
+    "citations_per_paper": 50.3,
     "top_topics": [
       "Quantum Information and Cryptography",
       "Photonic Crystals and Applications",
@@ -2590,6 +2646,8 @@
     "photonics_works": 78,
     "total_citations": 876,
     "avg_fwci": 1.0,
+    "pct_top10_cited": 9.0,
+    "citations_per_paper": 11.2,
     "top_topics": [
       "Advanced Photonic Communication Systems",
       "Optical Coherence Tomography Applications",
@@ -2679,6 +2737,8 @@
     "photonics_works": 76,
     "total_citations": 2193,
     "avg_fwci": 1.64,
+    "pct_top10_cited": 13.2,
+    "citations_per_paper": 28.9,
     "top_topics": [
       "Photonic Crystals and Applications",
       "Adaptive optics and wavefront sensing",
@@ -2770,6 +2830,8 @@
     "photonics_works": 73,
     "total_citations": 5615,
     "avg_fwci": 4.21,
+    "pct_top10_cited": 41.1,
+    "citations_per_paper": 76.9,
     "top_topics": [
       "Plasmonic and Surface Plasmon Research",
       "Quantum Information and Cryptography",
@@ -2858,6 +2920,8 @@
     "photonics_works": 69,
     "total_citations": 1994,
     "avg_fwci": 7.22,
+    "pct_top10_cited": 36.2,
+    "citations_per_paper": 28.9,
     "top_topics": [
       "Advanced Optical Sensing Technologies",
       "Neural Networks and Reservoir Computing",
@@ -2940,10 +3004,12 @@
     "name": "Rutherford Appleton Laboratory",
     "lat": 51.570862,
     "lng": -1.315498,
-    "rank": 59,
+    "rank": 60,
     "photonics_works": 63,
     "total_citations": 959,
     "avg_fwci": 1.51,
+    "pct_top10_cited": 12.7,
+    "citations_per_paper": 15.2,
     "top_topics": [
       "Photonic Crystals and Applications",
       "Advanced Photonic Communication Systems",
@@ -3031,6 +3097,8 @@
     "photonics_works": 60,
     "total_citations": 3188,
     "avg_fwci": 5.89,
+    "pct_top10_cited": 38.3,
+    "citations_per_paper": 53.1,
     "top_topics": [
       "Topological Materials and Phenomena",
       "Photonic Crystals and Applications",
@@ -3113,6 +3181,8 @@
     "photonics_works": 60,
     "total_citations": 1836,
     "avg_fwci": 2.86,
+    "pct_top10_cited": 26.7,
+    "citations_per_paper": 30.6,
     "top_topics": [
       "Photonic and Optical Devices",
       "Photonic Crystal and Fiber Optics",
@@ -3196,10 +3266,12 @@
     "name": "Peking University",
     "lat": 51.7154747,
     "lng": -1.2918995,
-    "rank": 69,
+    "rank": 68,
     "photonics_works": 53,
     "total_citations": 6034,
     "avg_fwci": 8.94,
+    "pct_top10_cited": 39.6,
+    "citations_per_paper": 113.8,
     "top_topics": [
       "Photonic and Optical Devices",
       "Neural Networks and Reservoir Computing",
@@ -3275,6 +3347,8 @@
     "photonics_works": 50,
     "total_citations": 767,
     "avg_fwci": 1.99,
+    "pct_top10_cited": 16.0,
+    "citations_per_paper": 15.3,
     "top_topics": [
       "Photonic and Optical Devices",
       "Random lasers and scattering media",
@@ -3358,6 +3432,8 @@
     "photonics_works": 47,
     "total_citations": 389,
     "avg_fwci": 1.22,
+    "pct_top10_cited": 19.1,
+    "citations_per_paper": 8.3,
     "top_topics": [
       "Optical Network Technologies",
       "Photonic and Optical Devices",
@@ -3444,6 +3520,8 @@
     "photonics_works": 46,
     "total_citations": 763,
     "avg_fwci": 1.35,
+    "pct_top10_cited": 15.2,
+    "citations_per_paper": 16.6,
     "top_topics": [
       "Photonic and Optical Devices",
       "Advanced Fiber Laser Technologies",
@@ -3520,10 +3598,12 @@
     "name": "London Centre for Nanotechnology",
     "lat": 51.5253031,
     "lng": -0.1330236,
-    "rank": 84,
+    "rank": 83,
     "photonics_works": 45,
     "total_citations": 1846,
     "avg_fwci": 3.93,
+    "pct_top10_cited": 37.8,
+    "citations_per_paper": 41.0,
     "top_topics": [
       "Plasmonic and Surface Plasmon Research",
       "Photonic Crystals and Applications",
@@ -3598,10 +3678,12 @@
     "name": "Photonic Science (United Kingdom)",
     "lat": 50.8688335,
     "lng": 0.5525284,
-    "rank": 88,
+    "rank": 87,
     "photonics_works": 44,
     "total_citations": 425,
     "avg_fwci": 0.9,
+    "pct_top10_cited": 18.2,
+    "citations_per_paper": 9.7,
     "top_topics": [
       "Photonic and Optical Devices",
       "Plasmonic and Surface Plasmon Research",
@@ -3678,10 +3760,12 @@
     "name": "Newcastle University",
     "lat": 54.9801751,
     "lng": -1.6146802,
-    "rank": 90,
+    "rank": 91,
     "photonics_works": 43,
     "total_citations": 468,
     "avg_fwci": 0.99,
+    "pct_top10_cited": 14.0,
+    "citations_per_paper": 10.9,
     "top_topics": [
       "Photonic and Optical Devices",
       "Near-Field Optical Microscopy",
@@ -3759,6 +3843,8 @@
     "photonics_works": 41,
     "total_citations": 619,
     "avg_fwci": 2.76,
+    "pct_top10_cited": 17.1,
+    "citations_per_paper": 15.1,
     "top_topics": [
       "Photonic Crystals and Applications",
       "Photonic and Optical Devices",
@@ -3835,10 +3921,12 @@
     "name": "Bridge University",
     "lat": 52.2318446,
     "lng": -0.8847726,
-    "rank": 105,
+    "rank": 106,
     "photonics_works": 40,
     "total_citations": 1624,
     "avg_fwci": 2.86,
+    "pct_top10_cited": 25.0,
+    "citations_per_paper": 40.6,
     "top_topics": [
       "Photonic and Optical Devices",
       "Photonic Crystals and Applications",
@@ -3919,10 +4007,12 @@
     "name": "Swansea University",
     "lat": 51.6080596,
     "lng": -3.9773969,
-    "rank": 111,
+    "rank": 112,
     "photonics_works": 38,
     "total_citations": 1358,
     "avg_fwci": 2.29,
+    "pct_top10_cited": 23.7,
+    "citations_per_paper": 35.7,
     "top_topics": [
       "Photonic Crystals and Applications",
       "Perovskite Materials and Applications",
@@ -3997,10 +4087,12 @@
     "name": "Northumbria University",
     "lat": 54.9787691,
     "lng": -1.6096401,
-    "rank": 112,
+    "rank": 114,
     "photonics_works": 38,
     "total_citations": 534,
     "avg_fwci": 2.78,
+    "pct_top10_cited": 18.4,
+    "citations_per_paper": 14.1,
     "top_topics": [
       "Photonic Crystals and Applications",
       "Semiconductor Lasers and Optical Devices",
@@ -4078,10 +4170,12 @@
     "name": "BT Research",
     "lat": 55.9147139,
     "lng": -3.3236278,
-    "rank": 131,
+    "rank": 129,
     "photonics_works": 33,
     "total_citations": 344,
     "avg_fwci": 1.81,
+    "pct_top10_cited": 24.2,
+    "citations_per_paper": 10.4,
     "top_topics": [
       "Optical Network Technologies",
       "Advanced Photonic Communication Systems",
@@ -4153,6 +4247,8 @@
     "photonics_works": 32,
     "total_citations": 955,
     "avg_fwci": 2.75,
+    "pct_top10_cited": 25.0,
+    "citations_per_paper": 29.8,
     "top_topics": [
       "Perovskite Materials and Applications",
       "Photonic Crystals and Applications",
@@ -4226,14 +4322,90 @@
     "n_collaborators": 354
   },
   {
+    "id": "https://openalex.org/I1332878012",
+    "name": "BT Group (United Kingdom)",
+    "lat": 51.7008796,
+    "lng": -0.1759355,
+    "rank": 141,
+    "photonics_works": 30,
+    "total_citations": 2388,
+    "avg_fwci": 4.11,
+    "pct_top10_cited": 23.3,
+    "citations_per_paper": 79.6,
+    "top_topics": [
+      "Semiconductor Lasers and Optical Devices",
+      "Optical Network Technologies",
+      "Advanced Optical Network Technologies",
+      "Photonic and Optical Devices",
+      "Advanced Photonic Communication Systems"
+    ],
+    "publications_by_year": {
+      "1985": 1,
+      "1988": 4,
+      "1989": 5,
+      "1990": 6,
+      "1991": 3,
+      "1992": 1,
+      "1995": 1,
+      "1996": 2,
+      "2000": 2,
+      "2002": 3,
+      "2020": 1,
+      "2025": 1
+    },
+    "topic_breakdown": [
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 8
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 7
+      },
+      {
+        "topic": "Advanced Optical Network Technologies",
+        "count": 6
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 3
+      },
+      {
+        "topic": "Advanced Photonic Communication Systems",
+        "count": 2
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 1
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 1
+      },
+      {
+        "topic": "Metamaterials and Metasurfaces Applications",
+        "count": 1
+      }
+    ],
+    "cluster_id": null,
+    "n_grants": null,
+    "n_collaborators": null
+  },
+  {
     "id": "https://openalex.org/I52590639",
     "name": "Nottingham Trent University",
     "lat": 52.91164,
     "lng": -1.1866048,
-    "rank": 141,
+    "rank": 142,
     "photonics_works": 30,
     "total_citations": 1652,
     "avg_fwci": 4.78,
+    "pct_top10_cited": 46.7,
+    "citations_per_paper": 55.1,
     "top_topics": [
       "Metamaterials and Metasurfaces Applications",
       "Photonic and Optical Devices",
@@ -4303,86 +4475,16 @@
     "n_collaborators": 26
   },
   {
-    "id": "https://openalex.org/I1332878012",
-    "name": "BT Group (United Kingdom)",
-    "lat": 51.7008796,
-    "lng": -0.1759355,
-    "rank": 142,
-    "photonics_works": 30,
-    "total_citations": 2388,
-    "avg_fwci": 4.11,
-    "top_topics": [
-      "Semiconductor Lasers and Optical Devices",
-      "Optical Network Technologies",
-      "Advanced Optical Network Technologies",
-      "Photonic and Optical Devices",
-      "Advanced Photonic Communication Systems"
-    ],
-    "publications_by_year": {
-      "1985": 1,
-      "1988": 4,
-      "1989": 5,
-      "1990": 6,
-      "1991": 3,
-      "1992": 1,
-      "1995": 1,
-      "1996": 2,
-      "2000": 2,
-      "2002": 3,
-      "2020": 1,
-      "2025": 1
-    },
-    "topic_breakdown": [
-      {
-        "topic": "Semiconductor Lasers and Optical Devices",
-        "count": 8
-      },
-      {
-        "topic": "Optical Network Technologies",
-        "count": 7
-      },
-      {
-        "topic": "Advanced Optical Network Technologies",
-        "count": 6
-      },
-      {
-        "topic": "Photonic and Optical Devices",
-        "count": 3
-      },
-      {
-        "topic": "Advanced Photonic Communication Systems",
-        "count": 2
-      },
-      {
-        "topic": "Photonic Crystals and Applications",
-        "count": 1
-      },
-      {
-        "topic": "Quantum Information and Cryptography",
-        "count": 1
-      },
-      {
-        "topic": "Advanced Fiber Laser Technologies",
-        "count": 1
-      },
-      {
-        "topic": "Metamaterials and Metasurfaces Applications",
-        "count": 1
-      }
-    ],
-    "cluster_id": null,
-    "n_grants": null,
-    "n_collaborators": null
-  },
-  {
     "id": "https://openalex.org/I146655781",
     "name": "University of Liverpool",
     "lat": 53.4072429,
     "lng": -2.9658337,
-    "rank": 147,
+    "rank": 156,
     "photonics_works": 28,
     "total_citations": 452,
     "avg_fwci": 3.97,
+    "pct_top10_cited": 32.1,
+    "citations_per_paper": 16.1,
     "top_topics": [
       "Particle Detector Development and Performance",
       "Photonic Crystals and Applications",
@@ -4457,80 +4559,6 @@
     "n_collaborators": 126
   },
   {
-    "id": "https://openalex.org/I177639307",
-    "name": "University of Dundee",
-    "lat": 56.4579676,
-    "lng": -2.9821483,
-    "rank": 155,
-    "photonics_works": 28,
-    "total_citations": 1199,
-    "avg_fwci": 2.42,
-    "top_topics": [
-      "Orbital Angular Momentum in Optics",
-      "Advanced Fiber Laser Technologies",
-      "Photonic and Optical Devices",
-      "Random lasers and scattering media",
-      "Semiconductor Lasers and Optical Devices"
-    ],
-    "publications_by_year": {
-      "2009": 1,
-      "2011": 5,
-      "2012": 1,
-      "2013": 8,
-      "2014": 1,
-      "2015": 4,
-      "2016": 1,
-      "2017": 5,
-      "2019": 1,
-      "2021": 1
-    },
-    "topic_breakdown": [
-      {
-        "topic": "Orbital Angular Momentum in Optics",
-        "count": 7
-      },
-      {
-        "topic": "Advanced Fiber Laser Technologies",
-        "count": 4
-      },
-      {
-        "topic": "Photonic and Optical Devices",
-        "count": 4
-      },
-      {
-        "topic": "Random lasers and scattering media",
-        "count": 2
-      },
-      {
-        "topic": "Semiconductor Lasers and Optical Devices",
-        "count": 2
-      },
-      {
-        "topic": "Optical Coherence Tomography Applications",
-        "count": 2
-      },
-      {
-        "topic": "Optical Imaging and Spectroscopy Techniques",
-        "count": 1
-      },
-      {
-        "topic": "Photodynamic Therapy Research Studies",
-        "count": 1
-      },
-      {
-        "topic": "Advanced Fluorescence Microscopy Techniques",
-        "count": 1
-      },
-      {
-        "topic": "Electrowetting and Microfluidic Technologies",
-        "count": 1
-      }
-    ],
-    "cluster_id": 9,
-    "n_grants": 9,
-    "n_collaborators": 26
-  },
-  {
     "id": "https://openalex.org/I1118541",
     "name": "University of East Anglia",
     "lat": 52.6210623,
@@ -4539,6 +4567,8 @@
     "photonics_works": 28,
     "total_citations": 409,
     "avg_fwci": 1.47,
+    "pct_top10_cited": 10.7,
+    "citations_per_paper": 14.6,
     "top_topics": [
       "Photonic and Optical Devices",
       "Spectroscopy and Quantum Chemical Studies",
@@ -4614,14 +4644,92 @@
     "n_collaborators": 19
   },
   {
+    "id": "https://openalex.org/I177639307",
+    "name": "University of Dundee",
+    "lat": 56.4579676,
+    "lng": -2.9821483,
+    "rank": 158,
+    "photonics_works": 28,
+    "total_citations": 1199,
+    "avg_fwci": 2.42,
+    "pct_top10_cited": 21.4,
+    "citations_per_paper": 42.8,
+    "top_topics": [
+      "Orbital Angular Momentum in Optics",
+      "Advanced Fiber Laser Technologies",
+      "Photonic and Optical Devices",
+      "Random lasers and scattering media",
+      "Semiconductor Lasers and Optical Devices"
+    ],
+    "publications_by_year": {
+      "2009": 1,
+      "2011": 5,
+      "2012": 1,
+      "2013": 8,
+      "2014": 1,
+      "2015": 4,
+      "2016": 1,
+      "2017": 5,
+      "2019": 1,
+      "2021": 1
+    },
+    "topic_breakdown": [
+      {
+        "topic": "Orbital Angular Momentum in Optics",
+        "count": 7
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 4
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 4
+      },
+      {
+        "topic": "Random lasers and scattering media",
+        "count": 2
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 2
+      },
+      {
+        "topic": "Optical Coherence Tomography Applications",
+        "count": 2
+      },
+      {
+        "topic": "Optical Imaging and Spectroscopy Techniques",
+        "count": 1
+      },
+      {
+        "topic": "Photodynamic Therapy Research Studies",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Fluorescence Microscopy Techniques",
+        "count": 1
+      },
+      {
+        "topic": "Electrowetting and Microfluidic Technologies",
+        "count": 1
+      }
+    ],
+    "cluster_id": 9,
+    "n_grants": 9,
+    "n_collaborators": 26
+  },
+  {
     "id": "https://openalex.org/I143804889",
     "name": "Loughborough University",
     "lat": 52.763845,
     "lng": -1.2372582,
-    "rank": 166,
+    "rank": 165,
     "photonics_works": 26,
     "total_citations": 534,
     "avg_fwci": 2.69,
+    "pct_top10_cited": 26.9,
+    "citations_per_paper": 20.5,
     "top_topics": [
       "Random lasers and scattering media",
       "Photonic Crystals and Applications",
@@ -4697,10 +4805,12 @@
     "name": "Science Oxford",
     "lat": 51.75482,
     "lng": -1.1970662,
-    "rank": 167,
+    "rank": 168,
     "photonics_works": 26,
     "total_citations": 263,
     "avg_fwci": 2.27,
+    "pct_top10_cited": 19.2,
+    "citations_per_paper": 10.1,
     "top_topics": [
       "Photonic Crystals and Applications",
       "Photonic and Optical Devices",
@@ -4772,10 +4882,12 @@
     "name": "University of Salford",
     "lat": 53.4732203,
     "lng": -2.2970993,
-    "rank": 178,
+    "rank": 179,
     "photonics_works": 24,
     "total_citations": 683,
     "avg_fwci": 1.87,
+    "pct_top10_cited": 16.7,
+    "citations_per_paper": 28.5,
     "top_topics": [
       "Photonic Crystals and Applications",
       "Photonic and Optical Devices",
@@ -4845,92 +4957,74 @@
     "n_collaborators": 112
   },
   {
-    "id": "https://openalex.org/I4210086947",
-    "name": "Institute of Physics",
-    "lat": 51.5322852,
-    "lng": -0.1205766,
-    "rank": 184,
+    "id": "https://openalex.org/I4210164937",
+    "name": "Microsoft Research (United Kingdom)",
+    "lat": 52.1949515,
+    "lng": 0.1350108,
+    "rank": 183,
     "photonics_works": 23,
-    "total_citations": 910,
-    "avg_fwci": 4.28,
+    "total_citations": 389,
+    "avg_fwci": 4.78,
+    "pct_top10_cited": 26.1,
+    "citations_per_paper": 16.9,
     "top_topics": [
       "Photonic and Optical Devices",
-      "Photonic Crystals and Applications",
-      "Quantum Information and Cryptography",
-      "Plasmonic and Surface Plasmon Research",
-      "Orbital Angular Momentum in Optics"
+      "Neural Networks and Reservoir Computing",
+      "Advanced Photonic Communication Systems",
+      "Optical Network Technologies",
+      "Phase-change materials and chalcogenides"
     ],
     "publications_by_year": {
-      "2006": 1,
-      "2007": 1,
-      "2009": 1,
-      "2010": 1,
-      "2014": 1,
-      "2015": 1,
-      "2016": 1,
-      "2017": 4,
-      "2019": 2,
-      "2020": 1,
-      "2021": 3,
-      "2022": 1,
-      "2024": 3,
+      "2018": 1,
+      "2019": 3,
+      "2020": 2,
+      "2021": 2,
+      "2022": 4,
+      "2023": 4,
+      "2024": 5,
       "2025": 2
     },
     "topic_breakdown": [
       {
         "topic": "Photonic and Optical Devices",
+        "count": 9
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 5
+      },
+      {
+        "topic": "Advanced Photonic Communication Systems",
         "count": 4
       },
       {
-        "topic": "Photonic Crystals and Applications",
+        "topic": "Optical Network Technologies",
         "count": 3
       },
       {
-        "topic": "Quantum Information and Cryptography",
-        "count": 2
-      },
-      {
-        "topic": "Plasmonic and Surface Plasmon Research",
-        "count": 2
-      },
-      {
-        "topic": "Orbital Angular Momentum in Optics",
-        "count": 2
-      },
-      {
-        "topic": "Metamaterials and Metasurfaces Applications",
-        "count": 2
+        "topic": "Phase-change materials and chalcogenides",
+        "count": 1
       },
       {
         "topic": "Advanced Fiber Laser Technologies",
-        "count": 2
-      },
-      {
-        "topic": "Strong Light-Matter Interactions",
-        "count": 1
-      },
-      {
-        "topic": "Optical Network Technologies",
-        "count": 1
-      },
-      {
-        "topic": "Photonic Crystal and Fiber Optics",
         "count": 1
       }
     ],
-    "cluster_id": 5,
-    "n_grants": 1,
-    "n_collaborators": 11
+    "cluster_id": 6,
+    "n_grants": 2,
+    "n_collaborators": 48
   },
   {
     "id": "https://openalex.org/I191240316",
     "name": "University of Hull",
     "lat": 53.7732507,
     "lng": -0.3670415,
-    "rank": 186,
+    "rank": 184,
     "photonics_works": 23,
     "total_citations": 2135,
     "avg_fwci": 4.55,
+    "pct_top10_cited": 47.8,
+    "citations_per_paper": 92.8,
     "top_topics": [
       "Photonic and Optical Devices",
       "Liquid Crystal Research Advancements",
@@ -5002,70 +5096,96 @@
     "n_collaborators": 30
   },
   {
-    "id": "https://openalex.org/I4210164937",
-    "name": "Microsoft Research (United Kingdom)",
-    "lat": 52.1949515,
-    "lng": 0.1350108,
+    "id": "https://openalex.org/I4210086947",
+    "name": "Institute of Physics",
+    "lat": 51.5322852,
+    "lng": -0.1205766,
     "rank": 187,
     "photonics_works": 23,
-    "total_citations": 389,
-    "avg_fwci": 4.78,
+    "total_citations": 910,
+    "avg_fwci": 4.28,
+    "pct_top10_cited": 47.8,
+    "citations_per_paper": 39.6,
     "top_topics": [
       "Photonic and Optical Devices",
-      "Neural Networks and Reservoir Computing",
-      "Advanced Photonic Communication Systems",
-      "Optical Network Technologies",
-      "Phase-change materials and chalcogenides"
+      "Photonic Crystals and Applications",
+      "Quantum Information and Cryptography",
+      "Plasmonic and Surface Plasmon Research",
+      "Orbital Angular Momentum in Optics"
     ],
     "publications_by_year": {
-      "2018": 1,
-      "2019": 3,
-      "2020": 2,
-      "2021": 2,
-      "2022": 4,
-      "2023": 4,
-      "2024": 5,
+      "2006": 1,
+      "2007": 1,
+      "2009": 1,
+      "2010": 1,
+      "2014": 1,
+      "2015": 1,
+      "2016": 1,
+      "2017": 4,
+      "2019": 2,
+      "2020": 1,
+      "2021": 3,
+      "2022": 1,
+      "2024": 3,
       "2025": 2
     },
     "topic_breakdown": [
       {
         "topic": "Photonic and Optical Devices",
-        "count": 9
-      },
-      {
-        "topic": "Neural Networks and Reservoir Computing",
-        "count": 5
-      },
-      {
-        "topic": "Advanced Photonic Communication Systems",
         "count": 4
       },
       {
-        "topic": "Optical Network Technologies",
+        "topic": "Photonic Crystals and Applications",
         "count": 3
       },
       {
-        "topic": "Phase-change materials and chalcogenides",
-        "count": 1
+        "topic": "Quantum Information and Cryptography",
+        "count": 2
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 2
+      },
+      {
+        "topic": "Orbital Angular Momentum in Optics",
+        "count": 2
+      },
+      {
+        "topic": "Metamaterials and Metasurfaces Applications",
+        "count": 2
       },
       {
         "topic": "Advanced Fiber Laser Technologies",
+        "count": 2
+      },
+      {
+        "topic": "Strong Light-Matter Interactions",
+        "count": 1
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 1
+      },
+      {
+        "topic": "Photonic Crystal and Fiber Optics",
         "count": 1
       }
     ],
-    "cluster_id": 6,
-    "n_grants": 2,
-    "n_collaborators": 48
+    "cluster_id": 5,
+    "n_grants": 1,
+    "n_collaborators": 11
   },
   {
     "id": "https://openalex.org/I4210158342",
     "name": "Intel (United Kingdom)",
     "lat": 51.5439608,
     "lng": -1.7726159,
-    "rank": 199,
+    "rank": 191,
     "photonics_works": 22,
     "total_citations": 354,
     "avg_fwci": 1.42,
+    "pct_top10_cited": 18.2,
+    "citations_per_paper": 16.1,
     "top_topics": [
       "Photonic and Optical Devices",
       "Advanced Optical Network Technologies",
@@ -5123,10 +5243,12 @@
     "name": "Tyndall Centre",
     "lat": 52.6217595,
     "lng": 1.2385671,
-    "rank": 208,
+    "rank": 211,
     "photonics_works": 21,
     "total_citations": 559,
     "avg_fwci": 1.8,
+    "pct_top10_cited": 14.3,
+    "citations_per_paper": 26.6,
     "top_topics": [
       "Photonic and Optical Devices",
       "Photonic Crystals and Applications",
@@ -5196,14 +5318,81 @@
     "n_collaborators": null
   },
   {
+    "id": "https://openalex.org/I184558857",
+    "name": "Royal Holloway University of London",
+    "lat": 51.4244496,
+    "lng": -0.5642561,
+    "rank": 220,
+    "photonics_works": 20,
+    "total_citations": 1177,
+    "avg_fwci": 6.78,
+    "pct_top10_cited": 25.0,
+    "citations_per_paper": 58.9,
+    "top_topics": [
+      "Advanced Photonic Communication Systems",
+      "Quantum Information and Cryptography",
+      "Photonic and Optical Devices",
+      "Quantum optics and atomic interactions",
+      "Neutrino Physics Research"
+    ],
+    "publications_by_year": {
+      "2006": 1,
+      "2012": 3,
+      "2013": 3,
+      "2014": 1,
+      "2017": 1,
+      "2018": 2,
+      "2019": 2,
+      "2020": 1,
+      "2021": 3,
+      "2022": 1,
+      "2024": 2
+    },
+    "topic_breakdown": [
+      {
+        "topic": "Advanced Photonic Communication Systems",
+        "count": 7
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 5
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 3
+      },
+      {
+        "topic": "Quantum optics and atomic interactions",
+        "count": 2
+      },
+      {
+        "topic": "Neutrino Physics Research",
+        "count": 1
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 1
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 1
+      }
+    ],
+    "cluster_id": 0,
+    "n_grants": 5,
+    "n_collaborators": 161
+  },
+  {
     "id": "https://openalex.org/I59433898",
     "name": "Brunel University of London",
     "lat": 51.5326092,
     "lng": -0.4740499,
-    "rank": 219,
+    "rank": 223,
     "photonics_works": 20,
     "total_citations": 138,
     "avg_fwci": 1.02,
+    "pct_top10_cited": 10.0,
+    "citations_per_paper": 6.9,
     "top_topics": [
       "Advanced Photonic Communication Systems",
       "Photonic Crystals and Applications",
@@ -5260,77 +5449,16 @@
     "n_collaborators": null
   },
   {
-    "id": "https://openalex.org/I184558857",
-    "name": "Royal Holloway University of London",
-    "lat": 51.4244496,
-    "lng": -0.5642561,
-    "rank": 228,
-    "photonics_works": 20,
-    "total_citations": 1177,
-    "avg_fwci": 6.78,
-    "top_topics": [
-      "Advanced Photonic Communication Systems",
-      "Quantum Information and Cryptography",
-      "Photonic and Optical Devices",
-      "Quantum optics and atomic interactions",
-      "Neutrino Physics Research"
-    ],
-    "publications_by_year": {
-      "2006": 1,
-      "2012": 3,
-      "2013": 3,
-      "2014": 1,
-      "2017": 1,
-      "2018": 2,
-      "2019": 2,
-      "2020": 1,
-      "2021": 3,
-      "2022": 1,
-      "2024": 2
-    },
-    "topic_breakdown": [
-      {
-        "topic": "Advanced Photonic Communication Systems",
-        "count": 7
-      },
-      {
-        "topic": "Quantum Information and Cryptography",
-        "count": 5
-      },
-      {
-        "topic": "Photonic and Optical Devices",
-        "count": 3
-      },
-      {
-        "topic": "Quantum optics and atomic interactions",
-        "count": 2
-      },
-      {
-        "topic": "Neutrino Physics Research",
-        "count": 1
-      },
-      {
-        "topic": "Optical Network Technologies",
-        "count": 1
-      },
-      {
-        "topic": "Photonic Crystals and Applications",
-        "count": 1
-      }
-    ],
-    "cluster_id": 0,
-    "n_grants": 5,
-    "n_collaborators": 161
-  },
-  {
     "id": "https://openalex.org/I4210089357",
     "name": "Hitachi (United Kingdom)",
     "lat": 51.5252372,
     "lng": -0.2309242,
-    "rank": 230,
+    "rank": 226,
     "photonics_works": 20,
     "total_citations": 249,
     "avg_fwci": 0.83,
+    "pct_top10_cited": 5.0,
+    "citations_per_paper": 12.4,
     "top_topics": [
       "Photonic Crystals and Applications",
       "Photonic and Optical Devices",
@@ -5382,6 +5510,8 @@
     "photonics_works": 17,
     "total_citations": 548,
     "avg_fwci": 8.6,
+    "pct_top10_cited": 35.3,
+    "citations_per_paper": 32.2,
     "top_topics": [
       "Advanced Optical Sensing Technologies",
       "Photonic and Optical Devices",
@@ -5443,10 +5573,12 @@
     "name": "Qinetiq (United Kingdom)",
     "lat": 50.7857315,
     "lng": -1.1293827,
-    "rank": 265,
+    "rank": 263,
     "photonics_works": 17,
     "total_citations": 199,
     "avg_fwci": 1.17,
+    "pct_top10_cited": 17.6,
+    "citations_per_paper": 11.7,
     "top_topics": [
       "Photonic Crystal and Fiber Optics",
       "Photonic and Optical Devices",
@@ -5513,14 +5645,85 @@
     "n_collaborators": 22
   },
   {
+    "id": "https://openalex.org/I94706221",
+    "name": "Airbus (United Kingdom)",
+    "lat": 51.5130343,
+    "lng": -2.5775448,
+    "rank": 284,
+    "photonics_works": 15,
+    "total_citations": 139,
+    "avg_fwci": 1.27,
+    "pct_top10_cited": 26.7,
+    "citations_per_paper": 9.3,
+    "top_topics": [
+      "Advanced Photonic Communication Systems",
+      "Satellite Communication Systems",
+      "Optical Network Technologies",
+      "Photonic and Optical Devices",
+      "Plasmonic and Surface Plasmon Research"
+    ],
+    "publications_by_year": {
+      "2015": 1,
+      "2016": 1,
+      "2017": 2,
+      "2018": 3,
+      "2019": 5,
+      "2021": 1,
+      "2023": 2
+    },
+    "topic_breakdown": [
+      {
+        "topic": "Advanced Photonic Communication Systems",
+        "count": 4
+      },
+      {
+        "topic": "Satellite Communication Systems",
+        "count": 4
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 1
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 1
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Fiber Optic Sensors",
+        "count": 1
+      },
+      {
+        "topic": "Photonic Crystal and Fiber Optics",
+        "count": 1
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 1
+      },
+      {
+        "topic": "Engineering and Test Systems",
+        "count": 1
+      }
+    ],
+    "cluster_id": null,
+    "n_grants": null,
+    "n_collaborators": null
+  },
+  {
     "id": "https://openalex.org/I128993996",
     "name": "University of South Wales",
     "lat": 51.5860894,
     "lng": -2.990616,
-    "rank": 287,
+    "rank": 285,
     "photonics_works": 15,
     "total_citations": 132,
     "avg_fwci": 1.18,
+    "pct_top10_cited": 6.7,
+    "citations_per_paper": 8.8,
     "top_topics": [
       "Thermal Radiation and Cooling Technologies",
       "Photonic Crystals and Applications",
@@ -5584,14 +5787,124 @@
     "n_collaborators": 121
   },
   {
+    "id": "https://openalex.org/I111088046",
+    "name": "Boston University",
+    "lat": 52.7877754,
+    "lng": -0.151218,
+    "rank": 289,
+    "photonics_works": 15,
+    "total_citations": 593,
+    "avg_fwci": 2.54,
+    "pct_top10_cited": 40.0,
+    "citations_per_paper": 39.5,
+    "top_topics": [
+      "Photonic and Optical Devices",
+      "Photonic Crystals and Applications",
+      "Photonic Crystal and Fiber Optics",
+      "Advanced Fiber Optic Sensors",
+      "Optical Network Technologies"
+    ],
+    "publications_by_year": {
+      "2007": 1,
+      "2010": 1,
+      "2011": 1,
+      "2012": 1,
+      "2014": 1,
+      "2015": 1,
+      "2017": 1,
+      "2018": 1,
+      "2020": 1,
+      "2021": 1,
+      "2022": 2,
+      "2023": 2,
+      "2024": 1
+    },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 7
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 2
+      },
+      {
+        "topic": "Photonic Crystal and Fiber Optics",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Fiber Optic Sensors",
+        "count": 1
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 1
+      },
+      {
+        "topic": "Gold and Silver Nanoparticles Synthesis and Applications",
+        "count": 1
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 1
+      },
+      {
+        "topic": "Laser Material Processing Techniques",
+        "count": 1
+      }
+    ],
+    "cluster_id": 2,
+    "n_grants": 4,
+    "n_collaborators": 34
+  },
+  {
+    "id": "https://openalex.org/I57206974",
+    "name": "New York University",
+    "lat": 51.525894,
+    "lng": -0.1179349,
+    "rank": 290,
+    "photonics_works": 15,
+    "total_citations": 949,
+    "avg_fwci": 4.83,
+    "pct_top10_cited": 26.7,
+    "citations_per_paper": 63.3,
+    "top_topics": [
+      "Photonic Crystals and Applications",
+      "Photonic and Optical Devices"
+    ],
+    "publications_by_year": {
+      "2012": 3,
+      "2013": 4,
+      "2014": 5,
+      "2019": 1,
+      "2021": 1,
+      "2024": 1
+    },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 12
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 3
+      }
+    ],
+    "cluster_id": 0,
+    "n_grants": 3,
+    "n_collaborators": 77
+  },
+  {
     "id": "https://openalex.org/I32971472",
     "name": "Yale University",
     "lat": 51.5184323,
     "lng": -0.1294016,
-    "rank": 288,
+    "rank": 291,
     "photonics_works": 15,
     "total_citations": 804,
     "avg_fwci": 3.85,
+    "pct_top10_cited": 26.7,
+    "citations_per_paper": 53.6,
     "top_topics": [
       "Photonic and Optical Devices",
       "Photonic Crystals and Applications",
@@ -5658,65 +5971,55 @@
     "n_collaborators": 13
   },
   {
-    "id": "https://openalex.org/I94706221",
-    "name": "Airbus (United Kingdom)",
-    "lat": 51.5130343,
-    "lng": -2.5775448,
-    "rank": 292,
-    "photonics_works": 15,
-    "total_citations": 139,
-    "avg_fwci": 1.27,
+    "id": "https://openalex.org/I4210156325",
+    "name": "Hewlett-Packard (United Kingdom)",
+    "lat": 55.9165646,
+    "lng": -4.4845111,
+    "rank": 308,
+    "photonics_works": 14,
+    "total_citations": 3303,
+    "avg_fwci": 15.3,
+    "pct_top10_cited": 35.7,
+    "citations_per_paper": 235.9,
     "top_topics": [
-      "Advanced Photonic Communication Systems",
-      "Satellite Communication Systems",
-      "Optical Network Technologies",
+      "Quantum Information and Cryptography",
       "Photonic and Optical Devices",
-      "Plasmonic and Surface Plasmon Research"
+      "Liquid Crystal Research Advancements",
+      "Optical Network Technologies",
+      "Quantum many-body systems"
     ],
     "publications_by_year": {
-      "2015": 1,
-      "2016": 1,
-      "2017": 2,
-      "2018": 3,
-      "2019": 5,
-      "2021": 1,
-      "2023": 2
+      "2002": 1,
+      "2005": 3,
+      "2006": 1,
+      "2007": 3,
+      "2008": 2,
+      "2010": 1,
+      "2012": 3
     },
     "topic_breakdown": [
       {
-        "topic": "Advanced Photonic Communication Systems",
-        "count": 4
+        "topic": "Quantum Information and Cryptography",
+        "count": 7
       },
       {
-        "topic": "Satellite Communication Systems",
-        "count": 4
+        "topic": "Photonic and Optical Devices",
+        "count": 3
+      },
+      {
+        "topic": "Liquid Crystal Research Advancements",
+        "count": 1
       },
       {
         "topic": "Optical Network Technologies",
         "count": 1
       },
       {
-        "topic": "Photonic and Optical Devices",
+        "topic": "Quantum many-body systems",
         "count": 1
       },
       {
-        "topic": "Plasmonic and Surface Plasmon Research",
-        "count": 1
-      },
-      {
-        "topic": "Advanced Fiber Optic Sensors",
-        "count": 1
-      },
-      {
-        "topic": "Photonic Crystal and Fiber Optics",
-        "count": 1
-      },
-      {
-        "topic": "Photonic Crystals and Applications",
-        "count": 1
-      },
-      {
-        "topic": "Engineering and Test Systems",
+        "topic": "Diamond and Carbon-based Materials Research",
         "count": 1
       }
     ],
@@ -5725,91 +6028,34 @@
     "n_collaborators": null
   },
   {
-    "id": "https://openalex.org/I111088046",
-    "name": "Boston University",
-    "lat": 52.7877754,
-    "lng": -0.151218,
-    "rank": 296,
-    "photonics_works": 15,
-    "total_citations": 593,
-    "avg_fwci": 2.54,
+    "id": "https://openalex.org/I102298084",
+    "name": "Andrews University",
+    "lat": 56.3398554,
+    "lng": -2.8117775,
+    "rank": 314,
+    "photonics_works": 14,
+    "total_citations": 1275,
+    "avg_fwci": 6.99,
+    "pct_top10_cited": 42.9,
+    "citations_per_paper": 91.1,
     "top_topics": [
+      "Photonic Crystals and Applications",
       "Photonic and Optical Devices",
-      "Photonic Crystals and Applications",
-      "Photonic Crystal and Fiber Optics",
-      "Advanced Fiber Optic Sensors",
-      "Optical Network Technologies"
+      "Optical Network Technologies",
+      "Orbital Angular Momentum in Optics",
+      "Strong Light-Matter Interactions"
     ],
     "publications_by_year": {
+      "2000": 1,
+      "2003": 1,
+      "2006": 1,
       "2007": 1,
+      "2008": 1,
       "2010": 1,
-      "2011": 1,
-      "2012": 1,
-      "2014": 1,
+      "2011": 2,
+      "2013": 1,
       "2015": 1,
-      "2017": 1,
-      "2018": 1,
-      "2020": 1,
-      "2021": 1,
-      "2022": 2,
-      "2023": 2,
-      "2024": 1
-    },
-    "topic_breakdown": [
-      {
-        "topic": "Photonic and Optical Devices",
-        "count": 7
-      },
-      {
-        "topic": "Photonic Crystals and Applications",
-        "count": 2
-      },
-      {
-        "topic": "Photonic Crystal and Fiber Optics",
-        "count": 1
-      },
-      {
-        "topic": "Advanced Fiber Optic Sensors",
-        "count": 1
-      },
-      {
-        "topic": "Optical Network Technologies",
-        "count": 1
-      },
-      {
-        "topic": "Gold and Silver Nanoparticles Synthesis and Applications",
-        "count": 1
-      },
-      {
-        "topic": "Plasmonic and Surface Plasmon Research",
-        "count": 1
-      },
-      {
-        "topic": "Laser Material Processing Techniques",
-        "count": 1
-      }
-    ],
-    "cluster_id": 2,
-    "n_grants": 4,
-    "n_collaborators": 34
-  },
-  {
-    "id": "https://openalex.org/I57206974",
-    "name": "New York University",
-    "lat": 51.525894,
-    "lng": -0.1179349,
-    "rank": 297,
-    "photonics_works": 15,
-    "total_citations": 949,
-    "avg_fwci": 4.83,
-    "top_topics": [
-      "Photonic Crystals and Applications",
-      "Photonic and Optical Devices"
-    ],
-    "publications_by_year": {
-      "2012": 3,
-      "2013": 4,
-      "2014": 5,
+      "2016": 1,
       "2019": 1,
       "2021": 1,
       "2024": 1
@@ -5817,26 +6063,40 @@
     "topic_breakdown": [
       {
         "topic": "Photonic Crystals and Applications",
-        "count": 12
+        "count": 6
       },
       {
         "topic": "Photonic and Optical Devices",
-        "count": 3
+        "count": 4
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 2
+      },
+      {
+        "topic": "Orbital Angular Momentum in Optics",
+        "count": 1
+      },
+      {
+        "topic": "Strong Light-Matter Interactions",
+        "count": 1
       }
     ],
-    "cluster_id": 0,
-    "n_grants": 3,
-    "n_collaborators": 77
+    "cluster_id": null,
+    "n_grants": null,
+    "n_collaborators": null
   },
   {
     "id": "https://openalex.org/I4210092131",
     "name": "Gooch & Housego (United Kingdom)",
     "lat": 50.9160096,
     "lng": -2.9156199,
-    "rank": 302,
+    "rank": 317,
     "photonics_works": 14,
     "total_citations": 680,
     "avg_fwci": 4.27,
+    "pct_top10_cited": 35.7,
+    "citations_per_paper": 48.6,
     "top_topics": [
       "Advanced Photonic Communication Systems",
       "Photonic and Optical Devices",
@@ -5902,10 +6162,12 @@
     "name": "Huawei Technologies (United Kingdom)",
     "lat": 52.2327636,
     "lng": 0.1416913,
-    "rank": 310,
+    "rank": 318,
     "photonics_works": 14,
     "total_citations": 61,
     "avg_fwci": 1.22,
+    "pct_top10_cited": 7.1,
+    "citations_per_paper": 4.4,
     "top_topics": [
       "Photonic and Optical Devices",
       "Neural Networks and Reservoir Computing",
@@ -5954,173 +6216,16 @@
     "n_collaborators": null
   },
   {
-    "id": "https://openalex.org/I102298084",
-    "name": "Andrews University",
-    "lat": 56.3398554,
-    "lng": -2.8117775,
-    "rank": 313,
-    "photonics_works": 14,
-    "total_citations": 1275,
-    "avg_fwci": 6.99,
-    "top_topics": [
-      "Photonic Crystals and Applications",
-      "Photonic and Optical Devices",
-      "Optical Network Technologies",
-      "Orbital Angular Momentum in Optics",
-      "Strong Light-Matter Interactions"
-    ],
-    "publications_by_year": {
-      "2000": 1,
-      "2003": 1,
-      "2006": 1,
-      "2007": 1,
-      "2008": 1,
-      "2010": 1,
-      "2011": 2,
-      "2013": 1,
-      "2015": 1,
-      "2016": 1,
-      "2019": 1,
-      "2021": 1,
-      "2024": 1
-    },
-    "topic_breakdown": [
-      {
-        "topic": "Photonic Crystals and Applications",
-        "count": 6
-      },
-      {
-        "topic": "Photonic and Optical Devices",
-        "count": 4
-      },
-      {
-        "topic": "Optical Network Technologies",
-        "count": 2
-      },
-      {
-        "topic": "Orbital Angular Momentum in Optics",
-        "count": 1
-      },
-      {
-        "topic": "Strong Light-Matter Interactions",
-        "count": 1
-      }
-    ],
-    "cluster_id": null,
-    "n_grants": null,
-    "n_collaborators": null
-  },
-  {
-    "id": "https://openalex.org/I4210156325",
-    "name": "Hewlett-Packard (United Kingdom)",
-    "lat": 55.9165646,
-    "lng": -4.4845111,
-    "rank": 317,
-    "photonics_works": 14,
-    "total_citations": 3303,
-    "avg_fwci": 15.3,
-    "top_topics": [
-      "Quantum Information and Cryptography",
-      "Photonic and Optical Devices",
-      "Liquid Crystal Research Advancements",
-      "Optical Network Technologies",
-      "Quantum many-body systems"
-    ],
-    "publications_by_year": {
-      "2002": 1,
-      "2005": 3,
-      "2006": 1,
-      "2007": 3,
-      "2008": 2,
-      "2010": 1,
-      "2012": 3
-    },
-    "topic_breakdown": [
-      {
-        "topic": "Quantum Information and Cryptography",
-        "count": 7
-      },
-      {
-        "topic": "Photonic and Optical Devices",
-        "count": 3
-      },
-      {
-        "topic": "Liquid Crystal Research Advancements",
-        "count": 1
-      },
-      {
-        "topic": "Optical Network Technologies",
-        "count": 1
-      },
-      {
-        "topic": "Quantum many-body systems",
-        "count": 1
-      },
-      {
-        "topic": "Diamond and Carbon-based Materials Research",
-        "count": 1
-      }
-    ],
-    "cluster_id": null,
-    "n_grants": null,
-    "n_collaborators": null
-  },
-  {
-    "id": "https://openalex.org/I868834043",
-    "name": "University of the West of Scotland",
-    "lat": 51.5100436,
-    "lng": -0.0047661,
-    "rank": 330,
-    "photonics_works": 13,
-    "total_citations": 99,
-    "avg_fwci": 0.49,
-    "top_topics": [
-      "Photonic Crystals and Applications",
-      "Spectroscopy and Laser Applications",
-      "Quantum Mechanics and Non-Hermitian Physics",
-      "Photonic and Optical Devices"
-    ],
-    "publications_by_year": {
-      "2010": 2,
-      "2011": 2,
-      "2013": 2,
-      "2014": 1,
-      "2015": 1,
-      "2016": 1,
-      "2017": 3,
-      "2025": 1
-    },
-    "topic_breakdown": [
-      {
-        "topic": "Photonic Crystals and Applications",
-        "count": 10
-      },
-      {
-        "topic": "Spectroscopy and Laser Applications",
-        "count": 1
-      },
-      {
-        "topic": "Quantum Mechanics and Non-Hermitian Physics",
-        "count": 1
-      },
-      {
-        "topic": "Photonic and Optical Devices",
-        "count": 1
-      }
-    ],
-    "cluster_id": 8,
-    "n_grants": 2,
-    "n_collaborators": 8
-  },
-  {
     "id": "https://openalex.org/I71422933",
     "name": "Sheffield Hallam University",
     "lat": 53.3817264,
     "lng": -1.4627951,
-    "rank": 332,
+    "rank": 327,
     "photonics_works": 13,
     "total_citations": 73,
     "avg_fwci": 0.88,
+    "pct_top10_cited": 15.4,
+    "citations_per_paper": 5.6,
     "top_topics": [
       "Spectroscopy and Laser Applications",
       "Strong Light-Matter Interactions",
@@ -6171,14 +6276,126 @@
     "n_collaborators": null
   },
   {
+    "id": "https://openalex.org/I868834043",
+    "name": "University of the West of Scotland",
+    "lat": 51.5100436,
+    "lng": -0.0047661,
+    "rank": 338,
+    "photonics_works": 13,
+    "total_citations": 99,
+    "avg_fwci": 0.49,
+    "pct_top10_cited": 0.0,
+    "citations_per_paper": 7.6,
+    "top_topics": [
+      "Photonic Crystals and Applications",
+      "Spectroscopy and Laser Applications",
+      "Quantum Mechanics and Non-Hermitian Physics",
+      "Photonic and Optical Devices"
+    ],
+    "publications_by_year": {
+      "2010": 2,
+      "2011": 2,
+      "2013": 2,
+      "2014": 1,
+      "2015": 1,
+      "2016": 1,
+      "2017": 3,
+      "2025": 1
+    },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 10
+      },
+      {
+        "topic": "Spectroscopy and Laser Applications",
+        "count": 1
+      },
+      {
+        "topic": "Quantum Mechanics and Non-Hermitian Physics",
+        "count": 1
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 1
+      }
+    ],
+    "cluster_id": 8,
+    "n_grants": 2,
+    "n_collaborators": 8
+  },
+  {
+    "id": "https://openalex.org/I195939026",
+    "name": "Glasgow Caledonian University",
+    "lat": 55.8674664,
+    "lng": -4.2502454,
+    "rank": 348,
+    "photonics_works": 12,
+    "total_citations": 34,
+    "avg_fwci": 0.44,
+    "pct_top10_cited": 8.3,
+    "citations_per_paper": 2.8,
+    "top_topics": [
+      "Photonic Crystals and Applications",
+      "solar cell performance optimization",
+      "Neural Networks and Reservoir Computing",
+      "Plasmonic and Surface Plasmon Research",
+      "Photonic and Optical Devices"
+    ],
+    "publications_by_year": {
+      "2006": 1,
+      "2007": 1,
+      "2011": 1,
+      "2012": 5,
+      "2013": 2,
+      "2017": 1,
+      "2023": 1
+    },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 5
+      },
+      {
+        "topic": "solar cell performance optimization",
+        "count": 2
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 1
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 1
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Photonic Communication Systems",
+        "count": 1
+      },
+      {
+        "topic": "Semiconductor materials and devices",
+        "count": 1
+      }
+    ],
+    "cluster_id": null,
+    "n_grants": null,
+    "n_collaborators": null
+  },
+  {
     "id": "https://openalex.org/I59499333",
     "name": "Optica",
     "lat": 51.5706618,
     "lng": -0.0954029,
-    "rank": 344,
+    "rank": 356,
     "photonics_works": 12,
     "total_citations": 214,
     "avg_fwci": 1.98,
+    "pct_top10_cited": 33.3,
+    "citations_per_paper": 17.8,
     "top_topics": [
       "Photonic and Optical Devices",
       "Photonic Crystals and Applications",
@@ -6217,40 +6434,6 @@
     "n_collaborators": 46
   },
   {
-    "id": "https://openalex.org/I16038530",
-    "name": "Aberystwyth University",
-    "lat": 52.4155496,
-    "lng": -4.0650542,
-    "rank": 356,
-    "photonics_works": 12,
-    "total_citations": 379,
-    "avg_fwci": 2.66,
-    "top_topics": [
-      "Photonic Crystals and Applications"
-    ],
-    "publications_by_year": {
-      "2008": 1,
-      "2009": 1,
-      "2013": 1,
-      "2016": 2,
-      "2017": 1,
-      "2018": 1,
-      "2020": 2,
-      "2023": 1,
-      "2024": 1,
-      "2026": 1
-    },
-    "topic_breakdown": [
-      {
-        "topic": "Photonic Crystals and Applications",
-        "count": 12
-      }
-    ],
-    "cluster_id": 0,
-    "n_grants": 6,
-    "n_collaborators": 131
-  },
-  {
     "id": "https://openalex.org/I4210109553",
     "name": "Institution of Engineering and Technology",
     "lat": 51.5100284,
@@ -6259,6 +6442,8 @@
     "photonics_works": 12,
     "total_citations": 41,
     "avg_fwci": 0.18,
+    "pct_top10_cited": 0.0,
+    "citations_per_paper": 3.4,
     "top_topics": [
       "Photonic Crystals and Applications",
       "Advanced Photonic Communication Systems",
@@ -6316,73 +6501,52 @@
     "n_collaborators": null
   },
   {
-    "id": "https://openalex.org/I195939026",
-    "name": "Glasgow Caledonian University",
-    "lat": 55.8674664,
-    "lng": -4.2502454,
-    "rank": 372,
+    "id": "https://openalex.org/I16038530",
+    "name": "Aberystwyth University",
+    "lat": 52.4155496,
+    "lng": -4.0650542,
+    "rank": 368,
     "photonics_works": 12,
-    "total_citations": 34,
-    "avg_fwci": 0.44,
+    "total_citations": 379,
+    "avg_fwci": 2.66,
+    "pct_top10_cited": 33.3,
+    "citations_per_paper": 31.6,
     "top_topics": [
-      "Photonic Crystals and Applications",
-      "solar cell performance optimization",
-      "Neural Networks and Reservoir Computing",
-      "Plasmonic and Surface Plasmon Research",
-      "Photonic and Optical Devices"
+      "Photonic Crystals and Applications"
     ],
     "publications_by_year": {
-      "2006": 1,
-      "2007": 1,
-      "2011": 1,
-      "2012": 5,
-      "2013": 2,
+      "2008": 1,
+      "2009": 1,
+      "2013": 1,
+      "2016": 2,
       "2017": 1,
-      "2023": 1
+      "2018": 1,
+      "2020": 2,
+      "2023": 1,
+      "2024": 1,
+      "2026": 1
     },
     "topic_breakdown": [
       {
         "topic": "Photonic Crystals and Applications",
-        "count": 5
-      },
-      {
-        "topic": "solar cell performance optimization",
-        "count": 2
-      },
-      {
-        "topic": "Neural Networks and Reservoir Computing",
-        "count": 1
-      },
-      {
-        "topic": "Plasmonic and Surface Plasmon Research",
-        "count": 1
-      },
-      {
-        "topic": "Photonic and Optical Devices",
-        "count": 1
-      },
-      {
-        "topic": "Advanced Photonic Communication Systems",
-        "count": 1
-      },
-      {
-        "topic": "Semiconductor materials and devices",
-        "count": 1
+        "count": 12
       }
     ],
-    "cluster_id": null,
-    "n_grants": null,
-    "n_collaborators": null
+    "cluster_id": 0,
+    "n_grants": 6,
+    "n_collaborators": 131
   },
   {
     "id": "https://openalex.org/I170897317",
     "name": "Duke University",
     "lat": 51.2423834,
     "lng": -0.5844199,
-    "rank": 379,
+    "rank": 372,
     "photonics_works": 12,
     "total_citations": 367,
     "avg_fwci": 3.08,
+    "pct_top10_cited": 58.3,
+    "citations_per_paper": 30.6,
     "top_topics": [
       "Metamaterials and Metasurfaces Applications",
       "Orbital Angular Momentum in Optics",
@@ -6444,70 +6608,16 @@
     "n_collaborators": 25
   },
   {
-    "id": "https://openalex.org/I4210128088",
-    "name": "Compound Semiconductor Technologies (United Kingdom)",
-    "lat": 55.7779916,
-    "lng": -4.0933554,
-    "rank": 383,
-    "photonics_works": 11,
-    "total_citations": 73,
-    "avg_fwci": 1.06,
-    "top_topics": [
-      "Semiconductor Lasers and Optical Devices",
-      "Optical Network Technologies",
-      "Photonic and Optical Devices",
-      "Photodynamic Therapy Research Studies",
-      "Semiconductor Quantum Structures and Devices"
-    ],
-    "publications_by_year": {
-      "1996": 1,
-      "2007": 1,
-      "2013": 1,
-      "2014": 1,
-      "2015": 1,
-      "2016": 2,
-      "2019": 1,
-      "2020": 3
-    },
-    "topic_breakdown": [
-      {
-        "topic": "Semiconductor Lasers and Optical Devices",
-        "count": 4
-      },
-      {
-        "topic": "Optical Network Technologies",
-        "count": 2
-      },
-      {
-        "topic": "Photonic and Optical Devices",
-        "count": 2
-      },
-      {
-        "topic": "Photodynamic Therapy Research Studies",
-        "count": 1
-      },
-      {
-        "topic": "Semiconductor Quantum Structures and Devices",
-        "count": 1
-      },
-      {
-        "topic": "Photonic Crystals and Applications",
-        "count": 1
-      }
-    ],
-    "cluster_id": null,
-    "n_grants": null,
-    "n_collaborators": null
-  },
-  {
     "id": "https://openalex.org/I82284825",
     "name": "Cranfield University",
     "lat": 52.0701329,
     "lng": -0.6287023,
-    "rank": 404,
+    "rank": 393,
     "photonics_works": 11,
     "total_citations": 132,
     "avg_fwci": 1.08,
+    "pct_top10_cited": 18.2,
+    "citations_per_paper": 12.0,
     "top_topics": [
       "Random lasers and scattering media",
       "Optical Coherence Tomography Applications",
@@ -6571,177 +6681,56 @@
     "n_collaborators": 106
   },
   {
-    "id": "https://openalex.org/I4210093057",
-    "name": "Faculty (United Kingdom)",
-    "lat": 51.7558131,
-    "lng": -1.2608884,
-    "rank": 420,
-    "photonics_works": 10,
-    "total_citations": 1070,
-    "avg_fwci": 6.06,
+    "id": "https://openalex.org/I4210128088",
+    "name": "Compound Semiconductor Technologies (United Kingdom)",
+    "lat": 55.7779916,
+    "lng": -4.0933554,
+    "rank": 411,
+    "photonics_works": 11,
+    "total_citations": 73,
+    "avg_fwci": 1.06,
+    "pct_top10_cited": 9.1,
+    "citations_per_paper": 6.6,
     "top_topics": [
-      "Nonlinear Optical Materials Studies",
-      "Photonic Crystals and Applications",
-      "Lanthanide and Transition Metal Complexes",
-      "Perovskite Materials and Applications",
-      "Electrowetting and Microfluidic Technologies"
-    ],
-    "publications_by_year": {
-      "2014": 1,
-      "2015": 2,
-      "2016": 1,
-      "2017": 1,
-      "2018": 1,
-      "2019": 2,
-      "2023": 1,
-      "2024": 1
-    },
-    "topic_breakdown": [
-      {
-        "topic": "Nonlinear Optical Materials Studies",
-        "count": 2
-      },
-      {
-        "topic": "Photonic Crystals and Applications",
-        "count": 2
-      },
-      {
-        "topic": "Lanthanide and Transition Metal Complexes",
-        "count": 1
-      },
-      {
-        "topic": "Perovskite Materials and Applications",
-        "count": 1
-      },
-      {
-        "topic": "Electrowetting and Microfluidic Technologies",
-        "count": 1
-      },
-      {
-        "topic": "Laser-Matter Interactions and Applications",
-        "count": 1
-      },
-      {
-        "topic": "Neural Networks and Reservoir Computing",
-        "count": 1
-      },
-      {
-        "topic": "Mechanical and Optical Resonators",
-        "count": 1
-      }
-    ],
-    "cluster_id": null,
-    "n_grants": null,
-    "n_collaborators": null
-  },
-  {
-    "id": "https://openalex.org/I153648349",
-    "name": "University of Leicester",
-    "lat": 52.6205879,
-    "lng": -1.109923,
-    "rank": 433,
-    "photonics_works": 10,
-    "total_citations": 77,
-    "avg_fwci": 0.88,
-    "top_topics": [
-      "Advanced biosensing and bioanalysis techniques",
-      "Radiation Detection and Scintillator Technologies",
-      "Perovskite Materials and Applications",
-      "Photocathodes and Microchannel Plates",
-      "Nonlinear Optical Materials Research"
+      "Semiconductor Lasers and Optical Devices",
+      "Optical Network Technologies",
+      "Photonic and Optical Devices",
+      "Photodynamic Therapy Research Studies",
+      "Semiconductor Quantum Structures and Devices"
     ],
     "publications_by_year": {
       "1996": 1,
-      "2000": 1,
-      "2005": 1,
-      "2011": 2,
+      "2007": 1,
+      "2013": 1,
       "2014": 1,
-      "2018": 1,
-      "2023": 2,
-      "2025": 1
-    },
-    "topic_breakdown": [
-      {
-        "topic": "Advanced biosensing and bioanalysis techniques",
-        "count": 2
-      },
-      {
-        "topic": "Radiation Detection and Scintillator Technologies",
-        "count": 2
-      },
-      {
-        "topic": "Perovskite Materials and Applications",
-        "count": 1
-      },
-      {
-        "topic": "Photocathodes and Microchannel Plates",
-        "count": 1
-      },
-      {
-        "topic": "Nonlinear Optical Materials Research",
-        "count": 1
-      },
-      {
-        "topic": "Radiation Effects in Electronics",
-        "count": 1
-      },
-      {
-        "topic": "Photonic and Optical Devices",
-        "count": 1
-      },
-      {
-        "topic": "Atomic and Subatomic Physics Research",
-        "count": 1
-      }
-    ],
-    "cluster_id": 24,
-    "n_grants": 2,
-    "n_collaborators": 1
-  },
-  {
-    "id": "https://openalex.org/I63072094",
-    "name": "University of Portsmouth",
-    "lat": 50.795245,
-    "lng": -1.0935529,
-    "rank": 435,
-    "photonics_works": 10,
-    "total_citations": 79,
-    "avg_fwci": 3.36,
-    "top_topics": [
-      "Quantum Information and Cryptography",
-      "Photonic and Optical Devices",
-      "Optical Coherence Tomography Applications",
-      "Advanced Fluorescence Microscopy Techniques",
-      "Quantum optics and atomic interactions"
-    ],
-    "publications_by_year": {
-      "2018": 1,
+      "2015": 1,
+      "2016": 2,
       "2019": 1,
-      "2020": 1,
-      "2021": 1,
-      "2023": 3,
-      "2024": 1,
-      "2025": 1
+      "2020": 3
     },
     "topic_breakdown": [
       {
-        "topic": "Quantum Information and Cryptography",
-        "count": 5
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 4
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 2
       },
       {
         "topic": "Photonic and Optical Devices",
         "count": 2
       },
       {
-        "topic": "Optical Coherence Tomography Applications",
+        "topic": "Photodynamic Therapy Research Studies",
         "count": 1
       },
       {
-        "topic": "Advanced Fluorescence Microscopy Techniques",
+        "topic": "Semiconductor Quantum Structures and Devices",
         "count": 1
       },
       {
-        "topic": "Quantum optics and atomic interactions",
+        "topic": "Photonic Crystals and Applications",
         "count": 1
       }
     ],
@@ -6750,67 +6739,69 @@
     "n_collaborators": null
   },
   {
-    "id": "https://openalex.org/I4210164758",
-    "name": "Materials Technology (United Kingdom)",
-    "lat": 53.2197457,
-    "lng": -3.0330131,
-    "rank": 437,
+    "id": "https://openalex.org/I1336856363",
+    "name": "Natural History Museum",
+    "lat": 51.4965109,
+    "lng": -0.1760019,
+    "rank": 417,
     "photonics_works": 10,
-    "total_citations": 1583,
-    "avg_fwci": 1.49,
+    "total_citations": 305,
+    "avg_fwci": 2.8,
+    "pct_top10_cited": 40.0,
+    "citations_per_paper": 30.5,
     "top_topics": [
       "Photonic Crystals and Applications",
-      "Advanced Photonic Communication Systems",
-      "Semiconductor Lasers and Optical Devices",
-      "Photonic and Optical Devices",
-      "Optical Network Technologies"
+      "Diatoms and Algae Research",
+      "Marine Sponges and Natural Products",
+      "Plant and animal studies",
+      "Nanofabrication and Lithography Techniques"
     ],
     "publications_by_year": {
-      "1992": 2,
-      "1993": 1,
-      "1994": 1,
-      "1995": 1,
-      "1998": 1,
-      "1999": 1,
+      "2004": 1,
       "2005": 1,
       "2008": 1,
-      "2015": 1
+      "2009": 3,
+      "2011": 1,
+      "2012": 2,
+      "2016": 1
     },
     "topic_breakdown": [
       {
         "topic": "Photonic Crystals and Applications",
-        "count": 3
+        "count": 5
       },
       {
-        "topic": "Advanced Photonic Communication Systems",
+        "topic": "Diatoms and Algae Research",
         "count": 2
       },
       {
-        "topic": "Semiconductor Lasers and Optical Devices",
-        "count": 2
+        "topic": "Marine Sponges and Natural Products",
+        "count": 1
       },
       {
-        "topic": "Photonic and Optical Devices",
-        "count": 2
+        "topic": "Plant and animal studies",
+        "count": 1
       },
       {
-        "topic": "Optical Network Technologies",
+        "topic": "Nanofabrication and Lithography Techniques",
         "count": 1
       }
     ],
-    "cluster_id": null,
-    "n_grants": null,
-    "n_collaborators": null
+    "cluster_id": 6,
+    "n_grants": 2,
+    "n_collaborators": 29
   },
   {
     "id": "https://openalex.org/I4210107224",
     "name": "Cavendish Hospital",
     "lat": 53.262318,
     "lng": -1.9210277,
-    "rank": 439,
+    "rank": 419,
     "photonics_works": 10,
     "total_citations": 490,
     "avg_fwci": 7.2,
+    "pct_top10_cited": 40.0,
+    "citations_per_paper": 49.0,
     "top_topics": [
       "Photonic Crystals and Applications",
       "Strong Light-Matter Interactions",
@@ -6871,14 +6862,256 @@
     "n_collaborators": null
   },
   {
+    "id": "https://openalex.org/I63072094",
+    "name": "University of Portsmouth",
+    "lat": 50.795245,
+    "lng": -1.0935529,
+    "rank": 420,
+    "photonics_works": 10,
+    "total_citations": 79,
+    "avg_fwci": 3.36,
+    "pct_top10_cited": 30.0,
+    "citations_per_paper": 7.9,
+    "top_topics": [
+      "Quantum Information and Cryptography",
+      "Photonic and Optical Devices",
+      "Optical Coherence Tomography Applications",
+      "Advanced Fluorescence Microscopy Techniques",
+      "Quantum optics and atomic interactions"
+    ],
+    "publications_by_year": {
+      "2018": 1,
+      "2019": 1,
+      "2020": 1,
+      "2021": 1,
+      "2023": 3,
+      "2024": 1,
+      "2025": 1
+    },
+    "topic_breakdown": [
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 5
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 2
+      },
+      {
+        "topic": "Optical Coherence Tomography Applications",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Fluorescence Microscopy Techniques",
+        "count": 1
+      },
+      {
+        "topic": "Quantum optics and atomic interactions",
+        "count": 1
+      }
+    ],
+    "cluster_id": null,
+    "n_grants": null,
+    "n_collaborators": null
+  },
+  {
+    "id": "https://openalex.org/I4210164758",
+    "name": "Materials Technology (United Kingdom)",
+    "lat": 53.2197457,
+    "lng": -3.0330131,
+    "rank": 429,
+    "photonics_works": 10,
+    "total_citations": 1583,
+    "avg_fwci": 1.49,
+    "pct_top10_cited": 20.0,
+    "citations_per_paper": 158.3,
+    "top_topics": [
+      "Photonic Crystals and Applications",
+      "Advanced Photonic Communication Systems",
+      "Semiconductor Lasers and Optical Devices",
+      "Photonic and Optical Devices",
+      "Optical Network Technologies"
+    ],
+    "publications_by_year": {
+      "1992": 2,
+      "1993": 1,
+      "1994": 1,
+      "1995": 1,
+      "1998": 1,
+      "1999": 1,
+      "2005": 1,
+      "2008": 1,
+      "2015": 1
+    },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 3
+      },
+      {
+        "topic": "Advanced Photonic Communication Systems",
+        "count": 2
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 2
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 2
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 1
+      }
+    ],
+    "cluster_id": null,
+    "n_grants": null,
+    "n_collaborators": null
+  },
+  {
+    "id": "https://openalex.org/I4210093057",
+    "name": "Faculty (United Kingdom)",
+    "lat": 51.7558131,
+    "lng": -1.2608884,
+    "rank": 430,
+    "photonics_works": 10,
+    "total_citations": 1070,
+    "avg_fwci": 6.06,
+    "pct_top10_cited": 40.0,
+    "citations_per_paper": 107.0,
+    "top_topics": [
+      "Nonlinear Optical Materials Studies",
+      "Photonic Crystals and Applications",
+      "Lanthanide and Transition Metal Complexes",
+      "Perovskite Materials and Applications",
+      "Electrowetting and Microfluidic Technologies"
+    ],
+    "publications_by_year": {
+      "2014": 1,
+      "2015": 2,
+      "2016": 1,
+      "2017": 1,
+      "2018": 1,
+      "2019": 2,
+      "2023": 1,
+      "2024": 1
+    },
+    "topic_breakdown": [
+      {
+        "topic": "Nonlinear Optical Materials Studies",
+        "count": 2
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 2
+      },
+      {
+        "topic": "Lanthanide and Transition Metal Complexes",
+        "count": 1
+      },
+      {
+        "topic": "Perovskite Materials and Applications",
+        "count": 1
+      },
+      {
+        "topic": "Electrowetting and Microfluidic Technologies",
+        "count": 1
+      },
+      {
+        "topic": "Laser-Matter Interactions and Applications",
+        "count": 1
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 1
+      },
+      {
+        "topic": "Mechanical and Optical Resonators",
+        "count": 1
+      }
+    ],
+    "cluster_id": null,
+    "n_grants": null,
+    "n_collaborators": null
+  },
+  {
+    "id": "https://openalex.org/I153648349",
+    "name": "University of Leicester",
+    "lat": 52.6205879,
+    "lng": -1.109923,
+    "rank": 432,
+    "photonics_works": 10,
+    "total_citations": 77,
+    "avg_fwci": 0.88,
+    "pct_top10_cited": 20.0,
+    "citations_per_paper": 7.7,
+    "top_topics": [
+      "Advanced biosensing and bioanalysis techniques",
+      "Radiation Detection and Scintillator Technologies",
+      "Perovskite Materials and Applications",
+      "Photocathodes and Microchannel Plates",
+      "Nonlinear Optical Materials Research"
+    ],
+    "publications_by_year": {
+      "1996": 1,
+      "2000": 1,
+      "2005": 1,
+      "2011": 2,
+      "2014": 1,
+      "2018": 1,
+      "2023": 2,
+      "2025": 1
+    },
+    "topic_breakdown": [
+      {
+        "topic": "Advanced biosensing and bioanalysis techniques",
+        "count": 2
+      },
+      {
+        "topic": "Radiation Detection and Scintillator Technologies",
+        "count": 2
+      },
+      {
+        "topic": "Perovskite Materials and Applications",
+        "count": 1
+      },
+      {
+        "topic": "Photocathodes and Microchannel Plates",
+        "count": 1
+      },
+      {
+        "topic": "Nonlinear Optical Materials Research",
+        "count": 1
+      },
+      {
+        "topic": "Radiation Effects in Electronics",
+        "count": 1
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 1
+      },
+      {
+        "topic": "Atomic and Subatomic Physics Research",
+        "count": 1
+      }
+    ],
+    "cluster_id": 24,
+    "n_grants": 2,
+    "n_collaborators": 1
+  },
+  {
     "id": "https://openalex.org/I4210143731",
     "name": "BAE Systems (United Kingdom)",
     "lat": 55.8816399,
     "lng": -4.3656145,
-    "rank": 445,
+    "rank": 447,
     "photonics_works": 10,
     "total_citations": 85,
     "avg_fwci": 0.96,
+    "pct_top10_cited": 20.0,
+    "citations_per_paper": 8.5,
     "top_topics": [
       "Photonic Crystal and Fiber Optics",
       "Advanced Optical Sensing Technologies",
@@ -6922,65 +7155,342 @@
     "n_collaborators": 35
   },
   {
-    "id": "https://openalex.org/I1336856363",
-    "name": "Natural History Museum",
-    "lat": 51.4965109,
-    "lng": -0.1760019,
-    "rank": 450,
-    "photonics_works": 10,
-    "total_citations": 305,
-    "avg_fwci": 2.8,
+    "id": "https://openalex.org/I151746483",
+    "name": "University of Waterloo",
+    "lat": 51.5053862,
+    "lng": -0.1130773,
+    "rank": 453,
+    "photonics_works": 9,
+    "total_citations": 460,
+    "avg_fwci": 6.7,
+    "pct_top10_cited": 33.3,
+    "citations_per_paper": 51.1,
     "top_topics": [
-      "Photonic Crystals and Applications",
-      "Diatoms and Algae Research",
-      "Marine Sponges and Natural Products",
-      "Plant and animal studies",
-      "Nanofabrication and Lithography Techniques"
+      "Spectroscopy and Laser Applications",
+      "Photonic and Optical Devices",
+      "Orbital Angular Momentum in Optics",
+      "Quantum Information and Cryptography",
+      "Quantum Mechanics and Applications"
     ],
     "publications_by_year": {
-      "2004": 1,
+      "2008": 1,
+      "2009": 1,
+      "2014": 2,
+      "2015": 1,
+      "2023": 3,
+      "2024": 1
+    },
+    "topic_breakdown": [
+      {
+        "topic": "Spectroscopy and Laser Applications",
+        "count": 2
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 2
+      },
+      {
+        "topic": "Orbital Angular Momentum in Optics",
+        "count": 1
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 1
+      },
+      {
+        "topic": "Quantum Mechanics and Applications",
+        "count": 1
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 1
+      },
+      {
+        "topic": "Quantum Computing Algorithms and Architecture",
+        "count": 1
+      }
+    ],
+    "cluster_id": 5,
+    "n_grants": 4,
+    "n_collaborators": 55
+  },
+  {
+    "id": "https://openalex.org/I4210142999",
+    "name": "Seagate (United Kingdom)",
+    "lat": 55.0200595,
+    "lng": -7.3379835,
+    "rank": 455,
+    "photonics_works": 9,
+    "total_citations": 326,
+    "avg_fwci": 1.67,
+    "pct_top10_cited": 11.1,
+    "citations_per_paper": 36.2,
+    "top_topics": [
+      "Photonic and Optical Devices",
+      "Advanced Optical Network Technologies",
+      "Semiconductor Lasers and Optical Devices",
+      "Optical Network Technologies"
+    ],
+    "publications_by_year": {
+      "2012": 1,
+      "2013": 1,
+      "2015": 2,
+      "2016": 2,
+      "2017": 3
+    },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 6
+      },
+      {
+        "topic": "Advanced Optical Network Technologies",
+        "count": 1
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 1
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 1
+      }
+    ],
+    "cluster_id": 7,
+    "n_grants": 1,
+    "n_collaborators": 3
+  },
+  {
+    "id": "https://openalex.org/I119664326",
+    "name": "University of Wolverhampton",
+    "lat": 52.5901648,
+    "lng": -2.1277808,
+    "rank": 458,
+    "photonics_works": 9,
+    "total_citations": 63,
+    "avg_fwci": 1.11,
+    "pct_top10_cited": 11.1,
+    "citations_per_paper": 7.0,
+    "top_topics": [
+      "Strong Light-Matter Interactions",
+      "Neural Networks and Reservoir Computing",
+      "Nonlinear Photonic Systems",
+      "Photonic Crystals and Applications",
+      "Quantum Information and Cryptography"
+    ],
+    "publications_by_year": {
+      "2019": 1,
+      "2020": 1,
+      "2022": 2,
+      "2023": 3,
+      "2024": 2
+    },
+    "topic_breakdown": [
+      {
+        "topic": "Strong Light-Matter Interactions",
+        "count": 3
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 2
+      },
+      {
+        "topic": "Nonlinear Photonic Systems",
+        "count": 1
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 1
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Photonic Communication Systems",
+        "count": 1
+      }
+    ],
+    "cluster_id": null,
+    "n_grants": null,
+    "n_collaborators": null
+  },
+  {
+    "id": "https://openalex.org/I195460627",
+    "name": "University of Aberdeen",
+    "lat": 57.1645248,
+    "lng": -2.1018364,
+    "rank": 459,
+    "photonics_works": 9,
+    "total_citations": 177,
+    "avg_fwci": 0.95,
+    "pct_top10_cited": 11.1,
+    "citations_per_paper": 19.7,
+    "top_topics": [
+      "Advanced Fiber Laser Technologies",
+      "Liquid Crystal Research Advancements",
+      "Advanced Photocatalysis Techniques",
+      "Advanced Fiber Optic Sensors",
+      "Laser-Matter Interactions and Applications"
+    ],
+    "publications_by_year": {
+      "2012": 2,
+      "2013": 2,
+      "2014": 2,
+      "2018": 1,
+      "2021": 2
+    },
+    "topic_breakdown": [
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 3
+      },
+      {
+        "topic": "Liquid Crystal Research Advancements",
+        "count": 2
+      },
+      {
+        "topic": "Advanced Photocatalysis Techniques",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Fiber Optic Sensors",
+        "count": 1
+      },
+      {
+        "topic": "Laser-Matter Interactions and Applications",
+        "count": 1
+      },
+      {
+        "topic": "Photonic Crystal and Fiber Optics",
+        "count": 1
+      }
+    ],
+    "cluster_id": 0,
+    "n_grants": 1,
+    "n_collaborators": 106
+  },
+  {
+    "id": "https://openalex.org/I21250087",
+    "name": "Charles University",
+    "lat": 52.1957574,
+    "lng": -2.2261797,
+    "rank": 461,
+    "photonics_works": 9,
+    "total_citations": 217,
+    "avg_fwci": 10.31,
+    "pct_top10_cited": 66.7,
+    "citations_per_paper": 24.1,
+    "top_topics": [
+      "Particle Detector Development and Performance",
+      "melanin and skin pigmentation",
+      "Magnetic properties of thin films",
+      "Photonic and Optical Devices",
+      "Advanced Physical and Chemical Molecular Interactions"
+    ],
+    "publications_by_year": {
+      "2007": 1,
+      "2010": 3,
+      "2011": 1,
+      "2018": 1,
+      "2020": 1,
+      "2023": 1,
+      "2026": 1
+    },
+    "topic_breakdown": [
+      {
+        "topic": "Particle Detector Development and Performance",
+        "count": 5
+      },
+      {
+        "topic": "melanin and skin pigmentation",
+        "count": 1
+      },
+      {
+        "topic": "Magnetic properties of thin films",
+        "count": 1
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Physical and Chemical Molecular Interactions",
+        "count": 1
+      }
+    ],
+    "cluster_id": null,
+    "n_grants": null,
+    "n_collaborators": null
+  },
+  {
+    "id": "https://openalex.org/I4210103476",
+    "name": "Malvern Community Hospital",
+    "lat": 52.112431,
+    "lng": -2.3205385,
+    "rank": 466,
+    "photonics_works": 9,
+    "total_citations": 12,
+    "avg_fwci": 0.11,
+    "pct_top10_cited": 0.0,
+    "citations_per_paper": 1.3,
+    "top_topics": [
+      "Photonic Crystals and Applications",
+      "Photonic and Optical Devices",
+      "Quantum Information and Cryptography",
+      "Advanced Fiber Laser Technologies",
+      "Silicon Nanostructures and Photoluminescence"
+    ],
+    "publications_by_year": {
+      "1991": 1,
+      "1998": 3,
+      "2002": 1,
+      "2003": 1,
       "2005": 1,
       "2008": 1,
-      "2009": 3,
-      "2011": 1,
-      "2012": 2,
-      "2016": 1
+      "2010": 1
     },
     "topic_breakdown": [
       {
         "topic": "Photonic Crystals and Applications",
-        "count": 5
+        "count": 3
       },
       {
-        "topic": "Diatoms and Algae Research",
+        "topic": "Photonic and Optical Devices",
         "count": 2
       },
       {
-        "topic": "Marine Sponges and Natural Products",
+        "topic": "Quantum Information and Cryptography",
         "count": 1
       },
       {
-        "topic": "Plant and animal studies",
+        "topic": "Advanced Fiber Laser Technologies",
         "count": 1
       },
       {
-        "topic": "Nanofabrication and Lithography Techniques",
+        "topic": "Silicon Nanostructures and Photoluminescence",
+        "count": 1
+      },
+      {
+        "topic": "Laser Design and Applications",
         "count": 1
       }
     ],
-    "cluster_id": 6,
-    "n_grants": 2,
-    "n_collaborators": 29
+    "cluster_id": null,
+    "n_grants": null,
+    "n_collaborators": null
   },
   {
     "id": "https://openalex.org/I97429440",
     "name": "University of Wales",
     "lat": 52.1131319,
     "lng": -4.0752017,
-    "rank": 453,
+    "rank": 478,
     "photonics_works": 9,
     "total_citations": 167,
     "avg_fwci": 2.18,
+    "pct_top10_cited": 11.1,
+    "citations_per_paper": 18.6,
     "top_topics": [
       "Advanced Optical Sensing Technologies",
       "Electromagnetic Simulation and Numerical Methods",
@@ -7038,171 +7548,16 @@
     "n_collaborators": null
   },
   {
-    "id": "https://openalex.org/I21250087",
-    "name": "Charles University",
-    "lat": 52.1957574,
-    "lng": -2.2261797,
-    "rank": 454,
-    "photonics_works": 9,
-    "total_citations": 217,
-    "avg_fwci": 10.31,
-    "top_topics": [
-      "Particle Detector Development and Performance",
-      "melanin and skin pigmentation",
-      "Magnetic properties of thin films",
-      "Photonic and Optical Devices",
-      "Advanced Physical and Chemical Molecular Interactions"
-    ],
-    "publications_by_year": {
-      "2007": 1,
-      "2010": 3,
-      "2011": 1,
-      "2018": 1,
-      "2020": 1,
-      "2023": 1,
-      "2026": 1
-    },
-    "topic_breakdown": [
-      {
-        "topic": "Particle Detector Development and Performance",
-        "count": 5
-      },
-      {
-        "topic": "melanin and skin pigmentation",
-        "count": 1
-      },
-      {
-        "topic": "Magnetic properties of thin films",
-        "count": 1
-      },
-      {
-        "topic": "Photonic and Optical Devices",
-        "count": 1
-      },
-      {
-        "topic": "Advanced Physical and Chemical Molecular Interactions",
-        "count": 1
-      }
-    ],
-    "cluster_id": null,
-    "n_grants": null,
-    "n_collaborators": null
-  },
-  {
-    "id": "https://openalex.org/I195460627",
-    "name": "University of Aberdeen",
-    "lat": 57.1645248,
-    "lng": -2.1018364,
-    "rank": 457,
-    "photonics_works": 9,
-    "total_citations": 177,
-    "avg_fwci": 0.95,
-    "top_topics": [
-      "Advanced Fiber Laser Technologies",
-      "Liquid Crystal Research Advancements",
-      "Advanced Photocatalysis Techniques",
-      "Advanced Fiber Optic Sensors",
-      "Laser-Matter Interactions and Applications"
-    ],
-    "publications_by_year": {
-      "2012": 2,
-      "2013": 2,
-      "2014": 2,
-      "2018": 1,
-      "2021": 2
-    },
-    "topic_breakdown": [
-      {
-        "topic": "Advanced Fiber Laser Technologies",
-        "count": 3
-      },
-      {
-        "topic": "Liquid Crystal Research Advancements",
-        "count": 2
-      },
-      {
-        "topic": "Advanced Photocatalysis Techniques",
-        "count": 1
-      },
-      {
-        "topic": "Advanced Fiber Optic Sensors",
-        "count": 1
-      },
-      {
-        "topic": "Laser-Matter Interactions and Applications",
-        "count": 1
-      },
-      {
-        "topic": "Photonic Crystal and Fiber Optics",
-        "count": 1
-      }
-    ],
-    "cluster_id": 0,
-    "n_grants": 1,
-    "n_collaborators": 106
-  },
-  {
-    "id": "https://openalex.org/I119664326",
-    "name": "University of Wolverhampton",
-    "lat": 52.5901648,
-    "lng": -2.1277808,
-    "rank": 459,
-    "photonics_works": 9,
-    "total_citations": 63,
-    "avg_fwci": 1.11,
-    "top_topics": [
-      "Strong Light-Matter Interactions",
-      "Neural Networks and Reservoir Computing",
-      "Nonlinear Photonic Systems",
-      "Photonic Crystals and Applications",
-      "Quantum Information and Cryptography"
-    ],
-    "publications_by_year": {
-      "2019": 1,
-      "2020": 1,
-      "2022": 2,
-      "2023": 3,
-      "2024": 2
-    },
-    "topic_breakdown": [
-      {
-        "topic": "Strong Light-Matter Interactions",
-        "count": 3
-      },
-      {
-        "topic": "Neural Networks and Reservoir Computing",
-        "count": 2
-      },
-      {
-        "topic": "Nonlinear Photonic Systems",
-        "count": 1
-      },
-      {
-        "topic": "Photonic Crystals and Applications",
-        "count": 1
-      },
-      {
-        "topic": "Quantum Information and Cryptography",
-        "count": 1
-      },
-      {
-        "topic": "Advanced Photonic Communication Systems",
-        "count": 1
-      }
-    ],
-    "cluster_id": null,
-    "n_grants": null,
-    "n_collaborators": null
-  },
-  {
     "id": "https://openalex.org/I4210145166",
     "name": "Foundry (United Kingdom)",
     "lat": 53.4687082,
     "lng": -2.2759603,
-    "rank": 462,
+    "rank": 482,
     "photonics_works": 9,
     "total_citations": 134,
     "avg_fwci": 2.53,
+    "pct_top10_cited": 55.6,
+    "citations_per_paper": 14.9,
     "top_topics": [
       "Photonic and Optical Devices",
       "Advanced Fluorescence Microscopy Techniques",
@@ -7248,72 +7603,16 @@
     "n_collaborators": null
   },
   {
-    "id": "https://openalex.org/I151746483",
-    "name": "University of Waterloo",
-    "lat": 51.5053862,
-    "lng": -0.1130773,
-    "rank": 465,
-    "photonics_works": 9,
-    "total_citations": 460,
-    "avg_fwci": 6.7,
-    "top_topics": [
-      "Spectroscopy and Laser Applications",
-      "Photonic and Optical Devices",
-      "Orbital Angular Momentum in Optics",
-      "Quantum Information and Cryptography",
-      "Quantum Mechanics and Applications"
-    ],
-    "publications_by_year": {
-      "2008": 1,
-      "2009": 1,
-      "2014": 2,
-      "2015": 1,
-      "2023": 3,
-      "2024": 1
-    },
-    "topic_breakdown": [
-      {
-        "topic": "Spectroscopy and Laser Applications",
-        "count": 2
-      },
-      {
-        "topic": "Photonic and Optical Devices",
-        "count": 2
-      },
-      {
-        "topic": "Orbital Angular Momentum in Optics",
-        "count": 1
-      },
-      {
-        "topic": "Quantum Information and Cryptography",
-        "count": 1
-      },
-      {
-        "topic": "Quantum Mechanics and Applications",
-        "count": 1
-      },
-      {
-        "topic": "Photonic Crystals and Applications",
-        "count": 1
-      },
-      {
-        "topic": "Quantum Computing Algorithms and Architecture",
-        "count": 1
-      }
-    ],
-    "cluster_id": 5,
-    "n_grants": 4,
-    "n_collaborators": 55
-  },
-  {
     "id": "https://openalex.org/I4210098141",
     "name": "Nokia (United Kingdom)",
     "lat": 51.6084004,
     "lng": -0.4981667,
-    "rank": 466,
+    "rank": 488,
     "photonics_works": 9,
     "total_citations": 1351,
     "avg_fwci": 18.43,
+    "pct_top10_cited": 55.6,
+    "citations_per_paper": 150.1,
     "top_topics": [
       "Quantum Information and Cryptography",
       "Quantum Mechanics and Non-Hermitian Physics",
@@ -7359,104 +7658,5 @@
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
-  },
-  {
-    "id": "https://openalex.org/I4210103476",
-    "name": "Malvern Community Hospital",
-    "lat": 52.112431,
-    "lng": -2.3205385,
-    "rank": 471,
-    "photonics_works": 9,
-    "total_citations": 12,
-    "avg_fwci": 0.11,
-    "top_topics": [
-      "Photonic Crystals and Applications",
-      "Photonic and Optical Devices",
-      "Quantum Information and Cryptography",
-      "Advanced Fiber Laser Technologies",
-      "Silicon Nanostructures and Photoluminescence"
-    ],
-    "publications_by_year": {
-      "1991": 1,
-      "1998": 3,
-      "2002": 1,
-      "2003": 1,
-      "2005": 1,
-      "2008": 1,
-      "2010": 1
-    },
-    "topic_breakdown": [
-      {
-        "topic": "Photonic Crystals and Applications",
-        "count": 3
-      },
-      {
-        "topic": "Photonic and Optical Devices",
-        "count": 2
-      },
-      {
-        "topic": "Quantum Information and Cryptography",
-        "count": 1
-      },
-      {
-        "topic": "Advanced Fiber Laser Technologies",
-        "count": 1
-      },
-      {
-        "topic": "Silicon Nanostructures and Photoluminescence",
-        "count": 1
-      },
-      {
-        "topic": "Laser Design and Applications",
-        "count": 1
-      }
-    ],
-    "cluster_id": null,
-    "n_grants": null,
-    "n_collaborators": null
-  },
-  {
-    "id": "https://openalex.org/I4210142999",
-    "name": "Seagate (United Kingdom)",
-    "lat": 55.0200595,
-    "lng": -7.3379835,
-    "rank": 488,
-    "photonics_works": 9,
-    "total_citations": 326,
-    "avg_fwci": 1.67,
-    "top_topics": [
-      "Photonic and Optical Devices",
-      "Advanced Optical Network Technologies",
-      "Semiconductor Lasers and Optical Devices",
-      "Optical Network Technologies"
-    ],
-    "publications_by_year": {
-      "2012": 1,
-      "2013": 1,
-      "2015": 2,
-      "2016": 2,
-      "2017": 3
-    },
-    "topic_breakdown": [
-      {
-        "topic": "Photonic and Optical Devices",
-        "count": 6
-      },
-      {
-        "topic": "Advanced Optical Network Technologies",
-        "count": 1
-      },
-      {
-        "topic": "Semiconductor Lasers and Optical Devices",
-        "count": 1
-      },
-      {
-        "topic": "Optical Network Technologies",
-        "count": 1
-      }
-    ],
-    "cluster_id": 7,
-    "n_grants": 1,
-    "n_collaborators": 3
   }
 ]

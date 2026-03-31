@@ -38,6 +38,9 @@ function App() {
   const [minPatents, setMinPatents] = useState(0);
   const [minGrants, setMinGrants] = useState(0);
 
+  // Institution sizing
+  const [institutionSizeMetric, setInstitutionSizeMetric] = useState<import('./types/api').InstitutionSizeMetric>('publications');
+
   // Institution publication period
   const [institutionPeriodYears, setInstitutionPeriodYears] = useState<number | null>(null);
 
@@ -262,6 +265,8 @@ function App() {
         onMinGrantsChange={setMinGrants}
         institutionPeriodYears={institutionPeriodYears}
         onInstitutionPeriodChange={setInstitutionPeriodYears}
+        institutionSizeMetric={institutionSizeMetric}
+        onInstitutionSizeMetricChange={setInstitutionSizeMetric}
         heatmapSubsector={heatmapSubsector}
         onHeatmapSubsectorChange={setHeatmapSubsector}
         yearRange={yearRange}
@@ -294,6 +299,7 @@ function App() {
               heatmapSubsector={heatmapSubsector}
               allCompanies={allCompanies}
               institutionPeriodYears={institutionPeriodYears}
+              institutionSizeMetric={institutionSizeMetric}
               onSelectCompany={(c: Company) => setDetail({ type: 'company', data: c })}
               onSelectInfrastructure={(f) => setDetail({ type: 'infrastructure', data: f })}
               onSelectInstitution={(i: Institution) => setDetail({ type: 'institution', data: i })}

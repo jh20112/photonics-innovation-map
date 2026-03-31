@@ -8,12 +8,13 @@ interface Props {
 }
 
 const COLUMNS: Column[] = [
-  { key: 'name', label: 'Name', format: 'text', width: '240px' },
+  { key: 'name', label: 'Name', format: 'text', width: '220px' },
   { key: 'photonics_works', label: 'Publications', format: 'number' },
   { key: 'total_citations', label: 'Citations', format: 'number' },
-  { key: 'avg_fwci', label: 'Avg FWCI' },
+  { key: 'avg_fwci', label: 'FWCI' },
+  { key: 'pct_top10_cited', label: '% Top 10%', format: 'pct' },
+  { key: 'citations_per_paper', label: 'Cites/Paper' },
   { key: 'n_grants', label: 'Grants', format: 'number' },
-  { key: 'n_collaborators', label: 'Collaborators', format: 'number' },
 ];
 
 export function InstitutionsTab({ institutions, onSelect }: Props) {

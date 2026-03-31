@@ -30,8 +30,9 @@ export function InstitutionPanel({
         <StatBlock value={inst.photonics_works} label="Publications" />
         <StatBlock value={inst.total_citations} label="Citations" />
         <StatBlock value={inst.avg_fwci} label="Avg FWCI" format="plain" />
+        <StatBlock value={inst.pct_top10_cited != null ? `${inst.pct_top10_cited}%` : null} label="Top 10% Cited" format="plain" />
+        <StatBlock value={inst.citations_per_paper} label="Cites/Paper" format="plain" />
         <StatBlock value={inst.n_grants} label="Grants" />
-        <StatBlock value={inst.n_collaborators} label="Collaborators" />
       </div>
 
       {inst.top_topics && inst.top_topics.length > 0 && (
