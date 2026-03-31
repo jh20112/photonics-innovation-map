@@ -155,7 +155,7 @@
     },
     {
       "id": 3,
-      "label": "Milton Keynes Photonics Cluster 1",
+      "label": "Milton Keynes \u2014 Central Bedfordshire Photonics Cluster",
       "colour": "#f58231",
       "member_count": 15,
       "boundary": [
@@ -210,7 +210,7 @@
     },
     {
       "id": 4,
-      "label": "Leicester Photonics Cluster 1",
+      "label": "Leicester \u2014 Charnwood Photonics Cluster",
       "colour": "#911eb4",
       "member_count": 5,
       "boundary": [
@@ -257,7 +257,7 @@
     },
     {
       "id": 5,
-      "label": "Milton Keynes Photonics Cluster 2",
+      "label": "Milton Keynes \u2014 Milton Keynes Photonics Cluster",
       "colour": "#42d4f4",
       "member_count": 9,
       "boundary": [
@@ -422,7 +422,7 @@
     },
     {
       "id": 8,
-      "label": "Leicester Photonics Cluster 2",
+      "label": "Leicester \u2014 North West Leicestershire Photonics Cluster",
       "colour": "#fabed4",
       "member_count": 14,
       "boundary": [

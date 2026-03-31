@@ -219,8 +219,12 @@ def _build_coords_lookup(
 
 
 def _compute_data_version(src: Path) -> str:
+    """Compute hash of DB-seeded data files only (exclude cluster/collab files served from disk)."""
+    SKIP_PREFIXES = ("clusters_", "research_collaboration", "grant_collaboration", "collaboration_clusters", "geocoded_")
     h = hashlib.sha256()
     for f in sorted(src.glob("*.json")):
+        if f.name.startswith(SKIP_PREFIXES):
+            continue
         h.update(f.name.encode())
         h.update(str(f.stat().st_mtime_ns).encode())
     return h.hexdigest()[:16]

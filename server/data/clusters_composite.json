@@ -2,7 +2,7 @@
   "clusters": [
     {
       "id": 0,
-      "label": "London Photonics Cluster 1",
+      "label": "London \u2014 Buckinghamshire Photonics Cluster",
       "colour": "#0ea5e9",
       "member_count": 89,
       "boundary": [
@@ -191,7 +191,7 @@
     },
     {
       "id": 1,
-      "label": "London Photonics Cluster 2",
+      "label": "London \u2014 Greenwich Photonics Cluster",
       "colour": "#8b5cf6",
       "member_count": 70,
       "boundary": [
@@ -1134,7 +1134,7 @@
     },
     {
       "id": 6,
-      "label": "Southampton Photonics Cluster 1",
+      "label": "Southampton \u2014 New Forest Photonics Cluster",
       "colour": "#84cc16",
       "member_count": 13,
       "boundary": [
@@ -1320,7 +1320,7 @@
     },
     {
       "id": 7,
-      "label": "Southampton Photonics Cluster 2",
+      "label": "Southampton \u2014 Test Valley Photonics Cluster",
       "colour": "#ef4444",
       "member_count": 11,
       "boundary": [

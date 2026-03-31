@@ -2,7 +2,7 @@
   "clusters": [
     {
       "id": 0,
-      "label": "London Photonics Cluster 1",
+      "label": "London \u2014 Ealing Photonics Cluster",
       "colour": "#0ea5e9",
       "member_count": 121,
       "boundary": [
@@ -194,7 +194,7 @@
     },
     {
       "id": 1,
-      "label": "Reading Photonics Cluster 1",
+      "label": "Reading \u2014 South Oxfordshire Photonics Cluster",
       "colour": "#8b5cf6",
       "member_count": 57,
       "boundary": [
@@ -385,7 +385,7 @@
     },
     {
       "id": 2,
-      "label": "Reading Photonics Cluster 2",
+      "label": "Reading \u2014 Wokingham Photonics Cluster",
       "colour": "#ec4899",
       "member_count": 32,
       "boundary": [
@@ -572,7 +572,7 @@
     },
     {
       "id": 3,
-      "label": "London Photonics Cluster 2",
+      "label": "London \u2014 Camden Photonics Cluster",
       "colour": "#14b8a6",
       "member_count": 90,
       "boundary": [
@@ -764,7 +764,7 @@
     },
     {
       "id": 4,
-      "label": "London Photonics Cluster 3",
+      "label": "London \u2014 Wandsworth Photonics Cluster",
       "colour": "#f97316",
       "member_count": 77,
       "boundary": [
@@ -1146,7 +1146,7 @@
     },
     {
       "id": 6,
-      "label": "Manchester Photonics Cluster 1",
+      "label": "Manchester (Sheffield) Photonics Cluster",
       "colour": "#84cc16",
       "member_count": 19,
       "boundary": [
@@ -1338,7 +1338,7 @@
     },
     {
       "id": 7,
-      "label": "Manchester Photonics Cluster 2",
+      "label": "Manchester \u2014 Stockport Photonics Cluster",
       "colour": "#ef4444",
       "member_count": 22,
       "boundary": [
@@ -1528,7 +1528,7 @@
     },
     {
       "id": 8,
-      "label": "Manchester Photonics Cluster 3",
+      "label": "Manchester \u2014 Warrington Photonics Cluster",
       "colour": "#06b6d4",
       "member_count": 22,
       "boundary": [
@@ -2283,7 +2283,7 @@
     },
     {
       "id": 12,
-      "label": "Glasgow Photonics Cluster 1",
+      "label": "Glasgow \u2014 North Lanarkshire Photonics Cluster",
       "colour": "#ec4899",
       "member_count": 23,
       "boundary": [
@@ -2474,7 +2474,7 @@
     },
     {
       "id": 13,
-      "label": "Glasgow Photonics Cluster 2",
+      "label": "Glasgow \u2014 Glasgow City Photonics Cluster",
       "colour": "#14b8a6",
       "member_count": 16,
       "boundary": [
