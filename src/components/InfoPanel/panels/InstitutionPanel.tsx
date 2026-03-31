@@ -1,7 +1,6 @@
 import type { Institution, Collaboration, EntityDetail } from '../../../types/api';
 import { EntityHeader } from '../EntityHeader';
 import { StatBlock } from '../StatBlock';
-import { TagList } from '../TagList';
 import { CollapsibleSection } from '../CollapsibleSection';
 import { TopicTreemap } from '../TopicTreemap';
 import { RelatedEntityCard } from '../RelatedEntityCard';
@@ -35,13 +34,9 @@ export function InstitutionPanel({
         <StatBlock value={inst.n_grants} label="Grants" />
       </div>
 
-      {inst.top_topics && inst.top_topics.length > 0 && (
-        <TagList label="Top Research Topics" tags={inst.top_topics} variant="primary" />
-      )}
-
       {inst.topic_breakdown && inst.topic_breakdown.length > 0 && (
         <CollapsibleSection title="Research Focus" count={inst.topic_breakdown.length} defaultOpen resetKey={inst.id}>
-          <TopicTreemap topics={inst.topic_breakdown} />
+          <TopicTreemap topics={inst.topic_breakdown} totalPublications={inst.photonics_works ?? undefined} />
         </CollapsibleSection>
       )}
 

@@ -5,6 +5,7 @@ interface TopicItem {
 
 interface Props {
   topics: TopicItem[];
+  totalPublications?: number;
 }
 
 const COLOURS = [
@@ -13,17 +14,18 @@ const COLOURS = [
   '#84cc16', '#a855f7', '#0ea5e9', '#22d3ee', '#f472b6',
 ];
 
-export function TopicTreemap({ topics }: Props) {
+export function TopicTreemap({ topics, totalPublications }: Props) {
   if (!topics || topics.length === 0) return null;
 
-  const total = topics.reduce((sum, t) => sum + t.count, 0);
+  const visibleTotal = topics.reduce((sum, t) => sum + t.count, 0);
+  const grandTotal = totalPublications || visibleTotal;
+  const otherCount = grandTotal - visibleTotal;
 
   return (
     <div className="treemap">
       {topics.map((t, i) => {
-        const pct = (t.count / total) * 100;
-        // Minimum visible size
-        const flexGrow = Math.max(t.count, total * 0.02);
+        const pct = (t.count / grandTotal) * 100;
+        const flexGrow = Math.max(t.count, grandTotal * 0.02);
         const isLarge = pct > 15;
         const isMedium = pct > 5;
 
@@ -43,6 +45,20 @@ export function TopicTreemap({ topics }: Props) {
           </div>
         );
       })}
+      {otherCount > 0 && (
+        <div
+          className="treemap-block small"
+          style={{
+            flexGrow: Math.max(otherCount, grandTotal * 0.02),
+            flexBasis: '20%',
+            backgroundColor: '#94a3b8',
+          }}
+          title={`Other topics: ${otherCount} publications (${(otherCount / grandTotal * 100).toFixed(1)}%)`}
+        >
+          <span className="treemap-label">Other</span>
+          <span className="treemap-count">{otherCount}</span>
+        </div>
+      )}
     </div>
   );
 }
