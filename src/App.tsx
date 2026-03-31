@@ -110,11 +110,24 @@ function App() {
 
   const dashboardCompanies = useMemo(() => {
     if (!allCompanies) return allCompanies;
-    if (minPatents === 0 && minGrants === 0) return allCompanies;
-    return allCompanies.filter(c =>
-      (c.patent_count || 0) >= minPatents && (c.grant_count || 0) >= minGrants
-    );
-  }, [allCompanies, minPatents, minGrants]);
+    let result = allCompanies;
+    if (selectedSectors.length > 0) {
+      result = result.filter(c => c.rtic.some(r => selectedSectors.includes(r.code)));
+    }
+    if (selectedSources.length > 0) {
+      result = result.filter(c => c.sources.some(s => selectedSources.includes(s)));
+    }
+    if (selectedStrengths.length > 0) {
+      result = result.filter(c => selectedStrengths.includes(c.data_strength));
+    }
+    if (minPatents > 0) {
+      result = result.filter(c => (c.patent_count || 0) >= minPatents);
+    }
+    if (minGrants > 0) {
+      result = result.filter(c => (c.grant_count || 0) >= minGrants);
+    }
+    return result;
+  }, [allCompanies, selectedSectors, selectedSources, selectedStrengths, minPatents, minGrants]);
 
   // Company name lookup for patent-company linking (Feature 2)
   const companyByName = useMemo(() => {
