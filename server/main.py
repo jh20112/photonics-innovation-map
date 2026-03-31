@@ -35,7 +35,7 @@ async def lifespan(app: FastAPI):
     # Auto-seed if database is empty
     with SessionLocal() as session:
         try:
-            if db_needs_seed(session):
+            if db_needs_seed(session, DATA_DIR):
                 seed_from_json(session, DATA_DIR)
         except Exception as e:
             session.rollback()

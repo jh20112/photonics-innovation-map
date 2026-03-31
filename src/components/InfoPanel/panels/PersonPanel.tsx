@@ -1,4 +1,4 @@
-import type { Person, EntityDetail, Grant } from '../../../types/api';
+import type { Person, PersonPosition, PersonEducation, EntityDetail, Grant } from '../../../types/api';
 import { EntityHeader } from '../EntityHeader';
 import { StatBlock } from '../StatBlock';
 import { TagList } from '../TagList';
@@ -27,11 +27,72 @@ function formatFunding(amount: number): string {
   return amount.toFixed(0);
 }
 
+function formatDateRange(start: string | null, end: string | null): string {
+  const s = start || '?';
+  const e = end || 'Present';
+  return `${s} — ${e}`;
+}
+
+function PositionTimeline({ positions }: { positions: PersonPosition[] }) {
+  return (
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+      {positions.map((pos, i) => (
+        <div key={i} style={{
+          borderLeft: '2px solid #d1d5db',
+          paddingLeft: 12,
+          paddingBottom: 4,
+        }}>
+          <div style={{ fontSize: 13, fontWeight: 600, color: '#1f2937' }}>
+            {pos.org_name || 'Unknown organisation'}
+          </div>
+          {pos.role_title && (
+            <div style={{ fontSize: 12, color: '#4b5563' }}>{pos.role_title}</div>
+          )}
+          {pos.department && (
+            <div style={{ fontSize: 12, color: '#6b7280', fontStyle: 'italic' }}>{pos.department}</div>
+          )}
+          <div style={{ fontSize: 11, color: '#9ca3af' }}>
+            {formatDateRange(pos.start_date, pos.end_date)}
+            {pos.city && ` · ${pos.city}`}
+            {pos.country && pos.country !== 'GB' && ` (${pos.country})`}
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function EducationList({ education }: { education: PersonEducation[] }) {
+  return (
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+      {education.map((edu, i) => (
+        <div key={i} style={{
+          borderLeft: '2px solid #d1d5db',
+          paddingLeft: 12,
+          paddingBottom: 4,
+        }}>
+          <div style={{ fontSize: 13, fontWeight: 600, color: '#1f2937' }}>
+            {edu.institution || 'Unknown institution'}
+          </div>
+          {(edu.degree || edu.field) && (
+            <div style={{ fontSize: 12, color: '#4b5563' }}>
+              {[edu.degree, edu.field].filter(Boolean).join(' — ')}
+            </div>
+          )}
+          <div style={{ fontSize: 11, color: '#9ca3af' }}>
+            {formatDateRange(edu.start_date, edu.end_date)}
+            {edu.city && ` · ${edu.city}`}
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 export function PersonPanel({ person: p, onNavigate }: Props) {
   const [grants, setGrants] = useState<Grant[] | null>(null);
   const [grantsLoading, setGrantsLoading] = useState(false);
 
-  // Load linked grants on expand
   useEffect(() => {
     setGrants(null);
   }, [p.id]);
@@ -39,7 +100,6 @@ export function PersonPanel({ person: p, onNavigate }: Props) {
   const loadGrants = () => {
     if (grants !== null || p.grant_refs.length === 0) return;
     setGrantsLoading(true);
-    // Fetch all grants and filter to this person's refs
     fetch(`${API_BASE}/grants?geocoded_only=false`)
       .then(r => r.json())
       .then((allGrants: Grant[]) => {
@@ -52,6 +112,9 @@ export function PersonPanel({ person: p, onNavigate }: Props) {
 
   const subtitleParts = [roleLabel(p.role)];
   if (p.department) subtitleParts.push(p.department);
+
+  const hasPositions = p.positions && p.positions.length > 0;
+  const hasEducation = p.education && p.education.length > 0;
 
   return (
     <>
@@ -77,23 +140,48 @@ export function PersonPanel({ person: p, onNavigate }: Props) {
         </div>
       </div>
 
-      {(p.grant_count > 0 || p.total_grant_funding_gbp > 0) && (
-        <div className="stat-row">
-          {p.grant_count > 0 && <StatBlock value={p.grant_count} label="Grants as PI" format="plain" />}
-          {p.total_grant_funding_gbp > 0 && (
-            <StatBlock value={`\u00A3${formatFunding(p.total_grant_funding_gbp)}`} label="Total Funding" format="plain" />
-          )}
-        </div>
-      )}
+      <div className="stat-row">
+        {p.grant_count > 0 && <StatBlock value={p.grant_count} label="Grants as PI" format="plain" />}
+        {p.total_grant_funding_gbp > 0 && (
+          <StatBlock value={`\u00A3${formatFunding(p.total_grant_funding_gbp)}`} label="Total Funding" format="plain" />
+        )}
+        {p.publication_count != null && p.publication_count > 0 && (
+          <StatBlock value={p.publication_count.toLocaleString()} label="Publications" format="plain" />
+        )}
+      </div>
 
       <TagList label="Data Sources" tags={p.sources.map(s => s.replace('_', ' '))} />
 
       {p.orcid && (
         <div className="info-links">
-          <a href={`https://orcid.org/${p.orcid}`} target="_blank" rel="noopener noreferrer" className="info-link">
+          <a
+            href={p.orcid.startsWith('http') ? p.orcid : `https://orcid.org/${p.orcid}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="info-link"
+          >
             ORCID Profile &#8599;
           </a>
         </div>
+      )}
+
+      {hasPositions && (
+        <CollapsibleSection
+          title={`Career History (${p.positions!.length})`}
+          resetKey={String(p.id)}
+          defaultOpen
+        >
+          <PositionTimeline positions={p.positions!} />
+        </CollapsibleSection>
+      )}
+
+      {hasEducation && (
+        <CollapsibleSection
+          title={`Education (${p.education!.length})`}
+          resetKey={String(p.id)}
+        >
+          <EducationList education={p.education!} />
+        </CollapsibleSection>
       )}
 
       {p.grant_refs.length > 0 && (

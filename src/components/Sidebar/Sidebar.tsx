@@ -31,6 +31,10 @@ interface Props {
   grantNetworkMinShared: number;
   onGrantNetworkMinSharedChange: (value: number) => void;
   grantEdgeCount: number | null;
+  minPatents: number;
+  onMinPatentsChange: (value: number) => void;
+  minGrants: number;
+  onMinGrantsChange: (value: number) => void;
   yearRange: [number, number] | null;
   onYearRangeChange: (range: [number, number] | null) => void;
 }
@@ -53,9 +57,6 @@ const LAYER_CONFIG: { key: LayerType; label: string; color: string }[] = [
   { key: 'companies', label: 'Companies', color: '#3b82f6' },
   { key: 'infrastructure', label: 'Infrastructure', color: '#8b5cf6' },
   { key: 'institutions', label: 'Research Institutions', color: '#10b981' },
-  { key: 'grants', label: 'Grants', color: '#dc2626' },
-  { key: 'patents', label: 'Patents', color: '#f59e0b' },
-  { key: 'collaborations', label: 'Collaborations', color: '#6366f1' },
   { key: 'people', label: 'People / Talent', color: '#f97316' },
 ];
 
@@ -67,6 +68,7 @@ export function Sidebar({
   heatmapSubsector, onHeatmapSubsectorChange,
   onToggleTopics, showTopics,
   grantNetworkEnabled, onToggleGrantNetwork, grantNetworkMinShared, onGrantNetworkMinSharedChange, grantEdgeCount,
+  minPatents, onMinPatentsChange, minGrants, onMinGrantsChange,
   yearRange, onYearRangeChange,
 }: Props) {
   const [collapsed, setCollapsed] = useState(false);
@@ -192,6 +194,29 @@ export function Sidebar({
                 </div>
               </div>
             )}
+            {/* Patent/Grant threshold sliders */}
+            <label className="size-metric-label" style={{ marginTop: 8 }}>
+              Min Patents: {minPatents}
+              <input
+                type="range"
+                min={0}
+                max={50}
+                value={minPatents}
+                onChange={(e) => onMinPatentsChange(Number(e.target.value))}
+                style={{ width: '100%', marginTop: 2 }}
+              />
+            </label>
+            <label className="size-metric-label" style={{ marginTop: 4 }}>
+              Min Grants: {minGrants}
+              <input
+                type="range"
+                min={0}
+                max={50}
+                value={minGrants}
+                onChange={(e) => onMinGrantsChange(Number(e.target.value))}
+                style={{ width: '100%', marginTop: 2 }}
+              />
+            </label>
           </div>
         )}
 
@@ -371,9 +396,18 @@ export function Sidebar({
           </div>
         </div>
 
-        {/* Grant Collaboration Network */}
+        {/* Collaborations */}
         <div className="sidebar-section">
-          <h3>Grant Network</h3>
+          <h3>Collaborations</h3>
+          <label className="layer-toggle">
+            <input
+              type="checkbox"
+              checked={layers.collaborations}
+              onChange={() => onToggleLayer('collaborations')}
+            />
+            <span className="layer-dot" style={{ background: '#6366f1' }} />
+            Company Collaborations
+          </label>
           <label className="layer-toggle">
             <input
               type="checkbox"
@@ -381,7 +415,7 @@ export function Sidebar({
               onChange={onToggleGrantNetwork}
             />
             <span className="layer-dot" style={{ background: '#06b6d4' }} />
-            Research collaborations
+            Grant Network
           </label>
           {grantNetworkEnabled && (
             <div className="layer-sub-control">

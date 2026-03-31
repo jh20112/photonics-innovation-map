@@ -153,8 +153,11 @@ class Person(Base):
     grant_count = Column(Integer)
     total_grant_funding_gbp = Column(Float)
     company_org = Column(String)
+    publication_count = Column(Integer)
     grant_refs = Column(JSONB)
     sources = Column(JSONB)
+    positions = Column(JSONB)   # Employment history from ORCID
+    education = Column(JSONB)   # Education history from ORCID
 
 
 class CompanyCollaboration(Base):

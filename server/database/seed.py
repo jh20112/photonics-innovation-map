@@ -33,14 +33,24 @@ _ALL_TABLES = [
 ]
 
 
-def db_needs_seed(session: Session) -> bool:
+def db_needs_seed(session: Session, data_dir: Path | None = None) -> bool:
     """Check if the database needs seeding.
 
-    Uses the data_version table as the signal — it's the last thing written
-    during a successful seed, so if it's empty, the seed never completed.
+    Returns True if:
+    - data_version is empty (never seeded or truncated), OR
+    - the stored version hash differs from the current data files (data changed)
     """
-    result = session.execute(select(DataVersion.id).limit(1)).first()
-    return result is None
+    row = session.execute(select(DataVersion).limit(1)).first()
+    if row is None:
+        return True
+    # Check if data has changed since last seed
+    src = data_dir or DATA_DIR
+    current_version = _compute_data_version(src)
+    stored_version = row[0].version
+    if current_version != stored_version:
+        print(f"  Data version changed: {stored_version} -> {current_version}")
+        return True
+    return False
 
 
 def _normalize_name(name: str) -> str:
@@ -237,11 +247,16 @@ def get_data_version(session: Session) -> str:
 
 
 if __name__ == "__main__":
+    import sys
+
+    force = "--force" in sys.argv
     print("Running migrations...")
     run_migrations()
-    print("Checking if seed is needed...")
+
     with SessionLocal() as session:
-        if db_needs_seed(session):
+        if force or db_needs_seed(session):
+            if force:
+                print("Force re-seed requested...")
             seed_from_json(session)
         else:
-            print("Database already seeded. To re-seed, truncate tables first.")
+            print("Database already seeded and up to date. Use --force to re-seed.")

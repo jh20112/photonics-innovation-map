@@ -35,6 +35,8 @@ function App() {
   // Company size metric
   const [companySizeMetric, setCompanySizeMetric] = useState<CompanySizeMetric>('off');
   const [growthPeriodMonths, setGrowthPeriodMonths] = useState<number | null>(null);
+  const [minPatents, setMinPatents] = useState(0);
+  const [minGrants, setMinGrants] = useState(0);
 
   // Subsector heatmap
   const [heatmapSubsector, setHeatmapSubsector] = useState<string | null>(null);
@@ -90,6 +92,23 @@ function App() {
 
   // Dashboard edges — always loaded for overview charts
   const { data: dashboardEdges } = useGrantEdges(true, 3);
+
+  // Filter companies by min patent/grant thresholds
+  const filteredByThresholds = useMemo(() => {
+    if (!companies) return companies;
+    if (minPatents === 0 && minGrants === 0) return companies;
+    return companies.filter(c =>
+      (c.patent_count || 0) >= minPatents && (c.grant_count || 0) >= minGrants
+    );
+  }, [companies, minPatents, minGrants]);
+
+  const dashboardCompanies = useMemo(() => {
+    if (!allCompanies) return allCompanies;
+    if (minPatents === 0 && minGrants === 0) return allCompanies;
+    return allCompanies.filter(c =>
+      (c.patent_count || 0) >= minPatents && (c.grant_count || 0) >= minGrants
+    );
+  }, [allCompanies, minPatents, minGrants]);
 
   // Company name lookup for patent-company linking (Feature 2)
   const companyByName = useMemo(() => {
@@ -234,6 +253,10 @@ function App() {
         grantNetworkMinShared={grantNetworkMinShared}
         onGrantNetworkMinSharedChange={setGrantNetworkMinShared}
         grantEdgeCount={grantEdges?.length ?? null}
+        minPatents={minPatents}
+        onMinPatentsChange={setMinPatents}
+        minGrants={minGrants}
+        onMinGrantsChange={setMinGrants}
         heatmapSubsector={heatmapSubsector}
         onHeatmapSubsectorChange={setHeatmapSubsector}
         yearRange={yearRange}
@@ -250,7 +273,7 @@ function App() {
         {viewMode === 'map' && (
           <>
             <InnovationMap
-              companies={layers.companies ? companies : null}
+              companies={layers.companies ? filteredByThresholds : null}
               infrastructure={layers.infrastructure ? infrastructure : null}
               institutions={layers.institutions ? institutions : null}
               grants={layers.grants ? filteredGrants : null}
@@ -289,7 +312,7 @@ function App() {
         {/* Dashboard view */}
         {viewMode === 'dashboard' && (
           <Dashboard
-            companies={allCompanies}
+            companies={dashboardCompanies}
             institutions={allInstitutions}
             grants={allGrants}
             patents={allPatents}

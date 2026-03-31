@@ -104,6 +104,26 @@ export interface Patent {
   latest_filing: string;
 }
 
+export interface PersonPosition {
+  org_name: string | null;
+  city: string | null;
+  country: string | null;
+  role_title: string | null;
+  department: string | null;
+  start_date: string | null;
+  end_date: string | null;
+}
+
+export interface PersonEducation {
+  institution: string | null;
+  city: string | null;
+  country: string | null;
+  degree: string | null;
+  field: string | null;
+  start_date: string | null;
+  end_date: string | null;
+}
+
 export interface Person {
   id: number;
   name: string;
@@ -117,8 +137,11 @@ export interface Person {
   grant_refs: string[];
   grant_count: number;
   total_grant_funding_gbp: number;
+  publication_count: number | null;
   company_org: string | null;
   sources: string[];
+  positions: PersonPosition[] | null;
+  education: PersonEducation[] | null;
 }
 
 export interface GrantEdge {
