@@ -63188,14 +63188,231 @@
     "photonics_score": 72,
     "photonics_rationale": "CoMind has a strong photonics identity centered on proprietary optical sensor technology and laser systems for non-invasive neural monitoring. The company's flagship product explicitly uses low-power lasers and infrared light technology as core value propositions, placing photonics (specifically biophotonics and optical sensing) at the heart of their neuromonitoring devices. Multiple evidence sources confirm this: dealroom tags reference 'optical sensors', the technology description highlights 'photonics system' and 'laser light', and the product uses infrared sensors for measuring cerebral parameters\u2014all representing clear biophotonics applications within the medical optics domain.",
     "is_startup": "Yes",
-    "emp_growth_pct": null,
-    "emp_growth_abs": null,
-    "emp_earliest_count": null,
-    "emp_latest_count": null,
-    "emp_earliest_date": null,
-    "emp_latest_date": null,
-    "emp_timeseries": null,
+    "emp_growth_pct": 690.0,
+    "emp_growth_abs": 69,
+    "emp_earliest_count": 10,
+    "emp_latest_count": 79,
+    "emp_earliest_date": "2020-11",
+    "emp_latest_date": "2026-03",
+    "emp_timeseries": [
+      {
+        "date": "2020-11",
+        "count": 10
+      },
+      {
+        "date": "2021-01",
+        "count": 11
+      },
+      {
+        "date": "2021-04",
+        "count": 18
+      },
+      {
+        "date": "2021-08",
+        "count": 19
+      },
+      {
+        "date": "2021-09",
+        "count": 21
+      },
+      {
+        "date": "2022-01",
+        "count": 26
+      },
+      {
+        "date": "2022-02",
+        "count": 26
+      },
+      {
+        "date": "2022-03",
+        "count": 26
+      },
+      {
+        "date": "2022-04",
+        "count": 29
+      },
+      {
+        "date": "2022-05",
+        "count": 31
+      },
+      {
+        "date": "2022-06",
+        "count": 35
+      },
+      {
+        "date": "2022-07",
+        "count": 41
+      },
+      {
+        "date": "2022-08",
+        "count": 42
+      },
+      {
+        "date": "2022-09",
+        "count": 40
+      },
+      {
+        "date": "2022-10",
+        "count": 45
+      },
+      {
+        "date": "2022-11",
+        "count": 48
+      },
+      {
+        "date": "2022-12",
+        "count": 49
+      },
+      {
+        "date": "2023-01",
+        "count": 51
+      },
+      {
+        "date": "2023-04",
+        "count": 54
+      },
+      {
+        "date": "2023-05",
+        "count": 53
+      },
+      {
+        "date": "2023-06",
+        "count": 53
+      },
+      {
+        "date": "2023-07",
+        "count": 53
+      },
+      {
+        "date": "2023-08",
+        "count": 51
+      },
+      {
+        "date": "2023-09",
+        "count": 54
+      },
+      {
+        "date": "2023-10",
+        "count": 53
+      },
+      {
+        "date": "2023-11",
+        "count": 60
+      },
+      {
+        "date": "2023-12",
+        "count": 61
+      },
+      {
+        "date": "2024-01",
+        "count": 58
+      },
+      {
+        "date": "2024-02",
+        "count": 61
+      },
+      {
+        "date": "2024-03",
+        "count": 60
+      },
+      {
+        "date": "2024-04",
+        "count": 59
+      },
+      {
+        "date": "2024-05",
+        "count": 60
+      },
+      {
+        "date": "2024-06",
+        "count": 61
+      },
+      {
+        "date": "2024-07",
+        "count": 61
+      },
+      {
+        "date": "2024-08",
+        "count": 59
+      },
+      {
+        "date": "2024-09",
+        "count": 59
+      },
+      {
+        "date": "2024-10",
+        "count": 58
+      },
+      {
+        "date": "2024-11",
+        "count": 59
+      },
+      {
+        "date": "2024-12",
+        "count": 61
+      },
+      {
+        "date": "2025-01",
+        "count": 60
+      },
+      {
+        "date": "2025-02",
+        "count": 62
+      },
+      {
+        "date": "2025-03",
+        "count": 63
+      },
+      {
+        "date": "2025-04",
+        "count": 63
+      },
+      {
+        "date": "2025-05",
+        "count": 60
+      },
+      {
+        "date": "2025-06",
+        "count": 60
+      },
+      {
+        "date": "2025-07",
+        "count": 67
+      },
+      {
+        "date": "2025-08",
+        "count": 67
+      },
+      {
+        "date": "2025-09",
+        "count": 69
+      },
+      {
+        "date": "2025-10",
+        "count": 69
+      },
+      {
+        "date": "2025-11",
+        "count": 71
+      },
+      {
+        "date": "2025-12",
+        "count": 73
+      },
+      {
+        "date": "2026-01",
+        "count": 73
+      },
+      {
+        "date": "2026-02",
+        "count": 76
+      },
+      {
+        "date": "2026-03",
+        "count": 79
+      }
+    ],
     "data_strength": "Moderate",
-    "data_strength_score": 37
+    "data_strength_score": 44
   }
 ]
