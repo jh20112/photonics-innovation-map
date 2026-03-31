@@ -66,7 +66,7 @@ export function InnovationMap({
   clusterData, companySizeMetric, growthPeriodMonths, grantEdges,
   onSelectCompany, onSelectInfrastructure, onSelectInstitution,
   onSelectGrant, onSelectPatent, onSelectPerson, onSelectCluster,
-  heatmapSubsector, allCompanies, institutionPeriodYears,
+  heatmapSubsector, allCompanies, institutionPeriodYears, institutionSizeMetric,
   selectedEntity, flyTo, onFlyToDone,
 }: Props) {
   const [zoom, setZoom] = useState(MAP_CONFIG.defaultZoom);
