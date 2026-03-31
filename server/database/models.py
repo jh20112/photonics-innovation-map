@@ -100,6 +100,7 @@ class Institution(Base):
     avg_fwci = Column(Float)
     top_topics = Column(JSONB)
     publications_by_year = Column(JSONB)
+    topic_breakdown = Column(JSONB)
     cluster_id = Column(Integer)
     n_grants = Column(Integer)
     n_collaborators = Column(Integer)

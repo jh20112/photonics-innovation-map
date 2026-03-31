@@ -52,6 +52,48 @@
       "2025": 34,
       "2026": 7
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 479
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 109
+      },
+      {
+        "topic": "Photonic Crystal and Fiber Optics",
+        "count": 82
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 71
+      },
+      {
+        "topic": "Metamaterials and Metasurfaces Applications",
+        "count": 46
+      },
+      {
+        "topic": "Strong Light-Matter Interactions",
+        "count": 40
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 32
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 28
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 27
+      },
+      {
+        "topic": "Phase-change materials and chalcogenides",
+        "count": 23
+      }
+    ],
     "cluster_id": 1,
     "n_grants": 202,
     "n_collaborators": 677
@@ -111,6 +153,48 @@
       "2025": 31,
       "2026": 7
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 214
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 194
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 34
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 28
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 28
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 23
+      },
+      {
+        "topic": "Orbital Angular Momentum in Optics",
+        "count": 22
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 20
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 16
+      },
+      {
+        "topic": "Advanced Photonic Communication Systems",
+        "count": 15
+      }
+    ],
     "cluster_id": 2,
     "n_grants": 110,
     "n_collaborators": 456
@@ -166,6 +250,48 @@
       "2025": 31,
       "2026": 12
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 107
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 96
+      },
+      {
+        "topic": "Spectroscopy and Laser Applications",
+        "count": 34
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 27
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 24
+      },
+      {
+        "topic": "Strong Light-Matter Interactions",
+        "count": 20
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 17
+      },
+      {
+        "topic": "Semiconductor Quantum Structures and Devices",
+        "count": 17
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 15
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 15
+      }
+    ],
     "cluster_id": 4,
     "n_grants": 183,
     "n_collaborators": 767
@@ -225,6 +351,48 @@
       "2025": 27,
       "2026": 7
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 79
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 68
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 53
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 45
+      },
+      {
+        "topic": "Metamaterials and Metasurfaces Applications",
+        "count": 30
+      },
+      {
+        "topic": "Topological Materials and Phenomena",
+        "count": 22
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 19
+      },
+      {
+        "topic": "Strong Light-Matter Interactions",
+        "count": 14
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 13
+      },
+      {
+        "topic": "Quantum optics and atomic interactions",
+        "count": 12
+      }
+    ],
     "cluster_id": 0,
     "n_grants": 121,
     "n_collaborators": 548
@@ -275,6 +443,48 @@
       "2024": 10,
       "2025": 7
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 197
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 141
+      },
+      {
+        "topic": "Strong Light-Matter Interactions",
+        "count": 25
+      },
+      {
+        "topic": "Orbital Angular Momentum in Optics",
+        "count": 23
+      },
+      {
+        "topic": "Semiconductor Quantum Structures and Devices",
+        "count": 11
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 11
+      },
+      {
+        "topic": "Metamaterials and Metasurfaces Applications",
+        "count": 9
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 8
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 8
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 7
+      }
+    ],
     "cluster_id": 0,
     "n_grants": 72,
     "n_collaborators": 341
@@ -325,6 +535,48 @@
       "2025": 14,
       "2026": 3
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 130
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 118
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 65
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 36
+      },
+      {
+        "topic": "Orbital Angular Momentum in Optics",
+        "count": 24
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 22
+      },
+      {
+        "topic": "Diamond and Carbon-based Materials Research",
+        "count": 18
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 16
+      },
+      {
+        "topic": "Advanced Photonic Communication Systems",
+        "count": 11
+      },
+      {
+        "topic": "Quantum Computing Algorithms and Architecture",
+        "count": 6
+      }
+    ],
     "cluster_id": 2,
     "n_grants": 123,
     "n_collaborators": 582
@@ -379,6 +631,48 @@
       "2025": 31,
       "2026": 5
     },
+    "topic_breakdown": [
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 69
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 68
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 53
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 43
+      },
+      {
+        "topic": "Phase-change materials and chalcogenides",
+        "count": 25
+      },
+      {
+        "topic": "Quantum optics and atomic interactions",
+        "count": 23
+      },
+      {
+        "topic": "Strong Light-Matter Interactions",
+        "count": 16
+      },
+      {
+        "topic": "Diamond and Carbon-based Materials Research",
+        "count": 13
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 10
+      },
+      {
+        "topic": "Liquid Crystal Research Advancements",
+        "count": 9
+      }
+    ],
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
@@ -439,6 +733,48 @@
       "2025": 19,
       "2026": 8
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 150
+      },
+      {
+        "topic": "Topological Materials and Phenomena",
+        "count": 37
+      },
+      {
+        "topic": "Advanced Photonic Communication Systems",
+        "count": 34
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 33
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 24
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 24
+      },
+      {
+        "topic": "Metamaterials and Metasurfaces Applications",
+        "count": 14
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 12
+      },
+      {
+        "topic": "Terahertz technology and applications",
+        "count": 9
+      },
+      {
+        "topic": "Orbital Angular Momentum in Optics",
+        "count": 7
+      }
+    ],
     "cluster_id": 1,
     "n_grants": 127,
     "n_collaborators": 688
@@ -493,6 +829,48 @@
       "2025": 5,
       "2026": 3
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic Crystal and Fiber Optics",
+        "count": 142
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 40
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 35
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 31
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 25
+      },
+      {
+        "topic": "Advanced Fiber Optic Sensors",
+        "count": 10
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 10
+      },
+      {
+        "topic": "Laser-Matter Interactions and Applications",
+        "count": 7
+      },
+      {
+        "topic": "Quantum optics and atomic interactions",
+        "count": 7
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 7
+      }
+    ],
     "cluster_id": 0,
     "n_grants": 61,
     "n_collaborators": 417
@@ -549,6 +927,48 @@
       "2025": 20,
       "2026": 4
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 70
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 62
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 26
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 16
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 14
+      },
+      {
+        "topic": "GaN-based semiconductor devices and materials",
+        "count": 9
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 7
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 6
+      },
+      {
+        "topic": "Laser-Plasma Interactions and Diagnostics",
+        "count": 5
+      },
+      {
+        "topic": "Nonlinear Photonic Systems",
+        "count": 5
+      }
+    ],
     "cluster_id": 0,
     "n_grants": 118,
     "n_collaborators": 590
@@ -602,6 +1022,48 @@
       "2025": 10,
       "2026": 6
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 76
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 52
+      },
+      {
+        "topic": "Strong Light-Matter Interactions",
+        "count": 48
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 21
+      },
+      {
+        "topic": "Semiconductor Quantum Structures and Devices",
+        "count": 16
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 11
+      },
+      {
+        "topic": "2D Materials and Applications",
+        "count": 7
+      },
+      {
+        "topic": "Particle Detector Development and Performance",
+        "count": 5
+      },
+      {
+        "topic": "Topological Materials and Phenomena",
+        "count": 4
+      },
+      {
+        "topic": "Mechanical and Optical Resonators",
+        "count": 3
+      }
+    ],
     "cluster_id": 0,
     "n_grants": 112,
     "n_collaborators": 530
@@ -665,6 +1127,48 @@
       "2025": 11,
       "2026": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 51
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 25
+      },
+      {
+        "topic": "Photonic Crystal and Fiber Optics",
+        "count": 17
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 14
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 14
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 11
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 10
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 10
+      },
+      {
+        "topic": "Metamaterials and Metasurfaces Applications",
+        "count": 9
+      },
+      {
+        "topic": "Laser Material Processing Techniques",
+        "count": 7
+      }
+    ],
     "cluster_id": 2,
     "n_grants": 106,
     "n_collaborators": 657
@@ -717,6 +1221,48 @@
       "2025": 15,
       "2026": 4
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 49
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 44
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 27
+      },
+      {
+        "topic": "Phase-change materials and chalcogenides",
+        "count": 19
+      },
+      {
+        "topic": "Strong Light-Matter Interactions",
+        "count": 13
+      },
+      {
+        "topic": "Metamaterials and Metasurfaces Applications",
+        "count": 11
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 10
+      },
+      {
+        "topic": "Random lasers and scattering media",
+        "count": 9
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 6
+      },
+      {
+        "topic": "Topological Materials and Phenomena",
+        "count": 4
+      }
+    ],
     "cluster_id": 0,
     "n_grants": 50,
     "n_collaborators": 391
@@ -767,6 +1313,48 @@
       "2024": 6,
       "2025": 11
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 70
+      },
+      {
+        "topic": "Spectroscopy and Laser Applications",
+        "count": 49
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 14
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 10
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 8
+      },
+      {
+        "topic": "Laser Material Processing Techniques",
+        "count": 7
+      },
+      {
+        "topic": "Topological Materials and Phenomena",
+        "count": 6
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 6
+      },
+      {
+        "topic": "Terahertz technology and applications",
+        "count": 4
+      },
+      {
+        "topic": "Semiconductor Quantum Structures and Devices",
+        "count": 4
+      }
+    ],
     "cluster_id": 0,
     "n_grants": 51,
     "n_collaborators": 268
@@ -816,6 +1404,48 @@
       "2024": 6,
       "2025": 7
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 107
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 42
+      },
+      {
+        "topic": "Semiconductor Quantum Structures and Devices",
+        "count": 11
+      },
+      {
+        "topic": "Silicon Nanostructures and Photoluminescence",
+        "count": 7
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 7
+      },
+      {
+        "topic": "Perovskite Materials and Applications",
+        "count": 3
+      },
+      {
+        "topic": "Radiation Detection and Scintillator Technologies",
+        "count": 2
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 2
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 2
+      },
+      {
+        "topic": "Genetics, Bioinformatics, and Biomedical Research",
+        "count": 2
+      }
+    ],
     "cluster_id": 0,
     "n_grants": 26,
     "n_collaborators": 265
@@ -864,6 +1494,48 @@
       "2025": 11,
       "2026": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 56
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 37
+      },
+      {
+        "topic": "Advanced Fiber Optic Sensors",
+        "count": 24
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 13
+      },
+      {
+        "topic": "Advanced Photonic Communication Systems",
+        "count": 10
+      },
+      {
+        "topic": "Laser Material Processing Techniques",
+        "count": 8
+      },
+      {
+        "topic": "Random lasers and scattering media",
+        "count": 8
+      },
+      {
+        "topic": "Advanced Optical Sensing Technologies",
+        "count": 7
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 6
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 4
+      }
+    ],
     "cluster_id": 1,
     "n_grants": 36,
     "n_collaborators": 339
@@ -917,6 +1589,48 @@
       "2025": 5,
       "2026": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 47
+      },
+      {
+        "topic": "Photonic Crystal and Fiber Optics",
+        "count": 14
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 11
+      },
+      {
+        "topic": "Phase-change materials and chalcogenides",
+        "count": 9
+      },
+      {
+        "topic": "Semiconductor Quantum Structures and Devices",
+        "count": 7
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 6
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 6
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 6
+      },
+      {
+        "topic": "Cold Atom Physics and Bose-Einstein Condensates",
+        "count": 5
+      },
+      {
+        "topic": "Quantum Mechanics and Non-Hermitian Physics",
+        "count": 4
+      }
+    ],
     "cluster_id": 4,
     "n_grants": 12,
     "n_collaborators": 300
@@ -967,6 +1681,48 @@
       "2025": 36,
       "2026": 17
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 40
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 14
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 13
+      },
+      {
+        "topic": "Advanced Photonic Communication Systems",
+        "count": 12
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 10
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 9
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 7
+      },
+      {
+        "topic": "Metamaterials and Metasurfaces Applications",
+        "count": 3
+      },
+      {
+        "topic": "Quantum Dots Synthesis And Properties",
+        "count": 3
+      },
+      {
+        "topic": "Advanced Fiber Optic Sensors",
+        "count": 3
+      }
+    ],
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
@@ -1012,6 +1768,48 @@
       "2025": 10,
       "2026": 6
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 36
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 21
+      },
+      {
+        "topic": "Topological Materials and Phenomena",
+        "count": 16
+      },
+      {
+        "topic": "Diamond and Carbon-based Materials Research",
+        "count": 7
+      },
+      {
+        "topic": "Semiconductor Quantum Structures and Devices",
+        "count": 6
+      },
+      {
+        "topic": "Strong Light-Matter Interactions",
+        "count": 6
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 6
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 6
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 4
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 3
+      }
+    ],
     "cluster_id": 0,
     "n_grants": 86,
     "n_collaborators": 344
@@ -1054,6 +1852,48 @@
       "2025": 2,
       "2026": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 52
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 24
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 13
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 9
+      },
+      {
+        "topic": "Orbital Angular Momentum in Optics",
+        "count": 4
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 4
+      },
+      {
+        "topic": "Metamaterials and Metasurfaces Applications",
+        "count": 3
+      },
+      {
+        "topic": "2D Materials and Applications",
+        "count": 3
+      },
+      {
+        "topic": "Optical Coatings and Gratings",
+        "count": 3
+      },
+      {
+        "topic": "Molecular Junctions and Nanostructures",
+        "count": 3
+      }
+    ],
     "cluster_id": 0,
     "n_grants": 36,
     "n_collaborators": 310
@@ -1095,6 +1935,48 @@
       "2024": 10,
       "2025": 4
     },
+    "topic_breakdown": [
+      {
+        "topic": "Metamaterials and Metasurfaces Applications",
+        "count": 27
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 20
+      },
+      {
+        "topic": "Topological Materials and Phenomena",
+        "count": 17
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 17
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 9
+      },
+      {
+        "topic": "Advanced Fiber Optic Sensors",
+        "count": 4
+      },
+      {
+        "topic": "Quantum optics and atomic interactions",
+        "count": 2
+      },
+      {
+        "topic": "Analytical Chemistry and Sensors",
+        "count": 2
+      },
+      {
+        "topic": "Orbital Angular Momentum in Optics",
+        "count": 2
+      },
+      {
+        "topic": "Phase-change materials and chalcogenides",
+        "count": 2
+      }
+    ],
     "cluster_id": 4,
     "n_grants": 28,
     "n_collaborators": 310
@@ -1143,6 +2025,48 @@
       "2025": 7,
       "2026": 2
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 21
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 12
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 8
+      },
+      {
+        "topic": "Nanowire Synthesis and Applications",
+        "count": 7
+      },
+      {
+        "topic": "2D Materials and Applications",
+        "count": 6
+      },
+      {
+        "topic": "Perovskite Materials and Applications",
+        "count": 6
+      },
+      {
+        "topic": "Strong Light-Matter Interactions",
+        "count": 4
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 4
+      },
+      {
+        "topic": "Metamaterials and Metasurfaces Applications",
+        "count": 4
+      },
+      {
+        "topic": "Silicon Nanostructures and Photoluminescence",
+        "count": 4
+      }
+    ],
     "cluster_id": 0,
     "n_grants": 84,
     "n_collaborators": 401
@@ -1187,6 +2111,48 @@
       "2025": 3,
       "2026": 3
     },
+    "topic_breakdown": [
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 37
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 22
+      },
+      {
+        "topic": "Orbital Angular Momentum in Optics",
+        "count": 12
+      },
+      {
+        "topic": "Metamaterials and Metasurfaces Applications",
+        "count": 6
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 6
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 3
+      },
+      {
+        "topic": "Quantum Dots Synthesis And Properties",
+        "count": 2
+      },
+      {
+        "topic": "Nonlinear Optical Materials Studies",
+        "count": 2
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 2
+      },
+      {
+        "topic": "Advanced Fluorescence Microscopy Techniques",
+        "count": 1
+      }
+    ],
     "cluster_id": 0,
     "n_grants": 24,
     "n_collaborators": 239
@@ -1230,6 +2196,48 @@
       "2024": 1,
       "2025": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 36
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 26
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 7
+      },
+      {
+        "topic": "Photonic Crystal and Fiber Optics",
+        "count": 6
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 4
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 4
+      },
+      {
+        "topic": "Orbital Angular Momentum in Optics",
+        "count": 3
+      },
+      {
+        "topic": "Adaptive optics and wavefront sensing",
+        "count": 2
+      },
+      {
+        "topic": "Topological Materials and Phenomena",
+        "count": 2
+      },
+      {
+        "topic": "Chalcogenide Semiconductor Thin Films",
+        "count": 1
+      }
+    ],
     "cluster_id": 2,
     "n_grants": 12,
     "n_collaborators": 199
@@ -1268,6 +2276,48 @@
       "2025": 1,
       "2026": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 41
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 20
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 8
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 8
+      },
+      {
+        "topic": "Quantum Computing Algorithms and Architecture",
+        "count": 4
+      },
+      {
+        "topic": "Diamond and Carbon-based Materials Research",
+        "count": 4
+      },
+      {
+        "topic": "Semiconductor Quantum Structures and Devices",
+        "count": 2
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 2
+      },
+      {
+        "topic": "Metamaterials and Metasurfaces Applications",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Optical Sensing Technologies",
+        "count": 1
+      }
+    ],
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
@@ -1307,6 +2357,48 @@
       "2025": 6,
       "2026": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 19
+      },
+      {
+        "topic": "Near-Field Optical Microscopy",
+        "count": 18
+      },
+      {
+        "topic": "Advanced Photonic Communication Systems",
+        "count": 17
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 5
+      },
+      {
+        "topic": "Orbital Angular Momentum in Optics",
+        "count": 4
+      },
+      {
+        "topic": "Optical Coherence Tomography Applications",
+        "count": 3
+      },
+      {
+        "topic": "Advanced Fiber Optic Sensors",
+        "count": 2
+      },
+      {
+        "topic": "Chaos-based Image/Signal Encryption",
+        "count": 2
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 2
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 2
+      }
+    ],
     "cluster_id": 0,
     "n_grants": 7,
     "n_collaborators": 129
@@ -1354,6 +2446,48 @@
       "2021": 2,
       "2023": 3
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 57
+      },
+      {
+        "topic": "Phase-change materials and chalcogenides",
+        "count": 4
+      },
+      {
+        "topic": "Photonic Crystal and Fiber Optics",
+        "count": 3
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 3
+      },
+      {
+        "topic": "Spectroscopy and Laser Applications",
+        "count": 3
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 2
+      },
+      {
+        "topic": "Concrete Corrosion and Durability",
+        "count": 2
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 2
+      },
+      {
+        "topic": "Thermal Radiation and Cooling Technologies",
+        "count": 1
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 1
+      }
+    ],
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
@@ -1401,6 +2535,48 @@
       "2024": 1,
       "2025": 2
     },
+    "topic_breakdown": [
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 29
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 18
+      },
+      {
+        "topic": "Semiconductor Quantum Structures and Devices",
+        "count": 13
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 8
+      },
+      {
+        "topic": "Strong Light-Matter Interactions",
+        "count": 4
+      },
+      {
+        "topic": "Advanced Optical Sensing Technologies",
+        "count": 2
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 2
+      },
+      {
+        "topic": "Chaos-based Image/Signal Encryption",
+        "count": 1
+      },
+      {
+        "topic": "Quantum and electron transport phenomena",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Fiber Optic Sensors",
+        "count": 1
+      }
+    ],
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
@@ -1448,6 +2624,48 @@
       "2024": 6,
       "2025": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Advanced Photonic Communication Systems",
+        "count": 20
+      },
+      {
+        "topic": "Optical Coherence Tomography Applications",
+        "count": 10
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 10
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 8
+      },
+      {
+        "topic": "Advanced Fiber Optic Sensors",
+        "count": 5
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 4
+      },
+      {
+        "topic": "Full-Duplex Wireless Communications",
+        "count": 4
+      },
+      {
+        "topic": "graph theory and CDMA systems",
+        "count": 3
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 3
+      },
+      {
+        "topic": "Sparse and Compressive Sensing Techniques",
+        "count": 2
+      }
+    ],
     "cluster_id": 0,
     "n_grants": 4,
     "n_collaborators": 6
@@ -1497,6 +2715,48 @@
       "2022": 3,
       "2025": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 20
+      },
+      {
+        "topic": "Adaptive optics and wavefront sensing",
+        "count": 8
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 8
+      },
+      {
+        "topic": "Quantum optics and atomic interactions",
+        "count": 5
+      },
+      {
+        "topic": "Advanced Fluorescence Microscopy Techniques",
+        "count": 4
+      },
+      {
+        "topic": "Strong Light-Matter Interactions",
+        "count": 3
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 3
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 3
+      },
+      {
+        "topic": "Terahertz technology and applications",
+        "count": 3
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 2
+      }
+    ],
     "cluster_id": 0,
     "n_grants": 26,
     "n_collaborators": 259
@@ -1543,6 +2803,48 @@
       "2025": 3,
       "2026": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 19
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 9
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 6
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 5
+      },
+      {
+        "topic": "Mechanical and Optical Resonators",
+        "count": 4
+      },
+      {
+        "topic": "Orbital Angular Momentum in Optics",
+        "count": 3
+      },
+      {
+        "topic": "Quantum Mechanics and Applications",
+        "count": 3
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 3
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 3
+      },
+      {
+        "topic": "Near-Field Optical Microscopy",
+        "count": 2
+      }
+    ],
     "cluster_id": 0,
     "n_grants": 40,
     "n_collaborators": 297
@@ -1587,6 +2889,48 @@
       "2024": 1,
       "2025": 7
     },
+    "topic_breakdown": [
+      {
+        "topic": "Advanced Optical Sensing Technologies",
+        "count": 19
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 6
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 6
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 5
+      },
+      {
+        "topic": "Photonic Crystal and Fiber Optics",
+        "count": 3
+      },
+      {
+        "topic": "Liquid Crystal Research Advancements",
+        "count": 2
+      },
+      {
+        "topic": "Random lasers and scattering media",
+        "count": 2
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 2
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 2
+      },
+      {
+        "topic": "Advanced Fiber Optic Sensors",
+        "count": 2
+      }
+    ],
     "cluster_id": 7,
     "n_grants": 36,
     "n_collaborators": 183
@@ -1632,6 +2976,48 @@
       "2025": 3,
       "2026": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 11
+      },
+      {
+        "topic": "Advanced Photonic Communication Systems",
+        "count": 6
+      },
+      {
+        "topic": "Metamaterials and Metasurfaces Applications",
+        "count": 4
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 4
+      },
+      {
+        "topic": "Spectroscopy and Laser Applications",
+        "count": 4
+      },
+      {
+        "topic": "Nanofabrication and Lithography Techniques",
+        "count": 4
+      },
+      {
+        "topic": "Particle Detector Development and Performance",
+        "count": 3
+      },
+      {
+        "topic": "Laser-Plasma Interactions and Diagnostics",
+        "count": 3
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 3
+      },
+      {
+        "topic": "Laser Design and Applications",
+        "count": 3
+      }
+    ],
     "cluster_id": 5,
     "n_grants": 10,
     "n_collaborators": 135
@@ -1672,6 +3058,48 @@
       "2025": 4,
       "2026": 3
     },
+    "topic_breakdown": [
+      {
+        "topic": "Topological Materials and Phenomena",
+        "count": 10
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 7
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 7
+      },
+      {
+        "topic": "Terahertz technology and applications",
+        "count": 4
+      },
+      {
+        "topic": "Particle Detector Development and Performance",
+        "count": 4
+      },
+      {
+        "topic": "Gyrotron and Vacuum Electronics Research",
+        "count": 4
+      },
+      {
+        "topic": "Quantum Mechanics and Non-Hermitian Physics",
+        "count": 3
+      },
+      {
+        "topic": "Near-Field Optical Microscopy",
+        "count": 3
+      },
+      {
+        "topic": "Advanced Semiconductor Detectors and Materials",
+        "count": 2
+      },
+      {
+        "topic": "Mechanical and Optical Resonators",
+        "count": 2
+      }
+    ],
     "cluster_id": 0,
     "n_grants": 23,
     "n_collaborators": 344
@@ -1717,6 +3145,48 @@
       "2025": 5,
       "2026": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 22
+      },
+      {
+        "topic": "Photonic Crystal and Fiber Optics",
+        "count": 4
+      },
+      {
+        "topic": "Diamond and Carbon-based Materials Research",
+        "count": 2
+      },
+      {
+        "topic": "Advanced Semiconductor Detectors and Materials",
+        "count": 2
+      },
+      {
+        "topic": "Nanowire Synthesis and Applications",
+        "count": 2
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 2
+      },
+      {
+        "topic": "Porphyrin and Phthalocyanine Chemistry",
+        "count": 2
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 2
+      },
+      {
+        "topic": "Advanced Optical Sensing Technologies",
+        "count": 1
+      },
+      {
+        "topic": "Terahertz technology and applications",
+        "count": 1
+      }
+    ],
     "cluster_id": 0,
     "n_grants": 56,
     "n_collaborators": 304
@@ -1750,6 +3220,48 @@
       "2025": 6,
       "2026": 3
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 12
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 8
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 7
+      },
+      {
+        "topic": "Metamaterials and Metasurfaces Applications",
+        "count": 4
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 4
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 3
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 3
+      },
+      {
+        "topic": "Topological Materials and Phenomena",
+        "count": 2
+      },
+      {
+        "topic": "Phase-change materials and chalcogenides",
+        "count": 1
+      },
+      {
+        "topic": "Gas Sensing Nanomaterials and Sensors",
+        "count": 1
+      }
+    ],
     "cluster_id": 1,
     "n_grants": 3,
     "n_collaborators": 33
@@ -1791,6 +3303,48 @@
       "2024": 1,
       "2025": 2
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 14
+      },
+      {
+        "topic": "Random lasers and scattering media",
+        "count": 10
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 8
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 3
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 2
+      },
+      {
+        "topic": "Topological Materials and Phenomena",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Optical Sensing Technologies",
+        "count": 1
+      },
+      {
+        "topic": "Terahertz technology and applications",
+        "count": 1
+      },
+      {
+        "topic": "Dark Matter and Cosmic Phenomena",
+        "count": 1
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 1
+      }
+    ],
     "cluster_id": 0,
     "n_grants": 21,
     "n_collaborators": 288
@@ -1835,6 +3389,48 @@
       "2021": 1,
       "2022": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Optical Network Technologies",
+        "count": 12
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 7
+      },
+      {
+        "topic": "Advanced Optical Network Technologies",
+        "count": 5
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 5
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 3
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 3
+      },
+      {
+        "topic": "Advanced Photonic Communication Systems",
+        "count": 2
+      },
+      {
+        "topic": "Photonic Crystal and Fiber Optics",
+        "count": 2
+      },
+      {
+        "topic": "Topological Materials and Phenomena",
+        "count": 1
+      },
+      {
+        "topic": "Quantum Mechanics and Non-Hermitian Physics",
+        "count": 1
+      }
+    ],
     "cluster_id": 15,
     "n_grants": 7,
     "n_collaborators": 6
@@ -1873,6 +3469,48 @@
       "2025": 5,
       "2026": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 15
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 4
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 3
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 3
+      },
+      {
+        "topic": "Cold Atom Physics and Bose-Einstein Condensates",
+        "count": 3
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 2
+      },
+      {
+        "topic": "2D Materials and Applications",
+        "count": 1
+      },
+      {
+        "topic": "Superconducting and THz Device Technology",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Photonic Communication Systems",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Fiber Optic Sensors",
+        "count": 1
+      }
+    ],
     "cluster_id": 2,
     "n_grants": 55,
     "n_collaborators": 642
@@ -1909,6 +3547,48 @@
       "2025": 1,
       "2026": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 10
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 7
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 6
+      },
+      {
+        "topic": "Orbital Angular Momentum in Optics",
+        "count": 4
+      },
+      {
+        "topic": "Metamaterials and Metasurfaces Applications",
+        "count": 3
+      },
+      {
+        "topic": "Near-Field Optical Microscopy",
+        "count": 2
+      },
+      {
+        "topic": "Topological Materials and Phenomena",
+        "count": 1
+      },
+      {
+        "topic": "Gold and Silver Nanoparticles Synthesis and Applications",
+        "count": 1
+      },
+      {
+        "topic": "Random lasers and scattering media",
+        "count": 1
+      },
+      {
+        "topic": "Luminescence and Fluorescent Materials",
+        "count": 1
+      }
+    ],
     "cluster_id": 5,
     "n_grants": 1,
     "n_collaborators": 16
@@ -1947,6 +3627,48 @@
       "2025": 7,
       "2026": 7
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 15
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 3
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 3
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 2
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 2
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 2
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 2
+      },
+      {
+        "topic": "Perovskite Materials and Applications",
+        "count": 2
+      },
+      {
+        "topic": "Metamaterials and Metasurfaces Applications",
+        "count": 1
+      },
+      {
+        "topic": "Topological Materials and Phenomena",
+        "count": 1
+      }
+    ],
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
@@ -1982,6 +3704,48 @@
       "2024": 3,
       "2025": 7
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 8
+      },
+      {
+        "topic": "Near-Field Optical Microscopy",
+        "count": 6
+      },
+      {
+        "topic": "Photoreceptor and optogenetics research",
+        "count": 5
+      },
+      {
+        "topic": "Neuroscience and Neural Engineering",
+        "count": 3
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 2
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 2
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 2
+      },
+      {
+        "topic": "Diamond and Carbon-based Materials Research",
+        "count": 1
+      },
+      {
+        "topic": "Thermal Radiation and Cooling Technologies",
+        "count": 1
+      },
+      {
+        "topic": "Graphene research and applications",
+        "count": 1
+      }
+    ],
     "cluster_id": 0,
     "n_grants": 28,
     "n_collaborators": 265
@@ -2020,6 +3784,48 @@
       "2024": 1,
       "2025": 6
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 9
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 8
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 7
+      },
+      {
+        "topic": "Glass properties and applications",
+        "count": 4
+      },
+      {
+        "topic": "Strong Light-Matter Interactions",
+        "count": 3
+      },
+      {
+        "topic": "Topological Materials and Phenomena",
+        "count": 2
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 1
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 1
+      },
+      {
+        "topic": "Photorefractive and Nonlinear Optics",
+        "count": 1
+      },
+      {
+        "topic": "Random lasers and scattering media",
+        "count": 1
+      }
+    ],
     "cluster_id": 2,
     "n_grants": 2,
     "n_collaborators": 6
@@ -2062,6 +3868,48 @@
       "2025": 3,
       "2026": 3
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 11
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 5
+      },
+      {
+        "topic": "Advanced Optical Network Technologies",
+        "count": 4
+      },
+      {
+        "topic": "2D Materials and Applications",
+        "count": 3
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 3
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 3
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 2
+      },
+      {
+        "topic": "Terahertz technology and applications",
+        "count": 1
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 1
+      },
+      {
+        "topic": "Perovskite Materials and Applications",
+        "count": 1
+      }
+    ],
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
@@ -2098,6 +3946,48 @@
       "2023": 2,
       "2024": 2
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 7
+      },
+      {
+        "topic": "Perovskite Materials and Applications",
+        "count": 4
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 3
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 3
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 2
+      },
+      {
+        "topic": "Solid State Laser Technologies",
+        "count": 2
+      },
+      {
+        "topic": "Organic Electronics and Photovoltaics",
+        "count": 1
+      },
+      {
+        "topic": "Organic Light-Emitting Diodes Research",
+        "count": 1
+      },
+      {
+        "topic": "Gold and Silver Nanoparticles Synthesis and Applications",
+        "count": 1
+      },
+      {
+        "topic": "Phase-change materials and chalcogenides",
+        "count": 1
+      }
+    ],
     "cluster_id": 0,
     "n_grants": 25,
     "n_collaborators": 214
@@ -2137,6 +4027,48 @@
       "2025": 3,
       "2026": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 4
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 3
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 3
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 3
+      },
+      {
+        "topic": "Chalcogenide Semiconductor Thin Films",
+        "count": 2
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 2
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 2
+      },
+      {
+        "topic": "Photonic Crystal and Fiber Optics",
+        "count": 2
+      },
+      {
+        "topic": "Advanced Fiber Optic Sensors",
+        "count": 2
+      },
+      {
+        "topic": "Acoustic Wave Resonator Technologies",
+        "count": 1
+      }
+    ],
     "cluster_id": 5,
     "n_grants": 9,
     "n_collaborators": 12
@@ -2174,6 +4106,40 @@
       "2020": 1,
       "2025": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Optical Network Technologies",
+        "count": 15
+      },
+      {
+        "topic": "Advanced Photonic Communication Systems",
+        "count": 5
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 5
+      },
+      {
+        "topic": "Advanced Optical Network Technologies",
+        "count": 2
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 2
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 2
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 1
+      }
+    ],
     "cluster_id": 6,
     "n_grants": 2,
     "n_collaborators": 56
@@ -2213,6 +4179,48 @@
       "2025": 1,
       "2026": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Perovskite Materials and Applications",
+        "count": 3
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 2
+      },
+      {
+        "topic": "Particle Detector Development and Performance",
+        "count": 2
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 2
+      },
+      {
+        "topic": "Metamaterials and Metasurfaces Applications",
+        "count": 2
+      },
+      {
+        "topic": "Near-Field Optical Microscopy",
+        "count": 2
+      },
+      {
+        "topic": "Advanced Photonic Communication Systems",
+        "count": 2
+      },
+      {
+        "topic": "Particle physics theoretical and experimental studies",
+        "count": 2
+      },
+      {
+        "topic": "Atomic and Subatomic Physics Research",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Materials and Mechanics",
+        "count": 1
+      }
+    ],
     "cluster_id": 4,
     "n_grants": 26,
     "n_collaborators": 354
@@ -2248,6 +4256,48 @@
       "2025": 2,
       "2026": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Metamaterials and Metasurfaces Applications",
+        "count": 9
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 4
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 4
+      },
+      {
+        "topic": "Electrowetting and Microfluidic Technologies",
+        "count": 2
+      },
+      {
+        "topic": "GaN-based semiconductor devices and materials",
+        "count": 1
+      },
+      {
+        "topic": "Thin-Film Transistor Technologies",
+        "count": 1
+      },
+      {
+        "topic": "2D Materials and Applications",
+        "count": 1
+      },
+      {
+        "topic": "Photorefractive and Nonlinear Optics",
+        "count": 1
+      },
+      {
+        "topic": "Diamond and Carbon-based Materials Research",
+        "count": 1
+      },
+      {
+        "topic": "Diatoms and Algae Research",
+        "count": 1
+      }
+    ],
     "cluster_id": 4,
     "n_grants": 5,
     "n_collaborators": 26
@@ -2282,6 +4332,44 @@
       "2020": 1,
       "2025": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 8
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 7
+      },
+      {
+        "topic": "Advanced Optical Network Technologies",
+        "count": 6
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 3
+      },
+      {
+        "topic": "Advanced Photonic Communication Systems",
+        "count": 2
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 1
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 1
+      },
+      {
+        "topic": "Metamaterials and Metasurfaces Applications",
+        "count": 1
+      }
+    ],
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
@@ -2322,6 +4410,48 @@
       "2025": 2,
       "2026": 2
     },
+    "topic_breakdown": [
+      {
+        "topic": "Particle Detector Development and Performance",
+        "count": 5
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 4
+      },
+      {
+        "topic": "Laser Material Processing Techniques",
+        "count": 3
+      },
+      {
+        "topic": "Advanced Memory and Neural Computing",
+        "count": 2
+      },
+      {
+        "topic": "Nanopore and Nanochannel Transport Studies",
+        "count": 2
+      },
+      {
+        "topic": "Ocular Surface and Contact Lens",
+        "count": 2
+      },
+      {
+        "topic": "Photonic Crystal and Fiber Optics",
+        "count": 2
+      },
+      {
+        "topic": "Dark Matter and Cosmic Phenomena",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Optical Sensing Technologies",
+        "count": 1
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 1
+      }
+    ],
     "cluster_id": 1,
     "n_grants": 20,
     "n_collaborators": 126
@@ -2354,6 +4484,48 @@
       "2019": 1,
       "2021": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Orbital Angular Momentum in Optics",
+        "count": 7
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 4
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 4
+      },
+      {
+        "topic": "Random lasers and scattering media",
+        "count": 2
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 2
+      },
+      {
+        "topic": "Optical Coherence Tomography Applications",
+        "count": 2
+      },
+      {
+        "topic": "Optical Imaging and Spectroscopy Techniques",
+        "count": 1
+      },
+      {
+        "topic": "Photodynamic Therapy Research Studies",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Fluorescence Microscopy Techniques",
+        "count": 1
+      },
+      {
+        "topic": "Electrowetting and Microfluidic Technologies",
+        "count": 1
+      }
+    ],
     "cluster_id": 9,
     "n_grants": 9,
     "n_collaborators": 26
@@ -2395,6 +4567,48 @@
       "2023": 1,
       "2025": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 5
+      },
+      {
+        "topic": "Spectroscopy and Quantum Chemical Studies",
+        "count": 4
+      },
+      {
+        "topic": "Orbital Angular Momentum in Optics",
+        "count": 4
+      },
+      {
+        "topic": "Mechanical and Optical Resonators",
+        "count": 3
+      },
+      {
+        "topic": "Dendrimers and Hyperbranched Polymers",
+        "count": 2
+      },
+      {
+        "topic": "Near-Field Optical Microscopy",
+        "count": 2
+      },
+      {
+        "topic": "Quantum Electrodynamics and Casimir Effect",
+        "count": 1
+      },
+      {
+        "topic": "Advanced biosensing and bioanalysis techniques",
+        "count": 1
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 1
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 1
+      }
+    ],
     "cluster_id": 4,
     "n_grants": 10,
     "n_collaborators": 19
@@ -2432,6 +4646,48 @@
       "2024": 1,
       "2025": 3
     },
+    "topic_breakdown": [
+      {
+        "topic": "Random lasers and scattering media",
+        "count": 4
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 3
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 3
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 3
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 2
+      },
+      {
+        "topic": "Quantum optics and atomic interactions",
+        "count": 1
+      },
+      {
+        "topic": "Graphene research and applications",
+        "count": 1
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Fiber Optic Sensors",
+        "count": 1
+      },
+      {
+        "topic": "Advances in Oncology and Radiotherapy",
+        "count": 1
+      }
+    ],
     "cluster_id": 0,
     "n_grants": 19,
     "n_collaborators": 285
@@ -2465,6 +4721,48 @@
       "2025": 6,
       "2026": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 6
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 3
+      },
+      {
+        "topic": "Optical Polarization and Ellipsometry",
+        "count": 2
+      },
+      {
+        "topic": "Laser Material Processing Techniques",
+        "count": 2
+      },
+      {
+        "topic": "Orbital Angular Momentum in Optics",
+        "count": 2
+      },
+      {
+        "topic": "Metal-Organic Frameworks: Synthesis and Applications",
+        "count": 2
+      },
+      {
+        "topic": "Electrowetting and Microfluidic Technologies",
+        "count": 1
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 1
+      },
+      {
+        "topic": "Quantum Dots Synthesis And Properties",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Materials and Mechanics",
+        "count": 1
+      }
+    ],
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
@@ -2504,6 +4802,44 @@
       "2016": 1,
       "2017": 2
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 10
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 5
+      },
+      {
+        "topic": "Metamaterials and Metasurfaces Applications",
+        "count": 2
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 2
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 1
+      },
+      {
+        "topic": "Photonic Crystal and Fiber Optics",
+        "count": 1
+      },
+      {
+        "topic": "Graphene research and applications",
+        "count": 1
+      },
+      {
+        "topic": "X-ray Diffraction in Crystallography",
+        "count": 1
+      },
+      {
+        "topic": "Experimental Learning in Engineering",
+        "count": 1
+      }
+    ],
     "cluster_id": 0,
     "n_grants": 8,
     "n_collaborators": 112
@@ -2540,6 +4876,48 @@
       "2024": 3,
       "2025": 2
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 4
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 3
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 2
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 2
+      },
+      {
+        "topic": "Orbital Angular Momentum in Optics",
+        "count": 2
+      },
+      {
+        "topic": "Metamaterials and Metasurfaces Applications",
+        "count": 2
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 2
+      },
+      {
+        "topic": "Strong Light-Matter Interactions",
+        "count": 1
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 1
+      },
+      {
+        "topic": "Photonic Crystal and Fiber Optics",
+        "count": 1
+      }
+    ],
     "cluster_id": 5,
     "n_grants": 1,
     "n_collaborators": 11
@@ -2577,6 +4955,48 @@
       "2022": 1,
       "2023": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 5
+      },
+      {
+        "topic": "Liquid Crystal Research Advancements",
+        "count": 3
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 3
+      },
+      {
+        "topic": "Pickering emulsions and particle stabilization",
+        "count": 2
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 2
+      },
+      {
+        "topic": "Advanced Fiber Optic Sensors",
+        "count": 1
+      },
+      {
+        "topic": "Block Copolymer Self-Assembly",
+        "count": 1
+      },
+      {
+        "topic": "Glass properties and applications",
+        "count": 1
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 1
+      },
+      {
+        "topic": "Orbital Angular Momentum in Optics",
+        "count": 1
+      }
+    ],
     "cluster_id": 5,
     "n_grants": 6,
     "n_collaborators": 30
@@ -2607,6 +5027,32 @@
       "2024": 5,
       "2025": 2
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 9
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 5
+      },
+      {
+        "topic": "Advanced Photonic Communication Systems",
+        "count": 4
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 3
+      },
+      {
+        "topic": "Phase-change materials and chalcogenides",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 1
+      }
+    ],
     "cluster_id": 6,
     "n_grants": 2,
     "n_collaborators": 48
@@ -2642,6 +5088,32 @@
       "2024": 1,
       "2025": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 10
+      },
+      {
+        "topic": "Advanced Optical Network Technologies",
+        "count": 4
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 3
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 2
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 2
+      },
+      {
+        "topic": "Magneto-Optical Properties and Applications",
+        "count": 1
+      }
+    ],
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
@@ -2677,6 +5149,48 @@
       "2025": 2,
       "2026": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 9
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 3
+      },
+      {
+        "topic": "Semiconductor Quantum Structures and Devices",
+        "count": 2
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 1
+      },
+      {
+        "topic": "Laser Design and Applications",
+        "count": 1
+      },
+      {
+        "topic": "Optical Imaging and Spectroscopy Techniques",
+        "count": 1
+      },
+      {
+        "topic": "Skin Protection and Aging",
+        "count": 1
+      },
+      {
+        "topic": "3D IC and TSV technologies",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Thermoelectric Materials and Devices",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Optical Sensing Technologies",
+        "count": 1
+      }
+    ],
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
@@ -2711,6 +5225,36 @@
       "2018": 1,
       "2025": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Advanced Photonic Communication Systems",
+        "count": 7
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 3
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 3
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 3
+      },
+      {
+        "topic": "Particle physics theoretical and experimental studies",
+        "count": 2
+      },
+      {
+        "topic": "Radiation Effects in Electronics",
+        "count": 1
+      },
+      {
+        "topic": "Manufacturing Process and Optimization",
+        "count": 1
+      }
+    ],
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
@@ -2744,6 +5288,36 @@
       "2022": 1,
       "2024": 2
     },
+    "topic_breakdown": [
+      {
+        "topic": "Advanced Photonic Communication Systems",
+        "count": 7
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 5
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 3
+      },
+      {
+        "topic": "Quantum optics and atomic interactions",
+        "count": 2
+      },
+      {
+        "topic": "Neutrino Physics Research",
+        "count": 1
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 1
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 1
+      }
+    ],
     "cluster_id": 0,
     "n_grants": 5,
     "n_collaborators": 161
@@ -2777,6 +5351,24 @@
       "2017": 4,
       "2020": 2
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 11
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 7
+      },
+      {
+        "topic": "Semiconductor Quantum Structures and Devices",
+        "count": 1
+      },
+      {
+        "topic": "Electron and X-Ray Spectroscopy Techniques",
+        "count": 1
+      }
+    ],
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
@@ -2812,6 +5404,36 @@
       "2021": 1,
       "2025": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Advanced Optical Sensing Technologies",
+        "count": 8
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 4
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 1
+      },
+      {
+        "topic": "Phase-change materials and chalcogenides",
+        "count": 1
+      },
+      {
+        "topic": "Advanced biosensing and bioanalysis techniques",
+        "count": 1
+      },
+      {
+        "topic": "Laser Material Processing Techniques",
+        "count": 1
+      },
+      {
+        "topic": "Integrated Circuits and Semiconductor Failure Analysis",
+        "count": 1
+      }
+    ],
     "cluster_id": 6,
     "n_grants": 1,
     "n_collaborators": 27
@@ -2844,6 +5466,48 @@
       "2015": 1,
       "2025": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic Crystal and Fiber Optics",
+        "count": 5
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 3
+      },
+      {
+        "topic": "Solid State Laser Technologies",
+        "count": 2
+      },
+      {
+        "topic": "Metamaterials and Metasurfaces Applications",
+        "count": 1
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 1
+      },
+      {
+        "topic": "Radiation Effects in Electronics",
+        "count": 1
+      },
+      {
+        "topic": "Solar and Space Plasma Dynamics",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Optical Imaging Technologies",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Photonic Communication Systems",
+        "count": 1
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 1
+      }
+    ],
     "cluster_id": 6,
     "n_grants": 1,
     "n_collaborators": 22
@@ -2877,6 +5541,44 @@
       "2021": 1,
       "2023": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Thermal Radiation and Cooling Technologies",
+        "count": 3
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 3
+      },
+      {
+        "topic": "Photonic Crystal and Fiber Optics",
+        "count": 2
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 2
+      },
+      {
+        "topic": "Solid State Laser Technologies",
+        "count": 1
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 1
+      },
+      {
+        "topic": "Electromagnetic Simulation and Numerical Methods",
+        "count": 1
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 1
+      }
+    ],
     "cluster_id": 0,
     "n_grants": 3,
     "n_collaborators": 121
@@ -2909,6 +5611,48 @@
       "2023": 2,
       "2024": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 3
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 2
+      },
+      {
+        "topic": "Optical Imaging and Spectroscopy Techniques",
+        "count": 2
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 2
+      },
+      {
+        "topic": "Orbital Angular Momentum in Optics",
+        "count": 1
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 1
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 1
+      },
+      {
+        "topic": "Fossil Insects in Amber",
+        "count": 1
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 1
+      }
+    ],
     "cluster_id": 11,
     "n_grants": 3,
     "n_collaborators": 13
@@ -2938,6 +5682,44 @@
       "2021": 1,
       "2023": 2
     },
+    "topic_breakdown": [
+      {
+        "topic": "Advanced Photonic Communication Systems",
+        "count": 4
+      },
+      {
+        "topic": "Satellite Communication Systems",
+        "count": 4
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 1
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 1
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Fiber Optic Sensors",
+        "count": 1
+      },
+      {
+        "topic": "Photonic Crystal and Fiber Optics",
+        "count": 1
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 1
+      },
+      {
+        "topic": "Engineering and Test Systems",
+        "count": 1
+      }
+    ],
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
@@ -2973,6 +5755,40 @@
       "2023": 2,
       "2024": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 7
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 2
+      },
+      {
+        "topic": "Photonic Crystal and Fiber Optics",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Fiber Optic Sensors",
+        "count": 1
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 1
+      },
+      {
+        "topic": "Gold and Silver Nanoparticles Synthesis and Applications",
+        "count": 1
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 1
+      },
+      {
+        "topic": "Laser Material Processing Techniques",
+        "count": 1
+      }
+    ],
     "cluster_id": 2,
     "n_grants": 4,
     "n_collaborators": 34
@@ -2998,6 +5814,16 @@
       "2021": 1,
       "2024": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 12
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 3
+      }
+    ],
     "cluster_id": 0,
     "n_grants": 3,
     "n_collaborators": 77
@@ -3029,6 +5855,44 @@
       "2021": 1,
       "2022": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Advanced Photonic Communication Systems",
+        "count": 3
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 2
+      },
+      {
+        "topic": "Satellite Communication Systems",
+        "count": 2
+      },
+      {
+        "topic": "Advanced Optical Sensing Technologies",
+        "count": 2
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 1
+      },
+      {
+        "topic": "Ocular and Laser Science Research",
+        "count": 1
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 1
+      },
+      {
+        "topic": "Engineering and Test Systems",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Optical Network Technologies",
+        "count": 1
+      }
+    ],
     "cluster_id": 6,
     "n_grants": 1,
     "n_collaborators": 35
@@ -3055,6 +5919,36 @@
       "2024": 3,
       "2025": 2
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 7
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 2
+      },
+      {
+        "topic": "Quantum Dots Synthesis And Properties",
+        "count": 1
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 1
+      },
+      {
+        "topic": "Electromagnetic Simulation and Numerical Methods",
+        "count": 1
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Photonic Communication Systems",
+        "count": 1
+      }
+    ],
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
@@ -3090,6 +5984,28 @@
       "2021": 1,
       "2024": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 6
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 4
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 2
+      },
+      {
+        "topic": "Orbital Angular Momentum in Optics",
+        "count": 1
+      },
+      {
+        "topic": "Strong Light-Matter Interactions",
+        "count": 1
+      }
+    ],
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
@@ -3119,6 +6035,32 @@
       "2010": 1,
       "2012": 3
     },
+    "topic_breakdown": [
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 7
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 3
+      },
+      {
+        "topic": "Liquid Crystal Research Advancements",
+        "count": 1
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 1
+      },
+      {
+        "topic": "Quantum many-body systems",
+        "count": 1
+      },
+      {
+        "topic": "Diamond and Carbon-based Materials Research",
+        "count": 1
+      }
+    ],
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
@@ -3148,6 +6090,24 @@
       "2017": 3,
       "2025": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 10
+      },
+      {
+        "topic": "Spectroscopy and Laser Applications",
+        "count": 1
+      },
+      {
+        "topic": "Quantum Mechanics and Non-Hermitian Physics",
+        "count": 1
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 1
+      }
+    ],
     "cluster_id": 8,
     "n_grants": 2,
     "n_collaborators": 8
@@ -3180,6 +6140,32 @@
       "2016": 1,
       "2022": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Spectroscopy and Laser Applications",
+        "count": 6
+      },
+      {
+        "topic": "Strong Light-Matter Interactions",
+        "count": 3
+      },
+      {
+        "topic": "Terahertz technology and applications",
+        "count": 1
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 1
+      },
+      {
+        "topic": "Thermography and Photoacoustic Techniques",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Semiconductor Detectors and Materials",
+        "count": 1
+      }
+    ],
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
@@ -3208,6 +6194,24 @@
       "2014": 1,
       "2026": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 4
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 4
+      },
+      {
+        "topic": "Orbital Angular Momentum in Optics",
+        "count": 3
+      },
+      {
+        "topic": "Perovskite Materials and Applications",
+        "count": 1
+      }
+    ],
     "cluster_id": 10,
     "n_grants": 1,
     "n_collaborators": 46
@@ -3236,6 +6240,12 @@
       "2024": 1,
       "2026": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 12
+      }
+    ],
     "cluster_id": 0,
     "n_grants": 6,
     "n_collaborators": 131
@@ -3263,6 +6273,44 @@
       "2018": 1,
       "2019": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 2
+      },
+      {
+        "topic": "Advanced Photonic Communication Systems",
+        "count": 2
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 2
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 1
+      },
+      {
+        "topic": "Spectroscopy and Laser Applications",
+        "count": 1
+      },
+      {
+        "topic": "Gyrotron and Vacuum Electronics Research",
+        "count": 1
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 1
+      },
+      {
+        "topic": "Spectroscopy Techniques in Biomedical and Chemical Research",
+        "count": 1
+      },
+      {
+        "topic": "Terahertz technology and applications",
+        "count": 1
+      }
+    ],
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
@@ -3292,6 +6340,36 @@
       "2017": 1,
       "2023": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 5
+      },
+      {
+        "topic": "solar cell performance optimization",
+        "count": 2
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 1
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 1
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Photonic Communication Systems",
+        "count": 1
+      },
+      {
+        "topic": "Semiconductor materials and devices",
+        "count": 1
+      }
+    ],
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
@@ -3323,6 +6401,44 @@
       "2022": 1,
       "2024": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Metamaterials and Metasurfaces Applications",
+        "count": 2
+      },
+      {
+        "topic": "Orbital Angular Momentum in Optics",
+        "count": 2
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 2
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 1
+      },
+      {
+        "topic": "Marine Sponges and Natural Products",
+        "count": 1
+      },
+      {
+        "topic": "Quantum optics and atomic interactions",
+        "count": 1
+      },
+      {
+        "topic": "Particle physics theoretical and experimental studies",
+        "count": 1
+      },
+      {
+        "topic": "Advanced optical system design",
+        "count": 1
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 1
+      }
+    ],
     "cluster_id": 3,
     "n_grants": 2,
     "n_collaborators": 25
@@ -3353,6 +6469,32 @@
       "2019": 1,
       "2020": 3
     },
+    "topic_breakdown": [
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 4
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 2
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 2
+      },
+      {
+        "topic": "Photodynamic Therapy Research Studies",
+        "count": 1
+      },
+      {
+        "topic": "Semiconductor Quantum Structures and Devices",
+        "count": 1
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 1
+      }
+    ],
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
@@ -3382,6 +6524,48 @@
       "2011": 2,
       "2023": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Random lasers and scattering media",
+        "count": 2
+      },
+      {
+        "topic": "Optical Coherence Tomography Applications",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Memory and Neural Computing",
+        "count": 1
+      },
+      {
+        "topic": "Molecular Junctions and Nanostructures",
+        "count": 1
+      },
+      {
+        "topic": "Photoacoustic and Ultrasonic Imaging",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Fiber Optic Sensors",
+        "count": 1
+      },
+      {
+        "topic": "Optical Imaging and Spectroscopy Techniques",
+        "count": 1
+      },
+      {
+        "topic": "Biomedical and Engineering Education",
+        "count": 1
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 1
+      },
+      {
+        "topic": "Radiation Detection and Scintillator Technologies",
+        "count": 1
+      }
+    ],
     "cluster_id": 4,
     "n_grants": 10,
     "n_collaborators": 106
@@ -3412,6 +6596,40 @@
       "2023": 1,
       "2024": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Nonlinear Optical Materials Studies",
+        "count": 2
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 2
+      },
+      {
+        "topic": "Lanthanide and Transition Metal Complexes",
+        "count": 1
+      },
+      {
+        "topic": "Perovskite Materials and Applications",
+        "count": 1
+      },
+      {
+        "topic": "Electrowetting and Microfluidic Technologies",
+        "count": 1
+      },
+      {
+        "topic": "Laser-Matter Interactions and Applications",
+        "count": 1
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 1
+      },
+      {
+        "topic": "Mechanical and Optical Resonators",
+        "count": 1
+      }
+    ],
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
@@ -3442,6 +6660,40 @@
       "2023": 2,
       "2025": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Advanced biosensing and bioanalysis techniques",
+        "count": 2
+      },
+      {
+        "topic": "Radiation Detection and Scintillator Technologies",
+        "count": 2
+      },
+      {
+        "topic": "Perovskite Materials and Applications",
+        "count": 1
+      },
+      {
+        "topic": "Photocathodes and Microchannel Plates",
+        "count": 1
+      },
+      {
+        "topic": "Nonlinear Optical Materials Research",
+        "count": 1
+      },
+      {
+        "topic": "Radiation Effects in Electronics",
+        "count": 1
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 1
+      },
+      {
+        "topic": "Atomic and Subatomic Physics Research",
+        "count": 1
+      }
+    ],
     "cluster_id": 24,
     "n_grants": 2,
     "n_collaborators": 1
@@ -3471,6 +6723,28 @@
       "2024": 1,
       "2025": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 5
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 2
+      },
+      {
+        "topic": "Optical Coherence Tomography Applications",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Fluorescence Microscopy Techniques",
+        "count": 1
+      },
+      {
+        "topic": "Quantum optics and atomic interactions",
+        "count": 1
+      }
+    ],
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
@@ -3502,6 +6776,28 @@
       "2008": 1,
       "2015": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 3
+      },
+      {
+        "topic": "Advanced Photonic Communication Systems",
+        "count": 2
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 2
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 2
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 1
+      }
+    ],
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
@@ -3532,6 +6828,44 @@
       "2021": 1,
       "2026": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 2
+      },
+      {
+        "topic": "Strong Light-Matter Interactions",
+        "count": 1
+      },
+      {
+        "topic": "Perovskite Materials and Applications",
+        "count": 1
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 1
+      },
+      {
+        "topic": "Topological Materials and Phenomena",
+        "count": 1
+      },
+      {
+        "topic": "Organic Electronics and Photovoltaics",
+        "count": 1
+      },
+      {
+        "topic": "Semiconductor materials and devices",
+        "count": 1
+      },
+      {
+        "topic": "Particle physics theoretical and experimental studies",
+        "count": 1
+      },
+      {
+        "topic": "Particle Detector Development and Performance",
+        "count": 1
+      }
+    ],
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
@@ -3561,6 +6895,28 @@
       "2011": 2,
       "2013": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic Crystal and Fiber Optics",
+        "count": 4
+      },
+      {
+        "topic": "Advanced Optical Sensing Technologies",
+        "count": 2
+      },
+      {
+        "topic": "Advanced Photonic Communication Systems",
+        "count": 2
+      },
+      {
+        "topic": "solar cell performance optimization",
+        "count": 1
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 1
+      }
+    ],
     "cluster_id": 6,
     "n_grants": 1,
     "n_collaborators": 35
@@ -3590,6 +6946,28 @@
       "2012": 2,
       "2016": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 5
+      },
+      {
+        "topic": "Diatoms and Algae Research",
+        "count": 2
+      },
+      {
+        "topic": "Marine Sponges and Natural Products",
+        "count": 1
+      },
+      {
+        "topic": "Plant and animal studies",
+        "count": 1
+      },
+      {
+        "topic": "Nanofabrication and Lithography Techniques",
+        "count": 1
+      }
+    ],
     "cluster_id": 6,
     "n_grants": 2,
     "n_collaborators": 29
@@ -3617,6 +6995,44 @@
       "2018": 1,
       "2020": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Advanced Optical Sensing Technologies",
+        "count": 1
+      },
+      {
+        "topic": "Electromagnetic Simulation and Numerical Methods",
+        "count": 1
+      },
+      {
+        "topic": "2D Materials and Applications",
+        "count": 1
+      },
+      {
+        "topic": "Optical Coatings and Gratings",
+        "count": 1
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 1
+      },
+      {
+        "topic": "Plasmonic and Surface Plasmon Research",
+        "count": 1
+      },
+      {
+        "topic": "Diatoms and Algae Research",
+        "count": 1
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 1
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 1
+      }
+    ],
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
@@ -3646,6 +7062,28 @@
       "2023": 1,
       "2026": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Particle Detector Development and Performance",
+        "count": 5
+      },
+      {
+        "topic": "melanin and skin pigmentation",
+        "count": 1
+      },
+      {
+        "topic": "Magnetic properties of thin films",
+        "count": 1
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Physical and Chemical Molecular Interactions",
+        "count": 1
+      }
+    ],
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
@@ -3673,6 +7111,32 @@
       "2018": 1,
       "2021": 2
     },
+    "topic_breakdown": [
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 3
+      },
+      {
+        "topic": "Liquid Crystal Research Advancements",
+        "count": 2
+      },
+      {
+        "topic": "Advanced Photocatalysis Techniques",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Fiber Optic Sensors",
+        "count": 1
+      },
+      {
+        "topic": "Laser-Matter Interactions and Applications",
+        "count": 1
+      },
+      {
+        "topic": "Photonic Crystal and Fiber Optics",
+        "count": 1
+      }
+    ],
     "cluster_id": 0,
     "n_grants": 1,
     "n_collaborators": 106
@@ -3700,6 +7164,32 @@
       "2023": 3,
       "2024": 2
     },
+    "topic_breakdown": [
+      {
+        "topic": "Strong Light-Matter Interactions",
+        "count": 3
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 2
+      },
+      {
+        "topic": "Nonlinear Photonic Systems",
+        "count": 1
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 1
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Photonic Communication Systems",
+        "count": 1
+      }
+    ],
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
@@ -3727,6 +7217,32 @@
       "2025": 3,
       "2026": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 4
+      },
+      {
+        "topic": "Advanced Fluorescence Microscopy Techniques",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Optical Sensing Technologies",
+        "count": 1
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 1
+      },
+      {
+        "topic": "2D Materials and Applications",
+        "count": 1
+      },
+      {
+        "topic": "Nonlinear Optical Materials Studies",
+        "count": 1
+      }
+    ],
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
@@ -3755,6 +7271,36 @@
       "2023": 3,
       "2024": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Spectroscopy and Laser Applications",
+        "count": 2
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 2
+      },
+      {
+        "topic": "Orbital Angular Momentum in Optics",
+        "count": 1
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 1
+      },
+      {
+        "topic": "Quantum Mechanics and Applications",
+        "count": 1
+      },
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 1
+      },
+      {
+        "topic": "Quantum Computing Algorithms and Architecture",
+        "count": 1
+      }
+    ],
     "cluster_id": 5,
     "n_grants": 4,
     "n_collaborators": 55
@@ -3784,6 +7330,32 @@
       "2023": 1,
       "2024": 2
     },
+    "topic_breakdown": [
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 3
+      },
+      {
+        "topic": "Quantum Mechanics and Non-Hermitian Physics",
+        "count": 2
+      },
+      {
+        "topic": "Neural Networks and Reservoir Computing",
+        "count": 1
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 1
+      },
+      {
+        "topic": "Nonlinear Photonic Systems",
+        "count": 1
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 1
+      }
+    ],
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
@@ -3813,6 +7385,32 @@
       "2008": 1,
       "2010": 1
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic Crystals and Applications",
+        "count": 3
+      },
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 2
+      },
+      {
+        "topic": "Quantum Information and Cryptography",
+        "count": 1
+      },
+      {
+        "topic": "Advanced Fiber Laser Technologies",
+        "count": 1
+      },
+      {
+        "topic": "Silicon Nanostructures and Photoluminescence",
+        "count": 1
+      },
+      {
+        "topic": "Laser Design and Applications",
+        "count": 1
+      }
+    ],
     "cluster_id": null,
     "n_grants": null,
     "n_collaborators": null
@@ -3839,6 +7437,24 @@
       "2016": 2,
       "2017": 3
     },
+    "topic_breakdown": [
+      {
+        "topic": "Photonic and Optical Devices",
+        "count": 6
+      },
+      {
+        "topic": "Advanced Optical Network Technologies",
+        "count": 1
+      },
+      {
+        "topic": "Semiconductor Lasers and Optical Devices",
+        "count": 1
+      },
+      {
+        "topic": "Optical Network Technologies",
+        "count": 1
+      }
+    ],
     "cluster_id": 7,
     "n_grants": 1,
     "n_collaborators": 3

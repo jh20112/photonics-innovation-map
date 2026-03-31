@@ -3,6 +3,7 @@ import { EntityHeader } from '../EntityHeader';
 import { StatBlock } from '../StatBlock';
 import { TagList } from '../TagList';
 import { CollapsibleSection } from '../CollapsibleSection';
+import { TopicTreemap } from '../TopicTreemap';
 import { RelatedEntityCard } from '../RelatedEntityCard';
 
 interface Props {
@@ -35,6 +36,12 @@ export function InstitutionPanel({
 
       {inst.top_topics && inst.top_topics.length > 0 && (
         <TagList label="Top Research Topics" tags={inst.top_topics} variant="primary" />
+      )}
+
+      {inst.topic_breakdown && inst.topic_breakdown.length > 0 && (
+        <CollapsibleSection title="Research Focus" count={inst.topic_breakdown.length} defaultOpen resetKey={inst.id}>
+          <TopicTreemap topics={inst.topic_breakdown} />
+        </CollapsibleSection>
       )}
 
       {inst.cluster_id != null && (
