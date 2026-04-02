@@ -15,6 +15,23 @@ import type { LayerType, ClusterType, CollabFilter, CompanySizeMetric, Instituti
 
 type ViewMode = 'map' | 'dashboard' | 'data';
 
+/** Ray-casting point-in-polygon: returns true if (lat, lng) is inside any cluster boundary. */
+function isInsideAnyCluster(lat: number, lng: number, boundaries: ([number, number][] | null)[]): boolean {
+  for (const boundary of boundaries) {
+    if (!boundary || boundary.length < 3) continue;
+    let inside = false;
+    for (let i = 0, j = boundary.length - 1; i < boundary.length; j = i++) {
+      const [yi, xi] = boundary[i];
+      const [yj, xj] = boundary[j];
+      if (((yi > lat) !== (yj > lat)) && (lng < (xj - xi) * (lat - yi) / (yj - yi) + xi)) {
+        inside = !inside;
+      }
+    }
+    if (inside) return true;
+  }
+  return false;
+}
+
 function App() {
   const [viewMode, setViewMode] = useState<ViewMode>('map');
   const [dashboardTab, setDashboardTab] = useState<'overview' | 'companies' | 'institutions' | 'grants' | 'clusters'>('overview');
@@ -115,6 +132,25 @@ function App() {
   const { data: grantTopics } = useGrantTopics(yearRange?.[0], yearRange?.[1]);
   const { data: grantEdges } = useGrantEdges(grantNetworkEnabled, grantNetworkMinShared);
   const { data: researchEdges } = useResearchEdges(researchNetworkEnabled, researchNetworkMinShared);
+
+  // Precompute cluster boundaries for filtering all entity layers
+  const clusterBoundaries = useMemo(() => {
+    if (!activeCluster || !clusterData) return null;
+    return clusterData.clusters.map(c => c.boundary);
+  }, [activeCluster, clusterData]);
+
+  // Filter any entity array by cluster boundaries (when clustering is active)
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const filterByCluster = useCallback(<T extends { lat: any; lng: any }>(
+    data: T[] | null,
+  ): T[] | null => {
+    if (!data || !clusterBoundaries) return data;
+    return data.filter(e => {
+      const lat = e.lat as number | null;
+      const lng = e.lng as number | null;
+      return lat != null && lng != null && isInsideAnyCluster(lat, lng, clusterBoundaries);
+    });
+  }, [clusterBoundaries]);
 
   // Filter collaborations by type
   const filteredCollaborations = useMemo(() => {
@@ -399,11 +435,11 @@ function App() {
           <>
             <InnovationMap
               companies={layers.companies ? clusterFilteredCompanies : null}
-              infrastructure={layers.infrastructure ? infrastructure : null}
-              institutions={layers.institutions ? institutions : null}
-              grants={layers.grants ? filteredGrants : null}
-              patents={layers.patents ? patents : null}
-              people={layers.people ? people : null}
+              infrastructure={layers.infrastructure ? filterByCluster(infrastructure) : null}
+              institutions={layers.institutions ? filterByCluster(institutions) : null}
+              grants={layers.grants ? filterByCluster(filteredGrants) : null}
+              patents={layers.patents ? filterByCluster(patents) : null}
+              people={layers.people ? filterByCluster(people) : null}
               collaborations={layers.collaborations ? collaborations : null}
               allCollaborations={layers.collaborations && !collabEntity ? filteredCollaborations : null}
               collabCoords={collabCoords}
