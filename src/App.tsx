@@ -33,6 +33,9 @@ function App() {
   const [selectedSources, setSelectedSources] = useState<string[]>([]);
   const [selectedStrengths, setSelectedStrengths] = useState<string[]>([]);
 
+  // Subsidiary filter
+  const [hideSubsidiaries, setHideSubsidiaries] = useState(false);
+
   // Company size metric
   const [companySizeMetric, setCompanySizeMetric] = useState<CompanySizeMetric>('off');
   const [growthPeriodMonths, setGrowthPeriodMonths] = useState<number | null>(null);
@@ -153,8 +156,9 @@ function App() {
       result = result.filter(c => clusteredIds.has(c.id));
     }
     if (maxqLevel > 0) result = applyMaxQ(result);
+    if (hideSubsidiaries) result = result.filter(c => !c.is_non_uk_subsidiary);
     return result;
-  }, [activeCluster, clusterData, filteredByThresholds, maxqLevel, applyMaxQ]);
+  }, [activeCluster, clusterData, filteredByThresholds, maxqLevel, applyMaxQ, hideSubsidiaries]);
 
   const dashboardCompanies = useMemo(() => {
     if (!allCompanies) return allCompanies;
@@ -181,8 +185,9 @@ function App() {
       result = result.filter(c => clusteredIds.has(c.id));
     }
     if (maxqLevel > 0) result = applyMaxQ(result);
+    if (hideSubsidiaries) result = result.filter(c => !c.is_non_uk_subsidiary);
     return result;
-  }, [allCompanies, selectedSectors, selectedSources, selectedStrengths, minPatents, minGrants, activeCluster, clusterData, maxqLevel, applyMaxQ]);
+  }, [allCompanies, selectedSectors, selectedSources, selectedStrengths, minPatents, minGrants, activeCluster, clusterData, maxqLevel, applyMaxQ, hideSubsidiaries]);
 
   // Company name lookup for patent-company linking (Feature 2)
   const companyByName = useMemo(() => {
@@ -329,6 +334,8 @@ function App() {
         grantEdgeCount={grantEdges?.length ?? null}
         maxqLevel={maxqLevel}
         onMaxqLevelChange={setMaxqLevel}
+        hideSubsidiaries={hideSubsidiaries}
+        onHideSubsidiariesChange={setHideSubsidiaries}
         minPatents={minPatents}
         onMinPatentsChange={setMinPatents}
         minGrants={minGrants}

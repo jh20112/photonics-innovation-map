@@ -133,9 +133,27 @@ export function CompanyPanel({
         <span className={`source-badge strength-${c.data_strength.toLowerCase()}`}>
           {c.data_strength} Data
         </span>
+        {c.is_non_uk_subsidiary && (
+          <span className="source-badge" style={{ background: '#fef3c7', color: '#92400e' }}>Subsidiary</span>
+        )}
         {c.sources.map(s => <span key={s} className="source-badge">{s}</span>)}
         {c.source_type && <span className="source-badge">{c.source_type}</span>}
       </div>
+
+      {c.is_non_uk_subsidiary && c.parent_company && (
+        <div className="detail-grid" style={{ marginBottom: 12 }}>
+          <div className="detail-item">
+            <span className="detail-label">Parent Company</span>
+            <span className="detail-value">{c.parent_company}</span>
+          </div>
+          {c.parent_country && (
+            <div className="detail-item">
+              <span className="detail-label">Parent Country</span>
+              <span className="detail-value">{c.parent_country}</span>
+            </div>
+          )}
+        </div>
+      )}
 
       {showRationale && c.photonics_rationale && (
         <div className="rationale-panel">

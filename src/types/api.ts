@@ -24,6 +24,9 @@ export interface Company {
   photonics_rationale: string;
   last_funding_date: string | null;
   last_funding_round: string | null;
+  is_non_uk_subsidiary: boolean;
+  parent_company: string | null;
+  parent_country: string | null;
   is_startup: string;
   emp_growth_pct: number | null;
   emp_growth_abs: number | null;

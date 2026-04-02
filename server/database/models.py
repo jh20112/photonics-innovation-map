@@ -35,6 +35,9 @@ class Company(Base):
     photonics_rationale = Column(Text)
     last_funding_date = Column(String)
     last_funding_round = Column(String)
+    is_non_uk_subsidiary = Column(Boolean, default=False)
+    parent_company = Column(String)
+    parent_country = Column(String)
     data_strength = Column(String, index=True)
     data_strength_score = Column(Integer)
     # Growth metrics

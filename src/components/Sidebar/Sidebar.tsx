@@ -40,6 +40,8 @@ interface Props {
   onInstitutionPeriodChange: (years: number | null) => void;
   maxqLevel: 0 | 1 | 2 | 3;
   onMaxqLevelChange: (level: 0 | 1 | 2 | 3) => void;
+  hideSubsidiaries: boolean;
+  onHideSubsidiariesChange: (hide: boolean) => void;
   institutionSizeMetric: InstitutionSizeMetric;
   onInstitutionSizeMetricChange: (metric: InstitutionSizeMetric) => void;
   yearRange: [number, number] | null;
@@ -79,6 +81,7 @@ export function Sidebar({
   grantNetworkEnabled, onToggleGrantNetwork, grantNetworkMinShared, onGrantNetworkMinSharedChange, grantEdgeCount,
   minPatents, onMinPatentsChange, minGrants, onMinGrantsChange,
   institutionPeriodYears, onInstitutionPeriodChange, maxqLevel, onMaxqLevelChange,
+  hideSubsidiaries, onHideSubsidiariesChange,
   institutionSizeMetric, onInstitutionSizeMetricChange,
   yearRange, onYearRangeChange,
 }: Props) {
@@ -227,6 +230,14 @@ export function Sidebar({
                 onChange={(e) => onMinGrantsChange(Number(e.target.value))}
                 style={{ width: '100%', marginTop: 2 }}
               />
+            </label>
+            <label className="layer-toggle" style={{ marginTop: 6 }}>
+              <input
+                type="checkbox"
+                checked={hideSubsidiaries}
+                onChange={(e) => onHideSubsidiariesChange(e.target.checked)}
+              />
+              Hide non-UK subsidiaries
             </label>
           </div>
         )}
