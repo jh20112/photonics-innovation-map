@@ -22,6 +22,8 @@ export interface Company {
   source_type: string;
   photonics_score: number | null;
   photonics_rationale: string;
+  last_funding_date: string | null;
+  last_funding_round: string | null;
   is_startup: string;
   emp_growth_pct: number | null;
   emp_growth_abs: number | null;

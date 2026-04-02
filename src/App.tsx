@@ -116,13 +116,23 @@ function App() {
   // Apply MaxQ filter to a company array
   const applyMaxQ = useCallback((list: Company[]) => {
     const ACTIVE = ['active', 'operational', 'early stage', 'breakout stage'];
+    const fiveYearsAgo = new Date();
+    fiveYearsAgo.setFullYear(fiveYearsAgo.getFullYear() - 5);
     let result = list;
     if (maxqLevel >= 1) {
-      result = result.filter(c =>
-        (c.funding_usd_m ?? 0) >= 5 &&
-        ACTIVE.includes((c.status || '').toLowerCase()) &&
-        (c.photonics_score ?? 0) >= 50
-      );
+      result = result.filter(c => {
+        if ((c.funding_usd_m ?? 0) < 5) return false;
+        if (!ACTIVE.includes((c.status || '').toLowerCase())) return false;
+        if ((c.photonics_score ?? 0) < 50) return false;
+        // Round in last 5 years (strict: no date = excluded)
+        const fd = c.last_funding_date;
+        if (!fd) return false;
+        try {
+          const dt = new Date(fd + '-01');
+          if (isNaN(dt.getTime()) || dt < fiveYearsAgo) return false;
+        } catch { return false; }
+        return true;
+      });
     }
     if (maxqLevel >= 2) {
       result = result.filter(c => (c.patent_count || 0) > 0);

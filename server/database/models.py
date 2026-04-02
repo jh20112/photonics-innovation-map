@@ -33,6 +33,8 @@ class Company(Base):
     source_type = Column(String)
     photonics_score = Column(Integer)
     photonics_rationale = Column(Text)
+    last_funding_date = Column(String)
+    last_funding_round = Column(String)
     data_strength = Column(String, index=True)
     data_strength_score = Column(Integer)
     # Growth metrics

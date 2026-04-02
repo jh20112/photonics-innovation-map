@@ -447,7 +447,7 @@ export function Sidebar({
           <h3>MaxQ Companies {maxqLevel > 0 && <span className="filter-count">L{maxqLevel}</span>}</h3>
           <div className="sector-list">
             {([
-              { level: 1 as const, label: 'Level 1', desc: '≥$5M funding + Active + Score ≥50' },
+              { level: 1 as const, label: 'Level 1', desc: '≥$5M funding + Active + Score ≥50 + Round in last 5yr' },
               { level: 2 as const, label: 'Level 2', desc: 'Level 1 + Has patents' },
               { level: 3 as const, label: 'Level 3', desc: 'Level 1+2 + Has grant funding' },
             ]).map(({ level, label, desc }) => (
