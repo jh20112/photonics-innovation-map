@@ -2,6 +2,7 @@ import { useState, useCallback, useRef } from 'react';
 import type { LayerType, ClusterType, CompanySizeMetric, InstitutionSizeMetric, RticSector, Stats, SearchResult } from '../../types/api';
 import { useSearch } from '../../hooks/useApi';
 import { SidebarSection } from './SidebarSection';
+import { SubSection } from './SubSection';
 import { YearRangeSlider } from './YearRangeSlider';
 
 interface Props {
@@ -283,8 +284,7 @@ export function Sidebar({
       <SidebarSection title="Filters" badge={filterCount || null}>
         {/* RTIC Filter */}
         {photonics && (
-          <div className="sidebar-section">
-            <h3>RTIC Filter {selectedSectors.length > 0 && <span className="filter-count">({selectedSectors.length})</span>}</h3>
+          <SubSection title="RTIC Filter" badge={selectedSectors.length > 0 ? selectedSectors.length : null}>
             {selectedSectors.length > 0 && (
               <button className="filter-clear" onClick={() => onSectorsChange([])}>Clear all</button>
             )}
@@ -324,12 +324,11 @@ export function Sidebar({
                 </label>
               ))}
             </div>
-          </div>
+          </SubSection>
         )}
 
         {/* Data Source Filter */}
-        <div className="sidebar-section">
-          <h3>Data Source {selectedSources.length > 0 && <span className="filter-count">({selectedSources.length})</span>}</h3>
+        <SubSection title="Data Source" badge={selectedSources.length > 0 ? selectedSources.length : null}>
           {selectedSources.length > 0 && (
             <button className="filter-clear" onClick={() => onSourcesChange([])}>Clear all</button>
           )}
@@ -351,11 +350,10 @@ export function Sidebar({
               </label>
             ))}
           </div>
-        </div>
+        </SubSection>
 
         {/* Data Strength Filter */}
-        <div className="sidebar-section">
-          <h3>Data Strength {selectedStrengths.length > 0 && <span className="filter-count">({selectedStrengths.length})</span>}</h3>
+        <SubSection title="Data Strength" badge={selectedStrengths.length > 0 ? selectedStrengths.length : null}>
           {selectedStrengths.length > 0 && (
             <button className="filter-clear" onClick={() => onStrengthsChange([])}>Clear all</button>
           )}
@@ -377,14 +375,13 @@ export function Sidebar({
               </label>
             ))}
           </div>
-        </div>
+        </SubSection>
       </SidebarSection>
 
       {/* === ANALYSIS (default collapsed) === */}
       <SidebarSection title="Analysis" badge={analysisCount || null}>
         {/* Clustering */}
-        <div className="sidebar-section">
-          <h3>Clustering {activeCluster && <span className="filter-count">on</span>}</h3>
+        <SubSection title="Clustering" badge={activeCluster ? 'on' : null}>
           <div className="cluster-group-label">DSIT</div>
           <div className="sector-list">
             {CLUSTER_OPTIONS.map((opt) => (
@@ -440,11 +437,10 @@ export function Sidebar({
               </span>
             </label>
           </div>
-        </div>
+        </SubSection>
 
         {/* MaxQ Companies */}
-        <div className="sidebar-section">
-          <h3>MaxQ Companies {maxqLevel > 0 && <span className="filter-count">L{maxqLevel}</span>}</h3>
+        <SubSection title="MaxQ Companies" badge={maxqLevel > 0 ? `L${maxqLevel}` : null}>
           <div className="sector-list">
             {([
               { level: 1 as const, label: 'Level 1', desc: '≥$5M funding + Active + Score ≥50 + Round in last 5yr' },
@@ -464,11 +460,10 @@ export function Sidebar({
               </label>
             ))}
           </div>
-        </div>
+        </SubSection>
 
         {/* Collaborations */}
-        <div className="sidebar-section">
-          <h3>Collaborations</h3>
+        <SubSection title="Collaborations">
           <label className="layer-toggle">
             <input
               type="checkbox"
@@ -505,12 +500,11 @@ export function Sidebar({
               )}
             </div>
           )}
-        </div>
+        </SubSection>
 
         {/* Subsector Heatmap */}
         {photonics && (
-          <div className="sidebar-section">
-            <h3>Subsector Heatmap {heatmapSubsector && <span className="filter-count">on</span>}</h3>
+          <SubSection title="Subsector Heatmap" badge={heatmapSubsector ? 'on' : null}>
             <select
               className="size-metric-select"
               style={{ width: '100%', padding: '6px 8px', fontSize: '12px' }}
@@ -522,7 +516,7 @@ export function Sidebar({
                 <option key={sub.code} value={sub.code}>{sub.name}</option>
               ))}
             </select>
-          </div>
+          </SubSection>
         )}
 
         {/* Research Topics */}
