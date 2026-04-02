@@ -221,6 +221,8 @@ export type InstitutionSizeMetric = 'publications' | 'citations' | 'quality' | '
 
 export type CompanySizeMetric = 'off' | 'employees' | 'funding_usd_m' | 'total_grant_funding_gbp' | 'patent_count' | 'emp_growth_pct';
 
+export type CollabFilter = 'all' | 'company' | 'institution';
+
 export type ClusterType = 'geographic' | 'collaboration' | 'technology' | 'ecipe' | 'composite' | 'research';
 
 export interface ClusterSummary {

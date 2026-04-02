@@ -10,7 +10,7 @@ import {
   useGrants, usePatents, useCollaborations, useAllCollaborations, usePeople,
   useClusters, useCoordsLookup, useRticSectors, useStats, useGrantTopics, useGrantEdges,
 } from './hooks/useApi';
-import type { LayerType, ClusterType, CompanySizeMetric, InstitutionSizeMetric, Cluster, Grant, EntityDetail, SearchResult, Company, Institution, Person } from './types/api';
+import type { LayerType, ClusterType, CollabFilter, CompanySizeMetric, InstitutionSizeMetric, Cluster, Grant, EntityDetail, SearchResult, Company, Institution, Person } from './types/api';
 
 type ViewMode = 'map' | 'dashboard' | 'data';
 
@@ -79,6 +79,7 @@ function App() {
   const [collabEntity, setCollabEntity] = useState<string | null>(null);
   const [collabCoords, setCollabCoords] = useState<[number, number] | null>(null);
   const [collabMinShared, setCollabMinShared] = useState(2);
+  const [collabFilter, setCollabFilter] = useState<CollabFilter>('all');
 
   // Fly-to target
   const [flyTo, setFlyTo] = useState<[number, number] | null>(null);
@@ -108,6 +109,14 @@ function App() {
   const { data: stats } = useStats();
   const { data: grantTopics } = useGrantTopics(yearRange?.[0], yearRange?.[1]);
   const { data: grantEdges } = useGrantEdges(grantNetworkEnabled, grantNetworkMinShared);
+
+  // Filter collaborations by type
+  const filteredCollaborations = useMemo(() => {
+    if (!allCollaborations || collabFilter === 'all') return allCollaborations;
+    return allCollaborations.filter(c =>
+      collabFilter === 'company' ? c.collaborator_is_company : !c.collaborator_is_company
+    );
+  }, [allCollaborations, collabFilter]);
 
   // Dashboard edges — always loaded for overview charts
   const { data: dashboardEdges } = useGrantEdges(true, 3);
@@ -340,7 +349,9 @@ function App() {
         showTopics={showTopics}
         collabMinShared={collabMinShared}
         onCollabMinSharedChange={setCollabMinShared}
-        collabEdgeCount={allCollaborations?.length ?? null}
+        collabEdgeCount={filteredCollaborations?.length ?? null}
+        collabFilter={collabFilter}
+        onCollabFilterChange={setCollabFilter}
         grantNetworkEnabled={grantNetworkEnabled}
         onToggleGrantNetwork={() => setGrantNetworkEnabled(e => !e)}
         grantNetworkMinShared={grantNetworkMinShared}
@@ -382,7 +393,7 @@ function App() {
               patents={layers.patents ? patents : null}
               people={layers.people ? people : null}
               collaborations={layers.collaborations ? collaborations : null}
-              allCollaborations={layers.collaborations && !collabEntity ? allCollaborations : null}
+              allCollaborations={layers.collaborations && !collabEntity ? filteredCollaborations : null}
               collabCoords={collabCoords}
               coordsLookup={coordsLookup}
               clusterData={activeCluster ? clusterData : null}

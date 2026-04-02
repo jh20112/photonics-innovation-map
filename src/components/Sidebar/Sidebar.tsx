@@ -1,5 +1,5 @@
 import { useState, useCallback, useRef } from 'react';
-import type { LayerType, ClusterType, CompanySizeMetric, InstitutionSizeMetric, RticSector, Stats, SearchResult } from '../../types/api';
+import type { LayerType, ClusterType, CollabFilter, CompanySizeMetric, InstitutionSizeMetric, RticSector, Stats, SearchResult } from '../../types/api';
 import { useSearch } from '../../hooks/useApi';
 import { SidebarSection } from './SidebarSection';
 import { SubSection } from './SubSection';
@@ -30,6 +30,8 @@ interface Props {
   collabMinShared: number;
   onCollabMinSharedChange: (value: number) => void;
   collabEdgeCount: number | null;
+  collabFilter: CollabFilter;
+  onCollabFilterChange: (filter: CollabFilter) => void;
   grantNetworkEnabled: boolean;
   onToggleGrantNetwork: () => void;
   grantNetworkMinShared: number;
@@ -81,7 +83,7 @@ export function Sidebar({
   activeCluster, onClusterChange, stats, onSearchSelect,
   heatmapSubsector, onHeatmapSubsectorChange,
   onToggleTopics, showTopics,
-  collabMinShared, onCollabMinSharedChange, collabEdgeCount,
+  collabMinShared, onCollabMinSharedChange, collabEdgeCount, collabFilter, onCollabFilterChange,
   grantNetworkEnabled, onToggleGrantNetwork, grantNetworkMinShared, onGrantNetworkMinSharedChange, grantEdgeCount,
   minPatents, onMinPatentsChange, minGrants, onMinGrantsChange,
   institutionPeriodYears, onInstitutionPeriodChange, maxqLevel, onMaxqLevelChange,
@@ -491,6 +493,18 @@ export function Sidebar({
           {layers.collaborations && (
             <div className="layer-sub-control">
               <label className="size-metric-label">
+                Show{' '}
+                <select
+                  value={collabFilter}
+                  onChange={(e) => onCollabFilterChange(e.target.value as CollabFilter)}
+                  className="size-metric-select"
+                >
+                  <option value="all">All</option>
+                  <option value="company">Company ↔ Company</option>
+                  <option value="institution">Company ↔ Institution</option>
+                </select>
+              </label>
+              <label className="size-metric-label" style={{ marginTop: 6 }}>
                 Min shared grants: {collabMinShared}
                 <input
                   type="range"

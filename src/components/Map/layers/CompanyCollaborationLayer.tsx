@@ -41,7 +41,7 @@ export function CompanyCollaborationLayer({ collaborations, coordsLookup }: Prop
             key={`${c.company}-${c.collaborator}-${i}`}
             positions={[coordsA, coordsB]}
             pathOptions={{
-              color: c.collaborator_is_company ? '#3b82f6' : '#6366f1',
+              color: c.collaborator_is_company ? '#f59e0b' : '#10b981',
               weight,
               opacity: 0.35,
               dashArray: c.collaborator_is_company ? '8 4' : undefined,
