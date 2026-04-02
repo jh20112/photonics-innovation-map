@@ -124,6 +124,8 @@ function App() {
     fiveYearsAgo.setFullYear(fiveYearsAgo.getFullYear() - 5);
     let result = list;
     if (maxqLevel >= 1) {
+      // Exclude non-UK subsidiaries from all MaxQ levels
+      result = result.filter(c => !c.is_non_uk_subsidiary);
       result = result.filter(c => {
         if ((c.funding_usd_m ?? 0) < 5) return false;
         if (!ACTIVE.includes((c.status || '').toLowerCase())) return false;
