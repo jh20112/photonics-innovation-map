@@ -385,16 +385,12 @@ export function Sidebar({
         {/* Clustering */}
         <div className="sidebar-section">
           <h3>Clustering {activeCluster && <span className="filter-count">on</span>}</h3>
-          {activeCluster && (
-            <button className="filter-clear" onClick={() => onClusterChange(null)}>Turn off</button>
-          )}
           <div className="cluster-group-label">DSIT</div>
           <div className="sector-list">
             {CLUSTER_OPTIONS.map((opt) => (
               <label key={opt.value} className="sector-toggle">
                 <input
-                  type="radio"
-                  name="clustering"
+                  type="checkbox"
                   checked={activeCluster === opt.value}
                   onChange={() => onClusterChange(activeCluster === opt.value ? null : opt.value)}
                 />
@@ -409,8 +405,7 @@ export function Sidebar({
           <div className="sector-list">
             <label className="sector-toggle">
               <input
-                type="radio"
-                name="clustering"
+                type="checkbox"
                 checked={activeCluster === 'ecipe'}
                 onChange={() => onClusterChange(activeCluster === 'ecipe' ? null : 'ecipe')}
               />
@@ -424,8 +419,7 @@ export function Sidebar({
           <div className="sector-list">
             <label className="sector-toggle">
               <input
-                type="radio"
-                name="clustering"
+                type="checkbox"
                 checked={activeCluster === 'composite'}
                 onChange={() => onClusterChange(activeCluster === 'composite' ? null : 'composite')}
               />
@@ -436,8 +430,7 @@ export function Sidebar({
             </label>
             <label className="sector-toggle">
               <input
-                type="radio"
-                name="clustering"
+                type="checkbox"
                 checked={activeCluster === 'research'}
                 onChange={() => onClusterChange(activeCluster === 'research' ? null : 'research')}
               />
@@ -452,9 +445,6 @@ export function Sidebar({
         {/* MaxQ Companies */}
         <div className="sidebar-section">
           <h3>MaxQ Companies {maxqLevel > 0 && <span className="filter-count">L{maxqLevel}</span>}</h3>
-          {maxqLevel > 0 && (
-            <button className="filter-clear" onClick={() => onMaxqLevelChange(0)}>Turn off</button>
-          )}
           <div className="sector-list">
             {([
               { level: 1 as const, label: 'Level 1', desc: '≥$5M funding + Active + Score ≥50' },
@@ -463,8 +453,7 @@ export function Sidebar({
             ]).map(({ level, label, desc }) => (
               <label key={level} className="sector-toggle">
                 <input
-                  type="radio"
-                  name="maxq"
+                  type="checkbox"
                   checked={maxqLevel === level}
                   onChange={() => onMaxqLevelChange(maxqLevel === level ? 0 : level)}
                 />
