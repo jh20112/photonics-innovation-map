@@ -30267,6 +30267,25 @@
     "biography": "Mr. James Ashforth-Pook is a Co-Founder and serves as Chief Executive Officer & Board Member at Quinas Technology. He brings 40 years of experience in corporate leadership and start-up management within the global semiconductor industry. Previously, he served as Senior Vice President at Unisantis Electronics (Tokyo/Singapore), where he was involved in business development and strategic partnerships for surrounding gate transistor technology for future memories, collaborating with IMEC, Samsung, and Micron. He also served as Director and General Manager at Cadence Design Systems/Quickturn, and as Director of the European Strategic Group at Synopsys in Grenoble, where he brokered a multi-million-dollar strategic partnership with ARM. Earlier in his career, he worked with Motorola Semiconductors, and later established and managed the European operations of Applied Microsystems Corporation in Paris, building key relationships with Intel and Motorola. He holds a BSc in Electrical Engineering from the University of Plymouth."
   },
   {
+    "id": 10072,
+    "name": "James Dacombe",
+    "orcid": null,
+    "current_org": "OLIX",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.713875,
+    "lng": -0.447001,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "OLIX",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. James Dacombe is a Co-Founder and serves as Chief Executive Officer & Chairman at CoMind. He is the Founder and serves as Chief Executive Officer & Board Member at Olix Computing."
+  },
+  {
     "id": 10073,
     "name": "Niall Coogan",
     "orcid": null,
