@@ -117,6 +117,18 @@ export function useGrantEdges(enabled: boolean, minShared: number) {
   );
 }
 
+export function useResearchEdges(enabled: boolean, minShared: number) {
+  return useApiData<import('../types/api').ResearchEdge[]>(
+    enabled ? `/collaborations/research?min_shared=${minShared}` : null
+  );
+}
+
+export function useInstitutionResearchCollabs(instName: string | null) {
+  return useApiData<import('../types/api').ResearchEdge[]>(
+    instName ? `/collaborations/research?inst_name=${encodeURIComponent(instName)}` : null
+  );
+}
+
 export function useSearch() {
   const [results, setResults] = useState<SearchResult[]>([]);
   const [loading, setLoading] = useState(false);

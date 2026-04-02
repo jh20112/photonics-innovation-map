@@ -235,6 +235,15 @@ def get_grant_edges(
     return queries.get_grant_edges(db, org_name=org_name, min_shared=min_shared)
 
 
+@app.get("/api/collaborations/research")
+def get_research_edges(
+    inst_name: str | None = Query(None),
+    min_shared: int = Query(1),
+    db: Session = Depends(get_db),
+):
+    return queries.get_research_edges(db, inst_name=inst_name, min_shared=min_shared)
+
+
 # --- Clusters (kept as FileResponse — complex nested structures) ---
 
 @app.get("/api/clusters")

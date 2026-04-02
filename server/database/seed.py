@@ -19,14 +19,14 @@ from server.database.engine import SessionLocal, engine
 from server.database.models import (
     Base, Company, CompanyCollaboration, CompanyRtic, CoordsLookup,
     DataVersion, Grant, GrantEdge, Infrastructure, Institution, Patent,
-    Person, RticSector, Stat,
+    Person, ResearchEdge, RticSector, Stat,
 )
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 
 # Tables to truncate in reverse-dependency order
 _ALL_TABLES = [
-    "data_version", "stats", "coords_lookup", "grant_edges",
+    "data_version", "stats", "coords_lookup", "research_edges", "grant_edges",
     "company_collaborations", "people", "patents", "grants",
     "institutions", "infrastructure", "company_rtic", "companies",
     "rtic_sectors",
@@ -152,6 +152,11 @@ def seed_from_json(session: Session, data_dir: Path | None = None):
     _bulk_insert(session, GrantEdge, edges)
     print(f"  grant_edges: {len(edges)}")
 
+    # --- Research Edges ---
+    research_edges = json.loads((src / "research_collaboration_edges.json").read_text())
+    _bulk_insert(session, ResearchEdge, research_edges)
+    print(f"  research_edges: {len(research_edges)}")
+
     # --- Stats ---
     stats_obj = json.loads((src / "stats.json").read_text())
     stat_rows = [{"key": k, "value": str(v)} for k, v in stats_obj.items()]
@@ -220,7 +225,7 @@ def _build_coords_lookup(
 
 def _compute_data_version(src: Path) -> str:
     """Compute hash of DB-seeded data files only (exclude cluster/collab files served from disk)."""
-    SKIP_PREFIXES = ("clusters_", "research_collaboration", "grant_collaboration", "collaboration_clusters", "geocoded_")
+    SKIP_PREFIXES = ("clusters_", "grant_collaboration", "collaboration_clusters", "geocoded_")
     h = hashlib.sha256()
     for f in sorted(src.glob("*.json")):
         if f.name.startswith(SKIP_PREFIXES):

@@ -11,7 +11,7 @@ from sqlalchemy.orm import Session
 from server.database.models import (
     Company, CompanyCollaboration, CompanyRtic, CoordsLookup,
     Grant, GrantEdge, Infrastructure, Institution, Patent, Person,
-    RticSector, Stat,
+    ResearchEdge, RticSector, Stat,
 )
 
 
@@ -280,6 +280,25 @@ def get_grant_edges(
         )
     if min_shared > 1:
         q = q.where(GrantEdge.shared_grants >= min_shared)
+    return [_model_to_dict(e, exclude={"id"}) for e in db.scalars(q).all()]
+
+
+def get_research_edges(
+    db: Session,
+    inst_name: str | None = None,
+    min_shared: int = 1,
+) -> list[dict]:
+    q = select(ResearchEdge)
+    if inst_name:
+        il = inst_name.lower()
+        q = q.where(
+            or_(
+                func.lower(ResearchEdge.inst_a) == il,
+                func.lower(ResearchEdge.inst_b) == il,
+            )
+        )
+    if min_shared > 1:
+        q = q.where(ResearchEdge.shared_publications >= min_shared)
     return [_model_to_dict(e, exclude={"id"}) for e in db.scalars(q).all()]
 
 

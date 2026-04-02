@@ -9,6 +9,7 @@ import {
   useCompanies, useInfrastructure, useInstitutions,
   useGrants, usePatents, useCollaborations, useAllCollaborations, usePeople,
   useClusters, useCoordsLookup, useRticSectors, useStats, useGrantTopics, useGrantEdges,
+  useResearchEdges,
 } from './hooks/useApi';
 import type { LayerType, ClusterType, CollabFilter, CompanySizeMetric, InstitutionSizeMetric, Cluster, Grant, EntityDetail, SearchResult, Company, Institution, Person } from './types/api';
 
@@ -63,6 +64,10 @@ function App() {
   const [grantNetworkEnabled, setGrantNetworkEnabled] = useState(false);
   const [grantNetworkMinShared, setGrantNetworkMinShared] = useState(5);
 
+  // Research collaboration network
+  const [researchNetworkEnabled, setResearchNetworkEnabled] = useState(false);
+  const [researchNetworkMinShared, setResearchNetworkMinShared] = useState(10);
+
   // MaxQ filter
   const [maxqLevel, setMaxqLevel] = useState<0 | 1 | 2 | 3>(0);
 
@@ -109,6 +114,7 @@ function App() {
   const { data: stats } = useStats();
   const { data: grantTopics } = useGrantTopics(yearRange?.[0], yearRange?.[1]);
   const { data: grantEdges } = useGrantEdges(grantNetworkEnabled, grantNetworkMinShared);
+  const { data: researchEdges } = useResearchEdges(researchNetworkEnabled, researchNetworkMinShared);
 
   // Filter collaborations by type
   const filteredCollaborations = useMemo(() => {
@@ -120,6 +126,7 @@ function App() {
 
   // Dashboard edges — always loaded for overview charts
   const { data: dashboardEdges } = useGrantEdges(true, 3);
+  const { data: dashboardResearchEdges } = useResearchEdges(true, 5);
 
   // Filter companies by min patent/grant thresholds
   const filteredByThresholds = useMemo(() => {
@@ -357,6 +364,11 @@ function App() {
         grantNetworkMinShared={grantNetworkMinShared}
         onGrantNetworkMinSharedChange={setGrantNetworkMinShared}
         grantEdgeCount={grantEdges?.length ?? null}
+        researchNetworkEnabled={researchNetworkEnabled}
+        onToggleResearchNetwork={() => setResearchNetworkEnabled(e => !e)}
+        researchNetworkMinShared={researchNetworkMinShared}
+        onResearchNetworkMinSharedChange={setResearchNetworkMinShared}
+        researchEdgeCount={researchEdges?.length ?? null}
         maxqLevel={maxqLevel}
         onMaxqLevelChange={setMaxqLevel}
         hideSubsidiaries={hideSubsidiaries}
@@ -400,6 +412,7 @@ function App() {
               companySizeMetric={companySizeMetric}
               growthPeriodMonths={growthPeriodMonths}
               grantEdges={grantNetworkEnabled ? grantEdges : null}
+              researchEdges={researchNetworkEnabled ? researchEdges : null}
               heatmapSubsector={heatmapSubsector}
               allCompanies={allCompanies}
               institutionPeriodYears={institutionPeriodYears}
@@ -433,6 +446,7 @@ function App() {
             grants={allGrants}
             patents={allPatents}
             grantEdges={dashboardEdges}
+            researchEdges={dashboardResearchEdges}
             sectors={sectors}
             onSelectCompany={dashSelectCompany}
             onSelectInstitution={dashSelectInstitution}

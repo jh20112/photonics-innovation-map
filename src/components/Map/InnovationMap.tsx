@@ -14,10 +14,11 @@ import { CompanyCollaborationLayer } from './layers/CompanyCollaborationLayer';
 import { ClusterLayer } from './layers/ClusterLayer';
 import { SubsectorHeatmap } from './layers/SubsectorHeatmap';
 import { GrantCollaborationLayer } from './layers/GrantCollaborationLayer';
+import { ResearchCollaborationLayer } from './layers/ResearchCollaborationLayer';
 import { PeopleLayer } from './layers/PeopleLayer';
 import type {
   Company, Infrastructure, Institution, Grant, Patent, Collaboration, Person,
-  Cluster, ClusterData, CompanySizeMetric, InstitutionSizeMetric, GrantEdge,
+  Cluster, ClusterData, CompanySizeMetric, InstitutionSizeMetric, GrantEdge, ResearchEdge,
 } from '../../types/api';
 
 interface Props {
@@ -35,6 +36,7 @@ interface Props {
   companySizeMetric: CompanySizeMetric;
   growthPeriodMonths: number | null;
   grantEdges: GrantEdge[] | null;
+  researchEdges: ResearchEdge[] | null;
   onSelectCompany: (c: Company) => void;
   onSelectInfrastructure: (f: Infrastructure) => void;
   onSelectInstitution: (i: Institution) => void;
@@ -65,7 +67,7 @@ function FlyToHandler({ target, onDone }: { target: [number, number] | null; onD
 export function InnovationMap({
   companies, infrastructure, institutions, grants, patents, people,
   collaborations, allCollaborations, collabCoords, coordsLookup,
-  clusterData, companySizeMetric, growthPeriodMonths, grantEdges,
+  clusterData, companySizeMetric, growthPeriodMonths, grantEdges, researchEdges,
   onSelectCompany, onSelectInfrastructure, onSelectInstitution,
   onSelectGrant, onSelectPatent, onSelectPerson, onSelectCluster,
   heatmapSubsector, allCompanies, institutionPeriodYears, institutionSizeMetric,
@@ -120,6 +122,11 @@ export function InnovationMap({
         {/* Company collaboration network (below data markers) */}
         {allCollaborations && allCollaborations.length > 0 && (
           <CompanyCollaborationLayer collaborations={allCollaborations} coordsLookup={coordsLookup} />
+        )}
+
+        {/* Research collaboration network (below data markers) */}
+        {researchEdges && researchEdges.length > 0 && (
+          <ResearchCollaborationLayer edges={researchEdges} coordsLookup={coordsLookup} />
         )}
 
         {/* Grant collaboration network (below data markers) */}

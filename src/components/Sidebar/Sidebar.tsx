@@ -37,6 +37,11 @@ interface Props {
   grantNetworkMinShared: number;
   onGrantNetworkMinSharedChange: (value: number) => void;
   grantEdgeCount: number | null;
+  researchNetworkEnabled: boolean;
+  onToggleResearchNetwork: () => void;
+  researchNetworkMinShared: number;
+  onResearchNetworkMinSharedChange: (value: number) => void;
+  researchEdgeCount: number | null;
   minPatents: number;
   onMinPatentsChange: (value: number) => void;
   minGrants: number;
@@ -85,6 +90,7 @@ export function Sidebar({
   onToggleTopics, showTopics,
   collabMinShared, onCollabMinSharedChange, collabEdgeCount, collabFilter, onCollabFilterChange,
   grantNetworkEnabled, onToggleGrantNetwork, grantNetworkMinShared, onGrantNetworkMinSharedChange, grantEdgeCount,
+  researchNetworkEnabled, onToggleResearchNetwork, researchNetworkMinShared, onResearchNetworkMinSharedChange, researchEdgeCount,
   minPatents, onMinPatentsChange, minGrants, onMinGrantsChange,
   institutionPeriodYears, onInstitutionPeriodChange, maxqLevel, onMaxqLevelChange,
   hideSubsidiaries, onHideSubsidiariesChange,
@@ -104,7 +110,7 @@ export function Sidebar({
 
   // Badge counts
   const filterCount = selectedSectors.length + selectedSources.length + selectedStrengths.length;
-  const analysisCount = (activeCluster ? 1 : 0) + (grantNetworkEnabled ? 1 : 0) + (heatmapSubsector ? 1 : 0) + (showTopics ? 1 : 0);
+  const analysisCount = (activeCluster ? 1 : 0) + (grantNetworkEnabled ? 1 : 0) + (researchNetworkEnabled ? 1 : 0) + (heatmapSubsector ? 1 : 0) + (showTopics ? 1 : 0);
 
   if (collapsed) {
     return (
@@ -544,6 +550,33 @@ export function Sidebar({
               </label>
               {grantEdgeCount != null && (
                 <span className="size-metric-label">{grantEdgeCount.toLocaleString()} edges</span>
+              )}
+            </div>
+          )}
+          <label className="layer-toggle">
+            <input
+              type="checkbox"
+              checked={researchNetworkEnabled}
+              onChange={onToggleResearchNetwork}
+            />
+            <span className="layer-dot" style={{ background: '#a855f7' }} />
+            Research Network
+          </label>
+          {researchNetworkEnabled && (
+            <div className="layer-sub-control">
+              <label className="size-metric-label">
+                Min shared publications: {researchNetworkMinShared}
+                <input
+                  type="range"
+                  min={2}
+                  max={50}
+                  value={researchNetworkMinShared}
+                  onChange={(e) => onResearchNetworkMinSharedChange(Number(e.target.value))}
+                  style={{ width: '100%', marginTop: 4 }}
+                />
+              </label>
+              {researchEdgeCount != null && (
+                <span className="size-metric-label">{researchEdgeCount.toLocaleString()} edges</span>
               )}
             </div>
           )}

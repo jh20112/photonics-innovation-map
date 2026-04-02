@@ -201,6 +201,15 @@ class GrantEdge(Base):
     same_cluster = Column(Boolean)
 
 
+class ResearchEdge(Base):
+    __tablename__ = "research_edges"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    inst_a = Column(String, nullable=False, index=True)
+    inst_b = Column(String, nullable=False, index=True)
+    shared_publications = Column(Integer, index=True)
+
+
 class CoordsLookup(Base):
     __tablename__ = "coords_lookup"
 

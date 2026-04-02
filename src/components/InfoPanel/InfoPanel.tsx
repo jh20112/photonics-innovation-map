@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
-import type { EntityDetail, Collaboration, Patent, Company } from '../../types/api';
+import type { EntityDetail, Collaboration, ResearchEdge, Patent, Company } from '../../types/api';
 import { CompanyPanel } from './panels/CompanyPanel';
 import { InfrastructurePanel } from './panels/InfrastructurePanel';
 import { InstitutionPanel } from './panels/InstitutionPanel';
@@ -24,6 +24,9 @@ export function InfoPanel({ detail, onClose, onShowCollaborations, allPatents, c
   const [collabs, setCollabs] = useState<Collaboration[] | null>(null);
   const [collabLoading, setCollabLoading] = useState(false);
   const collabEntityRef = useRef<string | null>(null);
+  const [researchCollabs, setResearchCollabs] = useState<ResearchEdge[] | null>(null);
+  const [researchCollabLoading, setResearchCollabLoading] = useState(false);
+  const researchCollabRef = useRef<string | null>(null);
 
   // When external detail changes (map click), reset stack
   useEffect(() => {
@@ -31,6 +34,8 @@ export function InfoPanel({ detail, onClose, onShowCollaborations, allPatents, c
       setStack([detail]);
       setCollabs(null);
       collabEntityRef.current = null;
+      setResearchCollabs(null);
+      researchCollabRef.current = null;
     } else {
       setStack([]);
     }
@@ -42,12 +47,16 @@ export function InfoPanel({ detail, onClose, onShowCollaborations, allPatents, c
     setStack(prev => [...prev.slice(0, 5), newDetail]);
     setCollabs(null);
     collabEntityRef.current = null;
+    setResearchCollabs(null);
+    researchCollabRef.current = null;
   }, []);
 
   const goBack = useCallback(() => {
     setStack(prev => prev.slice(0, -1));
     setCollabs(null);
     collabEntityRef.current = null;
+    setResearchCollabs(null);
+    researchCollabRef.current = null;
   }, []);
 
   const loadCollabs = useCallback((name: string) => {
@@ -59,6 +68,17 @@ export function InfoPanel({ detail, onClose, onShowCollaborations, allPatents, c
       .then(data => setCollabs(data))
       .catch(() => setCollabs([]))
       .finally(() => setCollabLoading(false));
+  }, []);
+
+  const loadResearchCollabs = useCallback((name: string) => {
+    if (researchCollabRef.current === name) return;
+    researchCollabRef.current = name;
+    setResearchCollabLoading(true);
+    fetch(`${API_BASE}/collaborations/research?inst_name=${encodeURIComponent(name)}`)
+      .then(r => r.json())
+      .then(data => setResearchCollabs(data))
+      .catch(() => setResearchCollabs([]))
+      .finally(() => setResearchCollabLoading(false));
   }, []);
 
   // Keyboard: Escape to close/go back
@@ -121,6 +141,9 @@ export function InfoPanel({ detail, onClose, onShowCollaborations, allPatents, c
             collaborations={collabs}
             collabLoading={collabLoading}
             onLoadCollaborations={loadCollabs}
+            researchCollabs={researchCollabs}
+            researchCollabLoading={researchCollabLoading}
+            onLoadResearchCollabs={loadResearchCollabs}
             onNavigate={navigate}
             onShowCollaborations={onShowCollaborations}
           />

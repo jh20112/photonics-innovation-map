@@ -3,8 +3,7 @@ import {
   AreaChart, Area, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip,
   ResponsiveContainer,
 } from 'recharts';
-import type { Company, Grant, Patent, RticSector } from '../../types/api';
-import type { GrantEdge } from '../../types/api';
+import type { Company, Grant, Patent, RticSector, GrantEdge, ResearchEdge } from '../../types/api';
 import './OverviewTab.css';
 
 interface Props {
@@ -12,6 +11,7 @@ interface Props {
   grants: Grant[] | null;
   patents: Patent[] | null;
   grantEdges: GrantEdge[] | null;
+  researchEdges: ResearchEdge[] | null;
   sectors: RticSector[] | null;
 }
 
@@ -22,7 +22,7 @@ function formatFunding(value: number): string {
   return `£${value}`;
 }
 
-export function OverviewTab({ companies, grants, patents, grantEdges }: Props) {
+export function OverviewTab({ companies, grants, patents, grantEdges, researchEdges }: Props) {
   // Chart 1: Funding by year
   const fundingByYear = useMemo(() => {
     if (!grants) return [];
@@ -78,7 +78,7 @@ export function OverviewTab({ companies, grants, patents, grantEdges }: Props) {
       .map(([name, count]) => ({ name: name.length > 20 ? name.slice(0, 20) + '…' : name, count }));
   }, [companies]);
 
-  // Chart 5: Top collaborating pairs
+  // Chart 5: Top grant collaborating pairs
   const topCollabs = useMemo(() => {
     if (!grantEdges) return [];
     return [...grantEdges]
@@ -89,6 +89,18 @@ export function OverviewTab({ companies, grants, patents, grantEdges }: Props) {
         shared: e.shared_grants,
       }));
   }, [grantEdges]);
+
+  // Chart 6: Top research collaborating pairs
+  const topResearchCollabs = useMemo(() => {
+    if (!researchEdges) return [];
+    return [...researchEdges]
+      .sort((a, b) => b.shared_publications - a.shared_publications)
+      .slice(0, 12)
+      .map(e => ({
+        pair: `${e.inst_a.slice(0, 18)}${e.inst_a.length > 18 ? '…' : ''} ↔ ${e.inst_b.slice(0, 18)}${e.inst_b.length > 18 ? '…' : ''}`,
+        shared: e.shared_publications,
+      }));
+  }, [researchEdges]);
 
   if (!grants && !patents && !companies) {
     return <div className="overview-loading">Loading data...</div>;
@@ -152,9 +164,9 @@ export function OverviewTab({ companies, grants, patents, grantEdges }: Props) {
         </ResponsiveContainer>
       </div>
 
-      {/* Top Collaborating Pairs */}
+      {/* Top Grant Collaborating Pairs */}
       <div className="overview-card">
-        <h3 className="overview-card-title">Top Research Collaborations</h3>
+        <h3 className="overview-card-title">Top Grant Collaborations</h3>
         <ResponsiveContainer width="100%" height={240}>
           <BarChart data={topCollabs} layout="vertical" margin={{ left: 10 }}>
             <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" />
@@ -162,6 +174,20 @@ export function OverviewTab({ companies, grants, patents, grantEdges }: Props) {
             <YAxis type="category" dataKey="pair" tick={{ fontSize: 9 }} width={180} />
             <Tooltip />
             <Bar dataKey="shared" fill="#06b6d4" radius={[0, 2, 2, 0]} />
+          </BarChart>
+        </ResponsiveContainer>
+      </div>
+
+      {/* Top Research Collaborating Pairs */}
+      <div className="overview-card">
+        <h3 className="overview-card-title">Top Research Collaborations</h3>
+        <ResponsiveContainer width="100%" height={240}>
+          <BarChart data={topResearchCollabs} layout="vertical" margin={{ left: 10 }}>
+            <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" />
+            <XAxis type="number" tick={{ fontSize: 10 }} />
+            <YAxis type="category" dataKey="pair" tick={{ fontSize: 9 }} width={180} />
+            <Tooltip />
+            <Bar dataKey="shared" fill="#a855f7" radius={[0, 2, 2, 0]} />
           </BarChart>
         </ResponsiveContainer>
       </div>

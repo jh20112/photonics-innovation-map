@@ -169,6 +169,12 @@ export interface GrantEdge {
   same_cluster: boolean;
 }
 
+export interface ResearchEdge {
+  inst_a: string;
+  inst_b: string;
+  shared_publications: number;
+}
+
 export interface Collaboration {
   company: string;
   company_grant_org: string;

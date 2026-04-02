@@ -1,4 +1,4 @@
-import type { Institution, Collaboration, EntityDetail } from '../../../types/api';
+import type { Institution, Collaboration, ResearchEdge, EntityDetail } from '../../../types/api';
 import { EntityHeader } from '../EntityHeader';
 import { StatBlock } from '../StatBlock';
 import { CollapsibleSection } from '../CollapsibleSection';
@@ -10,13 +10,17 @@ interface Props {
   collaborations: Collaboration[] | null;
   collabLoading: boolean;
   onLoadCollaborations: (name: string) => void;
+  researchCollabs: ResearchEdge[] | null;
+  researchCollabLoading: boolean;
+  onLoadResearchCollabs: (name: string) => void;
   onNavigate: (detail: EntityDetail) => void;
   onShowCollaborations: (name: string, coords: [number, number]) => void;
 }
 
 export function InstitutionPanel({
   institution: inst, collaborations, collabLoading,
-  onLoadCollaborations, onNavigate: _onNavigate, onShowCollaborations,
+  onLoadCollaborations, researchCollabs, researchCollabLoading, onLoadResearchCollabs,
+  onNavigate: _onNavigate, onShowCollaborations,
 }: Props) {
   return (
     <>
@@ -76,6 +80,30 @@ export function InstitutionPanel({
             Show collaborations on map
           </button>
         )}
+      </CollapsibleSection>
+
+      {/* Research Collaborators (co-publications) */}
+      <CollapsibleSection
+        title="Research Collaborators"
+        count={researchCollabs ? researchCollabs.length : undefined}
+        onExpand={() => onLoadResearchCollabs(inst.name)}
+        resetKey={inst.name}
+      >
+        {researchCollabLoading && <div className="info-loading">Loading research collaborators...</div>}
+        {researchCollabs && researchCollabs.length === 0 && (
+          <div className="info-loading">No co-publication collaborations found.</div>
+        )}
+        {researchCollabs
+          ?.sort((a, b) => b.shared_publications - a.shared_publications)
+          .slice(0, 15)
+          .map((edge, i) => (
+            <RelatedEntityCard
+              key={i}
+              title={edge.inst_a.toLowerCase() !== inst.name.toLowerCase() ? edge.inst_a : edge.inst_b}
+              subtitle={`${edge.shared_publications} shared publications`}
+              type="institution"
+            />
+          ))}
       </CollapsibleSection>
     </>
   );
