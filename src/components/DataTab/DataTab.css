@@ -269,6 +269,16 @@
   color: var(--c-text);
 }
 
+.histogram-clickable {
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.15s;
+}
+
+.histogram-clickable:hover {
+  background: var(--c-primary-light);
+}
+
 .histogram-label {
   font-size: 9px;
   color: var(--c-text-muted);

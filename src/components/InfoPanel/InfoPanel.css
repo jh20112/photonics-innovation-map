@@ -374,7 +374,16 @@
   color: var(--c-text-muted);
 }
 
-.photonics-score-badge { font-weight: 700; }
+.photonics-score-badge {
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.photonics-score-badge:hover {
+  transform: scale(1.08);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
 .photonics-score-badge.score-high { background: #d1fae5; color: #047857; }
 .photonics-score-badge.score-medium { background: #fef3c7; color: #92400e; }
 .photonics-score-badge.score-low { background: #fee2e2; color: #b91c1c; }

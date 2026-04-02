@@ -7,9 +7,10 @@ import './DataTab.css';
 interface Props {
   companies: Company[] | null;
   onFilterSources: (sources: string[]) => void;
+  onFilterSourcesAndScore: (sources: string[], scoreMin: number, scoreMax: number) => void;
 }
 
-export function DataTab({ companies, onFilterSources }: Props) {
+export function DataTab({ companies, onFilterSources, onFilterSourcesAndScore }: Props) {
   if (!companies) {
     return <div className="data-tab"><div className="data-empty">Loading company data...</div></div>;
   }
@@ -22,7 +23,7 @@ export function DataTab({ companies, onFilterSources }: Props) {
       </div>
       <SourceVenn companies={companies} onFilterSources={onFilterSources} />
       <div className="data-grid">
-        <SourceBreakdown companies={companies} />
+        <SourceBreakdown companies={companies} onFilterSourcesAndScore={onFilterSourcesAndScore} />
         <DataCompleteness companies={companies} />
       </div>
     </div>

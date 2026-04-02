@@ -34,6 +34,9 @@ function App() {
   const [selectedSources, setSelectedSources] = useState<string[]>([]);
   const [selectedStrengths, setSelectedStrengths] = useState<string[]>([]);
 
+  // Score range filter (set from Data tab histogram click)
+  const [scoreRange, setScoreRange] = useState<[number, number] | null>(null);
+
   // Subsidiary filter
   const [hideSubsidiaries, setHideSubsidiaries] = useState(false);
 
@@ -189,8 +192,11 @@ function App() {
     }
     if (maxqLevel > 0) result = applyMaxQ(result);
     if (hideSubsidiaries) result = result.filter(c => !c.is_non_uk_subsidiary);
+    if (scoreRange) {
+      result = result.filter(c => (c.photonics_score ?? 0) >= scoreRange[0] && (c.photonics_score ?? 0) <= scoreRange[1]);
+    }
     return result;
-  }, [allCompanies, selectedSectors, selectedSources, selectedStrengths, minPatents, minGrants, activeCluster, clusterData, maxqLevel, applyMaxQ, hideSubsidiaries]);
+  }, [allCompanies, selectedSectors, selectedSources, selectedStrengths, minPatents, minGrants, activeCluster, clusterData, maxqLevel, applyMaxQ, hideSubsidiaries, scoreRange]);
 
   // Company name lookup for patent-company linking (Feature 2)
   const companyByName = useMemo(() => {
@@ -423,6 +429,12 @@ function App() {
         {viewMode === 'data' && (
           <DataTab companies={allCompanies} onFilterSources={(sources) => {
             setSelectedSources(sources);
+            setScoreRange(null);
+            setDashboardTab('companies');
+            setViewMode('dashboard');
+          }} onFilterSourcesAndScore={(sources, min, max) => {
+            setSelectedSources(sources);
+            setScoreRange([min, max]);
             setDashboardTab('companies');
             setViewMode('dashboard');
           }} />

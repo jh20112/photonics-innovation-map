@@ -3,6 +3,7 @@ import type { Company } from '../../types/api';
 
 interface Props {
   companies: Company[];
+  onFilterSourcesAndScore?: (sources: string[], scoreMin: number, scoreMax: number) => void;
 }
 
 const SOURCE_LABELS: Record<string, string> = {
@@ -40,7 +41,7 @@ const STRENGTH_CONFIG = [
   { key: 'Limited', color: '#ef4444' },
 ];
 
-export function SourceBreakdown({ companies }: Props) {
+export function SourceBreakdown({ companies, onFilterSourcesAndScore }: Props) {
   const [selectedSource, setSelectedSource] = useState<string | null>(null);
 
   const { sourceCounts, sourceTypeCounts } = useMemo(() => {
@@ -143,7 +144,19 @@ export function SourceBreakdown({ companies }: Props) {
                     <h4>Photonics Score (avg: {drillDown.avgScore})</h4>
                     <div className="score-histogram">
                       {drillDown.scoreBuckets.map(b => (
-                        <div key={b.label} className="histogram-col">
+                        <div
+                          key={b.label}
+                          className={`histogram-col ${b.count > 0 && onFilterSourcesAndScore ? 'histogram-clickable' : ''}`}
+                          onClick={() => b.count > 0 && selectedSource && onFilterSourcesAndScore?.(
+                            selectedSource === 'datacity' ? ['datacity'] :
+                            selectedSource === 'dealroom' ? ['dealroom'] :
+                            selectedSource === 'pitchbook' ? ['pitchbook'] :
+                            selectedSource === 'grant_collabs' ? ['grant_collabs', 'grant_leads'] :
+                            selectedSource === 'patents' ? ['patents'] :
+                            [selectedSource],
+                            b.min, b.max
+                          )}
+                        >
                           <div className="histogram-bar-wrap">
                             <div
                               className="histogram-bar"
