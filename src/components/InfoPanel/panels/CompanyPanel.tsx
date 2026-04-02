@@ -162,6 +162,18 @@ export function CompanyPanel({
             <button className="info-show-more" onClick={() => setShowRationale(false)}>Close</button>
           </div>
           <p className="info-desc">{c.photonics_rationale}</p>
+          <table className="criteria-table">
+            <thead>
+              <tr><th>Dimension</th><th>Max Points</th><th>Description</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Core Photonics Identity</td><td>0–35</td><td>Is the company's primary business photonics?</td></tr>
+              <tr><td>Photonics Technology Usage</td><td>0–25</td><td>Do core products depend on photonics tech?</td></tr>
+              <tr><td>Adjacent/Enabling Technology</td><td>0–15</td><td>Overlap with photonics-adjacent fields (semiconductors, quantum, materials)?</td></tr>
+              <tr><td>Evidence Strength</td><td>0–15</td><td>Patents, grants, industry tags, descriptions confirming relevance</td></tr>
+              <tr><td>Industry Alignment</td><td>0–10</td><td>Do classifications directly reference photonics?</td></tr>
+            </tbody>
+          </table>
         </div>
       )}
 

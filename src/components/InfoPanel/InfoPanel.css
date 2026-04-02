@@ -387,6 +387,36 @@
   margin-bottom: 14px;
 }
 
+.criteria-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
+  margin-top: 12px;
+}
+
+.criteria-table th {
+  text-align: left;
+  font-weight: 600;
+  color: var(--c-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  font-size: 9px;
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--c-border);
+}
+
+.criteria-table td {
+  padding: 6px 8px;
+  color: var(--c-text);
+  border-bottom: 1px solid var(--c-border-subtle);
+}
+
+.criteria-table td:nth-child(2) {
+  font-weight: 600;
+  white-space: nowrap;
+  color: var(--c-primary);
+}
+
 .rationale-header {
   display: flex;
   justify-content: space-between;
