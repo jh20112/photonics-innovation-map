@@ -9,6 +9,7 @@ interface Props {
 
 const COLUMNS: Column[] = [
   { key: 'name', label: 'Name', format: 'text', width: '220px' },
+  { key: 'photonics_score', label: 'Photonics Score', format: 'number', gradient: { min: 0, max: 100 } },
   { key: 'employees', label: 'Employees', format: 'number' },
   { key: 'funding_usd_m', label: 'Funding ($M)', format: 'usd' },
   { key: 'total_grant_funding_gbp', label: 'Grant Funding', format: 'gbp' },

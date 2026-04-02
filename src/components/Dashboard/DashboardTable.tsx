@@ -5,6 +5,8 @@ export interface Column {
   label: string;
   format?: 'number' | 'gbp' | 'usd' | 'pct' | 'text';
   width?: string;
+  /** If set, applies a background gradient based on value (0-max). Colour goes red→yellow→green. */
+  gradient?: { min: number; max: number };
 }
 
 interface Props {
@@ -41,6 +43,22 @@ function formatCell(value: unknown, format?: string): string {
       if (Number.isInteger(n)) return n.toLocaleString();
       return n.toFixed(1);
   }
+}
+
+function gradientStyle(value: unknown, range: { min: number; max: number }): React.CSSProperties {
+  const n = typeof value === 'number' ? value : parseFloat(String(value ?? '0')) || 0;
+  const t = Math.max(0, Math.min(1, (n - range.min) / (range.max - range.min)));
+  // Red (0) → Yellow (0.5) → Green (1)
+  let r: number, g: number, b: number;
+  if (t < 0.5) {
+    r = 239; g = Math.round(68 + t * 2 * (163 - 68)); b = 68;
+  } else {
+    r = Math.round(163 - (t - 0.5) * 2 * (163 - 16)); g = Math.round(163 + (t - 0.5) * 2 * (185 - 163)); b = Math.round(68 - (t - 0.5) * 2 * (68 - 97));
+  }
+  return {
+    backgroundColor: `rgba(${r}, ${g}, ${b}, 0.18)`,
+    fontWeight: 600,
+  };
 }
 
 export function DashboardTable({
@@ -118,11 +136,14 @@ export function DashboardTable({
                 onClick={() => onRowClick?.(row)}
               >
                 <td className="dash-td rank-col">{i + 1}</td>
-                {columns.map(col => (
-                  <td key={col.key} className="dash-td">
+                {columns.map(col => {
+                  const cellStyle = col.gradient ? gradientStyle(row[col.key], col.gradient) : undefined;
+                  return (
+                  <td key={col.key} className="dash-td" style={cellStyle}>
                     {formatCell(row[col.key], col.format)}
                   </td>
-                ))}
+                  );
+                })}
               </tr>
             ))}
           </tbody>
