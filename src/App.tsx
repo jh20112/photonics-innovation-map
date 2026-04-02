@@ -417,7 +417,7 @@ function App() {
 
         {/* Data view */}
         {viewMode === 'data' && (
-          <DataTab companies={allCompanies} />
+          <DataTab companies={allCompanies} onSelectCompany={dashSelectCompany} />
         )}
       </div>
       {showTopics && (
