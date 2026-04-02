@@ -7,7 +7,7 @@ import { Dashboard } from './components/Dashboard/Dashboard';
 import { DataTab } from './components/DataTab/DataTab';
 import {
   useCompanies, useInfrastructure, useInstitutions,
-  useGrants, usePatents, useCollaborations, usePeople,
+  useGrants, usePatents, useCollaborations, useAllCollaborations, usePeople,
   useClusters, useCoordsLookup, useRticSectors, useStats, useGrantTopics, useGrantEdges,
 } from './hooks/useApi';
 import type { LayerType, ClusterType, CompanySizeMetric, InstitutionSizeMetric, Cluster, Grant, EntityDetail, SearchResult, Company, Institution, Person } from './types/api';
@@ -78,6 +78,7 @@ function App() {
   // Collaboration state
   const [collabEntity, setCollabEntity] = useState<string | null>(null);
   const [collabCoords, setCollabCoords] = useState<[number, number] | null>(null);
+  const [collabMinShared, setCollabMinShared] = useState(2);
 
   // Fly-to target
   const [flyTo, setFlyTo] = useState<[number, number] | null>(null);
@@ -101,6 +102,7 @@ function App() {
   // Server-side coords lookup for collaboration arc rendering
   const { data: serverCoords } = useCoordsLookup();
   const { data: collaborations } = useCollaborations(collabEntity);
+  const { data: allCollaborations } = useAllCollaborations(layers.collaborations && !collabEntity, collabMinShared);
   const { data: clusterData } = useClusters(activeCluster);
   const { data: sectors } = useRticSectors();
   const { data: stats } = useStats();
@@ -336,6 +338,9 @@ function App() {
         onSearchSelect={handleSearchSelect}
         onToggleTopics={() => setShowTopics(s => !s)}
         showTopics={showTopics}
+        collabMinShared={collabMinShared}
+        onCollabMinSharedChange={setCollabMinShared}
+        collabEdgeCount={allCollaborations?.length ?? null}
         grantNetworkEnabled={grantNetworkEnabled}
         onToggleGrantNetwork={() => setGrantNetworkEnabled(e => !e)}
         grantNetworkMinShared={grantNetworkMinShared}
@@ -377,6 +382,7 @@ function App() {
               patents={layers.patents ? patents : null}
               people={layers.people ? people : null}
               collaborations={layers.collaborations ? collaborations : null}
+              allCollaborations={layers.collaborations && !collabEntity ? allCollaborations : null}
               collabCoords={collabCoords}
               coordsLookup={coordsLookup}
               clusterData={activeCluster ? clusterData : null}

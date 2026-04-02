@@ -27,6 +27,9 @@ interface Props {
   showTopics: boolean;
   heatmapSubsector: string | null;
   onHeatmapSubsectorChange: (code: string | null) => void;
+  collabMinShared: number;
+  onCollabMinSharedChange: (value: number) => void;
+  collabEdgeCount: number | null;
   grantNetworkEnabled: boolean;
   onToggleGrantNetwork: () => void;
   grantNetworkMinShared: number;
@@ -78,6 +81,7 @@ export function Sidebar({
   activeCluster, onClusterChange, stats, onSearchSelect,
   heatmapSubsector, onHeatmapSubsectorChange,
   onToggleTopics, showTopics,
+  collabMinShared, onCollabMinSharedChange, collabEdgeCount,
   grantNetworkEnabled, onToggleGrantNetwork, grantNetworkMinShared, onGrantNetworkMinSharedChange, grantEdgeCount,
   minPatents, onMinPatentsChange, minGrants, onMinGrantsChange,
   institutionPeriodYears, onInstitutionPeriodChange, maxqLevel, onMaxqLevelChange,
@@ -484,6 +488,24 @@ export function Sidebar({
             <span className="layer-dot" style={{ background: '#6366f1' }} />
             Company Collaborations
           </label>
+          {layers.collaborations && (
+            <div className="layer-sub-control">
+              <label className="size-metric-label">
+                Min shared grants: {collabMinShared}
+                <input
+                  type="range"
+                  min={1}
+                  max={10}
+                  value={collabMinShared}
+                  onChange={(e) => onCollabMinSharedChange(Number(e.target.value))}
+                  style={{ width: '100%', marginTop: 4 }}
+                />
+              </label>
+              {collabEdgeCount != null && (
+                <span className="size-metric-label">{collabEdgeCount.toLocaleString()} edges</span>
+              )}
+            </div>
+          )}
           <label className="layer-toggle">
             <input
               type="checkbox"

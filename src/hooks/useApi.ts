@@ -76,6 +76,12 @@ export function useCollaborations(entity: string | null) {
   return useApiData<Collaboration[]>(entity ? `/collaborations?entity=${encodeURIComponent(entity)}` : null);
 }
 
+export function useAllCollaborations(enabled: boolean, minShared: number) {
+  return useApiData<Collaboration[]>(
+    enabled ? `/collaborations?min_shared=${minShared}` : null
+  );
+}
+
 export function useClusters(type: ClusterType | null) {
   return useApiData<ClusterData>(type ? `/clusters?type=${type}` : null);
 }

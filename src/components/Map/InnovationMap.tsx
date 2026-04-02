@@ -10,6 +10,7 @@ import { InstitutionLayer } from './layers/InstitutionLayer';
 import { GrantLayer } from './layers/GrantLayer';
 import { PatentLayer } from './layers/PatentLayer';
 import { CollaborationLayer } from './layers/CollaborationLayer';
+import { CompanyCollaborationLayer } from './layers/CompanyCollaborationLayer';
 import { ClusterLayer } from './layers/ClusterLayer';
 import { SubsectorHeatmap } from './layers/SubsectorHeatmap';
 import { GrantCollaborationLayer } from './layers/GrantCollaborationLayer';
@@ -27,6 +28,7 @@ interface Props {
   patents: Patent[] | null;
   people: Person[] | null;
   collaborations: Collaboration[] | null;
+  allCollaborations: Collaboration[] | null;
   collabCoords: [number, number] | null;
   coordsLookup: Map<string, [number, number]>;
   clusterData: ClusterData | null;
@@ -62,7 +64,7 @@ function FlyToHandler({ target, onDone }: { target: [number, number] | null; onD
 
 export function InnovationMap({
   companies, infrastructure, institutions, grants, patents, people,
-  collaborations, collabCoords, coordsLookup,
+  collaborations, allCollaborations, collabCoords, coordsLookup,
   clusterData, companySizeMetric, growthPeriodMonths, grantEdges,
   onSelectCompany, onSelectInfrastructure, onSelectInstitution,
   onSelectGrant, onSelectPatent, onSelectPerson, onSelectCluster,
@@ -114,6 +116,11 @@ export function InnovationMap({
 
         {/* Cluster boundaries (render behind markers) */}
         {clusterData && <ClusterLayer clusters={clusterData.clusters} onSelectCluster={onSelectCluster} />}
+
+        {/* Company collaboration network (below data markers) */}
+        {allCollaborations && allCollaborations.length > 0 && (
+          <CompanyCollaborationLayer collaborations={allCollaborations} coordsLookup={coordsLookup} />
+        )}
 
         {/* Grant collaboration network (below data markers) */}
         {grantEdges && grantEdges.length > 0 && (
