@@ -6,10 +6,10 @@ import './DataTab.css';
 
 interface Props {
   companies: Company[] | null;
-  onSelectCompany?: (company: Company) => void;
+  onFilterSources: (sources: string[]) => void;
 }
 
-export function DataTab({ companies, onSelectCompany }: Props) {
+export function DataTab({ companies, onFilterSources }: Props) {
   if (!companies) {
     return <div className="data-tab"><div className="data-empty">Loading company data...</div></div>;
   }
@@ -20,7 +20,7 @@ export function DataTab({ companies, onSelectCompany }: Props) {
         <h2>Data Overview</h2>
         <p>Transparency into the sources, coverage, and quality of the photonics company dataset.</p>
       </div>
-      <SourceVenn companies={companies} onSelectCompany={onSelectCompany} />
+      <SourceVenn companies={companies} onFilterSources={onFilterSources} />
       <div className="data-grid">
         <SourceBreakdown companies={companies} />
         <DataCompleteness companies={companies} />

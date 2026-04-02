@@ -417,7 +417,10 @@ function App() {
 
         {/* Data view */}
         {viewMode === 'data' && (
-          <DataTab companies={allCompanies} onSelectCompany={dashSelectCompany} />
+          <DataTab companies={allCompanies} onFilterSources={(sources) => {
+            setSelectedSources(sources);
+            setViewMode('dashboard');
+          }} />
         )}
       </div>
       {showTopics && (
