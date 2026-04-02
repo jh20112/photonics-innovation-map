@@ -29182,5 +29182,3767 @@
     "sources": [
       "companies_house"
     ]
+  },
+  {
+    "id": 10001,
+    "name": "Stephen Clements",
+    "orcid": null,
+    "current_org": "AXENIC LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 54.67032,
+    "lng": -1.451383,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "AXENIC LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Stephen Clements serves as Chief Executive Officer at aXenic."
+  },
+  {
+    "id": 10002,
+    "name": "Mario Ramos",
+    "orcid": null,
+    "current_org": "SOREX SENSORS LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.071102,
+    "lng": -0.082027,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "SOREX SENSORS LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Mario Ramos is a Co-Founder and serves as Chief Executive Officer & Board Member at Sorex Sensors. Since founding Sorex Sensors in 2017, he has learned a lot about running a business and managing people. He likes sharing his enthusiasm with clients and suppliers as well as colleagues. He has a knack for translating high-tech research into commercial products with the potential to improve people's lives. Explaining the benefits of his sensors without getting too technical is easier said than done but Mario enjoys the challenge - as well as working out how to scale up production from 100 to millions. Since founding Sorex Sensors in 2017, he has learnt a lot about running a business and managing people."
+  },
+  {
+    "id": 10003,
+    "name": "Xianxin Guo",
+    "orcid": null,
+    "current_org": "LUMAI LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.754279,
+    "lng": -1.197946,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "LUMAI LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Xianxin Guo is a Co-Founder and serves as Chief Executive Officer of Lumai. Previously, he served as Head of Research at the company. He is a Research Fellow at the University of Oxford with 10 years of experience in optics and quantum physics. Primary inventor of Lumai's optical training technology."
+  },
+  {
+    "id": 10004,
+    "name": "Vayshnavee Kewada",
+    "orcid": null,
+    "current_org": "SALIENCE LABS LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.745399,
+    "lng": -0.974026,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "SALIENCE LABS LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Ms. Vayshnavee Kewada is a Co-Founder and serves as Chief Executive Officer & Board Member at Salience Labs. She served as Entrepreneur-in-Residence at Oxford Sciences Innovation."
+  },
+  {
+    "id": 10006,
+    "name": "Carlos Ramirez",
+    "orcid": null,
+    "current_org": "CCI PHOTONICS LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 53.34342,
+    "lng": -2.641206,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "CCI PHOTONICS LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Carlos Ramirez is a Co-Founder & serves as Chief Executive Officer at CCI Photonics."
+  },
+  {
+    "id": 10008,
+    "name": "Mirella Koleva",
+    "orcid": null,
+    "current_org": "QUANTOPTICON LTD.",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.247265,
+    "lng": -0.607655,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "QUANTOPTICON LTD.",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Mirella Koleva is a Co-Founder and serves as Chief Executive Officer at Quantopticon."
+  },
+  {
+    "id": 10009,
+    "name": "Stephen Greenland",
+    "orcid": null,
+    "current_org": "CRAFT PROSPECT LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 55.860122,
+    "lng": -4.255461,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "CRAFT PROSPECT LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Stephen Greenland serves as Managing Director and Board Member at Craft Prospect."
+  },
+  {
+    "id": 10010,
+    "name": "Caroline O'Brien",
+    "orcid": null,
+    "current_org": "KUBOS SEMICONDUCTORS LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.234821,
+    "lng": 0.129527,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "KUBOS SEMICONDUCTORS LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Ms. Caroline O'Brien serves as CEO of Compound Semiconductor Applications Catapult at Catapult (London). She served as Chief Executive Officer & Board Member at Kubos Semiconductors. An industry specialist in semiconductors and brings over 25 years of experience in the technology sector. She has developed a broad knowledge of working with VC-backed businesses and blue-chip multinationals. She has held senior commercial and executive positions in several companies, focusing on developing and commercializing new technologies and products. Caroline holds a B.Eng. in Electronics and Electrical Engineering and an MBA from The University of Bath."
+  },
+  {
+    "id": 10011,
+    "name": "Simon Thomas",
+    "orcid": null,
+    "current_org": "PARAGRAF LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.382714,
+    "lng": -0.012013,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "PARAGRAF LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Simon Thomas is a Co-Founder and serves as Chief Executive Officer & Director at Paragraf. He has a diverse background in physics, engineering, and materials science, combined with many years' experience in the fields of semiconductors, functional materials, solid-state devices, and capital equipment manufacture. This has perfectly equipped him to fully understand two-dimensional materials production. With expertise in materials deposition techniques, he has developed numerous new materials and structure generation processes whilst advancing the understanding of the science of materials growth. As a global high-tech materials and engineering consultant, Simon has multidisciplinary skills in the development of equipment, deposition processes, and surface science across a range of fields."
+  },
+  {
+    "id": 10012,
+    "name": "Scott Dufferwiel",
+    "orcid": null,
+    "current_org": "AEGIQ LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 53.377561,
+    "lng": -1.467876,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "AEGIQ LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Scott Dufferwiel is a Co-Founder and serves as Chief Executive Officer at Aegiq."
+  },
+  {
+    "id": 10014,
+    "name": "Matteo Negro",
+    "orcid": null,
+    "current_org": "CAMBRIDGE RAMAN IMAGING LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.194006,
+    "lng": 0.132067,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "CAMBRIDGE RAMAN IMAGING LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Matteo Negro serves as Chief Executive Officer, Chief Technology Officer & Board Member at Cambridge Raman Imaging. He has wide experience in laser technology. He is leading the company after having built a technical team with expert knowledge in critical technology areas."
+  },
+  {
+    "id": 10015,
+    "name": "Toby Cubitt",
+    "orcid": null,
+    "current_org": "PHASECRAFT LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.520224,
+    "lng": -0.136802,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "PHASECRAFT LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Toby Cubitt is a Co-Founder and serves as Chief Technology Officer, Director & CSCIO at Phasecraft. He has published papers in the top-tier international journals and conferences across all four of these fields, including highly acclaimed publications in Nature, Science and Proceedings of the National Academy of Sciences. Toby holds undergraduate degrees from the University of Cambridge, and a PhD from the Max Planck Institute for Quantum Optics in Munich. He is Professor of Quantum Information at UCL, and head of the Quantum Lab in the Department of Computer Science there. Toby held a University Research Fellowship from the Royal Society from 2013-2022, was awarded the AHP-Birkhauser Prize in 2017, and a Whitehead Prize in 2019 by the London Mathematical Society. He has co-chaired the Programme Committee of the international Quantum Information Processing (QIP) conference and served on its Steering Committee, and has served on the editorial board of the Proceedings of the Royal Society A. When he's not pursuing research in mathematical physics or developing near-term applications of quantum computers, he can often be found designing science activities for 3-5 year-olds, helped by constructive criticism from his daughters."
+  },
+  {
+    "id": 10018,
+    "name": "Roy McBride",
+    "orcid": null,
+    "current_org": "POWERPHOTONIC LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 56.040129,
+    "lng": -3.364456,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "POWERPHOTONIC LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Roy McBride is a Co-Founder and serves as Director of Strategy and Growth and Board Member at PowerPhotonic. He served as Chief Executive Officer at PowerPhotonic. Previously, he served as Managing Director at PowerPhotonic. As MD, he is responsible for company strategy and growth, with a strong focus on sales and technical development. He Co-Founded PowerPhotonic in 2004 and drove the formation and funding of the company. Prior to PowerPhotonic, he was Hybrids Development Manager at Alcatel UK, where he managed a team developing advanced active modules for optical communications. Other prior roles included Electronics Development Manager at Kymata, lecturer and researcher at Heriot-Watt University, and Laser Development at Ferranti. He is the author of numerous publications and Co-inventor of 7 granted patents."
+  },
+  {
+    "id": 10019,
+    "name": "Christopher Madin",
+    "orcid": null,
+    "current_org": "SKYLARK LASERS LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 55.955366,
+    "lng": -3.223507,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "SKYLARK LASERS LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Christopher Madin serves as Chief Executive Officer at Skylark Lasers. He brings over 20 years of leadership experience in the photonics and laser instrumentation industry. He has extensive experience in building global sales channels, managing new product development, and driving operational excellence in high-growth photonics environments with customers across semiconductor inspection and life science instrumentation."
+  },
+  {
+    "id": 10020,
+    "name": "Rahul Tyagi",
+    "orcid": null,
+    "current_org": "SECQAI LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.513159,
+    "lng": -0.156345,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "SECQAI LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Rahul Tyagi is a Co-Founder and serves as Chief Executive Officer and Board Member at SECQAI."
+  },
+  {
+    "id": 10021,
+    "name": "Mark Dickinson",
+    "orcid": null,
+    "current_org": "INTRINSIC SEMICONDUCTOR TECHNOLOGIES LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.514178,
+    "lng": -0.093552,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "INTRINSIC SEMICONDUCTOR TECHNOLOGIES LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Mark Dickinson served as Chief Executive Officer and Board Member at Intrinsic. Prior to joining Intrinsic, Dr. Dickinson held a number of senior and executive positions at leading semiconductor companies and brings deep experience in IP licensing and development. He was most recently at Imagination Technologies where he was Executive Vice President responsible for the circa $100m PowerVR business unit. Prior to Imagination Mark was at ARM as VP/General Manager of the Mali GPU/multimedia business unit. Mark also spent many years as a vice president at Altera, an FPGA company now owned by Intel, where he built up the UK R&D team as well as ran a worldwide system IP development group. His technical background spans a wide range of semiconductor and electronics technologies and applications including artificial intelligence, graphics, multimedia, automotive, and communications. He has a Ph.D. in electronics (wireless communications) from Birmingham University and a degree in Physics from Oxford University."
+  },
+  {
+    "id": 10022,
+    "name": "Chris Ballance",
+    "orcid": null,
+    "current_org": "OXFORD IONICS LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.828737,
+    "lng": -1.311526,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "OXFORD IONICS LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Chris Ballance is a Co-Founder and serves as Co-Chief Executive Officer at Oxford Ionics. He is a world leader in the field of Ion Trap Quantum Computing with a DPhil in the area from Oxford University, where he is also a Future Leaders Fellow. His work on trapped ion technology and how we can manipulate these qubits at sufficient scale, and with sufficient precision, to build useful quantum computers, is the basis for Oxford Ionics and the pioneering research he carries out continues to shape the direction of the company."
+  },
+  {
+    "id": 10023,
+    "name": "Daniel Daly",
+    "orcid": null,
+    "current_org": "OCCUITY LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.520593,
+    "lng": -0.122185,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "OCCUITY LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Daniel Daly is a Co-Founder and serves as Chief Executive Officer at Occuity. He has studied and worked in the field of optical metrology and opto-electronics for over 25 years. Dan has a PhD in Micro Optics from Kings College, London and an MBA from Cranfield school of management. Initially Dan studied and worked in the field of micro-optics as well as the broader Optoelectronics industry for over 15 years. His PhD in Micro Optics specialised in manufacturing techniques for refractive and diffractive micro-optical components and the construction of interferometric and photometric measurement systems. During this time he also spent 3 years as a Project Manager at the National Physical Laboratory and published a book on \"Microlens Arrays\". Dan has worked in Switzerland and the UK for both large and small organizations in various roles as both CTO and CEO. In 2019 he co-founded Occuity with Dr Taylor with the aim of creating handheld non-contacting optical devices to improve screening and monitoring of chronic health conditions such as Diabetes and Alzheimer's."
+  },
+  {
+    "id": 10024,
+    "name": "Tushar Chhabra",
+    "orcid": null,
+    "current_org": "CRON AI LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.547171,
+    "lng": -0.181263,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "CRON AI LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Tushar Chhabra is a Co-Founder and serves as Chief Executive Officer and Board Member at Cron AI. He served as Entrepreneur-in-Residence at Kitaki Ventures. Post completion of B.Tech in ECE worked as a Senior strategy consultant to Google leading the Billion User Project. Worked on numerous situational analytics and strategy projects with expertise in product management and innovation."
+  },
+  {
+    "id": 10025,
+    "name": "Nathan Lawrence",
+    "orcid": null,
+    "current_org": "ANB SENSORS LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.186257,
+    "lng": -0.008555,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "ANB SENSORS LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Nathan Lawrence is a Co-Founder and serves as Chief Executive Officer at ANB Sensors. He has a DPhil from the University of Oxford in electrochemistry and a postdoc from New Mexico State University. Prior to founding ANB Sensors, he worked for over 10 years at Schlumberger."
+  },
+  {
+    "id": 10029,
+    "name": "Stephen Brierley",
+    "orcid": null,
+    "current_org": "RIVERLANE LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.20471,
+    "lng": 0.122891,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "RIVERLANE LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Stephen Brierley is the Founder and serves as Chief Executive Officer and Board Member at Riverlane. He has worked in quantum for 20 years and is an expert advisor to the UK government. He holds a Ph.D. in quantum information and has spent almost a decade in the intelligence community as a Senior Research Fellow at the University of Cambridge, leading major research projects in quantum computing."
+  },
+  {
+    "id": 10030,
+    "name": "Andrew Leaver",
+    "orcid": null,
+    "current_org": "ARQIT LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.498734,
+    "lng": -0.133025,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "ARQIT LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Andrew Leaver serves as Chief Executive Officer & Board Member at ArQit. He serves as Vice President in Residence & Board Member at Cyscale."
+  },
+  {
+    "id": 10031,
+    "name": "John Morton",
+    "orcid": null,
+    "current_org": "QUANTUM MOTION TECHNOLOGIES LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.546371,
+    "lng": -0.119061,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "QUANTUM MOTION TECHNOLOGIES LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. John Morton is a Co-Founder and serves as Chief Technology Officer, Founding Director and Board Member at Quantum Motion. He is a Co-Founder and serves as Consultant at Q&I. He is a Co-Founder and serves as Board Member at Phasecraft. His expertise includes Solid-state quantum technologies, Spin qubits, Silicon-based and semiconductor-based quantum computers and sensors. He has completed his Ph.D. from Oxford University, 2005. He has got Moseley Medal for distinguished research in experimental physics, 2013 and Nicholas Kurti European Science Prize, 2009. He is a world leader in designing quantum architectures both for near-term 'NISQ' processors and the ultimate fault tolerant machines. He is also Professor of Quantum Technologies at Oxford University. He has over 120 research publications and several world \"firsts\" in spin-based quantum technologies and silicon quantum devices. He is also Professor of Nanoelectronics at UCL."
+  },
+  {
+    "id": 10032,
+    "name": "Jake Biele",
+    "orcid": null,
+    "current_org": "LIGHT TRACE PHOTONICS LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.451817,
+    "lng": -2.599786,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "LIGHT TRACE PHOTONICS LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Jake Biele is a Co-Founder and serves as Chief Executive Officer at Light Trace Photonics. Dr. Biele is an award-winning entrepreneur, published scientist and keen photonics enthusiast. With a PhD in developing photonic integrated circuits (PICs) for quantum sensing, he has five years of experience in integrated photonics. He also has experience working in an early-stage, deep-tech start-up where he helped commercialise PICs for medical applications. He completed an MS in Physics with a Mathematics Minor at the University of Bristol in 2016, followed by a Ph.D. in Quantum Engineering at the same institution in 2022."
+  },
+  {
+    "id": 10033,
+    "name": "Mark Legh-Smith",
+    "orcid": null,
+    "current_org": "OPERATIONAL SOLUTIONS LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.380402,
+    "lng": -1.102088,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "OPERATIONAL SOLUTIONS LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Mark Legh-Smith is the Founder and serves as Chief Executive Officer at Operational Solutions. He also serves as Board member at Rinicom Intelligent Solutions."
+  },
+  {
+    "id": 10034,
+    "name": "Ramy Shelbaya",
+    "orcid": null,
+    "current_org": "QUANTUM DICE LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.777778,
+    "lng": -1.264613,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "QUANTUM DICE LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Ramy Shelbaya was a Co-Founder and serves as Chief Executive Officer at Quantum Dice."
+  },
+  {
+    "id": 10035,
+    "name": "Gareth Howells",
+    "orcid": null,
+    "current_org": "METRARC LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.278079,
+    "lng": 1.078935,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "METRARC LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Gareth Howells is a Co-Founder and serves as Chief Technology Officer & Board Member at Metrarc. Gareth is the founding CTO of Metrarc and leads the technical program. Gareth is a Reader in Secure Electronic Systems at the University of Kent where his research interests focus on security and pattern recognition fields. He has lead several large and complex international research and development programs. He has developed a generalized document security system and has done substantial work on the initial investigation and development of techniques for the direct generation of encryption keys from ICMetric samples. Gareth is an internationally recognized expert in security for electronic systems and has received substantial funding from the EU, EPSRC and industrial sources as well as software related proof-of-concept funding from finance South East. He has authored numerous publications and several patents."
+  },
+  {
+    "id": 10036,
+    "name": "Josep Silvestre",
+    "orcid": null,
+    "current_org": "NANUSENS LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.522311,
+    "lng": -0.086552,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "NANUSENS LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Josep Silvestre is a Co-Founder and serves as Chief Executive Officer at Nanusens. Previously he founded Baolab Microsystems, where he served as the CTO. He has more than 15 years working in MEMS design, patents, and semiconductor business. This start-up won the Elektra Awards in the R&D category and it was listed twice in the EETimes Silicon 60 of the most promising electronic start-ups worldwide."
+  },
+  {
+    "id": 10037,
+    "name": "Gerald Mullally",
+    "orcid": null,
+    "current_org": "OXFORD QUANTUM CIRCUITS LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.415235,
+    "lng": -0.941228,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "OXFORD QUANTUM CIRCUITS LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Gerald Mullally serves as CEO at Oxford Quantum Circuits. He is responsible for spearheading OQC's Series B investment raise and has led OQC's commercial growth through strategic partnerships with the world's largest private and public sector organizations. He has spent two decades delivering technology solutions for customers across life sciences, financial services, energy and defence at leading companies including Accenture and PwC. He was also a Director at the UK Prime Minister's Office and Cabinet Office, responsible for leading and scaling an innovative government-to-government business across EMEA, APAC, and the Americas."
+  },
+  {
+    "id": 10038,
+    "name": "Alasdair Price",
+    "orcid": null,
+    "current_org": "SILOTON LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.521673,
+    "lng": -0.143705,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "SILOTON LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Alasdair Price is a Co-Founder and serves as Chief Executive Officer & Board Member at Siloton."
+  },
+  {
+    "id": 10039,
+    "name": "Andrei Dragomir",
+    "orcid": null,
+    "current_org": "AQUARK TECHNOLOGIES LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 50.974005,
+    "lng": -1.351389,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "AQUARK TECHNOLOGIES LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Andrei Dragomir is a Co-Founder and serves as Chief Executive Officer, Board Member and Director at Aquark Technologies."
+  },
+  {
+    "id": 10040,
+    "name": "Richard Murray",
+    "orcid": null,
+    "current_org": "ORCA COMPUTING LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.516458,
+    "lng": -0.178696,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "ORCA COMPUTING LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Richard Murray is a Co-Founder and serves as the Chief Executive Officer and Board Member at ORCA Computing. He has over 15 years of experience managing scientific teams working on disruptive early-stage technologies such as quantum, AR/VR, and other consumer and industrial applications of photonics. Under his leadership, the company has grown to 35 people, expanded globally, and developed a roadmap focused on building a fault-tolerant universal quantum computer. Previously, he worked for the UK government alongside Sir Peter Knight creating the \u00a3270m UK quantum technologies program. He was also pivotal in the early stages of the \u20ac1 billion EU quantum flagship program. He is an accomplished business executive and technologist with a Ph.D. in quantum atom optics."
+  },
+  {
+    "id": 10041,
+    "name": "Ali El Kaafarani",
+    "orcid": null,
+    "current_org": "PQSHIELD LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.778909,
+    "lng": -1.265783,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "PQSHIELD LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Ali El Kaafarani is the Founder of PQShield and serves as its Chief Executive Officer and Board Member. He is a Research Fellow at the Mathematical Institute, University of Oxford and a former engineer at Hewlett-Packard Labs, with over a decade of academic and industrial experience."
+  },
+  {
+    "id": 10042,
+    "name": "Carmen Palacios-Berraquero",
+    "orcid": null,
+    "current_org": "NU QUANTUM LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.20885,
+    "lng": 0.090463,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "NU QUANTUM LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Carmen Palacios-Berraquero is a Co-Founder and serves as Chief Executive Officer & Board Member at Nu Quantum. She is an award-winning Quantum physicist and inventor, listed in Forbes magazine as a 'Founders Forum Rising Star 2021'. In 2018, she was awarded the Jocelyn Bell Burnell Medal and Prize for her work on 2D materials and Quantum optics, and for discovering and patenting the unique single-photon source technology which has since been commercialized by Nu Quantum."
+  },
+  {
+    "id": 10043,
+    "name": "Ronald Wilting",
+    "orcid": null,
+    "current_org": "FOREFRONT RF LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.234255,
+    "lng": 0.151849,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "FOREFRONT RF LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Ronald Wilting serves as Chief Executive Officer & Board Member at Forefront RF. He also served as Chief Executive Officer at SemiBlocks. He worked as a Startup Consultant and Interim Management at STI Consultant from December 2021 to May 2022. Before that, he served as the CEO of SemiBlocks from March 2019 to November 2021. He also held the position of Vice President of Sales Business Development at Qualinx BV from September 2018 to March 2019. He was the General Manager and Director of product Management at Qualcomm Technologies Netherlands from November 2013 to September 2018. He worked as the Vice President of Prod. Marketing and Bus. Dev. at EPCOS Netherlands from June 2008 to November 2013. He was an International Product Marketing Manager at Philips from April 2005 to June 2008. Before that, he worked at Ericsson Technology Licensing as a Business Development Manager from August 2003 to December 2004 and as the Director of Business Line Radio from March 2001 to July 2003. He started his career at Ericsson Radio Systems in October 1995 and held multiple positions, including IC design engineer, technical team lead, and Project Manager. He completed his Bachelor's degree in Analog IC Design from Saxion University of Applied Sciences. He attended the university from 1991 to 1995."
+  },
+  {
+    "id": 10044,
+    "name": "Neil Martin",
+    "orcid": null,
+    "current_org": "VECTOR PHOTONICS LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 55.901137,
+    "lng": -4.312744,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "VECTOR PHOTONICS LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Neil Martin is a Co-Founder and serves as Chief Executive Officer and Board Member at Vector Photonics."
+  },
+  {
+    "id": 10045,
+    "name": "Chee Hing Tan",
+    "orcid": null,
+    "current_org": "PHLUX TECHNOLOGY LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 53.383642,
+    "lng": -1.472942,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "PHLUX TECHNOLOGY LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Chee Hing Tan is a Co-Founder at Phlux Technology. He has gained a world-leading reputation in detector research over a 24-year career at Sheffield. He has pioneered a number of novel semiconductor materials for infrared detection and has led some of the most significant breakthroughs in APDs in recent years. He has over 100 journal publications and is currently the Head of the Department for Electronic and Electrical Engineering."
+  },
+  {
+    "id": 10046,
+    "name": "Shahida Imani",
+    "orcid": null,
+    "current_org": "SINGULAR PHOTONICS LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 55.923214,
+    "lng": -3.187863,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "SINGULAR PHOTONICS LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Ms. Shahida Imani is a Co-Founder and serves as Chief Executive Officer and Board Member at Singular Photonics. She served as Chief Executive Officer at Chromacity. She served as a Director at Imani Financial Solutions. Between 1996 and 2001 she was employed by Optos, a medical technology Company specializing in the imaging of the retina, from 1996 - 2001, as Financial Controller. From 2002 to 2005 She was Group Financial Controller at Voxar, a 3D medical imaging company and in 2008 she set up her own consultancy company providing portfolio CFO/COO services to several high-tech companies (Odos Imaging, Sumdog, Lab901, Mpathy Medical). She was appointed CEO of Chromacity in August 2018. Odos was sold to US listed company Rockwell Automation Inc, Voxar was sold to Belguim co Barco Bv but is now owned by Canon Medical. She is a graduate of Heriot-Watt University and a Chartered Management Accountant."
+  },
+  {
+    "id": 10048,
+    "name": "Samuel Anderson",
+    "orcid": null,
+    "current_org": "ICEMOS TECHNOLOGY LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 54.577868,
+    "lng": -6.021124,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "ICEMOS TECHNOLOGY LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Samuel Anderson is the Founder and serves as President, Chief Executive Officer and Chairman at IceMos Technology. Sam has 28 years of industry experience, including 21 years in semiconductors. Prior to IceMOS, Sam spent 14 years with Motorola. Sam is also the owner of more than 50 patents."
+  },
+  {
+    "id": 10049,
+    "name": "James Regan",
+    "orcid": null,
+    "current_org": "ORIOLE NETWORKS LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.522091,
+    "lng": -0.087426,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "ORIOLE NETWORKS LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. James Regan is a Co-Founder & serves as Chief Executive Officer at Oriole Networks. He serves as Chairman & Growth Advisor at ARC Marine. He serves as Chief Executive Officer at EFFECT Photonics. He has 30 years of experience in the photonic component business, in product development, marketing, sales, and general management in building successful businesses within large companies (Nortel, JDSU) and start-ups (Agility Communications). He holds a Degree in Optical Communications from the University of Bristol. He also has a Degree in Optoelectronics from Northumbria University. An experienced business builder with a passion for the natural environment. I get a kick out of working with enthusiastic teams to create and grow technology companies. Growth Advisor to ARC. 35 years in technology development.10 years as CEO of Effect Photonics. Grew team from 3-250 operating out of the UK, NL &US."
+  },
+  {
+    "id": 10051,
+    "name": "Richard Kirk",
+    "orcid": null,
+    "current_org": "POLYPHOTONIX LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 54.669577,
+    "lng": -1.451842,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "POLYPHOTONIX LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Richard Kirk is the Founder & serves as Chief Executive Officer and Board Member at PolyPhotonix."
+  },
+  {
+    "id": 10052,
+    "name": "Daniel Cathie",
+    "orcid": null,
+    "current_org": "SILVERRAY LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 53.413769,
+    "lng": -2.133812,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "SILVERRAY LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Daniel Cathie is a Co-Founder and serves as Chief Executive Officer and Board Member at Silveray. He was previously CEO of vivaMOS Ltd, a spin-out from the Science & Technology Facilities Council (STFC), where the company commercialized large-area high-performance X-ray detectors for industrial inspection applications, eventually being acquired by Nordson Corporation. He is a semiconductor design engineer by background, with an MEng from Southampton University. Having started his career at Philips Semiconductors as an Integrated Circuit (IC) Designer, his aptitude for team building and leading other engineers was rewarded with a company-sponsored MBA. Identified on the high-potential program for future leaders within Philips, he was offered an ex-patriate position in Fishkill, NY (USA) where he spent 3 years building strong relationships with wafer foundry customers. On return to the UK, he moved into a business development activity, extending the company's automotive product range by launching an innovative smart power technology."
+  },
+  {
+    "id": 10054,
+    "name": "James Lee",
+    "orcid": null,
+    "current_org": "WAVE PHOTONICS LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.218379,
+    "lng": -0.070422,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "WAVE PHOTONICS LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. James Lee is a Co-Founder and serves as Chief Executive Officer at Wave Photonics. He undertook his PhD in Toshiba's Quantum Information Group at Cambridge University where he developed photon sources for quantum computing, followed by a time modelling equity derivatives at an investment bank. He holds masters degrees in Photonic Systems Development from Cambridge University and Physics from Oxford University."
+  },
+  {
+    "id": 10056,
+    "name": "Nicholas New",
+    "orcid": null,
+    "current_org": "OPTALYSYS LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 53.794881,
+    "lng": -1.546626,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "OPTALYSYS LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Nicholas New is a Co-Founder and serves as Chief Executive Officer, Director & Board Member at Optalysys."
+  },
+  {
+    "id": 10057,
+    "name": "Alastair Hanlon",
+    "orcid": null,
+    "current_org": "PRAGMATIC SEMICONDUCTOR LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.235423,
+    "lng": 0.138519,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "PRAGMATIC SEMICONDUCTOR LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Alastair Hanlon served as Chief Commercial Officer at Pragmatic. Previously, he served as Vice President, Sales at Pragmatic. He is a sales and marketing executive with over 20 years of experience working for global technology companies. Previous roles have included leading Strategic Marketing for NASDAQ listed Amdocs and more recently leading Enterprise Sales in Europe for Carlyle Group company, Syniverse. Alastair holds a PhD in Magnetic Resonance Imaging from the University of Cambridge."
+  },
+  {
+    "id": 10058,
+    "name": "Richard Johanson",
+    "orcid": null,
+    "current_org": "ARCHANGEL LIGHTWORKS LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.501525,
+    "lng": -0.081919,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "ARCHANGEL LIGHTWORKS LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Richard Johanson serves as Chief Executive Officer at Archangel Lightworks."
+  },
+  {
+    "id": 10059,
+    "name": "Timothy Ballance",
+    "orcid": null,
+    "current_org": "QUANTUM FABRIX LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.817775,
+    "lng": -1.306658,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "QUANTUM FABRIX LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Timothy Ballance serves as Chief Executive Officer at QFX."
+  },
+  {
+    "id": 10060,
+    "name": "Tongtong Zhu",
+    "orcid": null,
+    "current_org": "PORO TECHNOLOGIES LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.251611,
+    "lng": 0.134434,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "PORO TECHNOLOGIES LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Tongtong Zhu is a Co-Founder and serves as Chief Executive Officer & Board Member at Porotech. Dr. Zhu is a materials scientist with over 12 years of experience, an RAEng Enterprise Fellow. He has a Ph.D. in Materials Science from Cambridge University, a diverse background in physics, electronics, engineering, and materials science, 15+ years' experience in the field of III-nitride semiconductor materials and devices, and has developed numerous new materials and structure production processes whilst progressing the general community understanding of the science of materials growth."
+  },
+  {
+    "id": 10061,
+    "name": "Murray Reed",
+    "orcid": null,
+    "current_org": "QLM TECHNOLOGY LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.527712,
+    "lng": -3.083167,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "QLM TECHNOLOGY LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Murray Reed serves as Co-Founder and Board Member at QLM Technology. He previously served as Chief Executive Officer at QLM. He has led the development of photonic products for commercial applications for more than 30 years. He has a PhD in Applied Physics from Stanford University. He is the Founder of QLM, CTO G&H, VP Engineering Coherent, GM New Focus. He is a Product and business development leader, expert in semiconductor and fiber laser technology."
+  },
+  {
+    "id": 10063,
+    "name": "Sebastian Weidt",
+    "orcid": null,
+    "current_org": "UNIVERSAL QUANTUM LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.007954,
+    "lng": -0.102977,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "UNIVERSAL QUANTUM LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Sebastian Weidt is a Co-Founder and serves as Chief Executive Officer and Board Member at Universal Quantum."
+  },
+  {
+    "id": 10065,
+    "name": "Shahram Mossayebi",
+    "orcid": null,
+    "current_org": "CRYPTO QUANTIQUE LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.503821,
+    "lng": -0.100353,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "CRYPTO QUANTIQUE LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Shahram Mossayebi is a Co-Founder & serves as Chief Executive Officer and Board Member at Crypto Quantique. He holds a Ph.D. in Post-Quantum Cryptography from the Royal Holloway University of London. He has obtained his Information Security Master's degree from the same school, as well as a BSc in Physics. He is a quantum cybersecurity expert who has written scientific papers on the security of modern cryptosystems against quantum adversaries. He has also worked as a cybersecurity consultant."
+  },
+  {
+    "id": 10066,
+    "name": "Marco Romagnoli",
+    "orcid": null,
+    "current_org": "CAMGRAPHIC LTD.",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.095918,
+    "lng": 0.128657,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "CAMGRAPHIC LTD.",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Marco Romagnoli serves as Co-founder and Chief Scientific Officer at CamGraPhIC. He served as Chief Technology Officer, Science Advisor and Board Member at CamGraPhIC. He is a renowned expert in photonics, specializing in optical communications and silicon photonics. Since 2010, he has been at the forefront of graphene-based photonic communication devices, showcasing their transformative potential for ultra-high-bandwidth optical communication.He is also Head of Advanced Technologies for Photonic Integration at CNIT, Italy, former workpackage leader and division leader at the Graphene Flagship. Previously he served at MIT and PhotonIC Corp. (Boston, USA), and Pirelli Labs (Italy) as R&D manager."
+  },
+  {
+    "id": 10067,
+    "name": "Andrew Rimmer",
+    "orcid": null,
+    "current_org": "OPSYDIA LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.731891,
+    "lng": -1.204714,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "OPSYDIA LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Andrew Rimmer served as Chief Executive Officer & Board Member at Opsydia. Andrew has over 25 years of experience in the electronics/technology industry including SME/PE-backed companies. He was a member of the leadership team at Irisys, a PE-backed start-up that pioneered low-cost thermal imaging and people-tracking solutions. Andrew is experienced in technology solutions for instrumentation, security, retail, telecare, cleantech, and thermal imaging."
+  },
+  {
+    "id": 10068,
+    "name": "David Ward",
+    "orcid": null,
+    "current_org": "OXFORD PHOTOVOLTAICS LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.80421,
+    "lng": -1.299644,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "OXFORD PHOTOVOLTAICS LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. David Ward serves as Chief Executive Officer & Managing Director at Oxford PV. Mr. Ward served as Chief Executive Officer and Board Member at Adaptive Surface Technologies. He served as a Venture Partner at MTI Partners. Previously he was a Managing Partner, leading the Cleantech & Materials Technology investment practice and heading MTI's US operation in Boston. He joined the firm in 1999 and has extensive experience in originating and managing investments. Prior to MTI, he served as Chief Executive Officer of a materials start-up and an executive director of two buy-out transactions. He became Oxford PV's Chief Executive Officer in February 2023, after serving for a decade as director/observer on the company's board and as an investor. He has over 30 years of experience as an entrepreneur, executive leader, and VC investor with cleantech and physical sciences technology companies. He is passionate about growing technology-based companies that can make an impact on the sustainability of our planet. He is a mentor at the Perovskite PV program of the US Department of Energy's American-Made Network, a group connecting innovators to accelerate the clean energy transition. He holds a Masters in Materials Science from the University of Oxford."
+  },
+  {
+    "id": 10069,
+    "name": "Andrew Briggs",
+    "orcid": null,
+    "current_org": "QUANTROLOX LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.751739,
+    "lng": -1.254706,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "QUANTROLOX LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Andrew Briggs is a Co-Founder and serves as Chair at QuantrolOx. Mr. Briggs serves as Senior Advisor at Planet First Partners. He serves as a Senior Advisor at Serendipity Capital. Mr. Briggs serves as Chief Innovation Officer at LocatorX. He is the inaugural holder of the Chair of Nanomaterials at the University of Oxford. His research interests focus on materials and techniques for quantum technologies and their incorporation into practical devices. Current hot topics include vibrational states of nanotubes and charge transport through single molecules in graphene nanogaps, and machine learning for characterising and tuning quantum devices. He has more than 600 publications, with over 27,000 citations."
+  },
+  {
+    "id": 10070,
+    "name": "Christopher Erven",
+    "orcid": null,
+    "current_org": "KETS QUANTUM SECURITY LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.473933,
+    "lng": -2.490276,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "KETS QUANTUM SECURITY LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Christopher Erven is a Co-Founder & serves as Chief Commercial Officer at KETS. He served as Chief Executive Officer at KETS. He has over ten years of experience in experimental quantum cryptography, co-founding QuSpin Inc. (Canada), and completing multiple projects for the Communications Security Establishment of Canada (CSEC). He is responsible for KETS commercial development and customer relationships. He is a Lecturer with the Quantum Engineering CDT at the University of Bristol and co-investigator on the UK Quantum Communications Hub. He holds an MS, BS and a Ph.D."
+  },
+  {
+    "id": 10071,
+    "name": "James Ashforth-Pook",
+    "orcid": null,
+    "current_org": "QUINAS TECHNOLOGY LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.521673,
+    "lng": -0.143705,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "QUINAS TECHNOLOGY LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. James Ashforth-Pook is a Co-Founder and serves as Chief Executive Officer & Board Member at Quinas Technology. He brings 40 years of experience in corporate leadership and start-up management within the global semiconductor industry. Previously, he served as Senior Vice President at Unisantis Electronics (Tokyo/Singapore), where he was involved in business development and strategic partnerships for surrounding gate transistor technology for future memories, collaborating with IMEC, Samsung, and Micron. He also served as Director and General Manager at Cadence Design Systems/Quickturn, and as Director of the European Strategic Group at Synopsys in Grenoble, where he brokered a multi-million-dollar strategic partnership with ARM. Earlier in his career, he worked with Motorola Semiconductors, and later established and managed the European operations of Applied Microsystems Corporation in Paris, building key relationships with Intel and Motorola. He holds a BSc in Electrical Engineering from the University of Plymouth."
+  },
+  {
+    "id": 10073,
+    "name": "Niall Coogan",
+    "orcid": null,
+    "current_org": "AssetCool",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 53.77209,
+    "lng": -1.521897,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "AssetCool",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Niall Coogan is a Co-Founder and serves as Chief Executive Officer and Board Member at AssetCool. He is a Director with highly relevant technical and research experience; a Masters's in Chemistry (being published in the Journal of Organic Chemistry) from The University of Manchester, where he also continued Doctoral research experience in power systems at The Centre for Doctoral Training (CDT) in Power Networks. High-level technical research experience both in Chemistry and Power Systems is key to driving innovation at the interface of these domains."
+  },
+  {
+    "id": 10074,
+    "name": "Peter Jenkins",
+    "orcid": null,
+    "current_org": "Infinitesima",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.672306,
+    "lng": -1.301188,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Infinitesima",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Peter Jenkins serves as President, Chief Executive Officer and Board Member at Infinitesima. He is a Semiconductor industry veteran with over 35 years of experience spanning R&D, process engineering, product management, sales, and marketing. Most recently, he served as Vice President Corporate Strategy and Marketing at ASML, a leading supplier of capital equipment to the Semiconductor industry with revenues of \u20ac11B. During his 27 years at ASML he was responsible for the introduction of key products contributing to the early success of the company, before spending 10 years in Asia managing the business in South Korea, securing entry into the competitive Japanese market, and supporting the overall growth of the company in securing new accounts and competitive battles. Prior to joining ASML he worked for LSI Logic and Plessey Research in the UK."
+  },
+  {
+    "id": 10075,
+    "name": "Bernard Wenger",
+    "orcid": null,
+    "current_org": "Helio Display Materials",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.754279,
+    "lng": -1.197946,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Helio Display Materials",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Bernard Wenger serves as the Chief Technology Officer at Helio Display Materials. He is an expert in perovskite materials and optoelectronic devices. In 2015, he joined Prof. Snaith's group at Oxford University, recognized as a pioneering and world-leading team in this field. As a senior scientist in the group, he played a significant role in the acquisition and management of grant projects and supervision of graduate students, contributing to more than 30 scientific papers and patents. As a co-founder of HelioDisplay Materials, he has led the technical team since 2019. Between 2009 and 2014, he gained experience in private research at CSEM in Switzerland, where he became a senior R&D engineer. He played a significant role in the management and acquisition of industrial contract research and multi-disciplinary international projects, gaining significant expertise in optics, (bio)sensors, and systems integration. He trained as a physical chemist and obtained a Ph.D. degree from EPFL in Switzerland. He obtained an early-career fellowship to work with Prof. Friend at the University of Cambridge in the field of polymer optoelectronics."
+  },
+  {
+    "id": 10076,
+    "name": "Lu\u00eds Valente",
+    "orcid": null,
+    "current_org": "iLoF",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.527304,
+    "lng": -0.088894,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "iLoF",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Lu\u00eds Valente is a Co-Founder and serves as Chief Executive Officer at iLoF. He is an award-winning business manager and engineer. He founded his first company at 18. As a serial entrepreneur, Luis was named one of Forbes' 30 Under 30 for Science and Healthcare."
+  },
+  {
+    "id": 10077,
+    "name": "Robin Wang",
+    "orcid": null,
+    "current_org": "Living Optics",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.621236,
+    "lng": -1.293956,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Living Optics",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Robin Wang is a Co-Founder & serves as Chief Executive Officer & Board Member at Living Optics."
+  },
+  {
+    "id": 10078,
+    "name": "Pawan Shrestha",
+    "orcid": null,
+    "current_org": "AllFocal Optics",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.679908,
+    "lng": -0.748302,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "AllFocal Optics",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Pawan Shrestha is a Co-Founder and serves as Chief Executive Officer and Board Member at Lark Optics."
+  },
+  {
+    "id": 10079,
+    "name": "John Lee",
+    "orcid": null,
+    "current_org": "Advanced Material Development",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.285092,
+    "lng": -0.758987,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Advanced Material Development",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. John Lee is a Co-Founder and serves as Chief Executive Officer and Board Member at Advanced Material Development. He also served as Executive Chairman at CoM3D. He has a thirty-year career in the City of London specializing in the Mining, Energy, and CleanTech sectors as well as a more general involvement in global retail, banking, technology, and healthcare equity markets. He has extensive experience in capital-raising across multiple sectors particularly for early-stage companies utilizing an extensive network of industry and sector specialists. He has successfully raised over \u00a32m of private equity for Advanced Material Development to oversee the commercialization of technologies from the UK research base. He is also highly experienced in licensing and legal IPR matters. Originally graduating as a mining engineer with a passion for innovative technology, he brings a solid understanding of the scientific and business challenges involved."
+  },
+  {
+    "id": 10080,
+    "name": "Danyal Akarca",
+    "orcid": null,
+    "current_org": "Callosum",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.513069,
+    "lng": -0.070279,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Callosum",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Danyal Akarca is a Co-Founder serves as Chief Executive Officer and Board Member at Callosum. Dr. Akarca holds a PhD from the University of Cambridge, UK. He is a world-leading scientist in building system architectures for efficient AI. His work has been funded by some of the world's best including Eric Schmidt and the UK's DARPA, ARIA."
+  },
+  {
+    "id": 10081,
+    "name": "Claudio Marinelli",
+    "orcid": null,
+    "current_org": "Cambridge Photon Technology",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.290007,
+    "lng": 0.125471,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Cambridge Photon Technology",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Claudio Marinelli is a Co-Founder and serves as Chief Executive Officer and Board Member at Cambridge Photon Technology. He also served as Chairman at KETS. He served as Vice President of Business Development and Board Member at Eight19. He also served as Director of Business Development and Board Member at Applied Graphene Materials. Prior to this, he was Open Innovation Director and later Business Management Director at Nokia Research between 2008 and 2012, where he was responsible for the strategic and operational oversight of the R&D collaboration portfolio across 13 Nokia sites globally. He also co-led Nokia's Impact and Tech Transfer work packages within the European Commission's Future and Emerging Technologies Graphene Flagship proposal, a ten-year \u20ac1 billion project with over 80 industrial and academic partners. Prior to joining Nokia, he served as Entrepreneur-in-Residence at the University of Cambridge for Advanced Nanotech, a US seed investment fund specializing in academic spin-offs, between 2006 and 2007, and from 2001 to 2002 he served as Senior Device Engineer at Luxnet Corp, a California-based start-up supplying optoelectronic and telecommunication components. Other previous roles include Senior Research Associate in photonics at the Engineering Department of the University of Cambridge. He holds a Laurea degree in Physics from the University of Trieste, Italy, a PhD in Electronic Engineering from the University of Bristol, and an MBA from Judge Business School at the University of Cambridge."
+  },
+  {
+    "id": 10082,
+    "name": "Briony Garbett",
+    "orcid": null,
+    "current_org": "NAAMA Studios",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.613666,
+    "lng": -0.176324,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "NAAMA Studios",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Ms. Briony Garbett served as Chief Marketing Officer at Seraphine. She served as a Board Member at NAAMA Studios. She studied BA (Bachelor of Arts) (Psychology) from University of Oxford in 2007."
+  },
+  {
+    "id": 10083,
+    "name": "Ying Li",
+    "orcid": null,
+    "current_org": "Zero Point Motion",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.451817,
+    "lng": -2.599786,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Zero Point Motion",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Ying Li is the Founder and serves as Chief Executive Officer & Board Member at Zero Point Motion. She was an Inventor of technology, originally from academic research in quantum optomechanics. Previously R&D in optics, inertial sensing & project management at BAE Systems."
+  },
+  {
+    "id": 10084,
+    "name": "Mark Rushworth",
+    "orcid": null,
+    "current_org": "Finchetto",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.605204,
+    "lng": -2.918574,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Finchetto",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Mark Rushworth is a Co-Founder and serves as Chief Executive Officer & Board Member at Finchetto. Mr. Rushworth is a Co-Founder and serves as Board Member at SageTech Medical Equipment. He is a specialist in the design and delivery of multi-stakeholder technical products for blue-chip clients. He rose through the ranks of a Fortune 500 FMCG company's commercial team before moving into technology. This experience has given him the unique combination of strong business sense with an acute eye for product delivery."
+  },
+  {
+    "id": 10085,
+    "name": "Wyn Meredith",
+    "orcid": null,
+    "current_org": "Compound Semiconductor Centre",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.530931,
+    "lng": -3.087987,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Compound Semiconductor Centre",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Wyn Meredith is the Founding Director of Compound Semiconductor Centre. Dr. Meredith serves as Board Member & Chair of SIPF Management Board at CSconnected. He has 20 years experience in Optoelectronics starting with a PhD in blue laser diode technology and technical and commercial roles at Ferranti, Sharp, Detica, and IQE. In addition to commercial sales, he has secured over \u00a312M research and new product development projects since 2007 in the areas of high speed telecoms lasers, mid infra red laser diode technology, monolithic optical sensors and photovoltaic technology. Wyn is an expert advisor to the UK Engineering and Physical Science Research Council and sits on the Strategic Advisory Group for the ICT portfolio. EPSRC is the main UK government agency for funding research and training in engineering and the physical sciences, investing more than \u00a3850 million a year in UK. He is a Fellow of the Learned Society of Wales, and was awarded an Honorary Distinguished Professorship by Cardiff University in 2021 in recognition of working with the School of Physics and Astronomy, providing expert advice on commercialisation of research and interaction with industry."
+  },
+  {
+    "id": 10086,
+    "name": "Christopher Burgess",
+    "orcid": null,
+    "current_org": "Sentinel Photonics",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.12973,
+    "lng": -1.70455,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Sentinel Photonics",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Christopher Burgess is a Co-Founder & serves as Co-Chief Executive Officer at Sentinel Photonics. He is an experienced lead scientist with a long track record of delivering high-impact science and technology research in the field of optics and photonics. He is a co-inventor of the key laser detection technology, providing both strategic and technical advice to ensure exploitation and increase the impact on UK defense. He holds a Ph.D. in optics, specifically focused on protecting imaging sensors from laser dazzle threats."
+  },
+  {
+    "id": 10087,
+    "name": "Colin Webb",
+    "orcid": null,
+    "current_org": "Oxford Lasers",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.619671,
+    "lng": -1.2517,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Oxford Lasers",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Colin Webb is a Co-Founder and serves as Chairman at Oxford Lasers. Mr. Webb holds a degree from University of Oxford."
+  },
+  {
+    "id": 10088,
+    "name": "Charles Altuzarra",
+    "orcid": null,
+    "current_org": "Metahelios",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 55.870286,
+    "lng": -4.278413,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Metahelios",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Charles Altuzarra is a Co-Founder and serves as Chief Executive Officer and Board Member at Metahelios."
+  },
+  {
+    "id": 10089,
+    "name": "Michael Day",
+    "orcid": null,
+    "current_org": "Covesion",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 50.941027,
+    "lng": -1.470438,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Covesion",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Michael Day serves as Chief Executive Officer and Board Member at Covesion. He serves as President at Radiant Light."
+  },
+  {
+    "id": 10090,
+    "name": "Andrew Lee",
+    "orcid": null,
+    "current_org": "AVoptics",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 50.952316,
+    "lng": -2.681127,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "AVoptics",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Andrew Lee serves as Managing Director at AVoptics."
+  },
+  {
+    "id": 10091,
+    "name": "James Hall",
+    "orcid": null,
+    "current_org": "Wideblue",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 55.901137,
+    "lng": -4.312744,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Wideblue",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. James Hall served as Managing Director at WideBlue."
+  },
+  {
+    "id": 10092,
+    "name": "Vincent McCorry",
+    "orcid": null,
+    "current_org": "Photonic Measurements",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 54.513717,
+    "lng": -6.071761,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Photonic Measurements",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Ms. Vincent McCorry is a Co-Founder and serves as Chief Executive Officer at Photonic Measurements. She served as the Software Engineer at Advanced Sensors. She holds MS and BS degrees from Queen's University."
+  },
+  {
+    "id": 10093,
+    "name": "Brendan Casey",
+    "orcid": null,
+    "current_org": "Kelvin Nanotechnology",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 55.872658,
+    "lng": -4.286225,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Kelvin Nanotechnology",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Brendan Casey is the Founder and serves as Chief Executive Officer and Board Member at Kelvin Nanotechnology. Dr. Casey attracted funding to set up KNT through JWNC (James Watt Nanofabrication Centre) at the University of Glasgow as a facility in the UK's Micro and Nanotechnology (MNT) Facilities Network. The project was joint funded by Scottish Enterprise and TSB to open access for industry to the world leading capability at the JWNC. Brendan has built up a substantial global customer portfolio and has played a key role in the technology incubation and support of several start-up companies. Brendan has a Bachelor of Engineering (Hons) degree in Electronics and Electrical Engineering and a PhD in Bioelectronics from the University of Glasgow. He sits on several government advisory and review committees and boards on nano, quantum and emerging technologies as well as a number of industry advisory boards."
+  },
+  {
+    "id": 10094,
+    "name": "Caspar Clark",
+    "orcid": null,
+    "current_org": "Helia Photonics",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 55.87673,
+    "lng": -3.546452,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Helia Photonics",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Caspar Clark is the Founder and serves as Chief Executive Officer & Chief Technical Officer at Helia Photonics. Mr. Clark has a BSc (Hons) in Physical Science for Microelectronics and PhD in Physics specializing in laser diode mortality. He is a Royal Academy of Engineering Visiting Professor in Functional Thin Film Materials and Applications at the University of the West of Scotland Thin Film Centre. He has worked extensively in the field of optical thin films. Caspar was a founding member of the Helia team in September 2002 and remains hands-on from equipment build to coating design."
+  },
+  {
+    "id": 10096,
+    "name": "Terry Golding",
+    "orcid": null,
+    "current_org": "Amethyst Research",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.243033,
+    "lng": -0.873051,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Amethyst Research",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Terry Golding is a Co-Founder and serves as Chief Executive Officer & Managing Director at Amethyst Research. He has over twenty years of experience in emergent sensor technology, including three years with the U.S. Army Night Vision Electronics Sensor Directorate (NVESD), and three years with NASA Center for Commercialization. He received a Ph.D. in Physics from the Cambridge University."
+  },
+  {
+    "id": 10097,
+    "name": "Anthony Laing",
+    "orcid": null,
+    "current_org": "Duality Quantum Photonics",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.45536,
+    "lng": -2.606683,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Duality Quantum Photonics",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Anthony Laing is a Co-Founder and serves as Chief Executive Officer and Board Member at Duality Quantum Photonics. Dr. Laing is a Professor of Physics at the University of Bristol. He brings experience from previous roles at Duality Quantum Photonics and the University of Bristol. He holds a 2006 - 2010 Doctor of Philosophy in Physics from University of Bristol."
+  },
+  {
+    "id": 10100,
+    "name": "Richard Walker",
+    "orcid": null,
+    "current_org": "Photon Force",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 55.922048,
+    "lng": -3.171745,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Photon Force",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Richard Walker is a Co-Founder and serves as Chief Executive Officer at Photon Force."
+  },
+  {
+    "id": 10101,
+    "name": "Gordon Davis",
+    "orcid": null,
+    "current_org": "Optos",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 56.048541,
+    "lng": -3.427913,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Optos",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Gordon Davis served as Chairman at EM Imaging. He served as Chief Executive Officer & Board Member at Optos. He served as Advisor at Optos. Previously, he served as Chief Executive Officer & Chief Operating Officer at Gyrus Group. He has over 25 years of line management and strategic consulting experience. He joined Gyrus from NTERA, a Nanotechnology company, where he was Chief Executive. Before that he spent nearly 10 years with Arthur D. Little, the global management consulting company, where he was Vice President and Global Head of its Operations Management business. Mr. Davis has also held senior operational positions for Tricom, Reuters, and Molex in the US, Taiwan and Europe. Before becoming Chief Executive Officer, Mr. Davis served as a Non-Executive Director of Gyrus from its flotation in 1997. He has a mechanical engineering degree and an MBA."
+  },
+  {
+    "id": 10102,
+    "name": "Simon Grattan",
+    "orcid": null,
+    "current_org": "Sengenia",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 54.585528,
+    "lng": -5.93641,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Sengenia",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Simon Grattan is a Co-Founder and serves as Managing Director, Chairman & Board Member at Sengenia. He is currently on secondment from InterTradeIreland to DETI NI as NI Horizon 2020 Manager. He is working to develop and coordinate the preparations of Northern Ireland for the forthcoming Horizon 2020 funding programme. He holds PhD and BS degrees from Queen's University."
+  },
+  {
+    "id": 10103,
+    "name": "Anatoly Grudinin",
+    "orcid": null,
+    "current_org": "Fianium",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 50.856428,
+    "lng": -1.327875,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Fianium",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Anatoly Grudinin served as the Chief Executive Officer at Fianium. He started his work in the area of fiber optics in the early 1980s when he joined Physical Lebedev's Institute Russian Academy of Science (FIAN) after graduation from Moscow State Technical University. He was one of the first researchers who studied the nonlinear properties of silica fibers and pioneered the discovery of Raman solitons in single-mode optical fibers. In 1992, he joined the Optoelectronics Research Centre at the University of Southampton where his main areas of interest were ultrafast mode-locked fiber lasers, high-power fiber lasers, and amplifiers. In 2003 he left his professor's chair at the ORC and founded Fianium, a fiber laser company focused on development and volume manufacturing of ultrafast fiber lasers for bio-medical and industrial applications."
+  },
+  {
+    "id": 10104,
+    "name": "Jeremy Burroughes",
+    "orcid": null,
+    "current_org": "Cambridge Display Technology",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.316411,
+    "lng": -0.159153,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Cambridge Display Technology",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Jeremy Burroughes serves as Chief Technology Officer at Cambridge Display Technology. He made the first observation of light emission from solution processable conjugated polymers. A patent was filed by Dr Burroughes and his research fellows shortly afterwards. With more than fifteen years' research experience in conjugated polymer science and semiconductor technologies, Dr Burroughes joined CDT in 1997 to manage its new research group. He became Product Business Unit Director in 2000, and Chief Technology Officer in 2001. Previously, Dr Burroughes spent six years with Toshiba in the UK and Japan where he worked on quantum electronic and opto-electronic devices fabricated using GaAs or InP regrowth technology."
+  },
+  {
+    "id": 10105,
+    "name": "Richard Smith",
+    "orcid": null,
+    "current_org": "Pixel-Flo Ltd.",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 53.381062,
+    "lng": -1.481137,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Pixel-Flo Ltd.",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Richard Smith is a Co-Founder & serves as Chief Executive Officer at Pixel-Flo. Dr. Smith brings experience from previous roles at The University of Sheffield and the University of Sheffield. He holds a 2009 - 2013 Doctor of Philosophy (Ph.D.) in Electrical and Electronics Engineering from The University of Sheffield."
+  },
+  {
+    "id": 10108,
+    "name": "Glenn George",
+    "orcid": null,
+    "current_org": "Bay Photonics",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 50.437681,
+    "lng": -3.566778,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Bay Photonics",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Glenn George is a Co-Founder and serves as Managing Director at Bay Photonics. Bay Photonics was founded to exploit our customer's innovative ideas for advance technological photonics solutions using truly state of the art photonics IC process chemistry and design techniques within a range of embrionic marketplaces. At an early stage we had a vision to succeed by simply keeping our partners ahead of the pack through the delivery of relevant, well-considered and robust PIC assembly and packaging solutions, no matter what the base semiconductor technology was. Over the last decade it has become clear to us that within the photonics industry there is a huge opportunity for packaging solutions that deliver the exact physical solution that the customer's application is requiring."
+  },
+  {
+    "id": 10111,
+    "name": "Stephen Lee",
+    "orcid": null,
+    "current_org": "Caledonian Photonics",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 56.119419,
+    "lng": -3.908648,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Caledonian Photonics",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Stephen Lee is the Founder and serves as Chief Executive Officer & Board Member at Caledonian Photonics. Mr. Lee has 23 years of experience in the design and manufacture of solid-state lasers and their integration into optical systems. He completed his Ph.D. from the University of Strathclyde in experimental laser physics concentrating on increasing the stability and practicality of ultrashort-pulsed diode-pumped solid-state laser systems. He further developed this area of expertise during his 6 years at Coherent as a senior laser design engineer engaged in new product design and introduction of Ti: Sapphire lasers for bioscience applications. Stephen then spent 10 years at Thales UK developing robust lasers for harsh environments where he held the positions of Thales UK Laser Expert, Engineering Manager, and Design Authority for the Defense Lasers product line. Stephen is a Chartered Physicist, a Fellow of the Institute of Physics, and an inventor of 5 granted patents in the field of environmentally-robust lasers. He has a Ph.D. (Doctor of Philosophy) in Physics from the University of Strathclyde (1999) and a BS (Bachelor of Science) in Laser Physics and Optoelectronics from the University of Strathclyde (1996)."
+  },
+  {
+    "id": 10119,
+    "name": "Graham Bell",
+    "orcid": null,
+    "current_org": "Edinburgh Biosciences",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 56.002599,
+    "lng": -3.732083,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Edinburgh Biosciences",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Graham Bell serves as Co-Chief Executive Officer at Edinburgh Biosciences. Dr. Bell has over 30 years of experience in the biotechnology sector and is a founder shareholder in several start-up companies and currently serves as a board director of four SMEs across life science and other industries. He is retained as an InnovateUK Monitoring Officer overseeing multiple Biomedical Catalyst grants and previously served as Head of Cell Culture at Biocure Ltd, serving as scientific lead during its IPO to become Medisys PLC. Dr. Bell also served as Corporate Development Manager at Cyclacel Ltd, where he founded a Cambridge-based genomics division and managed the merger process that took the company onto the NASDAQ through a reverse merger. He holds Ph.D. (Doctor of Philosophy) from Edinburgh University and BS (Bachelor of Science) Honors in Bacteriology."
+  },
+  {
+    "id": 10123,
+    "name": "Jonathan Lewis",
+    "orcid": null,
+    "current_org": "TRULIFE OPTICS LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.508409,
+    "lng": 0.008035,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "TRULIFE OPTICS LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Jonathan Lewis serves as Chief Executive Officer & Board Member at TruLife Optics. He started his career as a technology analyst, which culminated in him heading up the pan-European mobile telecommunications research team at Dresdner Kleinwort Wasserstein. During this time he had gained a strong understanding of how organizations use technology to grow and how new companies and products develop. In 2002, he was introduced to Colour Holographic and helped them find funding. Four years later, attracted by their unique technologies and world-leading holographic skills, he formally joined the company as CEO. He retains the same role at TruLife Optics and is a passionate advocate of the potential of augmented reality to have a positive impact on the lives of consumers and businesses"
+  },
+  {
+    "id": 10124,
+    "name": "Keith Strickland",
+    "orcid": null,
+    "current_org": "PLESSEY SEMICONDUCTORS LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 50.44752,
+    "lng": -4.110845,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "PLESSEY SEMICONDUCTORS LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Keith Strickland served as Chief Technology Officer and Co-Chief Executive Officer at Plessey Semiconductors. Keith has more than 20 years of experience in the semiconductor industry starting with GEC-Plessey Semiconductors in 1995 and has held various senior engineering, management and executive roles within Mitel / Zarlink and now Plessey. Keith holds a B.Sc. Honors degree in Physics and Electronics, M.Sc. degree in Semiconductor Devices and a Ph.D. in Solid State Physics from the University of Lancaster in the UK."
+  },
+  {
+    "id": 10126,
+    "name": "Stuart Bain",
+    "orcid": null,
+    "current_org": "DESIGN LED PRODUCTS LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 55.872585,
+    "lng": -3.548765,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "DESIGN LED PRODUCTS LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Stuart Bain serves as Chief Executive Officer and Board Member at DesignLED."
+  },
+  {
+    "id": 10127,
+    "name": "Neil Martin",
+    "orcid": null,
+    "current_org": "SIVERS PHOTONICS LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 55.950643,
+    "lng": -3.208593,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "SIVERS PHOTONICS LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Neil Martin was the Founder and served as Board Member and Chief Executive Officer at Compound Semiconductor Technologies Global. He has been the CEO of CST Global since 2000 when it spun out of the Universities of Glasgow and Strathclyde. He has developed the company from being public sector owned to private share based through two significant funding rounds culminating in the aquisition of Intense in 2011. With a background in design and international product mangement and marketing he brings leadership and a wide technical and commercial experience to the company."
+  },
+  {
+    "id": 10129,
+    "name": "Philip Orr",
+    "orcid": null,
+    "current_org": "SYNAPTEC LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 55.858356,
+    "lng": -4.263013,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "SYNAPTEC LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Philip Orr is a Co-Founder and serves as Chief Executive Officer at Synaptec. Mr. Orr leads the development of Synaptec's strategy and oversees day-to-day commercial and technical operations. He is an expert in photonic instrumentation for power systems and co-inventor of Synaptec's core IP. Prior to founding Synaptec, he was Scotland's first Royal Academy of Engineering Enterprise Fellow, and a researcher at the University of Strathclyde's Institute for Energy and Environment. His doctoral work focused on photonic instrumentation for fusion reactors in collaboration with the UK Atomic Energy Authority, and he is the recipient of a number of engineering prizes, including the Sir William Siemens Medal and the EPSRC Doctoral Prize."
+  },
+  {
+    "id": 10130,
+    "name": "Mark Orsmond",
+    "orcid": null,
+    "current_org": "QUANTUM SCIENCE LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 53.344134,
+    "lng": -2.637086,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "QUANTUM SCIENCE LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Mark Orsmond is a Co-Founder and serves as Chief Executive Officer at Quantum Science."
+  },
+  {
+    "id": 10132,
+    "name": "Gary Steele",
+    "orcid": null,
+    "current_org": "HILIGHT SEMICONDUCTOR LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 50.828473,
+    "lng": -0.177611,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "HILIGHT SEMICONDUCTOR LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Gary Steele serves as Executive Chairman & CEO at HiLight Semiconductor. Since 1990 Gary has been the Founder and serves as Chief Executive Officer or Chairman of 5 Fabless Chip Companies: Acapella Ltd., Microcosm Communications, Phyworks, Nanotech Semiconductor and Foremost Integrated Circuits. All pioneered advanced Analog/RF CMOS technology in order to improve performance and lower costs, and all were involved in fiber-optics based Communications or Networking, over Plastic or Glass fibers. These companies achieved many world's firsts on performance and around 1 billion ICs sold to date. Gary has a degree in Electronics from the University of Southampton, a pioneer in fiberoptics based communications since the 1970's."
+  },
+  {
+    "id": 10134,
+    "name": "Arnaldo Galbiati",
+    "orcid": null,
+    "current_org": "SOLARIS PHOTONICS LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.234909,
+    "lng": 0.153433,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "SOLARIS PHOTONICS LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Arnaldo Galbiati is the Founder and serves as Board Member & Chief Executive Officer at Solaris Photonics. Dr Arnaldo is the inventor and developer of a novel High Power PV Energy Systems Technology (Patent Application GB1518185.2) and of the Alkaline Solar Cells photovoltaic technology (UK Patent GB2468526). Arnaldo is also the inventor and developer of the contact fabrication technology that enables the production of Diamond Electronics devices (US Patent US8119253). 2012-2013 Attended the Executive Master in Business Innovation at DEUSTO Business School (Spain), in collaboration with Cambridge Judge Business School, University of Cambridge (U.K.). 2007-2010 Working as Research and Development principal physicist in the start-up Diamond Detectors Ltd. (U.K.), a joint venture between Element Six (De Beers industrial diamonds) and BAE Systems, to design, develop, and fabricate radiation detectors using synthetic CVD diamond. At Diamond Detectors Ltd. Arnaldo invented a novel fabrication technique utilizing a diamond-like carbon tunneling junction and Pt/Au as an electrical contact for diamond electronics (A.Galbiati, Patent US20100098970 and EP2178108). Also because of these novel technological advancements BAE Systems invested \u00a32 million pounds to buy a 50% share in Diamond Detectors Ltd. 2006-2007 Advanced Technology Institute of the University of Surrey for an EPSRC-sponsored Master in Nanotechnology and Nanoelectronic Devices in order to develop his novel technology on Alkaline Solar Cells. 2005 Private work began on novel materials for high-efficiency solar cells. 2003-04 Research fellow at University College London working on the European project I-ImaS (intelligent imaging systems) to develop novel radiation imaging detectors based on CMOS active pixel sensors.1999-2003 Ph.D. in Semiconductor Device Physics specializing in the \"Development of CVD Diamond Radiation Detectors\" at the University of Surrey."
+  },
+  {
+    "id": 10137,
+    "name": "Ian Macafee",
+    "orcid": null,
+    "current_org": "WIKA OPTICAL SENSING LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.577159,
+    "lng": -1.312085,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "WIKA OPTICAL SENSING LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Ian Macafee served as Board Member at Oxsensis. He serves as Chief Executive Officer at Oxsensis. As an engineer, Ian has considerable sales and commercial experience in the industrial and aero-derivative gas turbine world with his career beginning in Alstom and Rolls-Royce. In addition he brings understanding of the end customer requirements through his time at leading European utility RWE in asset development roles, and finally he joins Oxsensis from Alstom where he served as Business Development Director in the Steam Turbine Retrofit business."
+  },
+  {
+    "id": 10138,
+    "name": "Tanya Hutter",
+    "orcid": null,
+    "current_org": "SENSORHUT LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.244997,
+    "lng": 0.108173,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "SENSORHUT LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Tanya Hutter is a Co-Founder and serves as Director & Board Member at SensorHut. She is a Co-Founder and serves as Chief Technology Officer at Kalium Health. She has expertise in the fields of chemical sensing, optical detection, and nano-technology. She completed her PhD in 2013 under the supervision of Professor Stephen Elliott. Three years on she is a Henslow Research Fellow at Darwin College, a postdoctoral researcher in the department, and director and co-founder of her own company, SensorHut. She recently returned to work after her second child, at the head of a major clinical sensor development project. She arrived in Cambridge, with a BSc in chemical engineering from Ben-Gurion University and an MSc in materials science and engineering specializing in optical sensing, during this time she published four papers, filed one patent, and finished first in her class with distinction. She joined Professor Stephen Elliott's group in 2009 but took six months out of her research to have her first child, a daughter. However, she still managed to publish 14 papers and complete her PhD without an extension period. It was during her graduate studies that she had the idea for SensorHut."
+  },
+  {
+    "id": 10144,
+    "name": "Joshua Silverstone",
+    "orcid": null,
+    "current_org": "HARTLEY ULTRAFAST LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.443326,
+    "lng": -2.567905,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "HARTLEY ULTRAFAST LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Josh Silverstone is the Founder and serves as Chief Executive Officer & Chief Technology Officer at Qontrol. He is the Founder and serves as Chief Executive Officer & Board Member at Hartley Ultrafast. He brings a wealth of knowledge to the Light Trace team with over 5 years of experience launching and scaling a deep-tech startup. He run his quntum computing lab at the University of Bristol and is a world-renowned expert in silicon quantum photonics with publications in journals such as Science, Nature Photonics, and Nature Communications."
+  },
+  {
+    "id": 10156,
+    "name": "James Beacher",
+    "orcid": null,
+    "current_org": "COOLLED LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.504235,
+    "lng": -0.091517,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "COOLLED LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. James Beacher served as Managing Director at CoolLED. Mr. Beacher graduated from Strathclyde University with a BSc. and joined a local materials research company which had been spun-out from Glasgow University. He then moved to the thin film coating industry and for many years supplied optical filters for commercial, military and medical applications. He had his own business during the Telecoms boom providing thin film deposition equipment which was used in electron microscopy. He moved into light microscopy when he joined CoolLED to develop their business pioneering LED illumination for the fluorescence technique now prevalent in the life sciences."
+  },
+  {
+    "id": 10159,
+    "name": "Andrew Osmant",
+    "orcid": null,
+    "current_org": "CAMBRIDGE MECHATRONICS LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.23424,
+    "lng": 0.139795,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "CAMBRIDGE MECHATRONICS LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Andrew Osmant serves as Chief Financial Officer & Board Member at Cambridge Mechatronics. He served as Board Member & Managing Director at Cambridge Mechatronics. After qualifying as a Chartered Accountant with Deloitte & Touche, Andy spent seven years working in audit and corporate finance roles, whilst managing a portfolio of Technology companies in Cambridge and Sydney, Australia. Prior to CML, as Group Chief Accountant, Andy managed the head office finance team and held responsibility for preparation of the group accounts of SGB plc, a FTSE 250 construction group. Andy has spent the last 11 years commercialising technology and managing the day-to-day business functions at Cambridge Mechatronics."
+  },
+  {
+    "id": 10160,
+    "name": "Thomas Arseneault",
+    "orcid": null,
+    "current_org": "BAE SYSTEMS PLC",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.505934,
+    "lng": -0.133956,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "BAE SYSTEMS PLC",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Thomas Arseneault serves as Chief Executive Officer & President at BAE Systems (USA). Mr. Arseneault serves as President, Chief Executive Officer, Member of Executive Committee & Board Member at BAE Systems.He has led complex organizations responsible for fulfilling critical and technologically challenging missions. Recently, he served as president and COO for the organization and was integral to its return to profitable growth. Previously, he was president of the company's Electronic Systems Sector, responsible for operations spanning the commercial and defense electronics markets, and its extensive portfolio of mission-critical electronic systems. He also served as executive vice president of BAE Systems' Product Sectors, responsible for articulating and executing a vision that drove optimal business performance across the Electronic Systems and legacy Land & Armaments businesses. Prior to his senior leadership appointments, he managed various organizations and programs for Sanders, a Lockheed Martin Company, and he remained with the unit when it was acquired by BAE Systems in 2000. Earlier in his career, he held a variety of engineering and program management positions with General Electric and TASC. He holds bachelor's and master's degrees in electrical engineering from Worcester Polytechnic Institute and MBA from Boston University."
+  },
+  {
+    "id": 10162,
+    "name": "Alexander Cresswell",
+    "orcid": null,
+    "current_org": "THALES UK LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.423146,
+    "lng": -0.994115,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "THALES UK LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Alexander Cresswell serves as Board Member at Aquila Air Traffic Management Services. Mr. Cresswell served as Chief Executive and Chairman at Thales UK. Mr. Cresswell serves as Board Member at Aquila Air Traffic Management Services. He is a strong advocate for the benefits that science and technology can deliver to nations and individuals. Inspired by a childhood passion for flight to study Aeronautics and Astronautics at Southampton University, he retains a life-long passion for the application of science and technology to transport, aerospace and defense. He was appointed Chief Executive and Chairman of Thales UK in 2020, following a 35- year global career within the aerospace and defense sectors. He is a member of Thales Group's Executive Committee, and also has responsibilities for Thales in the USA, Australia and Canada."
+  },
+  {
+    "id": 10163,
+    "name": "Jutta Meier",
+    "orcid": null,
+    "current_org": "IQE PLC",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.530931,
+    "lng": -3.087987,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "IQE PLC",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Ms. Jutta Meier serves as Chief Executive Officer, Chief Financial Officer & Board Member at IQE. She is an experienced finance executive who has held senior positions at global semiconductor companies for over 25 years. She joined IQE in January 2024 from Intel Corporation, where she served as a Senior Finance Director at Intel Foundry Services, supporting Intel's Foundry business transformation. Before joining Intel, she served as Vice President of Finance at GlobalFoundries Inc., a global leader in semiconductor manufacturing and she also held various positions at Advanced Micro Devices Inc. (AMD), a multinational semiconductor company. She holds an MBA from Technische Universit\u00e4t Dresden."
+  },
+  {
+    "id": 10164,
+    "name": "Mark Webster",
+    "orcid": null,
+    "current_org": "GOOCH & HOUSEGO PLC",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 50.916624,
+    "lng": -2.914079,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "GOOCH & HOUSEGO PLC",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Mark Webster served as Chief Executive Officer & Board Member at Gooch & Housego. Mr. Webster was previously Chief Executive Officer of Bio Products Laboratory Ltd."
+  },
+  {
+    "id": 10167,
+    "name": "Gerald Wesel",
+    "orcid": null,
+    "current_org": "HUBER+SUHNER POLATIS LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.23396,
+    "lng": 0.142344,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "HUBER+SUHNER POLATIS LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Gerald Wesel serves as Chairman & CEO at Cognition (Business/Productivity Software). He served as President & Chief Executive Officer at Polatis. He has several years of industry experience and more than 20 years of experience in executive roles at leading-edge technology companies. As President and CEO at Polatis, he is responsible for the company's overall management and strategic direction. Before Polatis, He was Chairman and CEO of Ellacoya Networks, a pioneer in deep packet inspection (DPI) technology, which was acquired in 2008 by Arbor Networks. Prior to Ellacoya, he served as Chairman of the Board at Orthogon Systems, an innovative provider of non-line-of-sight wireless technology, which was acquired by Motorola in 2006. He was CEO of Crescent Networks, a developer of a next generation edge routing system for carriers, where he was responsible for all operations and for successfully raising over $60 million in venture funding. Prior to Crescent, he was Founder and Vice President at Agile Networks, an intelligent data switching company, where he engineered the strategic partnership that resulted in Lucent Technologies' acquisition of Agile Networks in 1996, Lucent's first ever acquisition. Before Agile Networks, he held executive sales and marketing positions at Interlan, an early Ethernet controller provider which was acquired by Micom/Racal, and Digital Equipment Corporation. He holds a Bachelor's Degree in Applied Science from Boston University and an MBA from Babson College. In 2005 he was awarded the distinction of Finalist for the Ernst & Young Entrepreneur of the Year award."
+  },
+  {
+    "id": 10169,
+    "name": "Darran Milne",
+    "orcid": null,
+    "current_org": "VIVIDQ LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.518905,
+    "lng": -0.156344,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "VIVIDQ LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Darran Milne is a Co-Founder and serves as Chief Executive Officer & Board Member at VividQ. His extensive experience in commercializing software products has been key to VividQ's rapid growth. A Mathematician and Theoretical Physicist by training, he pivoted from academia to become a leading analyst at a large financial software company. There he led new development initiatives and managed client implementation projects. As one of the co-founders of VividQ and its former CTO, he directed the original research and development efforts and initiated partner collaborations. As CEO, he heads the company's technical and commercial strategies, establishing VividQ as the underlying software provider for holographic displays. He holds a PhD in quantum information theory and quantum optics from the University of St Andrews and the Max Plank Institute."
+  },
+  {
+    "id": 10170,
+    "name": "Alistair Banham",
+    "orcid": null,
+    "current_org": "PURELIFI LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 55.976553,
+    "lng": -3.167882,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "PURELIFI LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Alistair Banham serves as Co-Chief Executive Officer and Board Member at pureLiFi. He is a global semiconductor industry veteran, with more than 30 years' experience leading international business units. Prior to taking up the role as CEO at pureLiFi Alistair was Senior Vice President & GM of Customer Solutions Business Unit at Wolfson Microelectronics. At Wolfson Alistair was responsible for chip development, mobile systems strategy and driving strong engagement with tier 1 global accounts Previously he held roles as SVP & General Manager EMEA (Europe Middle East & Africa) at Philips Semiconductors. Alistair was a founding member and President & GM EMEA of ON Semiconductor and played a leading role in the spin out from Motorola semiconductor and subsequent IPO. During his time in the semiconductor industries, Alistair has been based out of key technology hubs from silicon valley (California) through to ASIA. Alistair brings an element of skill to pureLiFi that will lead innovation and release new products to drive increased adoption with our global customers and key growth markets."
+  },
+  {
+    "id": 10174,
+    "name": "Mustaq Chandia",
+    "orcid": null,
+    "current_org": "NETWORK INTEGRITY SERVICES LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.37288,
+    "lng": -1.465843,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "NETWORK INTEGRITY SERVICES LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Mustaq Chandia Co-Founded and served as the Director at Network Integrity Services."
+  },
+  {
+    "id": 10182,
+    "name": "Siobh\u00e1n Duffy",
+    "orcid": null,
+    "current_org": "ELEMENT SIX LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.577204,
+    "lng": -1.309155,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "ELEMENT SIX LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Ms. Siobh\u00e1n Duffy serves as Chief Executive Officer at Element Six. Ms. Siobh\u00e1n Duffy served as Executive Director, Sales & Marketing at Element Six. Siobh\u00e1n was appointed to Executive Director, Sales & Marketing in September 2018. Prior to this appointment Siobh\u00e1n was Executive Director, Innovation from July 2014 and previously held a series of senior management positions within Element Six - Heading the Oil & Gas business unit, and prior to that being responsible as Business Manager for the Element Six Precision Grinding and Micron unit. She has an MBA, as well as Advanced Diploma in Analytical Science and Quality Management. Siobh\u00e1n has over 30 years' experience with Element Six, (formerly De Beers Industrial Diamonds), working across the organization from production, quality control through to business management and innovation. Siobh\u00e1n possesses a wealth of synthetic diamond experience, supporting customers to develop engineered synthetic diamond material solutions for their given industrial technology applications."
+  },
+  {
+    "id": 10183,
+    "name": "Charles Milligan",
+    "orcid": null,
+    "current_org": "FLEXENABLE TECHNOLOGY LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.232159,
+    "lng": 0.142477,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "FLEXENABLE TECHNOLOGY LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Charles Milligan serves as CEO & Board Member at UNISERS. He serves as Chief Executive Officer and Board Member at FlexEnable. He has over 20 years of commercial and general management experience across the globe in the semiconductor, consumer electronics, communications, industrial and aerospace markets. Most recently, Chuck served as CEO of EM Test, the leading EMC test equipment company, successfully completing its sale to AMETEK in 2011. Prior to this, Chuck was CEO of Finnish/Swiss firm Heptagon micro-optics, which he grew from a 16-employee, pre-revenue company, to an industry-leading business, with 300 employees and a Singapore-based volume production facility - working with leading mobile handset companies such as Nokia and Apple. Raising $70m from venture capital and strategic investors, Chuck was able to achieve this growth over a six-year period. Chuck also served as Vice President of Industrial and defense Solutions for Bookham Inc., a leading international optical components manufacturer. Chuck was Commercial Director at JDS Uniphase/Nortel Networks GaAs semiconductor fab in Zurich, Switzerland prior to Bookham's acquisition of the company. He holds a BS in Electrical Engineering from Clarkson University."
+  },
+  {
+    "id": 10188,
+    "name": "Andrew Blain",
+    "orcid": null,
+    "current_org": "PHOTONIC SOLUTIONS LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 55.916075,
+    "lng": -3.317325,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "PHOTONIC SOLUTIONS LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Andrew Blain is a Co-Owner and serves as Managing Director at Photonic Solutions. Andrew has been with Photonic Solutions since Autumn 2011. Andrew graduated with a BSc in physics than an MSc in Electronics and Electrical Engineering from Glasgow University. Prior to joining Photonic Solutions, Andrew established his own businesses which introduced him to working in sales. During his earlier years at Photonic Solutions, he was able to draw on both his skills and experience gained from running his own business and his technical knowledge gained in his education to excel in his position as Senior Sales Executive."
+  },
+  {
+    "id": 10189,
+    "name": "Bruce Neilson-Watts",
+    "orcid": null,
+    "current_org": "GLOBAL MARINE SYSTEMS LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.750095,
+    "lng": 0.517622,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "GLOBAL MARINE SYSTEMS LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Bruce Neilson-Watts serves as Chief Executive Officer at Global Marine Systems. He has been involved in the submarine cable industry since 1989, holding positions both offshore and onshore at Global Marine and both it's joint ventures in China. In his current role, he manages a global team responsible for all the installation and maintenance activities that the business has undertaken. He then spent time in Asia, working in both HMN and VP Service Delivery, and SBSS as Managing Director. Returning to the UK in 2014, he has held a number of strategic posts within the business and headed the Global Marine business unit as Managing Director from 2017 until transitioning to the role of CEO. He also sits on SubOptic's Executive Committee, and has done so since 2019."
+  },
+  {
+    "id": 10190,
+    "name": "Colin Walsh",
+    "orcid": null,
+    "current_org": "ANDOR TECHNOLOGY LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 54.597851,
+    "lng": -5.972323,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "ANDOR TECHNOLOGY LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Colin Walsh is the Founder and serves as Chief Executive Officer and Managing Director at Crescent Capital. He serves as Chairman at Replify. He served as Board Member at NiSoft. He also serves as Board Member at Analytics Engines. He has been an active venture capital investor in the local high-tech sector for the past twenty years. He also served as Board Member at Biznet Solutions. He leads a team of investment professionals who have completed investments for Crescent in over thirty companies in Northern Ireland. Crescent has raised over \u00a360m to date from government, private and institutional investors; its investments include several which are widely regarded as being among the most promising locally owned businesses, including Lagan Technologies, APT, Omiino, Maildistiller, Speechstorm and Andor Technology plc. Colin has achieved a number of successful trade sales and two flotations, including Trafficmaster plc which he was instrumental in floating on the London Stock Exchange in 1994 when working at Hambros plc. Colin was a director and subsequently chairman of Trafficmaster until 2009. He invested in Andor in 1997 and was instrumental in achieving its flotation on AIM in 2004. Andor grew to become a world leader in the field of scientific imaging cameras with revenues of almost \u00a360m per annum and over 400 employees. Colin was chairman of Andor until its sale in early 2014 to Oxford Instruments Plc for \u00a3176m. He is currently chairman of Acheson Holdings Limited and also Board Member at Fusion Antibodies Limited. He recently completed a two-year term as CBI chair for Northern Ireland and is also the trustee for NI on the UK board of Barnardos. Having served on the boards of several local companies and been chairman of many, he has the first-hand experience of the various challenges facing the business sector within Northern Ireland. He has considerable experience of business strategy and governance issues, mentoring senior management plus the restructuring, growth and development of companies across many sectors. He served as Board Member at Belfast Power."
+  },
+  {
+    "id": 10192,
+    "name": "Jimmy Nicholas",
+    "orcid": null,
+    "current_org": "UNIPHY LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 53.794881,
+    "lng": -1.546626,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "UNIPHY LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Jimmy Nicholas serves as Chief Executive Officer & Board Member at Uniphy. He also serves as Chairman at Codeplay. He served as Board Member at Silexica. He has held a variety of executive positions. He was the CEO of MIPS Technologies, leading the transition from Imagination Technologies to the standalone entity acquired by Tallwood Venture Capital. Before that he was promoted to Imagination Technologies' Executive Vice President & MIPS Business Unit General Manager. Whilst responsible for MIPS, he defined & executed the strategy of ensuring that MIPS was considered a leading architecture addressing autonomous driving & AI, developing a strong relationship with Mobileye. Other appointments have included being GM of STMicroelectronics' Microcontroller Division {creating the 8-bit STM8 & the world's most commercially successful & ubiquitous ARM-based, 32-bit microcontroller family, the STM32}, VP of Marketing for ARM's Processor Division, VP & GM of Processors Subsystems & Productivity group for ST-Ericsson [& STMicroelectronics] and VP of Marketing for Toumaz Ltd (Healthcare & Consumer Electronics - Frontier Smart Technologies). He has a track record for successfully transforming distressed businesses & ineffective R&D organizations into productive & profitable entities. He is the founder/owner of AutonomyN LLC a Strategic & Operations Services Consultancy & a board member of Silexica."
+  },
+  {
+    "id": 10196,
+    "name": "Hamish Watson",
+    "orcid": null,
+    "current_org": "POLYSOLAR LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.248533,
+    "lng": 0.081223,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "POLYSOLAR LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Hamish Watson is the Founder & serves as Chief Executive Officer at Polysolar."
+  },
+  {
+    "id": 10197,
+    "name": "Michael Sch\u00f6llhorn",
+    "orcid": null,
+    "current_org": "AIRBUS DEFENCE AND SPACE LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.90104,
+    "lng": -0.212025,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "AIRBUS DEFENCE AND SPACE LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Michael Sch\u00f6llhorn serves as Chief Executive Officer at Airbus Defence and Space. He served as Member of the Management Board and Chief Operating Officer at BSH Hausger\u00e4te. He studied Mechanical Engineering at Helmut-Schmidt-University in Hamburg, Germany, graduating as Mechanical Engineer. Sch\u00f6llhorn also earned a doctorate in Control Engineering at the Helmut-Schmidt-University."
+  },
+  {
+    "id": 10205,
+    "name": "Edward Austin",
+    "orcid": null,
+    "current_org": "FOCUS SENSORS LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 50.87453,
+    "lng": -1.350042,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "FOCUS SENSORS LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Edward Austin is a Co-Founder and serves as Managing Director and Board Member at Focus Sensors. Ed has over 20 years' experience in developing optical sensors. He has been responsible for taking major new innovations from concept to reality. After leading a number of developments at Southampton University, Ed moved to startup Stingray in 2008. Working with Martin and others he developed a novel optical reservoir monitoring system for the oil and gas industry. Stingray successfully exited to TGS in 2011 ($83m). In 2015 Weizhong and Ed left TGS to form Focus Sensors."
+  },
+  {
+    "id": 10208,
+    "name": "Kengo Ka",
+    "orcid": null,
+    "current_org": "DIGITAL PROJECTION LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 53.532183,
+    "lng": -2.168839,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "DIGITAL PROJECTION LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Kengo Ka serves as Chief Executive Officer at Digital Projection."
+  },
+  {
+    "id": 10209,
+    "name": "Sumanta Talukdar",
+    "orcid": null,
+    "current_org": "GARDIN LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.621236,
+    "lng": -1.293956,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "GARDIN LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Sumanta Talukdar is the Founder and serves as Chief Executive Officer & Board Member at Gardin. Mr. Talukdar co-founded and served as Board Member & Chief Executive Officer at WaveOptics. He has worked across displays, medical systems sensors and HUD (head-up displays) for the likes of Oxsensis, BAE Systems, Sharp and Honeywell Analytics."
+  },
+  {
+    "id": 10212,
+    "name": "Rajan Bedi",
+    "orcid": null,
+    "current_org": "SPACECHIPS LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.812306,
+    "lng": -0.335686,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "SPACECHIPS LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Rajan Bedi is the Founder and serves as Chief Executive Officer and President at Spacechips. Dr. Bedi holds Ph.D. (Doctor of Philosophy) in Electronic Engineering from The University of Edinburgh."
+  },
+  {
+    "id": 10214,
+    "name": "Margherita Sepioni",
+    "orcid": null,
+    "current_org": "SMARTIR LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 53.419306,
+    "lng": -2.304806,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "SMARTIR LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Margherita Sepioni is a Co-Founder and serves as Chief Executive Officer and Board Member at SmartIR. She served as Chief Operating Officer at SmartIR. She is currently leading both commercial and operational activities. After completing her Ph.D. in the Graphene Condensed Matter Group of The University of Manchester in 2012, she has focused on the commercialization of graphene-based applications, supporting new start-ups (such as 2Dtech Ltd, Graphene Enabled Systems, and Water cycle technologies) and bridging the gap between academia and the industrial world."
+  },
+  {
+    "id": 10216,
+    "name": "Vanessa Ambler",
+    "orcid": null,
+    "current_org": "WE CARE 4 AIR LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.794887,
+    "lng": 0.301908,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "WE CARE 4 AIR LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Ms. Vanessa Ambler is the Founder & serves as Chief Executive Officer, Managing Director & Board Member at WeCare4Air. She previously worked at The Independent Newspaper, and as Sales & Marketing Director at Reuters Media."
+  },
+  {
+    "id": 10217,
+    "name": "Brian Tenner",
+    "orcid": null,
+    "current_org": "NANOCO TECHNOLOGIES LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 53.324698,
+    "lng": -2.732899,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "NANOCO TECHNOLOGIES LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Brian Tenner serves as Chief Financial Officer at Grafmarine. He serves as Chief Executive Officer & Board Member at Nanoco. He was appointed as CEO with effect from 1 September 2020. Brian joined the Group in August 2018 as Chief Operating Officer and Chief Financial Officer. He also serves as the Company Secretary. Prior to joining Nanoco, He held a number of senior finance positions with both publicly listed and private multinational companies. His roles have typically focused on broad ranging operational finance with an emphasis on leading change and transformation programmes. His previous roles include Interim CEO and subsequently CFO of NCC (LSE: NCC) from 2017 to 2018 (cyber security professional services), CFO of Renold plc (LSE: RNO) from 2010 to 2016 (engineering manufacturing), Scapa plc (AIM: SCPA) from 2007 to 2010 (specialty chemicals) and British Nuclear Group (hi-tech chemicals and large-scale decommissioning projects) from 2003 to 2007. He qualified as a Chartered Accountant with PwC in 1994 and holds a Law degree (LLB Hons) from Edinburgh University."
+  },
+  {
+    "id": 10218,
+    "name": "Lesley Shaw",
+    "orcid": null,
+    "current_org": "ANVIL SEMICONDUCTORS LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.512059,
+    "lng": -0.139081,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "ANVIL SEMICONDUCTORS LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Ms. Lesley Shaw serves as Board Member at Kubos Semiconductors. Ms. Shaw also serves as Chief Executive Officer and Board Member at Anvil Semiconductors. She is a highly experienced business leader with more than 25 years in senior positions within high tech enterprises from start-ups to International Corporates. She has an extensive track record of product delivery, project and subcontractor management and successful business development. Previously, she served as Chief Executive Officer at CMR Fuel Cells."
+  },
+  {
+    "id": 10219,
+    "name": "Nadeem Rizvi",
+    "orcid": null,
+    "current_org": "LASER MICROMACHINING LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 53.252387,
+    "lng": -3.478568,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "LASER MICROMACHINING LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Nadeem Rizvi serves as Managing Director and Director at Laser Micromachining. He manages the overall operations of the company and is the first point of contact for all new enquiries. He has been active in the field of lasers and laser applications for over 25 years and has developed numerous industrial laser techniques and applications. He holds a Ph.D. in laser physics from Imperial College London and has previously held senior positions at the Central Laser facility (RAL), the Institute of Optics (Madrid), the Optoelectronics Research Centre (Southampton) and Exitech Ltd. (Oxford)."
+  },
+  {
+    "id": 10223,
+    "name": "Patrick Beldon",
+    "orcid": null,
+    "current_org": "CORTIRIO LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 54.67032,
+    "lng": -1.451383,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "CORTIRIO LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Patrick Beldon is a Co-Founder & serves as Chief Executive Officer & Board Member at Cortirio."
+  },
+  {
+    "id": 10225,
+    "name": "Robert Dartnell",
+    "orcid": null,
+    "current_org": "FOSTER & FREEMAN LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.074225,
+    "lng": -1.936536,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "FOSTER & FREEMAN LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Robert Dartnell serves as Chief Executive Officer at Foster + Freeman."
+  },
+  {
+    "id": 10227,
+    "name": "Grant Bennett",
+    "orcid": null,
+    "current_org": "STG AEROSPACE LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.631579,
+    "lng": -3.009251,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "STG AEROSPACE LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Grant Bennett served as Chief Executive Officer and Chief Operating Officer at STG Aerospace. Previously, he served as Board Member at the company. Appointed in June 2017, he has overall responsibility for the Operations and Engineering departments and for the Supply Chain team. Based at the STG Aerospace Innovation & Engineering Centre in Cwmbran, he plays a vital role in ensuring the ongoing seamless integration of all operational functions. With over 20 years of management experience and extensive commercial exposure to customers and end-users, Grant is an active champion for change. Trained in lean manufacturing at Toshiba, he holds a Six Sigma Blackbelt and is experienced in the application of total productivity concepts including Kaizen and 6S. He joined STG Aerospace from NOTE UK where he was Managing Director overseeing the provision of Electronic Manufacturing Services for a broad range of industry sectors. Prior to that, he held positions as UK Operations Director for the Integrated Manufacturing Services division of TT Electronics and as Manufacturing Director of ACW Technology Ltd."
+  },
+  {
+    "id": 10230,
+    "name": "Anthony Taylor",
+    "orcid": null,
+    "current_org": "GLOBAL INVACOM LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.320765,
+    "lng": 1.03075,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "GLOBAL INVACOM LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Anthony Taylor serves as Chief Executive and Chairman at Global Invacom. He was appointed Executive Director on 18 August 2010 and then Executive Chairman of the Board of Directors on 26 October 2010. He is also a member of the Nominating Committee. His entire professional career has been spent working within international high technology businesses with diverse commercial propositions which include semiconductors, automotive electronics, and military, and satellite-related products. He also has over 17 years of experience in senior executive leadership roles and formally held positions at Harris Semiconductor from 1984 to 1987, and Marconi Electronic Devices from 1987 to 1990 before joining SGS-THOMSON Microelectronics between 1990 and 1999. Mr. Taylor was appointed the Chief Executive Officer of TechnoFusion GmbH, where he served from 1999 to 2002, and was the General Manager of Amphenol Limited from 2002 to 2006. Mr. Taylor holds a Bachelor of Science (Electronics) degree with Honours from Coventry University in the United Kingdom."
+  },
+  {
+    "id": 10233,
+    "name": "Gillian Switalski",
+    "orcid": null,
+    "current_org": "I R KINETICS LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 53.762178,
+    "lng": -2.871527,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "I R KINETICS LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Ms. Gillian Switalski serves as Chief Executive Officer & Board Member at Infrared Kinetics."
+  },
+  {
+    "id": 10235,
+    "name": "Annabel Green",
+    "orcid": null,
+    "current_org": "WELL-SENSE TECHNOLOGY LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 57.144909,
+    "lng": -2.108561,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "WELL-SENSE TECHNOLOGY LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Ms. Annabel Green serves as Chief Executive Officer at Well-SENSE Technology Ltd. She served as Chief Technology Officer at Tendeka. Annabel has broad experience in sand control, reservoir completions and general completion technology across global markets. Prior to her time at Weatherford she worked for Schlumberger as an open hole-logging engineer in the North Sea. She holds several patents and is the co-author of a number of sand control-related SPE papers. Annabel graduated from a Leeds University with a degree in Mechanical Engineering."
+  },
+  {
+    "id": 10242,
+    "name": "Julia Li",
+    "orcid": null,
+    "current_org": "MICROGRAPHIA BIO LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.480742,
+    "lng": -0.200441,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "MICROGRAPHIA BIO LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Julia Li is a Co-Founder and serves as Chief Executive Officer at Micrographia Bio. She is an Immunologist, Banker, VC, and Engineer. She is responsible for providing the vision for the company and executing the financing and hiring. From her Ph.D. work at the University of Cambridge as a Gates Scholar, she originated and deployed the world's first $108M Global Health Investment Fund. Most recently, she built the UK team for a Boston-based SaaS genomics company."
+  },
+  {
+    "id": 10243,
+    "name": "John Clowes",
+    "orcid": null,
+    "current_org": "WOODROW SCIENTIFIC LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 50.935149,
+    "lng": -1.471074,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "WOODROW SCIENTIFIC LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. John Clowes is the Founder and serves as Managing Director at Woodrow Scientific. He serves as Director, Business Development at NKT Photonics."
+  },
+  {
+    "id": 10244,
+    "name": "Dale Hawley",
+    "orcid": null,
+    "current_org": "GUIDANCE MARINE LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.611127,
+    "lng": -1.19284,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "GUIDANCE MARINE LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Dale Hawley serves as Chief Executive Officer at Guidance Marine."
+  },
+  {
+    "id": 10247,
+    "name": "Keval Dattani",
+    "orcid": null,
+    "current_org": "SPACE POWER LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.574889,
+    "lng": -1.3145,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "SPACE POWER LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Keval Dattani is a Co-Founder and serves as Chief Executive Officer & Co-Chief Technology Officer at Space Power."
+  },
+  {
+    "id": 10250,
+    "name": "Anthony Baker",
+    "orcid": null,
+    "current_org": "GLOBAL SATELLITE VU LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.516704,
+    "lng": -0.107917,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "GLOBAL SATELLITE VU LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Anthony Baker is a Co-Founder and serves as Chief Executive Officer & Board Member at SatVu."
+  },
+  {
+    "id": 10251,
+    "name": "Neil Seager",
+    "orcid": null,
+    "current_org": "PULSE POWER AND MEASUREMENT LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.614602,
+    "lng": -1.644814,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "PULSE POWER AND MEASUREMENT LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Neil Seager serves as Chief Executive and Director and Board Member at Pulse Power and Measurement."
+  },
+  {
+    "id": 10261,
+    "name": "David McMurtry",
+    "orcid": null,
+    "current_org": "RENISHAW P L C",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.634922,
+    "lng": -2.380663,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "RENISHAW P L C",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "David McMurtry, Executive Chairman, will remain on the board as non-executive director with effect from 01 July 2024. Co-founder of Renishaw, provides strong leadership to the Board, and responsible for Group innovation, product strategy, and Group technology. Significant contribution to the long-term sustainable success of the Company and all aspects of the business. Strategic vision, and technical and industry knowledge"
+  },
+  {
+    "id": 10262,
+    "name": "Allison Kirkby",
+    "orcid": null,
+    "current_org": "BT GROUP PLC",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.513987,
+    "lng": -0.072474,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "BT GROUP PLC",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Ms. Allison Kirkby serves as Chief Executive Officer at BT. He serves as Chief Executive Officer & President at Telia Company. She serves as Board Member & Member of Audit & Risk, Compliance and Nominations Committees at BT Group(Telecommunications Service Providers). She served as President and Group Chief Executive Officer at Tele2. She was born in 1967 and had joined the company in 2014. She also serves as a Non Executive Director & Chair of Audit Committee at Greggs and was a Group Chief Financial Officer at Tele2."
+  },
+  {
+    "id": 10266,
+    "name": "Donald Arnone",
+    "orcid": null,
+    "current_org": "TERAVIEW LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.289315,
+    "lng": 0.173328,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "TERAVIEW LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Donald Arnone is a Co-Founder and serves as Chief Executive Officer and Board Member at TeraView. He became CEO when TeraView was founded in 2001. He has over 16 years experience in the field of terahertz technology, first at the Cavendish Laboratory (Department of Physics) at the University of Cambridge and then for nine years at the Toshiba Research Europe Laboratory in Cambridge UK where he was head of the Terahertz Technology Programme. He was responsible for liaising with Toshiba, Japan on commercialization of the technology, as well as customer relations and marketing of the technology within Toshiba. He was also responsible for all aspects of business development of Terahertz technology outside Japan, which involved liaising with potential customers in the US and EU. He brought funding into the business from the European Commission, DTI, and DARPA in the US as well as various companies. He is also a Visiting Professor at the University of Leeds. He holds a Ph.D."
+  },
+  {
+    "id": 10268,
+    "name": "Frank Millar",
+    "orcid": null,
+    "current_org": "CENTRE FOR PROCESS INNOVATION LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 54.576136,
+    "lng": -1.101605,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "CENTRE FOR PROCESS INNOVATION LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Frank Millar serves as Chief Executive Officer at Centre for Process Innovation. He served as the previous Chief Operating Officer at CPI. He is a Chartered Engineer and Chartered Director, having spent his industrial career with UK engineering and project management companies delivering services to the process industries. He has 20 years of experience in technology development and deployment in the gas processing and nuclear-decommissioning sectors. He has worked in project delivery and business management roles in the UK, North America and the Middle East. He joined CPI in 2015 as Operations Director and became CEO in 2020. He is a member of the CBI North East Regional Council."
+  },
+  {
+    "id": 10270,
+    "name": "Wayne Southall",
+    "orcid": null,
+    "current_org": "TEER COATINGS LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.504235,
+    "lng": -0.091517,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "TEER COATINGS LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Wayne Southall serves as Sales and Marketing Director at Teer Coatings. From an early background in marine engineering, Wayne first joined us in 1995 in coating service. After overseeing production for a number of years he joined the sales team in 2010 and imparts over 20 years' experience of PVD technology to Teer's management team, having become Sales and Marketing Director in 2019."
+  },
+  {
+    "id": 10272,
+    "name": "Thomas Freda",
+    "orcid": null,
+    "current_org": "PRIOR SCIENTIFIC INSTRUMENTS LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.188843,
+    "lng": 0.227079,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "PRIOR SCIENTIFIC INSTRUMENTS LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Thomas Freda serves as Chief Executive Officer at Prior Scientific."
+  },
+  {
+    "id": 10273,
+    "name": "Keith Oakes",
+    "orcid": null,
+    "current_org": "ELFORLIGHT LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 50.531844,
+    "lng": -3.599357,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "ELFORLIGHT LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Keith Oakes served as Director at Elforlight. Previously, he served as a Development Engineer at JDSU."
+  },
+  {
+    "id": 10274,
+    "name": "Neil Chilton",
+    "orcid": null,
+    "current_org": "PRINTED ELECTRONICS LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.599325,
+    "lng": -1.675052,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "PRINTED ELECTRONICS LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Neil Chilton Co-Founded and served as Technical Director at Printed Electronics. Dr. Neil Chilton served as Technical Sales at XACT PCB."
+  },
+  {
+    "id": 10276,
+    "name": "Darrin Couch",
+    "orcid": null,
+    "current_org": "GAS SENSING SOLUTIONS LTD.",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 55.955366,
+    "lng": -3.223507,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "GAS SENSING SOLUTIONS LTD.",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Darrin Couch serves as Chief Operating Officer at GSS."
+  },
+  {
+    "id": 10279,
+    "name": "Stuart Chambers",
+    "orcid": null,
+    "current_org": "PILKINGTON GROUP LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 53.573543,
+    "lng": -2.814682,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "PILKINGTON GROUP LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Stuart Chambers served as Chairman at ARM. He joined the Board as Chairman designate on 27 January 2014 and became Chairman on 1 March 2014. He brings a strong track record and a wealth of Board and executive experience both in the UK and globally. Up to 2009, he was the Group Chief Executive of Nippon Sheet Glass Group, which acquired Pilkington plc in 2006, where he was Chief Executive. Prior to the glass industry, Stuart held a number of senior positions at Mars, Inc., having previously spent ten years in several European roles at Royal Dutch Shell plc. He currently serves as the Chairman at Travis Perkins since November 2017. He is chairman of miner Anglo American. He was an engineer at Shell."
+  },
+  {
+    "id": 10280,
+    "name": "Paul MacGregor",
+    "orcid": null,
+    "current_org": "ROKE MANOR RESEARCH LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 50.999341,
+    "lng": -1.51975,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "ROKE MANOR RESEARCH LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Paul MacGregor serves as Managing Director at Roke Manor Research. He was appointed as Managing Director of Roke on 18 March 2019. Roke is a contract research and development firm that believes in improving the world through innovation, bringing the physical and digital together in ways that revolutionise industries. Paul has worked in an advisory capacity for a number of Venture Capital firms in the technology sector, has completed a range of mergers and corporate turnarounds for public and private companies, and has worked for both PA Consulting and Arthur D Little as a consultant in the application of advanced technology. An Electronics Engineering graduate, Paul has also completed post-graduate management studies at Imperial College Business School and Columbia Business School."
+  },
+  {
+    "id": 10281,
+    "name": "Antony Lowe",
+    "orcid": null,
+    "current_org": "DELTA G LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.453555,
+    "lng": -1.93332,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "DELTA G LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Antony Lowe serves as Chief Executive Officer and Board Member at Delta G."
+  },
+  {
+    "id": 10283,
+    "name": "Clive Bond",
+    "orcid": null,
+    "current_org": "LOADPOINT LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.629591,
+    "lng": -1.881475,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "LOADPOINT LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Clive Bond serves as Director at Loadpoint. Mr. Bond holds a degree in Electrical and Electronics Enginering from Swindon Technical College in 1977."
+  },
+  {
+    "id": 10284,
+    "name": "Philip Rumsby",
+    "orcid": null,
+    "current_org": "M-SOLV LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.823462,
+    "lng": -1.2885317,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "M-SOLV LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Philip Rumsby is the Founder and serves as Chief Executive Officer and Chairman at MSOLV. He holds a degree in Physics from the University of Birmingham and a DPhil in Plasma Physics from the University of Oxford. He has dedicated his career to lasers and their industrial applications, with over 30 papers published and more than 30 patents on laser-matter interactions. He began in high-power Nd: glass and CO2 lasers, serving as Deputy Head of the Laser Division and Head of the High Power Laser Group at the Rutherford Appleton Lab (RAL). There, he was heavily involved with magnetic fusion reactor refueling at the UK Atomic Energy Authority. He was also instrumental in the development and utilisation of the Science and Technology Facilities Council's (STFC) VULCAN high-power laser facility. In 1984, he founded Exitech, a decorated company known for commercialising the first EUV exposure tools. After their acquisition by Oerlikon, he served briefly as Business Development Manager before founding msolv. Since the device manufacturing division of msolv\u00ae was spun off, he has also been Managing Director of Axion Biosystems Manufacturing UK."
+  },
+  {
+    "id": 10288,
+    "name": "Glynn Wright",
+    "orcid": null,
+    "current_org": "ARALIA SYSTEMS LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.337878,
+    "lng": 1.403088,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "ARALIA SYSTEMS LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Glynn Wright serves as Chief Executive Officer at Aralia Systems."
+  },
+  {
+    "id": 10292,
+    "name": "Christopher Emslie",
+    "orcid": null,
+    "current_org": "FIBERCORE LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 50.962644,
+    "lng": -1.42276,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "FIBERCORE LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Christopher Emslie serves as Managing Director at Fibercore. He holds a Ph.D. in low-loss polymer optical fibers from the University of Southampton. A mechanical engineer by training, Chris joined the University of Southampton Optical Fiber Group in 1983, following an engineering internship at the Corning Glassworks optical fiber fabrication pilot facility. At Southampton, he studied under professors Alec Gambling and Sir David Payne. His Ph.D. subject was the fabrication of low-loss polymer optical fibers, and he successfully developed an integrated purification, polymerisation, and extrusion apparatus. His invited review paper on this technology, published in the Journal of Materials Science in 1988, is still considered to be a seminal work in the area. In 1987, he joined early spin-out company York VSOP in a commercial capacity, developing markets primarily for the 'Bow-Tie' geometry polarisation maintaining fibers and erbium-doped fibers."
+  },
+  {
+    "id": 10295,
+    "name": "Craig Howarth",
+    "orcid": null,
+    "current_org": "TAYLOR HOBSON LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.66216,
+    "lng": -1.083506,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "TAYLOR HOBSON LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Craig Howarth served as Managing Director & Division Vice President at Taylor Hobson. Craig Howarth was appointed Managing Director of Taylor Hobson in October 2008. Craig joined us from Hanovia Ltd, a subsidiary of Halma plc, where he was Managing Director. Craig has extensive experience of implementing and delivering growth strategies for technology businesses. He has also held senior positions at Malvern Instruments and ABB Meters. Craig has a BSc in Physics from the University of Liverpool and an MBA from Henley."
+  },
+  {
+    "id": 10297,
+    "name": "Simon Turek",
+    "orcid": null,
+    "current_org": "HAYDALE PLC",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.780077,
+    "lng": -4.031121,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "HAYDALE PLC",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Simon Turek serves as Chief Executive Officer & Board Member at Haydale Graphene Industries. He was appointed as Chief Executive on January 1, 2025, having joined the Board following the fundraise in November 2024. He serves as a Board representative of Quidos Technologies Limited (which holds 19.07 per cent. of the Company's shares). As a result, he is not classified as an independent Director under the Company's Corporate Governance policies. In Q4 2024, he led a comprehensive review of all aspects of the business. The aim was to reprioritise areas with near-term profit potential and positive cash generation, whilst continuing to pursue commercially viable long-term strategic opportunities. The findings of the Review were announced on December 23, 2024. Having played a key role in leading that review, upon appointment to the position of CEO, Simon was tasked with implementing an accelerated turnaround plan, reducing costs, and fundamentally reshaping the business. He was previously the Chair and formerly the Managing Director of PNZ Carbon, a leading carbon market project developer. His expertise extends to international financial markets, having served as an Executive Director at the Chicago Mercantile Exchange (CME) Group, where he led global government relations. He originally trained as a lawyer in New Zealand and has been a Chair and Non-Executive Director on several boards, in financial services and the social housing sector, and a trustee of several charities."
+  },
+  {
+    "id": 10302,
+    "name": "Justin Smith",
+    "orcid": null,
+    "current_org": "LAND INSTRUMENTS INTERNATIONAL LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.66216,
+    "lng": -1.083506,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "LAND INSTRUMENTS INTERNATIONAL LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Justin Smith served as Managing Director at Land Instruments International."
+  },
+  {
+    "id": 10304,
+    "name": "Douglas Walsh",
+    "orcid": null,
+    "current_org": "OPTOSCI LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 55.916457,
+    "lng": -4.573325,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "OPTOSCI LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Douglas Walsh serves as Director, General Manager and Board Member at OptoSci. He has successfully managed and directed the growth and development of OptoSci, since its start-up in 1994."
+  },
+  {
+    "id": 10308,
+    "name": "Byron Alderman",
+    "orcid": null,
+    "current_org": "TERATECH COMPONENTS LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.574889,
+    "lng": -1.3145,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "TERATECH COMPONENTS LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Byron Alderman is the Founder and serves as Chief Executive Officer & Board Member at Teratech Components. He currently combines his role as a Principal Engineer in the Millimetre Wave Technology Group at the Rutherford Appleton Laboratory (RAL), part of the UK Science and Technology Facilities Council (STFC) with his responsibilities as CEO of Teratech. He has completed his education in BA, MPhys, PhD, MIET and MIoP."
+  },
+  {
+    "id": 10310,
+    "name": "Robert Pollard",
+    "orcid": null,
+    "current_org": "CAUSEWAY SENSORS LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 54.585528,
+    "lng": -5.93641,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "CAUSEWAY SENSORS LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Robert Pollard is the Founder of Smart Nano NI. Dr. Robert James Pollard is a Co-Founder and serves as Co-Chief Executive Officer and Chairman at Causeway Sensors. He is a senior lecturer at Queen's University Belfast and has led the development of nanostructure technology from inception. He has worked within the fields of advanced materials and nanotechnology for over 20 years and has published many high-profile scientific papers in journals including Nature Materials, Nanotechnology, and Advanced Functional Materials."
+  },
+  {
+    "id": 10313,
+    "name": "Mark Vosloo",
+    "orcid": null,
+    "current_org": "EDINBURGH INSTRUMENTS LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.047014,
+    "lng": -0.022304,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "EDINBURGH INSTRUMENTS LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Mark Vosloo served as the Chief Executive Officer at Edinburgh Instruments. Mr. Vosloo served as the Chief Executive Officer and Board Member at Oxford HighQ. He will start his tenure from May 1, 2020. Mr. Vosloo joins EI from Oxford Instruments where he has held various general manager and senior commercial roles for the past nine years. Prior to this he has a long and distinguished career in the opto-electronics industry including Linos Photonics Ltd and Horiba Jobin Yvon Ltd."
+  },
+  {
+    "id": 10314,
+    "name": "Mark Johnson",
+    "orcid": null,
+    "current_org": "SCIENTIFICA LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.504235,
+    "lng": -0.091517,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "SCIENTIFICA LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Johnson is a Co-Founder and Owner & serves as Managing Director at Scientifica."
+  },
+  {
+    "id": 10316,
+    "name": "Morgan Boardman",
+    "orcid": null,
+    "current_org": "ARKENLIGHT LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.592155,
+    "lng": -0.254279,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "ARKENLIGHT LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Morgan Boardman co-founded and served as Chief Executive Officer at Arkenlight. He s a committed technologist whose knowledge spans from the deeply technical & scientific to the commercialization of high technology concepts. He has always had an entrepreneurial mindset, starting his first business before he was tall enough to ride rollercoasters. He leads with empathy combined with impeccable outside-the-box problem-solving abilities and innately interprets communications between science specialists to engage the non-technical business community. A master strategist, he joined in 2019, prior to the formation of the company, to focus on commercialising our range of radiovoltaics."
+  },
+  {
+    "id": 10317,
+    "name": "Alistair Kean",
+    "orcid": null,
+    "current_org": "NIKALYTE LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 53.382542,
+    "lng": -2.193878,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "NIKALYTE LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Alistair Kean is a Co-Founder and serves as Chief Executive Officer & Board Member at Nikalyte. He served as Director at Nikalyte. He has a background in physics with a Ph.D. from the University of St. Andrews. He spent several years in academia before moving into industry and working in the area of semiconductors and optoelectronics. For the past fifteen years, his main area of focus has been the formation and application of Nano surfaces and nanoparticles. Alistair is a consultant to several companies. In May 2019 he became Professor of Medical Nanotechnology at the University of the Highlands and Islands in Inverness where he hopes to expand public awareness of the application of nanoscience to life sciences and healthcare"
+  },
+  {
+    "id": 10318,
+    "name": "Povl Verder",
+    "orcid": null,
+    "current_org": "SIME DIAGNOSTICS LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.518702,
+    "lng": -0.154262,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "SIME DIAGNOSTICS LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Povl Verder is a Co-Founder of SIME and serves as its Chief Executive Officer and Board Member. He is an experienced entrepreneur and business strategist specializing in digital technology, marketing and healthcare. He was also the founder of beCogent and held senior roles with BSkyB and NewsCorp. He is a former advisor to Johnson & Johnson, GlaxoSmithKline and Coloplast."
+  },
+  {
+    "id": 10323,
+    "name": "Monica Saavedra",
+    "orcid": null,
+    "current_org": "LAMBDA ENERGY LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.234821,
+    "lng": 0.129527,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "LAMBDA ENERGY LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Monica Saavedra is a Co-Founder & serves as Chief Executive Officer and Board Member at Lambda Agri. She served as a Board Member at HyWaves. She gained an Engineer Doctorate from the National Physical Laboratory and is an expert in materials processing and characterization techniques."
+  },
+  {
+    "id": 10325,
+    "name": "Stephen Riches",
+    "orcid": null,
+    "current_org": "TRIBUS-D LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.218147,
+    "lng": 0.143149,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "TRIBUS-D LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Stephen Riches serves as Director at Tribus-D. He has 335 years of experience in electronics assembly innovation, proposal generation and project management. Technical developments have included copper wire bonding, laser processes, high-temperature electronics, MEMS assembly, ruggedized displays and LED lighting. Has instigated and managed several Innovate UK/European projects, working collaboratively with wide range of industrial and academic partners."
+  },
+  {
+    "id": 10328,
+    "name": "Julie Fazackerley",
+    "orcid": null,
+    "current_org": "MICROLINK DEVICES UK LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.210681,
+    "lng": -2.646811,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "MICROLINK DEVICES UK LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Ms. Julie Fazackerley serves as Chief Executive Officer, Director, and Board Member at MicroLink Devices UK. She joined the company in February 2022 and has extensive knowledge of Technology Management and a strong background in defense and military aircraft from her time working within the production and manufacturing areas at BAE Systems. Previous roles have included leading the R&D program for PHASA-35 solar-powered HALE aircraft and leading the acceptance and trading of Typhoon and Hawk aircraft into export customers in the Middle East."
+  },
+  {
+    "id": 10329,
+    "name": "Neil Spann",
+    "orcid": null,
+    "current_org": "POWER ROLL LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 54.909265,
+    "lng": -1.486853,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "POWER ROLL LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Neil Spann serves as Chief Executive Officer and Board Member at Power Roll. He has a professional and energy services background and has held key roles in large energy services businesses. He was Director of Group Finance and Investor Relations of Eaga plc at the time of its purchase by a major UK Support Services company in April 2011. He stayed with the enlarged business to become the Finance Director of its UK Services division, a \u00a31.2bn business. Neil has specific experience in financing large-scale renewables and PV projects. He joined Power Roll in January 2014 and is responsible for all aspects of Power Roll's ongoing development and performance."
+  },
+  {
+    "id": 10335,
+    "name": "David Tuch",
+    "orcid": null,
+    "current_org": "LIGHTPOINT MEDICAL LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.666622,
+    "lng": -0.613981,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "LIGHTPOINT MEDICAL LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. David Tuch serves as Chairman at Akrivia Health. Dr. Tuch serves as Chairman at Lucida Medical. Dr. Tuch co-founded and served as Advisor at Lightpoint Medical. He serves as Chairman at Lucida Medical. He served as a Board Member at Active Needle Technology. He has more than a decade of experience in the medical imaging and pharmaceutical sectors. Previously, he was Head of Research Alliances at GE Healthcare and Head of Clinical Imaging at Novartis. Before joining the industry, he served on the faculty of Harvard Medical School and Massachusetts General Hospital, Department of Radiology. He is currently an Honorary Senior Lecturer in the Imperial College, Department of Bioengineering. He holds a PhD in Health Science from MIT, a BA in Physics from the University of Chicago and has completed executive education at INSEAD."
+  },
+  {
+    "id": 10336,
+    "name": "Mahmoud Farhadiroushan",
+    "orcid": null,
+    "current_org": "SILIXA LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.640798,
+    "lng": -0.309239,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "SILIXA LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Mahmoud Farhadiroushan is a Co-Founder and serves as Executive Director at Silixa. Mr. Farhadiroushan previously served as its Chief Executive Officer. He is the co-founder and served as the CEO at SensorNet.Mr. Farhadiroushan co-founded Silixa in April 2007 to develop and commercialize the next generation of optical fiber sensors. He previously co-founded Sensornet in 1998 and as CEO grew the company from its two-man roots to a successful, internationally-operating company and a rapidly-growing turnover. In 1995, Mr. Farhadiroushan joined King's College London as a senior member of the Optoelectronics Research Group and managed a collaborative European project to build a fine-spatial resolution distributed sensor. Between 1990 and 1994, he was responsible for the initiation, technical leadership and management of a joint industrial project sponsored by eight oil companies. These early initiatives established a strong recognition for the application of optical fiber sensors in the oil and gas industry. From 1985 to 1990, at University College London, he conducted research into optical fiber gyroscopes and multiplexed sensor systems as well as multiple-quantum-well devices for intra-chip optical data transmission."
+  },
+  {
+    "id": 10346,
+    "name": "Christian Maul",
+    "orcid": null,
+    "current_org": "REDLUX LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 50.983125,
+    "lng": -1.46342,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "REDLUX LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Christian Maul is the Founder and serves as Chief Executive Officer & Board Member at RedLux."
+  },
+  {
+    "id": 10347,
+    "name": "Stephen Carey",
+    "orcid": null,
+    "current_org": "VISIONCHIP LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 53.463203,
+    "lng": -2.229943,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "VISIONCHIP LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Stephen Carey serves as Board Member at Visionchip."
+  },
+  {
+    "id": 10349,
+    "name": "Charles Veys",
+    "orcid": null,
+    "current_org": "FOTENIX LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 53.491793,
+    "lng": -2.273807,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "FOTENIX LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Charles Veys is a Co-Founder and serves as Chief Executive Officer, Managing Director & Board Member at FOTENIX."
+  },
+  {
+    "id": 10351,
+    "name": "Keith Henderson",
+    "orcid": null,
+    "current_org": "XTERA LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.597379,
+    "lng": 0.239344,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "XTERA LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Keith Henderson is the Founder and serves as Chief Executive Officer at Xtera. He has served as our Executive Vice President of Global Operations since 2003. Mr. Henderson is a Chartered Engineer, as certified by the Engineering Council, and has over 20 years of experience in operations management. Mr. Henderson's career has encompassed a wide range of responsibilities with companies ranging from venture-funded start-up companies to multi-national organizations. Before joining us in 2003, Mr. Henderson was Operations Director for BAE Systems plc in Scotland with responsibility for electro-optical systems and sensors for avionic applications. Mr. Henderson also previously served in various roles at STC plc and Alcatel Lucent SA specializing in the design and development of submarine fiber optic cables. He is a Chartered Engineer and has over 20 years of experience in Operations Management He has encompassed a wide range of responsibilities with companies ranging from venture-funded start-up companies to multi-national organizations. Before Xtera, he held the position of Operations Director in BAe Systems (Scotland) with responsibility for Electro-Optical Systems and Sensors for Avionic applications. He also had a career in STC and Alcatel specializing in the design and development of submarine fiber optic cables."
+  },
+  {
+    "id": 10352,
+    "name": "James Kingsley",
+    "orcid": null,
+    "current_org": "OSSILA LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 53.392111,
+    "lng": -1.44544,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "OSSILA LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. James Kingsley is a Co-Founder & serves as Managing Director at Ossila. He has over 8 years experience in organic electronics. During his career he has produced some of the highest efficiency organic photovoltaics as part of the EPSRCS Nanotechnology Grand Challenge project. His personal research areas of interest include new materials for organic photovoltaics and hybrid organic-inorganic devices. However, with a PhD in quantum mechanics/nanotech, James also has a keen interest in developing innovative test equipment in order to help scientists conduct research faster and with better results."
+  },
+  {
+    "id": 10357,
+    "name": "Neil Gerrard",
+    "orcid": null,
+    "current_org": "LAYTEC UK LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 53.274294,
+    "lng": -2.826795,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "LAYTEC UK LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Neil Gerrard served as Chief Executive Officer, Managing Director, President and Director at LayTec UK."
+  },
+  {
+    "id": 10359,
+    "name": "Jonathan Holmes",
+    "orcid": null,
+    "current_org": "MICHELSON DIAGNOSTICS LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.952119,
+    "lng": -1.15533,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "MICHELSON DIAGNOSTICS LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Jonathan Denis Holmes is a Co-Founder and serves as Chief Executive Officer, Chief Technology Officer and Board Member at Vivosight. He has masterminded five rounds of investment, and his strategy for growth has enabled the company to achieve all of its milestones to date, on time and on budget. Jon was previously Business Director of the Biomedical Group at Sira, the instrumentation R&D company and was Director of the Smart Optics Faraday Partnership."
+  },
+  {
+    "id": 10360,
+    "name": "Peter Fitzgerald",
+    "orcid": null,
+    "current_org": "RANDOX LABORATORIES LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 54.640101,
+    "lng": -6.296631,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "RANDOX LABORATORIES LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Peter Fitzgerald is the Founder & serves as Managing Director at Randox. Dr. Peter Fitzgerald served as Advisor at Kernel Capital. He serves as a Board Member at Verv Technologies. Mr. Fitzgerald is the founder and serves as Managing Director at Randox, the largest indigenous manufacturer of diagnostics in Ireland and the UK, in 1982 which he has grown consistently year on year, employing over 850 individuals worldwide with offices in 26 countries and distribution agreements in over 130 countries. He studied Biochemistry at the University of Strathclyde in Glasgow, after which he studied for a Ph.D. at the National Institute for Medical Research, London. Dr. FitzGerald also achieved two MRC Fellowships at The Queen's University of Belfast. He was awarded an Honorary Degree (BSc Hons) by the University of Ulster for services to Economic Development in 2010 and in 2011 was awarded the Commander of the Order of the British Empire for services to business in Northern Ireland. Fitzgerald serves as Chairman at Cellix. He is a Co-Founder of Randox Laboratories, where he serves as Managing Director. Peter founded Randox in 1982. Randox has now grown to nearly 850 staff in 26 countries, including 185 R&D scientists. Randox develop, manufacture and market a wide range of clinical and veterinary diagnostic reagents and systems and are now the largest indigenous manufacturer of diagnostics in the UK with sales in 2014 of over \u20ac200M (\u00a3150M). Dr. FitzGerald and Randox have won numerous awards over the years including five Queen's Awards for Enterprise, the Ernst & Young Entrepreneur of the Year and the UTV Business Eye Business Personality of the Year."
+  },
+  {
+    "id": 10361,
+    "name": "Asen Asenov",
+    "orcid": null,
+    "current_org": "SEMIWISE LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 55.872598,
+    "lng": -4.285582,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "SEMIWISE LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Asen Asenov is the Founder and serves as Chief Executive Officer and Director at Semiwise. Dr. Asenov serves as Board Member at Ngenics. He served as Board Member at SureCore. He Founder and served as Chief Executive Officer at Gold Standard Simulations. He also serves as Director at Sitecore. He has ten years of industrial experience as head of the Process and Device Modelling Group in the Institute of Microelectronics, Sofia, developing one of the first integrated process and device CMOS simulators, IMPEDANCE. From 1989 to 1991 he was a Visiting Professor at the Physics Department of the Technical University of Munich, Germany. He joined the Department of Electronics and Electrical Engineering at the University of Glasgow in 1991 and served as a Head of Department from 1999 to 2003. He holds Ph.D. from Bulgarian Academy Of science and MS in Solid State Physics from Sofia University St. Kliment Ohridski."
+  },
+  {
+    "id": 10362,
+    "name": "Stefano Pirandola",
+    "orcid": null,
+    "current_org": "NODEQ LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.514897,
+    "lng": -0.123615,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "NODEQ LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Stefano Pirandola is the Founder and serves as Chief Executive Officer & Board Member at nodeQ. He pioneered the \"continuous variable\" formulation of quantum information. He established the ultimate capacities for quantum communication and entanglement distribution. He designed the optimal routing strategies for quantum networks with arbitrary topology. He advanced the hybrid model of the quantum internet. He introduced the first end-to-end protocols for quantum cryptography. He derived rigorous security proofs for quantum key distribution. He developed tools for teleportation, entanglement distillation, and quantum computing optimization. He holds PhD and Master's in Physics from Sapienza University of Rome and University of Camerino."
+  },
+  {
+    "id": 10363,
+    "name": "Mark Gillan",
+    "orcid": null,
+    "current_org": "ANGOKA LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 54.56755,
+    "lng": -5.915516,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "ANGOKA LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Mark Gillan serves as Co-Chief Executive Officer at Angoka. Mark joins us from KAUST (King Abdullah University of Science & Technology) in Saudi Arabia where he was the Associate Vice President of Technologies and Special Projects, managing a $1bn+ portfolio of projects focusing on diverse innovative technologies ranging from autonomous transport to clean tech. Mark has extensive experience, spanning engineering and technical leadership roles across an impressive range of industries. Having started his career in aerospace and then high performance automotive (McLaren Racing, Red Bull, Williams F1), his professional progression includes senior engineering & leadership roles at Innovate UK, Artemis Technologies, Belfast City Council and NATS. He was born and raised in Bangor. While he has built an impressive career in the UK and abroad, he is deeply rooted and extensively connected with the Northern Irish and British business eco-systems. He is a Fellow of the Royal Aeronautical Society and a Chartered Engineer."
+  },
+  {
+    "id": 10367,
+    "name": "Gerard Colston",
+    "orcid": null,
+    "current_org": "ADVANCED EPI MATERIALS AND DEVICES LTD",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.277989,
+    "lng": -1.521185,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "ADVANCED EPI MATERIALS AND DEVICES LTD",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Gerard Colston is a Co-Founder and serves as Managing Director at Advanced Epi Materials and Devices."
+  },
+  {
+    "id": 10368,
+    "name": "David Wong",
+    "orcid": null,
+    "current_org": "SURREY NANOSYSTEMS LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 50.78836,
+    "lng": 0.062336,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "SURREY NANOSYSTEMS LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. David Wong serves as Board Member at Surrey NanoSystems. He joined in March 2010 from BOC Edwards, where he ran the ca. \u00a3400m global Vacuum Equipment Division. Has deep experience in advanced technology development targeted at the semiconductor and scientific instrument sectors, and in supplying these demanding, technology-driven customers. This, coupled with his breadth of management and operational experience, brings core expertise to the management team."
+  },
+  {
+    "id": 10371,
+    "name": "Tao Zhang",
+    "orcid": null,
+    "current_org": "NANOBEAM LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.195133,
+    "lng": 0.174277,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "NANOBEAM LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Tao Zhang serves as Chief Executive Officer at Nanobeam."
+  },
+  {
+    "id": 10374,
+    "name": "Eric Lakin",
+    "orcid": null,
+    "current_org": "TT ELECTRONICS PLC",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.320648,
+    "lng": -0.55881,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "TT ELECTRONICS PLC",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Eric Daniel Lakin will be appointed to the board as executive director and Chief Financial Officer with effect from 13 January 2025. Eric is a highly experienced CFO with a proven track record in engineering and industrial sectors. He was most recently CFO of Ceres Power, a FTSE clean energy technology business. Before that he spent 10 years at Smiths Group in a variety of roles, latterly as CFO of Smiths Interconnect, responsible for finance and strategy in this \u00a3350m electronics division with manufacturing locations in 10 countries across Europe, Asia and North America. His early career includes roles in private equity and corporate finance at Oakley Capital, Alchemy Partners and BT Group, as a research analyst at BAML and Credit Suisse, and as a strategy consultant at Arthur D Little. Eric is a Chartered Management Accountant and holds an MA in Electrical and Information Sciences from Cambridge University."
+  },
+  {
+    "id": 10375,
+    "name": "Anna Nelson",
+    "orcid": null,
+    "current_org": "QUANTEMOL LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.530436,
+    "lng": -0.101249,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "QUANTEMOL LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Ms. Anna Nelson serves as Chief Executive Officer, Business Development Manager & Board Member at Quantemol. She joined Quantemol in August 2010. She was appointed as CEO in August 2017. She is responsible for leading the development and execution of Quantemol's long-term strategy with a view to creating shareholder value, managing the overall operations and resources of the company, and the timely execution of projects. She is the main point of communication between the board of directors and staff and maintains a keen awareness of Quantemol's industry and market. She has a unique combination of two master's degrees, one in Physics and another in Marketing which combines her commercial and technical skills."
+  },
+  {
+    "id": 10379,
+    "name": "Hayden Salway",
+    "orcid": null,
+    "current_org": "CLARITY SENSORS LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.194361,
+    "lng": 0.135318,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "CLARITY SENSORS LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Hayden Salway is a Co-Founder and serves as Chief Executive Officer at Clarity Sensors."
+  },
+  {
+    "id": 10383,
+    "name": "Alex Gibson",
+    "orcid": null,
+    "current_org": "EDINBURGH MOLECULAR IMAGING LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 55.952276,
+    "lng": -3.20613,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "EDINBURGH MOLECULAR IMAGING LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Alex Gibson serves as Chief Executive Officer & Business Development Manager at EM Imaging. He has 25 years of healthcare industry experience in the development of radiopharmaceuticals for industry leaders such as Amersham and GE Healthcare. Dr Gibson started his career as a research scientist at Amersham and after holding several senior R&D leadership roles in GE Healthcare became Head of Research Alliances. After leaving GE Healthcare he has held Business Development related roles in radiopharmaceutical and diagnostic companies including VP of Business Development and Strategic Alliances at EM Imaging."
+  },
+  {
+    "id": 10384,
+    "name": "Anthony Fernandez",
+    "orcid": null,
+    "current_org": "Refeyn Ltd",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.7520131,
+    "lng": -1.2578499,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Refeyn Ltd",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Anthony Fernandez serves as Chief Executive Officer at Easee (Electronics). Mr. Fernandez serves as Chief Operating Officer at Sondrel. He served as Chief Executive Officer at Easee. He served as Chief Executive Officer at Refeyn. He has 20 years of extensive and international experience commercializing disruptive technologies across a variety of sectors. Previously Fernandez was CEO of Refeyn, a life science company that spun out of Oxford University. He holdsan MBA (Master of Business Administration) from Imperial College London."
+  },
+  {
+    "id": 10385,
+    "name": "Damian Gardiner",
+    "orcid": null,
+    "current_org": "Optomel",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.2151195,
+    "lng": -0.5250129,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Optomel",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Damian Gardiner was the founder and served as Chief Executive Officer & Director at Optomel. co-founded ilumink ltd with colleagues from the University of Cambridge which was subsequently acquired by Tracerco Ltd (part of Johnson Matthey plc) in 2015. In 2016 Damian was awarded the Royal Academy of Engineering's Silver Medal as recognition for his work in Engineering. Following post-doctoral work at the Centre of Molecular Materials for Photonics & Electronics (CMMPE), in the Department of Engineering, University of Cambridge, Damian received a prestigious Royal Academy of Engineering Enterprise Fellowship (2013) to commercialise his research."
+  },
+  {
+    "id": 10386,
+    "name": "Charles Gale",
+    "orcid": null,
+    "current_org": "Holomem",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.5074456,
+    "lng": -0.1277653,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Holomem",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Charles Gale is the Founder and serves as Chief Executive Officer & Board Member at HoloMem. He is a serial tech entrepreneur who brings an innovative and practical approach to developing disruptive technology products. He founded his first company whilst at university having invented and patented an optically dynamic road sign. He later adapted this technology to develop and patent the world's first smartphone authenticable security hologram for his next startup, H010. In 2013, he joined Dyson, later working alongside James Dyson himself on the ideation, development, and scale manufacture of new technology products. After eight years, Charlie left Dyson to found HoloMem, leveraging his expertise in holography, fast iteration, and mass production to develop a future fit data storage solution."
+  },
+  {
+    "id": 10388,
+    "name": "Benjamin Droguet",
+    "orcid": null,
+    "current_org": "Sparxell",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.2055314,
+    "lng": 0.1186637,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "Sparxell",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Dr. Benjamin Droguet is the Founder and serves as Chief Executive Officer & Board Member at Sparxell."
+  },
+  {
+    "id": 10389,
+    "name": "Ami Badani",
+    "orcid": null,
+    "current_org": "ARM",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 52.2055314,
+    "lng": 0.1186637,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "ARM",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Ms. Ami Badani serves as Chief Marketing Officer at ARM. Ami is an accomplished technology leader with over 20 years of experience in marketing, product management, business development, strategy, and investment research. Currently, she serves as the Chief Marketing Officer at Arm, where she leads the global marketing organization, driving company and product positioning, brand awareness, thought leadership, and developer engagement. Before joining Arm, Ami was the Vice President of Marketing and Developer Products at NVIDIA, where she contributed to the company's threefold growth and helped it reach a market cap of three trillion dollars. She was instrumental in driving the data strategy for Generative AI and leading the product, developer ecosystem, and marketing efforts for the data center portfolio, the fastest-growing business segment. Ami also held various roles at Cumulus Networks (acquired by NVIDIA), Instart Logic (acquired by Akamai Technologies), Cisco, Goldman Sachs, JPMorgan, among others. She holds an MBA from the University of Chicago Booth School of Business and a B.S. in business from the University of Southern California."
+  },
+  {
+    "id": 10391,
+    "name": "Jelle Penders",
+    "orcid": null,
+    "current_org": "SPARTA Biodiscovery",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.5074456,
+    "lng": -0.1277653,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "SPARTA Biodiscovery",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. Jelle Penders is a Co-Founder and serves as Chief Executive Officer and Chief Technology Officer at SPARTA Biodiscovery. Experienced postdoctoral research associate in the field of biomaterials and analytical chemistry. Co-inventor of SPARTA and led the technical development since its inception, has a strong background in nano characterisation techniques including Raman spectroscopy and Electron Microscopy. He is driven to build a sustainable business around the SPARTA\u00ae technology, with patient benefit at its heart, to catalyze the full potential of the next generation of safe and effective nanomedicine treatments."
+  },
+  {
+    "id": 10392,
+    "name": "James Dacombe",
+    "orcid": null,
+    "current_org": "COMIND TECHNOLOGIES LIMITED",
+    "current_org_type": "company",
+    "department": null,
+    "role": "ceo",
+    "lat": 51.5074456,
+    "lng": -0.1277653,
+    "grant_refs": [],
+    "grant_count": 0,
+    "total_grant_funding_gbp": 0,
+    "company_org": "COMIND TECHNOLOGIES LIMITED",
+    "sources": [
+      "company_data"
+    ],
+    "biography": "Mr. James Dacombe is a Co-Founder and serves as Chief Executive Officer & Chairman at CoMind. He is the Founder and serves as Chief Executive Officer & Board Member at Olix Computing."
   }
 ]

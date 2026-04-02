@@ -128,8 +128,8 @@ function App() {
         if ((c.funding_usd_m ?? 0) < 5) return false;
         if (!ACTIVE.includes((c.status || '').toLowerCase())) return false;
         if ((c.photonics_score ?? 0) < 50) return false;
-        // Round in last 5 years (strict: no date = excluded)
-        const fd = c.last_funding_date;
+        // Round in last 5 years — check last_funding_date OR latest_deal_date
+        const fd = c.latest_deal_date || c.last_funding_date;
         if (!fd) return false;
         try {
           const dt = new Date(fd + '-01');

@@ -24,6 +24,10 @@ export interface Company {
   photonics_rationale: string;
   last_funding_date: string | null;
   last_funding_round: string | null;
+  pitchbook_deals: { date: string; size: string; type: string; class: string; investors: string; synopsis: string }[] | null;
+  latest_deal_date: string | null;
+  ceo_name: string | null;
+  ceo_biography: string | null;
   is_non_uk_subsidiary: boolean;
   parent_company: string | null;
   parent_country: string | null;

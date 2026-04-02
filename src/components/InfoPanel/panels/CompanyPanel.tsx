@@ -227,6 +227,34 @@ export function CompanyPanel({
         </CollapsibleSection>
       )}
 
+      {/* Leadership */}
+      {c.ceo_name && (
+        <CollapsibleSection title="Leadership" resetKey={c.name}>
+          <div className="detail-grid">
+            <div className="detail-item full-width">
+              <span className="detail-label">CEO</span>
+              <span className="detail-value">{c.ceo_name}</span>
+            </div>
+          </div>
+          {c.ceo_biography && (
+            <p className="info-desc">{c.ceo_biography}</p>
+          )}
+        </CollapsibleSection>
+      )}
+
+      {/* Funding History */}
+      {c.pitchbook_deals && c.pitchbook_deals.length > 0 && (
+        <CollapsibleSection title="Funding History" count={c.pitchbook_deals.length} resetKey={c.name}>
+          {c.pitchbook_deals.map((deal, i) => (
+            <RelatedEntityCard
+              key={i}
+              title={`${deal.type || deal.class} — $${deal.size}M`}
+              subtitle={`${deal.date}${deal.investors ? ` · ${deal.investors.slice(0, 60)}` : ''}`}
+            />
+          ))}
+        </CollapsibleSection>
+      )}
+
       {/* Collaborations section */}
       <CollapsibleSection
         title="Collaborations"
