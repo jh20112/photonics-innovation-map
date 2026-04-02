@@ -56,6 +56,9 @@ function App() {
   const [grantNetworkEnabled, setGrantNetworkEnabled] = useState(false);
   const [grantNetworkMinShared, setGrantNetworkMinShared] = useState(5);
 
+  // MaxQ filter
+  const [maxqLevel, setMaxqLevel] = useState<0 | 1 | 2 | 3>(0);
+
   // Clustering
   const [activeCluster, setActiveCluster] = useState<ClusterType | null>(null);
 
@@ -110,13 +113,38 @@ function App() {
   }, [companies, minPatents, minGrants]);
 
   // Hide non-clustered companies when clustering is active
+  // Apply MaxQ filter to a company array
+  const applyMaxQ = useCallback((list: Company[]) => {
+    const ACTIVE = ['active', 'operational', 'early stage', 'breakout stage'];
+    let result = list;
+    if (maxqLevel >= 1) {
+      result = result.filter(c =>
+        (c.funding_usd_m ?? 0) >= 5 &&
+        ACTIVE.includes((c.status || '').toLowerCase()) &&
+        (c.photonics_score ?? 0) >= 50
+      );
+    }
+    if (maxqLevel >= 2) {
+      result = result.filter(c => (c.patent_count || 0) > 0);
+    }
+    if (maxqLevel >= 3) {
+      result = result.filter(c => (c.grant_count || 0) > 0);
+    }
+    return result;
+  }, [maxqLevel]);
+
   const clusterFilteredCompanies = useMemo(() => {
-    if (!activeCluster || !clusterData || !filteredByThresholds) return filteredByThresholds;
-    const clusteredIds = new Set(
-      clusterData.assignments.filter(a => a.cluster_id !== -1).map(a => a.company_id)
-    );
-    return filteredByThresholds.filter(c => clusteredIds.has(c.id));
-  }, [activeCluster, clusterData, filteredByThresholds]);
+    let result = filteredByThresholds;
+    if (!result) return result;
+    if (activeCluster && clusterData) {
+      const clusteredIds = new Set(
+        clusterData.assignments.filter(a => a.cluster_id !== -1).map(a => a.company_id)
+      );
+      result = result.filter(c => clusteredIds.has(c.id));
+    }
+    if (maxqLevel > 0) result = applyMaxQ(result);
+    return result;
+  }, [activeCluster, clusterData, filteredByThresholds, maxqLevel, applyMaxQ]);
 
   const dashboardCompanies = useMemo(() => {
     if (!allCompanies) return allCompanies;
@@ -142,8 +170,9 @@ function App() {
       );
       result = result.filter(c => clusteredIds.has(c.id));
     }
+    if (maxqLevel > 0) result = applyMaxQ(result);
     return result;
-  }, [allCompanies, selectedSectors, selectedSources, selectedStrengths, minPatents, minGrants, activeCluster, clusterData]);
+  }, [allCompanies, selectedSectors, selectedSources, selectedStrengths, minPatents, minGrants, activeCluster, clusterData, maxqLevel, applyMaxQ]);
 
   // Company name lookup for patent-company linking (Feature 2)
   const companyByName = useMemo(() => {
@@ -288,6 +317,8 @@ function App() {
         grantNetworkMinShared={grantNetworkMinShared}
         onGrantNetworkMinSharedChange={setGrantNetworkMinShared}
         grantEdgeCount={grantEdges?.length ?? null}
+        maxqLevel={maxqLevel}
+        onMaxqLevelChange={setMaxqLevel}
         minPatents={minPatents}
         onMinPatentsChange={setMinPatents}
         minGrants={minGrants}

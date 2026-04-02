@@ -37,6 +37,8 @@ interface Props {
   onMinGrantsChange: (value: number) => void;
   institutionPeriodYears: number | null;
   onInstitutionPeriodChange: (years: number | null) => void;
+  maxqLevel: 0 | 1 | 2 | 3;
+  onMaxqLevelChange: (level: 0 | 1 | 2 | 3) => void;
   institutionSizeMetric: InstitutionSizeMetric;
   onInstitutionSizeMetricChange: (metric: InstitutionSizeMetric) => void;
   yearRange: [number, number] | null;
@@ -75,7 +77,7 @@ export function Sidebar({
   onToggleTopics, showTopics,
   grantNetworkEnabled, onToggleGrantNetwork, grantNetworkMinShared, onGrantNetworkMinSharedChange, grantEdgeCount,
   minPatents, onMinPatentsChange, minGrants, onMinGrantsChange,
-  institutionPeriodYears, onInstitutionPeriodChange,
+  institutionPeriodYears, onInstitutionPeriodChange, maxqLevel, onMaxqLevelChange,
   institutionSizeMetric, onInstitutionSizeMetricChange,
   yearRange, onYearRangeChange,
 }: Props) {
@@ -444,6 +446,34 @@ export function Sidebar({
                 <span className="cluster-desc">Seeded from top publication institutions</span>
               </span>
             </label>
+          </div>
+        </div>
+
+        {/* MaxQ Companies */}
+        <div className="sidebar-section">
+          <h3>MaxQ Companies {maxqLevel > 0 && <span className="filter-count">L{maxqLevel}</span>}</h3>
+          {maxqLevel > 0 && (
+            <button className="filter-clear" onClick={() => onMaxqLevelChange(0)}>Turn off</button>
+          )}
+          <div className="sector-list">
+            {([
+              { level: 1 as const, label: 'Level 1', desc: '≥$5M funding + Active + Score ≥50' },
+              { level: 2 as const, label: 'Level 2', desc: 'Level 1 + Has patents' },
+              { level: 3 as const, label: 'Level 3', desc: 'Level 1+2 + Has grant funding' },
+            ]).map(({ level, label, desc }) => (
+              <label key={level} className="sector-toggle">
+                <input
+                  type="radio"
+                  name="maxq"
+                  checked={maxqLevel === level}
+                  onChange={() => onMaxqLevelChange(maxqLevel === level ? 0 : level)}
+                />
+                <span>
+                  {label}
+                  <span className="cluster-desc">{desc}</span>
+                </span>
+              </label>
+            ))}
           </div>
         </div>
 
