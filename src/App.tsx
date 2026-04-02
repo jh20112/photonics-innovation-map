@@ -16,6 +16,7 @@ type ViewMode = 'map' | 'dashboard' | 'data';
 
 function App() {
   const [viewMode, setViewMode] = useState<ViewMode>('map');
+  const [dashboardTab, setDashboardTab] = useState<'overview' | 'companies' | 'institutions' | 'grants' | 'clusters'>('overview');
 
   // Layer visibility
   const [layers, setLayers] = useState<Record<LayerType, boolean>>({
@@ -412,6 +413,7 @@ function App() {
             onSelectInstitution={dashSelectInstitution}
             onSelectGrant={dashSelectGrant}
             onSelectCluster={dashSelectCluster}
+            initialTab={dashboardTab}
           />
         )}
 
@@ -419,6 +421,7 @@ function App() {
         {viewMode === 'data' && (
           <DataTab companies={allCompanies} onFilterSources={(sources) => {
             setSelectedSources(sources);
+            setDashboardTab('companies');
             setViewMode('dashboard');
           }} />
         )}

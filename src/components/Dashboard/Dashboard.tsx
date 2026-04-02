@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { OverviewTab } from './OverviewTab';
 import { CompaniesTab } from './CompaniesTab';
 import { InstitutionsTab } from './InstitutionsTab';
@@ -21,6 +21,7 @@ interface Props {
   onSelectInstitution: (i: Institution) => void;
   onSelectGrant: (g: Grant) => void;
   onSelectCluster: (clusterId: number, clusterType: ClusterType) => void;
+  initialTab?: DashTab;
 }
 
 const TABS: { key: DashTab; label: string }[] = [
@@ -33,9 +34,13 @@ const TABS: { key: DashTab; label: string }[] = [
 
 export function Dashboard({
   companies, institutions, grants, patents, grantEdges, sectors,
-  onSelectCompany, onSelectInstitution, onSelectGrant, onSelectCluster,
+  onSelectCompany, onSelectInstitution, onSelectGrant, onSelectCluster, initialTab,
 }: Props) {
-  const [activeTab, setActiveTab] = useState<DashTab>('overview');
+  const [activeTab, setActiveTab] = useState<DashTab>(initialTab || 'overview');
+
+  useEffect(() => {
+    if (initialTab) setActiveTab(initialTab);
+  }, [initialTab]);
 
   return (
     <div className="dashboard">
