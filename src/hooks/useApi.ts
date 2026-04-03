@@ -47,9 +47,12 @@ export function useInfrastructure(enabled: boolean, sectors?: string[]) {
   return useApiData<Infrastructure[]>(enabled ? `/infrastructure${params}` : null);
 }
 
-export function useInstitutions(enabled: boolean, minWorks?: number) {
-  const params = minWorks ? `?min_works=${minWorks}` : '';
-  return useApiData<Institution[]>(enabled ? `/institutions${params}` : null);
+export function useInstitutions(enabled: boolean, minWorks?: number, instTypes?: string[]) {
+  const params = new URLSearchParams();
+  if (minWorks) params.set('min_works', String(minWorks));
+  if (instTypes && instTypes.length > 0) params.set('inst_types', instTypes.join(','));
+  const qs = params.toString();
+  return useApiData<Institution[]>(enabled ? `/institutions${qs ? `?${qs}` : ''}` : null);
 }
 
 export function useGrants(enabled: boolean, geocodedOnly = true, yearFrom?: number, yearTo?: number) {
@@ -84,6 +87,10 @@ export function useAllCollaborations(enabled: boolean, minShared: number) {
 
 export function useClusters(type: ClusterType | null) {
   return useApiData<ClusterData>(type ? `/clusters?type=${type}` : null);
+}
+
+export function useSankeyData() {
+  return useApiData<Record<string, import('../types/api').ClusterSankeyData>>('/sankey');
 }
 
 export function useCoordsLookup() {

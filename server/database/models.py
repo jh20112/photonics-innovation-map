@@ -101,6 +101,7 @@ class Institution(Base):
 
     id = Column(String, primary_key=True)  # OpenAlex URI
     name = Column(String, nullable=False, index=True)
+    inst_type = Column(String)
     lat = Column(Float)
     lng = Column(Float)
     rank = Column(Integer)

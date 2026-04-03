@@ -112,12 +112,15 @@ def get_infrastructure(
 def get_institutions(
     db: Session,
     min_works: int | None = None,
+    inst_types: list[str] | None = None,
     limit: int = 200,
     search: str | None = None,
 ) -> list[dict]:
     q = select(Institution)
     if min_works:
         q = q.where(func.coalesce(Institution.photonics_works, 0) >= min_works)
+    if inst_types:
+        q = q.where(Institution.inst_type.in_(inst_types))
     if search:
         q = q.where(Institution.name.ilike(_ilike_pattern(search)))
     q = q.limit(limit)

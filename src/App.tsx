@@ -66,6 +66,7 @@ function App() {
 
   // Institution sizing
   const [institutionSizeMetric, setInstitutionSizeMetric] = useState<InstitutionSizeMetric>('publications');
+  const [selectedInstTypes, setSelectedInstTypes] = useState<string[]>([]);
 
   // Institution publication period
   const [institutionPeriodYears, setInstitutionPeriodYears] = useState<number | null>(null);
@@ -109,7 +110,7 @@ function App() {
   // Data fetching — map layers (filtered by year range)
   const { data: companies } = useCompanies(layers.companies, selectedSectors.length > 0 ? selectedSectors : undefined, selectedSources.length > 0 ? selectedSources : undefined, selectedStrengths.length > 0 ? selectedStrengths : undefined);
   const { data: infrastructure } = useInfrastructure(layers.infrastructure, selectedSectors.length > 0 ? selectedSectors : undefined);
-  const { data: institutions } = useInstitutions(layers.institutions);
+  const { data: institutions } = useInstitutions(layers.institutions, undefined, selectedInstTypes.length > 0 ? selectedInstTypes : undefined);
   const { data: grants } = useGrants(layers.grants, true, yearRange?.[0], yearRange?.[1]);
   const { data: patents } = usePatents(layers.patents, yearRange?.[0], yearRange?.[1]);
   const { data: people } = usePeople(layers.people);
@@ -417,6 +418,8 @@ function App() {
         onInstitutionPeriodChange={setInstitutionPeriodYears}
         institutionSizeMetric={institutionSizeMetric}
         onInstitutionSizeMetricChange={setInstitutionSizeMetric}
+        selectedInstTypes={selectedInstTypes}
+        onInstTypesChange={setSelectedInstTypes}
         heatmapSubsector={heatmapSubsector}
         onHeatmapSubsectorChange={setHeatmapSubsector}
         yearRange={yearRange}

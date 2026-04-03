@@ -26,7 +26,10 @@ export function InstitutionPanel({
     <>
       <EntityHeader
         name={inst.name}
-        subtitleParts={[inst.rank ? `#${inst.rank} in UK photonics` : null]}
+        subtitleParts={[
+          inst.inst_type ? inst.inst_type.charAt(0).toUpperCase() + inst.inst_type.slice(1) : null,
+          inst.rank ? `#${inst.rank} in UK photonics` : null,
+        ]}
       />
 
       <div className="stat-row">

@@ -41,6 +41,7 @@ export interface Company {
   emp_timeseries: { date: string; count: number }[] | null;
   data_strength: 'Strong' | 'Moderate' | 'Limited';
   data_strength_score: number;
+  end_markets?: string[];
 }
 
 export interface CompanyGrant {
@@ -71,6 +72,7 @@ export interface Infrastructure {
 export interface Institution {
   id: string;
   name: string;
+  inst_type: string | null;
   lat: number;
   lng: number;
   rank: number | null;
@@ -270,3 +272,22 @@ export type EntityDetail =
   | { type: 'patent'; data: Patent }
   | { type: 'cluster'; data: Cluster; members: Company[] }
   | { type: 'person'; data: Person };
+
+// Sankey diagram data
+export interface SankeyNode {
+  id: string;
+  name: string;
+  column: 0 | 1 | 2;
+  value: number;
+}
+
+export interface SankeyLink {
+  source: string;
+  target: string;
+  value: number;
+}
+
+export interface ClusterSankeyData {
+  nodes: SankeyNode[];
+  links: SankeyLink[];
+}

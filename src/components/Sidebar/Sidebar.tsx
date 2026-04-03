@@ -54,6 +54,8 @@ interface Props {
   onHideSubsidiariesChange: (hide: boolean) => void;
   institutionSizeMetric: InstitutionSizeMetric;
   onInstitutionSizeMetricChange: (metric: InstitutionSizeMetric) => void;
+  selectedInstTypes: string[];
+  onInstTypesChange: (types: string[]) => void;
   yearRange: [number, number] | null;
   onYearRangeChange: (range: [number, number] | null) => void;
 }
@@ -88,7 +90,7 @@ export function Sidebar({
   minPatents, onMinPatentsChange, minGrants, onMinGrantsChange,
   institutionPeriodYears, onInstitutionPeriodChange, maxqLevel, onMaxqLevelChange,
   hideSubsidiaries, onHideSubsidiariesChange,
-  institutionSizeMetric, onInstitutionSizeMetricChange,
+  institutionSizeMetric, onInstitutionSizeMetricChange, selectedInstTypes, onInstTypesChange,
   yearRange, onYearRangeChange,
 }: Props) {
   const [collapsed, setCollapsed] = useState(false);
@@ -290,6 +292,36 @@ export function Sidebar({
                 All
               </button>
             </div>
+            <span className="growth-period-label" style={{ marginTop: 6 }}>Type</span>
+            <div className="sector-list">
+              {[
+                { value: 'education', label: 'Education' },
+                { value: 'company', label: 'Company' },
+                { value: 'facility', label: 'Facility' },
+                { value: 'government', label: 'Government' },
+                { value: 'nonprofit', label: 'Nonprofit' },
+                { value: 'healthcare', label: 'Healthcare' },
+                { value: 'international', label: 'International' },
+              ].map(({ value, label }) => (
+                <label key={value} className="sector-toggle">
+                  <input
+                    type="checkbox"
+                    checked={selectedInstTypes.includes(value)}
+                    onChange={() => {
+                      onInstTypesChange(
+                        selectedInstTypes.includes(value)
+                          ? selectedInstTypes.filter(t => t !== value)
+                          : [...selectedInstTypes, value]
+                      );
+                    }}
+                  />
+                  {label}
+                </label>
+              ))}
+            </div>
+            {selectedInstTypes.length > 0 && (
+              <button className="filter-clear" onClick={() => onInstTypesChange([])}>Clear type filter</button>
+            )}
           </div>
         )}
 

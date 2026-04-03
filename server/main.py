@@ -130,11 +130,13 @@ def get_infrastructure(
 @app.get("/api/institutions")
 def get_institutions(
     min_works: int | None = Query(None),
+    inst_types: str | None = Query(None, description="Comma-separated institution types"),
     limit: int = Query(200),
     search: str | None = Query(None),
     db: Session = Depends(get_db),
 ):
-    return queries.get_institutions(db, min_works=min_works, limit=limit, search=search)
+    types_list = [t.strip() for t in inst_types.split(",")] if inst_types else None
+    return queries.get_institutions(db, min_works=min_works, inst_types=types_list, limit=limit, search=search)
 
 
 # --- Grants ---
@@ -255,6 +257,16 @@ def get_hdbscan_clusters(
     if fpath.exists():
         return FileResponse(fpath, media_type="application/json")
     return {"clusters": [], "assignments": []}
+
+
+# --- Sankey data (pre-computed per-cluster Sankey diagrams) ---
+
+@app.get("/api/sankey")
+def get_sankey_data():
+    fpath = DATA_DIR / "sankey_data.json"
+    if fpath.exists():
+        return FileResponse(fpath, media_type="application/json")
+    return {}
 
 
 # --- Coords ---
