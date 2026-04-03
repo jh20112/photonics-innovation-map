@@ -24,35 +24,39 @@ export function ClusterSankey({ data, clusterLabel, onBack }: Props) {
   const layout = useMemo(() => {
     if (!data.nodes.length || !data.links.length) return null;
 
-    const nodeMap = new Map(data.nodes.map((n, i) => [n.id, i]));
+    // Map node id → index for link resolution
+    const idToIdx = new Map(data.nodes.map((n, i) => [n.id, i]));
 
-    const sankeyNodes = data.nodes.map(n => ({ ...n }));
-    const sankeyLinks = data.links
-      .filter(l => nodeMap.has(l.source) && nodeMap.has(l.target))
+    // Build nodes and links with numeric indices
+    const nodes = data.nodes.map(n => ({ ...n, _idx: idToIdx.get(n.id)! }));
+    const links = data.links
+      .filter(l => idToIdx.has(l.source) && idToIdx.has(l.target))
       .map(l => ({
-        source: nodeMap.get(l.source)!,
-        target: nodeMap.get(l.target)!,
+        source: idToIdx.get(l.source)!,
+        target: idToIdx.get(l.target)!,
         value: l.value,
       }));
 
-    if (!sankeyLinks.length) return null;
+    if (!links.length) return null;
 
-    const generator = sankey<{ id: string; name: string; column: number; value: number }, {}>()
-      .nodeId((d) => data.nodes.indexOf(d as never))
-      .nodeAlign((_node, n) => {
-        const node = _node as unknown as { column: number };
-        return node.column * ((n - 1) / 2);
+    // d3-sankey nodeAlign: map column (0,1,2) to depth
+    const generator = sankey<{ id: string; name: string; column: number; value: number; _idx: number }, {}>()
+      .nodeId((d) => (d as unknown as { _idx: number })._idx)
+      .nodeAlign((node) => {
+        const col = (node as unknown as { column: number }).column;
+        return col; // 0, 1, 2
       })
+      .nodeSort(null)
       .nodeWidth(16)
       .nodePadding(12)
+      .iterations(32)
       .extent([[MARGIN.left, MARGIN.top], [WIDTH - MARGIN.right, HEIGHT - MARGIN.bottom]]);
 
     try {
-      const result = generator({
-        nodes: sankeyNodes.map(n => ({ ...n })),
-        links: sankeyLinks.map(l => ({ ...l })),
+      return generator({
+        nodes: nodes.map(n => ({ ...n })),
+        links: links.map(l => ({ ...l })),
       });
-      return result;
     } catch {
       return null;
     }
