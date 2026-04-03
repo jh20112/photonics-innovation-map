@@ -279,7 +279,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 59,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -694,7 +694,7 @@
     "data_strength": "Strong",
     "data_strength_score": 63,
     "end_markets": [
-      "Energy & Environmental Monitoring"
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -989,7 +989,7 @@
     "data_strength": "Strong",
     "data_strength_score": 63,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Data Centers & AI Infrastructure"
     ]
   },
   {
@@ -1348,7 +1348,7 @@
     "data_strength": "Strong",
     "data_strength_score": 85,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Data Centers & AI Infrastructure"
     ]
   },
   {
@@ -1422,7 +1422,7 @@
     "data_strength": "Limited",
     "data_strength_score": 26,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Scientific Research & Instrumentation"
     ]
   },
   {
@@ -1661,7 +1661,7 @@
     "data_strength": "Limited",
     "data_strength_score": 26,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Scientific Research & Instrumentation"
     ]
   },
   {
@@ -2029,8 +2029,7 @@
     "data_strength": "Strong",
     "data_strength_score": 63,
     "end_markets": [
-      "Computing & AI Hardware",
-      "Financial Services & Cybersecurity"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -2871,7 +2870,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 48,
     "end_markets": [
-      "Consumer Electronics"
+      "Consumer Electronics & Displays"
     ]
   },
   {
@@ -3364,7 +3363,7 @@
     "data_strength_score": 63,
     "end_markets": [
       "Healthcare & Medical Devices",
-      "Energy & Environmental Monitoring"
+      "Scientific Research & Instrumentation"
     ]
   },
   {
@@ -3929,8 +3928,7 @@
     "data_strength": "Strong",
     "data_strength_score": 81,
     "end_markets": [
-      "Computing & AI Hardware",
-      "Telecommunications & Data Infrastructure"
+      "Scientific Research & Instrumentation"
     ]
   },
   {
@@ -4049,8 +4047,8 @@
     "data_strength": "Limited",
     "data_strength_score": 26,
     "end_markets": [
-      "Industrial Manufacturing",
-      "Telecommunications & Data Infrastructure"
+      "Industrial Manufacturing & Processing",
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -4850,7 +4848,7 @@
     "data_strength": "Strong",
     "data_strength_score": 63,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Scientific Research & Instrumentation"
     ]
   },
   {
@@ -5187,7 +5185,7 @@
     "data_strength": "Strong",
     "data_strength_score": 63,
     "end_markets": [
-      "Energy & Environmental Monitoring"
+      "Energy & Environment"
     ]
   },
   {
@@ -5426,7 +5424,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 59,
     "end_markets": [
-      "Consumer Electronics"
+      "Consumer Electronics & Displays"
     ]
   },
   {
@@ -5881,7 +5879,8 @@
     "data_strength": "Strong",
     "data_strength_score": 89,
     "end_markets": [
-      "Industrial Manufacturing"
+      "Industrial Manufacturing & Processing",
+      "Scientific Research & Instrumentation"
     ]
   },
   {
@@ -6348,7 +6347,7 @@
     "data_strength_score": 85,
     "end_markets": [
       "Scientific Research & Instrumentation",
-      "Telecommunications & Data Infrastructure"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -7113,7 +7112,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 59,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Data Centers & AI Infrastructure"
     ]
   },
   {
@@ -7416,7 +7415,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 59,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Scientific Research & Instrumentation"
     ]
   },
   {
@@ -8238,8 +8237,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 48,
     "end_markets": [
-      "Automotive & Transportation",
-      "Energy & Environmental Monitoring"
+      "Automotive & Transportation"
     ]
   },
   {
@@ -8693,8 +8691,7 @@
     "data_strength": "Strong",
     "data_strength_score": 63,
     "end_markets": [
-      "Energy & Environmental Monitoring",
-      "Marine & Maritime"
+      "Energy & Environment"
     ]
   },
   {
@@ -9025,7 +9022,7 @@
     "data_strength": "Strong",
     "data_strength_score": 63,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Quantum Computing & Information"
     ]
   },
   {
@@ -9171,7 +9168,8 @@
     "data_strength": "Strong",
     "data_strength_score": 63,
     "end_markets": [
-      "Healthcare & Medical Devices"
+      "Healthcare & Medical Devices",
+      "Quantum Computing & Information"
     ]
   },
   {
@@ -9322,7 +9320,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 56,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Defense & Security",
+      "Quantum Computing & Information"
     ]
   },
   {
@@ -9800,7 +9799,7 @@
     "data_strength": "Strong",
     "data_strength_score": 63,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Quantum Computing & Information"
     ]
   },
   {
@@ -10259,8 +10258,7 @@
     "data_strength": "Strong",
     "data_strength_score": 63,
     "end_markets": [
-      "Financial Services & Cybersecurity",
-      "Space & Aerospace"
+      "Financial Services & Cybersecurity"
     ]
   },
   {
@@ -10660,7 +10658,7 @@
     "data_strength": "Strong",
     "data_strength_score": 63,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Quantum Computing & Information"
     ]
   },
   {
@@ -10847,7 +10845,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 33,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks",
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -11567,7 +11566,8 @@
     "data_strength": "Strong",
     "data_strength_score": 63,
     "end_markets": [
-      "Financial Services & Cybersecurity"
+      "Financial Services & Cybersecurity",
+      "Quantum Computing & Information"
     ]
   },
   {
@@ -12144,8 +12144,8 @@
     "data_strength": "Limited",
     "data_strength_score": 22,
     "end_markets": [
-      "Consumer Electronics",
-      "Automotive & Transportation"
+      "Automotive & Transportation",
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -12639,7 +12639,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 59,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Quantum Computing & Information"
     ]
   },
   {
@@ -13363,7 +13363,7 @@
     "data_strength_score": 63,
     "end_markets": [
       "Defense & Security",
-      "Scientific Research & Instrumentation"
+      "Quantum Computing & Information"
     ]
   },
   {
@@ -13737,7 +13737,8 @@
     "data_strength": "Strong",
     "data_strength_score": 85,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Quantum Computing & Information",
+      "Data Centers & AI Infrastructure"
     ]
   },
   {
@@ -14111,8 +14112,7 @@
     "data_strength": "Strong",
     "data_strength_score": 63,
     "end_markets": [
-      "Financial Services & Cybersecurity",
-      "Defense & Security"
+      "Financial Services & Cybersecurity"
     ]
   },
   {
@@ -14589,8 +14589,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 59,
     "end_markets": [
-      "Telecommunications & Data Infrastructure",
-      "Space & Aerospace"
+      "Telecommunications & Networks",
+      "Quantum Computing & Information"
     ]
   },
   {
@@ -14945,7 +14945,7 @@
     "data_strength": "Strong",
     "data_strength_score": 63,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -15490,8 +15490,8 @@
     "data_strength": "Strong",
     "data_strength_score": 81,
     "end_markets": [
-      "Telecommunications & Data Infrastructure",
-      "Healthcare & Medical Devices"
+      "Data Centers & AI Infrastructure",
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -15955,7 +15955,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 59,
     "end_markets": [
-      "Telecommunications & Data Infrastructure",
+      "Telecommunications & Networks",
       "Defense & Security"
     ]
   },
@@ -16440,7 +16440,7 @@
     "data_strength": "Limited",
     "data_strength_score": 26,
     "end_markets": [
-      "Telecommunications & Data Infrastructure",
+      "Telecommunications & Networks",
       "Space & Aerospace"
     ]
   },
@@ -16796,8 +16796,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 59,
     "end_markets": [
-      "Consumer Electronics",
-      "Space & Aerospace"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -17025,8 +17024,7 @@
     "data_strength": "Strong",
     "data_strength_score": 85,
     "end_markets": [
-      "Telecommunications & Data Infrastructure",
-      "Computing & AI Hardware"
+      "Data Centers & AI Infrastructure"
     ]
   },
   {
@@ -17423,7 +17421,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 59,
     "end_markets": [
-      "Industrial Manufacturing",
+      "Industrial Manufacturing & Processing",
       "Healthcare & Medical Devices"
     ]
   },
@@ -18401,7 +18399,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 52,
     "end_markets": [
-      "Industrial Manufacturing"
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -18898,7 +18896,8 @@
     "data_strength": "Strong",
     "data_strength_score": 85,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks",
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -19222,7 +19221,7 @@
     "data_strength": "Strong",
     "data_strength_score": 63,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Quantum Computing & Information"
     ]
   },
   {
@@ -20303,7 +20302,7 @@
     "data_strength": "Strong",
     "data_strength_score": 63,
     "end_markets": [
-      "Consumer Electronics"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -20657,7 +20656,7 @@
     "data_strength_score": 63,
     "end_markets": [
       "Space & Aerospace",
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -20757,7 +20756,7 @@
     "data_strength": "Limited",
     "data_strength_score": 26,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Quantum Computing & Information"
     ]
   },
   {
@@ -21153,8 +21152,7 @@
     "data_strength": "Strong",
     "data_strength_score": 63,
     "end_markets": [
-      "Consumer Electronics",
-      "Entertainment & Media"
+      "Consumer Electronics & Displays"
     ]
   },
   {
@@ -21594,8 +21592,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 59,
     "end_markets": [
-      "Energy & Environmental Monitoring",
-      "Industrial Manufacturing"
+      "Energy & Environment"
     ]
   },
   {
@@ -21741,7 +21738,7 @@
     "data_strength": "Limited",
     "data_strength_score": 26,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Quantum Computing & Information"
     ]
   },
   {
@@ -22191,7 +22188,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 59,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Quantum Computing & Information"
     ]
   },
   {
@@ -22340,7 +22337,7 @@
     "data_strength_score": 26,
     "end_markets": [
       "Healthcare & Medical Devices",
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -22802,8 +22799,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 59,
     "end_markets": [
-      "Financial Services & Cybersecurity",
-      "Telecommunications & Data Infrastructure"
+      "Financial Services & Cybersecurity"
     ]
   },
   {
@@ -23157,7 +23153,8 @@
     "data_strength": "Strong",
     "data_strength_score": 85,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks",
+      "Data Centers & AI Infrastructure"
     ]
   },
   {
@@ -23511,8 +23508,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 59,
     "end_markets": [
-      "Industrial Manufacturing",
-      "Telecommunications & Data Infrastructure"
+      "Consumer Electronics & Displays",
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -24047,7 +24044,7 @@
     "data_strength": "Strong",
     "data_strength_score": 67,
     "end_markets": [
-      "Energy & Environmental Monitoring"
+      "Energy & Environment"
     ]
   },
   {
@@ -24224,7 +24221,7 @@
     "data_strength": "Limited",
     "data_strength_score": 26,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Quantum Computing & Information"
     ]
   },
   {
@@ -24707,8 +24704,7 @@
     "data_strength": "Strong",
     "data_strength_score": 81,
     "end_markets": [
-      "Financial Services & Cybersecurity",
-      "Automotive & Transportation"
+      "Financial Services & Cybersecurity"
     ]
   },
   {
@@ -25067,8 +25063,7 @@
     "data_strength": "Strong",
     "data_strength_score": 63,
     "end_markets": [
-      "Computing & AI Hardware",
-      "Marine & Maritime"
+      "Data Centers & AI Infrastructure"
     ]
   },
   {
@@ -25198,7 +25193,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 52,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Data Centers & AI Infrastructure"
     ]
   },
   {
@@ -25469,7 +25464,7 @@
     "data_strength": "Strong",
     "data_strength_score": 70,
     "end_markets": [
-      "Energy & Environmental Monitoring"
+      "Energy & Environment"
     ]
   },
   {
@@ -25916,7 +25911,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 52,
     "end_markets": [
-      "Industrial Manufacturing"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -26263,7 +26258,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 52,
     "end_markets": [
-      "Consumer Electronics"
+      "Consumer Electronics & Displays"
     ]
   },
   {
@@ -26999,7 +26994,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 52,
     "end_markets": [
-      "Industrial Manufacturing",
+      "Industrial Manufacturing & Processing",
       "Scientific Research & Instrumentation"
     ]
   },
@@ -27187,8 +27182,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 52,
     "end_markets": [
-      "Consumer Electronics",
-      "Telecommunications & Data Infrastructure"
+      "Consumer Electronics & Displays"
     ]
   },
   {
@@ -27534,7 +27528,7 @@
     "data_strength": "Strong",
     "data_strength_score": 63,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Data Centers & AI Infrastructure"
     ]
   },
   {
@@ -27907,7 +27901,7 @@
     "data_strength": "Strong",
     "data_strength_score": 70,
     "end_markets": [
-      "Energy & Environmental Monitoring"
+      "Energy & Environment"
     ]
   },
   {
@@ -28657,7 +28651,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 56,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Data Centers & AI Infrastructure"
     ]
   },
   {
@@ -29049,7 +29043,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 56,
     "end_markets": [
-      "Scientific Research & Instrumentation"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -29741,7 +29735,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 56,
     "end_markets": [
-      "Industrial Manufacturing",
+      "Industrial Manufacturing & Processing",
       "Scientific Research & Instrumentation"
     ]
   },
@@ -29954,7 +29948,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 56,
     "end_markets": [
-      "Consumer Electronics"
+      "Semiconductor & Chip Manufacturing",
+      "Consumer Electronics & Displays"
     ]
   },
   {
@@ -30308,7 +30303,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 56,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Scientific Research & Instrumentation",
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -30526,8 +30522,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 52,
     "end_markets": [
-      "Telecommunications & Data Infrastructure",
-      "Defense & Security"
+      "Defense & Security",
+      "Space & Aerospace"
     ]
   },
   {
@@ -30736,8 +30732,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 52,
     "end_markets": [
-      "Computing & AI Hardware",
-      "Scientific Research & Instrumentation"
+      "Scientific Research & Instrumentation",
+      "Quantum Computing & Information"
     ]
   },
   {
@@ -31121,7 +31117,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 56,
     "end_markets": [
-      "Energy & Environmental Monitoring"
+      "Energy & Environment"
     ]
   },
   {
@@ -31423,8 +31419,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Computing & AI Hardware",
-      "Scientific Research & Instrumentation"
+      "Semiconductor & Chip Manufacturing",
+      "Quantum Computing & Information"
     ]
   },
   {
@@ -31807,7 +31803,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 56,
     "end_markets": [
-      "Telecommunications & Data Infrastructure",
+      "Telecommunications & Networks",
       "Defense & Security"
     ]
   },
@@ -32130,8 +32126,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 52,
     "end_markets": [
-      "Industrial Manufacturing",
-      "Energy & Environmental Monitoring"
+      "Industrial Manufacturing & Processing",
+      "Energy & Environment"
     ]
   },
   {
@@ -32529,8 +32525,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Industrial Manufacturing",
-      "Healthcare & Medical Devices"
+      "Industrial Manufacturing & Processing",
+      "Energy & Environment"
     ]
   },
   {
@@ -32745,7 +32741,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 37,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Quantum Computing & Information"
     ]
   },
   {
@@ -33080,8 +33076,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 56,
     "end_markets": [
-      "Industrial Manufacturing",
-      "Healthcare & Medical Devices"
+      "Healthcare & Medical Devices",
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -33225,7 +33221,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 48,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Data Centers & AI Infrastructure"
     ]
   },
   {
@@ -33573,8 +33569,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 56,
     "end_markets": [
-      "Healthcare & Medical Devices",
-      "Scientific Research & Instrumentation"
+      "Scientific Research & Instrumentation",
+      "Quantum Computing & Information"
     ]
   },
   {
@@ -33951,6 +33947,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 52,
     "end_markets": [
+      "Industrial Manufacturing & Processing",
       "Scientific Research & Instrumentation"
     ]
   },
@@ -34413,7 +34410,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 41,
     "end_markets": [
-      "Consumer Electronics"
+      "Consumer Electronics & Displays"
     ]
   },
   {
@@ -34539,8 +34536,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 30,
     "end_markets": [
-      "Consumer Electronics",
-      "Industrial Manufacturing"
+      "Consumer Electronics & Displays"
     ]
   },
   {
@@ -34681,8 +34677,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 41,
     "end_markets": [
-      "Telecommunications & Data Infrastructure",
-      "Computing & AI Hardware"
+      "Telecommunications & Networks",
+      "Quantum Computing & Information"
     ]
   },
   {
@@ -35035,7 +35031,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 37,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks",
+      "Scientific Research & Instrumentation"
     ]
   },
   {
@@ -35367,8 +35364,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 41,
     "end_markets": [
-      "Telecommunications & Data Infrastructure",
-      "Computing & AI Hardware"
+      "Quantum Computing & Information",
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -35488,7 +35485,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Industrial Manufacturing"
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -35649,7 +35646,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Data Centers & AI Infrastructure",
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -35758,7 +35756,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 41,
     "end_markets": [
-      "Industrial Manufacturing"
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -35957,7 +35955,7 @@
     "data_strength": "Limited",
     "data_strength_score": 26,
     "end_markets": [
-      "Agriculture & Food Safety"
+      "Energy & Environment"
     ]
   },
   {
@@ -36174,8 +36172,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 56,
     "end_markets": [
-      "Computing & AI Hardware",
-      "Telecommunications & Data Infrastructure"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -36292,8 +36289,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 37,
     "end_markets": [
-      "Healthcare & Medical Devices",
-      "Scientific Research & Instrumentation"
+      "Scientific Research & Instrumentation",
+      "Healthcare & Medical Devices"
     ]
   },
   {
@@ -36410,8 +36407,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 37,
     "end_markets": [
-      "Telecommunications & Data Infrastructure",
-      "Entertainment & Media"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -36473,7 +36469,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 30,
     "end_markets": [
-      "Energy & Environmental Monitoring"
+      "Consumer Electronics & Displays"
     ]
   },
   {
@@ -36884,7 +36880,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 41,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -37030,8 +37026,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 48,
     "end_markets": [
-      "Scientific Research & Instrumentation",
-      "Computing & AI Hardware"
+      "Scientific Research & Instrumentation"
     ]
   },
   {
@@ -37143,7 +37138,8 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks",
+      "Scientific Research & Instrumentation"
     ]
   },
   {
@@ -37310,8 +37306,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 41,
     "end_markets": [
-      "Automotive & Transportation",
-      "Entertainment & Media"
+      "Consumer Electronics & Displays"
     ]
   },
   {
@@ -37486,8 +37481,7 @@
     "data_strength": "Limited",
     "data_strength_score": 11,
     "end_markets": [
-      "Telecommunications & Data Infrastructure",
-      "Consumer Electronics"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -37835,7 +37829,7 @@
     "data_strength_score": 48,
     "end_markets": [
       "Space & Aerospace",
-      "Computing & AI Hardware"
+      "Quantum Computing & Information"
     ]
   },
   {
@@ -38186,7 +38180,7 @@
     "data_strength_score": 56,
     "end_markets": [
       "Automotive & Transportation",
-      "Consumer Electronics"
+      "Consumer Electronics & Displays"
     ]
   },
   {
@@ -38400,8 +38394,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 56,
     "end_markets": [
-      "Telecommunications & Data Infrastructure",
-      "Computing & AI Hardware"
+      "Telecommunications & Networks",
+      "Data Centers & AI Infrastructure"
     ]
   },
   {
@@ -38648,7 +38642,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 48,
     "end_markets": [
-      "Telecommunications & Data Infrastructure",
+      "Telecommunications & Networks",
       "Scientific Research & Instrumentation"
     ]
   },
@@ -39066,8 +39060,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 52,
     "end_markets": [
-      "Energy & Environmental Monitoring",
-      "Industrial Manufacturing"
+      "Energy & Environment"
     ]
   },
   {
@@ -39255,7 +39248,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 48,
     "end_markets": [
-      "Computing & AI Hardware",
+      "Consumer Electronics & Displays",
       "Healthcare & Medical Devices"
     ]
   },
@@ -39823,7 +39816,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 56,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks",
+      "Data Centers & AI Infrastructure"
     ]
   },
   {
@@ -39925,7 +39919,7 @@
     "data_strength": "Limited",
     "data_strength_score": 15,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Quantum Computing & Information"
     ]
   },
   {
@@ -40077,7 +40071,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Energy & Environmental Monitoring"
+      "Energy & Environment"
     ]
   },
   {
@@ -40398,7 +40392,7 @@
     "data_strength_score": 44,
     "end_markets": [
       "Defense & Security",
-      "Space & Aerospace"
+      "Healthcare & Medical Devices"
     ]
   },
   {
@@ -40582,8 +40576,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Marine & Maritime",
-      "Energy & Environmental Monitoring"
+      "Marine & Agriculture",
+      "Defense & Security"
     ]
   },
   {
@@ -40803,8 +40797,8 @@
     "data_strength": "Limited",
     "data_strength_score": 15,
     "end_markets": [
-      "Industrial Manufacturing",
-      "Energy & Environmental Monitoring"
+      "Industrial Manufacturing & Processing",
+      "Energy & Environment"
     ]
   },
   {
@@ -41000,7 +40994,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Energy & Environmental Monitoring"
+      "Energy & Environment",
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -41326,7 +41321,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 52,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks",
+      "Data Centers & AI Infrastructure"
     ]
   },
   {
@@ -41424,7 +41420,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Telecommunications & Data Infrastructure",
+      "Telecommunications & Networks",
       "Defense & Security"
     ]
   },
@@ -41537,7 +41533,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Quantum Computing & Information"
     ]
   },
   {
@@ -41696,8 +41692,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Scientific Research & Instrumentation",
-      "Industrial Manufacturing"
+      "Industrial Manufacturing & Processing",
+      "Scientific Research & Instrumentation"
     ]
   },
   {
@@ -41792,7 +41788,7 @@
     "data_strength_score": 11,
     "end_markets": [
       "Scientific Research & Instrumentation",
-      "Computing & AI Hardware"
+      "Quantum Computing & Information"
     ]
   },
   {
@@ -41884,7 +41880,7 @@
     "data_strength_score": 11,
     "end_markets": [
       "Scientific Research & Instrumentation",
-      "Computing & AI Hardware"
+      "Quantum Computing & Information"
     ]
   },
   {
@@ -41959,7 +41955,7 @@
     "data_strength": "Limited",
     "data_strength_score": 11,
     "end_markets": [
-      "Financial Services & Cybersecurity"
+      "Quantum Computing & Information"
     ]
   },
   {
@@ -42053,7 +42049,8 @@
     "data_strength": "Limited",
     "data_strength_score": 11,
     "end_markets": [
-      "Scientific Research & Instrumentation"
+      "Scientific Research & Instrumentation",
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -42140,7 +42137,8 @@
     "data_strength": "Limited",
     "data_strength_score": 11,
     "end_markets": [
-      "Industrial Manufacturing"
+      "Industrial Manufacturing & Processing",
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -42234,8 +42232,8 @@
     "data_strength": "Limited",
     "data_strength_score": 11,
     "end_markets": [
-      "Scientific Research & Instrumentation",
-      "Industrial Manufacturing"
+      "Industrial Manufacturing & Processing",
+      "Scientific Research & Instrumentation"
     ]
   },
   {
@@ -42329,7 +42327,8 @@
     "data_strength": "Limited",
     "data_strength_score": 11,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Quantum Computing & Information",
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -42454,8 +42453,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 37,
     "end_markets": [
-      "Financial Services & Cybersecurity",
-      "Telecommunications & Data Infrastructure"
+      "Quantum Computing & Information",
+      "Financial Services & Cybersecurity"
     ]
   },
   {
@@ -42542,8 +42541,8 @@
     "data_strength": "Limited",
     "data_strength_score": 11,
     "end_markets": [
-      "Energy & Environmental Monitoring",
-      "Scientific Research & Instrumentation"
+      "Scientific Research & Instrumentation",
+      "Energy & Environment"
     ]
   },
   {
@@ -42639,7 +42638,7 @@
     "data_strength": "Limited",
     "data_strength_score": 19,
     "end_markets": [
-      "Industrial Manufacturing"
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -43015,6 +43014,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
+      "Consumer Electronics & Displays",
       "Healthcare & Medical Devices"
     ]
   },
@@ -43428,8 +43428,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 48,
     "end_markets": [
-      "Automotive & Transportation",
-      "Entertainment & Media"
+      "Automotive & Transportation"
     ]
   },
   {
@@ -43848,7 +43847,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 48,
     "end_markets": [
-      "Consumer Electronics"
+      "Consumer Electronics & Displays"
     ]
   },
   {
@@ -44096,8 +44095,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 52,
     "end_markets": [
-      "Defense & Security",
-      "Financial Services & Cybersecurity"
+      "Defense & Security"
     ]
   },
   {
@@ -44171,7 +44169,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Consumer Electronics"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -44561,7 +44559,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 48,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -44759,8 +44757,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Scientific Research & Instrumentation",
-      "Industrial Manufacturing"
+      "Defense & Security",
+      "Space & Aerospace"
     ]
   },
   {
@@ -44854,7 +44852,7 @@
     "data_strength": "Limited",
     "data_strength_score": 11,
     "end_markets": [
-      "Industrial Manufacturing",
+      "Industrial Manufacturing & Processing",
       "Scientific Research & Instrumentation"
     ]
   },
@@ -44966,7 +44964,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 41,
     "end_markets": [
-      "Consumer Electronics"
+      "Consumer Electronics & Displays"
     ]
   },
   {
@@ -45299,7 +45297,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 48,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks",
+      "Data Centers & AI Infrastructure"
     ]
   },
   {
@@ -45813,8 +45812,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 52,
     "end_markets": [
-      "Entertainment & Media",
-      "Consumer Electronics"
+      "Consumer Electronics & Displays",
+      "Automotive & Transportation"
     ]
   },
   {
@@ -45997,7 +45996,7 @@
     "data_strength": "Limited",
     "data_strength_score": 22,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -46096,7 +46095,7 @@
     "data_strength": "Limited",
     "data_strength_score": 11,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -46259,7 +46258,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 41,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -46333,7 +46332,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Entertainment & Media"
+      "Consumer Electronics & Displays"
     ]
   },
   {
@@ -46434,8 +46433,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Telecommunications & Data Infrastructure",
-      "Financial Services & Cybersecurity"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -46623,7 +46621,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 52,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -46728,7 +46726,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -46930,7 +46928,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -47040,8 +47038,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Telecommunications & Data Infrastructure",
-      "Defense & Security"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -47463,8 +47460,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Scientific Research & Instrumentation",
-      "Industrial Manufacturing"
+      "Scientific Research & Instrumentation"
     ]
   },
   {
@@ -47654,7 +47650,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Consumer Electronics"
+      "Consumer Electronics & Displays"
     ]
   },
   {
@@ -47728,7 +47724,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Consumer Electronics"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -47823,7 +47819,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -47897,7 +47893,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -48052,8 +48048,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Telecommunications & Data Infrastructure",
-      "Industrial Manufacturing"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -48282,7 +48277,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 33,
     "end_markets": [
-      "Marine & Maritime"
+      "Energy & Environment"
     ]
   },
   {
@@ -48490,8 +48485,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Scientific Research & Instrumentation",
-      "Healthcare & Medical Devices"
+      "Scientific Research & Instrumentation"
     ]
   },
   {
@@ -49011,7 +49005,7 @@
     "data_strength_score": 48,
     "end_markets": [
       "Automotive & Transportation",
-      "Consumer Electronics"
+      "Consumer Electronics & Displays"
     ]
   },
   {
@@ -49085,7 +49079,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -49147,7 +49141,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Financial Services & Cybersecurity"
+      "Defense & Security"
     ]
   },
   {
@@ -49626,7 +49620,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 48,
     "end_markets": [
-      "Energy & Environmental Monitoring"
+      "Energy & Environment"
     ]
   },
   {
@@ -49917,8 +49911,8 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Telecommunications & Data Infrastructure",
-      "Energy & Environmental Monitoring"
+      "Energy & Environment",
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -50096,8 +50090,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 37,
     "end_markets": [
-      "Defense & Security",
-      "Industrial Manufacturing"
+      "Defense & Security"
     ]
   },
   {
@@ -50308,7 +50301,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 48,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -50389,8 +50382,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Telecommunications & Data Infrastructure",
-      "Industrial Manufacturing"
+      "Scientific Research & Instrumentation"
     ]
   },
   {
@@ -50453,7 +50445,7 @@
     "data_strength": "Limited",
     "data_strength_score": 11,
     "end_markets": [
-      "Industrial Manufacturing"
+      "Consumer Electronics & Displays"
     ]
   },
   {
@@ -50539,7 +50531,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -50846,8 +50838,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 41,
     "end_markets": [
-      "Energy & Environmental Monitoring",
-      "Industrial Manufacturing"
+      "Scientific Research & Instrumentation"
     ]
   },
   {
@@ -50953,8 +50944,7 @@
     "data_strength": "Limited",
     "data_strength_score": 15,
     "end_markets": [
-      "Healthcare & Medical Devices",
-      "Scientific Research & Instrumentation"
+      "Healthcare & Medical Devices"
     ]
   },
   {
@@ -51215,7 +51205,7 @@
     "data_strength": "Limited",
     "data_strength_score": 11,
     "end_markets": [
-      "Entertainment & Media"
+      "Consumer Electronics & Displays"
     ]
   },
   {
@@ -51364,7 +51354,7 @@
     "data_strength": "Limited",
     "data_strength_score": 11,
     "end_markets": [
-      "Agriculture & Food Safety"
+      "Energy & Environment"
     ]
   },
   {
@@ -51451,7 +51441,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 33,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -51514,7 +51504,7 @@
     "data_strength": "Limited",
     "data_strength_score": 11,
     "end_markets": [
-      "Industrial Manufacturing"
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -51792,7 +51782,7 @@
     "data_strength": "Limited",
     "data_strength_score": 11,
     "end_markets": [
-      "Energy & Environmental Monitoring"
+      "Energy & Environment"
     ]
   },
   {
@@ -52180,7 +52170,7 @@
     "data_strength": "Limited",
     "data_strength_score": 11,
     "end_markets": [
-      "Energy & Environmental Monitoring"
+      "Energy & Environment"
     ]
   },
   {
@@ -52337,7 +52327,7 @@
     "data_strength": "Limited",
     "data_strength_score": 11,
     "end_markets": [
-      "Consumer Electronics"
+      "Consumer Electronics & Displays"
     ]
   },
   {
@@ -52610,8 +52600,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 48,
     "end_markets": [
-      "Energy & Environmental Monitoring",
-      "Consumer Electronics"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -52774,8 +52763,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Industrial Manufacturing",
-      "Scientific Research & Instrumentation"
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -52849,7 +52837,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Quantum Computing & Information"
     ]
   },
   {
@@ -53038,8 +53026,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 33,
     "end_markets": [
-      "Healthcare & Medical Devices",
-      "Space & Aerospace"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -53567,7 +53554,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -53661,8 +53648,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Defense & Security",
-      "Scientific Research & Instrumentation"
+      "Defense & Security"
     ]
   },
   {
@@ -53760,7 +53746,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -53944,7 +53930,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Consumer Electronics"
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -54376,7 +54362,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -54438,7 +54424,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Consumer Electronics"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -54543,8 +54529,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Defense & Security",
-      "Space & Aerospace"
+      "Defense & Security"
     ]
   },
   {
@@ -54637,8 +54622,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 33,
     "end_markets": [
-      "Automotive & Transportation",
-      "Entertainment & Media"
+      "Automotive & Transportation"
     ]
   },
   {
@@ -54743,8 +54727,7 @@
     "data_strength": "Limited",
     "data_strength_score": 11,
     "end_markets": [
-      "Industrial Manufacturing",
-      "Energy & Environmental Monitoring"
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -54927,7 +54910,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 48,
     "end_markets": [
-      "Energy & Environmental Monitoring"
+      "Energy & Environment"
     ]
   },
   {
@@ -55075,7 +55058,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 37,
     "end_markets": [
-      "Energy & Environmental Monitoring"
+      "Energy & Environment"
     ]
   },
   {
@@ -55175,7 +55158,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Data Centers & AI Infrastructure"
     ]
   },
   {
@@ -55273,7 +55256,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -55335,7 +55318,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Consumer Electronics"
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -55397,7 +55380,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Industrial Manufacturing"
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -55750,8 +55733,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Healthcare & Medical Devices",
-      "Scientific Research & Instrumentation"
+      "Healthcare & Medical Devices"
     ]
   },
   {
@@ -55877,8 +55859,7 @@
     "data_strength": "Limited",
     "data_strength_score": 22,
     "end_markets": [
-      "Telecommunications & Data Infrastructure",
-      "Defense & Security"
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -56027,7 +56008,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Marine & Maritime"
+      "Marine & Agriculture"
     ]
   },
   {
@@ -56213,8 +56194,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Defense & Security",
-      "Space & Aerospace"
+      "Defense & Security"
     ]
   },
   {
@@ -56496,8 +56476,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 48,
     "end_markets": [
-      "Space & Aerospace",
-      "Energy & Environmental Monitoring"
+      "Space & Aerospace"
     ]
   },
   {
@@ -56583,7 +56562,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -56688,7 +56667,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -57046,8 +57025,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 48,
     "end_markets": [
-      "Space & Aerospace",
-      "Energy & Environmental Monitoring"
+      "Energy & Environment"
     ]
   },
   {
@@ -57247,8 +57225,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 41,
     "end_markets": [
-      "Scientific Research & Instrumentation",
-      "Defense & Security"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -57480,8 +57457,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Energy & Environmental Monitoring",
-      "Industrial Manufacturing"
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -57555,7 +57531,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Consumer Electronics"
+      "Consumer Electronics & Displays"
     ]
   },
   {
@@ -57650,8 +57626,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Healthcare & Medical Devices",
-      "Industrial Manufacturing"
+      "Healthcare & Medical Devices"
     ]
   },
   {
@@ -57737,7 +57712,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Energy & Environmental Monitoring"
+      "Energy & Environment"
     ]
   },
   {
@@ -57823,7 +57798,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -57995,8 +57970,8 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Telecommunications & Data Infrastructure",
-      "Defense & Security"
+      "Space & Aerospace",
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -58082,8 +58057,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Scientific Research & Instrumentation",
-      "Energy & Environmental Monitoring"
+      "Scientific Research & Instrumentation"
     ]
   },
   {
@@ -58254,7 +58228,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Industrial Manufacturing",
+      "Industrial Manufacturing & Processing",
       "Scientific Research & Instrumentation"
     ]
   },
@@ -58504,7 +58478,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -58621,8 +58595,8 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Telecommunications & Data Infrastructure",
-      "Consumer Electronics"
+      "Telecommunications & Networks",
+      "Data Centers & AI Infrastructure"
     ]
   },
   {
@@ -58772,7 +58746,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Industrial Manufacturing"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -58870,8 +58844,8 @@
     "data_strength": "Limited",
     "data_strength_score": 26,
     "end_markets": [
-      "Telecommunications & Data Infrastructure",
-      "Financial Services & Cybersecurity"
+      "Quantum Computing & Information",
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -59371,8 +59345,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 52,
     "end_markets": [
-      "Scientific Research & Instrumentation",
-      "Industrial Manufacturing"
+      "Semiconductor & Chip Manufacturing",
+      "Healthcare & Medical Devices"
     ]
   },
   {
@@ -59762,8 +59736,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 48,
     "end_markets": [
-      "Defense & Security",
-      "Space & Aerospace"
+      "Defense & Security"
     ]
   },
   {
@@ -60055,8 +60028,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 48,
     "end_markets": [
-      "Industrial Manufacturing",
-      "Healthcare & Medical Devices"
+      "Scientific Research & Instrumentation"
     ]
   },
   {
@@ -60137,7 +60109,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -60333,7 +60305,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 48,
     "end_markets": [
-      "Industrial Manufacturing"
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -60407,8 +60379,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Industrial Manufacturing",
-      "Consumer Electronics"
+      "Financial Services & Cybersecurity"
     ]
   },
   {
@@ -60939,8 +60910,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 41,
     "end_markets": [
-      "Consumer Electronics",
-      "Healthcare & Medical Devices"
+      "Consumer Electronics & Displays"
     ]
   },
   {
@@ -61033,8 +61003,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Scientific Research & Instrumentation",
-      "Telecommunications & Data Infrastructure"
+      "Scientific Research & Instrumentation"
     ]
   },
   {
@@ -61459,8 +61428,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Industrial Manufacturing",
-      "Energy & Environmental Monitoring"
+      "Industrial Manufacturing & Processing",
+      "Energy & Environment"
     ]
   },
   {
@@ -61534,7 +61503,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -61615,7 +61584,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -61699,7 +61668,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Industrial Manufacturing"
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -62168,8 +62137,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 48,
     "end_markets": [
-      "Defense & Security",
-      "Telecommunications & Data Infrastructure"
+      "Defense & Security"
     ]
   },
   {
@@ -62438,7 +62406,7 @@
     "data_strength_score": 52,
     "end_markets": [
       "Defense & Security",
-      "Energy & Environmental Monitoring"
+      "Energy & Environment"
     ]
   },
   {
@@ -62513,7 +62481,7 @@
     "data_strength": "Limited",
     "data_strength_score": 11,
     "end_markets": [
-      "Industrial Manufacturing"
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -62604,7 +62572,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -62746,8 +62714,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 33,
     "end_markets": [
-      "Industrial Manufacturing",
-      "Energy & Environmental Monitoring"
+      "Industrial Manufacturing & Processing",
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -62835,8 +62803,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Computing & AI Hardware",
-      "Consumer Electronics"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -63008,7 +62975,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 48,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -63649,7 +63616,7 @@
     "data_strength_score": 52,
     "end_markets": [
       "Scientific Research & Instrumentation",
-      "Energy & Environmental Monitoring"
+      "Energy & Environment"
     ]
   },
   {
@@ -63837,7 +63804,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -64019,7 +63986,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 41,
     "end_markets": [
-      "Telecommunications & Data Infrastructure",
+      "Telecommunications & Networks",
       "Defense & Security"
     ]
   },
@@ -64223,8 +64190,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 48,
     "end_markets": [
-      "Consumer Electronics",
-      "Industrial Manufacturing"
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -64496,7 +64462,7 @@
     "data_strength_score": 48,
     "end_markets": [
       "Healthcare & Medical Devices",
-      "Entertainment & Media"
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -64701,8 +64667,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 41,
     "end_markets": [
-      "Industrial Manufacturing",
-      "Scientific Research & Instrumentation"
+      "Industrial Manufacturing & Processing",
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -64807,7 +64773,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Quantum Computing & Information"
     ]
   },
   {
@@ -65120,7 +65086,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 48,
     "end_markets": [
-      "Industrial Manufacturing"
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -65201,7 +65167,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -65332,8 +65298,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 41,
     "end_markets": [
-      "Computing & AI Hardware",
-      "Scientific Research & Instrumentation"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -65434,7 +65399,7 @@
     "data_strength_score": 7,
     "end_markets": [
       "Scientific Research & Instrumentation",
-      "Industrial Manufacturing"
+      "Energy & Environment"
     ]
   },
   {
@@ -65539,8 +65504,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Defense & Security",
-      "Space & Aerospace"
+      "Healthcare & Medical Devices"
     ]
   },
   {
@@ -65659,7 +65623,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Industrial Manufacturing"
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -65740,7 +65704,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Industrial Manufacturing"
+      "Consumer Electronics & Displays"
     ]
   },
   {
@@ -65935,8 +65899,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 48,
     "end_markets": [
-      "Telecommunications & Data Infrastructure",
-      "Energy & Environmental Monitoring"
+      "Energy & Environment",
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -66198,7 +66162,7 @@
     "data_strength": "Limited",
     "data_strength_score": 15,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -66376,7 +66340,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Industrial Manufacturing"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -67357,7 +67321,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Industrial Manufacturing"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -67431,7 +67395,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Industrial Manufacturing"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -67602,8 +67566,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 48,
     "end_markets": [
-      "Scientific Research & Instrumentation",
-      "Energy & Environmental Monitoring"
+      "Scientific Research & Instrumentation"
     ]
   },
   {
@@ -67801,8 +67764,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Space & Aerospace",
-      "Energy & Environmental Monitoring"
+      "Scientific Research & Instrumentation"
     ]
   },
   {
@@ -68088,7 +68050,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Energy & Environmental Monitoring",
+      "Space & Aerospace",
       "Healthcare & Medical Devices"
     ]
   },
@@ -68250,7 +68212,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 41,
     "end_markets": [
-      "Scientific Research & Instrumentation"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -68836,7 +68798,8 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks",
+      "Data Centers & AI Infrastructure"
     ]
   },
   {
@@ -69098,8 +69061,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 41,
     "end_markets": [
-      "Scientific Research & Instrumentation",
-      "Energy & Environmental Monitoring"
+      "Scientific Research & Instrumentation"
     ]
   },
   {
@@ -69313,8 +69275,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Agriculture & Food Safety",
-      "Energy & Environmental Monitoring"
+      "Marine & Agriculture"
     ]
   },
   {
@@ -69388,7 +69349,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Industrial Manufacturing"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -69504,7 +69465,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 30,
     "end_markets": [
-      "Industrial Manufacturing"
+      "Scientific Research & Instrumentation"
     ]
   },
   {
@@ -69590,7 +69551,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Energy & Environmental Monitoring"
+      "Energy & Environment"
     ]
   },
   {
@@ -69683,7 +69644,7 @@
     "data_strength": "Limited",
     "data_strength_score": 19,
     "end_markets": [
-      "Industrial Manufacturing"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -69849,8 +69810,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Computing & AI Hardware",
-      "Scientific Research & Instrumentation"
+      "Space & Aerospace",
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -70314,7 +70275,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 48,
     "end_markets": [
-      "Energy & Environmental Monitoring"
+      "Energy & Environment"
     ]
   },
   {
@@ -70486,7 +70447,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -70548,7 +70509,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -70634,7 +70595,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -71326,8 +71287,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 48,
     "end_markets": [
-      "Telecommunications & Data Infrastructure",
-      "Energy & Environmental Monitoring"
+      "Energy & Environment",
+      "Defense & Security"
     ]
   },
   {
@@ -71625,7 +71586,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 41,
     "end_markets": [
-      "Industrial Manufacturing"
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -71701,7 +71662,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -71828,7 +71789,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Scientific Research & Instrumentation"
+      "Scientific Research & Instrumentation",
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -71897,7 +71859,8 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks",
+      "Consumer Electronics & Displays"
     ]
   },
   {
@@ -71983,7 +71946,7 @@
     "data_strength": "Limited",
     "data_strength_score": 26,
     "end_markets": [
-      "Energy & Environmental Monitoring"
+      "Energy & Environment"
     ]
   },
   {
@@ -72143,8 +72106,8 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Defense & Security",
-      "Consumer Electronics"
+      "Consumer Electronics & Displays",
+      "Defense & Security"
     ]
   },
   {
@@ -72235,7 +72198,8 @@
     "data_strength": "Limited",
     "data_strength_score": 15,
     "end_markets": [
-      "Scientific Research & Instrumentation"
+      "Scientific Research & Instrumentation",
+      "Defense & Security"
     ]
   },
   {
@@ -72535,8 +72499,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 48,
     "end_markets": [
-      "Industrial Manufacturing",
-      "Healthcare & Medical Devices"
+      "Healthcare & Medical Devices",
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -72632,7 +72596,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -73130,7 +73094,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 48,
     "end_markets": [
-      "Agriculture & Food Safety"
+      "Marine & Agriculture"
     ]
   },
   {
@@ -73550,7 +73514,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -73844,7 +73808,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 41,
     "end_markets": [
-      "Entertainment & Media"
+      "Consumer Electronics & Displays"
     ]
   },
   {
@@ -74163,7 +74127,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Scientific Research & Instrumentation"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -74275,7 +74239,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Scientific Research & Instrumentation"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -75002,7 +74966,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 48,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -75120,7 +75084,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Telecommunications & Networks"
     ]
   },
   {
@@ -75528,7 +75492,6 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Defense & Security",
       "Automotive & Transportation"
     ]
   },
@@ -75611,7 +75574,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Industrial Manufacturing"
+      "Scientific Research & Instrumentation"
     ]
   },
   {
@@ -75697,7 +75660,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Industrial Manufacturing"
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -75867,8 +75830,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 41,
     "end_markets": [
-      "Healthcare & Medical Devices",
-      "Consumer Electronics"
+      "Consumer Electronics & Displays",
+      "Healthcare & Medical Devices"
     ]
   },
   {
@@ -76063,7 +76026,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -76491,7 +76454,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Industrial Manufacturing"
+      "Scientific Research & Instrumentation"
     ]
   },
   {
@@ -76663,7 +76626,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Industrial Manufacturing"
+      "Space & Aerospace"
     ]
   },
   {
@@ -76757,7 +76720,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -76831,7 +76794,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Healthcare & Medical Devices"
+      "Scientific Research & Instrumentation"
     ]
   },
   {
@@ -77035,8 +76998,8 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Consumer Electronics",
-      "Industrial Manufacturing"
+      "Automotive & Transportation",
+      "Healthcare & Medical Devices"
     ]
   },
   {
@@ -77212,7 +77175,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Scientific Research & Instrumentation"
     ]
   },
   {
@@ -77293,7 +77256,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Consumer Electronics"
+      "Scientific Research & Instrumentation"
     ]
   },
   {
@@ -77391,8 +77354,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Space & Aerospace",
-      "Industrial Manufacturing"
+      "Scientific Research & Instrumentation"
     ]
   },
   {
@@ -77454,7 +77416,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Industrial Manufacturing"
+      "Scientific Research & Instrumentation"
     ]
   },
   {
@@ -77563,7 +77525,8 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Healthcare & Medical Devices"
+      "Healthcare & Medical Devices",
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -77649,8 +77612,7 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Energy & Environmental Monitoring",
-      "Industrial Manufacturing"
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -77724,7 +77686,8 @@
     "data_strength": "Limited",
     "data_strength_score": 7,
     "end_markets": [
-      "Industrial Manufacturing"
+      "Scientific Research & Instrumentation",
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -78800,7 +78763,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 41,
     "end_markets": [
-      "Consumer Electronics"
+      "Semiconductor & Chip Manufacturing"
     ]
   },
   {
@@ -78900,7 +78863,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 37,
     "end_markets": [
-      "Telecommunications & Data Infrastructure"
+      "Data Centers & AI Infrastructure"
     ]
   },
   {
@@ -79052,8 +79015,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 37,
     "end_markets": [
-      "Scientific Research & Instrumentation",
-      "Industrial Manufacturing"
+      "Scientific Research & Instrumentation"
     ]
   },
   {
@@ -79329,7 +79291,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Consumer Electronics"
+      "Industrial Manufacturing & Processing"
     ]
   },
   {
@@ -79600,7 +79562,7 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Computing & AI Hardware"
+      "Consumer Electronics & Displays"
     ]
   },
   {
@@ -80107,7 +80069,6 @@
     "data_strength": "Moderate",
     "data_strength_score": 44,
     "end_markets": [
-      "Healthcare & Medical Devices",
       "Scientific Research & Instrumentation"
     ]
   },

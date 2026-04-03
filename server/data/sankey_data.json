@@ -104,58 +104,58 @@
         "value": 9
       },
       {
-        "id": "em_Telecommunications & Data Infrastructure",
-        "name": "Telecommunications & Data Infrastructure",
+        "id": "em_Telecommunications & Networks",
+        "name": "Telecommunications & Networks",
         "column": 2,
-        "value": 202.8
-      },
-      {
-        "id": "em_Computing & AI Hardware",
-        "name": "Computing & AI Hardware",
-        "column": 2,
-        "value": 168.6
+        "value": 146.1
       },
       {
         "id": "em_Healthcare & Medical Devices",
         "name": "Healthcare & Medical Devices",
         "column": 2,
-        "value": 194.5
+        "value": 186.3
       },
       {
-        "id": "em_Consumer Electronics",
-        "name": "Consumer Electronics",
+        "id": "em_Data Centers & AI Infrastructure",
+        "name": "Data Centers & AI Infrastructure",
         "column": 2,
-        "value": 142.1
-      },
-      {
-        "id": "em_Energy & Environmental Monitoring",
-        "name": "Energy & Environmental Monitoring",
-        "column": 2,
-        "value": 24.4
+        "value": 159.4
       },
       {
         "id": "em_Scientific Research & Instrumentation",
         "name": "Scientific Research & Instrumentation",
         "column": 2,
-        "value": 130.1
+        "value": 139.3
       },
       {
-        "id": "em_Financial Services & Cybersecurity",
-        "name": "Financial Services & Cybersecurity",
+        "id": "em_Energy & Environment",
+        "name": "Energy & Environment",
         "column": 2,
-        "value": 56.3
+        "value": 21.0
       },
       {
-        "id": "em_Automotive & Transportation",
-        "name": "Automotive & Transportation",
+        "id": "em_Quantum Computing & Information",
+        "name": "Quantum Computing & Information",
         "column": 2,
-        "value": 31.3
+        "value": 103.2
+      },
+      {
+        "id": "em_Consumer Electronics & Displays",
+        "name": "Consumer Electronics & Displays",
+        "column": 2,
+        "value": 142.5
+      },
+      {
+        "id": "em_Industrial Manufacturing & Processing",
+        "name": "Industrial Manufacturing & Processing",
+        "column": 2,
+        "value": 61.8
       },
       {
         "id": "em_Other Markets",
         "name": "Other Markets",
         "column": 2,
-        "value": 224.1
+        "value": 214.8
       }
     ],
     "links": [
@@ -236,198 +236,183 @@
       },
       {
         "source": "rtic_Quantum Tech",
-        "target": "em_Financial Services & Cybersecurity",
-        "value": 29.4
-      },
-      {
-        "source": "rtic_Quantum Tech",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 39.2
-      },
-      {
-        "source": "rtic_Quantum Tech",
-        "target": "em_Computing & AI Hardware",
-        "value": 78.4
-      },
-      {
-        "source": "rtic_Quantum Tech",
         "target": "em_Other Markets",
-        "value": 29.4
+        "value": 44.1
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 22.1
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Quantum Computing & Information",
+        "value": 55.2
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Data Centers & AI Infrastructure",
+        "value": 22.1
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Telecommunications & Networks",
+        "value": 33.1
       },
       {
         "source": "rtic_Industry 4.0",
-        "target": "em_Energy & Environmental Monitoring",
-        "value": 4.2
+        "target": "em_Energy & Environment",
+        "value": 3.3
       },
       {
         "source": "rtic_Industry 4.0",
-        "target": "em_Automotive & Transportation",
-        "value": 2.8
+        "target": "em_Other Markets",
+        "value": 5.0
       },
       {
         "source": "rtic_Industry 4.0",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 1.4
-      },
-      {
-        "source": "rtic_Industry 4.0",
-        "target": "em_Consumer Electronics",
-        "value": 1.4
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 1.7
       },
       {
         "source": "rtic_Smart Sensors",
         "target": "em_Other Markets",
-        "value": 6.2
+        "value": 9.2
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Financial Services & Cybersecurity",
-        "value": 1.5
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 1.9
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Consumer Electronics",
-        "value": 3.1
-      },
-      {
-        "source": "rtic_Smart Sensors",
-        "target": "em_Automotive & Transportation",
-        "value": 3.1
-      },
-      {
-        "source": "rtic_Smart Sensors",
-        "target": "em_Computing & AI Hardware",
-        "value": 1.5
+        "target": "em_Data Centers & AI Infrastructure",
+        "value": 1.9
       },
       {
         "source": "rtic_Smart Sensors",
         "target": "em_Healthcare & Medical Devices",
-        "value": 7.7
+        "value": 9.2
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Energy & Environmental Monitoring",
-        "value": 7.7
+        "target": "em_Energy & Environment",
+        "value": 7.4
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 3.1
+        "target": "em_Consumer Electronics & Displays",
+        "value": 1.9
       },
       {
         "source": "rtic_Smart Sensors",
         "target": "em_Scientific Research & Instrumentation",
-        "value": 3.1
+        "value": 3.7
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Telecommunications & Networks",
+        "value": 1.9
       },
       {
         "source": "rtic_Microelectronics",
-        "target": "em_Computing & AI Hardware",
+        "target": "em_Data Centers & AI Infrastructure",
         "value": 16.0
       },
       {
         "source": "rtic_Microelectronics",
+        "target": "em_Quantum Computing & Information",
+        "value": 8.0
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Telecommunications & Networks",
+        "value": 4.0
+      },
+      {
+        "source": "rtic_Microelectronics",
         "target": "em_Other Markets",
-        "value": 1.8
-      },
-      {
-        "source": "rtic_Microelectronics",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 8.9
-      },
-      {
-        "source": "rtic_Microelectronics",
-        "target": "em_Consumer Electronics",
-        "value": 3.6
-      },
-      {
-        "source": "rtic_Microelectronics",
-        "target": "em_Energy & Environmental Monitoring",
-        "value": 1.8
+        "value": 4.0
       },
       {
         "source": "rtic_Optics",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 76.2
+        "target": "em_Data Centers & AI Infrastructure",
+        "value": 84.3
       },
       {
         "source": "rtic_Optics",
         "target": "em_Healthcare & Medical Devices",
-        "value": 177.8
+        "value": 168.7
       },
       {
         "source": "rtic_Optics",
         "target": "em_Scientific Research & Instrumentation",
-        "value": 127.0
+        "value": 112.5
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 56.2
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Consumer Electronics & Displays",
+        "value": 140.6
       },
       {
         "source": "rtic_Optics",
         "target": "em_Other Markets",
-        "value": 177.8
+        "value": 140.6
       },
       {
         "source": "rtic_Optics",
-        "target": "em_Financial Services & Cybersecurity",
-        "value": 25.4
+        "target": "em_Quantum Computing & Information",
+        "value": 28.1
       },
       {
         "source": "rtic_Optics",
-        "target": "em_Consumer Electronics",
-        "value": 127.0
-      },
-      {
-        "source": "rtic_Optics",
-        "target": "em_Computing & AI Hardware",
-        "value": 50.8
-      },
-      {
-        "source": "rtic_Optics",
-        "target": "em_Automotive & Transportation",
-        "value": 25.4
+        "target": "em_Telecommunications & Networks",
+        "value": 56.2
       },
       {
         "source": "rtic_Telecommunications",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 72.0
+        "target": "em_Telecommunications & Networks",
+        "value": 48.9
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Data Centers & AI Infrastructure",
+        "value": 32.6
       },
       {
         "source": "rtic_Telecommunications",
         "target": "em_Other Markets",
-        "value": 6.0
+        "value": 10.9
       },
       {
         "source": "rtic_Telecommunications",
-        "target": "em_Consumer Electronics",
-        "value": 6.0
-      },
-      {
-        "source": "rtic_Telecommunications",
-        "target": "em_Computing & AI Hardware",
-        "value": 18.0
+        "target": "em_Quantum Computing & Information",
+        "value": 10.9
       },
       {
         "source": "rtic_Telecommunications",
         "target": "em_Healthcare & Medical Devices",
-        "value": 6.0
+        "value": 5.4
       },
       {
         "source": "rtic_Telecommunications",
-        "target": "em_Energy & Environmental Monitoring",
-        "value": 6.0
+        "target": "em_Energy & Environment",
+        "value": 5.4
       },
       {
         "source": "rtic_Photovoltaics",
-        "target": "em_Energy & Environmental Monitoring",
-        "value": 3.7
+        "target": "em_Energy & Environment",
+        "value": 4.9
       },
       {
         "source": "rtic_Photovoltaics",
-        "target": "em_Computing & AI Hardware",
-        "value": 1.9
-      },
-      {
-        "source": "rtic_Photovoltaics",
-        "target": "em_Other Markets",
-        "value": 1.9
+        "target": "em_Data Centers & AI Infrastructure",
+        "value": 2.5
       },
       {
         "source": "rtic_Adjacent Tech",
@@ -436,18 +421,18 @@
       },
       {
         "source": "rtic_Adjacent Tech",
-        "target": "em_Telecommunications & Data Infrastructure",
+        "target": "em_Telecommunications & Networks",
         "value": 2
       },
       {
         "source": "rtic_Adjacent Tech",
-        "target": "em_Computing & AI Hardware",
-        "value": 2
-      },
-      {
-        "source": "rtic_Adjacent Tech",
-        "target": "em_Consumer Electronics",
+        "target": "em_Quantum Computing & Information",
         "value": 1
+      },
+      {
+        "source": "rtic_Adjacent Tech",
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 2
       },
       {
         "source": "rtic_Adjacent Tech",
@@ -456,7 +441,7 @@
       },
       {
         "source": "rtic_Adjacent Tech",
-        "target": "em_Energy & Environmental Monitoring",
+        "target": "em_Scientific Research & Instrumentation",
         "value": 1
       }
     ]
@@ -566,58 +551,58 @@
         "value": 7
       },
       {
-        "id": "em_Energy & Environmental Monitoring",
-        "name": "Energy & Environmental Monitoring",
-        "column": 2,
-        "value": 44.5
-      },
-      {
         "id": "em_Scientific Research & Instrumentation",
         "name": "Scientific Research & Instrumentation",
         "column": 2,
-        "value": 88.5
+        "value": 98.3
       },
       {
-        "id": "em_Consumer Electronics",
-        "name": "Consumer Electronics",
+        "id": "em_Telecommunications & Networks",
+        "name": "Telecommunications & Networks",
         "column": 2,
-        "value": 73.5
-      },
-      {
-        "id": "em_Telecommunications & Data Infrastructure",
-        "name": "Telecommunications & Data Infrastructure",
-        "column": 2,
-        "value": 74.0
-      },
-      {
-        "id": "em_Industrial Manufacturing",
-        "name": "Industrial Manufacturing",
-        "column": 2,
-        "value": 39.0
+        "value": 71.4
       },
       {
         "id": "em_Healthcare & Medical Devices",
         "name": "Healthcare & Medical Devices",
         "column": 2,
-        "value": 39.7
+        "value": 47.9
       },
       {
-        "id": "em_Computing & AI Hardware",
-        "name": "Computing & AI Hardware",
+        "id": "em_Industrial Manufacturing & Processing",
+        "name": "Industrial Manufacturing & Processing",
         "column": 2,
-        "value": 10.0
+        "value": 35.3
       },
       {
-        "id": "em_Marine & Maritime",
-        "name": "Marine & Maritime",
+        "id": "em_Consumer Electronics & Displays",
+        "name": "Consumer Electronics & Displays",
         "column": 2,
-        "value": 3.5
+        "value": 49.5
+      },
+      {
+        "id": "em_Energy & Environment",
+        "name": "Energy & Environment",
+        "column": 2,
+        "value": 22.6
+      },
+      {
+        "id": "em_Semiconductor & Chip Manufacturing",
+        "name": "Semiconductor & Chip Manufacturing",
+        "column": 2,
+        "value": 19.4
+      },
+      {
+        "id": "em_Quantum Computing & Information",
+        "name": "Quantum Computing & Information",
+        "column": 2,
+        "value": 34.4
       },
       {
         "id": "em_Other Markets",
         "name": "Other Markets",
         "column": 2,
-        "value": 44.2
+        "value": 37.5
       }
     ],
     "links": [
@@ -708,207 +693,212 @@
       },
       {
         "source": "rtic_Industry 4.0",
-        "target": "em_Energy & Environmental Monitoring",
-        "value": 6.5
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 7.1
       },
       {
         "source": "rtic_Industry 4.0",
-        "target": "em_Scientific Research & Instrumentation",
-        "value": 6.5
-      },
-      {
-        "source": "rtic_Industry 4.0",
-        "target": "em_Industrial Manufacturing",
-        "value": 6.5
+        "target": "em_Semiconductor & Chip Manufacturing",
+        "value": 2.4
       },
       {
         "source": "rtic_Industry 4.0",
         "target": "em_Healthcare & Medical Devices",
-        "value": 6.5
+        "value": 9.4
       },
       {
         "source": "rtic_Industry 4.0",
-        "target": "em_Marine & Maritime",
-        "value": 2.2
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 7.1
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Energy & Environment",
+        "value": 2.4
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Energy & Environmental Monitoring",
-        "value": 7.8
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 5.7
       },
       {
         "source": "rtic_Smart Sensors",
         "target": "em_Scientific Research & Instrumentation",
-        "value": 5.2
+        "value": 5.7
       },
       {
         "source": "rtic_Smart Sensors",
         "target": "em_Other Markets",
-        "value": 1.3
+        "value": 1.4
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Industrial Manufacturing",
-        "value": 3.9
+        "target": "em_Energy & Environment",
+        "value": 2.9
       },
       {
         "source": "rtic_Smart Sensors",
         "target": "em_Healthcare & Medical Devices",
-        "value": 5.2
+        "value": 7.2
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 1.3
+        "target": "em_Semiconductor & Chip Manufacturing",
+        "value": 2.9
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Consumer Electronics",
-        "value": 1.3
-      },
-      {
-        "source": "rtic_Smart Sensors",
-        "target": "em_Marine & Maritime",
-        "value": 1.3
+        "target": "em_Telecommunications & Networks",
+        "value": 1.4
       },
       {
         "source": "rtic_Photovoltaics",
         "target": "em_Other Markets",
-        "value": 0.6
+        "value": 0.7
       },
       {
         "source": "rtic_Photovoltaics",
-        "target": "em_Energy & Environmental Monitoring",
-        "value": 2.8
-      },
-      {
-        "source": "rtic_Photovoltaics",
-        "target": "em_Healthcare & Medical Devices",
-        "value": 0.6
-      },
-      {
-        "source": "rtic_Quantum Tech",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 16.7
-      },
-      {
-        "source": "rtic_Quantum Tech",
-        "target": "em_Other Markets",
-        "value": 8.3
-      },
-      {
-        "source": "rtic_Quantum Tech",
-        "target": "em_Scientific Research & Instrumentation",
-        "value": 8.3
-      },
-      {
-        "source": "rtic_Quantum Tech",
-        "target": "em_Industrial Manufacturing",
-        "value": 8.3
-      },
-      {
-        "source": "rtic_Quantum Tech",
-        "target": "em_Computing & AI Hardware",
-        "value": 8.3
-      },
-      {
-        "source": "rtic_Microelectronics",
-        "target": "em_Telecommunications & Data Infrastructure",
+        "target": "em_Energy & Environment",
         "value": 2.0
       },
       {
-        "source": "rtic_Microelectronics",
-        "target": "em_Consumer Electronics",
+        "source": "rtic_Photovoltaics",
+        "target": "em_Healthcare & Medical Devices",
         "value": 0.7
       },
       {
-        "source": "rtic_Microelectronics",
-        "target": "em_Industrial Manufacturing",
+        "source": "rtic_Photovoltaics",
+        "target": "em_Scientific Research & Instrumentation",
         "value": 0.7
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Telecommunications & Networks",
+        "value": 14.3
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Quantum Computing & Information",
+        "value": 14.3
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 7.2
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 7.2
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Semiconductor & Chip Manufacturing",
+        "value": 7.2
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Telecommunications & Networks",
+        "value": 1.6
       },
       {
         "source": "rtic_Microelectronics",
         "target": "em_Other Markets",
-        "value": 0.7
+        "value": 0.5
       },
       {
         "source": "rtic_Microelectronics",
-        "target": "em_Computing & AI Hardware",
-        "value": 0.7
+        "target": "em_Consumer Electronics & Displays",
+        "value": 0.5
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Semiconductor & Chip Manufacturing",
+        "value": 1.6
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Quantum Computing & Information",
+        "value": 0.5
       },
       {
         "source": "rtic_Optics",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 27.4
+        "target": "em_Telecommunications & Networks",
+        "value": 30.6
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Other Markets",
+        "value": 30.6
       },
       {
         "source": "rtic_Optics",
         "target": "em_Healthcare & Medical Devices",
-        "value": 27.4
+        "value": 30.6
       },
       {
         "source": "rtic_Optics",
         "target": "em_Scientific Research & Instrumentation",
-        "value": 68.5
+        "value": 76.6
       },
       {
         "source": "rtic_Optics",
-        "target": "em_Consumer Electronics",
-        "value": 68.5
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 15.3
       },
       {
         "source": "rtic_Optics",
+        "target": "em_Consumer Electronics & Displays",
+        "value": 46.0
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Quantum Computing & Information",
+        "value": 15.3
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Energy & Environment",
+        "value": 15.3
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Telecommunications & Networks",
+        "value": 21.5
+      },
+      {
+        "source": "rtic_Telecommunications",
         "target": "em_Other Markets",
-        "value": 27.4
-      },
-      {
-        "source": "rtic_Optics",
-        "target": "em_Industrial Manufacturing",
-        "value": 13.7
-      },
-      {
-        "source": "rtic_Optics",
-        "target": "em_Energy & Environmental Monitoring",
-        "value": 27.4
+        "value": 4.3
       },
       {
         "source": "rtic_Telecommunications",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 24.6
+        "target": "em_Quantum Computing & Information",
+        "value": 4.3
       },
       {
         "source": "rtic_Telecommunications",
-        "target": "em_Other Markets",
-        "value": 4.9
-      },
-      {
-        "source": "rtic_Telecommunications",
-        "target": "em_Industrial Manufacturing",
-        "value": 4.9
+        "target": "em_Semiconductor & Chip Manufacturing",
+        "value": 4.3
       },
       {
         "source": "rtic_Adjacent Tech",
-        "target": "em_Consumer Electronics",
+        "target": "em_Consumer Electronics & Displays",
         "value": 3
       },
       {
         "source": "rtic_Adjacent Tech",
-        "target": "em_Telecommunications & Data Infrastructure",
+        "target": "em_Telecommunications & Networks",
         "value": 2
       },
       {
         "source": "rtic_Adjacent Tech",
-        "target": "em_Other Markets",
+        "target": "em_Semiconductor & Chip Manufacturing",
         "value": 1
       },
       {
         "source": "rtic_Adjacent Tech",
-        "target": "em_Industrial Manufacturing",
-        "value": 1
-      },
-      {
-        "source": "rtic_Adjacent Tech",
-        "target": "em_Computing & AI Hardware",
+        "target": "em_Scientific Research & Instrumentation",
         "value": 1
       }
     ]
@@ -1018,50 +1008,50 @@
         "value": 1
       },
       {
-        "id": "em_Industrial Manufacturing",
-        "name": "Industrial Manufacturing",
-        "column": 2,
-        "value": 136.0
-      },
-      {
         "id": "em_Scientific Research & Instrumentation",
         "name": "Scientific Research & Instrumentation",
         "column": 2,
-        "value": 67.0
+        "value": 78.1
       },
       {
-        "id": "em_Computing & AI Hardware",
-        "name": "Computing & AI Hardware",
+        "id": "em_Industrial Manufacturing & Processing",
+        "name": "Industrial Manufacturing & Processing",
         "column": 2,
-        "value": 58.3
+        "value": 113.4
       },
       {
-        "id": "em_Energy & Environmental Monitoring",
-        "name": "Energy & Environmental Monitoring",
+        "id": "em_Energy & Environment",
+        "name": "Energy & Environment",
         "column": 2,
-        "value": 64.3
+        "value": 43.9
       },
       {
         "id": "em_Healthcare & Medical Devices",
         "name": "Healthcare & Medical Devices",
         "column": 2,
-        "value": 33.2
+        "value": 33.0
       },
       {
-        "id": "em_Defense & Security",
-        "name": "Defense & Security",
+        "id": "em_Quantum Computing & Information",
+        "name": "Quantum Computing & Information",
         "column": 2,
-        "value": 15.2
+        "value": 32.4
+      },
+      {
+        "id": "em_Semiconductor & Chip Manufacturing",
+        "name": "Semiconductor & Chip Manufacturing",
+        "column": 2,
+        "value": 29.9
       },
       {
         "id": "em_Financial Services & Cybersecurity",
         "name": "Financial Services & Cybersecurity",
         "column": 2,
-        "value": 20.7
+        "value": 21.9
       },
       {
-        "id": "em_Telecommunications & Data Infrastructure",
-        "name": "Telecommunications & Data Infrastructure",
+        "id": "em_Consumer Electronics & Displays",
+        "name": "Consumer Electronics & Displays",
         "column": 2,
         "value": 26.8
       },
@@ -1069,7 +1059,7 @@
         "id": "em_Other Markets",
         "name": "Other Markets",
         "column": 2,
-        "value": 29.3
+        "value": 71.3
       }
     ],
     "links": [
@@ -1160,22 +1150,17 @@
       },
       {
         "source": "rtic_Microelectronics",
-        "target": "em_Industrial Manufacturing",
-        "value": 4.2
+        "target": "em_Semiconductor & Chip Manufacturing",
+        "value": 8.5
       },
       {
         "source": "rtic_Microelectronics",
-        "target": "em_Computing & AI Hardware",
+        "target": "em_Other Markets",
         "value": 8.5
       },
       {
         "source": "rtic_Microelectronics",
         "target": "em_Scientific Research & Instrumentation",
-        "value": 4.2
-      },
-      {
-        "source": "rtic_Microelectronics",
-        "target": "em_Defense & Security",
         "value": 4.2
       },
       {
@@ -1185,123 +1170,113 @@
       },
       {
         "source": "rtic_Optics",
-        "target": "em_Industrial Manufacturing",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 22.2
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Industrial Manufacturing & Processing",
         "value": 55.5
       },
       {
         "source": "rtic_Optics",
-        "target": "em_Healthcare & Medical Devices",
-        "value": 22.2
-      },
-      {
-        "source": "rtic_Optics",
-        "target": "em_Computing & AI Hardware",
-        "value": 11.1
-      },
-      {
-        "source": "rtic_Optics",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 11.1
-      },
-      {
-        "source": "rtic_Optics",
         "target": "em_Other Markets",
+        "value": 33.3
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Semiconductor & Chip Manufacturing",
         "value": 11.1
       },
       {
         "source": "rtic_Optics",
-        "target": "em_Energy & Environmental Monitoring",
-        "value": 22.2
+        "target": "em_Energy & Environment",
+        "value": 11.1
       },
       {
         "source": "rtic_Quantum Tech",
         "target": "em_Financial Services & Cybersecurity",
-        "value": 19.4
+        "value": 20.8
       },
       {
         "source": "rtic_Quantum Tech",
-        "target": "em_Computing & AI Hardware",
-        "value": 38.7
-      },
-      {
-        "source": "rtic_Quantum Tech",
-        "target": "em_Industrial Manufacturing",
-        "value": 29.0
-      },
-      {
-        "source": "rtic_Quantum Tech",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 9.7
-      },
-      {
-        "source": "rtic_Quantum Tech",
-        "target": "em_Defense & Security",
-        "value": 9.7
+        "target": "em_Quantum Computing & Information",
+        "value": 31.3
       },
       {
         "source": "rtic_Quantum Tech",
         "target": "em_Other Markets",
-        "value": 9.7
+        "value": 20.8
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Consumer Electronics & Displays",
+        "value": 20.8
       },
       {
         "source": "rtic_Quantum Tech",
         "target": "em_Scientific Research & Instrumentation",
-        "value": 9.7
+        "value": 20.8
       },
       {
         "source": "rtic_Quantum Tech",
-        "target": "em_Energy & Environmental Monitoring",
-        "value": 9.7
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 10.4
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Energy & Environment",
+        "value": 10.4
       },
       {
         "source": "rtic_Smart Sensors",
         "target": "em_Financial Services & Cybersecurity",
-        "value": 1.3
+        "value": 1.1
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Industrial Manufacturing",
-        "value": 2.5
+        "target": "em_Quantum Computing & Information",
+        "value": 1.1
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Energy & Environmental Monitoring",
-        "value": 2.5
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 2.3
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Energy & Environment",
+        "value": 3.4
       },
       {
         "source": "rtic_Smart Sensors",
         "target": "em_Other Markets",
-        "value": 1.3
-      },
-      {
-        "source": "rtic_Smart Sensors",
-        "target": "em_Defense & Security",
-        "value": 1.3
+        "value": 1.1
       },
       {
         "source": "rtic_Smart Sensors",
         "target": "em_Healthcare & Medical Devices",
-        "value": 1.3
+        "value": 1.1
       },
       {
         "source": "rtic_Photovoltaics",
-        "target": "em_Energy & Environmental Monitoring",
-        "value": 3.7
+        "target": "em_Energy & Environment",
+        "value": 1.6
       },
       {
         "source": "rtic_Photovoltaics",
-        "target": "em_Industrial Manufacturing",
-        "value": 1.2
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 1.6
+      },
+      {
+        "source": "rtic_Photovoltaics",
+        "target": "em_Semiconductor & Chip Manufacturing",
+        "value": 1.6
       },
       {
         "source": "rtic_Photovoltaics",
         "target": "em_Other Markets",
-        "value": 1.2
-      },
-      {
-        "source": "rtic_Telecommunications",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 6.0
+        "value": 1.6
       },
       {
         "source": "rtic_Telecommunications",
@@ -1309,9 +1284,9 @@
         "value": 6.0
       },
       {
-        "source": "rtic_Industry 4.0",
-        "target": "em_Industrial Manufacturing",
-        "value": 43.6
+        "source": "rtic_Telecommunications",
+        "target": "em_Consumer Electronics & Displays",
+        "value": 6.0
       },
       {
         "source": "rtic_Industry 4.0",
@@ -1320,12 +1295,22 @@
       },
       {
         "source": "rtic_Industry 4.0",
-        "target": "em_Energy & Environmental Monitoring",
-        "value": 26.2
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 43.6
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Energy & Environment",
+        "value": 17.4
       },
       {
         "source": "rtic_Industry 4.0",
         "target": "em_Scientific Research & Instrumentation",
+        "value": 8.7
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Semiconductor & Chip Manufacturing",
         "value": 8.7
       },
       {
@@ -1434,58 +1419,58 @@
         "value": 1
       },
       {
+        "id": "em_Semiconductor & Chip Manufacturing",
+        "name": "Semiconductor & Chip Manufacturing",
+        "column": 2,
+        "value": 102.9
+      },
+      {
+        "id": "em_Industrial Manufacturing & Processing",
+        "name": "Industrial Manufacturing & Processing",
+        "column": 2,
+        "value": 99.3
+      },
+      {
         "id": "em_Scientific Research & Instrumentation",
         "name": "Scientific Research & Instrumentation",
         "column": 2,
-        "value": 139.8
+        "value": 123.2
       },
       {
-        "id": "em_Industrial Manufacturing",
-        "name": "Industrial Manufacturing",
+        "id": "em_Telecommunications & Networks",
+        "name": "Telecommunications & Networks",
         "column": 2,
-        "value": 134.3
-      },
-      {
-        "id": "em_Computing & AI Hardware",
-        "name": "Computing & AI Hardware",
-        "column": 2,
-        "value": 158.2
-      },
-      {
-        "id": "em_Telecommunications & Data Infrastructure",
-        "name": "Telecommunications & Data Infrastructure",
-        "column": 2,
-        "value": 144.4
+        "value": 53.0
       },
       {
         "id": "em_Automotive & Transportation",
         "name": "Automotive & Transportation",
         "column": 2,
-        "value": 97.6
+        "value": 12.8
       },
       {
-        "id": "em_Energy & Environmental Monitoring",
-        "name": "Energy & Environmental Monitoring",
+        "id": "em_Quantum Computing & Information",
+        "name": "Quantum Computing & Information",
         "column": 2,
-        "value": 106.8
+        "value": 144.2
       },
       {
         "id": "em_Space & Aerospace",
         "name": "Space & Aerospace",
         "column": 2,
-        "value": 98.3
+        "value": 104.8
       },
       {
         "id": "em_Defense & Security",
         "name": "Defense & Security",
         "column": 2,
-        "value": 98.3
+        "value": 130.0
       },
       {
         "id": "em_Other Markets",
         "name": "Other Markets",
         "column": 2,
-        "value": 132.2
+        "value": 339.8
       }
     ],
     "links": [
@@ -1571,47 +1556,52 @@
       },
       {
         "source": "rtic_Telecommunications",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 87.8
-      },
-      {
-        "source": "rtic_Telecommunications",
-        "target": "em_Industrial Manufacturing",
+        "target": "em_Telecommunications & Networks",
         "value": 43.9
       },
       {
         "source": "rtic_Telecommunications",
-        "target": "em_Energy & Environmental Monitoring",
+        "target": "em_Semiconductor & Chip Manufacturing",
+        "value": 43.9
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 43.9
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Other Markets",
         "value": 43.9
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Telecommunications & Data Infrastructure",
+        "target": "em_Telecommunications & Networks",
         "value": 3.4
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Automotive & Transportation",
-        "value": 3.4
-      },
-      {
-        "source": "rtic_Smart Sensors",
-        "target": "em_Industrial Manufacturing",
+        "target": "em_Semiconductor & Chip Manufacturing",
         "value": 6.8
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Scientific Research & Instrumentation",
+        "target": "em_Automotive & Transportation",
+        "value": 3.4
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Industrial Manufacturing & Processing",
         "value": 10.3
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Computing & AI Hardware",
-        "value": 3.4
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 6.8
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Energy & Environmental Monitoring",
+        "target": "em_Space & Aerospace",
         "value": 3.4
       },
       {
@@ -1620,118 +1610,93 @@
         "value": 3.4
       },
       {
-        "source": "rtic_Smart Sensors",
-        "target": "em_Space & Aerospace",
-        "value": 3.4
-      },
-      {
         "source": "rtic_Microelectronics",
-        "target": "em_Telecommunications & Data Infrastructure",
+        "target": "em_Telecommunications & Networks",
         "value": 4.7
       },
       {
         "source": "rtic_Microelectronics",
-        "target": "em_Computing & AI Hardware",
-        "value": 9.4
-      },
-      {
-        "source": "rtic_Microelectronics",
-        "target": "em_Automotive & Transportation",
+        "target": "em_Semiconductor & Chip Manufacturing",
         "value": 14.1
       },
       {
         "source": "rtic_Microelectronics",
-        "target": "em_Other Markets",
+        "target": "em_Quantum Computing & Information",
         "value": 4.7
       },
       {
         "source": "rtic_Microelectronics",
-        "target": "em_Scientific Research & Instrumentation",
+        "target": "em_Automotive & Transportation",
+        "value": 9.4
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Other Markets",
         "value": 4.7
       },
       {
         "source": "rtic_Optics",
         "target": "em_Space & Aerospace",
-        "value": 94.9
+        "value": 63.3
       },
       {
         "source": "rtic_Optics",
         "target": "em_Other Markets",
-        "value": 94.9
-      },
-      {
-        "source": "rtic_Optics",
-        "target": "em_Automotive & Transportation",
-        "value": 47.5
+        "value": 253.1
       },
       {
         "source": "rtic_Optics",
         "target": "em_Scientific Research & Instrumentation",
-        "value": 47.5
+        "value": 63.3
       },
       {
         "source": "rtic_Optics",
-        "target": "em_Computing & AI Hardware",
-        "value": 47.5
-      },
-      {
-        "source": "rtic_Optics",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 47.5
+        "target": "em_Quantum Computing & Information",
+        "value": 63.3
       },
       {
         "source": "rtic_Optics",
         "target": "em_Defense & Security",
-        "value": 94.9
-      },
-      {
-        "source": "rtic_Optics",
-        "target": "em_Energy & Environmental Monitoring",
-        "value": 47.5
-      },
-      {
-        "source": "rtic_Optics",
-        "target": "em_Industrial Manufacturing",
-        "value": 47.5
+        "value": 126.6
       },
       {
         "source": "rtic_Quantum Tech",
         "target": "em_Scientific Research & Instrumentation",
-        "value": 65.3
+        "value": 38.1
       },
       {
         "source": "rtic_Quantum Tech",
-        "target": "em_Computing & AI Hardware",
-        "value": 97.9
+        "target": "em_Quantum Computing & Information",
+        "value": 76.2
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Space & Aerospace",
+        "value": 38.1
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Semiconductor & Chip Manufacturing",
+        "value": 38.1
       },
       {
         "source": "rtic_Quantum Tech",
         "target": "em_Other Markets",
-        "value": 32.6
-      },
-      {
-        "source": "rtic_Quantum Tech",
-        "target": "em_Automotive & Transportation",
-        "value": 32.6
+        "value": 38.1
       },
       {
         "source": "rtic_Industry 4.0",
-        "target": "em_Industrial Manufacturing",
-        "value": 36.1
-      },
-      {
-        "source": "rtic_Industry 4.0",
-        "target": "em_Energy & Environmental Monitoring",
-        "value": 12.0
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 45.1
       },
       {
         "source": "rtic_Industry 4.0",
         "target": "em_Scientific Research & Instrumentation",
-        "value": 12.0
+        "value": 15.0
       },
       {
         "source": "rtic_Adjacent Tech",
-        "target": "em_Telecommunications & Data Infrastructure",
+        "target": "em_Telecommunications & Networks",
         "value": 1
       }
     ]
@@ -1841,58 +1806,58 @@
         "value": 1
       },
       {
-        "id": "em_Industrial Manufacturing",
-        "name": "Industrial Manufacturing",
-        "column": 2,
-        "value": 47.8
-      },
-      {
         "id": "em_Scientific Research & Instrumentation",
         "name": "Scientific Research & Instrumentation",
         "column": 2,
-        "value": 9.7
+        "value": 98.7
       },
       {
-        "id": "em_Telecommunications & Data Infrastructure",
-        "name": "Telecommunications & Data Infrastructure",
+        "id": "em_Consumer Electronics & Displays",
+        "name": "Consumer Electronics & Displays",
         "column": 2,
-        "value": 143.7
-      },
-      {
-        "id": "em_Consumer Electronics",
-        "name": "Consumer Electronics",
-        "column": 2,
-        "value": 8.8
+        "value": 10.8
       },
       {
         "id": "em_Healthcare & Medical Devices",
         "name": "Healthcare & Medical Devices",
         "column": 2,
-        "value": 8.1
+        "value": 9.1
       },
       {
-        "id": "em_Computing & AI Hardware",
-        "name": "Computing & AI Hardware",
+        "id": "em_Telecommunications & Networks",
+        "name": "Telecommunications & Networks",
         "column": 2,
-        "value": 71.8
+        "value": 87.5
       },
       {
         "id": "em_Defense & Security",
         "name": "Defense & Security",
         "column": 2,
-        "value": 71.8
+        "value": 87.5
       },
       {
         "id": "em_Financial Services & Cybersecurity",
         "name": "Financial Services & Cybersecurity",
         "column": 2,
-        "value": 67.3
+        "value": 82.5
+      },
+      {
+        "id": "em_Energy & Environment",
+        "name": "Energy & Environment",
+        "column": 2,
+        "value": 1.6
+      },
+      {
+        "id": "em_Automotive & Transportation",
+        "name": "Automotive & Transportation",
+        "column": 2,
+        "value": 5.0
       },
       {
         "id": "em_Other Markets",
         "name": "Other Markets",
         "column": 2,
-        "value": 6.1
+        "value": 52.0
       }
     ],
     "links": [
@@ -1989,157 +1954,137 @@
       {
         "source": "rtic_Microelectronics",
         "target": "em_Financial Services & Cybersecurity",
-        "value": 3.5
+        "value": 4.9
       },
       {
         "source": "rtic_Microelectronics",
-        "target": "em_Consumer Electronics",
-        "value": 3.5
+        "target": "em_Consumer Electronics & Displays",
+        "value": 4.9
       },
       {
         "source": "rtic_Microelectronics",
-        "target": "em_Industrial Manufacturing",
-        "value": 3.5
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 4.9
       },
       {
         "source": "rtic_Microelectronics",
-        "target": "em_Computing & AI Hardware",
-        "value": 3.5
-      },
-      {
-        "source": "rtic_Microelectronics",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 7.1
+        "target": "em_Telecommunications & Networks",
+        "value": 4.9
       },
       {
         "source": "rtic_Microelectronics",
         "target": "em_Defense & Security",
-        "value": 3.5
+        "value": 4.9
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Other Markets",
-        "value": 3.7
+        "target": "em_Automotive & Transportation",
+        "value": 4.1
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Consumer Electronics",
-        "value": 3.7
+        "target": "em_Consumer Electronics & Displays",
+        "value": 4.1
       },
       {
         "source": "rtic_Smart Sensors",
         "target": "em_Healthcare & Medical Devices",
-        "value": 7.3
-      },
-      {
-        "source": "rtic_Smart Sensors",
-        "target": "em_Computing & AI Hardware",
-        "value": 3.7
-      },
-      {
-        "source": "rtic_Smart Sensors",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 7.3
-      },
-      {
-        "source": "rtic_Smart Sensors",
-        "target": "em_Defense & Security",
-        "value": 3.7
+        "value": 8.2
       },
       {
         "source": "rtic_Smart Sensors",
         "target": "em_Scientific Research & Instrumentation",
-        "value": 7.3
+        "value": 12.2
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Telecommunications & Networks",
+        "value": 4.1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Defense & Security",
+        "value": 4.1
       },
       {
         "source": "rtic_Quantum Tech",
         "target": "em_Financial Services & Cybersecurity",
-        "value": 21.3
+        "value": 26.6
       },
       {
         "source": "rtic_Quantum Tech",
-        "target": "em_Computing & AI Hardware",
-        "value": 21.3
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 26.6
       },
       {
         "source": "rtic_Quantum Tech",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 42.6
+        "target": "em_Telecommunications & Networks",
+        "value": 26.6
       },
       {
         "source": "rtic_Quantum Tech",
         "target": "em_Defense & Security",
-        "value": 21.3
+        "value": 26.6
       },
       {
         "source": "rtic_Optics",
         "target": "em_Financial Services & Cybersecurity",
-        "value": 42.5
+        "value": 51.0
       },
       {
         "source": "rtic_Optics",
-        "target": "em_Industrial Manufacturing",
-        "value": 42.5
-      },
-      {
-        "source": "rtic_Optics",
-        "target": "em_Computing & AI Hardware",
-        "value": 42.5
-      },
-      {
-        "source": "rtic_Optics",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 85.1
-      },
-      {
-        "source": "rtic_Optics",
-        "target": "em_Defense & Security",
-        "value": 42.5
-      },
-      {
-        "source": "rtic_Telecommunications",
-        "target": "em_Computing & AI Hardware",
-        "value": 0.8
-      },
-      {
-        "source": "rtic_Telecommunications",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 0.8
-      },
-      {
-        "source": "rtic_Industry 4.0",
         "target": "em_Other Markets",
-        "value": 0.8
+        "value": 51.0
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 51.0
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Telecommunications & Networks",
+        "value": 51.0
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Defense & Security",
+        "value": 51.0
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 1.5
       },
       {
         "source": "rtic_Industry 4.0",
-        "target": "em_Consumer Electronics",
-        "value": 1.6
+        "target": "em_Automotive & Transportation",
+        "value": 0.9
       },
       {
         "source": "rtic_Industry 4.0",
-        "target": "em_Industrial Manufacturing",
-        "value": 0.8
+        "target": "em_Consumer Electronics & Displays",
+        "value": 1.8
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 0.9
       },
       {
         "source": "rtic_Industry 4.0",
         "target": "em_Healthcare & Medical Devices",
-        "value": 0.8
+        "value": 0.9
       },
       {
         "source": "rtic_Industry 4.0",
-        "target": "em_Scientific Research & Instrumentation",
-        "value": 0.8
-      },
-      {
-        "source": "rtic_Industry 4.0",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 0.8
+        "target": "em_Telecommunications & Networks",
+        "value": 0.9
       },
       {
         "source": "rtic_Industry 4.0",
         "target": "em_Defense & Security",
-        "value": 0.8
+        "value": 0.9
       },
       {
         "source": "rtic_Photovoltaics",
@@ -2148,12 +2093,12 @@
       },
       {
         "source": "rtic_Photovoltaics",
-        "target": "em_Other Markets",
+        "target": "em_Energy & Environment",
         "value": 1.6
       },
       {
         "source": "rtic_Adjacent Tech",
-        "target": "em_Industrial Manufacturing",
+        "target": "em_Other Markets",
         "value": 1
       }
     ]
@@ -2266,55 +2211,55 @@
         "id": "em_Healthcare & Medical Devices",
         "name": "Healthcare & Medical Devices",
         "column": 2,
-        "value": 42.1
+        "value": 30.4
       },
       {
         "id": "em_Scientific Research & Instrumentation",
         "name": "Scientific Research & Instrumentation",
         "column": 2,
-        "value": 62.4
+        "value": 71.7
       },
       {
-        "id": "em_Telecommunications & Data Infrastructure",
-        "name": "Telecommunications & Data Infrastructure",
+        "id": "em_Industrial Manufacturing & Processing",
+        "name": "Industrial Manufacturing & Processing",
         "column": 2,
-        "value": 61.2
+        "value": 24.5
       },
       {
-        "id": "em_Industrial Manufacturing",
-        "name": "Industrial Manufacturing",
+        "id": "em_Telecommunications & Networks",
+        "name": "Telecommunications & Networks",
         "column": 2,
-        "value": 20.0
+        "value": 23.1
       },
       {
-        "id": "em_Computing & AI Hardware",
-        "name": "Computing & AI Hardware",
+        "id": "em_Quantum Computing & Information",
+        "name": "Quantum Computing & Information",
         "column": 2,
-        "value": 16.2
+        "value": 24.0
+      },
+      {
+        "id": "em_Semiconductor & Chip Manufacturing",
+        "name": "Semiconductor & Chip Manufacturing",
+        "column": 2,
+        "value": 36.7
       },
       {
         "id": "em_Defense & Security",
         "name": "Defense & Security",
         "column": 2,
-        "value": 6.9
+        "value": 6.5
       },
       {
         "id": "em_Space & Aerospace",
         "name": "Space & Aerospace",
         "column": 2,
-        "value": 15.4
-      },
-      {
-        "id": "em_Automotive & Transportation",
-        "name": "Automotive & Transportation",
-        "column": 2,
-        "value": 6.9
+        "value": 15.0
       },
       {
         "id": "em_Other Markets",
         "name": "Other Markets",
         "column": 2,
-        "value": 20.2
+        "value": 19.6
       }
     ],
     "links": [
@@ -2405,98 +2350,103 @@
       },
       {
         "source": "rtic_Optics",
-        "target": "em_Healthcare & Medical Devices",
-        "value": 27.4
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 25.8
       },
       {
         "source": "rtic_Optics",
-        "target": "em_Scientific Research & Instrumentation",
-        "value": 20.6
+        "target": "em_Quantum Computing & Information",
+        "value": 12.9
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 19.4
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 12.9
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Semiconductor & Chip Manufacturing",
+        "value": 6.5
       },
       {
         "source": "rtic_Optics",
         "target": "em_Other Markets",
-        "value": 13.7
-      },
-      {
-        "source": "rtic_Optics",
-        "target": "em_Industrial Manufacturing",
-        "value": 6.9
-      },
-      {
-        "source": "rtic_Optics",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 13.7
-      },
-      {
-        "source": "rtic_Optics",
-        "target": "em_Automotive & Transportation",
-        "value": 6.9
+        "value": 12.9
       },
       {
         "source": "rtic_Optics",
         "target": "em_Space & Aerospace",
-        "value": 6.9
+        "value": 6.5
       },
       {
         "source": "rtic_Optics",
-        "target": "em_Computing & AI Hardware",
-        "value": 6.9
+        "target": "em_Telecommunications & Networks",
+        "value": 6.5
       },
       {
         "source": "rtic_Optics",
         "target": "em_Defense & Security",
-        "value": 6.9
+        "value": 6.5
       },
       {
         "source": "rtic_Industry 4.0",
-        "target": "em_Industrial Manufacturing",
-        "value": 7.5
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 6.5
       },
       {
         "source": "rtic_Industry 4.0",
         "target": "em_Scientific Research & Instrumentation",
-        "value": 7.5
+        "value": 9.8
       },
       {
         "source": "rtic_Industry 4.0",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 3.7
+        "target": "em_Semiconductor & Chip Manufacturing",
+        "value": 3.3
       },
       {
         "source": "rtic_Industry 4.0",
         "target": "em_Other Markets",
-        "value": 3.7
+        "value": 3.3
       },
       {
         "source": "rtic_Industry 4.0",
         "target": "em_Healthcare & Medical Devices",
-        "value": 3.7
-      },
-      {
-        "source": "rtic_Smart Sensors",
-        "target": "em_Healthcare & Medical Devices",
-        "value": 8.4
+        "value": 3.3
       },
       {
         "source": "rtic_Smart Sensors",
         "target": "em_Scientific Research & Instrumentation",
-        "value": 8.4
+        "value": 10.2
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Industrial Manufacturing",
-        "value": 5.6
+        "target": "em_Quantum Computing & Information",
+        "value": 2.6
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 2.8
+        "target": "em_Healthcare & Medical Devices",
+        "value": 5.1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 5.1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Semiconductor & Chip Manufacturing",
+        "value": 2.6
       },
       {
         "source": "rtic_Smart Sensors",
         "target": "em_Other Markets",
-        "value": 2.8
+        "value": 2.6
       },
       {
         "source": "rtic_Quantum Tech",
@@ -2505,7 +2455,7 @@
       },
       {
         "source": "rtic_Quantum Tech",
-        "target": "em_Telecommunications & Data Infrastructure",
+        "target": "em_Semiconductor & Chip Manufacturing",
         "value": 8.5
       },
       {
@@ -2515,17 +2465,22 @@
       },
       {
         "source": "rtic_Quantum Tech",
-        "target": "em_Computing & AI Hardware",
+        "target": "em_Quantum Computing & Information",
         "value": 8.5
       },
       {
         "source": "rtic_Telecommunications",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 31.7
+        "target": "em_Telecommunications & Networks",
+        "value": 15.8
       },
       {
         "source": "rtic_Telecommunications",
         "target": "em_Scientific Research & Instrumentation",
+        "value": 15.8
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Semiconductor & Chip Manufacturing",
         "value": 15.8
       },
       {
@@ -2550,12 +2505,12 @@
       },
       {
         "source": "rtic_Microelectronics",
-        "target": "em_Telecommunications & Data Infrastructure",
+        "target": "em_Telecommunications & Networks",
         "value": 0.8
       },
       {
         "source": "rtic_Microelectronics",
-        "target": "em_Computing & AI Hardware",
+        "target": "em_Other Markets",
         "value": 0.8
       },
       {
@@ -2670,58 +2625,58 @@
         "value": 1
       },
       {
-        "id": "em_Computing & AI Hardware",
-        "name": "Computing & AI Hardware",
+        "id": "em_Industrial Manufacturing & Processing",
+        "name": "Industrial Manufacturing & Processing",
         "column": 2,
-        "value": 164.8
+        "value": 246.7
       },
       {
-        "id": "em_Industrial Manufacturing",
-        "name": "Industrial Manufacturing",
+        "id": "em_Semiconductor & Chip Manufacturing",
+        "name": "Semiconductor & Chip Manufacturing",
         "column": 2,
-        "value": 161.4
+        "value": 86.8
       },
       {
         "id": "em_Scientific Research & Instrumentation",
         "name": "Scientific Research & Instrumentation",
         "column": 2,
-        "value": 171.8
-      },
-      {
-        "id": "em_Healthcare & Medical Devices",
-        "name": "Healthcare & Medical Devices",
-        "column": 2,
-        "value": 114.0
+        "value": 128.5
       },
       {
         "id": "em_Space & Aerospace",
         "name": "Space & Aerospace",
         "column": 2,
-        "value": 41.7
+        "value": 42.7
       },
       {
         "id": "em_Defense & Security",
         "name": "Defense & Security",
         "column": 2,
-        "value": 41.7
+        "value": 42.7
       },
       {
-        "id": "em_Telecommunications & Data Infrastructure",
-        "name": "Telecommunications & Data Infrastructure",
+        "id": "em_Data Centers & AI Infrastructure",
+        "name": "Data Centers & AI Infrastructure",
         "column": 2,
-        "value": 95.6
+        "value": 119.5
       },
       {
-        "id": "em_Energy & Environmental Monitoring",
-        "name": "Energy & Environmental Monitoring",
+        "id": "em_Consumer Electronics & Displays",
+        "name": "Consumer Electronics & Displays",
         "column": 2,
-        "value": 31.6
+        "value": 43.1
+      },
+      {
+        "id": "em_Quantum Computing & Information",
+        "name": "Quantum Computing & Information",
+        "column": 2,
+        "value": 81.7
       },
       {
         "id": "em_Other Markets",
         "name": "Other Markets",
         "column": 2,
-        "value": 39.6
+        "value": 70.5
       }
     ],
     "links": [
@@ -2818,127 +2773,117 @@
       {
         "source": "rtic_Quantum Tech",
         "target": "em_Space & Aerospace",
-        "value": 6.8
+        "value": 7.8
       },
       {
         "source": "rtic_Quantum Tech",
         "target": "em_Defense & Security",
-        "value": 6.8
+        "value": 7.8
       },
       {
         "source": "rtic_Quantum Tech",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 6.8
+        "target": "em_Data Centers & AI Infrastructure",
+        "value": 7.8
       },
       {
         "source": "rtic_Quantum Tech",
-        "target": "em_Healthcare & Medical Devices",
-        "value": 6.8
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 7.8
       },
       {
         "source": "rtic_Quantum Tech",
-        "target": "em_Computing & AI Hardware",
-        "value": 13.6
+        "target": "em_Semiconductor & Chip Manufacturing",
+        "value": 7.8
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Quantum Computing & Information",
+        "value": 7.8
       },
       {
         "source": "rtic_Quantum Tech",
         "target": "em_Scientific Research & Instrumentation",
-        "value": 13.6
+        "value": 7.8
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Energy & Environmental Monitoring",
-        "value": 2.3
+        "target": "em_Other Markets",
+        "value": 4.5
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Industrial Manufacturing",
-        "value": 1.2
+        "target": "em_Data Centers & AI Infrastructure",
+        "value": 1.5
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 2.3
-      },
-      {
-        "source": "rtic_Smart Sensors",
-        "target": "em_Healthcare & Medical Devices",
-        "value": 2.3
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 3.0
       },
       {
         "source": "rtic_Smart Sensors",
         "target": "em_Scientific Research & Instrumentation",
-        "value": 1.2
-      },
-      {
-        "source": "rtic_Smart Sensors",
-        "target": "em_Computing & AI Hardware",
-        "value": 1.2
+        "value": 1.5
       },
       {
         "source": "rtic_Telecommunications",
-        "target": "em_Telecommunications & Data Infrastructure",
+        "target": "em_Other Markets",
+        "value": 16.6
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Industrial Manufacturing & Processing",
         "value": 33.1
       },
       {
         "source": "rtic_Telecommunications",
-        "target": "em_Energy & Environmental Monitoring",
-        "value": 16.6
-      },
-      {
-        "source": "rtic_Telecommunications",
-        "target": "em_Healthcare & Medical Devices",
+        "target": "em_Data Centers & AI Infrastructure",
         "value": 16.6
       },
       {
         "source": "rtic_Microelectronics",
-        "target": "em_Computing & AI Hardware",
-        "value": 9.4
+        "target": "em_Data Centers & AI Infrastructure",
+        "value": 8.2
       },
       {
         "source": "rtic_Microelectronics",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 4.7
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 4.1
       },
       {
         "source": "rtic_Microelectronics",
-        "target": "em_Healthcare & Medical Devices",
-        "value": 4.7
+        "target": "em_Consumer Electronics & Displays",
+        "value": 8.2
       },
       {
         "source": "rtic_Microelectronics",
-        "target": "em_Industrial Manufacturing",
-        "value": 4.7
+        "target": "em_Semiconductor & Chip Manufacturing",
+        "value": 8.2
       },
       {
         "source": "rtic_Microelectronics",
-        "target": "em_Other Markets",
-        "value": 4.7
-      },
-      {
-        "source": "rtic_Microelectronics",
-        "target": "em_Scientific Research & Instrumentation",
-        "value": 4.7
+        "target": "em_Quantum Computing & Information",
+        "value": 4.1
       },
       {
         "source": "rtic_Optics",
-        "target": "em_Computing & AI Hardware",
+        "target": "em_Data Centers & AI Infrastructure",
+        "value": 69.8
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Industrial Manufacturing & Processing",
         "value": 139.6
       },
       {
         "source": "rtic_Optics",
-        "target": "em_Industrial Manufacturing",
+        "target": "em_Scientific Research & Instrumentation",
         "value": 104.7
       },
       {
         "source": "rtic_Optics",
-        "target": "em_Scientific Research & Instrumentation",
-        "value": 139.6
-      },
-      {
-        "source": "rtic_Optics",
-        "target": "em_Healthcare & Medical Devices",
-        "value": 69.8
+        "target": "em_Other Markets",
+        "value": 34.9
       },
       {
         "source": "rtic_Optics",
@@ -2952,52 +2897,52 @@
       },
       {
         "source": "rtic_Optics",
-        "target": "em_Telecommunications & Data Infrastructure",
+        "target": "em_Semiconductor & Chip Manufacturing",
+        "value": 69.8
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Consumer Electronics & Displays",
         "value": 34.9
       },
       {
         "source": "rtic_Optics",
+        "target": "em_Quantum Computing & Information",
+        "value": 69.8
+      },
+      {
+        "source": "rtic_Photovoltaics",
+        "target": "em_Data Centers & AI Infrastructure",
+        "value": 1.1
+      },
+      {
+        "source": "rtic_Photovoltaics",
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 1.1
+      },
+      {
+        "source": "rtic_Industry 4.0",
         "target": "em_Other Markets",
-        "value": 34.9
-      },
-      {
-        "source": "rtic_Photovoltaics",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 1.1
-      },
-      {
-        "source": "rtic_Photovoltaics",
-        "target": "em_Healthcare & Medical Devices",
-        "value": 1.1
+        "value": 14.5
       },
       {
         "source": "rtic_Industry 4.0",
-        "target": "em_Energy & Environmental Monitoring",
-        "value": 12.7
-      },
-      {
-        "source": "rtic_Industry 4.0",
-        "target": "em_Industrial Manufacturing",
-        "value": 50.8
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 58.0
       },
       {
         "source": "rtic_Industry 4.0",
         "target": "em_Scientific Research & Instrumentation",
-        "value": 12.7
+        "value": 14.5
       },
       {
         "source": "rtic_Industry 4.0",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 12.7
-      },
-      {
-        "source": "rtic_Industry 4.0",
-        "target": "em_Healthcare & Medical Devices",
-        "value": 12.7
+        "target": "em_Data Centers & AI Infrastructure",
+        "value": 14.5
       },
       {
         "source": "rtic_Adjacent Tech",
-        "target": "em_Computing & AI Hardware",
+        "target": "em_Semiconductor & Chip Manufacturing",
         "value": 1
       }
     ]
@@ -3104,31 +3049,25 @@
         "id": "em_Healthcare & Medical Devices",
         "name": "Healthcare & Medical Devices",
         "column": 2,
-        "value": 10.5
-      },
-      {
-        "id": "em_Energy & Environmental Monitoring",
-        "name": "Energy & Environmental Monitoring",
-        "column": 2,
-        "value": 10.3
-      },
-      {
-        "id": "em_Industrial Manufacturing",
-        "name": "Industrial Manufacturing",
-        "column": 2,
-        "value": 7.0
-      },
-      {
-        "id": "em_Telecommunications & Data Infrastructure",
-        "name": "Telecommunications & Data Infrastructure",
-        "column": 2,
-        "value": 47.5
+        "value": 11.4
       },
       {
         "id": "em_Scientific Research & Instrumentation",
         "name": "Scientific Research & Instrumentation",
         "column": 2,
-        "value": 2.3
+        "value": 6.4
+      },
+      {
+        "id": "em_Telecommunications & Networks",
+        "name": "Telecommunications & Networks",
+        "column": 2,
+        "value": 49.5
+      },
+      {
+        "id": "em_Industrial Manufacturing & Processing",
+        "name": "Industrial Manufacturing & Processing",
+        "column": 2,
+        "value": 6.9
       },
       {
         "id": "em_Financial Services & Cybersecurity",
@@ -3137,10 +3076,16 @@
         "value": 32.9
       },
       {
+        "id": "em_Energy & Environment",
+        "name": "Energy & Environment",
+        "column": 2,
+        "value": 2.9
+      },
+      {
         "id": "em_Defense & Security",
         "name": "Defense & Security",
         "column": 2,
-        "value": 3.2
+        "value": 4.0
       }
     ],
     "links": [
@@ -3226,17 +3171,17 @@
       },
       {
         "source": "rtic_Quantum Tech",
-        "target": "em_Telecommunications & Data Infrastructure",
+        "target": "em_Telecommunications & Networks",
         "value": 7.9
       },
       {
         "source": "rtic_Photovoltaics",
-        "target": "em_Energy & Environmental Monitoring",
+        "target": "em_Energy & Environment",
         "value": 2.9
       },
       {
         "source": "rtic_Photovoltaics",
-        "target": "em_Telecommunications & Data Infrastructure",
+        "target": "em_Telecommunications & Networks",
         "value": 2.9
       },
       {
@@ -3246,73 +3191,53 @@
       },
       {
         "source": "rtic_Optics",
-        "target": "em_Telecommunications & Data Infrastructure",
+        "target": "em_Telecommunications & Networks",
         "value": 32.9
       },
       {
         "source": "rtic_Microelectronics",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 1.9
+        "target": "em_Telecommunications & Networks",
+        "value": 2.9
       },
       {
         "source": "rtic_Microelectronics",
-        "target": "em_Industrial Manufacturing",
-        "value": 1.9
-      },
-      {
-        "source": "rtic_Microelectronics",
-        "target": "em_Healthcare & Medical Devices",
-        "value": 1.9
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 2.9
       },
       {
         "source": "rtic_Industry 4.0",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 1.9
+        "target": "em_Telecommunications & Networks",
+        "value": 2.9
       },
       {
         "source": "rtic_Industry 4.0",
-        "target": "em_Energy & Environmental Monitoring",
-        "value": 1.9
-      },
-      {
-        "source": "rtic_Industry 4.0",
-        "target": "em_Industrial Manufacturing",
-        "value": 1.9
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 2.9
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Energy & Environmental Monitoring",
-        "value": 3.2
-      },
-      {
-        "source": "rtic_Smart Sensors",
-        "target": "em_Industrial Manufacturing",
-        "value": 3.2
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 4.0
       },
       {
         "source": "rtic_Smart Sensors",
         "target": "em_Healthcare & Medical Devices",
-        "value": 6.3
+        "value": 7.9
       },
       {
         "source": "rtic_Smart Sensors",
         "target": "em_Defense & Security",
-        "value": 3.2
+        "value": 4.0
       },
       {
         "source": "rtic_Adjacent Tech",
         "target": "em_Healthcare & Medical Devices",
-        "value": 2.3
+        "value": 3.5
       },
       {
         "source": "rtic_Adjacent Tech",
         "target": "em_Scientific Research & Instrumentation",
-        "value": 2.3
-      },
-      {
-        "source": "rtic_Adjacent Tech",
-        "target": "em_Energy & Environmental Monitoring",
-        "value": 2.3
+        "value": 3.5
       }
     ]
   },
@@ -3406,23 +3331,29 @@
         "id": "em_Healthcare & Medical Devices",
         "name": "Healthcare & Medical Devices",
         "column": 2,
-        "value": 22.2
+        "value": 22.7
       },
       {
-        "id": "em_Telecommunications & Data Infrastructure",
-        "name": "Telecommunications & Data Infrastructure",
+        "id": "em_Telecommunications & Networks",
+        "name": "Telecommunications & Networks",
         "column": 2,
-        "value": 11.2
+        "value": 7.9
       },
       {
-        "id": "em_Industrial Manufacturing",
-        "name": "Industrial Manufacturing",
+        "id": "em_Scientific Research & Instrumentation",
+        "name": "Scientific Research & Instrumentation",
         "column": 2,
-        "value": 13.0
+        "value": 18.6
       },
       {
-        "id": "em_Entertainment & Media",
-        "name": "Entertainment & Media",
+        "id": "em_Semiconductor & Chip Manufacturing",
+        "name": "Semiconductor & Chip Manufacturing",
+        "column": 2,
+        "value": 17.9
+      },
+      {
+        "id": "em_Consumer Electronics & Displays",
+        "name": "Consumer Electronics & Displays",
         "column": 2,
         "value": 12.3
       },
@@ -3439,20 +3370,8 @@
         "value": 12.3
       },
       {
-        "id": "em_Scientific Research & Instrumentation",
-        "name": "Scientific Research & Instrumentation",
-        "column": 2,
-        "value": 12.3
-      },
-      {
-        "id": "em_Computing & AI Hardware",
-        "name": "Computing & AI Hardware",
-        "column": 2,
-        "value": 8.4
-      },
-      {
-        "id": "em_Other Markets",
-        "name": "Other Markets",
+        "id": "em_Marine & Agriculture",
+        "name": "Marine & Agriculture",
         "column": 2,
         "value": 0.9
       }
@@ -3525,12 +3444,12 @@
       },
       {
         "source": "rtic_Optics",
-        "target": "em_Industrial Manufacturing",
+        "target": "em_Scientific Research & Instrumentation",
         "value": 12.3
       },
       {
         "source": "rtic_Optics",
-        "target": "em_Entertainment & Media",
+        "target": "em_Consumer Electronics & Displays",
         "value": 12.3
       },
       {
@@ -3550,7 +3469,7 @@
       },
       {
         "source": "rtic_Optics",
-        "target": "em_Scientific Research & Instrumentation",
+        "target": "em_Semiconductor & Chip Manufacturing",
         "value": 12.3
       },
       {
@@ -3561,12 +3480,17 @@
       {
         "source": "rtic_Telecommunications",
         "target": "em_Healthcare & Medical Devices",
-        "value": 0.9
+        "value": 0.7
       },
       {
         "source": "rtic_Telecommunications",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 1.9
+        "target": "em_Telecommunications & Networks",
+        "value": 1.4
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 0.7
       },
       {
         "source": "rtic_Smart Sensors",
@@ -3575,33 +3499,33 @@
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Telecommunications & Data Infrastructure",
+        "target": "em_Telecommunications & Networks",
         "value": 0.9
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Other Markets",
+        "target": "em_Marine & Agriculture",
         "value": 0.9
       },
       {
         "source": "rtic_Microelectronics",
-        "target": "em_Computing & AI Hardware",
-        "value": 8.4
+        "target": "em_Semiconductor & Chip Manufacturing",
+        "value": 5.6
       },
       {
         "source": "rtic_Microelectronics",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 8.4
+        "target": "em_Telecommunications & Networks",
+        "value": 5.6
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 5.6
       },
       {
         "source": "rtic_Industry 4.0",
         "target": "em_Healthcare & Medical Devices",
-        "value": 0.7
-      },
-      {
-        "source": "rtic_Industry 4.0",
-        "target": "em_Industrial Manufacturing",
-        "value": 0.7
+        "value": 1.4
       }
     ]
   },
@@ -3710,46 +3634,52 @@
         "value": 1
       },
       {
-        "id": "em_Telecommunications & Data Infrastructure",
-        "name": "Telecommunications & Data Infrastructure",
+        "id": "em_Scientific Research & Instrumentation",
+        "name": "Scientific Research & Instrumentation",
         "column": 2,
-        "value": 339.2
+        "value": 408.2
       },
       {
         "id": "em_Defense & Security",
         "name": "Defense & Security",
         "column": 2,
-        "value": 84.0
+        "value": 54.4
       },
       {
-        "id": "em_Industrial Manufacturing",
-        "name": "Industrial Manufacturing",
+        "id": "em_Telecommunications & Networks",
+        "name": "Telecommunications & Networks",
         "column": 2,
-        "value": 8.6
+        "value": 246.6
       },
       {
-        "id": "em_Scientific Research & Instrumentation",
-        "name": "Scientific Research & Instrumentation",
+        "id": "em_Industrial Manufacturing & Processing",
+        "name": "Industrial Manufacturing & Processing",
         "column": 2,
-        "value": 271.3
+        "value": 37.3
       },
       {
         "id": "em_Healthcare & Medical Devices",
         "name": "Healthcare & Medical Devices",
         "column": 2,
-        "value": 251.2
+        "value": 189.8
       },
       {
-        "id": "em_Energy & Environmental Monitoring",
-        "name": "Energy & Environmental Monitoring",
+        "id": "em_Quantum Computing & Information",
+        "name": "Quantum Computing & Information",
         "column": 2,
-        "value": 8.4
+        "value": 22.1
       },
       {
-        "id": "em_Consumer Electronics",
-        "name": "Consumer Electronics",
+        "id": "em_Consumer Electronics & Displays",
+        "name": "Consumer Electronics & Displays",
         "column": 2,
-        "value": 3.0
+        "value": 2.4
+      },
+      {
+        "id": "em_Energy & Environment",
+        "name": "Energy & Environment",
+        "column": 2,
+        "value": 4.1
       }
     ],
     "links": [
@@ -3845,102 +3775,107 @@
       },
       {
         "source": "rtic_Quantum Tech",
-        "target": "em_Scientific Research & Instrumentation",
+        "target": "em_Quantum Computing & Information",
         "value": 22.1
       },
       {
         "source": "rtic_Optics",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 246.2
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 369.3
       },
       {
         "source": "rtic_Optics",
-        "target": "em_Scientific Research & Instrumentation",
-        "value": 246.2
+        "target": "em_Telecommunications & Networks",
+        "value": 184.7
       },
       {
         "source": "rtic_Optics",
         "target": "em_Healthcare & Medical Devices",
-        "value": 246.2
+        "value": 184.7
       },
       {
         "source": "rtic_Microelectronics",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 3.0
-      },
-      {
-        "source": "rtic_Microelectronics",
-        "target": "em_Consumer Electronics",
-        "value": 3.0
+        "target": "em_Telecommunications & Networks",
+        "value": 2.4
       },
       {
         "source": "rtic_Microelectronics",
         "target": "em_Scientific Research & Instrumentation",
-        "value": 3.0
+        "value": 4.9
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Consumer Electronics & Displays",
+        "value": 2.4
       },
       {
         "source": "rtic_Microelectronics",
         "target": "em_Healthcare & Medical Devices",
-        "value": 3.0
+        "value": 2.4
       },
       {
         "source": "rtic_Telecommunications",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 84.4
-      },
-      {
-        "source": "rtic_Telecommunications",
-        "target": "em_Defense & Security",
+        "target": "em_Telecommunications & Networks",
         "value": 56.3
       },
       {
-        "source": "rtic_Industry 4.0",
-        "target": "em_Industrial Manufacturing",
-        "value": 4.6
+        "source": "rtic_Telecommunications",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 28.1
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 28.1
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Defense & Security",
+        "value": 28.1
       },
       {
         "source": "rtic_Industry 4.0",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 4.6
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 6.5
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Telecommunications & Networks",
+        "value": 3.2
       },
       {
         "source": "rtic_Industry 4.0",
         "target": "em_Defense & Security",
-        "value": 4.6
+        "value": 3.2
       },
       {
         "source": "rtic_Industry 4.0",
-        "target": "em_Energy & Environmental Monitoring",
-        "value": 2.3
-      },
-      {
-        "source": "rtic_Smart Sensors",
-        "target": "em_Industrial Manufacturing",
-        "value": 4.0
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 3.2
       },
       {
         "source": "rtic_Smart Sensors",
         "target": "em_Healthcare & Medical Devices",
-        "value": 2.0
+        "value": 2.7
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Energy & Environmental Monitoring",
-        "value": 2.0
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 2.7
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 2.7
       },
       {
         "source": "rtic_Photovoltaics",
-        "target": "em_Energy & Environmental Monitoring",
+        "target": "em_Energy & Environment",
         "value": 4.1
       },
       {
         "source": "rtic_Adjacent Tech",
         "target": "em_Defense & Security",
-        "value": 1
-      },
-      {
-        "source": "rtic_Adjacent Tech",
-        "target": "em_Telecommunications & Data Infrastructure",
         "value": 1
       }
     ]
@@ -4032,46 +3967,40 @@
         "value": 1
       },
       {
-        "id": "em_Healthcare & Medical Devices",
-        "name": "Healthcare & Medical Devices",
+        "id": "em_Energy & Environment",
+        "name": "Energy & Environment",
         "column": 2,
-        "value": 12.1
-      },
-      {
-        "id": "em_Energy & Environmental Monitoring",
-        "name": "Energy & Environmental Monitoring",
-        "column": 2,
-        "value": 11.9
+        "value": 12.2
       },
       {
         "id": "em_Scientific Research & Instrumentation",
         "name": "Scientific Research & Instrumentation",
         "column": 2,
-        "value": 20.6
+        "value": 20.7
       },
       {
-        "id": "em_Consumer Electronics",
-        "name": "Consumer Electronics",
+        "id": "em_Healthcare & Medical Devices",
+        "name": "Healthcare & Medical Devices",
+        "column": 2,
+        "value": 1.8
+      },
+      {
+        "id": "em_Semiconductor & Chip Manufacturing",
+        "name": "Semiconductor & Chip Manufacturing",
         "column": 2,
         "value": 1
       },
       {
-        "id": "em_Space & Aerospace",
-        "name": "Space & Aerospace",
+        "id": "em_Industrial Manufacturing & Processing",
+        "name": "Industrial Manufacturing & Processing",
         "column": 2,
-        "value": 1
-      },
-      {
-        "id": "em_Defense & Security",
-        "name": "Defense & Security",
-        "column": 2,
-        "value": 6.2
+        "value": 9.9
       },
       {
         "id": "em_Automotive & Transportation",
         "name": "Automotive & Transportation",
         "column": 2,
-        "value": 6.2
+        "value": 12.5
       }
     ],
     "links": [
@@ -4142,7 +4071,7 @@
       },
       {
         "source": "rtic_Optics",
-        "target": "em_Energy & Environmental Monitoring",
+        "target": "em_Energy & Environment",
         "value": 9.9
       },
       {
@@ -4152,47 +4081,37 @@
       },
       {
         "source": "rtic_Optics",
-        "target": "em_Healthcare & Medical Devices",
+        "target": "em_Industrial Manufacturing & Processing",
         "value": 9.9
       },
       {
         "source": "rtic_Smart Sensors",
         "target": "em_Healthcare & Medical Devices",
-        "value": 2.2
+        "value": 1.8
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Energy & Environmental Monitoring",
-        "value": 1.5
+        "target": "em_Energy & Environment",
+        "value": 1.8
       },
       {
         "source": "rtic_Smart Sensors",
         "target": "em_Scientific Research & Instrumentation",
-        "value": 0.8
+        "value": 0.9
       },
       {
         "source": "rtic_Industry 4.0",
-        "target": "em_Energy & Environmental Monitoring",
+        "target": "em_Energy & Environment",
         "value": 0.5
       },
       {
         "source": "rtic_Quantum Tech",
-        "target": "em_Defense & Security",
-        "value": 6.2
-      },
-      {
-        "source": "rtic_Quantum Tech",
         "target": "em_Automotive & Transportation",
-        "value": 6.2
+        "value": 12.5
       },
       {
         "source": "rtic_Adjacent Tech",
-        "target": "em_Consumer Electronics",
-        "value": 1
-      },
-      {
-        "source": "rtic_Adjacent Tech",
-        "target": "em_Space & Aerospace",
+        "target": "em_Semiconductor & Chip Manufacturing",
         "value": 1
       }
     ]
@@ -4248,22 +4167,16 @@
         "value": 4
       },
       {
-        "id": "em_Telecommunications & Data Infrastructure",
-        "name": "Telecommunications & Data Infrastructure",
-        "column": 2,
-        "value": 9
-      },
-      {
-        "id": "em_Computing & AI Hardware",
-        "name": "Computing & AI Hardware",
-        "column": 2,
-        "value": 4
-      },
-      {
         "id": "em_Defense & Security",
         "name": "Defense & Security",
         "column": 2,
-        "value": 4
+        "value": 5
+      },
+      {
+        "id": "em_Telecommunications & Networks",
+        "name": "Telecommunications & Networks",
+        "column": 2,
+        "value": 5
       },
       {
         "id": "em_Space & Aerospace",
@@ -4272,26 +4185,32 @@
         "value": 5
       },
       {
-        "id": "em_Energy & Environmental Monitoring",
-        "name": "Energy & Environmental Monitoring",
+        "id": "em_Industrial Manufacturing & Processing",
+        "name": "Industrial Manufacturing & Processing",
         "column": 2,
         "value": 4
       },
       {
-        "id": "em_Healthcare & Medical Devices",
-        "name": "Healthcare & Medical Devices",
+        "id": "em_Scientific Research & Instrumentation",
+        "name": "Scientific Research & Instrumentation",
         "column": 2,
         "value": 2
       },
       {
-        "id": "em_Marine & Maritime",
-        "name": "Marine & Maritime",
+        "id": "em_Semiconductor & Chip Manufacturing",
+        "name": "Semiconductor & Chip Manufacturing",
         "column": 2,
-        "value": 1
+        "value": 2
       },
       {
-        "id": "em_Scientific Research & Instrumentation",
-        "name": "Scientific Research & Instrumentation",
+        "id": "em_Quantum Computing & Information",
+        "name": "Quantum Computing & Information",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Marine & Agriculture",
+        "name": "Marine & Agriculture",
         "column": 2,
         "value": 1
       },
@@ -4299,7 +4218,7 @@
         "id": "em_Other Markets",
         "name": "Other Markets",
         "column": 2,
-        "value": 2
+        "value": 5
       }
     ],
     "links": [
@@ -4315,18 +4234,23 @@
       },
       {
         "source": "rtic_Industry 4.0",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 2
+        "target": "em_Other Markets",
+        "value": 1
       },
       {
         "source": "rtic_Industry 4.0",
-        "target": "em_Energy & Environmental Monitoring",
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 1
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Telecommunications & Networks",
         "value": 1
       },
       {
         "source": "rtic_Smart Sensors",
         "target": "em_Defense & Security",
-        "value": 2
+        "value": 3
       },
       {
         "source": "rtic_Smart Sensors",
@@ -4335,37 +4259,32 @@
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 2
+        "target": "em_Other Markets",
+        "value": 1
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Energy & Environmental Monitoring",
-        "value": 2
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 1
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Marine & Maritime",
+        "target": "em_Marine & Agriculture",
         "value": 1
       },
       {
         "source": "rtic_Smart Sensors",
         "target": "em_Scientific Research & Instrumentation",
-        "value": 1
+        "value": 2
       },
       {
-        "source": "rtic_Smart Sensors",
-        "target": "em_Healthcare & Medical Devices",
+        "source": "rtic_Microelectronics",
+        "target": "em_Quantum Computing & Information",
         "value": 1
       },
       {
         "source": "rtic_Microelectronics",
-        "target": "em_Computing & AI Hardware",
-        "value": 1
-      },
-      {
-        "source": "rtic_Microelectronics",
-        "target": "em_Telecommunications & Data Infrastructure",
+        "target": "em_Telecommunications & Networks",
         "value": 1
       },
       {
@@ -4375,12 +4294,12 @@
       },
       {
         "source": "rtic_Quantum Tech",
-        "target": "em_Computing & AI Hardware",
+        "target": "em_Quantum Computing & Information",
         "value": 1
       },
       {
         "source": "rtic_Photovoltaics",
-        "target": "em_Telecommunications & Data Infrastructure",
+        "target": "em_Telecommunications & Networks",
         "value": 1
       },
       {
@@ -4390,32 +4309,37 @@
       },
       {
         "source": "rtic_Telecommunications",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 2
+        "target": "em_Telecommunications & Networks",
+        "value": 1
       },
       {
         "source": "rtic_Telecommunications",
-        "target": "em_Energy & Environmental Monitoring",
+        "target": "em_Other Markets",
+        "value": 1
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Industrial Manufacturing & Processing",
         "value": 1
       },
       {
         "source": "rtic_Optics",
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 1
+      },
+      {
+        "source": "rtic_Adjacent Tech",
         "target": "em_Other Markets",
         "value": 2
       },
       {
         "source": "rtic_Adjacent Tech",
-        "target": "em_Healthcare & Medical Devices",
-        "value": 1
-      },
-      {
-        "source": "rtic_Adjacent Tech",
-        "target": "em_Computing & AI Hardware",
+        "target": "em_Semiconductor & Chip Manufacturing",
         "value": 2
       },
       {
         "source": "rtic_Adjacent Tech",
-        "target": "em_Telecommunications & Data Infrastructure",
+        "target": "em_Telecommunications & Networks",
         "value": 1
       }
     ]
@@ -4507,40 +4431,46 @@
         "value": 1
       },
       {
-        "id": "em_Computing & AI Hardware",
-        "name": "Computing & AI Hardware",
-        "column": 2,
-        "value": 67.9
-      },
-      {
-        "id": "em_Financial Services & Cybersecurity",
-        "name": "Financial Services & Cybersecurity",
-        "column": 2,
-        "value": 11.0
-      },
-      {
         "id": "em_Scientific Research & Instrumentation",
         "name": "Scientific Research & Instrumentation",
         "column": 2,
-        "value": 78.5
+        "value": 115.3
       },
       {
-        "id": "em_Industrial Manufacturing",
-        "name": "Industrial Manufacturing",
+        "id": "em_Quantum Computing & Information",
+        "name": "Quantum Computing & Information",
         "column": 2,
-        "value": 37.8
+        "value": 48.2
       },
       {
-        "id": "em_Consumer Electronics",
-        "name": "Consumer Electronics",
+        "id": "em_Semiconductor & Chip Manufacturing",
+        "name": "Semiconductor & Chip Manufacturing",
         "column": 2,
-        "value": 37.8
+        "value": 39.8
       },
       {
-        "id": "em_Telecommunications & Data Infrastructure",
-        "name": "Telecommunications & Data Infrastructure",
+        "id": "em_Telecommunications & Networks",
+        "name": "Telecommunications & Networks",
         "column": 2,
-        "value": 3.7
+        "value": 4.2
+      },
+      {
+        "id": "em_Industrial Manufacturing & Processing",
+        "name": "Industrial Manufacturing & Processing",
+        "column": 2,
+        "value": 25.0
+      },
+      {
+        "id": "em_Automotive & Transportation",
+        "name": "Automotive & Transportation",
+        "column": 2,
+        "value": 2.2
+      },
+      {
+        "id": "em_Healthcare & Medical Devices",
+        "name": "Healthcare & Medical Devices",
+        "column": 2,
+        "value": 2.2
       }
     ],
     "links": [
@@ -4607,66 +4537,61 @@
       {
         "source": "rtic_Quantum Tech",
         "target": "em_Scientific Research & Instrumentation",
-        "value": 7.3
+        "value": 8.4
       },
       {
         "source": "rtic_Quantum Tech",
-        "target": "em_Computing & AI Hardware",
-        "value": 7.3
+        "target": "em_Semiconductor & Chip Manufacturing",
+        "value": 4.2
       },
       {
         "source": "rtic_Quantum Tech",
-        "target": "em_Financial Services & Cybersecurity",
-        "value": 11.0
+        "target": "em_Quantum Computing & Information",
+        "value": 12.6
       },
       {
         "source": "rtic_Quantum Tech",
-        "target": "em_Telecommunications & Data Infrastructure",
-        "value": 3.7
-      },
-      {
-        "source": "rtic_Optics",
-        "target": "em_Industrial Manufacturing",
-        "value": 35.6
-      },
-      {
-        "source": "rtic_Optics",
-        "target": "em_Consumer Electronics",
-        "value": 35.6
+        "target": "em_Telecommunications & Networks",
+        "value": 4.2
       },
       {
         "source": "rtic_Optics",
         "target": "em_Scientific Research & Instrumentation",
-        "value": 71.2
+        "value": 106.9
       },
       {
         "source": "rtic_Optics",
-        "target": "em_Computing & AI Hardware",
+        "target": "em_Semiconductor & Chip Manufacturing",
+        "value": 35.6
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Quantum Computing & Information",
         "value": 35.6
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Consumer Electronics",
+        "target": "em_Automotive & Transportation",
         "value": 1.1
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Industrial Manufacturing",
+        "target": "em_Healthcare & Medical Devices",
         "value": 1.1
       },
       {
         "source": "rtic_Industry 4.0",
-        "target": "em_Consumer Electronics",
+        "target": "em_Automotive & Transportation",
         "value": 1.1
       },
       {
         "source": "rtic_Industry 4.0",
-        "target": "em_Industrial Manufacturing",
+        "target": "em_Healthcare & Medical Devices",
         "value": 1.1
       },
       {
         "source": "rtic_Adjacent Tech",
-        "target": "em_Computing & AI Hardware",
+        "target": "em_Industrial Manufacturing & Processing",
         "value": 25.0
       }
     ]
@@ -4755,25 +4680,25 @@
         "id": "em_Scientific Research & Instrumentation",
         "name": "Scientific Research & Instrumentation",
         "column": 2,
-        "value": 81.7
+        "value": 53.0
       },
       {
-        "id": "em_Industrial Manufacturing",
-        "name": "Industrial Manufacturing",
+        "id": "em_Industrial Manufacturing & Processing",
+        "name": "Industrial Manufacturing & Processing",
         "column": 2,
         "value": 60.2
       },
       {
-        "id": "em_Computing & AI Hardware",
-        "name": "Computing & AI Hardware",
-        "column": 2,
-        "value": 12.2
-      },
-      {
-        "id": "em_Marine & Maritime",
-        "name": "Marine & Maritime",
+        "id": "em_Marine & Agriculture",
+        "name": "Marine & Agriculture",
         "column": 2,
         "value": 5.2
+      },
+      {
+        "id": "em_Semiconductor & Chip Manufacturing",
+        "name": "Semiconductor & Chip Manufacturing",
+        "column": 2,
+        "value": 40.8
       },
       {
         "id": "em_Automotive & Transportation",
@@ -4851,12 +4776,12 @@
       },
       {
         "source": "rtic_Quantum Tech",
-        "target": "em_Computing & AI Hardware",
+        "target": "em_Scientific Research & Instrumentation",
         "value": 12.2
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Marine & Maritime",
+        "target": "em_Marine & Agriculture",
         "value": 5.2
       },
       {
@@ -4866,7 +4791,7 @@
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Industrial Manufacturing",
+        "target": "em_Industrial Manufacturing & Processing",
         "value": 5.2
       },
       {
@@ -4877,16 +4802,21 @@
       {
         "source": "rtic_Optics",
         "target": "em_Scientific Research & Instrumentation",
-        "value": 81.7
+        "value": 40.8
       },
       {
         "source": "rtic_Optics",
-        "target": "em_Industrial Manufacturing",
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 40.8
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Semiconductor & Chip Manufacturing",
         "value": 40.8
       },
       {
         "source": "rtic_Industry 4.0",
-        "target": "em_Industrial Manufacturing",
+        "target": "em_Industrial Manufacturing & Processing",
         "value": 14.2
       }
     ]
@@ -4984,46 +4914,52 @@
         "value": 3
       },
       {
+        "id": "em_Semiconductor & Chip Manufacturing",
+        "name": "Semiconductor & Chip Manufacturing",
+        "column": 2,
+        "value": 9.1
+      },
+      {
         "id": "em_Healthcare & Medical Devices",
         "name": "Healthcare & Medical Devices",
         "column": 2,
         "value": 7.9
       },
       {
-        "id": "em_Computing & AI Hardware",
-        "name": "Computing & AI Hardware",
+        "id": "em_Consumer Electronics & Displays",
+        "name": "Consumer Electronics & Displays",
         "column": 2,
-        "value": 5.3
+        "value": 3.9
       },
       {
-        "id": "em_Industrial Manufacturing",
-        "name": "Industrial Manufacturing",
+        "id": "em_Industrial Manufacturing & Processing",
+        "name": "Industrial Manufacturing & Processing",
         "column": 2,
-        "value": 8.6
+        "value": 4.6
       },
       {
-        "id": "em_Consumer Electronics",
-        "name": "Consumer Electronics",
-        "column": 2,
-        "value": 2.6
-      },
-      {
-        "id": "em_Telecommunications & Data Infrastructure",
-        "name": "Telecommunications & Data Infrastructure",
+        "id": "em_Telecommunications & Networks",
+        "name": "Telecommunications & Networks",
         "column": 2,
         "value": 4.5
+      },
+      {
+        "id": "em_Defense & Security",
+        "name": "Defense & Security",
+        "column": 2,
+        "value": 0.5
+      },
+      {
+        "id": "em_Quantum Computing & Information",
+        "name": "Quantum Computing & Information",
+        "column": 2,
+        "value": 0.5
       },
       {
         "id": "em_Financial Services & Cybersecurity",
         "name": "Financial Services & Cybersecurity",
         "column": 2,
         "value": 2.3
-      },
-      {
-        "id": "em_Scientific Research & Instrumentation",
-        "name": "Scientific Research & Instrumentation",
-        "column": 2,
-        "value": 2.2
       }
     ],
     "links": [
@@ -5099,17 +5035,22 @@
       },
       {
         "source": "rtic_Quantum Tech",
-        "target": "em_Consumer Electronics",
-        "value": 0.8
+        "target": "em_Consumer Electronics & Displays",
+        "value": 0.5
       },
       {
         "source": "rtic_Quantum Tech",
-        "target": "em_Computing & AI Hardware",
-        "value": 0.8
+        "target": "em_Defense & Security",
+        "value": 0.5
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Quantum Computing & Information",
+        "value": 0.5
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Computing & AI Hardware",
+        "target": "em_Consumer Electronics & Displays",
         "value": 2.2
       },
       {
@@ -5119,32 +5060,42 @@
       },
       {
         "source": "rtic_Smart Sensors",
-        "target": "em_Scientific Research & Instrumentation",
+        "target": "em_Semiconductor & Chip Manufacturing",
         "value": 2.2
       },
       {
         "source": "rtic_Microelectronics",
-        "target": "em_Consumer Electronics",
-        "value": 1.8
+        "target": "em_Consumer Electronics & Displays",
+        "value": 1.2
       },
       {
         "source": "rtic_Microelectronics",
-        "target": "em_Industrial Manufacturing",
-        "value": 1.8
+        "target": "em_Industrial Manufacturing & Processing",
+        "value": 1.2
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Semiconductor & Chip Manufacturing",
+        "value": 1.2
       },
       {
         "source": "rtic_Telecommunications",
-        "target": "em_Telecommunications & Data Infrastructure",
+        "target": "em_Telecommunications & Networks",
         "value": 4.5
       },
       {
         "source": "rtic_Optics",
-        "target": "em_Industrial Manufacturing",
-        "value": 6.8
+        "target": "em_Semiconductor & Chip Manufacturing",
+        "value": 3.4
       },
       {
         "source": "rtic_Optics",
         "target": "em_Healthcare & Medical Devices",
+        "value": 3.4
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Industrial Manufacturing & Processing",
         "value": 3.4
       },
       {
@@ -5159,7 +5110,7 @@
       },
       {
         "source": "rtic_Adjacent Tech",
-        "target": "em_Computing & AI Hardware",
+        "target": "em_Semiconductor & Chip Manufacturing",
         "value": 2.3
       }
     ]

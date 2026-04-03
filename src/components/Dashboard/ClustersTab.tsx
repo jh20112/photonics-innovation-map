@@ -105,6 +105,7 @@ export function ClustersTab({ onSelectCluster }: Props) {
           <ClusterSankey
             data={clusterSankey}
             clusterLabel={selectedCluster.label}
+            summary={clusterData?.clusters.find(c => c.id === selectedCluster.id)?.summary ?? null}
             onBack={handleBack}
           />
         </div>

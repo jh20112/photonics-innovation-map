@@ -241,6 +241,16 @@ export interface ClusterSummary {
   total_grants: number;
   total_funding_gbp: number;
   top_companies: string[];
+  // Composite scoring fields (optional — only on composite clusters)
+  composite_score?: number;
+  research_score?: number;
+  company_score?: number;
+  funding_score?: number;
+  infra_score?: number;
+  total_publications?: number;
+  institution_count?: number;
+  top_institutions?: string[];
+  institution_names?: string[];
 }
 
 export interface Cluster {
