@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import { DashboardTable } from './DashboardTable';
+import { ClusterSankey } from './ClusterSankey';
 import type { Column } from './DashboardTable';
 import type { ClusterData, ClusterType } from '../../types/api';
-import { useClusters } from '../../hooks/useApi';
+import { useClusters, useSankeyData } from '../../hooks/useApi';
 
 interface Props {
   onSelectCluster: (clusterId: number, clusterType: ClusterType) => void;
@@ -59,10 +60,57 @@ function flattenCluster(cluster: ClusterData['clusters'][0]): Record<string, unk
 
 export function ClustersTab({ onSelectCluster }: Props) {
   const [activeType, setActiveType] = useState<ClusterType>('composite');
+  const [selectedCluster, setSelectedCluster] = useState<{ id: number; label: string } | null>(null);
   const { data: clusterData } = useClusters(activeType);
+  const { data: sankeyData } = useSankeyData();
 
   const columns = [...BASE_COLUMNS, ...(EXTRA_COLUMNS[activeType] || [])];
   const data = clusterData?.clusters.map(flattenCluster) ?? [];
+
+  const handleRowClick = (row: Record<string, unknown>) => {
+    const sankeyKey = `${activeType}_${row.id}`;
+    if (sankeyData && sankeyData[sankeyKey] && sankeyData[sankeyKey].nodes.length > 0) {
+      setSelectedCluster({ id: row.id as number, label: row.label as string });
+    } else {
+      onSelectCluster(row.id as number, activeType);
+    }
+  };
+
+  const handleBack = () => {
+    setSelectedCluster(null);
+  };
+
+  // Show Sankey view for selected cluster
+  if (selectedCluster && sankeyData) {
+    const sankeyKey = `${activeType}_${selectedCluster.id}`;
+    const clusterSankey = sankeyData[sankeyKey];
+
+    if (clusterSankey) {
+      return (
+        <div>
+          <div className="dash-sub-tabs">
+            {CLUSTER_TYPES.map(ct => (
+              <button
+                key={ct.type}
+                className={`dash-sub-tab ${activeType === ct.type ? 'active' : ''}`}
+                onClick={() => {
+                  setActiveType(ct.type);
+                  setSelectedCluster(null);
+                }}
+              >
+                {ct.label}
+              </button>
+            ))}
+          </div>
+          <ClusterSankey
+            data={clusterSankey}
+            clusterLabel={selectedCluster.label}
+            onBack={handleBack}
+          />
+        </div>
+      );
+    }
+  }
 
   return (
     <div>
@@ -71,7 +119,10 @@ export function ClustersTab({ onSelectCluster }: Props) {
           <button
             key={ct.type}
             className={`dash-sub-tab ${activeType === ct.type ? 'active' : ''}`}
-            onClick={() => setActiveType(ct.type)}
+            onClick={() => {
+              setActiveType(ct.type);
+              setSelectedCluster(null);
+            }}
           >
             {ct.label}
           </button>
@@ -82,7 +133,7 @@ export function ClustersTab({ onSelectCluster }: Props) {
           columns={columns}
           data={data}
           defaultSortKey={DEFAULT_SORT[activeType] || 'member_count'}
-          onRowClick={(row) => onSelectCluster(row.id as number, activeType)}
+          onRowClick={handleRowClick}
           searchField="label"
           searchPlaceholder="Search clusters..."
         />

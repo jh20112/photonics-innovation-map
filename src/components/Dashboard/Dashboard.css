@@ -204,3 +204,60 @@
   border-top: 1px solid var(--c-border-subtle);
   flex-shrink: 0;
 }
+
+/* Sankey diagram */
+.sankey-container {
+  padding: 0 16px 16px;
+}
+
+.sankey-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 0;
+}
+
+.sankey-header h3 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--c-text);
+}
+
+.sankey-back {
+  background: none;
+  border: 1px solid var(--c-border-subtle);
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 12px;
+  color: var(--c-text-muted);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.sankey-back:hover {
+  border-color: var(--c-primary);
+  color: var(--c-primary);
+}
+
+.sankey-svg {
+  width: 100%;
+  max-height: 500px;
+}
+
+.sankey-column-header {
+  font-size: 11px;
+  font-weight: 600;
+  fill: var(--c-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.sankey-label {
+  font-size: 10px;
+  fill: var(--c-text);
+}
+
+.sankey-link {
+  transition: stroke-opacity 0.2s;
+}

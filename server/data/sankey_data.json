@@ -1,0 +1,5167 @@
+{
+  "composite_0": {
+    "nodes": [
+      {
+        "id": "topic_Photonic and Optical Devices",
+        "name": "Photonic and Optical Devices",
+        "column": 0,
+        "value": 365
+      },
+      {
+        "id": "topic_Photonic Crystals and Applications",
+        "name": "Photonic Crystals and Applications",
+        "column": 0,
+        "value": 166
+      },
+      {
+        "id": "topic_Plasmonic and Surface Plasmon Research",
+        "name": "Plasmonic and Surface Plasmon Research",
+        "column": 0,
+        "value": 145
+      },
+      {
+        "id": "topic_Quantum Information and Cryptography",
+        "name": "Quantum Information and Cryptography",
+        "column": 0,
+        "value": 82
+      },
+      {
+        "id": "topic_Topological Materials and Phenomena",
+        "name": "Topological Materials and Phenomena",
+        "column": 0,
+        "value": 60
+      },
+      {
+        "id": "topic_Metamaterials and Metasurfaces Applications",
+        "name": "Metamaterials and Metasurfaces Applications",
+        "column": 0,
+        "value": 57
+      },
+      {
+        "id": "topic_Advanced Photonic Communication Systems",
+        "name": "Advanced Photonic Communication Systems",
+        "column": 0,
+        "value": 39
+      },
+      {
+        "id": "topic_Optical Network Technologies",
+        "name": "Optical Network Technologies",
+        "column": 0,
+        "value": 38
+      },
+      {
+        "id": "topic_Other Research",
+        "name": "Other Research",
+        "column": 0,
+        "value": 212
+      },
+      {
+        "id": "rtic_Industry 4.0",
+        "name": "Industry 4.0",
+        "column": 1,
+        "value": 4
+      },
+      {
+        "id": "rtic_Microelectronics",
+        "name": "Microelectronics",
+        "column": 1,
+        "value": 13
+      },
+      {
+        "id": "rtic_Optics",
+        "name": "Optics",
+        "column": 1,
+        "value": 22
+      },
+      {
+        "id": "rtic_Photovoltaics",
+        "name": "Photovoltaics",
+        "column": 1,
+        "value": 3
+      },
+      {
+        "id": "rtic_Quantum Tech",
+        "name": "Quantum Tech",
+        "column": 1,
+        "value": 14
+      },
+      {
+        "id": "rtic_Smart Sensors",
+        "name": "Smart Sensors",
+        "column": 1,
+        "value": 15
+      },
+      {
+        "id": "rtic_Telecommunications",
+        "name": "Telecommunications",
+        "column": 1,
+        "value": 15
+      },
+      {
+        "id": "rtic_Adjacent Tech",
+        "name": "Adjacent Tech",
+        "column": 1,
+        "value": 9
+      },
+      {
+        "id": "em_Telecommunications & Data Infrastructure",
+        "name": "Telecommunications & Data Infrastructure",
+        "column": 2,
+        "value": 19
+      },
+      {
+        "id": "em_Computing & AI Hardware",
+        "name": "Computing & AI Hardware",
+        "column": 2,
+        "value": 14
+      },
+      {
+        "id": "em_Healthcare & Medical Devices",
+        "name": "Healthcare & Medical Devices",
+        "column": 2,
+        "value": 14
+      },
+      {
+        "id": "em_Consumer Electronics",
+        "name": "Consumer Electronics",
+        "column": 2,
+        "value": 10
+      },
+      {
+        "id": "em_Energy & Environmental Monitoring",
+        "name": "Energy & Environmental Monitoring",
+        "column": 2,
+        "value": 9
+      },
+      {
+        "id": "em_Scientific Research & Instrumentation",
+        "name": "Scientific Research & Instrumentation",
+        "column": 2,
+        "value": 6
+      },
+      {
+        "id": "em_Financial Services & Cybersecurity",
+        "name": "Financial Services & Cybersecurity",
+        "column": 2,
+        "value": 4
+      },
+      {
+        "id": "em_Automotive & Transportation",
+        "name": "Automotive & Transportation",
+        "column": 2,
+        "value": 3
+      },
+      {
+        "id": "em_Other Markets",
+        "name": "Other Markets",
+        "column": 2,
+        "value": 12
+      }
+    ],
+    "links": [
+      {
+        "source": "topic_Photonic and Optical Devices",
+        "target": "rtic_Optics",
+        "value": 365.0
+      },
+      {
+        "source": "topic_Photonic Crystals and Applications",
+        "target": "rtic_Optics",
+        "value": 166.0
+      },
+      {
+        "source": "topic_Plasmonic and Surface Plasmon Research",
+        "target": "rtic_Optics",
+        "value": 145.0
+      },
+      {
+        "source": "topic_Quantum Information and Cryptography",
+        "target": "rtic_Quantum Tech",
+        "value": 82.0
+      },
+      {
+        "source": "topic_Topological Materials and Phenomena",
+        "target": "rtic_Quantum Tech",
+        "value": 60.0
+      },
+      {
+        "source": "topic_Metamaterials and Metasurfaces Applications",
+        "target": "rtic_Optics",
+        "value": 57.0
+      },
+      {
+        "source": "topic_Advanced Photonic Communication Systems",
+        "target": "rtic_Telecommunications",
+        "value": 39.0
+      },
+      {
+        "source": "topic_Optical Network Technologies",
+        "target": "rtic_Telecommunications",
+        "value": 38.0
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Industry 4.0",
+        "value": 9.9
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Microelectronics",
+        "value": 32.0
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Optics",
+        "value": 54.2
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Photovoltaics",
+        "value": 7.4
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Quantum Tech",
+        "value": 34.5
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Smart Sensors",
+        "value": 37.0
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Telecommunications",
+        "value": 37.0
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Financial Services & Cybersecurity",
+        "value": 3
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 4
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Computing & AI Hardware",
+        "value": 8
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Other Markets",
+        "value": 3
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 3
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Automotive & Transportation",
+        "value": 2
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Consumer Electronics",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Other Markets",
+        "value": 4
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Financial Services & Cybersecurity",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Consumer Electronics",
+        "value": 2
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Automotive & Transportation",
+        "value": 2
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Computing & AI Hardware",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 5
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 5
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 2
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 2
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Computing & AI Hardware",
+        "value": 9
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Other Markets",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 5
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Consumer Electronics",
+        "value": 2
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 3
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 7
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 5
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Other Markets",
+        "value": 7
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Financial Services & Cybersecurity",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Consumer Electronics",
+        "value": 5
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Computing & AI Hardware",
+        "value": 2
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Automotive & Transportation",
+        "value": 1
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 12
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Other Markets",
+        "value": 1
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Consumer Electronics",
+        "value": 1
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Computing & AI Hardware",
+        "value": 3
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 1
+      },
+      {
+        "source": "rtic_Photovoltaics",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 2
+      },
+      {
+        "source": "rtic_Photovoltaics",
+        "target": "em_Computing & AI Hardware",
+        "value": 1
+      },
+      {
+        "source": "rtic_Photovoltaics",
+        "target": "em_Other Markets",
+        "value": 1
+      },
+      {
+        "source": "rtic_Adjacent Tech",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 3
+      },
+      {
+        "source": "rtic_Adjacent Tech",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 2
+      },
+      {
+        "source": "rtic_Adjacent Tech",
+        "target": "em_Computing & AI Hardware",
+        "value": 2
+      },
+      {
+        "source": "rtic_Adjacent Tech",
+        "target": "em_Consumer Electronics",
+        "value": 1
+      },
+      {
+        "source": "rtic_Adjacent Tech",
+        "target": "em_Other Markets",
+        "value": 1
+      },
+      {
+        "source": "rtic_Adjacent Tech",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 1
+      }
+    ]
+  },
+  "composite_1": {
+    "nodes": [
+      {
+        "id": "topic_Photonic and Optical Devices",
+        "name": "Photonic and Optical Devices",
+        "column": 0,
+        "value": 123
+      },
+      {
+        "id": "topic_Photonic Crystals and Applications",
+        "name": "Photonic Crystals and Applications",
+        "column": 0,
+        "value": 97
+      },
+      {
+        "id": "topic_Spectroscopy and Laser Applications",
+        "name": "Spectroscopy and Laser Applications",
+        "column": 0,
+        "value": 34
+      },
+      {
+        "id": "topic_Quantum Information and Cryptography",
+        "name": "Quantum Information and Cryptography",
+        "column": 0,
+        "value": 27
+      },
+      {
+        "id": "topic_Advanced Fiber Laser Technologies",
+        "name": "Advanced Fiber Laser Technologies",
+        "column": 0,
+        "value": 25
+      },
+      {
+        "id": "topic_Neural Networks and Reservoir Computing",
+        "name": "Neural Networks and Reservoir Computing",
+        "column": 0,
+        "value": 22
+      },
+      {
+        "id": "topic_Strong Light-Matter Interactions",
+        "name": "Strong Light-Matter Interactions",
+        "column": 0,
+        "value": 20
+      },
+      {
+        "id": "topic_Optical Network Technologies",
+        "name": "Optical Network Technologies",
+        "column": 0,
+        "value": 18
+      },
+      {
+        "id": "topic_Other Research",
+        "name": "Other Research",
+        "column": 0,
+        "value": 43
+      },
+      {
+        "id": "rtic_Industry 4.0",
+        "name": "Industry 4.0",
+        "column": 1,
+        "value": 8
+      },
+      {
+        "id": "rtic_Microelectronics",
+        "name": "Microelectronics",
+        "column": 1,
+        "value": 6
+      },
+      {
+        "id": "rtic_Optics",
+        "name": "Optics",
+        "column": 1,
+        "value": 14
+      },
+      {
+        "id": "rtic_Photovoltaics",
+        "name": "Photovoltaics",
+        "column": 1,
+        "value": 5
+      },
+      {
+        "id": "rtic_Quantum Tech",
+        "name": "Quantum Tech",
+        "column": 1,
+        "value": 4
+      },
+      {
+        "id": "rtic_Smart Sensors",
+        "name": "Smart Sensors",
+        "column": 1,
+        "value": 13
+      },
+      {
+        "id": "rtic_Telecommunications",
+        "name": "Telecommunications",
+        "column": 1,
+        "value": 5
+      },
+      {
+        "id": "rtic_Adjacent Tech",
+        "name": "Adjacent Tech",
+        "column": 1,
+        "value": 7
+      },
+      {
+        "id": "em_Energy & Environmental Monitoring",
+        "name": "Energy & Environmental Monitoring",
+        "column": 2,
+        "value": 10
+      },
+      {
+        "id": "em_Scientific Research & Instrumentation",
+        "name": "Scientific Research & Instrumentation",
+        "column": 2,
+        "value": 9
+      },
+      {
+        "id": "em_Consumer Electronics",
+        "name": "Consumer Electronics",
+        "column": 2,
+        "value": 8
+      },
+      {
+        "id": "em_Telecommunications & Data Infrastructure",
+        "name": "Telecommunications & Data Infrastructure",
+        "column": 2,
+        "value": 8
+      },
+      {
+        "id": "em_Industrial Manufacturing",
+        "name": "Industrial Manufacturing",
+        "column": 2,
+        "value": 7
+      },
+      {
+        "id": "em_Healthcare & Medical Devices",
+        "name": "Healthcare & Medical Devices",
+        "column": 2,
+        "value": 6
+      },
+      {
+        "id": "em_Computing & AI Hardware",
+        "name": "Computing & AI Hardware",
+        "column": 2,
+        "value": 3
+      },
+      {
+        "id": "em_Marine & Maritime",
+        "name": "Marine & Maritime",
+        "column": 2,
+        "value": 1
+      },
+      {
+        "id": "em_Other Markets",
+        "name": "Other Markets",
+        "column": 2,
+        "value": 4
+      }
+    ],
+    "links": [
+      {
+        "source": "topic_Photonic and Optical Devices",
+        "target": "rtic_Optics",
+        "value": 123.0
+      },
+      {
+        "source": "topic_Photonic Crystals and Applications",
+        "target": "rtic_Optics",
+        "value": 97.0
+      },
+      {
+        "source": "topic_Spectroscopy and Laser Applications",
+        "target": "rtic_Optics",
+        "value": 17.0
+      },
+      {
+        "source": "topic_Spectroscopy and Laser Applications",
+        "target": "rtic_Smart Sensors",
+        "value": 17.0
+      },
+      {
+        "source": "topic_Quantum Information and Cryptography",
+        "target": "rtic_Quantum Tech",
+        "value": 27.0
+      },
+      {
+        "source": "topic_Advanced Fiber Laser Technologies",
+        "target": "rtic_Optics",
+        "value": 12.5
+      },
+      {
+        "source": "topic_Advanced Fiber Laser Technologies",
+        "target": "rtic_Telecommunications",
+        "value": 12.5
+      },
+      {
+        "source": "topic_Neural Networks and Reservoir Computing",
+        "target": "rtic_Industry 4.0",
+        "value": 22.0
+      },
+      {
+        "source": "topic_Strong Light-Matter Interactions",
+        "target": "rtic_Quantum Tech",
+        "value": 20.0
+      },
+      {
+        "source": "topic_Optical Network Technologies",
+        "target": "rtic_Telecommunications",
+        "value": 18.0
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Industry 4.0",
+        "value": 6.3
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Microelectronics",
+        "value": 4.7
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Optics",
+        "value": 10.9
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Photovoltaics",
+        "value": 3.9
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Quantum Tech",
+        "value": 3.1
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Smart Sensors",
+        "value": 10.2
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Telecommunications",
+        "value": 3.9
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 3
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 3
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Industrial Manufacturing",
+        "value": 3
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 3
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Marine & Maritime",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 6
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 4
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Other Markets",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Industrial Manufacturing",
+        "value": 3
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 4
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Consumer Electronics",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Marine & Maritime",
+        "value": 1
+      },
+      {
+        "source": "rtic_Photovoltaics",
+        "target": "em_Other Markets",
+        "value": 1
+      },
+      {
+        "source": "rtic_Photovoltaics",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 5
+      },
+      {
+        "source": "rtic_Photovoltaics",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 2
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Other Markets",
+        "value": 1
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 1
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Industrial Manufacturing",
+        "value": 1
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Computing & AI Hardware",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 3
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Consumer Electronics",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Industrial Manufacturing",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Other Markets",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Computing & AI Hardware",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 2
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 2
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 5
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Consumer Electronics",
+        "value": 5
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Other Markets",
+        "value": 2
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Industrial Manufacturing",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 2
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 5
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Other Markets",
+        "value": 1
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Industrial Manufacturing",
+        "value": 1
+      },
+      {
+        "source": "rtic_Adjacent Tech",
+        "target": "em_Consumer Electronics",
+        "value": 3
+      },
+      {
+        "source": "rtic_Adjacent Tech",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 2
+      },
+      {
+        "source": "rtic_Adjacent Tech",
+        "target": "em_Other Markets",
+        "value": 1
+      },
+      {
+        "source": "rtic_Adjacent Tech",
+        "target": "em_Industrial Manufacturing",
+        "value": 1
+      },
+      {
+        "source": "rtic_Adjacent Tech",
+        "target": "em_Computing & AI Hardware",
+        "value": 1
+      }
+    ]
+  },
+  "composite_2": {
+    "nodes": [
+      {
+        "id": "topic_Neural Networks and Reservoir Computing",
+        "name": "Neural Networks and Reservoir Computing",
+        "column": 0,
+        "value": 77
+      },
+      {
+        "id": "topic_Quantum Information and Cryptography",
+        "name": "Quantum Information and Cryptography",
+        "column": 0,
+        "value": 76
+      },
+      {
+        "id": "topic_Photonic and Optical Devices",
+        "name": "Photonic and Optical Devices",
+        "column": 0,
+        "value": 72
+      },
+      {
+        "id": "topic_Photonic Crystals and Applications",
+        "name": "Photonic Crystals and Applications",
+        "column": 0,
+        "value": 62
+      },
+      {
+        "id": "topic_Phase-change materials and chalcogenides",
+        "name": "Phase-change materials and chalcogenides",
+        "column": 0,
+        "value": 26
+      },
+      {
+        "id": "topic_Quantum optics and atomic interactions",
+        "name": "Quantum optics and atomic interactions",
+        "column": 0,
+        "value": 23
+      },
+      {
+        "id": "topic_Strong Light-Matter Interactions",
+        "name": "Strong Light-Matter Interactions",
+        "column": 0,
+        "value": 16
+      },
+      {
+        "id": "topic_Advanced Fiber Laser Technologies",
+        "name": "Advanced Fiber Laser Technologies",
+        "column": 0,
+        "value": 16
+      },
+      {
+        "id": "topic_Other Research",
+        "name": "Other Research",
+        "column": 0,
+        "value": 82
+      },
+      {
+        "id": "rtic_Industry 4.0",
+        "name": "Industry 4.0",
+        "column": 1,
+        "value": 5
+      },
+      {
+        "id": "rtic_Microelectronics",
+        "name": "Microelectronics",
+        "column": 1,
+        "value": 4
+      },
+      {
+        "id": "rtic_Optics",
+        "name": "Optics",
+        "column": 1,
+        "value": 11
+      },
+      {
+        "id": "rtic_Photovoltaics",
+        "name": "Photovoltaics",
+        "column": 1,
+        "value": 3
+      },
+      {
+        "id": "rtic_Quantum Tech",
+        "name": "Quantum Tech",
+        "column": 1,
+        "value": 10
+      },
+      {
+        "id": "rtic_Smart Sensors",
+        "name": "Smart Sensors",
+        "column": 1,
+        "value": 5
+      },
+      {
+        "id": "rtic_Telecommunications",
+        "name": "Telecommunications",
+        "column": 1,
+        "value": 2
+      },
+      {
+        "id": "rtic_Adjacent Tech",
+        "name": "Adjacent Tech",
+        "column": 1,
+        "value": 1
+      },
+      {
+        "id": "em_Industrial Manufacturing",
+        "name": "Industrial Manufacturing",
+        "column": 2,
+        "value": 9
+      },
+      {
+        "id": "em_Scientific Research & Instrumentation",
+        "name": "Scientific Research & Instrumentation",
+        "column": 2,
+        "value": 6
+      },
+      {
+        "id": "em_Computing & AI Hardware",
+        "name": "Computing & AI Hardware",
+        "column": 2,
+        "value": 5
+      },
+      {
+        "id": "em_Energy & Environmental Monitoring",
+        "name": "Energy & Environmental Monitoring",
+        "column": 2,
+        "value": 5
+      },
+      {
+        "id": "em_Healthcare & Medical Devices",
+        "name": "Healthcare & Medical Devices",
+        "column": 2,
+        "value": 4
+      },
+      {
+        "id": "em_Defense & Security",
+        "name": "Defense & Security",
+        "column": 2,
+        "value": 3
+      },
+      {
+        "id": "em_Financial Services & Cybersecurity",
+        "name": "Financial Services & Cybersecurity",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Telecommunications & Data Infrastructure",
+        "name": "Telecommunications & Data Infrastructure",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Other Markets",
+        "name": "Other Markets",
+        "column": 2,
+        "value": 3
+      }
+    ],
+    "links": [
+      {
+        "source": "topic_Neural Networks and Reservoir Computing",
+        "target": "rtic_Industry 4.0",
+        "value": 77.0
+      },
+      {
+        "source": "topic_Quantum Information and Cryptography",
+        "target": "rtic_Quantum Tech",
+        "value": 76.0
+      },
+      {
+        "source": "topic_Photonic and Optical Devices",
+        "target": "rtic_Optics",
+        "value": 72.0
+      },
+      {
+        "source": "topic_Photonic Crystals and Applications",
+        "target": "rtic_Optics",
+        "value": 62.0
+      },
+      {
+        "source": "topic_Phase-change materials and chalcogenides",
+        "target": "rtic_Optics",
+        "value": 13.0
+      },
+      {
+        "source": "topic_Phase-change materials and chalcogenides",
+        "target": "rtic_Microelectronics",
+        "value": 13.0
+      },
+      {
+        "source": "topic_Quantum optics and atomic interactions",
+        "target": "rtic_Quantum Tech",
+        "value": 23.0
+      },
+      {
+        "source": "topic_Strong Light-Matter Interactions",
+        "target": "rtic_Quantum Tech",
+        "value": 16.0
+      },
+      {
+        "source": "topic_Advanced Fiber Laser Technologies",
+        "target": "rtic_Optics",
+        "value": 8.0
+      },
+      {
+        "source": "topic_Advanced Fiber Laser Technologies",
+        "target": "rtic_Telecommunications",
+        "value": 8.0
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Industry 4.0",
+        "value": 10.2
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Microelectronics",
+        "value": 8.2
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Optics",
+        "value": 22.6
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Photovoltaics",
+        "value": 6.2
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Quantum Tech",
+        "value": 20.5
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Smart Sensors",
+        "value": 10.2
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Telecommunications",
+        "value": 4.1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Industrial Manufacturing",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Computing & AI Hardware",
+        "value": 2
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Defense & Security",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 4
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Industrial Manufacturing",
+        "value": 5
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 2
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Computing & AI Hardware",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Other Markets",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 2
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Financial Services & Cybersecurity",
+        "value": 2
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Computing & AI Hardware",
+        "value": 4
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Industrial Manufacturing",
+        "value": 3
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Defense & Security",
+        "value": 1
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Other Markets",
+        "value": 1
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 1
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Financial Services & Cybersecurity",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Industrial Manufacturing",
+        "value": 2
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 2
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Other Markets",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Defense & Security",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      },
+      {
+        "source": "rtic_Photovoltaics",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 3
+      },
+      {
+        "source": "rtic_Photovoltaics",
+        "target": "em_Industrial Manufacturing",
+        "value": 1
+      },
+      {
+        "source": "rtic_Photovoltaics",
+        "target": "em_Other Markets",
+        "value": 1
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Other Markets",
+        "value": 1
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Industrial Manufacturing",
+        "value": 5
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 3
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 1
+      },
+      {
+        "source": "rtic_Adjacent Tech",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      }
+    ]
+  },
+  "composite_3": {
+    "nodes": [
+      {
+        "id": "topic_Photonic and Optical Devices",
+        "name": "Photonic and Optical Devices",
+        "column": 0,
+        "value": 271
+      },
+      {
+        "id": "topic_Quantum Information and Cryptography",
+        "name": "Quantum Information and Cryptography",
+        "column": 0,
+        "value": 178
+      },
+      {
+        "id": "topic_Photonic Crystals and Applications",
+        "name": "Photonic Crystals and Applications",
+        "column": 0,
+        "value": 159
+      },
+      {
+        "id": "topic_Photonic Crystal and Fiber Optics",
+        "name": "Photonic Crystal and Fiber Optics",
+        "column": 0,
+        "value": 151
+      },
+      {
+        "id": "topic_Optical Network Technologies",
+        "name": "Optical Network Technologies",
+        "column": 0,
+        "value": 63
+      },
+      {
+        "id": "topic_Neural Networks and Reservoir Computing",
+        "name": "Neural Networks and Reservoir Computing",
+        "column": 0,
+        "value": 44
+      },
+      {
+        "id": "topic_Advanced Fiber Laser Technologies",
+        "name": "Advanced Fiber Laser Technologies",
+        "column": 0,
+        "value": 42
+      },
+      {
+        "id": "topic_Diamond and Carbon-based Materials Research",
+        "name": "Diamond and Carbon-based Materials Research",
+        "column": 0,
+        "value": 29
+      },
+      {
+        "id": "topic_Other Research",
+        "name": "Other Research",
+        "column": 0,
+        "value": 172
+      },
+      {
+        "id": "rtic_Industry 4.0",
+        "name": "Industry 4.0",
+        "column": 1,
+        "value": 3
+      },
+      {
+        "id": "rtic_Microelectronics",
+        "name": "Microelectronics",
+        "column": 1,
+        "value": 7
+      },
+      {
+        "id": "rtic_Optics",
+        "name": "Optics",
+        "column": 1,
+        "value": 8
+      },
+      {
+        "id": "rtic_Quantum Tech",
+        "name": "Quantum Tech",
+        "column": 1,
+        "value": 4
+      },
+      {
+        "id": "rtic_Smart Sensors",
+        "name": "Smart Sensors",
+        "column": 1,
+        "value": 7
+      },
+      {
+        "id": "rtic_Telecommunications",
+        "name": "Telecommunications",
+        "column": 1,
+        "value": 3
+      },
+      {
+        "id": "rtic_Adjacent Tech",
+        "name": "Adjacent Tech",
+        "column": 1,
+        "value": 1
+      },
+      {
+        "id": "em_Scientific Research & Instrumentation",
+        "name": "Scientific Research & Instrumentation",
+        "column": 2,
+        "value": 5
+      },
+      {
+        "id": "em_Industrial Manufacturing",
+        "name": "Industrial Manufacturing",
+        "column": 2,
+        "value": 4
+      },
+      {
+        "id": "em_Computing & AI Hardware",
+        "name": "Computing & AI Hardware",
+        "column": 2,
+        "value": 4
+      },
+      {
+        "id": "em_Telecommunications & Data Infrastructure",
+        "name": "Telecommunications & Data Infrastructure",
+        "column": 2,
+        "value": 3
+      },
+      {
+        "id": "em_Automotive & Transportation",
+        "name": "Automotive & Transportation",
+        "column": 2,
+        "value": 3
+      },
+      {
+        "id": "em_Energy & Environmental Monitoring",
+        "name": "Energy & Environmental Monitoring",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Space & Aerospace",
+        "name": "Space & Aerospace",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Defense & Security",
+        "name": "Defense & Security",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Other Markets",
+        "name": "Other Markets",
+        "column": 2,
+        "value": 2
+      }
+    ],
+    "links": [
+      {
+        "source": "topic_Photonic and Optical Devices",
+        "target": "rtic_Optics",
+        "value": 271.0
+      },
+      {
+        "source": "topic_Quantum Information and Cryptography",
+        "target": "rtic_Quantum Tech",
+        "value": 178.0
+      },
+      {
+        "source": "topic_Photonic Crystals and Applications",
+        "target": "rtic_Optics",
+        "value": 159.0
+      },
+      {
+        "source": "topic_Photonic Crystal and Fiber Optics",
+        "target": "rtic_Optics",
+        "value": 75.5
+      },
+      {
+        "source": "topic_Photonic Crystal and Fiber Optics",
+        "target": "rtic_Telecommunications",
+        "value": 75.5
+      },
+      {
+        "source": "topic_Optical Network Technologies",
+        "target": "rtic_Telecommunications",
+        "value": 63.0
+      },
+      {
+        "source": "topic_Neural Networks and Reservoir Computing",
+        "target": "rtic_Industry 4.0",
+        "value": 44.0
+      },
+      {
+        "source": "topic_Advanced Fiber Laser Technologies",
+        "target": "rtic_Optics",
+        "value": 21.0
+      },
+      {
+        "source": "topic_Advanced Fiber Laser Technologies",
+        "target": "rtic_Telecommunications",
+        "value": 21.0
+      },
+      {
+        "source": "topic_Diamond and Carbon-based Materials Research",
+        "target": "rtic_Quantum Tech",
+        "value": 29.0
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Industry 4.0",
+        "value": 16.1
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Microelectronics",
+        "value": 37.6
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Optics",
+        "value": 43.0
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Quantum Tech",
+        "value": 21.5
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Smart Sensors",
+        "value": 37.6
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Telecommunications",
+        "value": 16.1
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 2
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Industrial Manufacturing",
+        "value": 1
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Automotive & Transportation",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Industrial Manufacturing",
+        "value": 2
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 3
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Computing & AI Hardware",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Defense & Security",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Space & Aerospace",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Computing & AI Hardware",
+        "value": 2
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Automotive & Transportation",
+        "value": 3
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Other Markets",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Space & Aerospace",
+        "value": 2
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Other Markets",
+        "value": 2
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Automotive & Transportation",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Computing & AI Hardware",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Defense & Security",
+        "value": 2
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Industrial Manufacturing",
+        "value": 1
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 2
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Computing & AI Hardware",
+        "value": 3
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Other Markets",
+        "value": 1
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Automotive & Transportation",
+        "value": 1
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Industrial Manufacturing",
+        "value": 3
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 1
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 1
+      },
+      {
+        "source": "rtic_Adjacent Tech",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      }
+    ]
+  },
+  "composite_4": {
+    "nodes": [
+      {
+        "id": "topic_Photonic and Optical Devices",
+        "name": "Photonic and Optical Devices",
+        "column": 0,
+        "value": 123
+      },
+      {
+        "id": "topic_Photonic Crystals and Applications",
+        "name": "Photonic Crystals and Applications",
+        "column": 0,
+        "value": 90
+      },
+      {
+        "id": "topic_Spectroscopy and Laser Applications",
+        "name": "Spectroscopy and Laser Applications",
+        "column": 0,
+        "value": 55
+      },
+      {
+        "id": "topic_Strong Light-Matter Interactions",
+        "name": "Strong Light-Matter Interactions",
+        "column": 0,
+        "value": 51
+      },
+      {
+        "id": "topic_Quantum Information and Cryptography",
+        "name": "Quantum Information and Cryptography",
+        "column": 0,
+        "value": 31
+      },
+      {
+        "id": "topic_Semiconductor Quantum Structures and Devices",
+        "name": "Semiconductor Quantum Structures and Devices",
+        "column": 0,
+        "value": 20
+      },
+      {
+        "id": "topic_Semiconductor Lasers and Optical Devices",
+        "name": "Semiconductor Lasers and Optical Devices",
+        "column": 0,
+        "value": 17
+      },
+      {
+        "id": "topic_Topological Materials and Phenomena",
+        "name": "Topological Materials and Phenomena",
+        "column": 0,
+        "value": 10
+      },
+      {
+        "id": "topic_Other Research",
+        "name": "Other Research",
+        "column": 0,
+        "value": 37
+      },
+      {
+        "id": "rtic_Industry 4.0",
+        "name": "Industry 4.0",
+        "column": 1,
+        "value": 4
+      },
+      {
+        "id": "rtic_Microelectronics",
+        "name": "Microelectronics",
+        "column": 1,
+        "value": 4
+      },
+      {
+        "id": "rtic_Optics",
+        "name": "Optics",
+        "column": 1,
+        "value": 4
+      },
+      {
+        "id": "rtic_Photovoltaics",
+        "name": "Photovoltaics",
+        "column": 1,
+        "value": 2
+      },
+      {
+        "id": "rtic_Quantum Tech",
+        "name": "Quantum Tech",
+        "column": 1,
+        "value": 3
+      },
+      {
+        "id": "rtic_Smart Sensors",
+        "name": "Smart Sensors",
+        "column": 1,
+        "value": 6
+      },
+      {
+        "id": "rtic_Telecommunications",
+        "name": "Telecommunications",
+        "column": 1,
+        "value": 1
+      },
+      {
+        "id": "rtic_Adjacent Tech",
+        "name": "Adjacent Tech",
+        "column": 1,
+        "value": 1
+      },
+      {
+        "id": "em_Industrial Manufacturing",
+        "name": "Industrial Manufacturing",
+        "column": 2,
+        "value": 3
+      },
+      {
+        "id": "em_Scientific Research & Instrumentation",
+        "name": "Scientific Research & Instrumentation",
+        "column": 2,
+        "value": 3
+      },
+      {
+        "id": "em_Telecommunications & Data Infrastructure",
+        "name": "Telecommunications & Data Infrastructure",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Consumer Electronics",
+        "name": "Consumer Electronics",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Healthcare & Medical Devices",
+        "name": "Healthcare & Medical Devices",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Computing & AI Hardware",
+        "name": "Computing & AI Hardware",
+        "column": 2,
+        "value": 1
+      },
+      {
+        "id": "em_Defense & Security",
+        "name": "Defense & Security",
+        "column": 2,
+        "value": 1
+      },
+      {
+        "id": "em_Financial Services & Cybersecurity",
+        "name": "Financial Services & Cybersecurity",
+        "column": 2,
+        "value": 1
+      },
+      {
+        "id": "em_Other Markets",
+        "name": "Other Markets",
+        "column": 2,
+        "value": 2
+      }
+    ],
+    "links": [
+      {
+        "source": "topic_Photonic and Optical Devices",
+        "target": "rtic_Optics",
+        "value": 123.0
+      },
+      {
+        "source": "topic_Photonic Crystals and Applications",
+        "target": "rtic_Optics",
+        "value": 90.0
+      },
+      {
+        "source": "topic_Spectroscopy and Laser Applications",
+        "target": "rtic_Optics",
+        "value": 27.5
+      },
+      {
+        "source": "topic_Spectroscopy and Laser Applications",
+        "target": "rtic_Smart Sensors",
+        "value": 27.5
+      },
+      {
+        "source": "topic_Strong Light-Matter Interactions",
+        "target": "rtic_Quantum Tech",
+        "value": 51.0
+      },
+      {
+        "source": "topic_Quantum Information and Cryptography",
+        "target": "rtic_Quantum Tech",
+        "value": 31.0
+      },
+      {
+        "source": "topic_Semiconductor Quantum Structures and Devices",
+        "target": "rtic_Quantum Tech",
+        "value": 10.0
+      },
+      {
+        "source": "topic_Semiconductor Quantum Structures and Devices",
+        "target": "rtic_Microelectronics",
+        "value": 10.0
+      },
+      {
+        "source": "topic_Semiconductor Lasers and Optical Devices",
+        "target": "rtic_Optics",
+        "value": 8.5
+      },
+      {
+        "source": "topic_Semiconductor Lasers and Optical Devices",
+        "target": "rtic_Microelectronics",
+        "value": 8.5
+      },
+      {
+        "source": "topic_Topological Materials and Phenomena",
+        "target": "rtic_Quantum Tech",
+        "value": 10.0
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Industry 4.0",
+        "value": 6.2
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Microelectronics",
+        "value": 6.2
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Optics",
+        "value": 6.2
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Photovoltaics",
+        "value": 3.1
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Quantum Tech",
+        "value": 4.6
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Smart Sensors",
+        "value": 9.2
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Telecommunications",
+        "value": 1.5
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Financial Services & Cybersecurity",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Consumer Electronics",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Industrial Manufacturing",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Computing & AI Hardware",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 2
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Defense & Security",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Other Markets",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Consumer Electronics",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 2
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Computing & AI Hardware",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 2
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Defense & Security",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 2
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Financial Services & Cybersecurity",
+        "value": 1
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Computing & AI Hardware",
+        "value": 1
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 2
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Defense & Security",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Financial Services & Cybersecurity",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Industrial Manufacturing",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Computing & AI Hardware",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 2
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Defense & Security",
+        "value": 1
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Computing & AI Hardware",
+        "value": 1
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Other Markets",
+        "value": 1
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Consumer Electronics",
+        "value": 2
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Industrial Manufacturing",
+        "value": 1
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 1
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Defense & Security",
+        "value": 1
+      },
+      {
+        "source": "rtic_Photovoltaics",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 1
+      },
+      {
+        "source": "rtic_Photovoltaics",
+        "target": "em_Other Markets",
+        "value": 1
+      },
+      {
+        "source": "rtic_Adjacent Tech",
+        "target": "em_Industrial Manufacturing",
+        "value": 1
+      }
+    ]
+  },
+  "composite_5": {
+    "nodes": [
+      {
+        "id": "topic_Photonic and Optical Devices",
+        "name": "Photonic and Optical Devices",
+        "column": 0,
+        "value": 58
+      },
+      {
+        "id": "topic_Quantum Information and Cryptography",
+        "name": "Quantum Information and Cryptography",
+        "column": 0,
+        "value": 31
+      },
+      {
+        "id": "topic_Optical Network Technologies",
+        "name": "Optical Network Technologies",
+        "column": 0,
+        "value": 26
+      },
+      {
+        "id": "topic_Photonic Crystal and Fiber Optics",
+        "name": "Photonic Crystal and Fiber Optics",
+        "column": 0,
+        "value": 20
+      },
+      {
+        "id": "topic_Neural Networks and Reservoir Computing",
+        "name": "Neural Networks and Reservoir Computing",
+        "column": 0,
+        "value": 20
+      },
+      {
+        "id": "topic_Advanced Optical Sensing Technologies",
+        "name": "Advanced Optical Sensing Technologies",
+        "column": 0,
+        "value": 19
+      },
+      {
+        "id": "topic_Photonic Crystals and Applications",
+        "name": "Photonic Crystals and Applications",
+        "column": 0,
+        "value": 18
+      },
+      {
+        "id": "topic_Advanced Fiber Laser Technologies",
+        "name": "Advanced Fiber Laser Technologies",
+        "column": 0,
+        "value": 17
+      },
+      {
+        "id": "topic_Other Research",
+        "name": "Other Research",
+        "column": 0,
+        "value": 41
+      },
+      {
+        "id": "rtic_Industry 4.0",
+        "name": "Industry 4.0",
+        "column": 1,
+        "value": 4
+      },
+      {
+        "id": "rtic_Microelectronics",
+        "name": "Microelectronics",
+        "column": 1,
+        "value": 2
+      },
+      {
+        "id": "rtic_Optics",
+        "name": "Optics",
+        "column": 1,
+        "value": 10
+      },
+      {
+        "id": "rtic_Photovoltaics",
+        "name": "Photovoltaics",
+        "column": 1,
+        "value": 1
+      },
+      {
+        "id": "rtic_Quantum Tech",
+        "name": "Quantum Tech",
+        "column": 1,
+        "value": 2
+      },
+      {
+        "id": "rtic_Smart Sensors",
+        "name": "Smart Sensors",
+        "column": 1,
+        "value": 6
+      },
+      {
+        "id": "rtic_Telecommunications",
+        "name": "Telecommunications",
+        "column": 1,
+        "value": 2
+      },
+      {
+        "id": "rtic_Adjacent Tech",
+        "name": "Adjacent Tech",
+        "column": 1,
+        "value": 1
+      },
+      {
+        "id": "em_Healthcare & Medical Devices",
+        "name": "Healthcare & Medical Devices",
+        "column": 2,
+        "value": 7
+      },
+      {
+        "id": "em_Scientific Research & Instrumentation",
+        "name": "Scientific Research & Instrumentation",
+        "column": 2,
+        "value": 4
+      },
+      {
+        "id": "em_Telecommunications & Data Infrastructure",
+        "name": "Telecommunications & Data Infrastructure",
+        "column": 2,
+        "value": 4
+      },
+      {
+        "id": "em_Industrial Manufacturing",
+        "name": "Industrial Manufacturing",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Computing & AI Hardware",
+        "name": "Computing & AI Hardware",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Defense & Security",
+        "name": "Defense & Security",
+        "column": 2,
+        "value": 1
+      },
+      {
+        "id": "em_Space & Aerospace",
+        "name": "Space & Aerospace",
+        "column": 2,
+        "value": 1
+      },
+      {
+        "id": "em_Automotive & Transportation",
+        "name": "Automotive & Transportation",
+        "column": 2,
+        "value": 1
+      },
+      {
+        "id": "em_Other Markets",
+        "name": "Other Markets",
+        "column": 2,
+        "value": 3
+      }
+    ],
+    "links": [
+      {
+        "source": "topic_Photonic and Optical Devices",
+        "target": "rtic_Optics",
+        "value": 58.0
+      },
+      {
+        "source": "topic_Quantum Information and Cryptography",
+        "target": "rtic_Quantum Tech",
+        "value": 31.0
+      },
+      {
+        "source": "topic_Optical Network Technologies",
+        "target": "rtic_Telecommunications",
+        "value": 26.0
+      },
+      {
+        "source": "topic_Photonic Crystal and Fiber Optics",
+        "target": "rtic_Optics",
+        "value": 10.0
+      },
+      {
+        "source": "topic_Photonic Crystal and Fiber Optics",
+        "target": "rtic_Telecommunications",
+        "value": 10.0
+      },
+      {
+        "source": "topic_Neural Networks and Reservoir Computing",
+        "target": "rtic_Industry 4.0",
+        "value": 20.0
+      },
+      {
+        "source": "topic_Advanced Optical Sensing Technologies",
+        "target": "rtic_Smart Sensors",
+        "value": 19.0
+      },
+      {
+        "source": "topic_Photonic Crystals and Applications",
+        "target": "rtic_Optics",
+        "value": 18.0
+      },
+      {
+        "source": "topic_Advanced Fiber Laser Technologies",
+        "target": "rtic_Optics",
+        "value": 8.5
+      },
+      {
+        "source": "topic_Advanced Fiber Laser Technologies",
+        "target": "rtic_Telecommunications",
+        "value": 8.5
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Industry 4.0",
+        "value": 6.1
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Microelectronics",
+        "value": 3.0
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Optics",
+        "value": 15.2
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Photovoltaics",
+        "value": 1.5
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Quantum Tech",
+        "value": 3.0
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Smart Sensors",
+        "value": 9.1
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Telecommunications",
+        "value": 3.0
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 4
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 3
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Other Markets",
+        "value": 2
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Industrial Manufacturing",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 2
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Automotive & Transportation",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Space & Aerospace",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Computing & AI Hardware",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Defense & Security",
+        "value": 1
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Industrial Manufacturing",
+        "value": 2
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 2
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Other Markets",
+        "value": 1
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 3
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 3
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Industrial Manufacturing",
+        "value": 2
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Other Markets",
+        "value": 1
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 1
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Space & Aerospace",
+        "value": 1
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Computing & AI Hardware",
+        "value": 1
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 2
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 1
+      },
+      {
+        "source": "rtic_Photovoltaics",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 1
+      },
+      {
+        "source": "rtic_Photovoltaics",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Computing & AI Hardware",
+        "value": 1
+      },
+      {
+        "source": "rtic_Adjacent Tech",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      }
+    ]
+  },
+  "composite_6": {
+    "nodes": [
+      {
+        "id": "topic_Photonic and Optical Devices",
+        "name": "Photonic and Optical Devices",
+        "column": 0,
+        "value": 290
+      },
+      {
+        "id": "topic_Photonic Crystals and Applications",
+        "name": "Photonic Crystals and Applications",
+        "column": 0,
+        "value": 226
+      },
+      {
+        "id": "topic_Neural Networks and Reservoir Computing",
+        "name": "Neural Networks and Reservoir Computing",
+        "column": 0,
+        "value": 91
+      },
+      {
+        "id": "topic_Quantum Information and Cryptography",
+        "name": "Quantum Information and Cryptography",
+        "column": 0,
+        "value": 46
+      },
+      {
+        "id": "topic_Semiconductor Lasers and Optical Devices",
+        "name": "Semiconductor Lasers and Optical Devices",
+        "column": 0,
+        "value": 45
+      },
+      {
+        "id": "topic_Advanced Fiber Laser Technologies",
+        "name": "Advanced Fiber Laser Technologies",
+        "column": 0,
+        "value": 42
+      },
+      {
+        "id": "topic_Optical Network Technologies",
+        "name": "Optical Network Technologies",
+        "column": 0,
+        "value": 30
+      },
+      {
+        "id": "topic_Orbital Angular Momentum in Optics",
+        "name": "Orbital Angular Momentum in Optics",
+        "column": 0,
+        "value": 22
+      },
+      {
+        "id": "topic_Other Research",
+        "name": "Other Research",
+        "column": 0,
+        "value": 69
+      },
+      {
+        "id": "rtic_Industry 4.0",
+        "name": "Industry 4.0",
+        "column": 1,
+        "value": 5
+      },
+      {
+        "id": "rtic_Microelectronics",
+        "name": "Microelectronics",
+        "column": 1,
+        "value": 5
+      },
+      {
+        "id": "rtic_Optics",
+        "name": "Optics",
+        "column": 1,
+        "value": 11
+      },
+      {
+        "id": "rtic_Photovoltaics",
+        "name": "Photovoltaics",
+        "column": 1,
+        "value": 1
+      },
+      {
+        "id": "rtic_Quantum Tech",
+        "name": "Quantum Tech",
+        "column": 1,
+        "value": 4
+      },
+      {
+        "id": "rtic_Smart Sensors",
+        "name": "Smart Sensors",
+        "column": 1,
+        "value": 5
+      },
+      {
+        "id": "rtic_Telecommunications",
+        "name": "Telecommunications",
+        "column": 1,
+        "value": 2
+      },
+      {
+        "id": "rtic_Adjacent Tech",
+        "name": "Adjacent Tech",
+        "column": 1,
+        "value": 1
+      },
+      {
+        "id": "em_Computing & AI Hardware",
+        "name": "Computing & AI Hardware",
+        "column": 2,
+        "value": 5
+      },
+      {
+        "id": "em_Industrial Manufacturing",
+        "name": "Industrial Manufacturing",
+        "column": 2,
+        "value": 5
+      },
+      {
+        "id": "em_Scientific Research & Instrumentation",
+        "name": "Scientific Research & Instrumentation",
+        "column": 2,
+        "value": 4
+      },
+      {
+        "id": "em_Healthcare & Medical Devices",
+        "name": "Healthcare & Medical Devices",
+        "column": 2,
+        "value": 3
+      },
+      {
+        "id": "em_Space & Aerospace",
+        "name": "Space & Aerospace",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Defense & Security",
+        "name": "Defense & Security",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Telecommunications & Data Infrastructure",
+        "name": "Telecommunications & Data Infrastructure",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Energy & Environmental Monitoring",
+        "name": "Energy & Environmental Monitoring",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Other Markets",
+        "name": "Other Markets",
+        "column": 2,
+        "value": 1
+      }
+    ],
+    "links": [
+      {
+        "source": "topic_Photonic and Optical Devices",
+        "target": "rtic_Optics",
+        "value": 290.0
+      },
+      {
+        "source": "topic_Photonic Crystals and Applications",
+        "target": "rtic_Optics",
+        "value": 226.0
+      },
+      {
+        "source": "topic_Neural Networks and Reservoir Computing",
+        "target": "rtic_Industry 4.0",
+        "value": 91.0
+      },
+      {
+        "source": "topic_Quantum Information and Cryptography",
+        "target": "rtic_Quantum Tech",
+        "value": 46.0
+      },
+      {
+        "source": "topic_Semiconductor Lasers and Optical Devices",
+        "target": "rtic_Optics",
+        "value": 22.5
+      },
+      {
+        "source": "topic_Semiconductor Lasers and Optical Devices",
+        "target": "rtic_Microelectronics",
+        "value": 22.5
+      },
+      {
+        "source": "topic_Advanced Fiber Laser Technologies",
+        "target": "rtic_Optics",
+        "value": 21.0
+      },
+      {
+        "source": "topic_Advanced Fiber Laser Technologies",
+        "target": "rtic_Telecommunications",
+        "value": 21.0
+      },
+      {
+        "source": "topic_Optical Network Technologies",
+        "target": "rtic_Telecommunications",
+        "value": 30.0
+      },
+      {
+        "source": "topic_Orbital Angular Momentum in Optics",
+        "target": "rtic_Optics",
+        "value": 11.0
+      },
+      {
+        "source": "topic_Orbital Angular Momentum in Optics",
+        "target": "rtic_Telecommunications",
+        "value": 11.0
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Industry 4.0",
+        "value": 10.5
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Microelectronics",
+        "value": 10.5
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Optics",
+        "value": 23.0
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Photovoltaics",
+        "value": 2.1
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Quantum Tech",
+        "value": 8.4
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Smart Sensors",
+        "value": 10.5
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Telecommunications",
+        "value": 4.2
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Space & Aerospace",
+        "value": 1
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Defense & Security",
+        "value": 1
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Computing & AI Hardware",
+        "value": 2
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 2
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 2
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Industrial Manufacturing",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 2
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 2
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Computing & AI Hardware",
+        "value": 1
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 2
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 1
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Computing & AI Hardware",
+        "value": 2
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Industrial Manufacturing",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Other Markets",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Computing & AI Hardware",
+        "value": 4
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Industrial Manufacturing",
+        "value": 3
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 4
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 2
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Defense & Security",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Space & Aerospace",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Other Markets",
+        "value": 1
+      },
+      {
+        "source": "rtic_Photovoltaics",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      },
+      {
+        "source": "rtic_Photovoltaics",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 1
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Industrial Manufacturing",
+        "value": 4
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 1
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      },
+      {
+        "source": "rtic_Adjacent Tech",
+        "target": "em_Computing & AI Hardware",
+        "value": 1
+      }
+    ]
+  },
+  "composite_7": {
+    "nodes": [
+      {
+        "id": "topic_Photonic Crystals and Applications",
+        "name": "Photonic Crystals and Applications",
+        "column": 0,
+        "value": 24
+      },
+      {
+        "id": "topic_Photonic and Optical Devices",
+        "name": "Photonic and Optical Devices",
+        "column": 0,
+        "value": 19
+      },
+      {
+        "id": "topic_Adaptive optics and wavefront sensing",
+        "name": "Adaptive optics and wavefront sensing",
+        "column": 0,
+        "value": 8
+      },
+      {
+        "id": "topic_Optical Network Technologies",
+        "name": "Optical Network Technologies",
+        "column": 0,
+        "value": 7
+      },
+      {
+        "id": "topic_Near-Field Optical Microscopy",
+        "name": "Near-Field Optical Microscopy",
+        "column": 0,
+        "value": 6
+      },
+      {
+        "id": "topic_Quantum optics and atomic interactions",
+        "name": "Quantum optics and atomic interactions",
+        "column": 0,
+        "value": 5
+      },
+      {
+        "id": "topic_Advanced Fiber Laser Technologies",
+        "name": "Advanced Fiber Laser Technologies",
+        "column": 0,
+        "value": 5
+      },
+      {
+        "id": "topic_Plasmonic and Surface Plasmon Research",
+        "name": "Plasmonic and Surface Plasmon Research",
+        "column": 0,
+        "value": 5
+      },
+      {
+        "id": "topic_Other Research",
+        "name": "Other Research",
+        "column": 0,
+        "value": 35
+      },
+      {
+        "id": "rtic_Industry 4.0",
+        "name": "Industry 4.0",
+        "column": 1,
+        "value": 2
+      },
+      {
+        "id": "rtic_Microelectronics",
+        "name": "Microelectronics",
+        "column": 1,
+        "value": 2
+      },
+      {
+        "id": "rtic_Optics",
+        "name": "Optics",
+        "column": 1,
+        "value": 2
+      },
+      {
+        "id": "rtic_Photovoltaics",
+        "name": "Photovoltaics",
+        "column": 1,
+        "value": 2
+      },
+      {
+        "id": "rtic_Quantum Tech",
+        "name": "Quantum Tech",
+        "column": 1,
+        "value": 1
+      },
+      {
+        "id": "rtic_Smart Sensors",
+        "name": "Smart Sensors",
+        "column": 1,
+        "value": 3
+      },
+      {
+        "id": "rtic_Adjacent Tech",
+        "name": "Adjacent Tech",
+        "column": 1,
+        "value": 2
+      },
+      {
+        "id": "em_Healthcare & Medical Devices",
+        "name": "Healthcare & Medical Devices",
+        "column": 2,
+        "value": 4
+      },
+      {
+        "id": "em_Energy & Environmental Monitoring",
+        "name": "Energy & Environmental Monitoring",
+        "column": 2,
+        "value": 3
+      },
+      {
+        "id": "em_Industrial Manufacturing",
+        "name": "Industrial Manufacturing",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Telecommunications & Data Infrastructure",
+        "name": "Telecommunications & Data Infrastructure",
+        "column": 2,
+        "value": 1
+      },
+      {
+        "id": "em_Scientific Research & Instrumentation",
+        "name": "Scientific Research & Instrumentation",
+        "column": 2,
+        "value": 1
+      },
+      {
+        "id": "em_Financial Services & Cybersecurity",
+        "name": "Financial Services & Cybersecurity",
+        "column": 2,
+        "value": 1
+      },
+      {
+        "id": "em_Defense & Security",
+        "name": "Defense & Security",
+        "column": 2,
+        "value": 1
+      }
+    ],
+    "links": [
+      {
+        "source": "topic_Photonic Crystals and Applications",
+        "target": "rtic_Optics",
+        "value": 24.0
+      },
+      {
+        "source": "topic_Photonic and Optical Devices",
+        "target": "rtic_Optics",
+        "value": 19.0
+      },
+      {
+        "source": "topic_Adaptive optics and wavefront sensing",
+        "target": "rtic_Optics",
+        "value": 4.0
+      },
+      {
+        "source": "topic_Adaptive optics and wavefront sensing",
+        "target": "rtic_Smart Sensors",
+        "value": 4.0
+      },
+      {
+        "source": "topic_Optical Network Technologies",
+        "target": "rtic_Adjacent Tech",
+        "value": 7.0
+      },
+      {
+        "source": "topic_Near-Field Optical Microscopy",
+        "target": "rtic_Optics",
+        "value": 3.0
+      },
+      {
+        "source": "topic_Near-Field Optical Microscopy",
+        "target": "rtic_Smart Sensors",
+        "value": 3.0
+      },
+      {
+        "source": "topic_Quantum optics and atomic interactions",
+        "target": "rtic_Quantum Tech",
+        "value": 5.0
+      },
+      {
+        "source": "topic_Advanced Fiber Laser Technologies",
+        "target": "rtic_Optics",
+        "value": 5.0
+      },
+      {
+        "source": "topic_Plasmonic and Surface Plasmon Research",
+        "target": "rtic_Optics",
+        "value": 5.0
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Industry 4.0",
+        "value": 5.8
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Microelectronics",
+        "value": 5.8
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Optics",
+        "value": 5.8
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Photovoltaics",
+        "value": 5.8
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Quantum Tech",
+        "value": 2.9
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Smart Sensors",
+        "value": 8.8
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      },
+      {
+        "source": "rtic_Photovoltaics",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 1
+      },
+      {
+        "source": "rtic_Photovoltaics",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Financial Services & Cybersecurity",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Industrial Manufacturing",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 1
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Industrial Manufacturing",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Industrial Manufacturing",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 2
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Defense & Security",
+        "value": 1
+      },
+      {
+        "source": "rtic_Adjacent Tech",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      },
+      {
+        "source": "rtic_Adjacent Tech",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 1
+      },
+      {
+        "source": "rtic_Adjacent Tech",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 1
+      }
+    ]
+  },
+  "composite_8": {
+    "nodes": [
+      {
+        "id": "topic_Photonic and Optical Devices",
+        "name": "Photonic and Optical Devices",
+        "column": 0,
+        "value": 30
+      },
+      {
+        "id": "topic_Photonic Crystals and Applications",
+        "name": "Photonic Crystals and Applications",
+        "column": 0,
+        "value": 18
+      },
+      {
+        "id": "topic_Plasmonic and Surface Plasmon Research",
+        "name": "Plasmonic and Surface Plasmon Research",
+        "column": 0,
+        "value": 13
+      },
+      {
+        "id": "topic_Nanowire Synthesis and Applications",
+        "name": "Nanowire Synthesis and Applications",
+        "column": 0,
+        "value": 7
+      },
+      {
+        "id": "topic_2D Materials and Applications",
+        "name": "2D Materials and Applications",
+        "column": 0,
+        "value": 7
+      },
+      {
+        "id": "topic_Perovskite Materials and Applications",
+        "name": "Perovskite Materials and Applications",
+        "column": 0,
+        "value": 6
+      },
+      {
+        "id": "topic_Metamaterials and Metasurfaces Applications",
+        "name": "Metamaterials and Metasurfaces Applications",
+        "column": 0,
+        "value": 6
+      },
+      {
+        "id": "topic_Other Research",
+        "name": "Other Research",
+        "column": 0,
+        "value": 18
+      },
+      {
+        "id": "rtic_Industry 4.0",
+        "name": "Industry 4.0",
+        "column": 1,
+        "value": 1
+      },
+      {
+        "id": "rtic_Microelectronics",
+        "name": "Microelectronics",
+        "column": 1,
+        "value": 2
+      },
+      {
+        "id": "rtic_Optics",
+        "name": "Optics",
+        "column": 1,
+        "value": 5
+      },
+      {
+        "id": "rtic_Photovoltaics",
+        "name": "Photovoltaics",
+        "column": 1,
+        "value": 1
+      },
+      {
+        "id": "rtic_Smart Sensors",
+        "name": "Smart Sensors",
+        "column": 1,
+        "value": 2
+      },
+      {
+        "id": "rtic_Telecommunications",
+        "name": "Telecommunications",
+        "column": 1,
+        "value": 2
+      },
+      {
+        "id": "em_Healthcare & Medical Devices",
+        "name": "Healthcare & Medical Devices",
+        "column": 2,
+        "value": 3
+      },
+      {
+        "id": "em_Telecommunications & Data Infrastructure",
+        "name": "Telecommunications & Data Infrastructure",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Industrial Manufacturing",
+        "name": "Industrial Manufacturing",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Entertainment & Media",
+        "name": "Entertainment & Media",
+        "column": 2,
+        "value": 1
+      },
+      {
+        "id": "em_Space & Aerospace",
+        "name": "Space & Aerospace",
+        "column": 2,
+        "value": 1
+      },
+      {
+        "id": "em_Defense & Security",
+        "name": "Defense & Security",
+        "column": 2,
+        "value": 1
+      },
+      {
+        "id": "em_Scientific Research & Instrumentation",
+        "name": "Scientific Research & Instrumentation",
+        "column": 2,
+        "value": 1
+      },
+      {
+        "id": "em_Computing & AI Hardware",
+        "name": "Computing & AI Hardware",
+        "column": 2,
+        "value": 1
+      },
+      {
+        "id": "em_Other Markets",
+        "name": "Other Markets",
+        "column": 2,
+        "value": 1
+      }
+    ],
+    "links": [
+      {
+        "source": "topic_Photonic and Optical Devices",
+        "target": "rtic_Optics",
+        "value": 30.0
+      },
+      {
+        "source": "topic_Photonic Crystals and Applications",
+        "target": "rtic_Optics",
+        "value": 18.0
+      },
+      {
+        "source": "topic_Plasmonic and Surface Plasmon Research",
+        "target": "rtic_Optics",
+        "value": 13.0
+      },
+      {
+        "source": "topic_Nanowire Synthesis and Applications",
+        "target": "rtic_Microelectronics",
+        "value": 7.0
+      },
+      {
+        "source": "topic_2D Materials and Applications",
+        "target": "rtic_Microelectronics",
+        "value": 7.0
+      },
+      {
+        "source": "topic_Perovskite Materials and Applications",
+        "target": "rtic_Photovoltaics",
+        "value": 6.0
+      },
+      {
+        "source": "topic_Metamaterials and Metasurfaces Applications",
+        "target": "rtic_Optics",
+        "value": 6.0
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Industry 4.0",
+        "value": 1.4
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Microelectronics",
+        "value": 2.8
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Optics",
+        "value": 6.9
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Photovoltaics",
+        "value": 1.4
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Smart Sensors",
+        "value": 2.8
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Telecommunications",
+        "value": 2.8
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Industrial Manufacturing",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Entertainment & Media",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Space & Aerospace",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Defense & Security",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 1
+      },
+      {
+        "source": "rtic_Photovoltaics",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 2
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Other Markets",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Computing & AI Hardware",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Industrial Manufacturing",
+        "value": 1
+      }
+    ]
+  },
+  "composite_9": {
+    "nodes": [
+      {
+        "id": "topic_Photonic and Optical Devices",
+        "name": "Photonic and Optical Devices",
+        "column": 0,
+        "value": 484
+      },
+      {
+        "id": "topic_Photonic Crystals and Applications",
+        "name": "Photonic Crystals and Applications",
+        "column": 0,
+        "value": 110
+      },
+      {
+        "id": "topic_Photonic Crystal and Fiber Optics",
+        "name": "Photonic Crystal and Fiber Optics",
+        "column": 0,
+        "value": 87
+      },
+      {
+        "id": "topic_Optical Network Technologies",
+        "name": "Optical Network Technologies",
+        "column": 0,
+        "value": 71
+      },
+      {
+        "id": "topic_Metamaterials and Metasurfaces Applications",
+        "name": "Metamaterials and Metasurfaces Applications",
+        "column": 0,
+        "value": 47
+      },
+      {
+        "id": "topic_Strong Light-Matter Interactions",
+        "name": "Strong Light-Matter Interactions",
+        "column": 0,
+        "value": 40
+      },
+      {
+        "id": "topic_Plasmonic and Surface Plasmon Research",
+        "name": "Plasmonic and Surface Plasmon Research",
+        "column": 0,
+        "value": 32
+      },
+      {
+        "id": "topic_Advanced Fiber Laser Technologies",
+        "name": "Advanced Fiber Laser Technologies",
+        "column": 0,
+        "value": 28
+      },
+      {
+        "id": "topic_Other Research",
+        "name": "Other Research",
+        "column": 0,
+        "value": 65
+      },
+      {
+        "id": "rtic_Industry 4.0",
+        "name": "Industry 4.0",
+        "column": 1,
+        "value": 4
+      },
+      {
+        "id": "rtic_Microelectronics",
+        "name": "Microelectronics",
+        "column": 1,
+        "value": 3
+      },
+      {
+        "id": "rtic_Optics",
+        "name": "Optics",
+        "column": 1,
+        "value": 2
+      },
+      {
+        "id": "rtic_Photovoltaics",
+        "name": "Photovoltaics",
+        "column": 1,
+        "value": 1
+      },
+      {
+        "id": "rtic_Quantum Tech",
+        "name": "Quantum Tech",
+        "column": 1,
+        "value": 1
+      },
+      {
+        "id": "rtic_Smart Sensors",
+        "name": "Smart Sensors",
+        "column": 1,
+        "value": 2
+      },
+      {
+        "id": "rtic_Telecommunications",
+        "name": "Telecommunications",
+        "column": 1,
+        "value": 3
+      },
+      {
+        "id": "rtic_Adjacent Tech",
+        "name": "Adjacent Tech",
+        "column": 1,
+        "value": 1
+      },
+      {
+        "id": "em_Telecommunications & Data Infrastructure",
+        "name": "Telecommunications & Data Infrastructure",
+        "column": 2,
+        "value": 5
+      },
+      {
+        "id": "em_Defense & Security",
+        "name": "Defense & Security",
+        "column": 2,
+        "value": 4
+      },
+      {
+        "id": "em_Industrial Manufacturing",
+        "name": "Industrial Manufacturing",
+        "column": 2,
+        "value": 3
+      },
+      {
+        "id": "em_Scientific Research & Instrumentation",
+        "name": "Scientific Research & Instrumentation",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Healthcare & Medical Devices",
+        "name": "Healthcare & Medical Devices",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Energy & Environmental Monitoring",
+        "name": "Energy & Environmental Monitoring",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Consumer Electronics",
+        "name": "Consumer Electronics",
+        "column": 2,
+        "value": 1
+      }
+    ],
+    "links": [
+      {
+        "source": "topic_Photonic and Optical Devices",
+        "target": "rtic_Optics",
+        "value": 484.0
+      },
+      {
+        "source": "topic_Photonic Crystals and Applications",
+        "target": "rtic_Optics",
+        "value": 110.0
+      },
+      {
+        "source": "topic_Photonic Crystal and Fiber Optics",
+        "target": "rtic_Optics",
+        "value": 43.5
+      },
+      {
+        "source": "topic_Photonic Crystal and Fiber Optics",
+        "target": "rtic_Telecommunications",
+        "value": 43.5
+      },
+      {
+        "source": "topic_Optical Network Technologies",
+        "target": "rtic_Telecommunications",
+        "value": 71.0
+      },
+      {
+        "source": "topic_Metamaterials and Metasurfaces Applications",
+        "target": "rtic_Optics",
+        "value": 47.0
+      },
+      {
+        "source": "topic_Strong Light-Matter Interactions",
+        "target": "rtic_Quantum Tech",
+        "value": 40.0
+      },
+      {
+        "source": "topic_Plasmonic and Surface Plasmon Research",
+        "target": "rtic_Optics",
+        "value": 32.0
+      },
+      {
+        "source": "topic_Advanced Fiber Laser Technologies",
+        "target": "rtic_Optics",
+        "value": 14.0
+      },
+      {
+        "source": "topic_Advanced Fiber Laser Technologies",
+        "target": "rtic_Telecommunications",
+        "value": 14.0
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Industry 4.0",
+        "value": 16.2
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Microelectronics",
+        "value": 12.2
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Optics",
+        "value": 8.1
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Photovoltaics",
+        "value": 4.1
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Quantum Tech",
+        "value": 4.1
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Smart Sensors",
+        "value": 8.1
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Telecommunications",
+        "value": 12.2
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Defense & Security",
+        "value": 1
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Consumer Electronics",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 3
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Defense & Security",
+        "value": 2
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Industrial Manufacturing",
+        "value": 2
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 2
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Defense & Security",
+        "value": 2
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Industrial Manufacturing",
+        "value": 2
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 1
+      },
+      {
+        "source": "rtic_Photovoltaics",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 1
+      },
+      {
+        "source": "rtic_Adjacent Tech",
+        "target": "em_Defense & Security",
+        "value": 1
+      },
+      {
+        "source": "rtic_Adjacent Tech",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      }
+    ]
+  },
+  "composite_10": {
+    "nodes": [
+      {
+        "id": "topic_Plasmonic and Surface Plasmon Research",
+        "name": "Plasmonic and Surface Plasmon Research",
+        "column": 0,
+        "value": 19
+      },
+      {
+        "id": "topic_Quantum Information and Cryptography",
+        "name": "Quantum Information and Cryptography",
+        "column": 0,
+        "value": 9
+      },
+      {
+        "id": "topic_Photonic and Optical Devices",
+        "name": "Photonic and Optical Devices",
+        "column": 0,
+        "value": 6
+      },
+      {
+        "id": "topic_Photonic Crystals and Applications",
+        "name": "Photonic Crystals and Applications",
+        "column": 0,
+        "value": 5
+      },
+      {
+        "id": "topic_Mechanical and Optical Resonators",
+        "name": "Mechanical and Optical Resonators",
+        "column": 0,
+        "value": 4
+      },
+      {
+        "id": "topic_Orbital Angular Momentum in Optics",
+        "name": "Orbital Angular Momentum in Optics",
+        "column": 0,
+        "value": 3
+      },
+      {
+        "id": "topic_Quantum Mechanics and Applications",
+        "name": "Quantum Mechanics and Applications",
+        "column": 0,
+        "value": 3
+      },
+      {
+        "id": "topic_Advanced Fiber Laser Technologies",
+        "name": "Advanced Fiber Laser Technologies",
+        "column": 0,
+        "value": 3
+      },
+      {
+        "id": "topic_Other Research",
+        "name": "Other Research",
+        "column": 0,
+        "value": 5
+      },
+      {
+        "id": "rtic_Industry 4.0",
+        "name": "Industry 4.0",
+        "column": 1,
+        "value": 1
+      },
+      {
+        "id": "rtic_Optics",
+        "name": "Optics",
+        "column": 1,
+        "value": 3
+      },
+      {
+        "id": "rtic_Quantum Tech",
+        "name": "Quantum Tech",
+        "column": 1,
+        "value": 1
+      },
+      {
+        "id": "rtic_Smart Sensors",
+        "name": "Smart Sensors",
+        "column": 1,
+        "value": 5
+      },
+      {
+        "id": "rtic_Adjacent Tech",
+        "name": "Adjacent Tech",
+        "column": 1,
+        "value": 1
+      },
+      {
+        "id": "em_Healthcare & Medical Devices",
+        "name": "Healthcare & Medical Devices",
+        "column": 2,
+        "value": 3
+      },
+      {
+        "id": "em_Energy & Environmental Monitoring",
+        "name": "Energy & Environmental Monitoring",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Scientific Research & Instrumentation",
+        "name": "Scientific Research & Instrumentation",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Consumer Electronics",
+        "name": "Consumer Electronics",
+        "column": 2,
+        "value": 1
+      },
+      {
+        "id": "em_Space & Aerospace",
+        "name": "Space & Aerospace",
+        "column": 2,
+        "value": 1
+      },
+      {
+        "id": "em_Defense & Security",
+        "name": "Defense & Security",
+        "column": 2,
+        "value": 1
+      },
+      {
+        "id": "em_Automotive & Transportation",
+        "name": "Automotive & Transportation",
+        "column": 2,
+        "value": 1
+      }
+    ],
+    "links": [
+      {
+        "source": "topic_Plasmonic and Surface Plasmon Research",
+        "target": "rtic_Optics",
+        "value": 19.0
+      },
+      {
+        "source": "topic_Quantum Information and Cryptography",
+        "target": "rtic_Quantum Tech",
+        "value": 9.0
+      },
+      {
+        "source": "topic_Photonic and Optical Devices",
+        "target": "rtic_Optics",
+        "value": 6.0
+      },
+      {
+        "source": "topic_Photonic Crystals and Applications",
+        "target": "rtic_Optics",
+        "value": 5.0
+      },
+      {
+        "source": "topic_Mechanical and Optical Resonators",
+        "target": "rtic_Optics",
+        "value": 2.0
+      },
+      {
+        "source": "topic_Mechanical and Optical Resonators",
+        "target": "rtic_Smart Sensors",
+        "value": 2.0
+      },
+      {
+        "source": "topic_Orbital Angular Momentum in Optics",
+        "target": "rtic_Optics",
+        "value": 3.0
+      },
+      {
+        "source": "topic_Quantum Mechanics and Applications",
+        "target": "rtic_Quantum Tech",
+        "value": 3.0
+      },
+      {
+        "source": "topic_Advanced Fiber Laser Technologies",
+        "target": "rtic_Optics",
+        "value": 3.0
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Industry 4.0",
+        "value": 0.5
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Optics",
+        "value": 1.5
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Quantum Tech",
+        "value": 0.5
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Smart Sensors",
+        "value": 2.5
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 2
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 3
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 2
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 1
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 1
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Defense & Security",
+        "value": 1
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Automotive & Transportation",
+        "value": 1
+      },
+      {
+        "source": "rtic_Adjacent Tech",
+        "target": "em_Consumer Electronics",
+        "value": 1
+      },
+      {
+        "source": "rtic_Adjacent Tech",
+        "target": "em_Space & Aerospace",
+        "value": 1
+      }
+    ]
+  },
+  "composite_11": {
+    "nodes": [
+      {
+        "id": "rtic_Industry 4.0",
+        "name": "Industry 4.0",
+        "column": 1,
+        "value": 4
+      },
+      {
+        "id": "rtic_Microelectronics",
+        "name": "Microelectronics",
+        "column": 1,
+        "value": 2
+      },
+      {
+        "id": "rtic_Optics",
+        "name": "Optics",
+        "column": 1,
+        "value": 1
+      },
+      {
+        "id": "rtic_Photovoltaics",
+        "name": "Photovoltaics",
+        "column": 1,
+        "value": 1
+      },
+      {
+        "id": "rtic_Quantum Tech",
+        "name": "Quantum Tech",
+        "column": 1,
+        "value": 1
+      },
+      {
+        "id": "rtic_Smart Sensors",
+        "name": "Smart Sensors",
+        "column": 1,
+        "value": 6
+      },
+      {
+        "id": "rtic_Telecommunications",
+        "name": "Telecommunications",
+        "column": 1,
+        "value": 2
+      },
+      {
+        "id": "rtic_Adjacent Tech",
+        "name": "Adjacent Tech",
+        "column": 1,
+        "value": 4
+      },
+      {
+        "id": "em_Telecommunications & Data Infrastructure",
+        "name": "Telecommunications & Data Infrastructure",
+        "column": 2,
+        "value": 5
+      },
+      {
+        "id": "em_Computing & AI Hardware",
+        "name": "Computing & AI Hardware",
+        "column": 2,
+        "value": 3
+      },
+      {
+        "id": "em_Defense & Security",
+        "name": "Defense & Security",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Space & Aerospace",
+        "name": "Space & Aerospace",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Energy & Environmental Monitoring",
+        "name": "Energy & Environmental Monitoring",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Healthcare & Medical Devices",
+        "name": "Healthcare & Medical Devices",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Marine & Maritime",
+        "name": "Marine & Maritime",
+        "column": 2,
+        "value": 1
+      },
+      {
+        "id": "em_Scientific Research & Instrumentation",
+        "name": "Scientific Research & Instrumentation",
+        "column": 2,
+        "value": 1
+      },
+      {
+        "id": "em_Other Markets",
+        "name": "Other Markets",
+        "column": 2,
+        "value": 2
+      }
+    ],
+    "links": [
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Defense & Security",
+        "value": 2
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Space & Aerospace",
+        "value": 2
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 2
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Defense & Security",
+        "value": 2
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Space & Aerospace",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 2
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 2
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Marine & Maritime",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Computing & AI Hardware",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Space & Aerospace",
+        "value": 1
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Computing & AI Hardware",
+        "value": 1
+      },
+      {
+        "source": "rtic_Photovoltaics",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      },
+      {
+        "source": "rtic_Photovoltaics",
+        "target": "em_Space & Aerospace",
+        "value": 1
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 2
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Energy & Environmental Monitoring",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Other Markets",
+        "value": 2
+      },
+      {
+        "source": "rtic_Adjacent Tech",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      },
+      {
+        "source": "rtic_Adjacent Tech",
+        "target": "em_Computing & AI Hardware",
+        "value": 2
+      },
+      {
+        "source": "rtic_Adjacent Tech",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      }
+    ]
+  },
+  "composite_12": {
+    "nodes": [
+      {
+        "id": "topic_Photonic and Optical Devices",
+        "name": "Photonic and Optical Devices",
+        "column": 0,
+        "value": 115
+      },
+      {
+        "id": "topic_Photonic Crystals and Applications",
+        "name": "Photonic Crystals and Applications",
+        "column": 0,
+        "value": 47
+      },
+      {
+        "id": "topic_Advanced Photonic Communication Systems",
+        "name": "Advanced Photonic Communication Systems",
+        "column": 0,
+        "value": 14
+      },
+      {
+        "id": "topic_Semiconductor Quantum Structures and Devices",
+        "name": "Semiconductor Quantum Structures and Devices",
+        "column": 0,
+        "value": 11
+      },
+      {
+        "id": "topic_Silicon Nanostructures and Photoluminescence",
+        "name": "Silicon Nanostructures and Photoluminescence",
+        "column": 0,
+        "value": 7
+      },
+      {
+        "id": "topic_Semiconductor Lasers and Optical Devices",
+        "name": "Semiconductor Lasers and Optical Devices",
+        "column": 0,
+        "value": 7
+      },
+      {
+        "id": "topic_Quantum Information and Cryptography",
+        "name": "Quantum Information and Cryptography",
+        "column": 0,
+        "value": 7
+      },
+      {
+        "id": "topic_Optical Network Technologies",
+        "name": "Optical Network Technologies",
+        "column": 0,
+        "value": 4
+      },
+      {
+        "id": "topic_Other Research",
+        "name": "Other Research",
+        "column": 0,
+        "value": 25
+      },
+      {
+        "id": "rtic_Industry 4.0",
+        "name": "Industry 4.0",
+        "column": 1,
+        "value": 1
+      },
+      {
+        "id": "rtic_Optics",
+        "name": "Optics",
+        "column": 1,
+        "value": 4
+      },
+      {
+        "id": "rtic_Quantum Tech",
+        "name": "Quantum Tech",
+        "column": 1,
+        "value": 5
+      },
+      {
+        "id": "rtic_Smart Sensors",
+        "name": "Smart Sensors",
+        "column": 1,
+        "value": 1
+      },
+      {
+        "id": "rtic_Adjacent Tech",
+        "name": "Adjacent Tech",
+        "column": 1,
+        "value": 1
+      },
+      {
+        "id": "em_Computing & AI Hardware",
+        "name": "Computing & AI Hardware",
+        "column": 2,
+        "value": 3
+      },
+      {
+        "id": "em_Financial Services & Cybersecurity",
+        "name": "Financial Services & Cybersecurity",
+        "column": 2,
+        "value": 3
+      },
+      {
+        "id": "em_Scientific Research & Instrumentation",
+        "name": "Scientific Research & Instrumentation",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Industrial Manufacturing",
+        "name": "Industrial Manufacturing",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Consumer Electronics",
+        "name": "Consumer Electronics",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Telecommunications & Data Infrastructure",
+        "name": "Telecommunications & Data Infrastructure",
+        "column": 2,
+        "value": 1
+      }
+    ],
+    "links": [
+      {
+        "source": "topic_Photonic and Optical Devices",
+        "target": "rtic_Optics",
+        "value": 115.0
+      },
+      {
+        "source": "topic_Photonic Crystals and Applications",
+        "target": "rtic_Optics",
+        "value": 47.0
+      },
+      {
+        "source": "topic_Advanced Photonic Communication Systems",
+        "target": "rtic_Adjacent Tech",
+        "value": 14.0
+      },
+      {
+        "source": "topic_Semiconductor Quantum Structures and Devices",
+        "target": "rtic_Quantum Tech",
+        "value": 11.0
+      },
+      {
+        "source": "topic_Silicon Nanostructures and Photoluminescence",
+        "target": "rtic_Adjacent Tech",
+        "value": 7.0
+      },
+      {
+        "source": "topic_Semiconductor Lasers and Optical Devices",
+        "target": "rtic_Optics",
+        "value": 7.0
+      },
+      {
+        "source": "topic_Quantum Information and Cryptography",
+        "target": "rtic_Quantum Tech",
+        "value": 7.0
+      },
+      {
+        "source": "topic_Optical Network Technologies",
+        "target": "rtic_Adjacent Tech",
+        "value": 4.0
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Industry 4.0",
+        "value": 2.3
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Optics",
+        "value": 9.1
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Quantum Tech",
+        "value": 11.4
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Smart Sensors",
+        "value": 2.3
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 2
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Computing & AI Hardware",
+        "value": 2
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Financial Services & Cybersecurity",
+        "value": 3
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Industrial Manufacturing",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Consumer Electronics",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 2
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Computing & AI Hardware",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Consumer Electronics",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Industrial Manufacturing",
+        "value": 1
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Consumer Electronics",
+        "value": 1
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Industrial Manufacturing",
+        "value": 1
+      },
+      {
+        "source": "rtic_Adjacent Tech",
+        "target": "em_Computing & AI Hardware",
+        "value": 1
+      }
+    ]
+  },
+  "composite_13": {
+    "nodes": [
+      {
+        "id": "topic_Photonic and Optical Devices",
+        "name": "Photonic and Optical Devices",
+        "column": 0,
+        "value": 55
+      },
+      {
+        "id": "topic_Photonic Crystal and Fiber Optics",
+        "name": "Photonic Crystal and Fiber Optics",
+        "column": 0,
+        "value": 14
+      },
+      {
+        "id": "topic_Photonic Crystals and Applications",
+        "name": "Photonic Crystals and Applications",
+        "column": 0,
+        "value": 14
+      },
+      {
+        "id": "topic_Plasmonic and Surface Plasmon Research",
+        "name": "Plasmonic and Surface Plasmon Research",
+        "column": 0,
+        "value": 11
+      },
+      {
+        "id": "topic_Phase-change materials and chalcogenides",
+        "name": "Phase-change materials and chalcogenides",
+        "column": 0,
+        "value": 9
+      },
+      {
+        "id": "topic_Neural Networks and Reservoir Computing",
+        "name": "Neural Networks and Reservoir Computing",
+        "column": 0,
+        "value": 9
+      },
+      {
+        "id": "topic_Metamaterials and Metasurfaces Applications",
+        "name": "Metamaterials and Metasurfaces Applications",
+        "column": 0,
+        "value": 9
+      },
+      {
+        "id": "topic_Semiconductor Quantum Structures and Devices",
+        "name": "Semiconductor Quantum Structures and Devices",
+        "column": 0,
+        "value": 7
+      },
+      {
+        "id": "topic_Other Research",
+        "name": "Other Research",
+        "column": 0,
+        "value": 42
+      },
+      {
+        "id": "rtic_Industry 4.0",
+        "name": "Industry 4.0",
+        "column": 1,
+        "value": 1
+      },
+      {
+        "id": "rtic_Optics",
+        "name": "Optics",
+        "column": 1,
+        "value": 2
+      },
+      {
+        "id": "rtic_Quantum Tech",
+        "name": "Quantum Tech",
+        "column": 1,
+        "value": 1
+      },
+      {
+        "id": "rtic_Smart Sensors",
+        "name": "Smart Sensors",
+        "column": 1,
+        "value": 4
+      },
+      {
+        "id": "em_Scientific Research & Instrumentation",
+        "name": "Scientific Research & Instrumentation",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Industrial Manufacturing",
+        "name": "Industrial Manufacturing",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Computing & AI Hardware",
+        "name": "Computing & AI Hardware",
+        "column": 2,
+        "value": 1
+      },
+      {
+        "id": "em_Marine & Maritime",
+        "name": "Marine & Maritime",
+        "column": 2,
+        "value": 1
+      },
+      {
+        "id": "em_Automotive & Transportation",
+        "name": "Automotive & Transportation",
+        "column": 2,
+        "value": 1
+      },
+      {
+        "id": "em_Healthcare & Medical Devices",
+        "name": "Healthcare & Medical Devices",
+        "column": 2,
+        "value": 1
+      }
+    ],
+    "links": [
+      {
+        "source": "topic_Photonic and Optical Devices",
+        "target": "rtic_Optics",
+        "value": 55.0
+      },
+      {
+        "source": "topic_Photonic Crystal and Fiber Optics",
+        "target": "rtic_Optics",
+        "value": 14.0
+      },
+      {
+        "source": "topic_Photonic Crystals and Applications",
+        "target": "rtic_Optics",
+        "value": 14.0
+      },
+      {
+        "source": "topic_Plasmonic and Surface Plasmon Research",
+        "target": "rtic_Optics",
+        "value": 11.0
+      },
+      {
+        "source": "topic_Phase-change materials and chalcogenides",
+        "target": "rtic_Optics",
+        "value": 9.0
+      },
+      {
+        "source": "topic_Neural Networks and Reservoir Computing",
+        "target": "rtic_Industry 4.0",
+        "value": 9.0
+      },
+      {
+        "source": "topic_Metamaterials and Metasurfaces Applications",
+        "target": "rtic_Optics",
+        "value": 9.0
+      },
+      {
+        "source": "topic_Semiconductor Quantum Structures and Devices",
+        "target": "rtic_Quantum Tech",
+        "value": 7.0
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Industry 4.0",
+        "value": 5.2
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Optics",
+        "value": 10.5
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Quantum Tech",
+        "value": 5.2
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Smart Sensors",
+        "value": 21.0
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Computing & AI Hardware",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Marine & Maritime",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Industrial Manufacturing",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Automotive & Transportation",
+        "value": 1
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 2
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Industrial Manufacturing",
+        "value": 1
+      },
+      {
+        "source": "rtic_Industry 4.0",
+        "target": "em_Industrial Manufacturing",
+        "value": 1
+      }
+    ]
+  },
+  "composite_14": {
+    "nodes": [
+      {
+        "id": "topic_Photonic Crystals and Applications",
+        "name": "Photonic Crystals and Applications",
+        "column": 0,
+        "value": 7
+      },
+      {
+        "id": "topic_Particle Detector Development and Performance",
+        "name": "Particle Detector Development and Performance",
+        "column": 0,
+        "value": 5
+      },
+      {
+        "id": "topic_Laser Material Processing Techniques",
+        "name": "Laser Material Processing Techniques",
+        "column": 0,
+        "value": 3
+      },
+      {
+        "id": "topic_Advanced Memory and Neural Computing",
+        "name": "Advanced Memory and Neural Computing",
+        "column": 0,
+        "value": 2
+      },
+      {
+        "id": "topic_Nanopore and Nanochannel Transport Studies",
+        "name": "Nanopore and Nanochannel Transport Studies",
+        "column": 0,
+        "value": 2
+      },
+      {
+        "id": "topic_Ocular Surface and Contact Lens",
+        "name": "Ocular Surface and Contact Lens",
+        "column": 0,
+        "value": 2
+      },
+      {
+        "id": "topic_Photonic Crystal and Fiber Optics",
+        "name": "Photonic Crystal and Fiber Optics",
+        "column": 0,
+        "value": 2
+      },
+      {
+        "id": "topic_Advanced Photonic Communication Systems",
+        "name": "Advanced Photonic Communication Systems",
+        "column": 0,
+        "value": 2
+      },
+      {
+        "id": "topic_Other Research",
+        "name": "Other Research",
+        "column": 0,
+        "value": 8
+      },
+      {
+        "id": "rtic_Microelectronics",
+        "name": "Microelectronics",
+        "column": 1,
+        "value": 2
+      },
+      {
+        "id": "rtic_Optics",
+        "name": "Optics",
+        "column": 1,
+        "value": 3
+      },
+      {
+        "id": "rtic_Quantum Tech",
+        "name": "Quantum Tech",
+        "column": 1,
+        "value": 2
+      },
+      {
+        "id": "rtic_Smart Sensors",
+        "name": "Smart Sensors",
+        "column": 1,
+        "value": 2
+      },
+      {
+        "id": "rtic_Telecommunications",
+        "name": "Telecommunications",
+        "column": 1,
+        "value": 2
+      },
+      {
+        "id": "rtic_Adjacent Tech",
+        "name": "Adjacent Tech",
+        "column": 1,
+        "value": 3
+      },
+      {
+        "id": "em_Healthcare & Medical Devices",
+        "name": "Healthcare & Medical Devices",
+        "column": 2,
+        "value": 3
+      },
+      {
+        "id": "em_Computing & AI Hardware",
+        "name": "Computing & AI Hardware",
+        "column": 2,
+        "value": 3
+      },
+      {
+        "id": "em_Industrial Manufacturing",
+        "name": "Industrial Manufacturing",
+        "column": 2,
+        "value": 3
+      },
+      {
+        "id": "em_Consumer Electronics",
+        "name": "Consumer Electronics",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Telecommunications & Data Infrastructure",
+        "name": "Telecommunications & Data Infrastructure",
+        "column": 2,
+        "value": 2
+      },
+      {
+        "id": "em_Financial Services & Cybersecurity",
+        "name": "Financial Services & Cybersecurity",
+        "column": 2,
+        "value": 1
+      },
+      {
+        "id": "em_Scientific Research & Instrumentation",
+        "name": "Scientific Research & Instrumentation",
+        "column": 2,
+        "value": 1
+      }
+    ],
+    "links": [
+      {
+        "source": "topic_Photonic Crystals and Applications",
+        "target": "rtic_Optics",
+        "value": 7.0
+      },
+      {
+        "source": "topic_Particle Detector Development and Performance",
+        "target": "rtic_Smart Sensors",
+        "value": 5.0
+      },
+      {
+        "source": "topic_Laser Material Processing Techniques",
+        "target": "rtic_Adjacent Tech",
+        "value": 3.0
+      },
+      {
+        "source": "topic_Advanced Memory and Neural Computing",
+        "target": "rtic_Microelectronics",
+        "value": 2.0
+      },
+      {
+        "source": "topic_Nanopore and Nanochannel Transport Studies",
+        "target": "rtic_Adjacent Tech",
+        "value": 2.0
+      },
+      {
+        "source": "topic_Ocular Surface and Contact Lens",
+        "target": "rtic_Adjacent Tech",
+        "value": 2.0
+      },
+      {
+        "source": "topic_Photonic Crystal and Fiber Optics",
+        "target": "rtic_Optics",
+        "value": 1.0
+      },
+      {
+        "source": "topic_Photonic Crystal and Fiber Optics",
+        "target": "rtic_Telecommunications",
+        "value": 1.0
+      },
+      {
+        "source": "topic_Advanced Photonic Communication Systems",
+        "target": "rtic_Telecommunications",
+        "value": 2.0
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Microelectronics",
+        "value": 1.5
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Optics",
+        "value": 2.2
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Quantum Tech",
+        "value": 1.5
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Smart Sensors",
+        "value": 1.5
+      },
+      {
+        "source": "topic_Other Research",
+        "target": "rtic_Telecommunications",
+        "value": 1.5
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Consumer Electronics",
+        "value": 1
+      },
+      {
+        "source": "rtic_Quantum Tech",
+        "target": "em_Computing & AI Hardware",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Computing & AI Hardware",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      },
+      {
+        "source": "rtic_Smart Sensors",
+        "target": "em_Scientific Research & Instrumentation",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Consumer Electronics",
+        "value": 1
+      },
+      {
+        "source": "rtic_Microelectronics",
+        "target": "em_Industrial Manufacturing",
+        "value": 1
+      },
+      {
+        "source": "rtic_Telecommunications",
+        "target": "em_Telecommunications & Data Infrastructure",
+        "value": 2
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Industrial Manufacturing",
+        "value": 2
+      },
+      {
+        "source": "rtic_Optics",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      },
+      {
+        "source": "rtic_Adjacent Tech",
+        "target": "em_Healthcare & Medical Devices",
+        "value": 1
+      },
+      {
+        "source": "rtic_Adjacent Tech",
+        "target": "em_Financial Services & Cybersecurity",
+        "value": 1
+      },
+      {
+        "source": "rtic_Adjacent Tech",
+        "target": "em_Computing & AI Hardware",
+        "value": 1
+      }
+    ]
+  }
+}

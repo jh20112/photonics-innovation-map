@@ -70,6 +70,25 @@
           "King's College London",
           "City, University of London",
           "Toshiba (United Kingdom)"
+        ],
+        "institution_names": [
+          "Imperial College London",
+          "University College London",
+          "King's College London",
+          "City, University of London",
+          "Toshiba (United Kingdom)",
+          "National Physical Laboratory",
+          "London Centre for Nanotechnology",
+          "Queen Mary University of London",
+          "Institute of Physics",
+          "Hitachi (United Kingdom)",
+          "New York University",
+          "Yale University",
+          "University of the West of Scotland",
+          "Optica",
+          "Institution of Engineering and Technology",
+          "Natural History Museum",
+          "University of Waterloo"
         ]
       }
     },
@@ -145,6 +164,11 @@
           "University of Cambridge",
           "Microsoft Research (United Kingdom)",
           "Huawei Technologies (United Kingdom)"
+        ],
+        "institution_names": [
+          "University of Cambridge",
+          "Microsoft Research (United Kingdom)",
+          "Huawei Technologies (United Kingdom)"
         ]
       }
     },
@@ -205,6 +229,13 @@
         "total_publications": 624,
         "institution_count": 5,
         "top_institutions": [
+          "University of Oxford",
+          "Rutherford Appleton Laboratory",
+          "Peking University",
+          "Science Oxford",
+          "Faculty (United Kingdom)"
+        ],
+        "institution_names": [
           "University of Oxford",
           "Rutherford Appleton Laboratory",
           "Peking University",
@@ -283,6 +314,17 @@
           "Cardiff University",
           "University of Sydney",
           "Bristol Robotics Laboratory"
+        ],
+        "institution_names": [
+          "University of Bristol",
+          "University of Bath",
+          "Cardiff University",
+          "University of Sydney",
+          "Bristol Robotics Laboratory",
+          "STMicroelectronics (United Kingdom)",
+          "Airbus (United Kingdom)",
+          "University of South Wales",
+          "Malvern Community Hospital"
         ]
       }
     },
@@ -351,6 +393,11 @@
         "total_publications": 517,
         "institution_count": 3,
         "top_institutions": [
+          "University of Sheffield",
+          "University of Leeds",
+          "Sheffield Hallam University"
+        ],
+        "institution_names": [
           "University of Sheffield",
           "University of Leeds",
           "Sheffield Hallam University"
@@ -425,6 +472,11 @@
           "Heriot-Watt University",
           "University of Edinburgh",
           "BT Research"
+        ],
+        "institution_names": [
+          "Heriot-Watt University",
+          "University of Edinburgh",
+          "BT Research"
         ]
       }
     },
@@ -486,6 +538,14 @@
           "Hewlett-Packard (United Kingdom)",
           "Glasgow Caledonian University",
           "Compound Semiconductor Technologies (United Kingdom)"
+        ],
+        "institution_names": [
+          "University of Glasgow",
+          "University of Strathclyde",
+          "Hewlett-Packard (United Kingdom)",
+          "Glasgow Caledonian University",
+          "Compound Semiconductor Technologies (United Kingdom)",
+          "BAE Systems (United Kingdom)"
         ]
       }
     },
@@ -542,6 +602,11 @@
         "total_publications": 157,
         "institution_count": 3,
         "top_institutions": [
+          "Durham University",
+          "Newcastle University",
+          "Northumbria University"
+        ],
+        "institution_names": [
           "Durham University",
           "Newcastle University",
           "Northumbria University"
@@ -609,6 +674,11 @@
         "total_publications": 151,
         "institution_count": 3,
         "top_institutions": [
+          "University of Manchester",
+          "University of Salford",
+          "Foundry (United Kingdom)"
+        ],
+        "institution_names": [
           "University of Manchester",
           "University of Salford",
           "Foundry (United Kingdom)"
@@ -683,6 +753,11 @@
           "University of Southampton",
           "Qinetiq (United Kingdom)",
           "University of Portsmouth"
+        ],
+        "institution_names": [
+          "University of Southampton",
+          "Qinetiq (United Kingdom)",
+          "University of Portsmouth"
         ]
       }
     },
@@ -739,6 +814,9 @@
         "total_publications": 73,
         "institution_count": 1,
         "top_institutions": [
+          "Queen's University Belfast"
+        ],
+        "institution_names": [
           "Queen's University Belfast"
         ]
       }
@@ -807,7 +885,8 @@
         "infra_score": 7.1,
         "total_publications": 0,
         "institution_count": 0,
-        "top_institutions": []
+        "top_institutions": [],
+        "institution_names": []
       }
     },
     {
@@ -867,6 +946,12 @@
         "total_publications": 258,
         "institution_count": 4,
         "top_institutions": [
+          "University of Surrey",
+          "Royal Holloway University of London",
+          "Brunel University of London",
+          "Duke University"
+        ],
+        "institution_names": [
           "University of Surrey",
           "Royal Holloway University of London",
           "Brunel University of London",
@@ -947,6 +1032,12 @@
           "Nottingham Trent University",
           "Loughborough University",
           "University of Leicester"
+        ],
+        "institution_names": [
+          "University of Nottingham",
+          "Nottingham Trent University",
+          "Loughborough University",
+          "University of Leicester"
         ]
       }
     },
@@ -1015,6 +1106,10 @@
         "total_publications": 38,
         "institution_count": 2,
         "top_institutions": [
+          "University of Liverpool",
+          "Materials Technology (United Kingdom)"
+        ],
+        "institution_names": [
           "University of Liverpool",
           "Materials Technology (United Kingdom)"
         ]
