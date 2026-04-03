@@ -74,12 +74,6 @@ const SOURCE_OPTIONS: { value: string; label: string }[] = [
   { value: 'manual', label: 'Manual' },
 ];
 
-const LAYER_CONFIG: { key: LayerType; label: string; color: string }[] = [
-  { key: 'companies', label: 'Companies', color: '#3b82f6' },
-  { key: 'infrastructure', label: 'Infrastructure', color: '#8b5cf6' },
-  { key: 'institutions', label: 'Research Institutions', color: '#10b981' },
-  { key: 'people', label: 'People / Talent', color: '#f97316' },
-];
 
 export function Sidebar({
   layers, onToggleLayer, sectors, selectedSectors, onSectorsChange,
@@ -168,17 +162,12 @@ export function Sidebar({
 
       {/* === LAYERS (default open) === */}
       <SidebarSection title="Layers" defaultOpen>
-        {LAYER_CONFIG.map(({ key, label, color }) => (
-          <label key={key} className="layer-toggle">
-            <input
-              type="checkbox"
-              checked={layers[key]}
-              onChange={() => onToggleLayer(key)}
-            />
-            <span className="layer-dot" style={{ background: color }} />
-            {label}
-          </label>
-        ))}
+        {/* Companies */}
+        <label className="layer-toggle">
+          <input type="checkbox" checked={layers.companies} onChange={() => onToggleLayer('companies')} />
+          <span className="layer-dot" style={{ background: '#3b82f6' }} />
+          Companies
+        </label>
         {layers.companies && (
           <div className="layer-sub-control">
             <label className="size-metric-label">
@@ -220,7 +209,6 @@ export function Sidebar({
                 </div>
               </div>
             )}
-            {/* Patent/Grant threshold sliders */}
             <label className="size-metric-label" style={{ marginTop: 8 }}>
               Min Patents: {minPatents}
               <input
@@ -254,7 +242,19 @@ export function Sidebar({
           </div>
         )}
 
-        {/* Institution controls */}
+        {/* Infrastructure */}
+        <label className="layer-toggle">
+          <input type="checkbox" checked={layers.infrastructure} onChange={() => onToggleLayer('infrastructure')} />
+          <span className="layer-dot" style={{ background: '#8b5cf6' }} />
+          Infrastructure
+        </label>
+
+        {/* Research Institutions */}
+        <label className="layer-toggle">
+          <input type="checkbox" checked={layers.institutions} onChange={() => onToggleLayer('institutions')} />
+          <span className="layer-dot" style={{ background: '#10b981' }} />
+          Research Institutions
+        </label>
         {layers.institutions && (
           <div className="layer-sub-control">
             <label className="size-metric-label">
@@ -270,10 +270,6 @@ export function Sidebar({
                 <option value="fwci">FWCI</option>
               </select>
             </label>
-          </div>
-        )}
-        {layers.institutions && (
-          <div className="layer-sub-control">
             <span className="growth-period-label">
               Publications: {institutionPeriodYears ? `Last ${institutionPeriodYears}yr` : 'All time'}
             </span>
@@ -296,6 +292,13 @@ export function Sidebar({
             </div>
           </div>
         )}
+
+        {/* People / Talent */}
+        <label className="layer-toggle">
+          <input type="checkbox" checked={layers.people} onChange={() => onToggleLayer('people')} />
+          <span className="layer-dot" style={{ background: '#f97316' }} />
+          People / Talent
+        </label>
 
         {/* Year range slider — visible when grants or patents layer is on */}
         {(layers.grants || layers.patents) && (
